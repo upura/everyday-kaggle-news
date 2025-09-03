@@ -14,7 +14,7 @@
 | [Pythonで動かして学ぶ！Kaggleデータ分析入門](https://www.shoeisha.co.jp/book/detail/9784798165233) || 2020 年 10 月 |
 | [Kaggleのチュートリアル第6版](https://www.currypurin.com/tutorial_ver6_support) || 2021 年 12 月 |
 | [Kaggleコンペティション チャレンジブック](https://book.mynavi.jp/ec/products/detail/id=119629) || 2020 年 12 月 |
-| [Approaching (Almost) Any Machine Learning Problem](https://www.amazon.co.jp/-/en/Approaching-Almost-Machine-Learning-Problem/dp/8269211508) || 英語 | 2020 年 6 月 |
+| [Approaching (Almost) Any Machine Learning Problem](https://www.amazon.co.jp/-/en/Approaching-Almost-Machine-Learning-Problem/dp/8269211508) | 英語 | 2020 年 6 月 |
 | [Kaggle Grandmasterに学ぶ 機械学習 実践アプローチ](https://book.mynavi.jp/ec/products/detail/id=123641) | 『Approaching (Almost) Any Machine Learning Problem』の日本語版 | 2021 年 8 月 |
 | [The Kaggle Book: Data analysis and machine learning for competitive data science](https://www.kaggle.com/discussions/general/320574) | 英語 | 2022 年 4 月 |
 | [Kaggleで磨く 機械学習の実践力--実務xコンペが鍛えたプロの手順](https://www.ric.co.jp/book/new-publication/detail/2168) |  | 2022 年 6 月 |
