@@ -11,5 +11,10 @@
 
 - [Kaggle Solutions](https://farid.one/kaggle-solutions/)
 
-## コンペ解法記事
+## コンペ参加録
 
+### 学会コンペ
+
+- [2020年に学会コンペに3つ参加したので感想など](https://myaun.hatenablog.com/entry/2020/12/22/000326)
+- [学会コンペで論文執筆の流れを学んだ話](https://upura.hatenablog.com/entry/kaggle-advent-20241217)
+- [学会コンペ参加してみた](https://qiita.com/ShunsukeKikuchi/items/8f4a431e0a804b3871fe)
