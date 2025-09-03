@@ -1,7 +1,7 @@
 # Everyday Kaggle News
 
 データサイエンスコンペティション「[Kaggle](https://www.kaggle.com/)」に関する非公式リンク集です。
-有志による記事やサービスなどを、用途や話題別にまとめています。
+有志による記事やサービスなども対象に、用途や話題別にまとめています。
 毎週金曜日配信のニューズレター「[Weekly Kaggle News](https://weeklykagglenews.substack.com/)」の関連サイトです。
 競技プログラミングサイト「[AtCoder](https://atcoder.jp/)」における「[AtCoder Clans](https://kato-hiro.github.io/AtCoderClans/)」のような立ち位置を意識しています。
 なお既存の類似サイトとして、日本人 Kaggler コミュニティ「kaggler-ja」による「[Kaggler Ja Wiki](https://kaggler-ja.wiki/)」があります。
