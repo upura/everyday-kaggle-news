@@ -8,13 +8,13 @@ Kaggle 以外にも、コンペプラットフォームはいくつかありま�
 
 | プラットフォーム | 特徴 | 主要な言語 |
 | ------------- | -------- | -------- |
-| [SIGNATE](https://competition-content.signate.jp/home)       | 日本最大のプラットフォーム | 日本語   |
-| [ProbSpace](https://comp.probspace.com/)     |  | 日本語   |
-| [Nishika](https://www.nishika.com/)       |  | 日本語   |
-| [atmaCup](https://www.guruguru.science/) | Kaggle Master による運営 | 日本語   |
-| [Solafune](https://solafune.com/) | 衛星データが対象 | 日本語   |
-| [DrivenData](https://www.drivendata.org/) |    | 英語     |
-| [AIcrowd](https://www.aicrowd.com/) |       | 英語     |
+| [SIGNATE](https://competition-content.signate.jp/home) | 日本最大のプラットフォーム | 日本語 |
+| [ProbSpace](https://comp.probspace.com/) | | 日本語 |
+| [Nishika](https://www.nishika.com/) |  | 日本語 |
+| [atmaCup](https://www.guruguru.science/) | Kaggle Master による運営 | 日本語 |
+| [Solafune](https://solafune.com/) | 衛星データが対象 | 日本語 |
+| [DrivenData](https://www.drivendata.org/) | | 英語 |
+| [AIcrowd](https://www.aicrowd.com/) | | 英語 |
 
 ## コンペの選び方
 

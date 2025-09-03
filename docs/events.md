@@ -18,12 +18,37 @@
 
 ## Kaggle Meetup Tokyo
 
+- [Kaggle Meetup #1](https://kaggler-ja.wiki/5e82184687ef5e0040104d40)
+- [Kaggle Meetup #2](https://kaggler-ja.wiki/5e82190787ef5e0040104d45)
+- [Kaggle Meetup #3](http://yutori-datascience.hatenablog.com/entry/2017/10/29/205433)
+- [Kaggle Meetup #4](http://yutori-datascience.hatenablog.com/entry/2018/05/14/113131)
+    - [YouTube](https://www.youtube.com/playlist?list=PLkBjLQIGEjJlciM9lEz1AsuZZ8lDgyxDu)
+- [Kaggle Meetup #5](https://connpass.com/event/105298/presentation/)
+    - [YouTube](https://www.youtube.com/watch?v=2RydQQDeIGU)
+    - [toggeter](https://togetter.com/li/2265790)
+- [Kaggle Meetup #6](https://connpass.com/event/132935/)
+- [Kaggle Tokyo Meetup 2023](https://connpass.com/event/292810/)
 
 ## 関西 Kaggler 会
 
+https://kansaikaggler.connpass.com/
 
 ## 関東 Kaggler 会
 
+https://kanto-kaggler.connpass.com/
 
 ## Kaggle Days Tokyo 2019
 
+- [YouTube](https://www.youtube.com/watch?v=HTcM03FeLSs&list=PLqFaTIg4myu9eUGzQbNnpyqMvaShB81Tt&ab_channel=Kaggle)
+- [コンペ](https://www.kaggle.com/competitions/kaggle-days-tokyo)
+    - [主催者による開催予告](https://hack.nikkei.com/blog/kaggle_days_tokyo/)
+    - [主催者による開催報告](https://hack.nikkei.com/blog/report_kaggle_days_tokyo)
+- [有志による資料まとめ](https://qiita.com/wakame1367/items/5679b918e9e3917a7ca9)
+
+## 分析コンペLT会
+
+https://kaggle-friends.connpass.com/
+
+## Rist Meetup 2024「Kaggleは業務の役にたつ」
+
+https://connpass.com/event/327246/

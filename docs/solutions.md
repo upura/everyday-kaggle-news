@@ -10,11 +10,20 @@
 ## 有志によるコンペ解法一覧サイト
 
 - [Kaggle Solutions](https://farid.one/kaggle-solutions/)
+- [Kaggle Past Solutions](https://ndres.me/kaggle-past-solutions/)
 
 ## コンペ参加録
+
+### Kaggle Days Championship 2022
+
+- [KaggleDays Championship 2022, Barcelona](https://ho.lc/blog/barcerona_kaggledays_2022/)
 
 ### 学会コンペ
 
 - [2020年に学会コンペに3つ参加したので感想など](https://myaun.hatenablog.com/entry/2020/12/22/000326)
 - [学会コンペで論文執筆の流れを学んだ話](https://upura.hatenablog.com/entry/kaggle-advent-20241217)
 - [学会コンペ参加してみた](https://qiita.com/ShunsukeKikuchi/items/8f4a431e0a804b3871fe)
+
+### 国際・日本人工知能オリンピック
+
+- [IOAI2024 参加記 (onnoboru 視点)](https://onnoboru.hatenablog.com/entry/2024/12/23/000344)

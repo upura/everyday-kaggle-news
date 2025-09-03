@@ -19,6 +19,10 @@
 
 - [Kaggle Notebook Translation Helper](https://www.kaggle.com/discussions/general/364744)
 
+## VS Code 拡張
+
+- [Kaggleコンペ用のVScode拡張を開発した](https://ho.lc/blog/vscode_kaggle_extension/)
+
 ## ニューズレター
 
 - [Weekly Kaggle News](https://weeklykagglenews.substack.com/)
