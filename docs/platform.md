@@ -16,6 +16,10 @@ Kaggle 以外にも、コンペプラットフォームはいくつかありま�
 | [DrivenData](https://www.drivendata.org/) | | 英語 |
 | [AIcrowd](https://www.aicrowd.com/) | | 英語 |
 
+## Kaggle とは？
+
+- [世界最大規模の機械学習コンペティション「Kaggle」に熱中する「Kaggler」と呼ばれる人々とは【デブサミ2018 夏】](https://codezine.jp/article/detail/11066)
+
 ## コンペの選び方
 
 - [Kaggleの「おすすめコンペは何？」への答えを考えた](https://upura.hatenablog.com/entry/2020/07/31/223000)

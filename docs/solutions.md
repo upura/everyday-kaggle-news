@@ -18,6 +18,10 @@
 
 - [KaggleDays Championship 2022, Barcelona](https://ho.lc/blog/barcerona_kaggledays_2022/)
 
+### LLM 20 Questions
+
+- [Kaggle LLM 20 Questionsの解説と上位ソリューションまとめ](https://qiita.com/Isaka-code/items/9b19b588f36c54845aa0)
+
 ### 学会コンペ
 
 - [2020年に学会コンペに3つ参加したので感想など](https://myaun.hatenablog.com/entry/2020/12/22/000326)

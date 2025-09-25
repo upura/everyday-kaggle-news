@@ -6,6 +6,7 @@
 ## 入門者・初学者向け
 
 - 「[Kaggle Learn](https://www.kaggle.com/learn)」
+- [Kaggleのハードルを下げたい！](https://qiita.com/Isaka-code/items/3935cdb2a0bda331e07c)
 
 ## コードコンペティション
 
