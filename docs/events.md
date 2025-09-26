@@ -49,6 +49,10 @@ https://kanto-kaggler.connpass.com/
 
 https://kaggle-friends.connpass.com/
 
-## Rist Meetup 2024「Kaggleは業務の役にたつ」
+## その他
 
-https://connpass.com/event/327246/
+- [Rist Meetup 2024「Kaggleは業務の役にたつ」](https://connpass.com/event/327246/)
+- [上位Kagglerに学ぶ 〜画像コンペの戦い方〜｜振り返り記事](https://recruit.hakuhodo-technologies.co.jp/hadoh/2824/)
+    - [画像コンペでのベースラインモデルの育て方](https://speakerdeck.com/tattaka/hua-xiang-konhetenohesurainmoterunoyu-tefang)
+    - [敗北解法コレクション〜Expertだった頃に足りなかった知識と技術〜](https://speakerdeck.com/nanachi/bai-bei-jie-fa-korekusiyon-expertdatutaqing-nizu-rinakatutazhi-shi-toji-shu)
+    - [画像ディープラーニングコンペの基本](https://speakerdeck.com/junkoda/hua-xiang-deipuraningukonpenoji-ben)

@@ -8,7 +8,7 @@
 
 ## サイト案内
 
-- [入門者・初学者向け](./docs/beginners.md)
+- [入門者・初学者向け](./docs/quickstart.md)
 - [最新情報の確認](./docs/recent.md)
 - [コンペ解法](./docs/solutions.md)
 - [称号振り返り](./docs/milestones.md)
