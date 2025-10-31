@@ -20,6 +20,8 @@
 
 Slack の [kaggler-ja](https://yutori-datascience.hatenablog.com/entry/2017/08/23/143146) ワークスペースや Discord の「[かぐるーど](https://scrapbox.io/kaggle-friends/%E3%81%8B%E3%81%90%E3%82%8B%E3%83%BC%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)」サーバでも、コンペの開催情報が話題になっています。
 
+GitHub Actions で動かせるメール通知の[ツール](https://zenn.dev/shoseisan/articles/f6550f488d30be)を公開している方もいます。
+
 ## Weekly Kaggle News
 
 日本語で、Kaggle をはじめとするコンペに関する話題を取り扱う非公式のニューズレターです（[一覧](https://weeklykagglenews.substack.com/)）。
