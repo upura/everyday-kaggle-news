@@ -26,7 +26,7 @@
     - [YouTube](https://www.youtube.com/playlist?list=PLkBjLQIGEjJlciM9lEz1AsuZZ8lDgyxDu)
 - [Kaggle Meetup #5](https://connpass.com/event/105298/presentation/)
     - [YouTube](https://www.youtube.com/watch?v=2RydQQDeIGU)
-    - [toggeter](https://togetter.com/li/2265790)
+    - [toggeter](https://posfie.com/@upura0/p/96NXDkR)
 - [Kaggle Meetup #6](https://connpass.com/event/132935/)
 - [Kaggle Tokyo Meetup 2023](https://connpass.com/event/292810/)
 
@@ -62,7 +62,7 @@ https://kansaikaggler.connpass.com/
 
 - [第2回 湘南Kaggler会 参加レポート](https://nakakiiro.hateblo.jp/entry/2025/04/14/002500)
 
-## 人工知能オリンピック
+## 国際・日本人工知能オリンピック
 
 - [知識ゼロからのAIオリンピック講座](https://joai-commitee.connpass.com/event/379970/)
 - [第1回日本人工知能オリンピック 講評 & 日本代表解法紹介](https://connpass.com/event/358952/)
