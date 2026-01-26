@@ -17,3 +17,7 @@
 - [サービス・ツール](./docs/service.md)
 - [コンペプラットフォーム](platform.md)
 - [話題別一覧](./docs/materials.md)
+
+## 貢献
+
+Issue や Pull Request を歓迎しています。詳しくは [CONTRIBUTING.md](./CONTRIBUTING.md) をご覧ください。
