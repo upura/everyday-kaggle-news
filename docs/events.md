@@ -15,6 +15,7 @@
 - [2022](https://qiita.com/advent-calendar/2022/kaggle)
 - [2023](https://qiita.com/advent-calendar/2023/kaggle)
 - [2024](https://qiita.com/advent-calendar/2024/kaggle)
+- [2025](https://qiita.com/advent-calendar/2025/kaggle)
 
 ## Kaggle Meetup Tokyo
 
@@ -29,14 +30,6 @@
 - [Kaggle Meetup #6](https://connpass.com/event/132935/)
 - [Kaggle Tokyo Meetup 2023](https://connpass.com/event/292810/)
 
-## 関西 Kaggler 会
-
-https://kansaikaggler.connpass.com/
-
-## 関東 Kaggler 会
-
-https://kanto-kaggler.connpass.com/
-
 ## Kaggle Days Tokyo 2019
 
 - [YouTube](https://www.youtube.com/watch?v=HTcM03FeLSs&list=PLqFaTIg4myu9eUGzQbNnpyqMvaShB81Tt&ab_channel=Kaggle)
@@ -49,6 +42,33 @@ https://kanto-kaggler.connpass.com/
 
 https://kaggle-friends.connpass.com/
 
+## 関東 Kaggler 会
+
+- [第 5 回関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/378154/)
+- [第 4 回 関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/362280/)
+    - [YouTube](https://www.youtube.com/playlist?list=PL_ApLOfkNYwSvETFNijF-OGVthIzbnzZc)
+- [第 3 回 関東Kaggler 会](https://connpass.com/event/341085/)
+    - [YouTube](https://www.youtube.com/playlist?list=PL_ApLOfkNYwQGnyyqDt4h5b-C8mIrLlAP)
+- [第 2 回 関東Kaggler 会](https://kanto-kaggler.connpass.com/event/321748/)
+    - [YouTube](https://www.youtube.com/watch?v=cLxEY1sWLAA&list=PL_ApLOfkNYwSaKTejlOVu97jyareN4ER0&pp=0gcJCbYEOCosWNin)
+- [第 1 回 関東Kaggler 会](https://kanto-kaggler.connpass.com/event/290248/)
+    - [YouTube](https://www.youtube.com/watch?v=Z6Bik7PF8YA&list=PL_ApLOfkNYwQfDkqcvM6BS7nvHRKJYnHL)
+
+## 関西 Kaggler 会
+
+https://kansaikaggler.connpass.com/
+
+## 湘南 Kaggler 会
+
+- [第2回 湘南Kaggler会 参加レポート](https://nakakiiro.hateblo.jp/entry/2025/04/14/002500)
+
+## 人工知能オリンピック
+
+- [知識ゼロからのAIオリンピック講座](https://joai-commitee.connpass.com/event/379970/)
+- [第1回日本人工知能オリンピック 講評 & 日本代表解法紹介](https://connpass.com/event/358952/)
+- [IOAI2025 日本代表派遣報告会](https://joai-commitee.connpass.com/event/369762/)
+- [中高生・高専生時代から始めるAI](https://joai-commitee.connpass.com/event/372826/)
+
 ## その他
 
 - [Rist Meetup 2024「Kaggleは業務の役にたつ」](https://connpass.com/event/327246/)
@@ -56,3 +76,16 @@ https://kaggle-friends.connpass.com/
     - [画像コンペでのベースラインモデルの育て方](https://speakerdeck.com/tattaka/hua-xiang-konhetenohesurainmoterunoyu-tefang)
     - [敗北解法コレクション〜Expertだった頃に足りなかった知識と技術〜](https://speakerdeck.com/nanachi/bai-bei-jie-fa-korekusiyon-expertdatutaqing-nizu-rinakatutazhi-shi-toji-shu)
     - [画像ディープラーニングコンペの基本](https://speakerdeck.com/junkoda/hua-xiang-deipuraningukonpenoji-ben)
+- [データ分析競技 × コード生成AI 勉強会](https://currypurin-dojo.connpass.com/event/363239/)
+- [「RAG-1グランプリ」知見共有会](https://techplay.jp/event/962129)
+- [MCDデータサイエンスチャレンジ2025](https://connpass.com/event/340764/)
+- [AtCoder Heuristic First-step Vol.1](https://atcoder.jp/contests/ahf1)
+- [【賞金1500万/AIを開発するAI】"Kaggle of Kaggle"説明会【Google渋谷】](https://10xai.connpass.com/event/372976/)
+- [Kaggle GMに学ぶ実験管理 ~2025 spring~](https://hakuhodo-technologies.connpass.com/event/343750/)
+- [DeNA Kaggle 振り返り会 Vol.3 - LLM Competitions](https://dena.connpass.com/event/355482/)
+- [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
+- [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
+- [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)
+- [Kaggleグランドマスター直伝！DataRobotでビジネス課題を解くAI実践アプローチ](https://datarobot.connpass.com/event/355399/)
+- [Kaggle Grandmasterが語る - チームコンペで挑んだ日々から得た学び -](https://findy.connpass.com/event/351003)
+- [【オンライン】世界的データ分析コンペKDD Cup入賞者が語るコンペ攻略のコツ ＆ LT大会](https://pydatafukuoka.connpass.com/event/208050/)
