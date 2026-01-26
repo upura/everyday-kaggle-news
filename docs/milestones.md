@@ -58,6 +58,8 @@
 - [「見るべきは称号だけじゃない。そこに至る学びや実力が重要」Kaggle本著者が語るKaggleへの取り組み方](https://estyle.co.jp/media/intermediate/89/)
 - [Walter Reade interview on becoming Kaggle Grandmaster](https://www.youtube.com/watch?v=OoB_LQpgDCk)
 - [Anthony Goldbloom — How to Win Kaggle Competitions](https://www.wandb.com/podcast/anthony-goldbloom)
+- [【R-plus+番外編】Kaggle Grandmaster対談インタビュー（前編）](https://www.rist.co.jp/blog/202408217164/)
+- [【R-plus+番外編】Kaggle Grandmaster対談インタビュー（後編）](https://www.rist.co.jp/blog/202408217166/)
 
 ## 称号分析
 
