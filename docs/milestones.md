@@ -32,19 +32,32 @@
 - [Kaggle Expert になった](https://hayato-iida-0213.medium.com/kaggle-expert-%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F-32953b2100c)
 - [AIプログラミングスクール卒業生の初心者がkaggle Expertになるまでの軌跡(riiidコンペ体験記)](https://programming-school.dream-target.jp/kaggle_expert)
 - [Kaggle の Expertに昇格しました。](https://www.wantedly.com/users/195734156/post_articles/998397)
+- [Kaggle Expert(銅２)は転職で役に立つのか](https://sinchir0.hatenablog.com/entry/2020/12/23/074240)
+- [Kaggle Expertになるまで勉強したことを全て書く](https://qiita.com/Yuki_Kaggler/items/8ffe2ffa6f020e09cfd3)
+- [RでもKaggle Competitions Expertになれる](https://note.com/igjit/n/n0c019db0e7ec)
+
+## Google Developer Expert
+
+- [Google Developer Expert になりました](https://ho.lc/blog/google_developer_expert_kaggle/)
+- [Kaggle Google Developer Expert として 2025 年にやったこと](https://upura.hatenablog.com/entry/kaggle-advent-20251205)
 
 ## インタビュー
 
-- [予測モデルの気持ちで考える―。Kaggle上級者が説く、データ分析で“勝つ”術](https://gaishishukatsu.com/archives/174290)
-- [「面白い」ことが絶対条件。GrandmasterとMasterが指南するKaggleの“勝ち方”と“楽しみ方”](https://qiita.com/official-columns/interview/202204-hitachi/)
+- [予測モデルの気持ちで考える―。Kaggle上級者が説く、データ分析で"勝つ"術](https://gaishishukatsu.com/archives/174290)
+- [「面白い」ことが絶対条件。GrandmasterとMasterが指南するKaggleの"勝ち方"と"楽しみ方"](https://qiita.com/official-columns/interview/202204-hitachi/)
 - [仕事も友達もKaggleで得た―。敏腕データサイエンティストが熱中する、分析で「競う」世界](https://gaishishukatsu.com/archives/171921)
 - [Profiling Top Kagglers: Bestfitting, Currently #1 in the World](https://medium.com/kaggle-blog/profiling-top-kagglers-bestfitting-currently-1-in-the-world-58cc0e187b)
-- [新たに2名がKaggle「Grandmaster」に！GOの“Kaggler”たちの挑戦の日々を振り返る](https://go-on.goinc.jp/n/n163470a9bb45)
+- [新たに2名がKaggle「Grandmaster」に！GOの"Kaggler"たちの挑戦の日々を振り返る](https://go-on.goinc.jp/n/n163470a9bb45)
 - [Kaggleで世界トップレベルになるための思考法。Grandmaster小野寺和樹の頭の中](https://findy-code.io/engineer-lab/kaggle-onodera)
 - [Kaggle「Grandmaster」も在籍！ AI技術者たちの専門性追求を後押しするGOの自己研鑽カルチャー](https://go-on.goinc.jp/n/n2d2900d98332)
 - [Kaggleってやっぱり楽しいね！ Kaggle本の著者がその面白さや取り組み方を語った特別対談](https://codezine.jp/article/detail/13156)
 - [インタビュー記事:社内kaggle Expertのメダルまでの取り組み](https://www.acceluniverse.com/blog/developers/2019/11/kaggle-expert.html)
 - [kagglerを訪ねて三千里](https://www.youtube.com/watch?v=PsX-PnzBzWo&list=PLkBjLQIGEjJl2KzBv9mg0YIGgNDMsgsQe)
+- [SB IntuitionsにKaggle Grandmasterが誕生！Deep Researchチームの奥山が語るAIと競技、そして次の挑戦](https://note.com/sb_intuitions/n/nf9b9f1c96591)
+- [How This NVIDIA Kaggle Grandmaster Merges Innovation and Play (ONODERA)](https://blogs.nvidia.com/blog/nvidia-life-kazuki-onodera/)
+- [「見るべきは称号だけじゃない。そこに至る学びや実力が重要」Kaggle本著者が語るKaggleへの取り組み方](https://estyle.co.jp/media/intermediate/89/)
+- [Walter Reade interview on becoming Kaggle Grandmaster](https://www.youtube.com/watch?v=OoB_LQpgDCk)
+- [Anthony Goldbloom — How to Win Kaggle Competitions](https://www.wandb.com/podcast/anthony-goldbloom)
 
 ## 称号分析
 
