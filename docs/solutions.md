@@ -348,7 +348,7 @@
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Jigsaw - Agile Community Rules Classificationのまとめ](https://takaito0423.hatenablog.com/entry/2025/12/29/000232)
-- [Kaggle | Jigsawコンペ振り返りメモ](https://zenn.dev/hasibirok0/articles/adb47c6df37ca6)
+- [Kaggle - Jigsawコンペ振り返りメモ](https://zenn.dev/hasibirok0/articles/adb47c6df37ca6)
 
 </div>
 
@@ -603,7 +603,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
 
 - [BirdCLEF2024：鳥コンペ振り返り](https://qiita.com/butsuyaki-kmn/items/e945691001c962a8726e)
-- [BirdCLEF 2024に挑戦| Kaggleチャレンジ記録](https://tech.aru-zakki.com/kaggle-birdclef-2024-challenge-report/)
+- [BirdCLEF 2024に挑戦 - Kaggleチャレンジ記録](https://tech.aru-zakki.com/kaggle-birdclef-2024-challenge-report/)
 
 </div>
 
