@@ -183,7 +183,7 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming">Red‑Teaming Challenge - gpt-oss-20b competition</a></h3>
+<h3><a href="https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming">Red‑Teaming Challenge - OpenAI gpt-oss-20b</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [【受賞手法解説】OpenAI主催のセキュリティコンペで発見した脆弱性について解説](https://note.com/lively_phlox2856/n/n8dd8a9940b96)
@@ -393,7 +393,7 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use">Child Mind Institute - Problematic Internet Use</a></h3>
+<h3><a href="https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use">Child Mind Institute — Problematic Internet Use</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [【参加録】Child Mind Institute — Problematic Internet Use](https://www.nogawanogawa.com/entry/cmi_2)
@@ -442,7 +442,7 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="text" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/competitions/kaggle-llm-science-exam">Kaggle - LLM Science Exam</a></h3>
+<h3><a href="https://www.kaggle.com/competitions/kaggle-llm-science-exam">LLM Science Exam</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [【DeNATechCon2024】新卒がソロでatmaCup 優勝&Kaggle 金メダル獲得した時の取り組み](https://www.docswell.com/s/DeNA_Tech/538W4D-2024-02-29-092204)
@@ -544,7 +544,7 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/competitions/otto-recommender-system">OTTO - Multi-Objective Recommender System</a></h3>
+<h3><a href="https://www.kaggle.com/competitions/otto-recommender-system">OTTO – Multi-Objective Recommender System</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [【Kaggle】OTTOコンペ参加記(22th/2587th)🥈](https://zenn.dev/zerebom/articles/91910acb0d9b93)
@@ -612,10 +612,10 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2025" data-datatype="tabular" data-platform="atmacup">
-<h3><a href="https://www.guruguru.science/competitions/30/">#22 CA × atmaCup 3rd</a></h3>
+<h3><a href="https://www.guruguru.science/competitions/30/">#22 CA x atmaCup 3rd :||</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
-- [#22 CA × atmaCup 3rd 1st Place Solution](https://speakerdeck.com/yumizu/number-22-ca-x-atmacup-3rd-1st-place-solution)
+- [#22 CA x atmaCup 3rd :|| 1st Place Solution](https://speakerdeck.com/yumizu/number-22-ca-x-atmacup-3rd-1st-place-solution)
 - [atmaCup#22 振り返り](https://zenn.dev/dalab/articles/85e77d0ea8ed55)
 - [atmaCup22で使用された手法まとめ](https://qiita.com/making111/items/cb20ebffe2238c9a2226)
 
@@ -630,20 +630,20 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="atmacup">
-<h3><a href="https://www.guruguru.science/competitions/25/">Turing × atmaCup #18</a></h3>
+<h3><a href="https://www.guruguru.science/competitions/25/">#18 Turing × atmaCup</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">atmaCup</span>
 
-- [Turing × atmaCup #18 - 1st Place Solution](https://speakerdeck.com/hakubishin3/turing-x-atmacup-number-18-1st-place-solution)
+- [#18 Turing × atmaCup - 1st Place Solution](https://speakerdeck.com/hakubishin3/turing-x-atmacup-number-18-1st-place-solution)
 - [atmaCup #18 参戦記（Public7位→Private17位）](https://zenn.dev/dalab/articles/2148b5616a9304)
 - [atmaCup#18を復習する](https://zenn.dev/dalab/articles/ba97d8a17c61a8)
 
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="atmacup">
-<h3><a href="https://atma.connpass.com/event/301535/">atmaCup #16</a></h3>
+<h3><a href="https://atma.connpass.com/event/301535/">atmaCup #16 in collaboration with RECRUIT</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
-- [atmaCup #16 Winning Solution](https://www.guruguru.science/competitions/22/discussions/815241a7-0a00-4700-a456-5eed40a3ff9b/)
+- [atmaCup #16 in collaboration with RECRUIT Winning Solution](https://www.guruguru.science/competitions/22/discussions/815241a7-0a00-4700-a456-5eed40a3ff9b/)
 
 </div>
 
