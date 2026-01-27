@@ -20,4 +20,4 @@
 
 ## 貢献
 
-Issue や Pull Request を歓迎しています。詳しくは [CONTRIBUTING.md](./CONTRIBUTING.md) をご覧ください。
+Issue や Pull Request を歓迎しています。詳しくは [CONTRIBUTING.md](https://github.com/upura/everyday-kaggle-news/blob/main/CONTRIBUTING.md) をご覧ください。
