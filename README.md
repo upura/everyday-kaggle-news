@@ -15,7 +15,7 @@
 - [書籍](./docs/books.md)
 - [イベント](./docs/events.md)
 - [サービス・ツール](./docs/service.md)
-- [コンペプラットフォーム](platform.md)
+- [コンペプラットフォーム](./docs/platform.md)
 - [話題別一覧](./docs/materials.md)
 
 ## 貢献
