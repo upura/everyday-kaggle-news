@@ -57,7 +57,7 @@
 - [vLLMを利用したLLM推論高速化テクニック](https://acro-engineer.hatenablog.com/entry/2024/12/24/120000)
 - [DeepSeek-R1の論文読んだ？](https://zenn.dev/asap/articles/34237ad87f8511)
 - [ModernBERT のブログを読んでみた感想](https://zenn.dev/dev_commune/articles/3f5ab431abdea1)
-- [RAG開発の超入門【RaggleのQuickStart | Pythonのソースコードあり】](https://zenn.dev/galirage/articles/raggle_quickstart)
+- [RAG開発の超入門【RaggleのQuickStart Pythonのソースコードあり】](https://zenn.dev/galirage/articles/raggle_quickstart)
 - [【第3回】関東Kaggler会「NLPの変遷とNLPコンペの最新事情 〜進化する技術と変化する戦い方〜」](https://speakerdeck.com/takaito/di-3hui-guan-dong-kagglerhui-nlpnobian-qian-tonlpkonpenozui-xin-shi-qing-jin-hua-suruji-shu-tobian-hua-suruzhan-ifang)
 - [言語処理100本ノック 2025](https://nlp100.github.io/2025/ja/index.html)
 - [2023-24年（上期）のKaggleコンペから学ぶ、NLPコンペの精度の上げ方](https://zenn.dev/nishimoto/articles/974f2a445f9d74)
