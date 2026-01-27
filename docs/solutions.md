@@ -161,7 +161,7 @@
 
 <div id="competition-list">
 
-<div class="competition-entry" data-year="2022" data-datatype="other" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="other" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/kaggle-days-championship">Kaggle Days Championship 2022</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -173,7 +173,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/llm-20-questions">LLM 20 Questions</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -181,7 +181,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2023" data-datatype="timeseries" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="timeseries" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction">Parkinson's Freezing of Gait Prediction</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -189,7 +189,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim">LEAP - Atmospheric Physics using AI (ClimSim)</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -197,7 +197,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="image" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/image-matching-challenge-2025">Image Matching Challenge 2025</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -209,7 +209,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes">NBME - Score Clinical Patient Notes</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -217,7 +217,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating">Jigsaw Rate Severity of Toxic Comments</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -225,7 +225,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2023" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/kaggle-llm-science-exam">Kaggle - LLM Science Exam</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -233,7 +233,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics">Eedi - Mining Misconceptions in Mathematics</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -246,7 +246,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="timeseries" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="timeseries" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/ariel-data-challenge-2024">NeurIPS - Ariel Data Challenge 2024</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -254,7 +254,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="timeseries" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="timeseries" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/ariel-data-challenge-2025">NeurIPS - Ariel Data Challenge 2025</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -262,7 +262,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="tabular" data-platform="atmacup">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="tabular" data-platform="atmacup">
 <h3><a href="https://www.guruguru.science/competitions/27">atmaCup #20 in collaboration with Udemy</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
@@ -270,7 +270,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming">Red‑Teaming Challenge - gpt-oss-20b competition</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -278,7 +278,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/make-data-count-finding-data-references">Make Data Count - Finding Data References</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -286,7 +286,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="timeseries" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="timeseries" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves">G2Net Detecting Continuous Gravitational Waves</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -294,7 +294,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2020" data-datatype="other" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="other" data-platform="other">
 <h3>学会コンペ</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">その他</span>
 
@@ -305,7 +305,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="other" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="other" data-platform="other">
 <h3>国際・日本人工知能オリンピック</h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">その他</span>
 
@@ -316,7 +316,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction">NFL Big Data Bowl 2026 - Prediction</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -324,7 +324,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2021" data-datatype="video" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="video" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/MABe-mouse-behavior-detection">MABe Challenge - Social Action Recognition in Mice</a></h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Video</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -332,7 +332,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="tabular" data-platform="atmacup">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="tabular" data-platform="atmacup">
 <h3><a href="https://www.guruguru.science/competitions/30/">#22 CA × atmaCup 3rd</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
@@ -342,7 +342,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/jigsaw-agile-community-rules/">Jigsaw - Agile Community Rules Classification</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -351,7 +351,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="3d" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="3d" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/stanford-rna-3d-folding">Stanford RNA 3D Folding</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -359,7 +359,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025">NeurIPS - Open Polymer Prediction 2025</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -367,7 +367,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2023" data-datatype="3d" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="3d" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection">RSNA Intracranial Aneurysm Detection</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -375,7 +375,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings">MAP - Charting Student Math Misunderstandings</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -383,7 +383,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="tabular" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="other">
 <h3><a href="https://www.recsyschallenge.com/">RecSys Challenge</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
 
@@ -394,7 +394,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2020" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/c/jigsaw-multilingual-toxic-comment-classification">Jigsaw Multilingual Toxic Comment Classification</a></h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -403,7 +403,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2020" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/c/tweet-sentiment-extraction">Tweet Sentiment Extraction</a></h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -413,7 +413,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2020" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/c/lish-moa">Mechanisms of Action (MoA) Prediction</a></h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -421,7 +421,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/">U.S. Patent Phrase to Phrase Matching</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -429,7 +429,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/amex-default-prediction">American Express - Default Prediction</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -438,7 +438,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="audio" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="audio" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/birdclef-2025">BirdCLEF+ 2025</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -447,7 +447,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="multimodal" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="multimodal" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/drawing-with-llms">Drawing with LLMs</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Multimodal</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -456,7 +456,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2">AI Mathematical Olympiad - Progress Prize 2</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -464,7 +464,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions">CIBMTR - Equity in post-HCT Survival Predictions</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -475,7 +475,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/">UM - Game-Playing Strength of MCTS Variants</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -485,7 +485,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="other" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="other" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/lux-ai-season-3">NeurIPS 2024 - Lux AI Season 3</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -493,7 +493,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="3d" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="3d" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/czii-cryo-et-object-identification">CZII - CryoET Object Identification</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -503,7 +503,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="other" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="other" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/santa-2024">Santa 2024 - The Perplexity Permutation Puzzle</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -513,7 +513,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena">WSDM Cup - Multilingual Chatbot Arena</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -521,7 +521,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="image" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification">RSNA 2024 Lumbar Spine Degenerative Classification</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -530,7 +530,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="tabular" data-platform="atmacup">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="atmacup">
 <h3><a href="https://www.guruguru.science/competitions/26/">#19 atmaCup</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
@@ -538,7 +538,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="image" data-platform="atmacup">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="atmacup">
 <h3><a href="https://www.guruguru.science/competitions/25/">Turing × atmaCup #18</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">atmaCup</span>
 
@@ -548,7 +548,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="tabular" data-platform="atmacup">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="atmacup">
 <h3><a href="https://atma.connpass.com/event/301535/">atmaCup #16</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
@@ -556,7 +556,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use">Child Mind Institute - Problematic Internet Use</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -564,7 +564,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="timeseries" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="timeseries" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data">CMI - Detect Behavior with Sensor Data</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -572,7 +572,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/march-machine-learning-mania-2025">March Machine Learning Mania 2025</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -580,7 +580,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2025" data-datatype="timeseries" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="timeseries" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/waveform-inversion">Yale/UNC-CH - Geophysical Waveform Inversion</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -588,7 +588,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2023" data-datatype="image" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature">HuBMAP - Hacking the Human Vasculature</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -597,7 +597,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="audio" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="audio" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/birdclef-2024">BirdCLEF 2024</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -606,7 +606,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data">The Learning Agency Lab - PII Data Detection</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -614,7 +614,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2">Learning Agency Lab - Automated Essay Scoring 2.0</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -622,7 +622,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize">AI Mathematical Olympiad - Progress Prize 1</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -630,7 +630,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2023" data-datatype="text" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/">CommonLit - Evaluate Student Summaries</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -638,7 +638,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2023" data-datatype="image" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/benetech-making-graphs-accessible">Benetech - Making Graphs Accessible</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -646,7 +646,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2023" data-datatype="video" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="video" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/nfl-player-contact-detection">1st and Future - Player Contact Detection</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Video</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -654,7 +654,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/otto-recommender-system">OTTO - Multi-Objective Recommender System</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -663,7 +663,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations">H&M Personalized Fashion Recommendations</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -671,7 +671,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction">JPX Tokyo Stock Exchange Prediction</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -679,7 +679,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2021" data-datatype="tabular" data-platform="atmacup">
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="atmacup">
 <h3>atmaCup</h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
@@ -688,7 +688,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2021" data-datatype="text" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="text" data-platform="other">
 <h3>AI王 〜クイズAI日本一決定戦〜</h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">その他</span>
 
@@ -697,7 +697,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2022" data-datatype="image" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="image" data-platform="other">
 <h3>全国医療AIコンテスト</h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">その他</span>
 
@@ -707,7 +707,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2020" data-datatype="tabular" data-platform="signate">
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="signate">
 <h3>SIGNATE</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">SIGNATE</span>
 
@@ -719,7 +719,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2023" data-datatype="tabular" data-platform="nishika">
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="tabular" data-platform="nishika">
 <h3>Nishika</h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Nishika</span>
 
@@ -729,7 +729,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="text" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="other">
 <h3>RAG-1グランプリ</h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">その他</span>
 
@@ -738,7 +738,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="other" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="other" data-platform="other">
 <h3><a href="https://solafune.com/">Solafune</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">その他</span>
 
@@ -746,7 +746,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2020" data-datatype="tabular" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="other">
 <h3>ProbSpace</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
 
@@ -754,7 +754,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="image" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="other">
 <h3>眼科AI学会</h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">その他</span>
 
@@ -763,7 +763,7 @@
 
 </div>
 
-<div class="competition-entry" data-year="2024" data-datatype="image" data-platform="other">
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="other">
 <h3>その他</h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">その他</span>
 
