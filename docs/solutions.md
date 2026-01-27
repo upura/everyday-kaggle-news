@@ -9,6 +9,7 @@
 
 ## 有志によるコンペ解法一覧サイト
 
+- [Kaggle Solution Search](https://compsearch.dev/)
 - [Kaggle Solutions](https://farid.one/kaggle-solutions/)
 - [Kaggle Past Solutions](https://ndres.me/kaggle-past-solutions/)
 

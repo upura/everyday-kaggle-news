@@ -26,7 +26,3 @@
 ## ニューズレター
 
 - [Weekly Kaggle News](https://weeklykagglenews.substack.com/)
-
-## 解法検索サイト
-
-- [Kaggle Solution Search](https://compsearch.dev/)
