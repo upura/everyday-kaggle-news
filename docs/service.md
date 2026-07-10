@@ -23,6 +23,10 @@
 
 - [Kaggleコンペ用のVScode拡張を開発した](https://ho.lc/blog/vscode-kaggle-extension)
 
+## コーディングエージェント向けプラグイン
+
+- [NVIDIA Kaggle Plugin](https://github.com/NVIDIA/nvidia-kaggle): Kaggle の公開解法を収集するためのプラグイン。
+
 ## ニューズレター
 
 - [Weekly Kaggle News](https://weeklykagglenews.substack.com/)

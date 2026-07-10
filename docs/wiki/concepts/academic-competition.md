@@ -11,6 +11,7 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 ## 資料
 
 - [データ分析 学会コンペは"何か"の役に立つ](https://speakerdeck.com/mujirushi/guan-xi-kagglerhui-2025-1-mujirushi)
+- [国際音声AIコンペ総合第1位：URGENT Challenge優勝モデルの技術解説](https://zenn.dev/softbank/articles/bf95e2e274cf97): 音声復元を扱う国際チャレンジの優勝解法の技術解説。
 
 ## 関連概念
 

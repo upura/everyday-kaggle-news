@@ -27,6 +27,7 @@
 | [目指せメダリスト！Kaggle実験管理術](https://www.shoeisha.co.jp/book/detail/9784798187457) | | 2025 年 3 月 |
 | [Kaggleではじめる大規模言語モデル入門](https://www.kodansha.co.jp/book/products/0000420398) | | 2026 年 1 月 |
 | [The Kaggle Book: 2nd Edition](https://www.amazon.com/dp/B0FDFXR8N9) | 英語 | 2025 年 12 月 |
+| [Kaggleのチュートリアル第7版](https://www.amazon.co.jp/dp/B0H71K7BSS) | 『Kaggleのチュートリアル第6版』の改訂版 | 2026 年 7 月 |
 
 ## Kaggle 関連書籍に関する記事
 

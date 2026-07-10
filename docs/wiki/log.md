@@ -2,6 +2,11 @@
 
 LLM Wiki としての操作履歴です(新しいものが上)。
 
+- 2026-07-10 ingest: WKN #339 → 新規 3 件(solutions.md「Kaggle 公式」/ concepts/nlp-llm, mindset)
+- 2026-07-10 ingest: WKN #340 → 新規 2 件(solutions.md / events.md)。学生コンペの開催告知 1 件は時限性のためスキップ
+- 2026-07-10 ingest: WKN #341 → 新規 1 件(concepts/nlp-llm)。ハッカソン支援・コンペ開催の告知 2 件は時限性のためスキップ
+- 2026-07-10 ingest: WKN #342 → 新規 8 件(solutions.md / books.md / events.md / quickstart.md / service.md / concepts: competition-hosting, audio, academic-competition, mindset, ai-agent)。TabFM は既掲載のためスキップ
+
 - 2026-07-10 restructure: 概念ページ getting-started を quickstart.md(入門者・初学者向けガイド)に統合し削除(定番資料を「定番資料」セクションとして移設)。Q&A(Query ページの資産化機構)を廃止し、materials.md・CLAUDE.md・query / lint スキルから関連記述を除去
 
 - 2026-07-10 restructure: materials.md の目次を単一の話題分類に統合(「用途別一覧」セクションを解消し、一覧ページ 8 本を「学び方」「情報収集・コミュニティ」「データ種別・タスク」の各見出しに配置)。README 冒頭に Kaggler Ja Wiki と比べた特徴(LLM Wiki 運用、Weekly Kaggle News がソース、PR レビューでの反映)を追記し、サイト案内を目次中心に一本化

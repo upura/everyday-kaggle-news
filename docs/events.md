@@ -44,6 +44,7 @@ https://kaggle-friends.connpass.com/
 
 ## 関東 Kaggler 会
 
+- [第 6 回 関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/397753/)
 - [第 5 回関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/378154/)
 - [第 4 回 関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/362280/)
     - [YouTube](https://www.youtube.com/playlist?list=PL_ApLOfkNYwSvETFNijF-OGVthIzbnzZc)
@@ -58,6 +59,8 @@ https://kaggle-friends.connpass.com/
 
 https://kansaikaggler.connpass.com/
 
+- [関西Kaggler会 交流会 in Osaka 2026#2](https://kansaikaggler.connpass.com/event/398749/)
+
 ## 湘南 Kaggler 会
 
 - [第2回 湘南Kaggler会 参加レポート](https://nakakiiro.hateblo.jp/entry/2025/04/14/002500)
@@ -71,6 +74,7 @@ https://kansaikaggler.connpass.com/
 
 ## その他
 
+- [Kaggler の海外経験を聞く会 #1](https://kaggler-international.connpass.com/event/397666/)
 - [Rist Meetup 2024「Kaggleは業務の役にたつ」](https://connpass.com/event/327246/)
 - [上位Kagglerに学ぶ 〜画像コンペの戦い方〜｜振り返り記事](https://recruit.hakuhodo-technologies.co.jp/hadoh/2824/)
     - [画像コンペでのベースラインモデルの育て方](https://speakerdeck.com/tattaka/hua-xiang-konhetenohesurainmoterunoyu-tefang)

@@ -6,6 +6,7 @@
 
 - Discussion: Kaggle コンペごとに、参加者が投稿した解法が Discussion で閲覧できます。順位表の「Solution」から個別の投稿に遷移できます。
 - [YouTube](https://www.youtube.com/kaggle): 定期的に解法動画が公開されています。
+- [DOIs for Competition and Project Writeups](https://www.kaggle.com/discussions/product-announcements/705158): 個別の解法(Writeup)に DOI を付与できます。論文などからの引用に利用できます。
 
 ## 有志によるコンペ解法一覧サイト
 
@@ -133,6 +134,7 @@
       <label>開催年</label>
       <select id="filter-year">
         <option value="">すべて</option>
+        <option value="2026">2026</option>
         <option value="2025">2025</option>
         <option value="2024">2024</option>
         <option value="2023">2023</option>
@@ -161,6 +163,23 @@
 </div>
 
 <div id="competition-list">
+
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="audio" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/birdclef-2026">BirdCLEF+ 2026</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
+
+- [【Kaggle】BirdCLEF+ 2026 参加記録(🥈31位)](https://zenn.dev/dalab/articles/7ea7584b75af39): 毎年恒例の鳥の鳴き声認識コンペの銀メダル解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge">NVIDIA Nemotron Model Reasoning Challenge</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggleコンペ紹介：NVIDIA Nemotron Model Reasoning Challenge](https://zenn.dev/mkj/articles/3a4d70ac4e8fb4): LLM「Nemotron-3-Nano-30B」の推論性能改善に取り組むコンペの金メダル解法。
+- [振り返り動画(NVIDIA 所属 Kaggle Grandmaster)](https://www.youtube.com/watch?v=hJ_blKSJbU4)
+
+</div>
 
 <div class="competition-entry" markdown="1" data-year="2025" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/image-matching-challenge-2025">Image Matching Challenge 2025</a></h3>

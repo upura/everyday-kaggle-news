@@ -2,12 +2,12 @@
 
 データサイエンスコンペティション「[Kaggle](https://www.kaggle.com/)」に関する非公式リンク集です。
 有志による記事やサービスなども対象に、用途や話題別にまとめています。
-毎週金曜日配信のニューズレター「[Weekly Kaggle News](https://weeklykagglenews.substack.com/)」の関連サイトです。
+
+本サイトの特徴は、LLM Wiki として運用している点です。
+[u++](https://www.kaggle.com/sishihara) が選定する毎週金曜日配信のニューズレター「[Weekly Kaggle News](https://weeklykagglenews.substack.com/)」の紹介リンクをもとに、LLM が話題ごとの知見の統合と相互リンクを維持し、最新情報の反映前には Pull Request のレビューを通じて確認しています。
+
 競技プログラミングサイト「[AtCoder](https://atcoder.jp/)」における「[AtCoder Clans](https://kato-hiro.github.io/AtCoderClans/)」のような立ち位置を意識しています。
 なお既存の類似サイトとして、日本人 Kaggler コミュニティ「kaggler-ja」による「[Kaggler Ja Wiki](https://kaggler-ja.wiki/)」があります。
-
-Kaggler Ja Wiki と比べた本サイトの特徴は、LLM Wiki として運用している点です。
-[u++](https://www.kaggle.com/sishihara) が選定を続けるニューズレター「Weekly Kaggle News」の紹介リンクをもとに、LLM が話題ごとの知見の統合と相互リンクを維持し、最新情報の反映前には Pull Request のレビューを通じて確認しています。
 
 ## サイト案内
 

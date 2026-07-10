@@ -12,6 +12,8 @@
 
 ## 資料
 
+- [Kaggleは「キャリアの選択肢の拡大」に役立つ ーコンペで得た学びが、実務・教育・研究・執筆へと広がるまで](https://thinkit.co.jp/article/39307): コンペで得た学びが実務・教育・研究・執筆に広がった経験を綴った連載記事。
+- [Kaggleは「キャリア」に役立つ ー機械屋がデータサイエンティスト、R&Dというキャリアに至った道筋](https://thinkit.co.jp/article/39248): Kaggle での研鑽がデータサイエンス活用のキャリアに繋がった事例(連載第 2 回)。
 - [20250322_Monkey Conference Party 2025_プログラミングコンテストのススメ](https://www.docswell.com/s/tm8619/ZN182E-2025-03-22-142419)
 - [I trained a model. What is next?](https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26)
 - [実例で示すKaggleコンペと開発実務の差](https://www.docswell.com/s/kaeru_nantoka/Z8G8EW-2024-03-22-142237)
