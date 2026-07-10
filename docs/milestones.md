@@ -38,7 +38,7 @@
 
 ## Google Developer Expert
 
-- [Google Developer Expert になりました](https://ho.lc/blog/google_developer_expert_kaggle/)
+- [Google Developer Expert になりました](https://ho.lc/blog/google-developer-expert-kaggle)
 - [Kaggle Google Developer Expert として 2025 年にやったこと](https://upura.hatenablog.com/entry/kaggle-advent-20251205)
 
 ## インタビュー

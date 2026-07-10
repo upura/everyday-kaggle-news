@@ -1,0 +1,25 @@
+# 音声・音響コンペ
+
+音声・音響のコンペ(BirdCLEF、DCASE など)は、波形をメルスペクトログラムに変換して画像認識モデルを適用するのが定跡です。
+異常音検知や音声認識など、タスクごとに設定の癖が強いのも特徴です。
+
+## 押さえどころ
+
+- 定番パイプライン: 波形 → メルスペクトログラム → 画像認識モデル。[画像認識コンペ](./image-recognition.md)の知見(バックボーン選択・データ拡張)がそのまま活きる
+- 異常音検知(DCASE Task 2 系)は「学習データは正常音のみ」の教師なし設定で、オートエンコーダ系のベースラインすら超えにくい難タスク([DCASE 2020 Task 2 の解説](https://qiita.com/daisukelab/items/b106c567cf8927a5519a))
+- 音声認識は ESPnet Model Zoo などの学習済みモデルを数行のコードで利用できる
+- 音声を扱うマルチモーダル LLM の潮流は[自然言語処理・LLM コンペ](./nlp-llm.md)とも接続する
+
+## 資料
+
+- [機械音の異常検知チャレンジ DCASE 2020 Task 2](https://qiita.com/daisukelab/items/b106c567cf8927a5519a): 教師なし異常音検知タスクのデータセット分析と複数ベースラインの実験記録。コードも公開されている。
+- [ESPnet による音声認識入門 ～ESPnet Model Zoo 編～](https://note.com/retrieva/n/nd04d38377f1b): 学習済みモデルをダウンロードして数行で音声認識を動かす入門記事。
+- [湘南kaggler会 音声認識で使うのってメルス・・・なんだっけ？](https://speakerdeck.com/sugupoko/20250413-xiang-nan-kagglerhui-yin-sheng-ren-shi-deshi-unotutemerusunandatuke)
+- [Deep Learning (for Audio) with Python](https://www.youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf)
+- [音学シンポジウム 2025 チュートリアル 「マルチモーダル大規模言語モデル入門」](https://github.com/ryota-komatsu/slp2025)
+
+網羅的な一覧は[話題別一覧の「音声認識」](../../materials.md#音声認識)を参照。
+
+## 関連概念
+
+- [画像認識コンペ](./image-recognition.md) / [自然言語処理・LLM コンペ](./nlp-llm.md)

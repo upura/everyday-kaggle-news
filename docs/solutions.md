@@ -494,7 +494,7 @@
 <h3><a href="https://www.kaggle.com/competitions/kaggle-days-championship">Kaggle Days Championship 2022</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
-- [KaggleDays Championship 2022, Barcelona](https://ho.lc/blog/barcerona-kaggledays-2022/)
+- [KaggleDays Championship 2022, Barcelona](https://ho.lc/blog/barcerona-kaggledays-2022)
 - [Kaggle Days World Championshipで優勝した話](https://tech-blog.abeja.asia/entry/kaggledays-champion-202211)
 - [Kaggle Days Championship Final 2022 参加報告](https://speakerdeck.com/dena_tech/kaggledays-championship-final-2022)
 - [Kaggle Days Championship @ Barcelona に参加しました](https://en-jp.wantedly.com/companies/wantedly/post_articles/448102)

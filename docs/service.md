@@ -21,7 +21,7 @@
 
 ## VS Code 拡張
 
-- [Kaggleコンペ用のVScode拡張を開発した](https://ho.lc/blog/vscode_kaggle_extension/)
+- [Kaggleコンペ用のVScode拡張を開発した](https://ho.lc/blog/vscode-kaggle-extension)
 
 ## ニューズレター
 

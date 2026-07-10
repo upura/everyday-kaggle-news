@@ -17,6 +17,7 @@
 - [サービス・ツール](./docs/service.md)
 - [コンペプラットフォーム](./docs/platform.md)
 - [話題別一覧](./docs/materials.md)
+- [話題別 Wiki](./docs/wiki/index.md)
 
 ## 貢献
 

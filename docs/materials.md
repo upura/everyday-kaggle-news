@@ -2,6 +2,7 @@
 
 本ページでは、Kaggle に関する記事などの情報を掲載します。
 「[コンペ解法](./solutions.md)」「[イベント](./events.md)」「[書籍](./books.md)」など特定の話題については、別ページに切り出しています。
+主要な話題は、複数の資料を横断して知見をまとめた「[話題別 Wiki](./wiki/index.md)」の概念ページからも参照できます。
 
 ## Kaggle 入門者・初学者向け
 
@@ -20,6 +21,8 @@
 
 ## 表
 
+概念ページ: [表データコンペ](./wiki/concepts/tabular.md)
+
 - [The Kaggle Grandmasters Playbook: 7 Battle-Tested Modeling Techniques for Tabular Data](https://developer.nvidia.com/blog/the-kaggle-grandmasters-playbook-7-battle-tested-modeling-techniques-for-tabular-data/)
 - [pandasでよくやる操作、Polarsでどうやるの？（Polars: 1.12.0）](https://docs.google.com/presentation/d/1wTOMTL7TreqE4uTyp0msCxhCDqmMRD4MmB10idZs5xA/edit)
 - [Polars を Kaggle コンペで使ってみた(LMSYS Chatbot Arena)](https://speakerdeck.com/kohecchi/polars-wo-kaggle-konpedeshi-tutemita-lmsys-chatbot-arena-bcc79d2a-baba-421e-835c-3ddb2e4049f6)
@@ -27,8 +30,11 @@
 - [プロダクトのコードをpandasからPolarsへ書き換えた話](https://speakerdeck.com/yudai00/purodakutonokodowopandaskarapolarsheshu-kihuan-etahua)
 - [polars 1.1.0以降の使える新機能](https://speakerdeck.com/ghibney/polars-1-dot-1-0yi-jiang-noshi-eruxin-ji-neng)
 - [Pytorch LightningでTabM学習・予測](https://qiita.com/gnbrganchan/items/b9009f87f4e85b50442e)
+- [Introducing TabFM: A zero-shot foundation model for tabular data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/): Google Research による表データ向け基盤モデルの紹介。特徴量設計やチューニングなしのゼロショットで分類・回帰の予測を生成する。
 
 ## 画像認識
+
+概念ページ: [画像認識コンペ](./wiki/concepts/image-recognition.md)
 
 - [Kaggleスコアアップセミナー～画像系コンペ入門[前編]（2023/08/02）](https://www.docswell.com/s/fixstars/KLLVPL-20230802)
 - [Kaggleスコアアップセミナー～画像系コンペ入門[後編]（2023/09/26）](https://www.docswell.com/s/fixstars/5DE9RG-20230926)
@@ -50,6 +56,8 @@
 
 ## 自然言語処理
 
+概念ページ: [自然言語処理・LLM コンペ](./wiki/concepts/nlp-llm.md)
+
 - [Kaggleで学んだBERTをfine-tuningする際のTips②〜精度改善編〜](https://www.ai-shift.co.jp/techblog/2145)
 - [Kaggle自然言語処理コンペ向けローカルLLM活用入門](https://speakerdeck.com/k951286/kagglezi-ran-yan-yu-chu-li-konpexiang-kerokarullmhuo-yong-ru-men)
 - [プロンプトエンジニアリングの手法、Kaggleでの使われ方 まとめ](https://speakerdeck.com/sinchir0/puronputoenziniaringunoshou-fa-kaggledenoshi-warefang-matome)
@@ -64,6 +72,8 @@
 
 ## 時系列予測
 
+概念ページ: [時系列予測コンペ](./wiki/concepts/time-series.md)
+
 - [第3会 関東Kaggler会_マーケット予測コンペの問題設計と取り組み方](https://www.docswell.com/s/8980249862/KR2YD1-KantoKaggler3rd_MarketCompetition)
 - [Polarsで始める時系列データ処理 #atmaCup 19 振り返り会 LT枠](https://speakerdeck.com/koheiiwamasa/polarsdeshi-merushi-xi-lie-detachu-li-number-atmacup-19-zhen-rifan-rihui-ltwaku)
 - [異なる時系列間でもGBDTの予測結果をロバストに 〜WarpGBMとDirectional Era-Splitting〜](https://zenn.dev/nishimoto/articles/ee40c5f9edda7c)
@@ -72,6 +82,8 @@
 
 ## 音声認識
 
+概念ページ: [音声・音響コンペ](./wiki/concepts/audio.md)
+
 - [Deep Learning (for Audio) with Python](https://www.youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf)
 - [機械音の異常検知チャレンジ DCASE 2020 Task 2](https://qiita.com/daisukelab/items/b106c567cf8927a5519a)
 - [ESPnet による音声認識入門 ～ESPnet Model Zoo 編～](https://note.com/retrieva/n/nd04d38377f1b)
@@ -79,6 +91,8 @@
 - [音学シンポジウム 2025 チュートリアル 「マルチモーダル大規模言語モデル入門」](https://github.com/ryota-komatsu/slp2025)
 
 ## 数理最適化
+
+概念ページ: [数理最適化・ヒューリスティック](./wiki/concepts/optimization.md)
 
 - [Kaggleスコアアップセミナー～数理最適化コンテスト Santa 編（2023/06/02）](https://www.docswell.com/s/fixstars/ZVV6JL-20230602)
 - [AtCoder Heuristic First-step Vol.1 講義スライド](https://speakerdeck.com/terryu16/atcoder-heuristic-first-step-vol-dot-1-jiang-yi-suraido)
@@ -94,7 +108,9 @@
 
 ## コードコンペティション
 
-- [効率的なコードコンペティションの作業フロー](https://ho.lc/blog/kaggle_code_submission/)
+概念ページ: [コードコンペティション](./wiki/concepts/code-competition.md)
+
+- [効率的なコードコンペティションの作業フロー](https://ho.lc/blog/kaggle-code-submission)
 - [code competition も楽したい KaggleOps](https://osushinekotan.hatenablog.com/entry/2025/12/06/072458)
 
 ## 心構え
@@ -106,6 +122,8 @@
 - [From Beginner to World Champion: What 10,000 hours on Kaggle taught me](https://www.linkedin.com/pulse/from-beginner-world-champion-what-10000-hours-kaggle-taught-henkel-w6tpf/)
 
 ## 実験管理
+
+概念ページ: [実験管理](./wiki/concepts/experiment-management.md)
 
 - [kaggle_pipeline](https://github.com/phalanx-hk/kaggle_template)
 - [Kaggle Competitions Expertが振り返る、データ分析コンペ初心者が入賞するために必要なこと](https://codezine.jp/article/detail/21110)
@@ -124,16 +142,20 @@
 
 ## AI エージェント
 
+概念ページ: [AI エージェント活用](./wiki/concepts/ai-agent.md)
+
 - [Kaggle過去コンペ上位解法をAIエージェントでレポートする](https://speakerdeck.com/kuto5046/kaggleguo-qu-konpeshang-wei-jie-fa-woaiezientoderepotosuru)
 - [Claude Code と Kaggle をやったら何も考えずに上位30%になれた話](https://zenn.dev/genda_jp/articles/20250909_kaggle_with_claude_code)
 - [JunoBench: Crashes in Python ML Jupyter Notebooks](https://arxiv.org/abs/2510.18013v1)
 
 ## 性能評価・検証
 
+概念ページ: [性能評価・検証](./wiki/concepts/evaluation-validation.md)
+
 - [機械学習の落とし穴 リーク問題について](https://tech-blog.abeja.asia/entry/advent-2023-day15)
 - ["良い"データセット構築を考える](https://speakerdeck.com/kentaroy47/detasetutogou-zhu-nituite)
 - [Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation](https://arxiv.org/abs/2505.00612)
-- [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle_benchmark/)
+- [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark)
 
 ## 学会コンペ
 
