@@ -22,7 +22,6 @@
 - `docs/materials.md` — サイト全体の目次(入口)。話題ごとの見出しの下に Wiki ページと一覧ページを混在させて案内する。概念ページの新設・改名時に目次行を追記・修正する
 - `docs/wiki/log.md` — 操作ログ(新しいものを上に追記)
 - `docs/wiki/concepts/*.md` — 概念ページ(話題ごとの統合知識と資料の全リスト)
-- `docs/wiki/queries/*.md` — Q&A ページ(質問と回答の資産化)
 - `docs/` 直下の一覧ページ 8 本: quickstart / recent / solutions / milestones / books / events / service / platform
   - エントリ追記・注釈付与は通常のオペレーションとして実施
   - 見出し・ページの分割統合などの構成変更も可能だが、8 ページの役割分担(分類)とエントリ形式は保ち、構成変更は log.md に `restructure` として記録する
@@ -86,8 +85,7 @@
 
 ### Query(`/query <質問>`)
 
-1. `docs/wiki/` と既存一覧ページを根拠に回答(根拠ページへのリンクを付ける)
-2. 再利用価値のある回答は `docs/wiki/queries/<kebab-case>.md` に保存し、materials.md の「Q&A」一覧と log を更新
+1. `docs/wiki/` と既存一覧ページを根拠に回答(根拠ページへのリンクを付ける)。リポジトリ内に根拠が無い部分は「本リンク集には未掲載」と明示する
 
 ### Lint(`/lint`)
 
@@ -95,7 +93,7 @@
 2. URL 重複検出(全ページ横断)
 3. solutions.md の div / badge 形式検査
 4. 相対リンク切れ・孤立概念ページ検出
-5. materials.md の目次と `docs/wiki/concepts/`・`docs/wiki/queries/` の実ファイルの同期確認
+5. materials.md の目次と `docs/wiki/concepts/` の実ファイルの同期確認
 6. 検出結果を報告。修正は管理者の確認後に行う
 
 ## 権利面の規約

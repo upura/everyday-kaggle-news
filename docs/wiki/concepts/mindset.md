@@ -20,4 +20,4 @@
 
 ## 関連概念
 
-- [入門者向け](./getting-started.md) / [称号振り返り・インタビュー](../../milestones.md)
+- [入門者・初学者向けガイド](../../quickstart.md) / [称号振り返り・インタビュー](../../milestones.md)

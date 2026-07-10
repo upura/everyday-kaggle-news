@@ -39,7 +39,7 @@ curl -s -o /dev/null -w "%{http_code}" -I -L --max-time 10 -A "Mozilla/5.0" "<UR
 
 ### 5. 目次の同期
 
-`docs/materials.md` の目次・「Q&A」一覧と `docs/wiki/concepts/`・`docs/wiki/queries/` の実ファイルが一致するか。
+`docs/materials.md` の目次と `docs/wiki/concepts/` の実ファイルが一致するか。
 
 ## 報告形式
 

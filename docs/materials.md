@@ -5,8 +5,7 @@
 
 ## 学び方
 
-- [入門者・初学者向けガイド](./quickstart.md): Kaggle の概要と始め方
-- [入門者向け](./wiki/concepts/getting-started.md): まず読む・見る定番資料
+- [入門者・初学者向けガイド](./quickstart.md): Kaggle の概要と始め方、まず読む・見る定番資料
 - [心構え](./wiki/concepts/mindset.md): コンペとの向き合い方・学び方・実務との関係
 - [書籍](./books.md): Kaggle 関連書籍の一覧
 - [称号振り返り・インタビュー](./milestones.md): 称号到達の振り返り記事とインタビュー
@@ -43,10 +42,6 @@
 
 - [学会コンペ](./wiki/concepts/academic-competition.md): 学会・研究コミュニティが主催するコンペ
 - [コンペ開催](./wiki/concepts/competition-hosting.md): コンペを開く側の知見・開催報告
-
-## Q&A
-
-質問と回答を資産化した Query ページの一覧です。まだありません。
 
 ## 運用
 
