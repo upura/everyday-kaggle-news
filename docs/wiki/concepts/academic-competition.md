@@ -14,6 +14,8 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [国際音声AIコンペ総合第1位：URGENT Challenge優勝モデルの技術解説](https://zenn.dev/softbank/articles/bf95e2e274cf97): 音声復元を扱う国際チャレンジの優勝解法の技術解説。
 - [【MICCAI Challenge 2024】COSAS: 臓器もスキャナーも違う画像でがんの境界を描けるか？腺がんセグチャレンジ読み解き](https://zenn.dev/sugupoko/articles/7ae03c02c84feb): 医用画像の国際チャレンジの概要と上位解法のまとめ。
 - [LLM-jp FT-LLMコンペに直球ど真ん中ストレートを投げ込んだ(つもりの)話](https://zenn.dev/mkj/articles/ftllm_20260323): NLP2026 のワークショップとして開催された LLM チューニングコンペの取り組み紹介。
+- [企画委員会だより〔第8回〕「学ぶ場」としてのコンペティションを考える](https://www.jstage.jst.go.jp/article/jjsai/41/2/41_234/_article/-char/ja/): 人工知能学会誌への寄稿。「学ぶ場」としてのコンペの意義を論じる。
+- [都市における人間移動予測の最前線 SIGSPATIAL Cup 2025 上位解法の紹介](https://speakerdeck.com/mujirushi/du-shi-niokeruren-jian-yi-dong-yu-ce-nozui-qian-xian-sigspatial-cup-2025-shang-wei-jie-fa-noshao-jie): 人間の移動予測を扱う ACM SIGSPATIAL 併設コンペの上位解法紹介。
 
 ## 関連概念
 

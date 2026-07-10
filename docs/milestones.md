@@ -44,6 +44,8 @@
 ## インタビュー
 
 - [Kaggleで培った「ベースライン構築力」を実務の武器に。 機械学習エンジニアに聞く、「好奇心」をコンパスにするキャリア論](https://tenshoku.mynavi.jp/engineer/guide/articles/t0026): Kaggle での経験が実務でどう役立つかを語るインタビュー。
+- [「ミッションクリティカル業務」に最先端のAI技術を根づかせる 株式会社ABEJAが見据える自律型AIエージェントの現在地](https://www.meti.go.jp/policy/mono_info_service/geniac/geniac_magazine/keyperson_6.html): Kaggle Grandmaster 服部響さんのインタビュー。Kaggle での挑戦がもたらす学びを語る。
+- [From Aerospace Dreams to NASA Challenge Winner: Motoki Kimura](https://www.topcoder.com/blog/from-aerospace-dreams-to-nasa-challenge-winner-motoki-kimura): Topcoder「NASA Crater Detection Challenge」優勝者のインタビュー。
 - [予測モデルの気持ちで考える―。Kaggle上級者が説く、データ分析で"勝つ"術](https://gaishishukatsu.com/archives/174290)
 - [「面白い」ことが絶対条件。GrandmasterとMasterが指南するKaggleの"勝ち方"と"楽しみ方"](https://qiita.com/official-columns/interview/202204-hitachi/)
 - [仕事も友達もKaggleで得た―。敏腕データサイエンティストが熱中する、分析で「競う」世界](https://gaishishukatsu.com/archives/171921)

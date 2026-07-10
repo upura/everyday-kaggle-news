@@ -12,6 +12,7 @@
 
 ## 資料
 
+- [Kaggleで鍛えたスキルの実務での活かし方　競技とプロダクト開発のリアル](https://speakerdeck.com/recruitengineers/kagglededuan-etasukirunoshi-wu-denohuo-kasifang-jing-ji-topurodakutokai-fa-noriaru): Kaggle Grandmaster と Master による、コンペの学びを実務で活かした事例の発表資料。
 - [Kaggleは「○○」に役立つ](https://thinkit.co.jp/corner/12611): Kaggle の様々な役割を紐解く連載企画の一覧ページ。
 - [Kaggle未経験社員をメダリストに育てる「AIドラゴン桜」](https://speakerdeck.com/lycorptech_jp/20260526c): LINE ヤフーによる Kaggle を用いたリスキリングの取り組みと成果の発表資料。
 - [Kaggleは「キャリアの選択肢の拡大」に役立つ ーコンペで得た学びが、実務・教育・研究・執筆へと広がるまで](https://thinkit.co.jp/article/39307): コンペで得た学びが実務・教育・研究・執筆に広がった経験を綴った連載記事。

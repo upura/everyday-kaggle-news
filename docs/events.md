@@ -93,6 +93,7 @@ https://kansaikaggler.connpass.com/
 - [AtCoder Heuristic First-step Vol.1](https://atcoder.jp/contests/ahf1)
 - [【賞金1500万/AIを開発するAI】"Kaggle of Kaggle"説明会【Google渋谷】](https://10xai.connpass.com/event/372976/)
 - [Kaggle GMに学ぶ実験管理 ~2025 spring~](https://hakuhodo-technologies.connpass.com/event/343750/)
+- [DeNA × AI Talks #6 - 生成AI時代のKaggleの戦い方 上位解法とAI活用術](https://dena.connpass.com/event/382039/)
 - [DeNA Kaggle 振り返り会 Vol.3 - LLM Competitions](https://dena.connpass.com/event/355482/)
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)

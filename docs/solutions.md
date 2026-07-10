@@ -169,6 +169,7 @@
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggleの火山コンペで12位、金メダルを獲得しました](https://blog.recruit.co.jp/data/articles/kaggle_vesvius/): 3 次元 X 線スキャンからインクを検出し巻物の中身を読み取るコンペの金メダル解法。
+- [kaggle Vesuvius Challenge - Surface Detection速報まとめ](https://speakerdeck.com/sugupoko/vesuvius2-combined): 18 位解法と上位解法の解説を含む速報まとめ。
 
 </div>
 
