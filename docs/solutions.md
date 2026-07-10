@@ -164,6 +164,23 @@
 
 <div id="competition-list">
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="atmacup">
+<h3><a href="https://www.guruguru.science/competitions/31">Turing × atmaCup 2nd(atmaCup #23)</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">atmaCup</span>
+
+- [Turing x atmaCup #23 2nd Place Solution](https://speakerdeck.com/k951286/atmacup23-2nd-place-dot-pptx): 車載カメラ画像から位置(緯度経度)を推定するコンペの 2 位解法。
+- [atmaCup #23でAIコーディングを活用した話](https://speakerdeck.com/ml_bear/atmacup-number-23deaikodeinguwohuo-yong-sitahua): AI コーディングを駆使した 3 位解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="other" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/santa-2025">Santa 2025 - Christmas Tree Packing Challenge</a></h3>
+<span class="badge badge-year">2025</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
+
+- [サンタコンペ2025完全攻略 ～お前らの焼きなましは遅すぎる～](https://speakerdeck.com/terryu16/santakonpe2025wan-quan-gong-lue-oqian-ranoshao-kinamasihachi-sugiru): 初期解の構築と巨大近傍焼きなましに焦点を当てた 2 位解法。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="3d" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection">Vesuvius Challenge - Surface Detection</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
@@ -178,6 +195,7 @@
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Claude Code / CodexでKaggle金メダルを取った話](https://zenn.dev/chiman/articles/b233cc808d6af3): 生成 AI を用いた開発方法と役割分担を詳述する金メダル解法。
+- [草コンペ振り返り](https://speakerdeck.com/chihironakayama/cao-konhezhen-rifan-ri): 牧草画像から飼料の量を予測するコンペの 5 位解法。
 
 </div>
 
@@ -281,6 +299,7 @@
 
 - [第5会 関東kaggler会 NFLコンペ 2026 解法紹介](https://speakerdeck.com/ohkawa3/di-5hui-guan-dong-kagglerhui-nflkonpe-2026-jie-fa-shao-jie)
 - [NFLコンペ2026 解法](https://speakerdeck.com/lycorptech_jp/20260526b): ボールが空中にある間の選手の動きを予測するコンペの金メダル解法。
+- [初めてプロジェクト起因で参加したkaggle - NFL2026 ふりかえり -](https://www.docswell.com/s/DeNA_Tech/5DWYXG-2026-02-25-152109): 5 位解法。生成 AI の活用事例も含む振り返り。
 
 </div>
 
@@ -652,6 +671,7 @@
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Video</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggleコンペティション「MABe Challenge」振り返り](https://speakerdeck.com/yu4u/kagglekonpeteisiyon-mabe-challenge-social-action-recognition-in-mice-zhen-rifan-ri)
+- [MABe Challenge振り返りと Cursorを使った実験の回し方](https://www.docswell.com/s/DeNA_Tech/Z8W439-2026-02-25-154748): 2 位解法。Cursor を使った実験の回し方も紹介。
 
 </div>
 
