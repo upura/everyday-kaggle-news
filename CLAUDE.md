@@ -8,23 +8,24 @@
 | 層 | 対応 | 管理者 |
 | --- | --- | --- |
 | Raw sources | 外部 URL(記事・スライド・動画・論文)。リポジトリには保存しない | 人間が投入 |
-| Wiki | `docs/wiki/` 配下の概念ページ・Query ページ・log、`docs/materials.md` の目次、既存一覧ページのリンク注釈 | LLM |
+| Wiki | `docs/` 配下の全ページ(目次・概念ページ・Query ページ・一覧ページ・log) | LLM |
 | Schema | `CLAUDE.md` と `.claude/skills/`(ingest / query / lint) | 人間 |
 
 ## ページ種別と管理境界
 
-### 人間が管理(構成の変更は管理者判断)
+### 人間が管理(変更は管理者判断)
 
 - `README.md` / `CONTRIBUTING.md` / `LICENSE`
-- `docs/` 直下の一覧ページ 8 本: quickstart / recent / solutions / milestones / books / events / service / platform
 
 ### LLM が管理(オペレーションを通じて更新)
 
-- `docs/materials.md` — 話題の目次(概念ページのカタログ)。概念ページの新設・改名時に目次行を追記・修正する。見出し構成の変更は管理者判断
+- `docs/materials.md` — サイト全体の目次(入口)。話題別 Wiki のカタログと用途別一覧ページの案内。概念ページの新設・改名時に目次行を追記・修正する
 - `docs/wiki/log.md` — 操作ログ(新しいものを上に追記)
 - `docs/wiki/concepts/*.md` — 概念ページ(話題ごとの統合知識と資料の全リスト)
 - `docs/wiki/queries/*.md` — Q&A ページ(質問と回答の資産化)
-- 既存一覧ページへのエントリ追記・注釈付与(ページ構成自体は変えない)
+- `docs/` 直下の用途別一覧ページ 8 本: quickstart / recent / solutions / milestones / books / events / service / platform
+  - エントリ追記・注釈付与は通常のオペレーションとして実施
+  - 見出し・ページの分割統合などの構成変更も可能だが、8 ページの役割分担(分類)とエントリ形式は保ち、構成変更は log.md に `restructure` として記録する
 
 ## エントリ形式
 

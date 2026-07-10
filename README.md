@@ -8,15 +8,10 @@
 
 ## サイト案内
 
-- [入門者・初学者向け](./docs/quickstart.md)
-- [最新情報の確認](./docs/recent.md)
-- [コンペ解法](./docs/solutions.md)
-- [称号振り返り](./docs/milestones.md)
-- [書籍](./docs/books.md)
-- [イベント](./docs/events.md)
-- [サービス・ツール](./docs/service.md)
-- [コンペプラットフォーム](./docs/platform.md)
-- [話題別一覧](./docs/materials.md)
+入口は「**[目次](./docs/materials.md)**」です。話題ごとの Wiki ページと、用途別の一覧ページに案内します。
+
+- 話題別 Wiki(18 話題): [表データ](./docs/wiki/concepts/tabular.md)、[画像認識](./docs/wiki/concepts/image-recognition.md)、[自然言語処理](./docs/wiki/concepts/nlp-llm.md)、[実験管理](./docs/wiki/concepts/experiment-management.md) など。各話題の概説・押さえどころ・資料一覧をまとめています
+- 用途別一覧(8 ページ): [入門者・初学者向け](./docs/quickstart.md) / [最新情報の確認](./docs/recent.md) / [コンペ解法](./docs/solutions.md) / [称号振り返り](./docs/milestones.md) / [書籍](./docs/books.md) / [イベント](./docs/events.md) / [サービス・ツール](./docs/service.md) / [コンペプラットフォーム](./docs/platform.md)
 
 ## 更新フロー
 
