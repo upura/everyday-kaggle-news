@@ -164,6 +164,22 @@
 
 <div id="competition-list">
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="3d" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection">Vesuvius Challenge - Surface Detection</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggleの火山コンペで12位、金メダルを獲得しました](https://blog.recruit.co.jp/data/articles/kaggle_vesvius/): 3 次元 X 線スキャンからインクを検出し巻物の中身を読み取るコンペの金メダル解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/csiro-biomass">CSIRO - Image2Biomass Prediction</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Claude Code / CodexでKaggle金メダルを取った話](https://zenn.dev/chiman/articles/b233cc808d6af3): 生成 AI を用いた開発方法と役割分担を詳述する金メダル解法。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="multimodal" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/med-gemma-impact-challenge">The MedGemma Impact Challenge</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Multimodal</span> <span class="badge badge-platform">Kaggle</span>
@@ -289,6 +305,7 @@
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [NeurIPS - Open Polymer Prediction 2025 反省会](https://speakerdeck.com/calpis10000/kaggle-neurips-open-polymer-prediction-2025-konpe-fan-sheng-hui)
+- [NeurIPS Polymer 2025 上位解法の追試してみた話](https://zenn.dev/amana/articles/neurips-polymer-2025): 優勝解法の再現をコード付きで試みる記事。
 
 </div>
 
