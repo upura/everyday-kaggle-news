@@ -164,6 +164,14 @@
 
 <div id="competition-list">
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/physionet-ecg-image-digitization">PhysioNet - Digitization of ECG Images</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [kaggle PhysioNetコンペ　上位解法まとめ](https://zenn.dev/yume_neko/articles/54304df1bcb17d): 心電図画像から時系列データを抽出するコンペの上位解法まとめ。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="atmacup">
 <h3><a href="https://www.guruguru.science/competitions/31">Turing × atmaCup 2nd(atmaCup #23)</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">atmaCup</span>
@@ -196,6 +204,7 @@
 
 - [Claude Code / CodexでKaggle金メダルを取った話](https://zenn.dev/chiman/articles/b233cc808d6af3): 生成 AI を用いた開発方法と役割分担を詳述する金メダル解法。
 - [草コンペ振り返り](https://speakerdeck.com/chihironakayama/cao-konhezhen-rifan-ri): 牧草画像から飼料の量を予測するコンペの 5 位解法。
+- [Kaggle 草コンペ振り返り & 上位解法まとめ | CSIRO - Image2Biomass Prediction](https://zenn.dev/prgckwb/articles/kaggle-csiro-image2biomass)
 
 </div>
 

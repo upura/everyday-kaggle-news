@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です(新しいものが上)。
 
+- 2026-07-11 ingest: WKN #321 → 新規 4 件(solutions.md / events.md / concepts/competition-hosting, experiment-management)
+- 2026-07-11 ingest: WKN #322 → 新規 2 件(solutions.md / events.md)
 - 2026-07-11 ingest: WKN #323 → 新規 2 件(solutions.md)
 - 2026-07-11 ingest: WKN #324 → 新規 7 件(solutions.md ×4 / platform.md / concepts/optimization, academic-competition, competition-hosting)。解法動画公開のニュース 2 件はスキップ
 - 2026-07-10 ingest: WKN #325 → 新規 5 件(solutions.md / events.md / concepts/mindset, nlp-llm, academic-competition)

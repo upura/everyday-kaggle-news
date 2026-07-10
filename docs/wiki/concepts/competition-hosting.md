@@ -16,6 +16,7 @@
 - [【Kaggle×人材育成】NTTグループ横断で100人が参加！Python初心者も2時間で楽しめるKaggleオンサイトコンペをやった話](https://qiita.com/daikon_desu/items/e6f672324d5d9c2ab1f3): 企業内の初心者向けオンサイトコンペの開催報告。修正箇所をプロンプトに限定する難易度調整など運営の工夫を紹介。
 - [コミュニティコンペティションを開催するときの Tips 集](https://www.abap34.com/posts/community_competetion_tips.html)
 - [Kaggleコミュニティコンペの開き方と振り返り](https://qiita.com/Ryushi496/items/dfc5dea38ac03e33acc8)
+- [Kaggle days Championshipのようなコンペを開催した話](https://zenn.dev/ryushi496/articles/4df4f2412cfdd9): 6 時間で 2 コンペを解く形式のコミュニティコンペの開催報告。
 - [日経電子版のデータを用いた機械学習コンペティションをKaggle Days Tokyoで開催しました](https://hack.nikkei.com/blog/report_kaggle_days_tokyo)
 - [Learning to detect continuous gravitational waves: an open data-analysis competition](https://arxiv.org/abs/2509.06445)
 - [Public Kaggle Competition IceCube Analysis](https://arxiv.org/abs/2307.15289)

@@ -81,6 +81,8 @@ https://kansaikaggler.connpass.com/
 ## その他
 
 - [Kaggler の海外経験を聞く会 #1](https://kaggler-international.connpass.com/event/397666/)
+- [RECRUIT TECH CONFERENCE 2026](https://www.recruit.co.jp/special/techconference2026/): Kaggle Grandmaster・Master が登壇するセッションが開催された技術カンファレンス。
+- [Kaggle サンタコンペ 2025 振り返り会](https://algo-artis.connpass.com/event/382730/)
 - [Kaggle Grandmasterが教える開発と解法＆コンペ主催企業が語る舞台裏 他](https://lycorptech-jp.connpass.com/event/387344/)
 - [Rist Meetup 2024「Kaggleは業務の役にたつ」](https://connpass.com/event/327246/)
 - [上位Kagglerに学ぶ 〜画像コンペの戦い方〜｜振り返り記事](https://recruit.hakuhodo-technologies.co.jp/hadoh/2824/)
