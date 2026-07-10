@@ -1,0 +1,30 @@
+# 毎月 1 日にリンク切れを検査し、検出時に Issue を起票する
+name: Monthly link check
+
+on:
+  schedule:
+    - cron: "0 1 1 * *" # 毎月 1 日 10:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check external links
+        id: check
+        run: |
+          python3 tools/check_external_links.py report.md && echo "found=0" >> "$GITHUB_OUTPUT" || echo "found=1" >> "$GITHUB_OUTPUT"
+      - name: Create issue
+        if: steps.check.outputs.found == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "リンク切れ検査 $(date +%Y-%m)" \
+            --body-file report.md \
+            --repo "$GITHUB_REPOSITORY"

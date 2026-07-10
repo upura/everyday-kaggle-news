@@ -1,0 +1,21 @@
+# PR と main への push で wiki の整合性を検査する
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify wiki consistency
+        run: python3 tools/verify_wiki.py
+      - name: Verify search index builds
+        run: python3 tools/build_search_index.py
