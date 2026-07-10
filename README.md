@@ -17,7 +17,13 @@
 - [サービス・ツール](./docs/service.md)
 - [コンペプラットフォーム](./docs/platform.md)
 - [話題別一覧](./docs/materials.md)
-- [話題別 Wiki](./docs/wiki/index.md)
+
+## 更新フロー
+
+本リポジトリは LLM Wiki として運用しており、規約は [CLAUDE.md](./CLAUDE.md) に定義しています。
+
+- 週次: Weekly Kaggle News の配信後、Claude Code で `/ingest <最新号の URL>` を実行します。号に含まれる URL が展開され、重複を除いて各話題ページ・一覧ページに追加されます。変更を確認してコミット・push すると GitHub Pages に反映されます
+- 月次: `/lint` でリンク切れ・重複・形式の検査を実行します
 
 ## 貢献
 

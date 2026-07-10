@@ -26,3 +26,9 @@ GitHub Actions で動かせるメール通知の[ツール](https://zenn.dev/sho
 
 日本語で、Kaggle をはじめとするコンペに関する話題を取り扱う非公式のニューズレターです（[一覧](https://weeklykagglenews.substack.com/)）。
 週次で、毎週金曜日に更新予定です。
+
+- [【Weekly Kaggle News 5 周年】記事閲覧数ランキング 2024](https://upura.hatenablog.com/entry/weekly-kaggle-news-5th)
+- [【Weekly Kaggle News 4 周年】記事閲覧数ランキング 2023](https://upura.hatenablog.com/entry/weekly-kaggle-news-4th)
+- [【Weekly Kaggle News 3 周年】記事閲覧数ランキング 2022](https://upura.hatenablog.com/entry/weekly-kaggle-news-3rd)
+- [【Weekly Kaggle News 2 周年】記事閲覧数ランキング 2021](https://upura.hatenablog.com/entry/weekly-kaggle-news-2nd)
+- [【Weekly Kaggle News 1 周年】記事閲覧数ランキング 2020](https://upura.hatenablog.com/entry/weekly-kaggle-news-1st)

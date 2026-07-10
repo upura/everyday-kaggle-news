@@ -8,7 +8,7 @@
 | 層 | 対応 | 管理者 |
 | --- | --- | --- |
 | Raw sources | 外部 URL(記事・スライド・動画・論文)。リポジトリには保存しない | 人間が投入 |
-| Wiki | `docs/wiki/` 配下の概念ページ・Query ページ・index・log、既存一覧ページのリンク注釈 | LLM |
+| Wiki | `docs/wiki/` 配下の概念ページ・Query ページ・log、`docs/materials.md` の目次、既存一覧ページのリンク注釈 | LLM |
 | Schema | `CLAUDE.md` と `.claude/skills/`(ingest / query / lint) | 人間 |
 
 ## ページ種別と管理境界
@@ -16,13 +16,13 @@
 ### 人間が管理(構成の変更は管理者判断)
 
 - `README.md` / `CONTRIBUTING.md` / `LICENSE`
-- `docs/` 直下の一覧ページ 9 本: quickstart / recent / solutions / milestones / books / events / service / platform / materials
+- `docs/` 直下の一覧ページ 8 本: quickstart / recent / solutions / milestones / books / events / service / platform
 
 ### LLM が管理(オペレーションを通じて更新)
 
-- `docs/wiki/index.md` — 概念ページのカタログと関連(隣接)一覧
+- `docs/materials.md` — 話題の目次(概念ページのカタログ)。概念ページの新設・改名時に目次行を追記・修正する。見出し構成の変更は管理者判断
 - `docs/wiki/log.md` — 操作ログ(新しいものを上に追記)
-- `docs/wiki/concepts/*.md` — 概念ページ(話題横断の統合知識)
+- `docs/wiki/concepts/*.md` — 概念ページ(話題ごとの統合知識と資料の全リスト)
 - `docs/wiki/queries/*.md` — Q&A ページ(質問と回答の資産化)
 - 既存一覧ページへのエントリ追記・注釈付与(ページ構成自体は変えない)
 
@@ -38,9 +38,9 @@
 
 - データ種別(solutions.md の `data-datatype`): `tabular` / `text` / `image` / `audio` / `3d` / `multimodal`
 - プラットフォーム(`data-platform`): `kaggle` / `signate` / `probspace` / `nishika` / `atmacup` / `solafune` ほか
-- 話題カテゴリ(materials.md の見出しに準拠): 入門者・初学者向け / PyTorch / 表 / 画像認識 / 自然言語処理 / 時系列予測 / 音声認識 / 数理最適化 / グラフ / 推薦 / コードコンペティション / 心構え / 実験管理 / 環境構築 / AI エージェント / 性能評価・検証 / 学会コンペ / コンペ開催
+- 話題カテゴリ: `docs/materials.md` の目次に準拠(概念ページと 1 対 1 対応)
 
-新カテゴリの追加は可能だが、既存カテゴリに収まらないか先に検討する。
+新しい話題は、まず既存の概念ページに収まらないか検討する。収まらず資料が 3 件以上見込めるなら概念ページを新設し、materials.md の目次に追記する。
 
 ## 概念ページの規約
 
@@ -62,28 +62,31 @@
 
 ## 関連概念
 
-- [ページ名](./page.md) / [一覧ページ名](../../materials.md)
+- [ページ名](./page.md) / [一覧ページ名](../../milestones.md)
 ```
 
 - 「押さえどころ」は自分の言葉で書く。出典が特定の資料に依存する主張はその資料へリンクする
-- 「資料」は主要なものを厳選して注釈付きで載せ、網羅は一覧ページに任せる
+- 「資料」はその話題の資料を網羅的に掲載する(注釈は内容を確認したものから段階的に付与)
 - 「関連概念」は必ず実在するページのみ。孤立ページ(どこからもリンクされないページ)を作らない
-- 新規作成・改名時は `index.md` のカタログと隣接一覧を必ず更新する
+- 新規作成・改名時は `docs/materials.md` の目次を必ず更新する
 
 ## オペレーション
 
 ### Ingest(`/ingest <URL>`)
 
 1. URL を WebFetch し内容を確認(タイトルだけで推測しない)
-2. タクソノミーに従って話題を判定し、該当する一覧ページに既存形式でエントリ追加(重複確認必須)
-3. 関連する概念ページの「資料」に追加。「押さえどころ」に反映すべき知見があれば統合。該当概念が無く資料が 3 件以上見込めるなら新規作成
-4. `index.md` と `log.md` を更新
-5. 変更したページの一覧を報告
+2. 分類して掲載先を決める(重複確認必須)
+   - コンペの解法・参加録 → `docs/solutions.md`(既存形式)
+   - 書籍 → `docs/books.md`、イベント → `docs/events.md`、称号振り返り → `docs/milestones.md`、サービス・ツール → `docs/service.md`、プラットフォーム → `docs/platform.md`
+   - 上記以外の技術記事・話題 → 該当する概念ページの「資料」(materials.md は目次のため直接エントリを置かない)
+3. 概念ページの「押さえどころ」に反映すべき知見があれば統合。該当概念が無く資料が 3 件以上見込めるなら新規作成し、materials.md の目次に追記
+4. `log.md` を更新し、変更したページの一覧を報告
+5. Weekly Kaggle News の号 URL を受け取った場合は、号ページから紹介 URL を抽出し、各 URL に対して上記を実施する(log には号単位で記録)
 
 ### Query(`/query <質問>`)
 
 1. `docs/wiki/` と既存一覧ページを根拠に回答(根拠ページへのリンクを付ける)
-2. 再利用価値のある回答は `docs/wiki/queries/<kebab-case>.md` に保存し、index と log を更新
+2. 再利用価値のある回答は `docs/wiki/queries/<kebab-case>.md` に保存し、materials.md の「Q&A」一覧と log を更新
 
 ### Lint(`/lint`)
 
@@ -91,7 +94,7 @@
 2. URL 重複検出(全ページ横断)
 3. solutions.md の div / badge 形式検査
 4. 相対リンク切れ・孤立概念ページ検出
-5. index.md と実ファイルの同期確認
+5. materials.md の目次と `docs/wiki/concepts/`・`docs/wiki/queries/` の実ファイルの同期確認
 6. 検出結果を報告。修正は管理者の確認後に行う
 
 ## 権利面の規約
@@ -101,5 +104,5 @@
 
 ## 運用サイクル(目安)
 
-- 週次: Weekly Kaggle News 配信後、新規 URL を ingest
+- 週次: Weekly Kaggle News 配信後、最新号の URL を ingest
 - 月次: lint 実行。既存リンクの注釈バックフィル(1 回あたり 1 ページ程度)

@@ -34,12 +34,12 @@ curl -s -o /dev/null -w "%{http_code}" -I -L --max-time 10 -A "Mozilla/5.0" "<UR
 ### 4. 相対リンク・孤立ページ
 
 - サイト内相対リンク(`./`, `../`)の参照先ファイルが実在するか
-- `docs/wiki/concepts/` の各ページが index.md または他ページからリンクされているか(孤立検出)
+- `docs/wiki/concepts/` の各ページが materials.md の目次または他ページからリンクされているか(孤立検出)
 - 「関連概念」のリンク先が実在するか
 
-### 5. index の同期
+### 5. 目次の同期
 
-`docs/wiki/index.md` のカタログと `docs/wiki/concepts/`・`docs/wiki/queries/` の実ファイルが一致するか。
+`docs/materials.md` の目次・「Q&A」一覧と `docs/wiki/concepts/`・`docs/wiki/queries/` の実ファイルが一致するか。
 
 ## 報告形式
 

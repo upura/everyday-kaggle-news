@@ -18,8 +18,6 @@
 - [時系列基盤モデルChronos-Boltでお手軽に時系列予測を試してみた](https://acro-engineer.hatenablog.com/entry/2025/02/18/120000): AWS の時系列基盤モデルを AutoGluon 経由でゼロショット推論・fine-tuning する実例。
 - [Polarsで始める時系列データ処理 #atmaCup 19 振り返り会 LT枠](https://speakerdeck.com/koheiiwamasa/polarsdeshi-merushi-xi-lie-detachu-li-number-atmacup-19-zhen-rifan-rihui-ltwaku)
 
-網羅的な一覧は[話題別一覧の「時系列予測」](../../materials.md#時系列予測)を参照。
-
 ## 関連概念
 
 - [表データコンペ](./tabular.md) / [性能評価・検証](./evaluation-validation.md)

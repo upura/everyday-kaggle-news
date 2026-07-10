@@ -15,8 +15,6 @@
 - [効率的なコードコンペティションの作業フロー](https://ho.lc/blog/kaggle-code-submission): VSCode と Kaggle CLI でブラウザ操作を減らし、実装コードを Dataset として管理して提出ノートブックから呼び出す設計パターンの提案。
 - [code competition も楽したい KaggleOps](https://osushinekotan.hatenablog.com/entry/2025/12/06/072458): 学習済みモデルと推論コードの提出を GitHub Actions で自動化する構成の紹介。
 
-網羅的な一覧は[話題別一覧の「コードコンペティション」](../../materials.md#コードコンペティション)を参照。
-
 ## 関連概念
 
 - [実験管理](./experiment-management.md) / [自然言語処理・LLM コンペ](./nlp-llm.md)

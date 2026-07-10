@@ -16,8 +16,6 @@ Claude Code などの LLM エージェントにコンペ作業を任せる新し
 - [Kaggle過去コンペ上位解法をAIエージェントでレポートする](https://speakerdeck.com/kuto5046/kaggleguo-qu-konpeshang-wei-jie-fa-woaiezientoderepotosuru)
 - [JunoBench: Crashes in Python ML Jupyter Notebooks](https://arxiv.org/abs/2510.18013v1): Kaggle 由来の再現可能なノートブックのクラッシュ 111 件を集めたベンチマークの論文。
 
-網羅的な一覧は[話題別一覧の「AI エージェント」](../../materials.md#ai-エージェント)を参照。
-
 ## 関連概念
 
 - [自然言語処理・LLM コンペ](./nlp-llm.md) / [実験管理](./experiment-management.md)

@@ -18,8 +18,6 @@
 - [Deep Learning (for Audio) with Python](https://www.youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf)
 - [音学シンポジウム 2025 チュートリアル 「マルチモーダル大規模言語モデル入門」](https://github.com/ryota-komatsu/slp2025)
 
-網羅的な一覧は[話題別一覧の「音声認識」](../../materials.md#音声認識)を参照。
-
 ## 関連概念
 
 - [画像認識コンペ](./image-recognition.md) / [自然言語処理・LLM コンペ](./nlp-llm.md)
