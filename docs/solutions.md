@@ -309,6 +309,7 @@
 - [第5会 関東kaggler会 NFLコンペ 2026 解法紹介](https://speakerdeck.com/ohkawa3/di-5hui-guan-dong-kagglerhui-nflkonpe-2026-jie-fa-shao-jie)
 - [NFLコンペ2026 解法](https://speakerdeck.com/lycorptech_jp/20260526b): ボールが空中にある間の選手の動きを予測するコンペの金メダル解法。
 - [初めてプロジェクト起因で参加したkaggle - NFL2026 ふりかえり -](https://www.docswell.com/s/DeNA_Tech/5DWYXG-2026-02-25-152109): 5 位解法。生成 AI の活用事例も含む振り返り。
+- [NFL Big Data Bowl 2026 - Prediction 上位解法MEMO](https://zenn.dev/ottantachinque/articles/2025-12-05_nfl-big-data-bowl-2026-predition)
 
 </div>
 
@@ -343,6 +344,7 @@
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle コンペ紹介：MAP - Charting Student Math Misunderstandings](https://zenn.dev/mkj/articles/1f374627377474)
+- [Kaggle銀メダル獲得に向けた実験管理の工夫](https://aitc.dentsusoken.com/column/how-to-approach-kaggle-competitions/): 銀メダル獲得までの取り組みを時系列で紹介する振り返り。
 
 </div>
 
@@ -681,6 +683,7 @@
 
 - [Kaggleコンペティション「MABe Challenge」振り返り](https://speakerdeck.com/yu4u/kagglekonpeteisiyon-mabe-challenge-social-action-recognition-in-mice-zhen-rifan-ri)
 - [MABe Challenge振り返りと Cursorを使った実験の回し方](https://www.docswell.com/s/DeNA_Tech/Z8W439-2026-02-25-154748): 2 位解法。Cursor を使った実験の回し方も紹介。
+- [Kaggle MABe Challenge 金メダル獲得までの開発スタイル振り返り](https://go-drive-tech.hatenablog.com/entry/2026/01/28/180859)
 
 </div>
 
