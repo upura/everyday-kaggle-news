@@ -12,6 +12,7 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 
 - [データ分析 学会コンペは"何か"の役に立つ](https://speakerdeck.com/mujirushi/guan-xi-kagglerhui-2025-1-mujirushi)
 - [国際音声AIコンペ総合第1位：URGENT Challenge優勝モデルの技術解説](https://zenn.dev/softbank/articles/bf95e2e274cf97): 音声復元を扱う国際チャレンジの優勝解法の技術解説。
+- [【MICCAI Challenge 2024】COSAS: 臓器もスキャナーも違う画像でがんの境界を描けるか？腺がんセグチャレンジ読み解き](https://zenn.dev/sugupoko/articles/7ae03c02c84feb): 医用画像の国際チャレンジの概要と上位解法のまとめ。
 
 ## 関連概念
 

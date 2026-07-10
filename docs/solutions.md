@@ -164,6 +164,14 @@
 
 <div id="competition-list">
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/">Recod.ai/LUC - Scientific Image Forgery Detection</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [科学論文の不正画像を検出！Kaggle Recod.ai/LUC メモ[編集中・更新予定]](https://zenn.dev/yuki16/articles/27a60b48fa1e11): 生物医学研究の画像の偽造を検出するコンペの概要と上位解法のまとめ。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3">AI Mathematical Olympiad - Progress Prize 3</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>

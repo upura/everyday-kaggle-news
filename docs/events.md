@@ -70,6 +70,8 @@ https://kansaikaggler.connpass.com/
 ## 国際・日本人工知能オリンピック
 
 - [JOAI 2026 講評会レポート——出題意図と上位入賞者7名の解法を一挙公開](https://note.com/ioai_japan/n/ne8b5660e3d17): 日本人工知能オリンピックの出題意図と上位解法のまとめ。
+- [【イベント開催報告】第2回日本人工知能オリンピック（JOAI2026）講評会＆日本代表解法紹介を開催しました](https://ioai-japan.org/2026/04/17/1238/)
+- [JOAI2026 講評](https://speakerdeck.com/go5paopao/joai2026-jiang-ping): 第 2 回日本人工知能オリンピックの講評資料。日本代表の高校生らの取り組みも紹介。
 - [知識ゼロからのAIオリンピック講座](https://joai-commitee.connpass.com/event/379970/)
 - [第1回日本人工知能オリンピック 講評 & 日本代表解法紹介](https://connpass.com/event/358952/)
 - [IOAI2025 日本代表派遣報告会](https://joai-commitee.connpass.com/event/369762/)
