@@ -1,15 +1,15 @@
 # 自然言語処理コンペ
 
-自然言語処理のコンペは、BERT/DeBERTa 系の fine-tuning を定跡としつつ、近年は LLM の活用(生成、データ拡張、RAG)へと重心が移っています。
+自然言語処理のコンペは、BERT/DeBERTa 系の fine-tuning を定跡としつつ、近年は LLM の活用（生成、データ拡張、RAG）へと重心が移っています。
 コードコンペ形式が多く、推論の高速化や省メモリ化もスコアに直結します。
 
 ## 押さえどころ
 
-- BERT 系 fine-tuning の定跡は、custom header(pooling、1D convolution、層別 [CLS] 連結)、層ごとの学習率設定、最終層付近の再初期化([AI Shift の Tips 記事](https://www.ai-shift.co.jp/techblog/2145))
+- BERT 系 fine-tuning の定跡は、custom header（pooling、1D convolution、層別 [CLS] 連結）、層ごとの学習率設定、最終層付近の再初期化（[AI Shift の Tips 記事](https://www.ai-shift.co.jp/techblog/2145)）
 - 2023〜24 年の NLP コンペでは「LLM によるデータ生成や水増し」「DeBERTa-v3」「損失関数や Pooling の工夫」が主要な精度向上手段。金と銀の差はタスク固有の後処理やデータ処理にあり、普遍的な必勝法はない
-- LLM コンペはエンジニアリング要素が強い。小さなデータで LLM の出力を確認してから、プロンプト最適化、モデル選択、RAG へ段階的に取り組む([LLMコンペの戦い方](https://qiita.com/Isaka-code/items/82e73fb6e77ac62a2287))
-- 推論高速化は vLLM が定番。量子化(AWQ)や Auto Prefix Caching の併用で、コードコンペの実行時間制限に対応できる
-- 2025 年にはエンコーダ型からデコーダ型 LLM への移行が明確になり、大型賞金コンペの優勝解法は Qwen 系が席巻した。評価環境内での学習(テスト時 fine-tuning)やタスクあたりの金銭コストといった新しい制約も登場している([The State of Machine Learning Competitions 2025](https://mlcontests.com/state-of-machine-learning-competitions-2025/))
+- LLM コンペはエンジニアリング要素が強い。小さなデータで LLM の出力を確認してから、プロンプト最適化、モデル選択、RAG へ段階的に取り組む（[LLMコンペの戦い方](https://qiita.com/Isaka-code/items/82e73fb6e77ac62a2287)）
+- 推論高速化は vLLM が定番。量子化（AWQ）や Auto Prefix Caching の併用で、コードコンペの実行時間制限に対応できる
+- 2025 年にはエンコーダ型からデコーダ型 LLM への移行が明確になり、大型賞金コンペの優勝解法は Qwen 系が席巻した。評価環境内での学習（テスト時 fine-tuning）やタスクあたりの金銭コストといった新しい制約も登場している（[The State of Machine Learning Competitions 2025](https://mlcontests.com/state-of-machine-learning-competitions-2025/)）
 
 ## 資料
 

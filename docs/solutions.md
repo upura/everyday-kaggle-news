@@ -6,7 +6,7 @@
 
 - Discussion: Kaggle コンペごとに、参加者が投稿した解法が Discussion で閲覧できます。順位表の「Solution」から個別の投稿に遷移できます。
 - [YouTube](https://www.youtube.com/kaggle): 定期的に解法動画が公開されています。
-- [DOIs for Competition and Project Writeups](https://www.kaggle.com/discussions/product-announcements/705158): 個別の解法(Writeup)に DOI を付与できます。論文などからの引用に利用できます。
+- [DOIs for Competition and Project Writeups](https://www.kaggle.com/discussions/product-announcements/705158): 個別の解法（Writeup）に DOI を付与できます。論文などからの引用に利用できます。
 
 ## 有志によるコンペ解法一覧サイト
 
@@ -173,10 +173,10 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="atmacup">
-<h3><a href="https://www.guruguru.science/competitions/31">Turing × atmaCup 2nd(atmaCup #23)</a></h3>
+<h3><a href="https://www.guruguru.science/competitions/31">Turing × atmaCup 2nd（atmaCup #23）</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">atmaCup</span>
 
-- [Turing x atmaCup #23 2nd Place Solution](https://speakerdeck.com/k951286/atmacup23-2nd-place-dot-pptx): 車載カメラ画像から位置(緯度経度)を推定するコンペの 2 位解法。
+- [Turing x atmaCup #23 2nd Place Solution](https://speakerdeck.com/k951286/atmacup23-2nd-place-dot-pptx): 車載カメラ画像から位置（緯度経度）を推定するコンペの 2 位解法。
 - [atmaCup #23でAIコーディングを活用した話](https://speakerdeck.com/ml_bear/atmacup-number-23deaikodeinguwohuo-yong-sitahua): AI コーディングを駆使した 3 位解法。
 
 </div>
@@ -270,7 +270,7 @@
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggleコンペ紹介：NVIDIA Nemotron Model Reasoning Challenge](https://zenn.dev/mkj/articles/3a4d70ac4e8fb4): LLM「Nemotron-3-Nano-30B」の推論性能改善に取り組むコンペの金メダル解法。
-- [振り返り動画(NVIDIA 所属 Kaggle Grandmaster)](https://www.youtube.com/watch?v=hJ_blKSJbU4)
+- [振り返り動画（NVIDIA 所属 Kaggle Grandmaster）](https://www.youtube.com/watch?v=hJ_blKSJbU4)
 
 </div>
 

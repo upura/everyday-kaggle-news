@@ -11,17 +11,17 @@
 
 ## 最近の更新
 
-直近の更新の抜粋です(全履歴は[操作ログ](./docs/wiki/log.md))。
+直近の更新の抜粋です（全履歴は[操作ログ](./docs/wiki/log.md)）。
 
 - 2026-07-11: 目次をトップページに統合。サイト内検索と共通ナビゲーションを追加
 - 2026-07-11: Weekly Kaggle News #309〜#324 を反映
 - 2026-07-11: 概念ページ「[エージェント対戦コンペ](./docs/wiki/concepts/agent-competition.md)」を新設
-- 2026-07-10: 週次の自動取り込み(GitHub Actions + PR レビュー)を開始
+- 2026-07-10: 週次の自動取り込み（GitHub Actions + PR レビュー）を開始
 - 2026-07-10: Weekly Kaggle News #325〜#343 を反映
 
 ## 目次
 
-話題ごとに、Wiki ページ(概説・押さえどころ・資料一覧)と一覧ページを案内します。
+話題ごとに、Wiki ページ（概説・押さえどころ・資料一覧）と一覧ページを案内します。
 リンクの横断検索は「[検索](./docs/search.md)」から。
 
 ### 学び方
@@ -40,7 +40,7 @@
 
 ### データ種別・タスク
 
-- [コンペ解法](./docs/solutions.md): コンペ別の解法・参加録(年・データ種別・プラットフォームで絞り込み可)
+- [コンペ解法](./docs/solutions.md): コンペ別の解法・参加録（年・データ種別・プラットフォームで絞り込み可）
 - [表データコンペ](./docs/wiki/concepts/tabular.md): GBDT・特徴量エンジニアリング・Polars・表向け NN
 - [画像認識コンペ](./docs/wiki/concepts/image-recognition.md): バックボーン選択・公開モデルの活用と高速化
 - [自然言語処理コンペ](./docs/wiki/concepts/nlp-llm.md): BERT 系の定跡と LLM 活用・推論高速化
@@ -69,7 +69,7 @@
 
 本リポジトリは LLM Wiki として運用しており、規約は [CLAUDE.md](./CLAUDE.md) に定義しています。
 
-- 週次: Weekly Kaggle News の配信後、GitHub Actions([weekly-ingest](./.github/workflows/weekly-ingest.yml))が最新号を取り込み、Pull Request を作成します。号に含まれる URL が展開され、重複を除いて各話題ページ・一覧ページに追加されます。編集者がレビューしてマージすると GitHub Pages に反映されます。Claude Code で `/ingest <URL>` を手動実行することもできます
+- 週次: Weekly Kaggle News の配信後、GitHub Actions（[weekly-ingest](./.github/workflows/weekly-ingest.yml)）が最新号を取り込み、Pull Request を作成します。号に含まれる URL が展開され、重複を除いて各話題ページ・一覧ページに追加されます。編集者がレビューしてマージすると GitHub Pages に反映されます。Claude Code で `/ingest <URL>` を手動実行することもできます
 - 月次: `/lint` でリンク切れ・重複・形式の検査を実行します
 
 ## 貢献
