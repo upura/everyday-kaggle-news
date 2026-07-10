@@ -18,6 +18,7 @@
 - [湘南kaggler会 音声認識で使うのってメルス・・・なんだっけ？](https://speakerdeck.com/sugupoko/20250413-xiang-nan-kagglerhui-yin-sheng-ren-shi-deshi-unotutemerusunandatuke)
 - [Deep Learning (for Audio) with Python](https://www.youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf)
 - [音学シンポジウム 2025 チュートリアル 「マルチモーダル大規模言語モデル入門」](https://github.com/ryota-komatsu/slp2025)
+- [Speech Language Models - a reazon-research Collection](https://huggingface.co/collections/reazon-research/speech-language-models): 日本語音声認識の事前学習済みモデル群の公開コレクション。
 
 ## 関連概念
 

@@ -181,6 +181,14 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="atmacup">
+<h3><a href="https://www.guruguru.science/competitions/28">#21 atmaCup in collaboration with Elith</a></h3>
+<span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">atmaCup</span>
+
+- [LLM Securityコンペ（#21 atmaCup）に参加してみた！](https://qiita.com/Isaka-code/items/fa73084e839ca778de4f): LLM のセキュリティを題材にしたコンペの参加録。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2025" data-datatype="other" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/santa-2025">Santa 2025 - Christmas Tree Packing Challenge</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
@@ -345,6 +353,7 @@
 
 - [Kaggle コンペ紹介：MAP - Charting Student Math Misunderstandings](https://zenn.dev/mkj/articles/1f374627377474)
 - [Kaggle銀メダル獲得に向けた実験管理の工夫](https://aitc.dentsusoken.com/column/how-to-approach-kaggle-competitions/): 銀メダル獲得までの取り組みを時系列で紹介する振り返り。
+- [Kaggle MAPコンペのオリジナルデータと合成データの比較](https://qiita.com/Isaka-code/items/acc18a6798b3ffb6bdfb): 7 位解法で用いた合成データ作成の解説記事。
 
 </div>
 
