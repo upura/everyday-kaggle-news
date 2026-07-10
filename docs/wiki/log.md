@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です(新しいものが上)。
 
+- 2026-07-10 ingest: WKN #335 → 新規 2 件(events.md / concepts/image-recognition)
+- 2026-07-10 ingest: WKN #336 → 新規 3 件(solutions.md / concepts/ai-agent, mindset)
+- 2026-07-10 ingest: WKN #337 → 新規 4 件(solutions.md ×2 / concepts/image-recognition, mindset)
+- 2026-07-10 ingest: WKN #338 → 新規 2 件(solutions.md / events.md)
 - 2026-07-10 ingest: WKN #339 → 新規 3 件(solutions.md「Kaggle 公式」/ concepts/nlp-llm, mindset)
 - 2026-07-10 ingest: WKN #340 → 新規 2 件(solutions.md / events.md)。学生コンペの開催告知 1 件は時限性のためスキップ
 - 2026-07-10 ingest: WKN #341 → 新規 1 件(concepts/nlp-llm)。ハッカソン支援・コンペ開催の告知 2 件は時限性のためスキップ

@@ -164,6 +164,23 @@
 
 <div id="competition-list">
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3">AI Mathematical Olympiad - Progress Prize 3</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [SOTAのさらに先へ：厳しい推論制約下での高性能モデルのPost-Training](https://speakerdeck.com/analokmaus/sotanosaranixian-he-yan-siitui-lun-zhi-yue-xia-denogao-xing-neng-moderunopost-training): 数式を解く AI を開発するコンペの参加録。推論制約下での post-training を扱う。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="3d" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/stanford-rna-3d-folding-2">Stanford RNA 3D Folding Part 2</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Stanford RNA 3D Folding Part 2：上位3解法から読み解くRNA立体構造予測の現在地](https://zenn.dev/sasaki_kanji/articles/8daa2cfe3a361e): RNA の 3 次元構造を配列のみから予測するコンペの上位 3 解法まとめ。
+- [【Kaggle】Stanford RNA 3D Folding Part 2 上位解法メモ：TBMと次世代AIモデルが拓くRNA立体構造予測](https://zenn.dev/yuki16/articles/36fb38f9b9e244)
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="audio" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/birdclef-2026">BirdCLEF+ 2026</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
@@ -222,6 +239,7 @@
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [第5会 関東kaggler会 NFLコンペ 2026 解法紹介](https://speakerdeck.com/ohkawa3/di-5hui-guan-dong-kagglerhui-nflkonpe-2026-jie-fa-shao-jie)
+- [NFLコンペ2026 解法](https://speakerdeck.com/lycorptech_jp/20260526b): ボールが空中にある間の選手の動きを予測するコンペの金メダル解法。
 
 </div>
 

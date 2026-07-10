@@ -12,6 +12,8 @@
 
 ## 資料
 
+- [Kaggleは「○○」に役立つ](https://thinkit.co.jp/corner/12611): Kaggle の様々な役割を紐解く連載企画の一覧ページ。
+- [Kaggle未経験社員をメダリストに育てる「AIドラゴン桜」](https://speakerdeck.com/lycorptech_jp/20260526c): LINE ヤフーによる Kaggle を用いたリスキリングの取り組みと成果の発表資料。
 - [Kaggleは「キャリアの選択肢の拡大」に役立つ ーコンペで得た学びが、実務・教育・研究・執筆へと広がるまで](https://thinkit.co.jp/article/39307): コンペで得た学びが実務・教育・研究・執筆に広がった経験を綴った連載記事。
 - [Kaggleは「キャリア」に役立つ ー機械屋がデータサイエンティスト、R&Dというキャリアに至った道筋](https://thinkit.co.jp/article/39248): Kaggle での研鑽がデータサイエンス活用のキャリアに繋がった事例(連載第 2 回)。
 - [20250322_Monkey Conference Party 2025_プログラミングコンテストのススメ](https://www.docswell.com/s/tm8619/ZN182E-2025-03-22-142419)
