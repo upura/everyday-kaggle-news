@@ -2,6 +2,16 @@
 
 LLM Wiki としての操作履歴です(新しいものが上)。
 
+- 2026-07-11 ingest: WKN #315 → 新規 1 件(concepts/mindset)。他 4 件は既掲載
+- 2026-07-11 ingest: WKN #316 → 新規 3 件(concepts/optimization, image-recognition, tabular)
+- 2026-07-11 ingest: WKN #317 → 新規 3 件(events.md / concepts/tabular, nlp-llm)
+- 2026-07-11 ingest: WKN #318 → 新規 0 件(3 件すべて既掲載)
+- 2026-07-11 ingest: WKN #319 → 新規 0 件(4 件すべて既掲載)
+- 2026-07-11 ingest: WKN #320 → 新規 4 件(solutions.md ×3 / concepts/environment, experiment-management)
+- 2026-07-11 ingest: WKN #321 → 新規 4 件(solutions.md / events.md / concepts/competition-hosting, experiment-management)
+- 2026-07-11 ingest: WKN #322 → 新規 2 件(solutions.md / events.md)
+- 2026-07-11 ingest: WKN #323 → 新規 2 件(solutions.md)
+- 2026-07-11 ingest: WKN #324 → 新規 7 件(solutions.md ×4 / platform.md / concepts/optimization, academic-competition, competition-hosting)。解法動画公開のニュース 2 件はスキップ
 - 2026-07-10 ingest: WKN #343 → 新規 3 件(books.md / events.md / concepts/competition-hosting)。Orbit Wars の結果公開ニュースと SIGNATE NEDO Challenge コンテスト2 の開催告知は時限性・資料なしのためスキップ
 - 2026-07-10 ingest: WKN #325 → 新規 5 件(solutions.md / events.md / concepts/mindset, nlp-llm, academic-competition)
 - 2026-07-10 ingest: WKN #326 → 新規 2 件(milestones.md)
