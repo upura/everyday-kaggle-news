@@ -19,11 +19,11 @@
 
 ### LLM が管理(オペレーションを通じて更新)
 
-- `docs/materials.md` — サイト全体の目次(入口)。話題別 Wiki のカタログと用途別一覧ページの案内。概念ページの新設・改名時に目次行を追記・修正する
+- `docs/materials.md` — サイト全体の目次(入口)。話題ごとの見出しの下に Wiki ページと一覧ページを混在させて案内する。概念ページの新設・改名時に目次行を追記・修正する
 - `docs/wiki/log.md` — 操作ログ(新しいものを上に追記)
 - `docs/wiki/concepts/*.md` — 概念ページ(話題ごとの統合知識と資料の全リスト)
 - `docs/wiki/queries/*.md` — Q&A ページ(質問と回答の資産化)
-- `docs/` 直下の用途別一覧ページ 8 本: quickstart / recent / solutions / milestones / books / events / service / platform
+- `docs/` 直下の一覧ページ 8 本: quickstart / recent / solutions / milestones / books / events / service / platform
   - エントリ追記・注釈付与は通常のオペレーションとして実施
   - 見出し・ページの分割統合などの構成変更も可能だが、8 ページの役割分担(分類)とエントリ形式は保ち、構成変更は log.md に `restructure` として記録する
 
@@ -39,7 +39,7 @@
 
 - データ種別(solutions.md の `data-datatype`): `tabular` / `text` / `image` / `audio` / `timeseries` / `video` / `3d` / `multimodal` / `other`(フィルタ UI の選択肢と一致させる)
 - プラットフォーム(`data-platform`): `kaggle` / `signate` / `probspace` / `nishika` / `atmacup` / `solafune` ほか
-- 話題カテゴリ: `docs/materials.md` の目次に準拠(概念ページと 1 対 1 対応)
+- 話題カテゴリ: `docs/materials.md` の目次の見出しと行に準拠(概念ページは目次の行と 1 対 1 対応)
 
 新しい話題は、まず既存の概念ページに収まらないか検討する。収まらず資料が 3 件以上見込めるなら概念ページを新設し、materials.md の目次に追記する。
 
