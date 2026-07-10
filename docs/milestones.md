@@ -43,6 +43,7 @@
 
 ## インタビュー
 
+- [Kaggleで培った「ベースライン構築力」を実務の武器に。 機械学習エンジニアに聞く、「好奇心」をコンパスにするキャリア論](https://tenshoku.mynavi.jp/engineer/guide/articles/t0026): Kaggle での経験が実務でどう役立つかを語るインタビュー。
 - [予測モデルの気持ちで考える―。Kaggle上級者が説く、データ分析で"勝つ"術](https://gaishishukatsu.com/archives/174290)
 - [「面白い」ことが絶対条件。GrandmasterとMasterが指南するKaggleの"勝ち方"と"楽しみ方"](https://qiita.com/official-columns/interview/202204-hitachi/)
 - [仕事も友達もKaggleで得た―。敏腕データサイエンティストが熱中する、分析で「競う」世界](https://gaishishukatsu.com/archives/171921)

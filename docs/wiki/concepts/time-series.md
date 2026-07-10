@@ -17,6 +17,7 @@
 - [異なる時系列間でもGBDTの予測結果をロバストに 〜WarpGBMとDirectional Era-Splitting〜](https://zenn.dev/nishimoto/articles/ee40c5f9edda7c): 時期をまたいで安定するシグナルを学習する決定木の分割基準を、Numerai データでの実験付きで解説。
 - [金融時系列予測における評価指標に応じた損失関数のデザイン](https://zenn.dev/tonic/articles/70cc6c46408aeb): torchsort を使い順位相関係数を直接最適化するカスタム損失の実装を紹介。
 - [時系列基盤モデルChronos-Boltでお手軽に時系列予測を試してみた](https://acro-engineer.hatenablog.com/entry/2025/02/18/120000): AWS の時系列基盤モデルを AutoGluon 経由でゼロショット推論・fine-tuning する実例。
+- [パラメータ4個で710M超えのFoundation Modelに勝った時系列予測手法FLAIRの全貌](https://zenn.dev/t_honda/articles/flair-time-series-forecasting): 少パラメータで基盤モデルを上回る性能を報告する時系列予測手法の解説記事。
 - [Polarsで始める時系列データ処理 #atmaCup 19 振り返り会 LT枠](https://speakerdeck.com/koheiiwamasa/polarsdeshi-merushi-xi-lie-detachu-li-number-atmacup-19-zhen-rifan-rihui-ltwaku)
 
 ## 関連概念

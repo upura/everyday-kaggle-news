@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です(新しいものが上)。
 
+- 2026-07-10 ingest: WKN #329 → 新規 4 件(solutions.md ×2 / milestones.md / concepts/time-series)。Nishika のコンペサービス終了を platform.md に反映
+- 2026-07-10 ingest: WKN #330 → 新規 2 件(solutions.md / events.md)
 - 2026-07-10 ingest: WKN #331 → 新規 3 件(events.md / concepts/ai-agent, academic-competition)
 - 2026-07-10 ingest: WKN #332 → 新規 2 件(events.md / concepts/competition-hosting)。開催中コンペの告知 1 件はスキップ
 - 2026-07-10 ingest: WKN #333 → 新規 1 件(concepts/ai-agent)。終了済み講座の告知 1 件はスキップ

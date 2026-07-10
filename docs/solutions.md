@@ -164,6 +164,22 @@
 
 <div id="competition-list">
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="multimodal" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/med-gemma-impact-challenge">The MedGemma Impact Challenge</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Multimodal</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle MedGemma Impact Challenge 全解剖：受賞9件＋落選30件から学ぶ医療AI開発](https://zenn.dev/sugupoko/articles/e93bfcbfa95409): 医療 AI ハッカソンの受賞作 9 件と落選作を横断したまとめ記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/deep-past-initiative-machine-translation">Deep Past Challenge - Translate Akkadian to English</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle アッカド語コンペの振り返りと1位解法 + α の紹介](https://zenn.dev/ihiratch/articles/3f8a1d2873ebca): アッシリア楔形文字の機械翻訳コンペの振り返りと 1 位解法の紹介。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/">Recod.ai/LUC - Scientific Image Forgery Detection</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
@@ -720,6 +736,7 @@
 - [Nishika音声認識コンペに参加して2位になりました！🎉](https://www.ai-shift.co.jp/techblog/4813)
 - [Nishika 財務・非財務情報を活用した株式の価値予測コンペ振り返り](https://note.com/nishika_inc/n/n8678212cb614)
 - [AI×商標：イメージサーチコンペティション 2nd place solution](https://speakerdeck.com/anyai/nishika-aixshang-biao-imezisatikonpeteisiyon-2nd-place-solution)
+- [Nishika 日本酒銘柄画像検索コンペ 7位解法（備忘録）](https://zenn.dev/ubex/articles/0a49c6e912220f)
 
 </div>
 
