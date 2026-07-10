@@ -7,7 +7,7 @@
 
 - コミュニティコンペの開催には、問題設計・データ準備・リーク対策・運営の段取りなど参加とは別のスキルが要る。経験者の Tips 集がまず参考になる
 - 企業データ(日経電子版など)や研究データ(重力波・IceCube・天文分類)での開催報告は、問題設計と評価設計の実例として読める
-- 評価設計・リーク対策は[性能評価・検証](./evaluation-validation.md)と表裏の関係にある
+- 評価設計・リーク対策は[性能評価と検証](./evaluation-validation.md)と表裏の関係にある
 
 ## 資料
 
@@ -20,4 +20,4 @@
 
 ## 関連概念
 
-- [学会コンペ](./academic-competition.md) / [性能評価・検証](./evaluation-validation.md)
+- [学会コンペ](./academic-competition.md) / [性能評価と検証](./evaluation-validation.md)

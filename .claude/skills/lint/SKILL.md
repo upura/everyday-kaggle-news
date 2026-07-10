@@ -23,12 +23,12 @@ curl -s -o /dev/null -w "%{http_code}" -I -L --max-time 10 -A "Mozilla/5.0" "<UR
 
 ### 2. URL 重複
 
-全ページ横断で同一 URL の重複を検出する(末尾スラッシュ・`http/https` の揺れを正規化して比較)。概念ページの「資料」と一覧ページの重複は意図的な再掲なので対象外。一覧ページ同士・同一ページ内の重複のみ報告する。
+全ページ横断で同一 URL の重複を検出する(末尾スラッシュ・`http/https` の揺れを正規化して比較)。次の 2 つは意図的な再掲なので対象外: (a) 概念ページの「押さえどころ」での引用と同ページ「資料」への掲載、(b) 概念ページと一覧ページの重複。報告するのは、一覧ページ同士の重複と、同一セクション内の重複のみ。
 
 ### 3. solutions.md の形式
 
 - `<div class="competition-entry" markdown="1" ...>` に `data-year` / `data-datatype` / `data-platform` が揃っているか
-- `data-datatype` がタクソノミー(`tabular` / `text` / `image` / `audio` / `3d` / `multimodal`)の値か
+- `data-datatype` が CLAUDE.md のタクソノミー(solutions.md のフィルタ UI の選択肢と同一)の値か
 - div の開閉が対応しているか、badge の year と `data-year` が一致するか
 
 ### 4. 相対リンク・孤立ページ

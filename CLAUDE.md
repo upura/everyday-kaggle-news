@@ -36,7 +36,7 @@
 
 ## 分類タクソノミー
 
-- データ種別(solutions.md の `data-datatype`): `tabular` / `text` / `image` / `audio` / `3d` / `multimodal`
+- データ種別(solutions.md の `data-datatype`): `tabular` / `text` / `image` / `audio` / `timeseries` / `video` / `3d` / `multimodal` / `other`(フィルタ UI の選択肢と一致させる)
 - プラットフォーム(`data-platform`): `kaggle` / `signate` / `probspace` / `nishika` / `atmacup` / `solafune` ほか
 - 話題カテゴリ: `docs/materials.md` の目次に準拠(概念ページと 1 対 1 対応)
 

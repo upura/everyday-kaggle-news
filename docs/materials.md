@@ -6,19 +6,19 @@
 
 ## 学び方
 
-- [入門者・初学者向け](./wiki/concepts/getting-started.md): まず読む・見る定番資料。全体像は「[入門者・初学者向けガイド](./quickstart.md)」から
+- [入門者向け](./wiki/concepts/getting-started.md): まず読む・見る定番資料。全体像は「[入門者・初学者向けガイド](./quickstart.md)」から
 - [心構え](./wiki/concepts/mindset.md): コンペとの向き合い方・学び方・実務との関係
 
 ## データ種別・タスク
 
 - [表データコンペ](./wiki/concepts/tabular.md): GBDT・特徴量エンジニアリング・Polars・表向け NN
 - [画像認識コンペ](./wiki/concepts/image-recognition.md): バックボーン選択・公開モデルの活用と高速化
-- [自然言語処理・LLM コンペ](./wiki/concepts/nlp-llm.md): BERT 系の定跡と LLM 活用・推論高速化
+- [自然言語処理コンペ](./wiki/concepts/nlp-llm.md): BERT 系の定跡と LLM 活用・推論高速化
 - [時系列予測コンペ](./wiki/concepts/time-series.md): 時間分割バリデーション・損失設計・時系列基盤モデル
-- [音声・音響コンペ](./wiki/concepts/audio.md): メルスペクトログラム化と画像モデル適用・異常音検知
+- [音声コンペ](./wiki/concepts/audio.md): メルスペクトログラム化と画像モデル適用・異常音検知
 - [グラフ](./wiki/concepts/graph.md): グラフ構造データの学習
 - [推薦](./wiki/concepts/recommendation.md): 推薦アルゴリズムの基礎と 2 段構成の解法
-- [数理最適化・ヒューリスティック](./wiki/concepts/optimization.md): Santa 系コンペ・AtCoder との親和性
+- [数理最適化コンペ](./wiki/concepts/optimization.md): Santa 系コンペ・AtCoder との親和性
 
 ## 進め方・環境
 
@@ -26,7 +26,7 @@
 - [コードコンペティション](./wiki/concepts/code-competition.md): 提出形式の制約と作業フロー・提出自動化
 - [実験管理](./wiki/concepts/experiment-management.md): 試行回数の最大化・再現性・チーム体制
 - [環境構築](./wiki/concepts/environment.md): ローカル・クラウドの計算環境
-- [性能評価・検証](./wiki/concepts/evaluation-validation.md): リーク防止・バリデーション設計・データセット品質
+- [性能評価と検証](./wiki/concepts/evaluation-validation.md): リーク防止・バリデーション設計・データセット品質
 - [AI エージェント活用](./wiki/concepts/ai-agent.md): LLM エージェントによるコンペ作業の自動化と限界
 
 ## コンペの開催
