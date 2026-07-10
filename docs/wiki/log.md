@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です(新しいものが上)。
 
+- 2026-07-11 restructure: サイト改善を実施。(1) 全リンク横断のサイト内検索(search.md、ビルド時に search.json 生成) (2) 共通ナビゲーション(_layouts/default.html) (3) materials.md に「最近の更新」 (4) 整合性検査を tools/verify_wiki.py に昇格し CI 化、注釈カバレッジ表示を追加 (5) 月次リンク切れ検査ワークフロー(Issue 起票) (6) nlp-llm・image-recognition の資料を小見出しで整理し、15 件超で小見出し整理の規約を CLAUDE.md に追加
+
 - 2026-07-11 ingest: WKN #309 → 新規 3 件(concepts/nlp-llm, experiment-management, environment)
 - 2026-07-11 ingest: WKN #310 → 新規 4 件(events.md / concepts/image-recognition ×2, evaluation-validation)
 - 2026-07-11 ingest: WKN #311 → 新規 2 件(events.md / concepts/agent-competition)。既掲載イベントの資料公開告知 1 件はスキップ
