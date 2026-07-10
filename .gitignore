@@ -1,0 +1,3 @@
+# ビルド時に tools/build_search_index.py が生成する
+docs/search.json
+_site/

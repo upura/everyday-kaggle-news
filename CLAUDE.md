@@ -80,7 +80,7 @@
    - 書籍 → `docs/books.md`、イベント → `docs/events.md`、称号振り返り → `docs/milestones.md`、サービス・ツール → `docs/service.md`、プラットフォーム → `docs/platform.md`
    - 上記以外の技術記事・話題 → 該当する概念ページの「資料」(materials.md は目次のため直接エントリを置かない)
 3. 概念ページの「押さえどころ」に反映すべき知見があれば統合。該当概念が無く資料が 3 件以上見込めるなら新規作成し、materials.md の目次に追記
-4. `log.md` を更新し、変更したページの一覧を報告
+4. `log.md` を更新し、materials.md の「最近の更新」を直近 5 件程度に維持する。変更したページの一覧を報告
 5. Weekly Kaggle News の号 URL を受け取った場合は、号ページから紹介 URL を抽出し、各 URL に対して上記を実施する(log には号単位で記録)
 
 ### Query(`/query <質問>`)

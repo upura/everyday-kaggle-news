@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  {% seo title=false %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <style>
+    .site-nav {
+      border-bottom: 1px solid #d8dee4;
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      align-items: baseline;
+      font-size: 14px;
+    }
+    .site-nav .site-name { font-weight: bold; font-size: 16px; margin-right: 8px; }
+    .site-nav a { text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header class="site-nav">
+    <a class="site-name" href="{{ '/' | relative_url }}">Everyday Kaggle News</a>
+    <a href="{{ '/docs/materials.html' | relative_url }}">目次</a>
+    <a href="{{ '/docs/search.html' | relative_url }}">検索</a>
+    <a href="{{ '/docs/solutions.html' | relative_url }}">コンペ解法</a>
+    <a href="{{ '/docs/quickstart.html' | relative_url }}">入門</a>
+    <a href="https://github.com/upura/everyday-kaggle-news">GitHub</a>
+  </header>
+  <div class="container-lg px-3 my-5 markdown-body">
+    {{ content }}
+  </div>
+</body>
+</html>
