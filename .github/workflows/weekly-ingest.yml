@@ -1,0 +1,54 @@
+# Weekly Kaggle News の最新号を LLM が ingest し、PR を作成するワークフロー
+# 反映はこの PR を編集者がレビュー・マージすることで行う(CLAUDE.md の運用サイクル参照)
+name: Weekly ingest
+
+on:
+  schedule:
+    # 土曜 09:00 JST(金曜配信の翌朝)
+    - cron: "0 0 * * 6"
+  workflow_dispatch:
+    inputs:
+      issue_url:
+        description: "取り込む Weekly Kaggle News の号 URL(省略時は最新号)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            .claude/skills/ingest/SKILL.md の手順に従い、Weekly Kaggle News の号を取り込んでください。
+
+            - 対象の号: ${{ inputs.issue_url || '最新号(https://weeklykagglenews.substack.com/archive から特定する)' }}
+            - ルートの CLAUDE.md の規約(エントリ形式・タクソノミー・権利面)に従うこと
+            - docs/ 配下のファイルを直接編集し、docs/wiki/log.md に号単位で記録すること
+            - git のコミットや push は行わないこと(後段のステップが PR を作成する)
+            - 最後に、追加したエントリと変更したページの一覧を出力すること
+          claude_args: |
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,Bash(curl:*),Bash(grep:*),Bash(ls:*)"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Weekly ingest from Weekly Kaggle News"
+          title: "Weekly ingest: Weekly Kaggle News 最新号の取り込み"
+          body: |
+            週次の自動 ingest です。以下を確認してからマージしてください。
+
+            - `docs/wiki/log.md` の号単位の記録
+            - 追加エントリの分類・注釈・形式(CLAUDE.md の規約準拠)
+
+            🤖 Generated with [Claude Code](https://claude.com/claude-code)
+          branch: auto/weekly-ingest
+          delete-branch: true

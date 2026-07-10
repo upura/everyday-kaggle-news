@@ -105,5 +105,5 @@
 
 ## 運用サイクル(目安)
 
-- 週次: Weekly Kaggle News 配信後、最新号の URL を ingest
+- 週次: Weekly Kaggle News 配信後、最新号を ingest(GitHub Actions の `weekly-ingest` が自動で PR を作成し、編集者のレビュー・マージで反映。手動 ingest も可)
 - 月次: lint 実行。既存リンクの注釈バックフィル(1 回あたり 1 ページ程度)
