@@ -91,6 +91,7 @@ https://kansaikaggler.connpass.com/
     - [敗北解法コレクション〜Expertだった頃に足りなかった知識と技術〜](https://speakerdeck.com/nanachi/bai-bei-jie-fa-korekusiyon-expertdatutaqing-nizu-rinakatutazhi-shi-toji-shu)
     - [画像ディープラーニングコンペの基本](https://speakerdeck.com/junkoda/hua-xiang-deipuraningukonpenoji-ben)
 - [データ分析競技 × コード生成AI 勉強会](https://currypurin-dojo.connpass.com/event/363239/)
+- [Kaggleのチュートリアル第7版 実践編 〜寄稿者LTとコーディングエージェント時代〜](https://currypurin-dojo.connpass.com/event/399708/): 『Kaggleのチュートリアル第7版』の寄稿者が登壇する LT イベント。
 - [「RAG-1グランプリ」知見共有会](https://techplay.jp/event/962129)
 - [MCDデータサイエンスチャレンジ2025](https://connpass.com/event/340764/)
 - [AtCoder Heuristic First-step Vol.1](https://atcoder.jp/contests/ahf1)
