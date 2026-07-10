@@ -28,6 +28,7 @@
 - [グラフ](./wiki/concepts/graph.md): グラフ構造データの学習
 - [推薦](./wiki/concepts/recommendation.md): 推薦アルゴリズムの基礎と 2 段構成の解法
 - [数理最適化コンペ](./wiki/concepts/optimization.md): Santa 系コンペ・AtCoder との親和性
+- [エージェント対戦コンペ](./wiki/concepts/agent-competition.md): エージェント提出・対戦形式のコンペと Game Arena などの評価基盤
 
 ## 進め方・環境
 

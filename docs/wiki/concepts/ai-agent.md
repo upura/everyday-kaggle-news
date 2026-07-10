@@ -1,11 +1,13 @@
 # AI エージェント活用
 
-Claude Code などの LLM エージェントにコンペ作業を任せる新しい潮流です。
+Claude Code などの LLM エージェントを「道具」としてコンペ作業に使う潮流です。
 ベースライン構築や過去解法の調査は自動化が進む一方、上位に食い込むには人間による問題定義とモデル改善がまだ必要とされています。
+エージェント自体を提出して競わせる形式は[エージェント対戦コンペ](./agent-competition.md)を参照してください。
 
 ## 押さえどころ
 
 - エージェント任せでも「上位 30% 程度」のモデルは作れるが、メダル圏には届かない。人間の役割はデータ整備、問題定義、モデル改善へシフトする([Claude Code と Kaggle をやったら何も考えずに上位30%になれた話](https://zenn.dev/genda_jp/articles/20250909_kaggle_with_claude_code))
+- 2025 年時点の年次レポートでも、完全自律のエージェントが上位入賞した事例はまだ報告されていない([The State of Machine Learning Competitions 2025](https://mlcontests.com/state-of-machine-learning-competitions-2025/))。一方、人間とエージェントの協働による金メダル事例は国内でも複数出ている
 - 過去コンペの上位解法を調査してレポートさせる使い方は、コンペ序盤のサーベイを大きく効率化する
 - エージェントと協働するには、実験の再現性と記録が前提になる([実験管理](./experiment-management.md))
 - ノートブックのクラッシュを集めたベンチマーク(JunoBench)など、エージェントの評価基盤も整備されつつある
@@ -24,4 +26,4 @@ Claude Code などの LLM エージェントにコンペ作業を任せる新し
 
 ## 関連概念
 
-- [自然言語処理コンペ](./nlp-llm.md) / [実験管理](./experiment-management.md)
+- [エージェント対戦コンペ](./agent-competition.md) / [自然言語処理コンペ](./nlp-llm.md) / [実験管理](./experiment-management.md)
