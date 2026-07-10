@@ -16,6 +16,7 @@
 - [機械学習の落とし穴 リーク問題について](https://tech-blog.abeja.asia/entry/advent-2023-day15): リークの定義と実例、回避のための実践的な観点を整理した記事。
 - ["良い"データセット構築を考える](https://speakerdeck.com/kentaroy47/detasetutogou-zhu-nituite)
 - [学習データって増やせばいいんですか？](https://speakerdeck.com/ftakahashi/xue-xi-detatutezeng-yasebaiindesuka): データを増やすべきか絞るべきかを、絞り込みが有効な条件とともに論じる発表資料。
+- [Determining the K in K-fold cross-validation](https://arxiv.org/abs/2511.12698): 交差検証の K を慣習ではなく効用最大化の観点で決める枠組みを提案する論文。
 - [Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation](https://arxiv.org/abs/2505.00612): データ汚染が避けにくい生成 AI の評価において、コンペ形式の厳密さを gold standard と位置づける position paper。
 - [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark): コンペ運営で培った対不正技術を活かした「Kaggle Benchmark」による独立したモデル評価環境の紹介。
 
