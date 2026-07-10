@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-11 restructure: 概念マップページ（docs/concept-map.md）を新設。ページ間の相互リンクを力学レイアウトで可視化（データはビルド時に tools/build_graph_data.py が生成）。共通ナビと README 目次から導線を追加
+
 - 2026-07-11 restructure: 文章規約を CLAUDE.md に新設（日本語の地の文は全角括弧。リンクタイトル・URL・コード・HTML は原文のまま）し、全ページの地の文の半角括弧を全角に一括変換（168 行）
 
 - 2026-07-11 restructure: 目次をトップページ（README.md）に統合し docs/materials.md を廃止。ナビ・quickstart・スキーマ（CLAUDE.md の管理境界: README の「目次」「最近の更新」セクションを LLM 管理に）・スキル・検証ツールの参照を更新
