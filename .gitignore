@@ -1,3 +1,4 @@
-# ビルド時に tools/build_search_index.py が生成する
+# ビルド時に tools/ のスクリプトが生成する
 docs/search.json
+docs/graph.json
 _site/

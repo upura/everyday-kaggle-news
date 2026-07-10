@@ -17,5 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify wiki consistency
         run: python3 tools/verify_wiki.py
-      - name: Verify search index builds
-        run: python3 tools/build_search_index.py
+      - name: Verify generated data builds
+        run: |
+          python3 tools/build_search_index.py
+          python3 tools/build_graph_data.py

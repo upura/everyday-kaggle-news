@@ -28,8 +28,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Build search index
-        run: python3 tools/build_search_index.py
+      - name: Build search index and concept map data
+        run: |
+          python3 tools/build_search_index.py
+          python3 tools/build_graph_data.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
