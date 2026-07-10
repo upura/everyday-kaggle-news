@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """LLM Wiki の整合性チェック(lint の内部検査項目)。
 
-検査: 相対リンク切れ / 孤立概念ページ / materials.md 目次と実ファイルの同期 /
+検査: 相対リンク切れ / 孤立概念ページ / README.md 目次と実ファイルの同期 /
 目次ラベルと H1 の一致 / solutions.md の div・datatype 形式 / 同一セクション内の URL 重複
 参考情報として注釈カバレッジも表示する。問題があれば終了コード 1。
 """
@@ -44,20 +44,20 @@ for cf in concept_files:
     if not any(cf in t for p, t in all_text.items() if os.path.normpath(p) != own):
         problems.append(f"[孤立ページ] docs/wiki/concepts/{cf} はどこからもリンクされていない")
 
-# 3. materials.md の目次と実ファイルの同期・ラベル一致
-materials = all_text[os.path.join(ROOT, "docs/materials.md")]
-toc = dict(re.findall(r"- \[([^\]]+)\]\(\./wiki/concepts/([\w-]+\.md)\)", materials))
+# 3. README.md の目次と実ファイルの同期・ラベル一致
+readme = all_text[os.path.join(ROOT, "README.md")]
+toc = dict(re.findall(r"- \[([^\]]+)\]\(\./docs/wiki/concepts/([\w-]+\.md)\)", readme))
 toc_targets = set(toc.values())
 for missing in sorted(set(concept_files) - toc_targets):
-    problems.append(f"[目次未掲載] concepts/{missing} が materials.md の目次にない")
+    problems.append(f"[目次未掲載] concepts/{missing} が README.md の目次にない")
 for stale in sorted(toc_targets - set(concept_files)):
-    problems.append(f"[目次リンク切れ] materials.md が存在しない concepts/{stale} を参照")
+    problems.append(f"[目次リンク切れ] README.md が存在しない concepts/{stale} を参照")
 for label, fname in toc.items():
     fpath = os.path.join(concepts_dir, fname)
     if os.path.exists(fpath):
         h1 = open(fpath, encoding="utf-8").readline().strip().lstrip("# ")
         if label != h1:
-            problems.append(f"[目次ラベル不一致] materials.md「{label}」 vs {fname} H1「{h1}」")
+            problems.append(f"[目次ラベル不一致] README.md「{label}」 vs {fname} H1「{h1}」")
 
 # 4. solutions.md の div / datatype 形式
 sol = all_text[os.path.join(ROOT, "docs/solutions.md")]

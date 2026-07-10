@@ -15,11 +15,12 @@
 
 ### 人間が管理(変更は管理者判断)
 
-- `README.md` / `CONTRIBUTING.md` / `LICENSE`
+- `README.md` の「目次」「最近の更新」以外のセクション / `CONTRIBUTING.md` / `LICENSE`
 
 ### LLM が管理(オペレーションを通じて更新)
 
-- `docs/materials.md` — サイト全体の目次(入口)。話題ごとの見出しの下に Wiki ページと一覧ページを混在させて案内する。概念ページの新設・改名時に目次行を追記・修正する
+- `README.md` の「目次」セクション — サイト全体の入口。話題ごとの見出しの下に Wiki ページと一覧ページを混在させて案内する。概念ページの新設・改名時に目次行を追記・修正する
+- `README.md` の「最近の更新」セクション — 直近 5 件程度のダイジェストを維持する
 - `docs/wiki/log.md` — 操作ログ(新しいものを上に追記)
 - `docs/wiki/concepts/*.md` — 概念ページ(話題ごとの統合知識と資料の全リスト)
 - `docs/` 直下の一覧ページ 8 本: quickstart / recent / solutions / milestones / books / events / service / platform
@@ -32,15 +33,15 @@
   - 注釈は任意(段階的にバックフィル)。付ける場合は内容を確認した上で書く
 - `docs/solutions.md` のコンペ参加録: 既存の `<div class="competition-entry" markdown="1" data-year data-datatype data-platform>` + `<h3>` + badge 形式を厳守
 - `docs/books.md` / `docs/platform.md`: 既存の表形式を維持
-- リンク: サイト内は相対 Markdown リンク(`./page.md`、`../materials.md` など)。wikilink `[[...]]` は Jekyll で動かないため使用しない
+- リンク: サイト内は相対 Markdown リンク(`./page.md`、`../../README.md` など)。wikilink `[[...]]` は Jekyll で動かないため使用しない
 
 ## 分類タクソノミー
 
 - データ種別(solutions.md の `data-datatype`): `tabular` / `text` / `image` / `audio` / `timeseries` / `video` / `3d` / `multimodal` / `other`(フィルタ UI の選択肢と一致させる)
 - プラットフォーム(`data-platform`): `kaggle` / `signate` / `probspace` / `nishika` / `atmacup` / `solafune` ほか
-- 話題カテゴリ: `docs/materials.md` の目次の見出しと行に準拠(概念ページは目次の行と 1 対 1 対応)
+- 話題カテゴリ: `README.md` の「目次」の見出しと行に準拠(概念ページは目次の行と 1 対 1 対応)
 
-新しい話題は、まず既存の概念ページに収まらないか検討する。収まらず資料が 3 件以上見込めるなら概念ページを新設し、materials.md の目次に追記する。
+新しい話題は、まず既存の概念ページに収まらないか検討する。収まらず資料が 3 件以上見込めるなら概念ページを新設し、README.md の目次に追記する。
 
 ## 概念ページの規約
 
@@ -69,7 +70,7 @@
 - 「資料」はその話題の資料を網羅的に掲載する(注釈は内容を確認したものから段階的に付与)
 - 「資料」が 15 件を超えたら「入門・基礎」「コンペの定跡」「モデル・技術動向」などの小見出し(`###`)で整理する。30 件を超えたらサブトピックへの分割を検討する
 - 「関連概念」は必ず実在するページのみ。孤立ページ(どこからもリンクされないページ)を作らない
-- 新規作成・改名時は `docs/materials.md` の目次を必ず更新する
+- 新規作成・改名時は `README.md` の目次を必ず更新する
 
 ## オペレーション
 
@@ -79,9 +80,9 @@
 2. 分類して掲載先を決める(重複確認必須)
    - コンペの解法・参加録 → `docs/solutions.md`(既存形式)
    - 書籍 → `docs/books.md`、イベント → `docs/events.md`、称号振り返り → `docs/milestones.md`、サービス・ツール → `docs/service.md`、プラットフォーム → `docs/platform.md`
-   - 上記以外の技術記事・話題 → 該当する概念ページの「資料」(materials.md は目次のため直接エントリを置かない)
-3. 概念ページの「押さえどころ」に反映すべき知見があれば統合。該当概念が無く資料が 3 件以上見込めるなら新規作成し、materials.md の目次に追記
-4. `log.md` を更新し、materials.md の「最近の更新」を直近 5 件程度に維持する。変更したページの一覧を報告
+   - 上記以外の技術記事・話題 → 該当する概念ページの「資料」(README.md の目次には直接エントリを置かない)
+3. 概念ページの「押さえどころ」に反映すべき知見があれば統合。該当概念が無く資料が 3 件以上見込めるなら新規作成し、README.md の目次に追記
+4. `log.md` を更新し、README.md の「最近の更新」を直近 5 件程度に維持する。変更したページの一覧を報告
 5. Weekly Kaggle News の号 URL を受け取った場合は、号ページから紹介 URL を抽出し、各 URL に対して上記を実施する(log には号単位で記録)
 
 ### Query(`/query <質問>`)
@@ -94,7 +95,7 @@
 2. URL 重複検出(全ページ横断)
 3. solutions.md の div / badge 形式検査
 4. 相対リンク切れ・孤立概念ページ検出
-5. materials.md の目次と `docs/wiki/concepts/` の実ファイルの同期確認
+5. README.md の目次と `docs/wiki/concepts/` の実ファイルの同期確認
 6. 検出結果を報告。修正は管理者の確認後に行う
 
 ## 権利面の規約
