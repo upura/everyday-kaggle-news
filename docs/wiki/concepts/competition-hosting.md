@@ -19,6 +19,7 @@
 - [Learning to detect continuous gravitational waves: an open data-analysis competition](https://arxiv.org/abs/2509.06445)
 - [Public Kaggle Competition IceCube Analysis](https://arxiv.org/abs/2307.15289)
 - [PLAsTiCC Astronomical Classification Results](https://arxiv.org/abs/2012.12392)
+- [Kaggle Conversations（Adaption Labs）](https://www.youtube.com/watch?v=lnKnLZd66Ng): Adaption Labs の CEO が、同社が開催した Kaggle コンペの狙いと AI 研究の展望を語る動画シリーズ。
 
 ## 関連概念
 
