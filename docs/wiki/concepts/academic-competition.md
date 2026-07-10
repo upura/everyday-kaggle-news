@@ -17,6 +17,7 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [企画委員会だより〔第8回〕「学ぶ場」としてのコンペティションを考える](https://www.jstage.jst.go.jp/article/jjsai/41/2/41_234/_article/-char/ja/): 人工知能学会誌への寄稿。「学ぶ場」としてのコンペの意義を論じる。
 - [都市における人間移動予測の最前線 SIGSPATIAL Cup 2025 上位解法の紹介](https://speakerdeck.com/mujirushi/du-shi-niokeruren-jian-yi-dong-yu-ce-nozui-qian-xian-sigspatial-cup-2025-shang-wei-jie-fa-noshao-jie): 人間の移動予測を扱う ACM SIGSPATIAL 併設コンペの上位解法紹介。
 - [音声・映像データから感情と原因を抽出する - SemEval-2024優勝手法に学ぶ「非言語情報の言語化」アプローチ](https://zenn.dev/pksha/articles/0847a9f0e36d18): マルチモーダル情報から感情と原因の対を抽出する国際コンペの優勝解法の解説。
+- [Kaggle 2COOOL 準優勝：学習データなし動画コンペのVLM解法とICCVレポート](https://zenn.dev/turing_motors/articles/b92bc6c5ac659a): ドライブレコーダー動画から事故レポートを生成する ICCV 併設コンペの 2 位解法。
 
 ## 関連概念
 

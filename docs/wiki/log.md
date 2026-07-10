@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です(新しいものが上)。
 
+- 2026-07-11 ingest: WKN #311 → 新規 2 件(events.md / concepts/agent-competition)。既掲載イベントの資料公開告知 1 件はスキップ
+- 2026-07-11 ingest: WKN #312 → 新規 4 件(solutions.md / concepts/environment, academic-competition, nlp-llm)
 - 2026-07-11 ingest: WKN #313 → 新規 3 件(solutions.md / concepts/time-series, mindset)
 - 2026-07-11 ingest: WKN #314 → 新規 5 件(solutions.md / concepts/image-recognition ×2, evaluation-validation, audio)
 - 2026-07-11 restructure: 最新動向の調査(mlcontests 年次レポート、Kaggle Game Arena 公式発表)を踏まえ、概念ページ「エージェント対戦コンペ」(agent-competition)を新設。ai-agent を「道具としての活用」に位置づけ直し、evaluation-validation に Kaggle のベンチマーク基盤化、nlp-llm に 2025 年のデコーダ型 LLM への移行・テスト時学習の潮流を追記
