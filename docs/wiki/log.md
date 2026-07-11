@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #281 → 新規 2 件（concepts/evaluation-validation, mindset）
+- 2026-07-12 ingest: WKN #282 → 新規 1 件（concepts/nlp-llm）
 - 2026-07-12 ingest: WKN #283 → 新規 3 件（concepts/competition-hosting, environment, tabular）
 - 2026-07-12 ingest: WKN #284 → 新規 1 件（concepts/tabular）
 
