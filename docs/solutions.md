@@ -297,6 +297,14 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/llms-you-cant-please-them-all/">LLMs - You Can't Please Them All</a></h3>
+<span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [【振り返りメモ】LLMs - You Can't Please Them All](https://zenn.dev/mytm/articles/d766e49b77a3c4): 3 つの LLM の評価の不一致を最大化するコンペの概要と上位解法の紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming">Red‑Teaming Challenge - OpenAI gpt-oss-20b</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 

@@ -27,6 +27,7 @@
 - [kaggle_pipeline](https://github.com/phalanx-hk/kaggle_template): GPU インスタンス前提の Kaggle パイプラインテンプレート。モノレポ構成で Docker・uv・mise を組み込み、コンペ間のコード再利用を促す。
 - [Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face](https://huggingface.co/blog/trackio): Hugging Face 製の軽量な実験管理ライブラリの紹介。
 - [【関西Kaggler会 2025#1】DatabricksからKaggler向けにMLflowのセッションを実施させて頂きました](https://qiita.com/naoyabe/items/2c19c77cc862cd4cbb00): MLflow を用いた実験管理方法の紹介記事。
+- [MLコンペ実験テンプレートを作ろう!](https://speakerdeck.com/unonao/mlkonpeshi-yan-tenpuretowozuo-rou): Kaggle Grandmaster によるコンペ向け実験テンプレートの紹介資料。
 
 ### コード品質・高速化
 
