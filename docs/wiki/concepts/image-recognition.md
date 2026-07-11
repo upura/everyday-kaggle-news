@@ -24,6 +24,7 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 
 - [画像モデルのバックボーンとして最初に何を選ぶべきか？](https://zenn.dev/prgckwb/articles/how-to-select-backbone): 論文「Battle of the Backbones」をもとにバックボーン選択の指針を整理した記事。
 - [野生のモデルを飼い慣らす](https://zenn.dev/bilzard/articles/tame-the-wild-models): timm などの公開モデルをタスクに適応させるカスタマイズと高速化のテクニック集。
+- [Backboneとしてのtimm2025](https://speakerdeck.com/yu4u/backbonetositenotimm2025): timm の基本的な使い方と 2025 年時点のバックボーン事情をまとめた発表資料。
 - [実は強い 非ViTな画像認識モデル](https://speakerdeck.com/tattaka/shi-haqiang-i-fei-vitnahua-xiang-ren-shi-moderu)
 - [物体検出フレームワークMMDetectionで快適な開発](https://www.slideshare.net/TatsuyaSuzuki16/mmdetection-236032837)
 - [類似画像検索モデルの開発ノウハウ](https://speakerdeck.com/lycorptech_jp/20260526a): Kaggle Grandmaster による類似画像検索モデル開発の知見。タスク概要からモデル学習の工夫まで。

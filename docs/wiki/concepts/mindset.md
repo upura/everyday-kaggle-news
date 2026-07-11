@@ -14,6 +14,7 @@
 
 - [Kaggleで鍛えたスキルの実務での活かし方　競技とプロダクト開発のリアル](https://speakerdeck.com/recruitengineers/kagglededuan-etasukirunoshi-wu-denohuo-kasifang-jing-ji-topurodakutokai-fa-noriaru): Kaggle Grandmaster と Master による、コンペの学びを実務で活かした事例の発表資料。
 - [Kaggleの「次の一手」を探る6個のヒント](https://zenn.dev/muku_8949/articles/2633c986a51254): コンペでの停滞期を乗り越えるためのヒント集。
+- [Prizeを捉える解法の見つけ方（第4回 関東Kaggler会）](https://speakerdeck.com/esprit/di-4hui-guan-dong-kagglerhui-prizewozhuo-erujie-fa-nojian-tukefang): 3 度の賞金圏経験をもとにした、賞金を狙うための心構えの発表資料。
 - [Kaggleは研究の役に立つのか？](https://aru47.hatenablog.com/entry/2025/12/08/223234): 新規性の創出や課題設計など、研究への活用の観点から Kaggle の価値を論じる記事。
 - [Kaggleは「○○」に役立つ](https://thinkit.co.jp/corner/12611): Kaggle の様々な役割を紐解く連載企画の一覧ページ。
 - [Kaggle未経験社員をメダリストに育てる「AIドラゴン桜」](https://speakerdeck.com/lycorptech_jp/20260526c): LINE ヤフーによる Kaggle を用いたリスキリングの取り組みと成果の発表資料。

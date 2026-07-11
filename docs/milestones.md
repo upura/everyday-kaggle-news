@@ -4,6 +4,8 @@
 
 [Awesome Kaggle Grandmaster Stories](https://github.com/yu4u/awesome-kaggle-grandmaster-stories)
 
+- [新卒(ほぼ)専業Kagglerという選択肢](https://speakerdeck.com/nocchi1/xin-zu-hobo-zhuan-ye-kagglertoiuxuan-ze-zhi): 卒業後に専業 Kaggler として活動し Grandmaster に昇格した体験の発表資料。
+
 ## Kaggle Master 振り返り
 
 - [Kaggle Competitions Master になりました！](https://teyoblog.hatenablog.com/entry/2022/02/21/223602)

@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #297 → 新規 3 件（quickstart.md / concepts/experiment-management, nlp-llm）
+- 2026-07-12 ingest: WKN #298 → 新規 7 件（第 4 回関東 Kaggler 会の発表資料: milestones.md / events.md / concepts/image-recognition, experiment-management, nlp-llm, ai-agent, mindset）
 - 2026-07-12 ingest: WKN #299 → 新規 1 件（solutions.md）
 - 2026-07-12 ingest: WKN #300 → 新規 2 件（events.md / concepts/experiment-management）。既掲載論文の URL 変種 1 件はスキップ
 - 2026-07-12 ingest: WKN #301 → 新規 1 件（concepts/pytorch）
