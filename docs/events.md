@@ -50,6 +50,7 @@ https://kaggle-friends.connpass.com/
     - [YouTube](https://www.youtube.com/playlist?list=PL_ApLOfkNYwSvETFNijF-OGVthIzbnzZc)
 - [第 3 回 関東Kaggler 会](https://connpass.com/event/341085/)
     - [YouTube](https://www.youtube.com/playlist?list=PL_ApLOfkNYwQGnyyqDt4h5b-C8mIrLlAP)
+    - [第3回関東kaggler会に参加しました](https://daikichiba9511.github.io/my-personal-site/posts/review_kanto_kaggler_3rd_2025/): 各発表の概要・感想・資料リンクをまとめた参加録。
 - [第 2 回 関東Kaggler 会](https://kanto-kaggler.connpass.com/event/321748/)
     - [YouTube](https://www.youtube.com/watch?v=cLxEY1sWLAA&list=PL_ApLOfkNYwSaKTejlOVu97jyareN4ER0&pp=0gcJCbYEOCosWNin)
 - [第 1 回 関東Kaggler 会](https://kanto-kaggler.connpass.com/event/290248/)

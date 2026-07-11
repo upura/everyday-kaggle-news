@@ -19,6 +19,7 @@
 - [Determining the K in K-fold cross-validation](https://arxiv.org/abs/2511.12698): 交差検証の K を慣習ではなく効用最大化の観点で決める枠組みを提案する論文。
 - [shake-upを科学する](https://speakerdeck.com/rsakata/shake-upwoke-xue-suru): コンペ終了時の大きな順位変動の要因を、実体験とシミュレーションから考察する資料。
 - [リーダーボードという名の幻影：LMArenaは信じられるのか？](https://jiwasawa.github.io/blog_jp/posts/lmarena/): LLM 対戦評価「Chatbot Arena」の信頼性を指摘した論文の紹介記事。
+- [第3回関東kaggler会 🤔 妙だな... (Jun Koda)](https://speakerdeck.com/junkoda/di-3hui-guan-dong-kagglerhui-miao-dana-dot-dot-dot-jun-koda): データへの違和感をきっかけに潜んだ特徴を発見した経験を紹介する発表資料。
 - [Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation](https://arxiv.org/abs/2505.00612): データ汚染が避けにくい生成 AI の評価において、コンペ形式の厳密さを gold standard と位置づける position paper。
 - [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark): コンペ運営で培った対不正技術を活かした「Kaggle Benchmark」による独立したモデル評価環境の紹介。
 

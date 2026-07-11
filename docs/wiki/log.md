@@ -2,6 +2,9 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #271 → 新規 1 件（concepts/evaluation-validation）
+- 2026-07-12 ingest: WKN #272 → 新規 1 件（events.md）
+
 - 2026-07-12 ingest: WKN #273 → 新規 1 件（solutions.md）。GPU プレゼント企画の告知 1 件は時限性のためスキップ
 - 2026-07-12 ingest: WKN #274 → 新規 1 件（concepts/experiment-management）
 - 2026-07-12 ingest: WKN #275 → 新規 2 件（events.md / concepts/experiment-management）
