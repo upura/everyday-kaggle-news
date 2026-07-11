@@ -279,6 +279,7 @@
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle Image Matching Challenge 2025 紹介](https://www.docswell.com/s/7056084/K7EPVD-2025-07-14-153705)
+- [Image Matching Challenge 2025 振り返り会で発表してきた](https://ho.lc/blog/image-matching-challenge-2025): 7 位チームの発表資料つきの振り返り会参加録。
 - [Image Matching Challenge 2025 参加記](https://www.ariseanalytics.com/tech-info/20250822)
 - [kaggle IMC2025コンペ　上位解法まとめ](https://zenn.dev/yume_neko/articles/bee802ebf8b4d0)
 - [20250714_IMC2025振り返り会_Team_Sony_Matching](https://speakerdeck.com/muku_8949/20250714-imc2025zhen-rifan-rihui-team-sony-matching)

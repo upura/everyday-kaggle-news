@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #293 → 新規 1 件（solutions.md。ho.lc の URL は現行のハイフン形式で掲載）
+- 2026-07-12 ingest: WKN #294 → 新規 1 件（concepts/experiment-management）
 - 2026-07-12 ingest: WKN #295 → 新規 1 件（events.md）
 - 2026-07-12 ingest: WKN #296 → 新規 3 件（events.md / concepts/tabular, image-recognition）
 - 2026-07-12 ingest: WKN #297 → 新規 3 件（quickstart.md / concepts/experiment-management, nlp-llm）

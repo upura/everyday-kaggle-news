@@ -16,6 +16,7 @@
 - [分析コンペをチームで戦うための技術](https://www.takapy.work/entry/2020/12/22/225715): 5 人チームでの Issue ベースの実験管理・情報連携の実践記録。
 - [Kaggle Competitions Expertが振り返る、データ分析コンペ初心者が入賞するために必要なこと](https://codezine.jp/article/detail/21110)
 - [Kaggle GMに学ぶ実験管理 ~2025 spring~](https://hakuhodo-technologies.connpass.com/event/343750/)
+- [Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face](https://huggingface.co/blog/trackio): Hugging Face 製の軽量な実験管理ライブラリの紹介。
 - [機械学習プロジェクトにおける実験管理](https://www.docswell.com/s/2625216247/ZQXY9J-2026-02-02-185832): 再現性を担保するための考え方を紹介する講演資料。
 - [Kaggle銀メダル獲得に向けた実験管理の工夫](https://aitc.dentsusoken.com/column/how-to-approach-kaggle-competitions/): NLP コンペでの銀メダル獲得を支えた実験管理の実践記録。
 - [reduce_mem_usageの高速化](https://tellmoogle.hatenablog.com/entry/2020/12/22/faster_reduce_mem_usage)
