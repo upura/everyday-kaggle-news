@@ -83,6 +83,7 @@ https://kansaikaggler.connpass.com/
 - [JOAI2026 講評](https://speakerdeck.com/go5paopao/joai2026-jiang-ping): 第 2 回日本人工知能オリンピックの講評資料。日本代表の高校生らの取り組みも紹介。
 - [第2回日本人工知能オリンピック講評会 & 日本代表解法紹介](https://joai-commitee.connpass.com/event/389126/)
 - [知識ゼロからのAIオリンピック講座](https://joai-commitee.connpass.com/event/379970/)
+- [IOAI2025日本代表が金メダル1枚、銀メダル1枚、銅メダル2枚を獲得！](https://ioai-japan.org/2025/08/10/845/): 第 2 回国際人工知能オリンピックでの日本代表の成績報告。
 - [第1回日本人工知能オリンピック 講評 & 日本代表解法紹介](https://connpass.com/event/358952/)
 - [IOAI2025 日本代表派遣報告会](https://joai-commitee.connpass.com/event/369762/)
 - [中高生・高専生時代から始めるAI](https://joai-commitee.connpass.com/event/372826/)
@@ -93,6 +94,7 @@ https://kansaikaggler.connpass.com/
 - [RECRUIT TECH CONFERENCE 2026](https://www.recruit.co.jp/special/techconference2026/): Kaggle Grandmaster・Master が登壇するセッションが開催された技術カンファレンス。
 - [Kaggle サンタコンペ 2025 振り返り会](https://algo-artis.connpass.com/event/382730/)
 - [#22 CA x atmaCup 3rd 振り返り会](https://atma.connpass.com/event/380482/)
+- [atmaCup #20 in collaboration with Udemy　表彰式＆振り返り会](https://atma.connpass.com/event/364957/)
 - [MAP, Jigsaw, Code Golf 振り返り会 by 関東Kaggler会](https://kanto-kaggler.connpass.com/event/375336/presentation/): 発表資料の一部が公開されている。
 - [Google Developer Group - DevFest Tokyo 2025](https://gdg-tokyo.connpass.com/event/369416/): 「生成 AI 時代の Kaggle の姿」の発表があった Google 技術の総括イベント。
 - [RecSys2025論文読み会](https://connpass.com/event/372676/): 併設コンペの解法論文も扱う推薦システム国際会議の論文読み会。
