@@ -95,6 +95,7 @@ https://kansaikaggler.connpass.com/
 - [MAP, Jigsaw, Code Golf 振り返り会 by 関東Kaggler会](https://kanto-kaggler.connpass.com/event/375336/presentation/): 発表資料の一部が公開されている。
 - [Google Developer Group - DevFest Tokyo 2025](https://gdg-tokyo.connpass.com/event/369416/): 「生成 AI 時代の Kaggle の姿」の発表があった Google 技術の総括イベント。
 - [RecSys2025論文読み会](https://connpass.com/event/372676/): 併設コンペの解法論文も扱う推薦システム国際会議の論文読み会。
+- [KDD2025 論文読み会](https://lycorptech-jp.connpass.com/event/367452/): 併設コンペの上位解法の発表もあるデータマイニング国際会議の論文読み会。
 - [Kaggle Grandmasterが教える開発と解法＆コンペ主催企業が語る舞台裏 他](https://lycorptech-jp.connpass.com/event/387344/)
 - [Rist Meetup 2024「Kaggleは業務の役にたつ」](https://connpass.com/event/327246/)
 - [上位Kagglerに学ぶ 〜画像コンペの戦い方〜｜振り返り記事](https://recruit.hakuhodo-technologies.co.jp/hadoh/2824/)

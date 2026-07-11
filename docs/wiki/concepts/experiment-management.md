@@ -21,6 +21,7 @@
 - [reduce_mem_usageの高速化](https://tellmoogle.hatenablog.com/entry/2020/12/22/faster_reduce_mem_usage)
 - [Pythonでコードに意図を込める方法](https://qiita.com/suikabar/items/29cdc4a2bf1214f0966c)
 - [読みやすいPythonコードの書き方 (Ruff・命名規則・型ヒント)](https://www.docswell.com/s/2625216247/52Q6J9-2025-11-11-194450): コーディング規約・型ヒント・整形ツールを扱う講義資料。
+- [AIエンジニアリング入門：Pythonによる開発の基礎（uv, Ruff, dataclass, Pyright, Git hooks）](https://zenn.dev/dalab/articles/61f06f6b516f4e): 機械学習開発でのバージョン管理・コード品質管理の基礎をまとめた記事。
 
 ## 関連概念
 

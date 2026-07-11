@@ -817,6 +817,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
 
 - [RecSys Challenge 2025 Solution Article](https://blog.recruit.co.jp/data/articles/recsys-challenge-2025/)
+- [RecSys Challenge 2025 で優勝しました](https://blog.recruit.co.jp/data/articles/recsys-challenge-2025-appeal/): ユーザの行動履歴から埋め込み表現を獲得するコンペの優勝報告。
 - [RecSys Challenge 2024 優勝報告](https://speakerdeck.com/unonao/jsai2025-recsyschallenge2024-you-sheng-bao-gao)
 - [「Team Wantedly」 が RecSys Challenge 2020 で３位に入賞しました](https://www.wantedly.com/companies/wantedly/post_articles/249713)
 - [RecSys Challenge 2020 備忘録](https://note.com/myaun/n/ndcbd9a4e7150)
