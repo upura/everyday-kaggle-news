@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #285 → 新規 1 件（concepts/academic-competition）
+- 2026-07-12 ingest: WKN #286 → 新規 1 件（milestones.md）
 - 2026-07-12 ingest: WKN #287 → 新規 0 件（2 件とも既掲載）
 - 2026-07-12 ingest: WKN #288 → 新規 1 件（concepts/image-recognition）。ho.lc の URL 変種 1 件は既掲載のためスキップ
 - 2026-07-12 ingest: WKN #289 → 新規 0 件（3 件すべて既掲載）
