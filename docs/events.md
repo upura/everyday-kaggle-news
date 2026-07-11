@@ -70,6 +70,11 @@ https://kansaikaggler.connpass.com/
 
 - [第2回 湘南Kaggler会 参加レポート](https://nakakiiro.hateblo.jp/entry/2025/04/14/002500)
 
+## 沖縄 Kaggler 会
+
+- [沖縄Kaggler会](https://connpass.com/event/362463/)
+    - [沖縄Kaggler会を開催しました](https://zenn.dev/tanakou0226/articles/af575f66fb2b0b): 発表内容と資料を掲載する開催報告。
+
 ## 国際・日本人工知能オリンピック
 
 - [JOAI 2026 講評会レポート——出題意図と上位入賞者7名の解法を一挙公開](https://note.com/ioai_japan/n/ne8b5660e3d17): 日本人工知能オリンピックの出題意図と上位解法のまとめ。
@@ -88,6 +93,8 @@ https://kansaikaggler.connpass.com/
 - [Kaggle サンタコンペ 2025 振り返り会](https://algo-artis.connpass.com/event/382730/)
 - [#22 CA x atmaCup 3rd 振り返り会](https://atma.connpass.com/event/380482/)
 - [MAP, Jigsaw, Code Golf 振り返り会 by 関東Kaggler会](https://kanto-kaggler.connpass.com/event/375336/presentation/): 発表資料の一部が公開されている。
+- [Google Developer Group - DevFest Tokyo 2025](https://gdg-tokyo.connpass.com/event/369416/): 「生成 AI 時代の Kaggle の姿」の発表があった Google 技術の総括イベント。
+- [RecSys2025論文読み会](https://connpass.com/event/372676/): 併設コンペの解法論文も扱う推薦システム国際会議の論文読み会。
 - [Kaggle Grandmasterが教える開発と解法＆コンペ主催企業が語る舞台裏 他](https://lycorptech-jp.connpass.com/event/387344/)
 - [Rist Meetup 2024「Kaggleは業務の役にたつ」](https://connpass.com/event/327246/)
 - [上位Kagglerに学ぶ 〜画像コンペの戦い方〜｜振り返り記事](https://recruit.hakuhodo-technologies.co.jp/hadoh/2824/)

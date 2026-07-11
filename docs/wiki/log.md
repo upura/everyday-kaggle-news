@@ -2,6 +2,11 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-11 ingest: WKN #305 → 新規 2 件（concepts/nlp-llm ×2）
+- 2026-07-11 ingest: WKN #306 → 新規 3 件（events.md「沖縄 Kaggler 会」新設 / concepts/environment, nlp-llm）
+- 2026-07-11 ingest: WKN #307 → 新規 0 件（2 件とも既掲載）
+- 2026-07-11 ingest: WKN #308 → 新規 2 件（events.md）
+
 - 2026-07-11 restructure: 概念マップページ（docs/concept-map.md）を新設。ページ間の相互リンクを力学レイアウトで可視化（データはビルド時に tools/build_graph_data.py が生成）。共通ナビと README 目次から導線を追加
 
 - 2026-07-11 restructure: 文章規約を CLAUDE.md に新設（日本語の地の文は全角括弧。リンクタイトル・URL・コード・HTML は原文のまま）し、全ページの地の文の半角括弧を全角に一括変換（168 行）
