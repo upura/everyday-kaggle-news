@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-11 ingest: WKN #303 → 新規 3 件（solutions.md / concepts/academic-competition, image-recognition）
+- 2026-07-11 ingest: WKN #304 → 新規 2 件（concepts/audio, nlp-llm）。学生プログラムの募集告知 1 件は時限性のためスキップ
 - 2026-07-11 ingest: WKN #305 → 新規 2 件（concepts/nlp-llm ×2）
 - 2026-07-11 ingest: WKN #306 → 新規 3 件（events.md「沖縄 Kaggler 会」新設 / concepts/environment, nlp-llm）
 - 2026-07-11 ingest: WKN #307 → 新規 0 件（2 件とも既掲載）

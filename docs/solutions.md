@@ -291,6 +291,7 @@
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
 - [NeurIPS - Ariel Data Challenge 2025の振り返り](https://takaito0423.hatenablog.com/entry/2025/09/26/000201)
+- [NeurIPS - Ariel Data Challenge 2025の振り返り](https://horikitasaku.github.io/jp/posts/adc2025/): 系外惑星のスペクトル回復コンペの金メダル獲得者による振り返り。
 
 </div>
 
