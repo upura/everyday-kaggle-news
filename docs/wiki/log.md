@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #289 → 新規 0 件（3 件すべて既掲載）
+- 2026-07-12 ingest: WKN #290 → 新規 1 件（concepts/agent-competition）
 - 2026-07-12 ingest: WKN #291 → 新規 1 件（concepts/nlp-llm）
 - 2026-07-12 ingest: WKN #292 → 新規 8 件（concepts/image-recognition, mindset, experiment-management ×2, nlp-llm, evaluation-validation, tabular, ai-agent）。開催告知 2 件は既掲載イベントと重複のためスキップ
 - 2026-07-12 ingest: WKN #293 → 新規 1 件（solutions.md。ho.lc の URL は現行のハイフン形式で掲載）
