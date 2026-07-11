@@ -383,6 +383,7 @@
 
 - [Towards a More Efficient Reasoning LLM: AIMO2 Solution](https://speakerdeck.com/analokmaus/towards-a-more-efficient-reasoning-llm-aimo2-solution-summary-and-introduction-to-fast-math-models)
 - [教師あり学習と強化学習で作る 最強の数学特化LLM](https://speakerdeck.com/analokmaus/jiao-shi-arixue-xi-toqiang-hua-xue-xi-dezuo-ru-zui-qiang-noshu-xue-te-hua-llm): SFT と強化学習による数学特化 LLM の性能改善を解説する資料。
+- [AIMO-2 Winning Solution: Building State-of-the-Art Mathematical Reasoning Models with OpenMathReasoning dataset](https://arxiv.org/abs/2504.16891): 優勝解法をデータセット・学習済みモデルと合わせて公開した論文。
 
 </div>
 
