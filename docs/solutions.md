@@ -482,6 +482,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [UM - Game-Playing Strength of MCTS Variants 11th Place Solution](https://speakerdeck.com/ryushi496/um-game-playing-strength-of-mcts-variants-11th-place-solution)
+- [モンテカルロ木探索のパフォーマンスを予測する Kaggleコンペ解説 〜生成AIによる未知のゲーム生成〜](https://speakerdeck.com/rist/solution-um-game-playing-strength-of-mcts-variants): コンペ概要と取り組みの紹介資料。
 - [Kaggleコンペ「UM - Game-Playing Strength of MCTS Variants 」3位入賞解法徹底解説](https://qiita.com/DataRobot_PR/items/7e8195d1bcd11394ccaa)
 - [kaggle(UM-MCTSコンペ)振り返り(11th Place) &上位解法](https://zenn.dev/ryushi496/articles/ddd480808f6a86)
 
