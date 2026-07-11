@@ -22,6 +22,8 @@
 - [reduce_mem_usageの高速化](https://tellmoogle.hatenablog.com/entry/2020/12/22/faster_reduce_mem_usage)
 - [Pythonでコードに意図を込める方法](https://qiita.com/suikabar/items/29cdc4a2bf1214f0966c)
 - [読みやすいPythonコードの書き方 (Ruff・命名規則・型ヒント)](https://www.docswell.com/s/2625216247/52Q6J9-2025-11-11-194450): コーディング規約・型ヒント・整形ツールを扱う講義資料。
+- [[関西Kaggler会2025#2LT] 初学者+MLエンジニア対象！ モダンなPythonの書き方](https://speakerdeck.com/koheiiwamasa/guan-xi-kagglerhui-2025-number-2lt-chu-xue-zhe-plus-mlenziniadui-xiang-modannapythonnoshu-kifang): uv・ruff・mypy などを使う可読性向上 Tips の発表資料。
+- [テスト駆動Kaggle](https://speakerdeck.com/isax1015/tesutoqu-dong-kaggle): テストコードを書きながらコンペに取り組む考え方と実装例の発表資料。
 - [AIエンジニアリング入門：Pythonによる開発の基礎（uv, Ruff, dataclass, Pyright, Git hooks）](https://zenn.dev/dalab/articles/61f06f6b516f4e): 機械学習開発でのバージョン管理・コード品質管理の基礎をまとめた記事。
 - [Kaggleに役立つ高速化・並列化テクニック](https://speakerdeck.com/yuyamaguchi/kaggleniyi-li-tugao-su-hua-bing-lie-hua-tekunituku): アルゴリズム・実行速度・並列化の観点で試行回数を上げる技法の発表資料。
 - [【書籍メモ】『先輩データサイエンティストからの指南書 -実務で生き抜くためのエンジニアリングスキル』（技術評論社）](https://upura.hatenablog.com/entry/2025/08/19/181856): コード品質管理・データ確認・実験管理を扱う書籍の書評。
