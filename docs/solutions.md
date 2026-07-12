@@ -938,6 +938,22 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/predict-student-performance-from-game-play">Predict Student Performance from Game Play</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle : PSPコンペ復習](https://qiita.com/Ak_ki/items/38b85992547454005533): 特徴量選択の考え方に焦点を当てた上位解法の紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/image-matching-challenge-2023">Image Matching Challenge 2023</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle Image Matching Challenge 2023を振り返る](https://qiita.com/roniheka/items/ad4717afff1891c0eea3): 個人参加 3 位の振り返り記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/icr-identify-age-related-conditions">ICR - Identifying Age-Related Conditions</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 

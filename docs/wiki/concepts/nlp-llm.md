@@ -25,6 +25,7 @@
 - [RAG開発の超入門【RaggleのQuickStart Pythonのソースコードあり】](https://zenn.dev/galirage/articles/raggle_quickstart)
 - [Kaggle自然言語処理コンペ向けローカルLLM活用入門](https://speakerdeck.com/k951286/kagglezi-ran-yan-yu-chu-li-konpexiang-kerokarullmhuo-yong-ru-men)
 - [検索システム なぜ検索システムは欲しい情報を見つけられるのか、あるいはなぜ見つけられないのか](https://www.amazon.co.jp/dp/4065429714/): 検索の基本原理からランキング学習・検索拡張生成までを扱う書籍。
+- [機械学習による検索ランキング改善ガイド](https://www.ohmsha.co.jp/book/9784814400300/): ランキング学習の導入と改善をハンズオンで学ぶ書籍。
 
 ### コンペの定跡
 
@@ -32,6 +33,8 @@
 - [Kaggleで学んだBERTをfine-tuningする際のTips⑥〜LLMでも使える学習効率化編〜](https://www.ai-shift.co.jp/techblog/3609): LLM にも使える学習効率化手法を実験付きで紹介する連載第 6 回。
 - [BERT系モデルで文章をEmbeddingする際のTips](https://qiita.com/anyai_corp/items/1d66feea6102c28dd077): BERT による文章埋め込みの手法をコード付きで検証する記事。
 - [LLMとLoRAを用いたテキスト分類](https://github.com/hppRC/llm-lora-classification): LoRA で fine-tuning した GPT 系モデルの日本語分類性能の報告。
+- [BERT Classification Tutorial](https://github.com/hppRC/bert-classification-tutorial): 日本語データでの BERT 分類チュートリアル。事前学習済みモデルの性能比較つき。
+- [sparse_dot_topnを使った高速なcos類似度計算](https://www.ai-shift.co.jp/techblog/3557): 検索タスクのコサイン類似度計算を高速化する手法の紹介。コンペ優勝解法でも利用。
 - [2023-24年（上期）のKaggleコンペから学ぶ、NLPコンペの精度の上げ方](https://zenn.dev/nishimoto/articles/974f2a445f9d74): 複数の NLP コンペ上位解法を横断し、精度向上の共通パターンを抽出した記事。
 - [LLMコンペの戦い方](https://qiita.com/Isaka-code/items/82e73fb6e77ac62a2287): LLM コンペの特徴と、初心者が段階的に取り組むためのロードマップ。
 - [vLLMを利用したLLM推論高速化テクニック](https://acro-engineer.hatenablog.com/entry/2024/12/24/120000): vLLM・量子化・Prefix Caching による推論高速化を実測値付きで紹介。

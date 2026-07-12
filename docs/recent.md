@@ -9,6 +9,7 @@
 - Kaggle に登録しているアドレス宛の配信メール
 - [X](https://x.com/kaggle)
 - [Official Discord Server](https://www.kaggle.com/discussions/general/429933)
+- [Threads](https://www.threads.net/@officialkaggle)
 - [Product Announcements](https://www.kaggle.com/discussions/product-announcements?sort=published)
 
 ## コンペの開催情報
