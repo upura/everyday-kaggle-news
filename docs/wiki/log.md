@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-13 ingest: WKN #200 → 新規 3 件（events.md / milestones.md / concepts/image-recognition）
+- 2026-07-13 ingest: WKN #201 → 新規 5 件（solutions.md ×4 / concepts/competition-hosting）
+- 2026-07-13 ingest: WKN #202 → 新規 3 件（solutions.md、RSNA 2023 Abdominal の div 新設 / concepts/evaluation-validation, competition-hosting）
+
 - 2026-07-13 ingest: WKN #203 → 新規 1 件（concepts/audio）。既掲載シリーズの告知と初学者体験記はスキップ
 - 2026-07-13 ingest: WKN #204 → 新規 2 件（concepts/nlp-llm, evaluation-validation）
 - 2026-07-13 ingest: WKN #205 → 新規 2 件（concepts/image-recognition, nlp-llm）。既掲載シリーズの個別回はスキップ

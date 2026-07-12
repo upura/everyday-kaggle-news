@@ -587,6 +587,7 @@
 
 - [【DeNATechCon2024】新卒がソロでatmaCup 優勝&Kaggle 金メダル獲得した時の取り組み](https://www.docswell.com/s/DeNA_Tech/538W4D-2024-02-29-092204)
 - [kaggle LLM コンペ 上位解法を自分なりにまとめてみた話](https://note.com/japan_d2/n/na873dd82de6a)
+- [Kaggleコンペ（LLM Science Exam）の振り返りと上位解法まとめ](https://zenn.dev/nishimoto/articles/aff1fba9c75c34)
 
 </div>
 
@@ -613,6 +614,8 @@
 
 - [CommonLitコンペで学んだこと](https://speakerdeck.com/nogawanogawa/commonlitkonhetexue-ntakoto)
 - [ARISE Kaggle部活動記 #5](https://www.ariseanalytics.com/activities/report/20231117/): 個人参加 12 位の金メダル解法の紹介。
+- [【参加録】CommonLit - Evaluate Student Summaries](https://www.nogawanogawa.com/entry/commonlit_evaluate_student_summaries)
+- [kaggle Commonlit2　上位解法まとめ](https://zenn.dev/chiman/articles/246b309925e65d)
 
 </div>
 
@@ -916,11 +919,20 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection">RSNA 2023 Abdominal Trauma Detection</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [RSNA 2023 Abdominal Trauma Detection 反省会](https://speakerdeck.com/yu4u/rsna-2023-abdominal-trauma-detection-fan-sheng-hui): 腹部 CT から臓器損傷を判定するコンペの振り返り資料。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="audio" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/bengaliai-speech">Bengali.AI Speech Recognition</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
 
 - [【kaggle】 ベンガル語音声認識コンペの振り返り](https://zenn.dev/ktrw/articles/d156db0d3fda8e): ベンガル語音声認識コンペの概要と上位解法のまとめ。
+- [kaggle Bengaliコンペ 上位解法まとめ](https://zenn.dev/esprit/articles/89d83756e9f43b)
 
 </div>
 

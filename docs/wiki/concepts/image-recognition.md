@@ -49,6 +49,7 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [CVPR 2025 Report](https://x.com/HirokatuKataoka/status/1934663060200833392): 画像認識の国際会議 CVPR 2025 の研究潮流を 180 ページ超にまとめた参加報告資料。
 - [Large Vision Language Model (LVLM) に関する最新知見まとめ (Part 1)](https://speakerdeck.com/onely7/large-vision-language-model-lvlm-niguan-suruzui-xin-zhi-jian-matome-part-1): LLM と画像処理をつなぐ機構に焦点を当てた LVLM の知見まとめ。
 - [ECCV 2024 速報 (PDF)](https://hirokatsukataoka.net/temp/presen/241004ECCV2024Report_finalized.pdf): 国際会議 ECCV 2024 の研究動向を 130 ページ超にまとめた報告資料。
+- [ICCV 2023 速報 (PDF)](https://hirokatsukataoka.net/temp/presen/231006ICCV%202023%20Report%20(Release%20Ver.).pdf): 国際会議 ICCV 2023 の研究動向を 170 ページにまとめた報告資料。
 - [Segment Anything Model 2](https://speakerdeck.com/tenten0727/segment-anything-model-2): SAM 2 を初代との差分も含めて解説する資料。
 - [自然言語とVision&Language](https://speakerdeck.com/kuehara/zi-ran-yan-yu-tovision-and-language): 深層学習初期から大規模モデルまでの Vision & Language 研究動向の概観資料。
 - [⾃⼰教師あり学習によるビジョン基盤モデルの事前学習](https://speakerdeck.com/hf149/jiao-shi-arixue-xi-niyorubiziyonji-pan-moderunoshi-qian-xue-xi): 画像の自己教師あり学習の代表的手法と発展的話題のまとめ。

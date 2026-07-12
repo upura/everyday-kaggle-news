@@ -70,6 +70,7 @@
 - [Kaggleってやっぱり楽しいね！ Kaggle本の著者がその面白さや取り組み方を語った特別対談](https://codezine.jp/article/detail/13156)
 - [インタビュー記事:社内kaggle Expertのメダルまでの取り組み](https://www.acceluniverse.com/blog/developers/2019/11/kaggle-expert.html)
 - [kagglerを訪ねて三千里](https://www.youtube.com/watch?v=PsX-PnzBzWo&list=PLkBjLQIGEjJl2KzBv9mg0YIGgNDMsgsQe)
+- [Kaggle Grandmaster への道のりで得られたこと（Podcast）](https://podcasters.spotify.com/pod/show/wantedly-dev/episodes/Kaggle-Grandmaster--w-jy_msc-e2ae64c): hakubishin3 さんが Kaggle で得た知見を語る Podcast。
 - [SB IntuitionsにKaggle Grandmasterが誕生！Deep Researchチームの奥山が語るAIと競技、そして次の挑戦](https://note.com/sb_intuitions/n/nf9b9f1c96591)
 - [How This NVIDIA Kaggle Grandmaster Merges Innovation and Play (ONODERA)](https://blogs.nvidia.com/blog/nvidia-life-kazuki-onodera/)
 - [「見るべきは称号だけじゃない。そこに至る学びや実力が重要」Kaggle本著者が語るKaggleへの取り組み方](https://estyle.co.jp/media/intermediate/89/)

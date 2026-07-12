@@ -131,6 +131,7 @@ https://kansaikaggler.connpass.com/
 - [Kaggle Masterが語るMachineLearning - TechLovers #1](https://sony.connpass.com/event/315090/): 社内 Kaggle コミュニティ立ち上げなどを扱う SONY のイベント。
 - [Kaggle Grandmasterの思考法を紐解く 多様なKagglerを擁するDeNAに聞く！](https://findy.connpass.com/event/312003/)
 - [第6回全国医療AIコンテスト](https://aims.connpass.com/event/309489/): 学生・医療従事者向けのコンペと有識者講演のイベント。
+- [第4回 Data-Centric AI勉強会 -コンペLT大会-](https://dcai-jp.connpass.com/event/298953/): コンペでの Data-Centric な事例を扱う勉強会。
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)

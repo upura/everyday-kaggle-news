@@ -25,6 +25,8 @@
 - [PLAsTiCC Astronomical Classification Results](https://arxiv.org/abs/2012.12392)
 - [Ribonanza: deep learning of RNA structure through dual crowdsourcing](https://www.biorxiv.org/content/10.1101/2024.02.24.581671v1): Kaggle「Stanford Ribonanza RNA Folding」の成果と知見をまとめた論文。
 - [Hugging FaceのCompetitionsでscriptコンペをホストしてみた](https://www.ai-shift.co.jp/techblog/4271): Hugging Face の Competitions 機能による社内コンペ開催の報告。
+- [[関西Kaggler会 配布版] コミュニティコンペの継続的な開催について](https://speakerdeck.com/nejumi/guan-xi-kagglerhui-pei-bu-ban-komiyuniteikonpenoji-sok-de-nakai-cui-nituite): Kaggle の機能を用いた独自コンペの継続開催の知見をまとめた資料。
+- [IceCube -- Neutrinos in Deep Ice The Top 3 Solutions from the Public Kaggle Competition](https://arxiv.org/abs/2310.15674): IceCube コンペ上位 3 チームの取り組みを紹介する論文。
 - [Kaggle Conversations（Adaption Labs）](https://www.youtube.com/watch?v=lnKnLZd66Ng): Adaption Labs の CEO が、同社が開催した Kaggle コンペの狙いと AI 研究の展望を語る動画シリーズ。
 
 ## 関連概念
