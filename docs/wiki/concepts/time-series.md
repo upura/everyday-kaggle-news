@@ -23,6 +23,7 @@
 - [実践Data Scienceシリーズ Pythonではじめる時系列分析入門](https://www.amazon.co.jp/dp/4065369827): 古典的手法から新しい手法までを実践的に解説する書籍。
 - [時系列データのための大規模言語モデル](https://zenn.dev/tsurubee/articles/00446669b6c83a): サーベイ論文をもとに時系列データへの LLM 活用の手法分類を紹介する記事。
 - [Google Colabで時系列基盤モデルを試す①：Google timesfm](https://note.com/hatti8/n/n734aca9d4afb): 商用可能ライセンスの時系列基盤モデル 4 つを試す記事。
+- [Prophetによる時系列データ予測: Analyst-in-the-Loop](https://zenn.dev/aidemy/articles/3587a5c0d4c210): 株価データを題材にした Prophet による分析の流れの紹介。
 - [Polarsで始める時系列データ処理 #atmaCup 19 振り返り会 LT枠](https://speakerdeck.com/koheiiwamasa/polarsdeshi-merushi-xi-lie-detachu-li-number-atmacup-19-zhen-rifan-rihui-ltwaku)
 
 ## 関連概念

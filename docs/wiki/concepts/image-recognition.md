@@ -55,6 +55,7 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [自己教師あり学習による事前学習（CVIMチュートリアル）](https://speakerdeck.com/naok615/zi-ji-jiao-shi-arixue-xi-niyorushi-qian-xue-xi-cvimtiyutoriaru): 自己教師あり事前学習のサーベイチュートリアル資料。
 - [大規模画像テキストデータのフィルタリング手法の紹介](https://speakerdeck.com/lyakaap/da-gui-mo-hua-xiang-tekisutodetanohuirutaringushou-fa-noshao-jie): データフィルタリングで性能を競うコンペを題材にした発表資料。
 - [日本語CLIP 学習済みモデルと評価用データセットの公開](https://blog.recruit.co.jp/data/articles/japanese-clip/): 日本語特化 CLIP のモデルと評価データセットの公開記事。
+- [AI×医用画像の現状と可能性_2023年版](https://speakerdeck.com/tdys13/aixmedical-imaging-in-japan-2023): 医用画像 AI の研究・応用動向のまとめ資料。
 - [高性能な日本語マルチモーダル基盤モデル「clip-japanese-base」を公開しました](https://techblog.lycorp.co.jp/ja/20240514b): LINE ヤフーによる日本語 CLIP 初版の公開と開発手法の解説。
 - [論文まとめ: Local Feature Matching Using Deep Learning: A Survey(202401)](https://qiita.com/fam_taro/items/27f20ccf85fe86821fe6): 局所特徴量マッチングの総説論文の紹介記事。
 - [Vision Banana: Image Generators are Generalist Vision Learners](https://speakerdeck.com/kzykmyzw/vision-banana-image-generators-are-generalist-vision-learners): 画像生成モデルの微調整で汎用の画像認識モデルを作る Google DeepMind の取り組みの解説資料。

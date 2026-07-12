@@ -13,6 +13,7 @@
 - [Kaggle Grandmaster振り返り](https://zenn.dev/yume_neko/articles/314ab559048aa8): 初参加からの過程と得られたことを綴る振り返り記事。
 - [Kaggle Competition Grandmasterになるまでを振り返る](https://zenn.dev/chumajin/articles/grandmaster-article1): Kaggle との出会いから時系列で参加コンペを振り返る記事。
 - [Kaggle Grandmasterになるまでの振り返り](https://monnu621.hatenablog.com/entry/2024/01/26/180550): 参加コンペと取り組み方、得られたものを綴る振り返り記事。
+- [Kaggle Competition Grandmasterになるまでの5年間を振り返る](https://tattakaaqua.hatenablog.com/entry/2024/01/06/131713): 各コンペの感想と意識したことを綴る 5 年間の振り返り記事。
 
 ## Kaggle Master 振り返り
 

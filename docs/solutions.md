@@ -786,6 +786,10 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
 - [atmaCup #16 in collaboration with RECRUIT Winning Solution](https://www.guruguru.science/competitions/22/discussions/815241a7-0a00-4700-a456-5eed40a3ff9b/)
+- [atmaCup #16: 1st place solution + 取り組み方振り返り](https://speakerdeck.com/unonao/atmacup-number-16-1st-place-solution-plus-qu-rizu-mifang-zhen-rifan-ri)
+- [atmaCup #16 2nd Place Solution](https://speakerdeck.com/senkin13/atmacup-number-16-in-collaboration-with-recruit-2nd-place-solution)
+- [atmaCup #16 3rd Place Solution](https://speakerdeck.com/chimuichimu/atmacup-number-16-3rd-place-solution)
+- [推薦データ分析コンペに参加して得た知見](https://speakerdeck.com/yudai00/tui-jian-detafen-xi-konpenican-jia-sitede-tazhi-jian)
 
 </div>
 
