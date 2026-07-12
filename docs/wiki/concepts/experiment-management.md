@@ -37,6 +37,7 @@
 - [テスト駆動Kaggle](https://speakerdeck.com/isax1015/tesutoqu-dong-kaggle): テストコードを書きながらコンペに取り組む考え方と実装例の発表資料。
 - [AIエンジニアリング入門：Pythonによる開発の基礎（uv, Ruff, dataclass, Pyright, Git hooks）](https://zenn.dev/dalab/articles/61f06f6b516f4e): 機械学習開発でのバージョン管理・コード品質管理の基礎をまとめた記事。
 - [Kaggleに役立つ高速化・並列化テクニック](https://speakerdeck.com/yuyamaguchi/kaggleniyi-li-tugao-su-hua-bing-lie-hua-tekunituku): アルゴリズム・実行速度・並列化の観点で試行回数を上げる技法の発表資料。
+- [オブジェクト指向に学ぶデータサイエンスのコーディング術](https://zenn.dev/zenkigen_tech/articles/f15988969d9c3f): 前処理をクラスに整理して可読性・再利用性を高める考え方の紹介。
 - [reduce_mem_usageの高速化](https://tellmoogle.hatenablog.com/entry/2020/12/22/faster_reduce_mem_usage)
 
 ## 関連概念

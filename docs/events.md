@@ -121,6 +121,8 @@ https://kansaikaggler.connpass.com/
 - [トップKagglerに聞く、生成AI時代の実験管理術 W&Bミートアップ #18](https://wandb.connpass.com/event/348420/): 『目指せメダリスト！Kaggle実験管理術』著者らが登壇した実験管理イベント。
 - [DeNA × AI Talks #6 - 生成AI時代のKaggleの戦い方 上位解法とAI活用術](https://dena.connpass.com/event/382039/)
 - [DeNA Kaggle 振り返り会 Vol.3 - LLM Competitions](https://dena.connpass.com/event/355482/)
+- [【DeNA】Kaggle振り返り会 vol1 -LEAP&USPTOコンペ-](https://dena.connpass.com/event/324950)
+- [【ABEJA】3位入賞したKaggle GrandmasterによるLEAPコンペ解説](https://connpass.com/event/326148/)
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)

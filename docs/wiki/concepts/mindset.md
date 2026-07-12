@@ -24,6 +24,7 @@
 - [解説記事「実務にデータ分析コンペは有効か」](https://tech-ai.panasonic.com/jp/news_page.html?id=20241009): 電子情報通信学会誌に掲載された Grandmaster・Master 著者による解説記事。
 - [Competitionsだけじゃない！ Kaggle Notebooks Grandmasterのすすめ](https://speakerdeck.com/corochann/competitionstakesiyanai-kaggle-notebooks-grandmasternosusume): Notebooks 部門への取り組み方を紹介する二冠 Grandmaster の発表資料。
 - [Kaggleランカーの5人に聞いた、2023年面白かったコンペ5選と論文5選](https://sorabatake.jp/37130/): Grandmaster・Master 5 人へのアンケートをまとめた記事。
+- [関西Kaggler会 交流会 in Osaka 2024#2 データ分析コンペとの向き合い方 ver2](https://speakerdeck.com/takaito/guan-xi-kagglerhui-jiao-liu-hui-in-osaka-2024-number-2-detafen-xi-konpetonoxiang-kihe-ifang-ver2): 個人参加のメリット・デメリットも含むコンペとの向き合い方の発表資料。
 - [Kaggleは「キャリアの選択肢の拡大」に役立つ ーコンペで得た学びが、実務・教育・研究・執筆へと広がるまで](https://thinkit.co.jp/article/39307): コンペで得た学びが実務・教育・研究・執筆に広がった経験を綴った連載記事。
 - [Kaggleは「キャリア」に役立つ ー機械屋がデータサイエンティスト、R&Dというキャリアに至った道筋](https://thinkit.co.jp/article/39248): Kaggle での研鑽がデータサイエンス活用のキャリアに繋がった事例（連載第 2 回）。
 - [20250322_Monkey Conference Party 2025_プログラミングコンテストのススメ](https://www.docswell.com/s/tm8619/ZN182E-2025-03-22-142419)

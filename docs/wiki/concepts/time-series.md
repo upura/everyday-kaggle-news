@@ -19,6 +19,7 @@
 - [時系列基盤モデルChronos-Boltでお手軽に時系列予測を試してみた](https://acro-engineer.hatenablog.com/entry/2025/02/18/120000): AWS の時系列基盤モデルを AutoGluon 経由でゼロショット推論・fine-tuning する実例。
 - [パラメータ4個で710M超えのFoundation Modelに勝った時系列予測手法FLAIRの全貌](https://zenn.dev/t_honda/articles/flair-time-series-forecasting): 少パラメータで基盤モデルを上回る性能を報告する時系列予測手法の解説記事。
 - [時系列基盤モデルの現在(2025/12)](https://qiita.com/pigooosuke/items/1ee44c088e3db6c3c801): 時系列基盤モデルの研究動向を、検証論文も含めて整理したサーベイ記事。
+- [実践Data Scienceシリーズ Pythonではじめる時系列分析入門](https://www.amazon.co.jp/dp/4065369827): 古典的手法から新しい手法までを実践的に解説する書籍。
 - [Polarsで始める時系列データ処理 #atmaCup 19 振り返り会 LT枠](https://speakerdeck.com/koheiiwamasa/polarsdeshi-merushi-xi-lie-detachu-li-number-atmacup-19-zhen-rifan-rihui-ltwaku)
 
 ## 関連概念

@@ -2,6 +2,9 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #241 → 新規 3 件（events.md / concepts/mindset, experiment-management）
+- 2026-07-12 ingest: WKN #242 → 新規 3 件（milestones.md / events.md / concepts/time-series）
+
 - 2026-07-12 ingest: WKN #243 → 新規 5 件（solutions.md ×4、HMS / USPTO / 睡眠 / Machine Unlearning の div 新設 / quickstart.md）
 - 2026-07-12 ingest: WKN #244 → 新規 2 件（solutions.md、LMSYS の div 新設 / concepts/mindset）
 
