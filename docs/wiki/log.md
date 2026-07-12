@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-13 ingest: WKN #188 → 新規 4 件（solutions.md、Vesuvius Ink Detection の div 新設 / concepts/tabular, nlp-llm, image-recognition）
+- 2026-07-13 ingest: WKN #189 → 新規 3 件（milestones.md / concepts/environment, experiment-management）。ドキュメント多言語化のニュース 1 件はスキップ
+- 2026-07-13 ingest: WKN #190 → 新規 2 件（events.md / concepts/ai-agent）
+
 - 2026-07-13 ingest: WKN #191 → 新規 4 件（solutions.md ×2、#15 atmaCup の div 新設 / platform.md / concepts/nlp-llm）
 - 2026-07-13 ingest: WKN #192 → 新規 4 件（solutions.md ×2、ICR の div 新設 / milestones.md / concepts/nlp-llm）
 - 2026-07-13 ingest: WKN #193 → 新規 2 件（concepts/environment, academic-competition）

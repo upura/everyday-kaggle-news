@@ -600,6 +600,14 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/">Vesuvius Challenge - Ink Detection</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [$12,000 Ink Detection Followup (August 28th)](https://scrollprize.org/ink_detection_followup): 主催者による上位解法の紹介ページ。解説動画とコードへのリンクつき。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature">HuBMAP - Hacking the Human Vasculature</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 

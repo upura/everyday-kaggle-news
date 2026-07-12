@@ -29,6 +29,7 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [実は強い 非ViTな画像認識モデル](https://speakerdeck.com/tattaka/shi-haqiang-i-fei-vitnahua-xiang-ren-shi-moderu)
 - [物体検出フレームワークMMDetectionで快適な開発](https://www.slideshare.net/TatsuyaSuzuki16/mmdetection-236032837)
 - [Segmentation Models Pytorch の BackBone をカスタムする方法](https://zenn.dev/syu_tan/articles/c56919106e3682): SMP ライブラリの使い方と拡張方法の解説記事。
+- [OpenMMLabの始め方@SUMMER 2023](https://qiita.com/fam_taro/items/7f028dfeae2a79a10fe1): 画像認識ライブラリ OpenMMLab の使い方と Kaggle での事例の紹介。
 - [類似画像検索モデルの開発ノウハウ](https://speakerdeck.com/lycorptech_jp/20260526a): Kaggle Grandmaster による類似画像検索モデル開発の知見。タスク概要からモデル学習の工夫まで。
 - [動画コンペ小テク集](https://qiita.com/ShunsukeKikuchi/items/53f676a8ae0a3264ee8a): 動画コンペで定番のモデルや開発手法を紹介する知見集。
 - [物体検出モデルの推論高速化入門](https://zenn.dev/eversteel_tech/articles/51f9b749b8f051): CPU 推論に焦点を当てた物体検出の高速化手法を実験付きで紹介する記事。

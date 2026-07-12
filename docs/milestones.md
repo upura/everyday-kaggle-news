@@ -36,6 +36,7 @@
 
 ## Kaggle Expert 振り返り
 
+- [2023前半kaggle参戦記](https://zenn.dev/tonic/articles/f464b3f9b7e387): 2 コンペの銀メダルで Expert に昇格した参加者の体験記。
 - [Kaggle Expert になった記録と方法](https://zenn.dev/eastxe/articles/68b33a0d262692)
 - [プログラミング初心者がKaggle Expertになるまでの１０ヵ月間を振り返る](https://qiita.com/Kmat67916008/items/3fbead37b95e4c9506c2)
 - [Kaggle Expertになったコンペ振り返り](https://zenn.dev/porphyrio/articles/13f8b05325210e)

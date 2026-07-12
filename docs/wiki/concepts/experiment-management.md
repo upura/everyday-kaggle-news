@@ -28,6 +28,7 @@
 - [Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face](https://huggingface.co/blog/trackio): Hugging Face 製の軽量な実験管理ライブラリの紹介。
 - [【関西Kaggler会 2025#1】DatabricksからKaggler向けにMLflowのセッションを実施させて頂きました](https://qiita.com/naoyabe/items/2c19c77cc862cd4cbb00): MLflow を用いた実験管理方法の紹介記事。
 - [Google ColabでLightGBM+MLFlow使ってみた](https://qiita.com/tetsuro731/items/671c81669955d98bb6ff): Colab 上で LightGBM と MLflow を組み合わせる方法の紹介。
+- [実験を高速化する機械学習パイプライン開発の挑戦](https://tech-blog.abeja.asia/entry/ml-pipeline-development-202307): 加工・学習・推論を一連のワークフローで実行するツール開発の記事。
 - [MLコンペ実験テンプレートを作ろう!](https://speakerdeck.com/unonao/mlkonpeshi-yan-tenpuretowozuo-rou): Kaggle Grandmaster によるコンペ向け実験テンプレートの紹介資料。
 
 ### コード品質・高速化

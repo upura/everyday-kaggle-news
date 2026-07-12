@@ -25,6 +25,7 @@
 - [Ensemble Metrics](https://github.com/hitachi-nlp/ensemble-metrics): アンサンブルの強み・弱みを精度・多様性・情報損失の観点で要因分析するライブラリ。
 - [事例で学ぶ特徴量エンジニアリング](https://amzn.asia/d/1qdK69i): NLP・画像・時系列など 5 つの実例で特徴量エンジニアリングを学ぶ書籍。
 - [コンペで使える！？LightGBMで実装する３つの弱教師あり学習](https://tech-blog.abeja.asia/entry/lightgbm-weakly-supervised-learning-202309): 弱教師あり学習 3 設定の解き方と LightGBM 実装の紹介。
+- [sklearn.preprocessing.TargetEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.TargetEncoder.html): sklearn v1.3 で追加された target encoding の公式ドキュメント。
 - [人工知能学会２０２３ランチョンセミナー「アンサンブル学習における基礎理論の構築」](https://speakerdeck.com/morishtr/ren-gong-zhi-neng-xue-hui-2023rantiyonsemina-ansanburuxue-xi-niokeruji-chu-li-lun-nogou-zhu): アンサンブルの強み・弱みを分析できる理論の提案資料。
 - [最新のテーブルデータ向けNNモデルをまとめてみた](https://zenn.dev/mkj/articles/f7939cb221da14): ベンチマーク TabArena 上位を中心に表データ向け NN を紹介する記事。
 - [LightGBM のランク学習における正規化の効果](https://zenn.dev/suk1yak1/articles/0ef5d77b84ac80): lambdarank_norm の効果を検証し、正規化が学習の安定性と精度に寄与すると報告する記事。
