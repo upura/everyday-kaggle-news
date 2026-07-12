@@ -599,6 +599,15 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="multimodal" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts">Stable Diffusion - Image to Prompts</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Multimodal</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Stable Diffusion - Image to Prompts](https://speakerdeck.com/kfujikawa/stable-diffusion-image-to-prompts): 生成プロンプトを推定するコンペの概要と上位解法の解説資料。
+- [1st Place Solution | Stable Diffusion - Image to Prompts](https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/411237): 当時ランキング 1 位 bestfitting さんの優勝解法。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/">Vesuvius Challenge - Ink Detection</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
@@ -1001,6 +1010,7 @@
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle過去コンペ解説　BirdCLEF 2023](https://zenn.dev/yuto_mo/articles/4e428c3effffcc): 東アフリカの鳥の鳴き声分類コンペの優勝解法の解説。
+- [Kaggle振り返り🥈：BirdCLEF 2023](https://moritake04.hatenablog.com/entry/2023/05/29/213619)
 
 </div>
 

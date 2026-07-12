@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-13 ingest: WKN #179 → 新規 3 件（solutions.md / concepts/nlp-llm ×2）
+- 2026-07-13 ingest: WKN #180 → 新規 3 件（solutions.md、Stable Diffusion I2P の div 新設 / concepts/academic-competition, nlp-llm）
+- 2026-07-13 ingest: WKN #181 → 新規 3 件（solutions.md / concepts/environment, pytorch）
+
 - 2026-07-13 ingest: WKN #182 → 新規 6 件（solutions.md / milestones.md / concepts/image-recognition, pytorch, nlp-llm, tabular）
 - 2026-07-13 ingest: WKN #183 → 新規 5 件（milestones.md / events.md / concepts/nlp-llm, image-recognition, environment）
 - 2026-07-13 ingest: WKN #184 → 新規 1 件（concepts/tabular）。開催告知 2 件はスキップ
