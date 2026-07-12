@@ -31,6 +31,7 @@
 - [20250322_Monkey Conference Party 2025_プログラミングコンテストのススメ](https://www.docswell.com/s/tm8619/ZN182E-2025-03-22-142419)
 - [I trained a model. What is next?](https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26)
 - [実例で示すKaggleコンペと開発実務の差](https://www.docswell.com/s/kaeru_nantoka/Z8G8EW-2024-03-22-142237)
+- [実例で示すKaggleコンペと開発実務の差（Q_takka 版）](https://speakerdeck.com/yusuketakagi/lpixel-caddi-ibentozi-liao): 企画や制約などプロジェクト進行の観点で実務との違いを示す発表資料。
 - [【DeNA × AI Day】 DeNAのAI技術獲得戦略](https://www.docswell.com/s/DeNA_Tech/KEX9DJ-aiday-specific-1700)
 - [From Beginner to World Champion: What 10,000 hours on Kaggle taught me](https://www.linkedin.com/pulse/from-beginner-world-champion-what-10000-hours-kaggle-taught-henkel-w6tpf/)
 

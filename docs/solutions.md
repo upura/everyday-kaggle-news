@@ -883,6 +883,14 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="audio" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/birdclef-2023">BirdCLEF 2023</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle過去コンペ解説　BirdCLEF 2023](https://zenn.dev/yuto_mo/articles/4e428c3effffcc): 東アフリカの鳥の鳴き声分類コンペの優勝解法の解説。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="timeseries" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/optiver-trading-at-the-close">Optiver - Trading At The Close</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>

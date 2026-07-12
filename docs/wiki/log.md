@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #223 → 新規 1 件（solutions.md、BirdCLEF 2023 の div 新設）
+- 2026-07-12 ingest: WKN #224 → 新規 2 件（concepts/mindset, tabular）
+- 2026-07-12 ingest: WKN #225 → 新規 2 件（concepts/tabular ×2）。日本代表募集の告知 1 件はスキップ
+
 - 2026-07-12 ingest: WKN #226 → 新規 3 件（events.md / concepts/experiment-management, image-recognition）
 - 2026-07-12 ingest: WKN #227 → 新規 3 件（milestones.md / concepts/audio, nlp-llm）
 - 2026-07-12 ingest: WKN #228 → 新規 4 件（solutions.md / events.md / concepts/image-recognition, mindset）
