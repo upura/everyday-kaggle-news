@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #263 → 新規 3 件（milestones.md ×2 / concepts/image-recognition）
+- 2026-07-12 ingest: WKN #264 → 新規 1 件（milestones.md）。終了済みコンペの告知 1 件はスキップ
 - 2026-07-12 ingest: WKN #265 → 新規 1 件（concepts/tabular）。既掲載書籍の URL 変種 1 件はスキップ
 - 2026-07-12 ingest: WKN #266 → 新規 2 件（solutions.md）
 
