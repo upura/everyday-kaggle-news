@@ -64,6 +64,7 @@ https://kansaikaggler.connpass.com/
 - [関西Kaggler会 交流会 in Osaka 2026#1](https://kansaikaggler.connpass.com/event/375733/)
     - [「関西Kaggler会 交流会 2026#1」 に行ってきた！](https://zenn.dev/gatechnologies/articles/3df2a1bdf6be2c): 発表内容を紹介する参加録。
 - [関西Kaggler会 交流会 in Osaka 2025#3](https://kansaikaggler.connpass.com/event/360825/)
+- [関西Kaggler会 交流会 in Osaka 2024#2](https://kansaikaggler.connpass.com/event/316950/)
     - [関西Kaggler会 2025#3 に参加してきました](https://nakakiiro.hateblo.jp/entry/2025/11/16/160000)
     - [「関西Kaggler会 交流会 in Osaka 2025#3」の参加レポート](https://takaito0423.hatenablog.com/entry/2025/11/17/231650)
 
@@ -125,6 +126,7 @@ https://kansaikaggler.connpass.com/
 - [【ABEJA】3位入賞したKaggle GrandmasterによるLEAPコンペ解説](https://connpass.com/event/326148/)
 - [【マケデコ】OptiverコンペKaggle上位解法勉強会](https://mkdeco.connpass.com/event/316910/)
 - [Polars Data Crunch #1](https://polars-ja.connpass.com/event/318454/): Polars 日本コミュニティの第 1 回イベント。発表資料が公開されている。
+- [Kaggle Masterが語るMachineLearning - TechLovers #1](https://sony.connpass.com/event/315090/): 社内 Kaggle コミュニティ立ち上げなどを扱う SONY のイベント。
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)

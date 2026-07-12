@@ -853,6 +853,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [LLM Prompt Recoveryコンペの振り返り](https://speakerdeck.com/ktm/llm-prompt-recoverykonpenozhen-rifan-ri): LLM の出力からプロンプトの再現を試みるコンペの 12 位解法。
+- [Kaggle LLM Prompt Recoveryコンペまとめ](https://zenn.dev/s_shohey/articles/be7260809e7a75)
 
 </div>
 

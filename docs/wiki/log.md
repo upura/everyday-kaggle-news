@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #226 → 新規 3 件（events.md / concepts/experiment-management, image-recognition）
+- 2026-07-12 ingest: WKN #227 → 新規 3 件（milestones.md / concepts/audio, nlp-llm）
+- 2026-07-12 ingest: WKN #228 → 新規 4 件（solutions.md / events.md / concepts/image-recognition, mindset）
+
 - 2026-07-12 ingest: WKN #229 → 新規 3 件（events.md / concepts/nlp-llm, graph）
 - 2026-07-12 ingest: WKN #230 → 新規 1 件（concepts/time-series）。イベント告知は #232 掲載分と重複のためスキップ
 - 2026-07-12 ingest: WKN #231 → 新規 3 件（concepts/image-recognition, experiment-management, tabular）
