@@ -826,6 +826,7 @@
 - [Nishika 財務・非財務情報を活用した株式の価値予測コンペ振り返り](https://note.com/nishika_inc/n/n8678212cb614)
 - [AI×商標：イメージサーチコンペティション 2nd place solution](https://speakerdeck.com/anyai/nishika-aixshang-biao-imezisatikonpeteisiyon-2nd-place-solution)
 - [Nishika 日本酒銘柄画像検索コンペ 7位解法（備忘録）](https://zenn.dev/ubex/articles/0a49c6e912220f)
+- [Nishika 中古マンション価格予測コンペ 2023夏の部 3位解法](https://qiita.com/9en310/items/1ef8c957fd43b850162b)
 
 </div>
 
@@ -910,6 +911,22 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Solafune</span>
 
 - [[solafune] Sentinel-2 を活用した太陽光パネル検出 - 2nd Solution -](https://zenn.dev/mkj/articles/75e9dfac5d309a): 衛星画像から太陽光パネルを検出するコンペの 2 位解法と上位解法の紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="audio" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/bengaliai-speech">Bengali.AI Speech Recognition</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
+
+- [【kaggle】 ベンガル語音声認識コンペの振り返り](https://zenn.dev/ktrw/articles/d156db0d3fda8e): ベンガル語音声認識コンペの概要と上位解法のまとめ。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="other" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding">Stanford Ribonanza RNA Folding</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Stanford Ribonanza RNA Foldingコンペ 上位解法まとめ](https://zenn.dev/nishimoto/articles/14da0f491c7632): RNA 分子の構造推定コンペの上位解法まとめ。
 
 </div>
 
