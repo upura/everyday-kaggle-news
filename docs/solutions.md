@@ -620,6 +620,7 @@
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Solafune</span>
 
 - [Solafune の衛星画像の超解像コンペで 1 位を獲得しました](https://hack.nikkei.com/blog/solafune202304/): 衛星画像超解像コンペの 1 位解法。
+- [【solafune:5x Super-resolution of Satellite Images】private 2nd](https://qiita.com/roadto93ds/items/6b4c97bd082bf3fe8bbe)
 
 </div>
 
@@ -877,6 +878,7 @@
 - [AI×商標：イメージサーチコンペティション 2nd place solution](https://speakerdeck.com/anyai/nishika-aixshang-biao-imezisatikonpeteisiyon-2nd-place-solution)
 - [Nishika 日本酒銘柄画像検索コンペ 7位解法（備忘録）](https://zenn.dev/ubex/articles/0a49c6e912220f)
 - [Nishika 中古マンション価格予測コンペ 2023夏の部 3位解法](https://qiita.com/9en310/items/1ef8c957fd43b850162b)
+- [材料コンペ（Nishika）の2位解法](https://qiita.com/mi-212/items/694124649d2848a6b559)
 
 </div>
 
