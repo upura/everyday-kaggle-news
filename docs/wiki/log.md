@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-13 ingest: WKN #191 → 新規 4 件（solutions.md ×2、#15 atmaCup の div 新設 / platform.md / concepts/nlp-llm）
+- 2026-07-13 ingest: WKN #192 → 新規 4 件（solutions.md ×2、ICR の div 新設 / milestones.md / concepts/nlp-llm）
+- 2026-07-13 ingest: WKN #193 → 新規 2 件（concepts/environment, academic-competition）
+
 - 2026-07-13 ingest: WKN #194 → 新規 1 件（concepts/nlp-llm）。既掲載書籍の URL 変種 1 件はスキップ
 - 2026-07-13 ingest: WKN #195 → 新規 3 件（solutions.md / milestones.md / concepts/academic-competition）
 - 2026-07-13 ingest: WKN #196 → 新規 4 件（solutions.md、飛行機雲コンペの div 新設 / concepts/tabular ×2, nlp-llm）

@@ -605,6 +605,7 @@
 
 - [20250515_今更ながら2023年に参加したHuBMAP金ソリューションを綺麗にまとめ](https://speakerdeck.com/sugupoko/20250515-jin-geng-nagara2023nian-nican-jia-sitahubmapjin-soriyusiyonmatome)
 - [Kaggle HuBMAP2023 上位解法まとめと復習](https://zenn.dev/syu_tan/articles/fbf0b40aa8c686)
+- [Kaggle振り返り🥈：HuBMAP - Hacking the Human Vasculature](https://moritake04.hatenablog.com/entry/2023/08/06/202956)
 
 </div>
 
@@ -920,11 +921,28 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="tabular" data-platform="atmacup">
+<h3><a href="https://www.guruguru.science/competitions/21">#15 atmaCup</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
+
+- [#15 atmaCup 振り返り& 1st place solution](https://speakerdeck.com/unonao/number-15-atmacup-zhen-rifan-ri-and-1st-place-solution): 振り返り会で発表された優勝解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/icr-identify-age-related-conditions">ICR - Identifying Age-Related Conditions</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [ICRの上位解法を眺めた](https://teyoblog.hatenablog.com/entry/2023/08/15/165058): 匿名特徴量から症状を予測するコンペの上位解法まとめ。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming">Google Research - Identify Contrails to Reduce Global Warming</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle飛行機雲コンペで3位を獲得しました](https://tech.preferred.jp/ja/blog/kaggle-contrails-3rd-place/): 衛星画像から飛行機雲をセグメンテーションするコンペの 3 位解法。
+- [kaggle飛行機雲コンペ　上位解法まとめ](https://zenn.dev/yume_neko/articles/464e6ade7bd736)
 
 </div>
 
