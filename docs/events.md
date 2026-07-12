@@ -65,6 +65,7 @@ https://kansaikaggler.connpass.com/
     - [「関西Kaggler会 交流会 2026#1」 に行ってきた！](https://zenn.dev/gatechnologies/articles/3df2a1bdf6be2c): 発表内容を紹介する参加録。
 - [関西Kaggler会 交流会 in Osaka 2025#3](https://kansaikaggler.connpass.com/event/360825/)
 - [関西Kaggler会 交流会 in Osaka 2024#2](https://kansaikaggler.connpass.com/event/316950/)
+- [関西Kaggler会 交流会 in Osaka 2024#1](https://kansaikaggler.connpass.com/event/303413/)
     - [関西Kaggler会 2025#3 に参加してきました](https://nakakiiro.hateblo.jp/entry/2025/11/16/160000)
     - [「関西Kaggler会 交流会 in Osaka 2025#3」の参加レポート](https://takaito0423.hatenablog.com/entry/2025/11/17/231650)
 

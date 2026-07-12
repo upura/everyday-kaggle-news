@@ -586,6 +586,7 @@
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [【DeNATechCon2024】新卒がソロでatmaCup 優勝&Kaggle 金メダル獲得した時の取り組み](https://www.docswell.com/s/DeNA_Tech/538W4D-2024-02-29-092204)
+- [kaggle LLM コンペ 上位解法を自分なりにまとめてみた話](https://note.com/japan_d2/n/na873dd82de6a)
 
 </div>
 
@@ -611,6 +612,7 @@
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [CommonLitコンペで学んだこと](https://speakerdeck.com/nogawanogawa/commonlitkonhetexue-ntakoto)
+- [ARISE Kaggle部活動記 #5](https://www.ariseanalytics.com/activities/report/20231117/): 個人参加 12 位の金メダル解法の紹介。
 
 </div>
 

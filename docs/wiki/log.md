@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #206 → 新規 1 件（concepts/tabular）。既掲載シリーズの個別回と書籍セール告知はスキップ
+- 2026-07-12 ingest: WKN #207 → 新規 5 件（solutions.md / events.md / concepts/pytorch, agent-competition, academic-competition）
+- 2026-07-12 ingest: WKN #208 → 新規 1 件（solutions.md）。既掲載書籍の URL 変種 1 件はスキップ
+
 - 2026-07-12 ingest: WKN #209 → 新規 3 件（solutions.md / milestones.md / concepts/pytorch）
 - 2026-07-12 ingest: WKN #210 → 新規 1 件（concepts/nlp-llm）
 - 2026-07-12 ingest: WKN #211 → 新規 5 件（solutions.md ×2、Bengali.AI / Ribonanza の div 新設 / events.md / concepts/evaluation-validation, nlp-llm）。入門まとめの旧版 1 件は新版既掲載のためスキップ

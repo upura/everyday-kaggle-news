@@ -20,6 +20,7 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [眼科AI学会_AIコンペティション_8thsolutionと上位解法](https://www.docswell.com/s/yuki-tashiro/K3G7NE-ophthalmology-AI-competition-8th-solution#p1): 眼底写真からのメタボリックシンドローム推定コンペの 8 位解法と上位解法のまとめ。
 - [NTCIR-18](https://research.nii.ac.jp/ntcir/ntcir-18/index-ja.html): 情報アクセス技術の評価を目的に複数コンペが開催される国際会議。
 - [AI王で準優勝を獲りました](https://acro-engineer.hatenablog.com/entry/2024/02/13/120000): クイズ AI コンペ「AI王」第 4 回の問題作成部門の参加録。
+- [2023 LLMサマースクール コンペの解法メモ](https://www.docswell.com/s/KanHatakeyama/58GQRE-2023-11-25-115012): 東大松尾研サマースクール内コンペの 3 位解法。
 - [企画委員会だより〔第8回〕「学ぶ場」としてのコンペティションを考える](https://www.jstage.jst.go.jp/article/jjsai/41/2/41_234/_article/-char/ja/): 人工知能学会誌への寄稿。「学ぶ場」としてのコンペの意義を論じる。
 - [都市における人間移動予測の最前線 SIGSPATIAL Cup 2025 上位解法の紹介](https://speakerdeck.com/mujirushi/du-shi-niokeruren-jian-yi-dong-yu-ce-nozui-qian-xian-sigspatial-cup-2025-shang-wei-jie-fa-noshao-jie): 人間の移動予測を扱う ACM SIGSPATIAL 併設コンペの上位解法紹介。
 - [音声・映像データから感情と原因を抽出する - SemEval-2024優勝手法に学ぶ「非言語情報の言語化」アプローチ](https://zenn.dev/pksha/articles/0847a9f0e36d18): マルチモーダル情報から感情と原因の対を抽出する国際コンペの優勝解法の解説。
