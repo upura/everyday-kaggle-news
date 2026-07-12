@@ -454,6 +454,7 @@
 
 - [Kaggle LLM 20 Questionsの解説と上位ソリューションまとめ](https://qiita.com/Isaka-code/items/9b19b588f36c54845aa0)
 - [Geminiを使ったらKaggle初挑戦、参加期間10日間でも5位入賞できたので手法をすべて書く](https://qiita.com/yukky_memo/items/6e1c7fa08b9b91278886): 生成 AI を活用して初参加 10 日間で 5 位入賞した振り返り。
+- [KaggleのLLM 20 Questionsで金メダルを獲得しました](https://blog.recruit.co.jp/data/articles/kaggle-llm-20-questions-majimekun/): 対戦形式コンペの金メダル解法。
 
 </div>
 
@@ -825,6 +826,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
 - [kaggleのISIC 2024で5位、金メダルと賞金1万ドルを獲得しました](https://blog.recruit.co.jp/data/articles/kaggle_isic2024/): 3 次元全身写真から皮膚がんを特定するコンペの 5 位解法。
+- [timmのModelEmaについて（ISIC2024コンペ振り返り①）](https://zenn.dev/morim34/articles/bfa2465defee06): 上位解法の特徴的な取り組みを紹介する振り返り記事。
 
 </div>
 
@@ -834,6 +836,7 @@
 
 - [atma cup #17 振り返り会](https://speakerdeck.com/ktrw1011/atma-cup-number-17-zhen-rifan-rihui): 過去コンペの振り返りが効いた優勝解法の発表資料。
 - [atmaCup#17-3rd Place Solution-](https://speakerdeck.com/syurenuko/atmacup-number-17-3rd-place-solution): NLP コンペの初手で LLM を活用した 3 位解法。
+- [atmaCup #17 参加記録](https://zenn.dev/dalab/articles/e3343558ab97b7): レビューから商品推薦の有無を判定するコンペの 11 位解法。
 
 </div>
 

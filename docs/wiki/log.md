@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #249 → 新規 3 件（solutions.md ×3）
+- 2026-07-12 ingest: WKN #250 → 新規 0 件（2 件とも既掲載）
 - 2026-07-12 ingest: WKN #251 → 新規 2 件（solutions.md、ISIC 2024 の div 新設 / concepts/nlp-llm）
 - 2026-07-12 ingest: WKN #252 → 新規 4 件（events.md ×2 / concepts/image-recognition, mindset）。ho.lc の URL 変種 1 件は既掲載のためスキップ
 
