@@ -2,6 +2,9 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #265 → 新規 1 件（concepts/tabular）。既掲載書籍の URL 変種 1 件はスキップ
+- 2026-07-12 ingest: WKN #266 → 新規 2 件（solutions.md）
+
 - 2026-07-12 ingest: WKN #267 → 新規 2 件（concepts/nlp-llm, graph）
 - 2026-07-12 ingest: WKN #268 → 新規 1 件（concepts/nlp-llm）
 - 2026-07-12 ingest: WKN #269 → 新規 0 件（3 件すべて既掲載）

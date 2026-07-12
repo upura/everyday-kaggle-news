@@ -469,6 +469,8 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle Eedi - Mining Misconceptions in Mathematics 振り返り](https://zenn.dev/mkj/articles/a6e26546e31439)
+- [Kaggle Eediコンペ振り返り](https://speakerdeck.com/kuto5046/kaggle-eedikonpezhen-rifan-ri): 上位解法をまとめた発表資料。
+- [RTX3090x1でKaggle LLMコンペは戦えるのか？](https://zenn.dev/yume_neko/articles/5cd27dac3d8311): 計算資源の制限下で金メダル圏スコアの再現を目指す検証記事。
 - [Eediコンペ参戦記](https://www.docswell.com/s/kaeru_nantoka/53GLVL-2025-02-13-182323)
 - [Kaggle Eedi 参加記録](https://zenn.dev/dalab/articles/e56f7691cc7c8d)
 - [Kaggleコンペティション「Eedi – Mining Misconceptions in Mathematics」で得られた学び](https://tech.andpad.co.jp/entry/2025/01/08/100000)
