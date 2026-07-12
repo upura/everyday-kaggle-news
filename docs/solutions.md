@@ -820,6 +820,14 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/isic-2024-challenge">ISIC 2024 - Skin Cancer Detection with 3D-TBP</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [kaggleのISIC 2024で5位、金メダルと賞金1万ドルを獲得しました](https://blog.recruit.co.jp/data/articles/kaggle_isic2024/): 3 次元全身写真から皮膚がんを特定するコンペの 5 位解法。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="atmacup">
 <h3><a href="https://www.guruguru.science/competitions/24/">#17 [初心者歓迎] atmaCup</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">atmaCup</span>
