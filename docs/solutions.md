@@ -836,6 +836,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
 - [kaggle IMC2024コンペ　上位解法まとめ](https://zenn.dev/yume_neko/articles/050c204c3afd20): 画像から空間表現を生成するコンペの上位解法まとめ。
+- [kaggle IMC2024 振り返り（雑）](https://zenn.dev/sugupoko/articles/a656446c336dfd)
 
 </div>
 
