@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-13 ingest: WKN #203 → 新規 1 件（concepts/audio）。既掲載シリーズの告知と初学者体験記はスキップ
+- 2026-07-13 ingest: WKN #204 → 新規 2 件（concepts/nlp-llm, evaluation-validation）
+- 2026-07-13 ingest: WKN #205 → 新規 2 件（concepts/image-recognition, nlp-llm）。既掲載シリーズの個別回はスキップ
+
 - 2026-07-12 ingest: WKN #206 → 新規 1 件（concepts/tabular）。既掲載シリーズの個別回と書籍セール告知はスキップ
 - 2026-07-12 ingest: WKN #207 → 新規 5 件（solutions.md / events.md / concepts/pytorch, agent-competition, academic-competition）
 - 2026-07-12 ingest: WKN #208 → 新規 1 件（solutions.md）。既掲載書籍の URL 変種 1 件はスキップ

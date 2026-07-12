@@ -22,6 +22,7 @@
 - [第3回関東kaggler会 🤔 妙だな... (Jun Koda)](https://speakerdeck.com/junkoda/di-3hui-guan-dong-kagglerhui-miao-dana-dot-dot-dot-jun-koda): データへの違和感をきっかけに潜んだ特徴を発見した経験を紹介する発表資料。
 - [トラブルがあったコンペに学ぶデータ分析](https://speakerdeck.com/tereka114/toraburugaatutakonpenixue-budetafen-xi): ライセンスやデータ漏洩など、コンペで実際に起きた問題を参加者目線で紹介する資料。
 - [機械学習におけるEDAって結局何するの？](https://tech-blog.abeja.asia/entry/advent-2023-day25): 探索的データ分析の目的と心構えを整理した記事。
+- [Data-centric視点で過去コンペを振り返る](https://speakerdeck.com/inoichan/data-centricshi-dian-deguo-qu-konpewozhen-rifan-ru): データに着目した視点で過去コンペを振り返る発表資料。
 - [Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation](https://arxiv.org/abs/2505.00612): データ汚染が避けにくい生成 AI の評価において、コンペ形式の厳密さを gold standard と位置づける position paper。
 - [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark): コンペ運営で培った対不正技術を活かした「Kaggle Benchmark」による独立したモデル評価環境の紹介。
 
