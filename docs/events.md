@@ -134,6 +134,7 @@ https://kansaikaggler.connpass.com/
 - [Kaggle Grandmasterの思考法を紐解く 多様なKagglerを擁するDeNAに聞く！](https://findy.connpass.com/event/312003/)
 - [第6回全国医療AIコンテスト](https://aims.connpass.com/event/309489/): 学生・医療従事者向けのコンペと有識者講演のイベント。
 - [第4回 Data-Centric AI勉強会 -コンペLT大会-](https://dcai-jp.connpass.com/event/298953/): コンペでの Data-Centric な事例を扱う勉強会。
+- [🤗 Hugging Face x TohokuNLP Joint Workshop](https://sites.google.com/view/huggingface-tohoku-workshop): Hugging Face エンジニアらが登壇したワークショップ。
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)

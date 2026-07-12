@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-13 ingest: WKN #182 → 新規 6 件（solutions.md / milestones.md / concepts/image-recognition, pytorch, nlp-llm, tabular）
+- 2026-07-13 ingest: WKN #183 → 新規 5 件（milestones.md / events.md / concepts/nlp-llm, image-recognition, environment）
+- 2026-07-13 ingest: WKN #184 → 新規 1 件（concepts/tabular）。開催告知 2 件はスキップ
+
 - 2026-07-13 ingest: WKN #185 → 新規 2 件（solutions.md、IMC2023 の div 新設 / concepts/environment）
 - 2026-07-13 ingest: WKN #186 → 新規 3 件（solutions.md、PSP の div 新設 / concepts/nlp-llm, time-series）
 - 2026-07-13 ingest: WKN #187 → 新規 7 件（recent.md / events.md / concepts/graph, nlp-llm ×3, pytorch）。Keras Core は後継の Keras 3.0 既掲載のためスキップ

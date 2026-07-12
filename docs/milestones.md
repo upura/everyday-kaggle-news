@@ -17,6 +17,7 @@
 - [Kaggle Grandmaster への道のりで得られたもの](https://www.wantedly.com/companies/wantedly/post_articles/876592): 参加歴とコンペを通じて得られたものを綴る振り返り記事。
 - [Kaggle GrandMaster 振り返り](https://medium.com/@junkoda/kaggle-grandmaster-%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A-31bc67779b40): 個人参加の金メダル 5 つで昇格した Jun Koda さんの振り返り記事。
 - [Kaggle Grandmaster になるまでの振り返り](https://tnkcoder.hatenablog.com/entry/2023/08/11/201816): 修士 1 年で昇格した tk さんの振り返り記事。
+- [Kaggle Grandmasterになるまで](https://zenn.dev/s_shohey/articles/46d48ad096b82f): 称号の段階別の取り組みと参加姿勢を紹介する振り返り記事。
 
 ## Kaggle Master 振り返り
 
@@ -74,6 +75,7 @@
 - [インタビュー記事:社内kaggle Expertのメダルまでの取り組み](https://www.acceluniverse.com/blog/developers/2019/11/kaggle-expert.html)
 - [kagglerを訪ねて三千里](https://www.youtube.com/watch?v=PsX-PnzBzWo&list=PLkBjLQIGEjJl2KzBv9mg0YIGgNDMsgsQe)
 - [Kaggle Grandmaster への道のりで得られたこと（Podcast）](https://podcasters.spotify.com/pod/show/wantedly-dev/episodes/Kaggle-Grandmaster--w-jy_msc-e2ae64c): hakubishin3 さんが Kaggle で得た知見を語る Podcast。
+- [244. やっていて楽しいことをやっていく（ゲスト:セコンさん）](https://ossan.fm/episode/244): Kaggle の取り組みと魅力をゲームに例えて語る Podcast。
 - [SB IntuitionsにKaggle Grandmasterが誕生！Deep Researchチームの奥山が語るAIと競技、そして次の挑戦](https://note.com/sb_intuitions/n/nf9b9f1c96591)
 - [How This NVIDIA Kaggle Grandmaster Merges Innovation and Play (ONODERA)](https://blogs.nvidia.com/blog/nvidia-life-kazuki-onodera/)
 - [「見るべきは称号だけじゃない。そこに至る学びや実力が重要」Kaggle本著者が語るKaggleへの取り組み方](https://estyle.co.jp/media/intermediate/89/)
