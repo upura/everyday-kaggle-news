@@ -12,6 +12,7 @@
 
 - [グラフ道場 (Graph Dojo)](https://yuya-s.github.io/GraphDojo/)
 - [データのつながりを活かす技術〜ネットワーク／グラフデータの機械学習から得られる新視点](https://gihyo.jp/book/2025/978-4-297-14784-6): グラフ構造データの特徴抽出と機械学習活用を解説する書籍。
+- [僕たちがグラフニューラルネットワークを学ぶ理由](https://speakerdeck.com/joisino/pu-tatigagurahuniyurarunetutowakuwoxue-buli-you): 『グラフニューラルネットワーク』著者による導入と応用の紹介資料。
 
 ## 関連概念
 

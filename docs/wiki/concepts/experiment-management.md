@@ -39,6 +39,7 @@
 - [Kaggleに役立つ高速化・並列化テクニック](https://speakerdeck.com/yuyamaguchi/kaggleniyi-li-tugao-su-hua-bing-lie-hua-tekunituku): アルゴリズム・実行速度・並列化の観点で試行回数を上げる技法の発表資料。
 - [オブジェクト指向に学ぶデータサイエンスのコーディング術](https://zenn.dev/zenkigen_tech/articles/f15988969d9c3f): 前処理をクラスに整理して可読性・再利用性を高める考え方の紹介。
 - [reduce_mem_usageの高速化](https://tellmoogle.hatenablog.com/entry/2020/12/22/faster_reduce_mem_usage)
+- [爆速Python](https://www.shoeisha.co.jp/book/detail/9784798183732): 組み込み機能から GPU 利用まで、Python の処理速度に焦点を当てた書籍。
 
 ## 関連概念
 

@@ -123,6 +123,8 @@ https://kansaikaggler.connpass.com/
 - [DeNA Kaggle 振り返り会 Vol.3 - LLM Competitions](https://dena.connpass.com/event/355482/)
 - [【DeNA】Kaggle振り返り会 vol1 -LEAP&USPTOコンペ-](https://dena.connpass.com/event/324950)
 - [【ABEJA】3位入賞したKaggle GrandmasterによるLEAPコンペ解説](https://connpass.com/event/326148/)
+- [【マケデコ】OptiverコンペKaggle上位解法勉強会](https://mkdeco.connpass.com/event/316910/)
+- [Polars Data Crunch #1](https://polars-ja.connpass.com/event/318454/): Polars 日本コミュニティの第 1 回イベント。発表資料が公開されている。
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)

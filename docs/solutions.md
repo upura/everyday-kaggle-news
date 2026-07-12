@@ -870,6 +870,7 @@
 
 - [20240803_関東kaggler会_HMS振り返り&チームで取り組むkaggle](https://speakerdeck.com/sugupoko/20240803-guan-dong-kagglerhui-hmszhen-rifan-ri-and-timudequ-rizu-mukaggle): 脳波分類コンペの 1 位解法と社内チームでの取り組みの発表資料。
 - [HMSコンペ 11th Solution (team : kansai-kaggler)](https://speakerdeck.com/t88/hmskonpe-11th-solution-team-kansai-kaggler)
+- [2024/04 Kaggle HMS 全体的な解法のまとめ](https://zenn.dev/ycarbon/articles/35f8f6db98b6b2)
 
 </div>
 
@@ -878,6 +879,14 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle の『USPTO - Explainable AI for Patent Professionals』コンペティションで金メダル(5位/572チーム)の解法解説](https://www.mcdigital.jp/blog/kaggle-uspto-2024/): 特許検索の説明可能性を扱うコンペの 5 位解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="timeseries" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/optiver-trading-at-the-close">Optiver - Trading At The Close</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Optiver 2023 勉強会（データの基礎的な解析＋1st Solution）](https://www.docswell.com/s/8980249862/K6YQ3E-2024-05-23-200638): 終値予測コンペの基礎解析と 1 位解法の勉強会資料。録画も公開。
 
 </div>
 
