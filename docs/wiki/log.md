@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #239 → 新規 6 件（solutions.md ×2、LLM Prompt Recovery の div 新設 / concepts/recommendation, competition-hosting, nlp-llm, time-series）
+- 2026-07-12 ingest: WKN #240 → 新規 0 件（4 件すべて既掲載）
 - 2026-07-12 ingest: WKN #241 → 新規 3 件（events.md / concepts/mindset, experiment-management）
 - 2026-07-12 ingest: WKN #242 → 新規 3 件（milestones.md / events.md / concepts/time-series）
 

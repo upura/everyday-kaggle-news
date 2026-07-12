@@ -824,6 +824,14 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/llm-prompt-recovery">LLM Prompt Recovery</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [LLM Prompt Recoveryコンペの振り返り](https://speakerdeck.com/ktm/llm-prompt-recoverykonpenozhen-rifan-ri): LLM の出力からプロンプトの再現を試みるコンペの 12 位解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/lmsys-chatbot-arena">LMSYS - Chatbot Arena Human Preference Predictions</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -836,6 +844,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
 - [20240803_関東kaggler会_HMS振り返り&チームで取り組むkaggle](https://speakerdeck.com/sugupoko/20240803-guan-dong-kagglerhui-hmszhen-rifan-ri-and-timudequ-rizu-mukaggle): 脳波分類コンペの 1 位解法と社内チームでの取り組みの発表資料。
+- [HMSコンペ 11th Solution (team : kansai-kaggler)](https://speakerdeck.com/t88/hmskonpe-11th-solution-team-kansai-kaggler)
 
 </div>
 

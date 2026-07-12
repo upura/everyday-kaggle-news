@@ -15,6 +15,7 @@
 - [Kaggleコンペ「MITSUI & CO. Commodity Prediction Challenge」問題設計 詳細解説](https://zenn.dev/gamella/articles/7e944bd18cdbe6): 同コンペの設計担当者による解説記事。金融時系列コンペ特有の課題と設計意図を詳述。
 - [【Kaggle×人材育成】NTTグループ横断で100人が参加！Python初心者も2時間で楽しめるKaggleオンサイトコンペをやった話](https://qiita.com/daikon_desu/items/e6f672324d5d9c2ab1f3): 企業内の初心者向けオンサイトコンペの開催報告。修正箇所をプロンプトに限定する難易度調整など運営の工夫を紹介。
 - [コミュニティコンペティションを開催するときの Tips 集](https://www.abap34.com/posts/community_competetion_tips.html)
+- [コンペを気楽に開催しよーぜ!@関西Kaggler会](https://speakerdeck.com/nyk510/konpewoqi-le-nikai-cui-siyoze-at-guan-xi-kagglerhui): atmaCup 主催者によるコンペ開催のすすめの発表資料。
 - [Kaggleコミュニティコンペの開き方と振り返り](https://qiita.com/Ryushi496/items/dfc5dea38ac03e33acc8)
 - [Kaggle days Championshipのようなコンペを開催した話](https://zenn.dev/ryushi496/articles/4df4f2412cfdd9): 6 時間で 2 コンペを解く形式のコミュニティコンペの開催報告。
 - [kaggleコミュニティコンペ開催報告と上位解法](https://zenn.dev/ryushi496/articles/6213f94a4c7f29): 写真の撮影国を当てるコミュニティコンペの開催報告と上位解法。

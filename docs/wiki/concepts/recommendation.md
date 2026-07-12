@@ -11,6 +11,7 @@
 ## 資料
 
 - [レコメンドアルゴリズム入門：基礎から応用まで実装に必要な知識を解説](https://qiita.com/birdwatcher/items/b60822bdf9be267e1328)
+- [N=1 の推薦系コンペの戦い方](https://speakerdeck.com/unonao/n-equals-1-notui-jian-xi-konpenozhan-ifang): 推薦コンペでの優勝経験者による前処理からモデル学習までの発表資料。
 
 ## 関連概念
 
