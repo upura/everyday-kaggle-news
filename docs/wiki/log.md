@@ -2,6 +2,11 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #219 → 新規 1 件（concepts/competition-hosting）
+- 2026-07-12 ingest: WKN #220 → 新規 1 件（concepts/competition-hosting）
+- 2026-07-12 ingest: WKN #221 → 新規 4 件（solutions.md、Solafune 太陽光パネルの div 新設 / concepts/mindset, nlp-llm, tabular）
+- 2026-07-12 ingest: WKN #222 → 新規 4 件（milestones.md / events.md / concepts/audio, environment）。GPU 抽選企画の告知 1 件はスキップ
+
 - 2026-07-12 ingest: WKN #223 → 新規 1 件（solutions.md、BirdCLEF 2023 の div 新設）
 - 2026-07-12 ingest: WKN #224 → 新規 2 件（concepts/mindset, tabular）
 - 2026-07-12 ingest: WKN #225 → 新規 2 件（concepts/tabular ×2）。日本代表募集の告知 1 件はスキップ

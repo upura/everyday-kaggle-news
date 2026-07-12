@@ -883,6 +883,14 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="solafune">
+<h3><a href="https://solafune.com/ja/competitions/5dfc315c-1b24-4573-804f-7de8d707cd90?menu=about&tab=overview">Sentinel-2 を活用した太陽光パネル検出</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Solafune</span>
+
+- [[solafune] Sentinel-2 を活用した太陽光パネル検出 - 2nd Solution -](https://zenn.dev/mkj/articles/75e9dfac5d309a): 衛星画像から太陽光パネルを検出するコンペの 2 位解法と上位解法の紹介。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="audio" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/birdclef-2023">BirdCLEF 2023</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>

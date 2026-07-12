@@ -21,6 +21,7 @@
 - [Speech Language Models - a reazon-research Collection](https://huggingface.co/collections/reazon-research/speech-language-models): 日本語音声認識の事前学習済みモデル群の公開コレクション。
 - [音声感情認識技術の進展と展望](https://speakerdeck.com/nagase/yin-sheng-gan-qing-ren-shi-ji-shu-nojin-zhan-tozhan-wang): 音声感情認識の基礎と研究動向のサーベイ資料。
 - [Superlets: 時間-周波数解析における「超解像度」filterbank](https://zenn.dev/bilzard/articles/stft-wavelet-superlet): HMS コンペ優勝解法に登場した時間-周波数解析手法の解説記事。
+- [クロスモーダル表現学習の研究動向: 音声関連を中心として](https://speakerdeck.com/ryomasumura/kurosumodarubiao-xian-xue-xi-noyan-jiu-dong-xiang-yin-sheng-guan-lian-wozhong-xin-tosite): 音声を中心としたクロスモーダル表現学習の研究動向の解説資料。
 
 ## 関連概念
 
