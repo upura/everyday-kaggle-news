@@ -823,6 +823,30 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability">Home Credit - Credit Risk Model Stability</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle Home Credit - Credit Risk Model Stability 金メダル(13位)解法](https://qiita.com/Kento_Okumura/items/26004d5c5e129870a6ae): 債務不履行の可能性を評価するコンペの 13 位解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/image-matching-challenge-2024">Image Matching Challenge 2024 - Hexathlon</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [kaggle IMC2024コンペ　上位解法まとめ](https://zenn.dev/yume_neko/articles/050c204c3afd20): 画像から空間表現を生成するコンペの上位解法まとめ。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="other">
+<h3>DS Dojo #1（松尾研究所）</h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">その他</span>
+
+- [松尾研究所主催分析コンペ [DS Dojo #1] 回答したLLMの分類 - 1st Solution -](https://zenn.dev/mkj/articles/fe662c205e4158): テキストの出力元 LLM を特定するコンペの優勝解法。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/llm-prompt-recovery">LLM Prompt Recovery</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>

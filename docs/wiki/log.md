@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #236 → 新規 3 件（solutions.md、IMC2024 の div 新設 / concepts/pytorch ×2）。イベント URL 変種 1 件はスキップ
+- 2026-07-12 ingest: WKN #237 → 新規 3 件（solutions.md ×2、Home Credit 2・DS Dojo #1 の div 新設 / service.md「GitHub Actions」新設）
+- 2026-07-12 ingest: WKN #238 → 新規 3 件（milestones.md / concepts/nlp-llm, tabular）
+
 - 2026-07-12 ingest: WKN #239 → 新規 6 件（solutions.md ×2、LLM Prompt Recovery の div 新設 / concepts/recommendation, competition-hosting, nlp-llm, time-series）
 - 2026-07-12 ingest: WKN #240 → 新規 0 件（4 件すべて既掲載）
 - 2026-07-12 ingest: WKN #241 → 新規 3 件（events.md / concepts/mindset, experiment-management）

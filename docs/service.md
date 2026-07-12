@@ -27,6 +27,10 @@
 
 - [NVIDIA Kaggle Plugin](https://github.com/NVIDIA/nvidia-kaggle): Kaggle の公開解法を収集するためのプラグイン。
 
+## GitHub Actions
+
+- [GitHubプロフィールにKaggleのバッジを表示するGitHub Actionsを作成しました](https://qiita.com/Takayoshi_Makabe/items/8e287bc6a8f90018049c): Kaggle ランクに応じたバッジを生成する Actions の紹介。
+
 ## ニューズレター
 
 - [Weekly Kaggle News](https://weeklykagglenews.substack.com/)

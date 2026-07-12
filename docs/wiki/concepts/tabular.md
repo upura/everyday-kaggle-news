@@ -29,6 +29,7 @@
 - [プロダクトのコードをpandasからPolarsへ書き換えた話](https://speakerdeck.com/yudai00/purodakutonokodowopandaskarapolarsheshu-kihuan-etahua)
 - [polars 1.1.0以降の使える新機能](https://speakerdeck.com/ghibney/polars-1-dot-1-0yi-jiang-noshi-eruxin-ji-neng)
 - [Pandas[GPU] vs Polars[CPU] vs Polars[GPU]](https://zenn.dev/parfait/articles/dedb8c0bda00f8): 表データ処理ライブラリの速度を GPU の有無を含めて比較した記事。
+- [Announcing Polars 1.0](https://pola.rs/posts/announcing-polars-1/): Polars の Python 版 v1.0 公開の公式発表。設計刷新と GPU 高速化の展望つき。
 
 ## 関連概念
 

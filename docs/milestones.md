@@ -10,6 +10,7 @@
 - [Kaggle Grandmasterになったので取り組み方や今までを振り返る(kami編)](https://zenn.dev/dena/articles/f2c90e00ffbc26): これまでの取り組みと今後の意気込みを綴った振り返り記事。
 - [カグルとワタシ ~ kaggle GM振り返りポエム ~](https://qiita.com/Kmat67916008/items/631838d128e538f16119): 2019 年からの参加コンペの思い出と変化を綴る振り返り記事。
 - [Kaggle Grandmasterになるまでを振り返ってみる](https://penguin46.hatenablog.com/entry/2024/07/28/150155): 競技プログラミングの経験も活かして昇格した過程の振り返り記事。
+- [Kaggle Grandmaster振り返り](https://zenn.dev/yume_neko/articles/314ab559048aa8): 初参加からの過程と得られたことを綴る振り返り記事。
 
 ## Kaggle Master 振り返り
 
