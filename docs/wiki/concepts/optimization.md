@@ -16,6 +16,7 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [AtCoder Heuristic First-step Vol.1 講義スライド](https://speakerdeck.com/terryu16/atcoder-heuristic-first-step-vol-dot-1-jiang-yi-suraido)
 - [AHC (AtCoder Heuristic Contest) 攻略法をレッドコーダーにインタビュー](https://shindannin.hatenadiary.com/entry/2025/12/28/223052): レッドコーダー 4 人に取材したヒューリスティックコンペ攻略のインタビュー。
 - [AtCoderはKaggleの役に立つ](https://speakerdeck.com/chettub/di-3hui-guan-dong-kagglerhui-atcoderhakagglenoyi-nili-tu)
+- [ヒューリスティックコンテストで機械学習しよう](https://speakerdeck.com/nagiss/hiyurisuteitukukontesutodeji-jie-xue-xi-siyou): AHC での統計的手法の活用事例と特有の難しさを紹介する資料。
 
 ## 関連概念
 

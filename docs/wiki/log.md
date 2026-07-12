@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-13 ingest: WKN #197 → 新規 2 件（solutions.md / concepts/pytorch）
+- 2026-07-13 ingest: WKN #198 → 新規 2 件（concepts/time-series, nlp-llm）
+- 2026-07-13 ingest: WKN #199 → 新規 5 件（concepts/academic-competition ×2, competition-hosting, optimization, pytorch）
+
 - 2026-07-13 ingest: WKN #200 → 新規 3 件（events.md / milestones.md / concepts/image-recognition）
 - 2026-07-13 ingest: WKN #201 → 新規 5 件（solutions.md ×4 / concepts/competition-hosting）
 - 2026-07-13 ingest: WKN #202 → 新規 3 件（solutions.md、RSNA 2023 Abdominal の div 新設 / concepts/evaluation-validation, competition-hosting）

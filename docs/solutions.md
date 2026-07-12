@@ -817,6 +817,7 @@
 - [SIGNATE Cup 2024 夏 旅行パッケージ成約率予測 Bronze Solution](https://resweater.hatenablog.com/entry/2024/09/03/202547): 旅行パッケージの成約率予測コンペの銅メダル解法。
 - [ARISE Kaggle部活動記 #6](https://www.ariseanalytics.com/activities/report/20240206/): 第 1 回金融データ活用チャレンジの 4 位解法。
 - [Signate 第2回 金融データ活用チャレンジ ベースラインサマリー](https://zenn.dev/nishimoto/articles/1587fe7a29f145): 企業向けローンの返済可否予測コンペのベースライン記事。
+- [SIGNATE Student Cup 2023 の感想](https://qiita.com/haru1385/items/d947a1ba45720e357b1f): 前処理・特徴量・モデルを紹介する 25 位解法。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)
 - [【２位解法】SIGNATE開催CDLEハッカソン2020予測性能部門 「画像データに基づく気象予測」の振り返り。](https://oregin-ai.hatenablog.com/entry/2020/09/06/175415)

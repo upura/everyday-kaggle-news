@@ -19,6 +19,7 @@
 - [Kaggleコミュニティコンペの開き方と振り返り](https://qiita.com/Ryushi496/items/dfc5dea38ac03e33acc8)
 - [Kaggle days Championshipのようなコンペを開催した話](https://zenn.dev/ryushi496/articles/4df4f2412cfdd9): 6 時間で 2 コンペを解く形式のコミュニティコンペの開催報告。
 - [kaggleコミュニティコンペ開催報告と上位解法](https://zenn.dev/ryushi496/articles/6213f94a4c7f29): 写真の撮影国を当てるコミュニティコンペの開催報告と上位解法。
+- [traP コンペ 2023 夏 sponsored by ピクシブ株式会社 運営後記](https://trap.jp/post/1975/): 大学サークルによるコミュニティコンペ運営の記録。
 - [日経電子版のデータを用いた機械学習コンペティションをKaggle Days Tokyoで開催しました](https://hack.nikkei.com/blog/report_kaggle_days_tokyo)
 - [Learning to detect continuous gravitational waves: an open data-analysis competition](https://arxiv.org/abs/2509.06445)
 - [Public Kaggle Competition IceCube Analysis](https://arxiv.org/abs/2307.15289)
