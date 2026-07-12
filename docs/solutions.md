@@ -453,6 +453,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle LLM 20 Questionsの解説と上位ソリューションまとめ](https://qiita.com/Isaka-code/items/9b19b588f36c54845aa0)
+- [Geminiを使ったらKaggle初挑戦、参加期間10日間でも5位入賞できたので手法をすべて書く](https://qiita.com/yukky_memo/items/6e1c7fa08b9b91278886): 生成 AI を活用して初参加 10 日間で 5 位入賞した振り返り。
 
 </div>
 
@@ -525,6 +526,7 @@
 
 - [RSNA2024振り返り](https://speakerdeck.com/nanachi/rsna2024zhen-rifan-ri)
 - [Kaggleコンペ: RSNA2024 上位解法まとめ](https://zenn.dev/mkj/articles/ba630a8837ee72)
+- [kaggle RSNA2024コンペ　上位解法まとめ](https://zenn.dev/yume_neko/articles/7c3f2744f07b9f)
 
 </div>
 
@@ -799,6 +801,7 @@
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">SIGNATE</span>
 
 - [第1回 国土交通省コンペ優勝！賃料予測コンペ1位解法](https://www.estie.jp/blog/entry/2024/12/24/160000)
+- [【PCDUA】第1回 国土交通省 地理空間情報データチャレンジの戦い方を考える](https://takaito0423.hatenablog.com/entry/2024/10/23/221608): 地理空間情報コンペの取り組み方の紹介記事。
 - [第４回空戦AIチャレンジ最終一位チームの「最終解法」](https://qiita.com/TaroKawa_Spakona/items/0a2f110216f4d00f295c)
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)
@@ -814,6 +817,15 @@
 - [Nishika 財務・非財務情報を活用した株式の価値予測コンペ振り返り](https://note.com/nishika_inc/n/n8678212cb614)
 - [AI×商標：イメージサーチコンペティション 2nd place solution](https://speakerdeck.com/anyai/nishika-aixshang-biao-imezisatikonpeteisiyon-2nd-place-solution)
 - [Nishika 日本酒銘柄画像検索コンペ 7位解法（備忘録）](https://zenn.dev/ubex/articles/0a49c6e912220f)
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="atmacup">
+<h3><a href="https://www.guruguru.science/competitions/24/">#17 [初心者歓迎] atmaCup</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">atmaCup</span>
+
+- [atma cup #17 振り返り会](https://speakerdeck.com/ktrw1011/atma-cup-number-17-zhen-rifan-rihui): 過去コンペの振り返りが効いた優勝解法の発表資料。
+- [atmaCup#17-3rd Place Solution-](https://speakerdeck.com/syurenuko/atmacup-number-17-3rd-place-solution): NLP コンペの初手で LLM を活用した 3 位解法。
 
 </div>
 
@@ -884,6 +896,7 @@
 - [「Ego4D Challenge 2023」 の長期動作予測部門で、準優勝](https://connect.panasonic.com/jp-ja/about/who-we-are/research/cvpr2023)
 - [KDDCup2025 マルチモーダルRAGコンペにおける入賞チーム解法の紹介](https://nttdocomo-developers.jp/entry/2025/12/17/090000_4)
 - [RAG精度向上を目指したCRAGコンペ上位解法の紹介](https://nttdocomo-developers.jp/entry/2025/04/21/090000)
+- [データ分析コンペKDDCUP 2024 OAG-AQA 6位入賞解法の紹介](https://nttdocomo-developers.jp/entry/2024/10/17/090000): 学術質問応答を題材にした KDD Cup 2024 の 6 位解法。
 - [Kaggleでソロ金メダル獲得！primeNumber若松さんがデータの力で世界に挑む](https://lounge.primenumber.com/entry/n/n8425a299b9ed)
 - [Comp with Agent - AI agent for autonomous competition](https://github.com/jintonic3561/comp_with_agent)
 

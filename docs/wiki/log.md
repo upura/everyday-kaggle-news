@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #253 → 新規 5 件（solutions.md ×2 / concepts/ai-agent, mindset ×2）
+- 2026-07-12 ingest: WKN #254 → 新規 5 件（solutions.md ×4、atmaCup #17 の div 新設 / concepts/environment）
 - 2026-07-12 ingest: WKN #255 → 新規 1 件（events.md）
 - 2026-07-12 ingest: WKN #256 → 新規 3 件（solutions.md ×3）
 - 2026-07-12 ingest: WKN #257 → 新規 2 件（concepts/evaluation-validation, nlp-llm）
