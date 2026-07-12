@@ -823,6 +823,46 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/lmsys-chatbot-arena">LMSYS - Chatbot Arena Human Preference Predictions</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle 「LMSYS - Chatbot Arena Human Preference Predictions」 まとめ](https://zenn.dev/sinchir0/articles/1cb47925a225cb): コンペ概要・データ漏洩の経緯・上位解法の総括記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="timeseries" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification">HMS - Harmful Brain Activity Classification</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
+
+- [20240803_関東kaggler会_HMS振り返り&チームで取り組むkaggle](https://speakerdeck.com/sugupoko/20240803-guan-dong-kagglerhui-hmszhen-rifan-ri-and-timudequ-rizu-mukaggle): 脳波分類コンペの 1 位解法と社内チームでの取り組みの発表資料。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/uspto-explainable-ai/">USPTO - Explainable AI for Patent Professionals</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle の『USPTO - Explainable AI for Patent Professionals』コンペティションで金メダル(5位/572チーム)の解法解説](https://www.mcdigital.jp/blog/kaggle-uspto-2024/): 特許検索の説明可能性を扱うコンペの 5 位解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="timeseries" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states">Child Mind Institute - Detect Sleep States</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
+
+- [睡眠コンペ 1st place solution](https://speakerdeck.com/unonao/shui-mian-konpe-1st-place-solution): 評価指標に対する後処理の工夫を含む 1 位解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="other" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/neurips-2023-machine-unlearning">NeurIPS 2023 - Machine Unlearning</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggleで賞金200万円ゲットした話 〜 Machine Unlearning と Google AI Assistants 〜](https://speakerdeck.com/toshi_k_datasci/kaggledeshang-jin-200mo-yuan-getutositahua-machine-unlearning-to-google-ai-assistants): 2 つのコンペで賞金を獲得した体験談。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2024" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/isic-2024-challenge">ISIC 2024 - Skin Cancer Detection with 3D-TBP</a></h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
