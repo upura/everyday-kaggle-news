@@ -804,6 +804,7 @@
 - [第1回 国土交通省コンペ優勝！賃料予測コンペ1位解法](https://www.estie.jp/blog/entry/2024/12/24/160000)
 - [【PCDUA】第1回 国土交通省 地理空間情報データチャレンジの戦い方を考える](https://takaito0423.hatenablog.com/entry/2024/10/23/221608): 地理空間情報コンペの取り組み方の紹介記事。
 - [第４回空戦AIチャレンジ最終一位チームの「最終解法」](https://qiita.com/TaroKawa_Spakona/items/0a2f110216f4d00f295c)
+- [SIGNATE Cup 2024 夏 旅行パッケージ成約率予測 Bronze Solution](https://resweater.hatenablog.com/entry/2024/09/03/202547): 旅行パッケージの成約率予測コンペの銅メダル解法。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)
 - [【２位解法】SIGNATE開催CDLEハッカソン2020予測性能部門 「画像データに基づく気象予測」の振り返り。](https://oregin-ai.hatenablog.com/entry/2020/09/06/175415)
@@ -827,6 +828,7 @@
 
 - [kaggleのISIC 2024で5位、金メダルと賞金1万ドルを獲得しました](https://blog.recruit.co.jp/data/articles/kaggle_isic2024/): 3 次元全身写真から皮膚がんを特定するコンペの 5 位解法。
 - [timmのModelEmaについて（ISIC2024コンペ振り返り①）](https://zenn.dev/morim34/articles/bfa2465defee06): 上位解法の特徴的な取り組みを紹介する振り返り記事。
+- [【Kaggle】ISIC2024 240位🥉 振り返り](https://zenn.dev/yuto_mo/articles/9366013cba8d11)
 
 </div>
 

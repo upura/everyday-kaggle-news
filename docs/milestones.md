@@ -8,6 +8,7 @@
 - [Kaggle Competition Grandmasterになるまでの振り返り](https://sqrt4kaido.hatenablog.com/entry/2025/01/02/165851): 印象深いコンペの思い出とともに昇格までを振り返る記事。
 - [Kaggle Competitions Grandmaster になるまでの 6年半を振り返る](https://kaeru-nantoka.hatenablog.com/entry/2024/12/20/161203): 称号獲得までに参加したコンペを取り上げた振り返り記事。
 - [Kaggle Grandmasterになったので取り組み方や今までを振り返る(kami編)](https://zenn.dev/dena/articles/f2c90e00ffbc26): これまでの取り組みと今後の意気込みを綴った振り返り記事。
+- [カグルとワタシ ~ kaggle GM振り返りポエム ~](https://qiita.com/Kmat67916008/items/631838d128e538f16119): 2019 年からの参加コンペの思い出と変化を綴る振り返り記事。
 
 ## Kaggle Master 振り返り
 

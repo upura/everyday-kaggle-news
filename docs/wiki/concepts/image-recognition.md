@@ -47,6 +47,7 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [CVPR 2025 Report](https://x.com/HirokatuKataoka/status/1934663060200833392): 画像認識の国際会議 CVPR 2025 の研究潮流を 180 ページ超にまとめた参加報告資料。
 - [Large Vision Language Model (LVLM) に関する最新知見まとめ (Part 1)](https://speakerdeck.com/onely7/large-vision-language-model-lvlm-niguan-suruzui-xin-zhi-jian-matome-part-1): LLM と画像処理をつなぐ機構に焦点を当てた LVLM の知見まとめ。
 - [ECCV 2024 速報 (PDF)](https://hirokatsukataoka.net/temp/presen/241004ECCV2024Report_finalized.pdf): 国際会議 ECCV 2024 の研究動向を 130 ページ超にまとめた報告資料。
+- [Segment Anything Model 2](https://speakerdeck.com/tenten0727/segment-anything-model-2): SAM 2 を初代との差分も含めて解説する資料。
 - [Vision Banana: Image Generators are Generalist Vision Learners](https://speakerdeck.com/kzykmyzw/vision-banana-image-generators-are-generalist-vision-learners): 画像生成モデルの微調整で汎用の画像認識モデルを作る Google DeepMind の取り組みの解説資料。
 - [ドメイン特化なCLIPモデルとデータセットの紹介](https://speakerdeck.com/tattaka/domeinte-hua-na-clipmoderutodetasetutonoshao-jie)
 - [高性能な日本語マルチモーダル基盤モデル「clip-japanese-base-v2」の公開](https://techblog.lycorp.co.jp/ja/20251218a): LINE ヤフーによる日本語特化 CLIP の公開告知。データフィルタリングと知識蒸留による改善を解説。

@@ -126,4 +126,5 @@ https://kansaikaggler.connpass.com/
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)
 - [Kaggleグランドマスター直伝！DataRobotでビジネス課題を解くAI実践アプローチ](https://datarobot.connpass.com/event/355399/)
 - [Kaggle Grandmasterが語る - チームコンペで挑んだ日々から得た学び -](https://findy.connpass.com/event/351003)
+- [Kaggle Grandmaster 井戸端会議 〜Grandmasterへの軌跡と思考法〜](https://findy.connpass.com/event/329915/): Grandmaster 3 人が軌跡と思考法を語ったイベント。
 - [【オンライン】世界的データ分析コンペKDD Cup入賞者が語るコンペ攻略のコツ ＆ LT大会](https://pydatafukuoka.connpass.com/event/208050/)
