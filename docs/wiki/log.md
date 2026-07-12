@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-12 ingest: WKN #245 → 新規 0 件（3 件すべて既掲載）
+- 2026-07-12 ingest: WKN #246 → 新規 1 件（solutions.md）
 - 2026-07-12 ingest: WKN #247 → 新規 2 件（solutions.md / events.md）
 - 2026-07-12 ingest: WKN #248 → 新規 4 件（milestones.md / solutions.md / concepts/image-recognition）。YouTube プレイリストの URL 変種 1 件はスキップ
 

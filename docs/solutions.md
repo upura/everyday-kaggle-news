@@ -463,6 +463,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle LEAP Competition Solution解説&振り返り](https://speakerdeck.com/abeja/kaggle-leap-competition-solutionjie-shuo-and-zhen-rifan-ri)
+- [Kaggle LEAP コンペ 上位解法まとめ](https://zenn.dev/dena/articles/b4c3a5a04b7644): 4 位チーム参加者による上位解法のまとめ記事。
 
 </div>
 
