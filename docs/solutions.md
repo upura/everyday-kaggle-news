@@ -485,6 +485,7 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
 - [NeurIPS - Ariel Data Challenge 2024 振り返り](https://www.docswell.com/s/6883279/K1RXRP-2024-11-08-162001)
+- [Kaggle NeurIPS - Ariel Data Challenge 2024の2位ベイズ解法の解説](https://qiita.com/m5t0/items/21fa66c5ffb473e23b29): 系外惑星の信号抽出コンペの 2 位ベイズ解法の解説。
 
 </div>
 

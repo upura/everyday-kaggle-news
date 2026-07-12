@@ -96,6 +96,7 @@ https://kansaikaggler.connpass.com/
 - [Kaggle サンタコンペ 2025 振り返り会](https://algo-artis.connpass.com/event/382730/)
 - [#22 CA x atmaCup 3rd 振り返り会](https://atma.connpass.com/event/380482/)
 - [atmaCup #20 in collaboration with Udemy　表彰式＆振り返り会](https://atma.connpass.com/event/364957/)
+- [Turing × atmaCup #18 表彰式&振り返り会](https://turing.connpass.com/event/338583/)
 - [MAP, Jigsaw, Code Golf 振り返り会 by 関東Kaggler会](https://kanto-kaggler.connpass.com/event/375336/presentation/): 発表資料の一部が公開されている。
 - [Google Developer Group - DevFest Tokyo 2025](https://gdg-tokyo.connpass.com/event/369416/): 「生成 AI 時代の Kaggle の姿」の発表があった Google 技術の総括イベント。
 - [RecSys2025論文読み会](https://connpass.com/event/372676/): 併設コンペの解法論文も扱う推薦システム国際会議の論文読み会。
