@@ -599,6 +599,30 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="video" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/asl-signs">Google - Isolated Sign Language Recognition</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Video</span> <span class="badge badge-platform">Kaggle</span>
+
+- [1st place code with reproducibility](https://www.kaggle.com/competitions/asl-signs/discussion/406978): 手話認識コンペの再現実装つき優勝解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations">Learning Equality - Curriculum Recommendations</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggleの『Learning Equality - Curriculum Recommendations』コンペティションで金メダル(6位/1057チーム)を獲得しました！](https://www.mcdigital.jp/blog/kaggle-lecr-2023/): GM 昇格を決めた 6 位金メダル解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="solafune">
+<h3><a href="https://solafune.com/ja/competitions/7a1fc5e3-49bd-4ec1-8378-974951398c98">衛星画像の5倍超解像度化 (for OSS)</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Solafune</span>
+
+- [Solafune の衛星画像の超解像コンペで 1 位を獲得しました](https://hack.nikkei.com/blog/solafune202304/): 衛星画像超解像コンペの 1 位解法。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="multimodal" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts">Stable Diffusion - Image to Prompts</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Multimodal</span> <span class="badge badge-platform">Kaggle</span>
@@ -835,6 +859,7 @@
 - [SIGNATE Cup 2024 夏 旅行パッケージ成約率予測 Bronze Solution](https://resweater.hatenablog.com/entry/2024/09/03/202547): 旅行パッケージの成約率予測コンペの銅メダル解法。
 - [ARISE Kaggle部活動記 #6](https://www.ariseanalytics.com/activities/report/20240206/): 第 1 回金融データ活用チャレンジの 4 位解法。
 - [SIGNATE 金融データ活用チャレンジ ～解法編～](https://www.nri-digital.jp/tech/20230530-13833/): 第 1 回金融データ活用チャレンジの 21 位解法。
+- [SIGANTE「ブルーカーボン・ダイナミクスを可視化せよ！」最終評価 14 位の取り組みとコード](https://github.com/upura/signate-jsai2023-bluecarbon)
 - [Signate 第2回 金融データ活用チャレンジ ベースラインサマリー](https://zenn.dev/nishimoto/articles/1587fe7a29f145): 企業向けローンの返済可否予測コンペのベースライン記事。
 - [SIGNATE Student Cup 2023 の感想](https://qiita.com/haru1385/items/d947a1ba45720e357b1f): 前処理・特徴量・モデルを紹介する 25 位解法。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)

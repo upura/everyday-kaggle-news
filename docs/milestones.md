@@ -66,6 +66,7 @@
 - [From Aerospace Dreams to NASA Challenge Winner: Motoki Kimura](https://www.topcoder.com/blog/from-aerospace-dreams-to-nasa-challenge-winner-motoki-kimura): Topcoder「NASA Crater Detection Challenge」優勝者のインタビュー。
 - [予測モデルの気持ちで考える―。Kaggle上級者が説く、データ分析で"勝つ"術](https://gaishishukatsu.com/archives/174290)
 - [「面白い」ことが絶対条件。GrandmasterとMasterが指南するKaggleの"勝ち方"と"楽しみ方"](https://qiita.com/official-columns/interview/202204-hitachi/)
+- [「業務時間の最大40％をKaggleに投資」がもたらす効果とは？ Kaggle Grandmasterを2名同時輩出した医療AIベンチャーに聞く](https://type.jp/et/feature/22264/): Kaggle 参加を推奨する社内制度を語る CTO インタビュー。
 - [仕事も友達もKaggleで得た―。敏腕データサイエンティストが熱中する、分析で「競う」世界](https://gaishishukatsu.com/archives/171921)
 - [Profiling Top Kagglers: Bestfitting, Currently #1 in the World](https://medium.com/kaggle-blog/profiling-top-kagglers-bestfitting-currently-1-in-the-world-58cc0e187b)
 - [新たに2名がKaggle「Grandmaster」に！GOの"Kaggler"たちの挑戦の日々を振り返る](https://go-on.goinc.jp/n/n163470a9bb45)
