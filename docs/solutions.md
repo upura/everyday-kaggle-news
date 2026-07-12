@@ -675,6 +675,7 @@
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Video</span> <span class="badge badge-platform">Kaggle</span>
 
 - [NFL 1st and Future - Player Contact Detection 振り返り](https://sqrt4kaido.hatenablog.com/entry/2023/03/17/033111)
+- [NFLのPlayer Contact Detectionで金メダル獲得＆コンペ振り返り](https://acro-engineer.hatenablog.com/entry/2023/03/29/100000)
 
 </div>
 

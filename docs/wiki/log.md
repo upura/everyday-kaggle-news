@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-13 ingest: WKN #170 → 新規 2 件（milestones.md / concepts/pytorch）。併設コンペの開催告知 1 件はスキップ
+- 2026-07-13 ingest: WKN #171 → 新規 3 件（concepts/experiment-management, nlp-llm, environment）
+- 2026-07-13 ingest: WKN #172 → 新規 3 件（solutions.md / concepts/recommendation, agent-competition）
+
 - 2026-07-13 ingest: WKN #173 → 新規 3 件（concepts/image-recognition, competition-hosting, recommendation）
 - 2026-07-13 ingest: WKN #174 → 新規 3 件（solutions.md ×2 / concepts/tabular）
 - 2026-07-13 ingest: WKN #175 → 新規 2 件（events.md / concepts/nlp-llm）

@@ -21,6 +21,7 @@
 - [Kaggle Competitions Expertが振り返る、データ分析コンペ初心者が入賞するために必要なこと](https://codezine.jp/article/detail/21110)
 - [Kaggle GMに学ぶ実験管理 ~2025 spring~](https://hakuhodo-technologies.connpass.com/event/343750/)
 - [【書籍メモ】『先輩データサイエンティストからの指南書 -実務で生き抜くためのエンジニアリングスキル』（技術評論社）](https://upura.hatenablog.com/entry/2025/08/19/181856): コード品質管理・データ確認・実験管理を扱う書籍の書評。
+- [資源として見る実験プログラム](https://speakerdeck.com/hpprc/zi-yuan-tositejian-rushi-yan-puroguramu): 実験プログラムの管理・実装の指針と技法を紹介する発表資料。
 
 ### ツール・テンプレート
 

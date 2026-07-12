@@ -18,6 +18,7 @@
 - [Kaggle GrandMaster 振り返り](https://medium.com/@junkoda/kaggle-grandmaster-%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A-31bc67779b40): 個人参加の金メダル 5 つで昇格した Jun Koda さんの振り返り記事。
 - [Kaggle Grandmaster になるまでの振り返り](https://tnkcoder.hatenablog.com/entry/2023/08/11/201816): 修士 1 年で昇格した tk さんの振り返り記事。
 - [Kaggle Grandmasterになるまで](https://zenn.dev/s_shohey/articles/46d48ad096b82f): 称号の段階別の取り組みと参加姿勢を紹介する振り返り記事。
+- [Kaggle Grandmasterになったので今までを振り返る](https://aryyyyy.hatenablog.com/entry/2023/03/14/110252): RSNA 乳がん検出コンペで昇格した YujiAriyasu さんの振り返り記事。
 
 ## Kaggle Master 振り返り
 
