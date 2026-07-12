@@ -921,6 +921,14 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming">Google Research - Identify Contrails to Reduce Global Warming</a></h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle飛行機雲コンペで3位を獲得しました](https://tech.preferred.jp/ja/blog/kaggle-contrails-3rd-place/): 衛星画像から飛行機雲をセグメンテーションするコンペの 3 位解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection">RSNA 2023 Abdominal Trauma Detection</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -1065,6 +1073,7 @@
 - [KDDCup2025 マルチモーダルRAGコンペにおける入賞チーム解法の紹介](https://nttdocomo-developers.jp/entry/2025/12/17/090000_4)
 - [RAG精度向上を目指したCRAGコンペ上位解法の紹介](https://nttdocomo-developers.jp/entry/2025/04/21/090000)
 - [データ分析コンペKDDCUP 2024 OAG-AQA 6位入賞解法の紹介](https://nttdocomo-developers.jp/entry/2024/10/17/090000): 学術質問応答を題材にした KDD Cup 2024 の 6 位解法。
+- [データ分析コンペKDDCUP2023にてドコモの2チームが入賞した解法の紹介](https://nttdocomo-developers.jp/entry/2023099840900): 多言語推薦を題材にした KDD Cup 2023 の入賞解法。
 - [Kaggleでソロ金メダル獲得！primeNumber若松さんがデータの力で世界に挑む](https://lounge.primenumber.com/entry/n/n8425a299b9ed)
 - [Comp with Agent - AI agent for autonomous competition](https://github.com/jintonic3561/comp_with_agent)
 

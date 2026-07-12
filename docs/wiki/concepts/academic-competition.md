@@ -23,6 +23,7 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [2023 LLMサマースクール コンペの解法メモ](https://www.docswell.com/s/KanHatakeyama/58GQRE-2023-11-25-115012): 東大松尾研サマースクール内コンペの 3 位解法。
 - [1st prize in the "Automated checkout" competition of 7th AI CITY CHALLENGE](https://blog.fltech.dev/entry/2023/09/21/ai-city-challenge-1st-prize-en): 自動レジ技術を競う AI CITY CHALLENGE の 1 位解法。
 - [HuMob Challenge 2023 に参加しました！](https://osushinekotan.hatenablog.com/entry/2023/09/29/092252): 平常時とコロナ禍の人流予測コンペの参加録。
+- [SISAP 2023 Indexing Challenge 参加記](https://mti-lab.github.io/blog/2023/09/05/sisap23_comp_jp.html): 類似度検索の国際会議で開催された高速アルゴリズムコンペの 2 位解法。
 - [企画委員会だより〔第8回〕「学ぶ場」としてのコンペティションを考える](https://www.jstage.jst.go.jp/article/jjsai/41/2/41_234/_article/-char/ja/): 人工知能学会誌への寄稿。「学ぶ場」としてのコンペの意義を論じる。
 - [都市における人間移動予測の最前線 SIGSPATIAL Cup 2025 上位解法の紹介](https://speakerdeck.com/mujirushi/du-shi-niokeruren-jian-yi-dong-yu-ce-nozui-qian-xian-sigspatial-cup-2025-shang-wei-jie-fa-noshao-jie): 人間の移動予測を扱う ACM SIGSPATIAL 併設コンペの上位解法紹介。
 - [音声・映像データから感情と原因を抽出する - SemEval-2024優勝手法に学ぶ「非言語情報の言語化」アプローチ](https://zenn.dev/pksha/articles/0847a9f0e36d18): マルチモーダル情報から感情と原因の対を抽出する国際コンペの優勝解法の解説。

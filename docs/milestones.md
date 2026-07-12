@@ -15,6 +15,7 @@
 - [Kaggle Grandmasterになるまでの振り返り](https://monnu621.hatenablog.com/entry/2024/01/26/180550): 参加コンペと取り組み方、得られたものを綴る振り返り記事。
 - [Kaggle Competition Grandmasterになるまでの5年間を振り返る](https://tattakaaqua.hatenablog.com/entry/2024/01/06/131713): 各コンペの感想と意識したことを綴る 5 年間の振り返り記事。
 - [Kaggle Grandmaster への道のりで得られたもの](https://www.wantedly.com/companies/wantedly/post_articles/876592): 参加歴とコンペを通じて得られたものを綴る振り返り記事。
+- [Kaggle GrandMaster 振り返り](https://medium.com/@junkoda/kaggle-grandmaster-%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A-31bc67779b40): 個人参加の金メダル 5 つで昇格した Jun Koda さんの振り返り記事。
 
 ## Kaggle Master 振り返り
 
