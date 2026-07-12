@@ -806,6 +806,8 @@
 - [【PCDUA】第1回 国土交通省 地理空間情報データチャレンジの戦い方を考える](https://takaito0423.hatenablog.com/entry/2024/10/23/221608): 地理空間情報コンペの取り組み方の紹介記事。
 - [第４回空戦AIチャレンジ最終一位チームの「最終解法」](https://qiita.com/TaroKawa_Spakona/items/0a2f110216f4d00f295c)
 - [SIGNATE Cup 2024 夏 旅行パッケージ成約率予測 Bronze Solution](https://resweater.hatenablog.com/entry/2024/09/03/202547): 旅行パッケージの成約率予測コンペの銅メダル解法。
+- [ARISE Kaggle部活動記 #6](https://www.ariseanalytics.com/activities/report/20240206/): 第 1 回金融データ活用チャレンジの 4 位解法。
+- [Signate 第2回 金融データ活用チャレンジ ベースラインサマリー](https://zenn.dev/nishimoto/articles/1587fe7a29f145): 企業向けローンの返済可否予測コンペのベースライン記事。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)
 - [【２位解法】SIGNATE開催CDLEハッカソン2020予測性能部門 「画像データに基づく気象予測」の振り返り。](https://oregin-ai.hatenablog.com/entry/2020/09/06/175415)
@@ -820,6 +822,22 @@
 - [Nishika 財務・非財務情報を活用した株式の価値予測コンペ振り返り](https://note.com/nishika_inc/n/n8678212cb614)
 - [AI×商標：イメージサーチコンペティション 2nd place solution](https://speakerdeck.com/anyai/nishika-aixshang-biao-imezisatikonpeteisiyon-2nd-place-solution)
 - [Nishika 日本酒銘柄画像検索コンペ 7位解法（備忘録）](https://zenn.dev/ubex/articles/0a49c6e912220f)
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="3d" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/blood-vessel-segmentation">SenNet + HOA - Hacking the Human Vasculature in 3D</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
+
+- [SenNet + HOA 上位解法と復習まとめ](https://zenn.dev/syu_tan/articles/859a3fc56c714b): 腎臓血管のセグメンテーションコンペの上位解法まとめ。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/llm-detect-ai-generated-text">LLM - Detect AI Generated Text</a></h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [LLM - Detect AI Generated Textの振り返り](https://takaito0423.hatenablog.com/entry/2024/02/06/213041): LLM 生成テキストの判定コンペの 14 位金メダル解法。
 
 </div>
 

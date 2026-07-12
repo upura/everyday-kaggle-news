@@ -128,6 +128,7 @@ https://kansaikaggler.connpass.com/
 - [Polars Data Crunch #1](https://polars-ja.connpass.com/event/318454/): Polars 日本コミュニティの第 1 回イベント。発表資料が公開されている。
 - [Kaggle Masterが語るMachineLearning - TechLovers #1](https://sony.connpass.com/event/315090/): 社内 Kaggle コミュニティ立ち上げなどを扱う SONY のイベント。
 - [Kaggle Grandmasterの思考法を紐解く 多様なKagglerを擁するDeNAに聞く！](https://findy.connpass.com/event/312003/)
+- [第6回全国医療AIコンテスト](https://aims.connpass.com/event/309489/): 学生・医療従事者向けのコンペと有識者講演のイベント。
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)
