@@ -486,6 +486,7 @@
 
 - [NeurIPS - Ariel Data Challenge 2024 振り返り](https://www.docswell.com/s/6883279/K1RXRP-2024-11-08-162001)
 - [Kaggle NeurIPS - Ariel Data Challenge 2024の2位ベイズ解法の解説](https://qiita.com/m5t0/items/21fa66c5ffb473e23b29): 系外惑星の信号抽出コンペの 2 位ベイズ解法の解説。
+- [Arielコンペ負け犬の遠吠え](https://medium.com/@junkoda/ariel%E3%82%B3%E3%83%B3%E3%83%9A%E8%B2%A0%E3%81%91%E7%8A%AC%E3%81%AE%E9%81%A0%E5%90%A0%E3%81%88-c60b6bf512bd): コンペの要点と難しさを解説する参加録。
 
 </div>
 
@@ -817,6 +818,14 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2024" data-datatype="other" data-platform="other">
+<h3>Data Science Osaka Autumn 2024</h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">その他</span>
+
+- [Data Science Osaka Autumn 2024 -16th Place solution-](https://speakerdeck.com/ryushi496/data-science-osaka-autumn-2024-16th-place-solution): 人狼の特定と勝利陣営の予測を競うコミュニティコンペの参加記録。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="other" data-platform="other">
 <h3>国際・日本人工知能オリンピック</h3>
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">その他</span>
 
@@ -833,6 +842,7 @@
 
 - [RecSys Challenge 2025 Solution Article](https://blog.recruit.co.jp/data/articles/recsys-challenge-2025/)
 - [RecSys Challenge 2025 で優勝しました](https://blog.recruit.co.jp/data/articles/recsys-challenge-2025-appeal/): ユーザの行動履歴から埋め込み表現を獲得するコンペの優勝報告。
+- [RecSys Challege 3 位入賞 & 現地参加報告](https://voice.pkshatech.com/n/nd1d935935a90): RecSys Challenge 2024 の 3 位解法と現地参加の報告。
 - [RecSys Challenge 2024 優勝報告](https://speakerdeck.com/unonao/jsai2025-recsyschallenge2024-you-sheng-bao-gao)
 - [「Team Wantedly」 が RecSys Challenge 2020 で３位に入賞しました](https://www.wantedly.com/companies/wantedly/post_articles/249713)
 - [RecSys Challenge 2020 備忘録](https://note.com/myaun/n/ndcbd9a4e7150)
