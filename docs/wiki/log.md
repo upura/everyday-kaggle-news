@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-14 ingest: WKN #142〜#156（15 号、並列取得バッチ処理）→ 新規 68 件。solutions.md に div 6 つ新設（Mayo Clinic STRIP AI / Feedback Prize Effectiveness / Great Barrier Reef / Nishika 生鮮野菜 / Nishika ボケてコンペ / TPS May 2022）、JPX に追記。nlp-llm ×11、milestones ×9、events ×10、image-recognition ×8、environment ×7、mindset ×5、academic-competition ×5、time-series ×3、tabular ×3、competition-hosting ×4、evaluation-validation ×2、recommendation ×1、optimization ×1、experiment-management ×1 に配分。この時期の号（#147 以前）は HTML が blockquote 形式でなくなるため、抽出スクリプトに旧形式（段落直下のリンク＋直後の段落説明）へのフォールバックを追加した
+
 - 2026-07-14 ingest: WKN #157 → 新規 9 件（solutions.md ×1（div）/ concepts/nlp-llm ×4, recommendation ×2, optimization ×1, experiment-management ×1, tabular ×1, milestones ×1, academic-competition ×1）
 - 2026-07-14 ingest: WKN #158 → 新規 5 件（solutions.md ×2（div 新設）/ concepts/tabular, optimization / concepts/competition-hosting）
 - 2026-07-14 ingest: WKN #159 → 新規 3 件（concepts/tabular, image-recognition, time-series）

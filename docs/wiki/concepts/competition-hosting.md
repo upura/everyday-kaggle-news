@@ -22,6 +22,9 @@
 - [traP コンペ 2023 夏 sponsored by ピクシブ株式会社 運営後記](https://trap.jp/post/1975/): 大学サークルによるコミュニティコンペ運営の記録。
 - [【募集案内】人工知能学会コンペティション開催支援制度募集要領](https://www.ai-gakkai.or.jp/event/ai-seminar/competition_convening_support/): 最大 100 万円の助成でコンペ開催を支援する学会制度。
 - [データサイエンスコンテストを開催するときに考えること](https://qiita.com/torumitsutake/items/c4998e455f76808a63a7): Solafune 運営者による開催側視点の検討事項まとめ。
+- [Foursquare - Location Matching 開催報告](https://developer.foursquare.com/article/finding-the-right-poi-match/): POI 重複判定コンペの主催者による開催報告。
+- [東工大サークルでの Kaggle 部設立記](https://trap.jp/post/1697/): 初心者向けコンペの開催記録を含む Kaggle 部設立の記事。
+- [JPX Tokyo Stock Exchange Prediction 開催知見](https://zenn.dev/gamella/articles/eaf7fe5a96bdf0): 金融コンペの問題設計の工夫を綴る主催者記事。
 - [日経電子版のデータを用いた機械学習コンペティションをKaggle Days Tokyoで開催しました](https://hack.nikkei.com/blog/report_kaggle_days_tokyo)
 - [Learning to detect continuous gravitational waves: an open data-analysis competition](https://arxiv.org/abs/2509.06445)
 - [Public Kaggle Competition IceCube Analysis](https://arxiv.org/abs/2307.15289)

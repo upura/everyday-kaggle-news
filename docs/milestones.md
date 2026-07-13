@@ -21,6 +21,14 @@
 - [Kaggle Grandmasterになったので今までを振り返る](https://aryyyyy.hatenablog.com/entry/2023/03/14/110252): RSNA 乳がん検出コンペで昇格した YujiAriyasu さんの振り返り記事。
 - [Kaggle Grandmasterになったのでこれまでの参加コンペを振り返る](https://yu4u.hatenadiary.org/entry/2023/01/15/185119): G2Net コンペで昇格した yu4u さんの回顧録。
 - [Kaggle Masterになったのでポエム](https://zenn.dev/umeko/articles/18accdcf05da6a): Master 昇格までのコンペ歴を綴る振り返り記事。
+- [Kaggle コンペ Feedback Prize - English Language Learning でチーム参加15位金メダル取得で、Kaggle Master へ](https://secon.dev/entry/2022/11/30/100000-kaggle-fp3-comp/)
+- [Open Problems - Multimodal Single-Cell Integration 優勝者の振り返り](https://www.mattari-benkyo-note.com/2022/11/19/open-problems-multimodal/): 優勝と同時に Grandmaster 昇格した Shuji Suzuki さんの振り返り記事。
+- [Dieter さんの Grandmaster への軌跡](https://christofhenkel.github.io/dieters-blog-v2/posts/2022-11-20-chapter-3.html): 個人参加で金メダルを重ね世界ランク 1 位になった軌跡の記事。
+- [Google Universal Image Embedding で Grandmaster に昇格した振り返り](https://zenn.dev/hirune924/articles/6519ee83e817a9): hirune924 さんの GM 昇格振り返り記事。
+- [10日に終了したKaggle「Google Universal Image Embedding」で5位に入ったhirune924さんがGrandmasterに昇格しました](https://www.nssol.nipponsteel.com/press/2022/20221019_110000.html): 所属企業によるプレスリリース。
+- [Google Smartphone Decimeter Challenge 2022 上位者へのインタビュー](https://www.gpsworld.com/smart-ways-to-improve-smartphone-location-accuracy/)
+- [Rist の Kaggle チーム紹介](https://www.rist.co.jp/blog/202209084200/): Grandmaster 4 人が在籍するチームのメンバー Q&A 記事。
+- [Kaggle Master taksai さんのインタビュー](https://voice.pkshatech.com/n/n17b099a74f83): コンペで得られた学びを語るインタビュー記事。
 - [世界トップクラスAIエンジニアの証明である「Kaggle Grandmaster」に世界で最初に認定された73名のうちの一人・小嵜耕平がRistに入社](https://www.rist.co.jp/202303014651/): 『Kaggleに挑む深層学習プログラミングの極意』著者 smly さんの入社リリース。
 
 ## Kaggle Master 振り返り

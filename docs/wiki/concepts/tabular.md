@@ -46,6 +46,8 @@
 - [評価指標入門〜データサイエンスとビジネスをつなぐ架け橋](https://amzn.asia/d/fsYciY8): 評価指標を軸にビジネス課題をデータサイエンスの問題に落とし込む書籍。
 - [Optunaによるブラックボックス最適化](https://amzn.asia/d/6aUSXdB): Optuna 開発者らによるハイパーパラメータ最適化の書籍。
 - [『Rユーザのためのtidymodels[実践]入門』という本が出ます。](https://y-mattu.hatenablog.com/entry/tidymodels_book): R 言語の機械学習ライブラリ tidymodels を扱う日本語初の書籍。
+- [表形式データライブラリの比較検証（PyCon JP 2022）](https://speakerdeck.com/mhrtech/pyconjp2022-hpc): 大規模な表形式データを処理するライブラリの比較資料。
+- [RAPIDS が pip でインストール可能に](https://rapids.ai/pip.html): GPU 機械学習ライブラリ RAPIDS の pip 対応の公式告知。
 - [Pandas[GPU] vs Polars[CPU] vs Polars[GPU]](https://zenn.dev/parfait/articles/dedb8c0bda00f8): 表データ処理ライブラリの速度を GPU の有無を含めて比較した記事。
 - [Announcing Polars 1.0](https://pola.rs/posts/announcing-polars-1/): Polars の Python 版 v1.0 公開の公式発表。設計刷新と GPU 高速化の展望つき。
 - [RAPIDS cuDF Instantly Accelerates pandas up to 50x on Google Colab](https://developer.nvidia.com/blog/rapids-cudf-instantly-accelerates-pandas-up-to-50x-on-google-colab/): GPU 版 pandas「cuDF」が Colab に組み込まれた発表。

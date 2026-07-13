@@ -18,6 +18,7 @@
 - [Building a Recommender System using Machine Learning](https://medium.com/towards-data-science/building-a-recommender-system-using-machine-learning-2eefba9a692e): OTTO コンペを題材にした「Kaggle Blueprints」シリーズの解説記事。
 - [レコメンド系kaggleコンペまとめ](https://zenn.dev/mina_moto/articles/6ff668f34fa557): Kaggle の推薦コンペを横断してコンペ概要と上位解法をまとめた記事。
 - [Transformers4Recで簡単にセッションベースなレコメンデーションを試してみた](https://acro-engineer.hatenablog.com/entry/2022/12/14/130000): NVIDIA 製セッション推薦ライブラリの紹介記事。
+- [RecSys Challenge 2022 3位解法（NVIDIA）](https://medium.com/nvidia-merlin/building-a-diverse-models-ensemble-for-fashion-session-based-recommendation-for-recsys2022-2419d2182c4c): ファッション推薦を題材にした RecSys 併設コンペの 3 位解法。
 
 ## 関連概念
 

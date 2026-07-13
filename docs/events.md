@@ -139,6 +139,16 @@ https://kansaikaggler.connpass.com/
 - [AI王 〜クイズAI日本一決定戦〜 振り返り会](https://pksha-technology.connpass.com/event/280481/): 第 3 回コンペの解法発表を含む振り返り会。
 - [W&B 東京ミートアップ #1](https://wandb.connpass.com/event/273873/presentation/): Stability AI 日本代表による画像生成 AI の講演。
 - [【ProbSpace】 "花粉飛散量予測" コンペティション表彰式・解法共有会](https://connpass.com/event/271860/)
+- [Kaggler 忘年会オンライン 2022](https://connpass.com/event/268869/)
+- [Optuna Meetup #2](https://optuna.connpass.com/event/260301/): Kaggle Happywhale コンペ優勝解法での Optuna 使用事例の発表。
+- [SIGNATE テクノプロ・デザイン社 飛行機の航空経路の推定チャレンジ 表彰イベント](https://www.technopro.com/design/rec_c/lp/ml_info/event/20221223.html)
+- [AI王 〜クイズAI日本一決定戦〜 第3回 最終報告会](https://sites.google.com/view/project-aio/competition3/final-presentation)
+- [Kaggle Days x Z by HP World Championship Final in Barcelona DeNA登壇報告](https://dena.ai/news/kaggle-days-final-presentation/)
+- [Kaggle Days Championship @ Barcelona 参加録](https://www.wantedly.com/companies/wantedly/post_articles/448102)
+- [Sansan x atmaCup #14 振り返り会](https://atma.connpass.com/event/264754/)
+- [JPX Tokyo Stock Exchange Prediction 表彰式](https://connpass.com/event/264437/)
+- [Kaggle Days Paris 2022](https://kaggledays.com/events/kaggle-days-paris-2022/)
+- [「ビジネス成果を生み出すデータ活用のテクニック グローバルAIコンペティション「Kaggle」優勝者に聞く」（NBME優勝チーム登壇）](https://eventregist.com/e/dsf2022)
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)

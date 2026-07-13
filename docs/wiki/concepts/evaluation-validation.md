@@ -24,6 +24,8 @@
 - [機械学習におけるEDAって結局何するの？](https://tech-blog.abeja.asia/entry/advent-2023-day25): 探索的データ分析の目的と心構えを整理した記事。
 - [Data-centric視点で過去コンペを振り返る](https://speakerdeck.com/inoichan/data-centricshi-dian-deguo-qu-konpewozhen-rifan-ru): データに着目した視点で過去コンペを振り返る発表資料。
 - [Feature Importanceによる特徴量選択とリーク](https://speakerdeck.com/rsakata/feature-importanceniyorute-zheng-liang-xuan-ze-toriku): 変数重要度による特徴量選択でのデータ分割の注意点を人工データで検証した資料。
+- [今までにKaggleコンペで使ったLB Probing手法について](https://zenn.dev/bilzard/articles/lb-probing-technique): 提出スコアから評価データの情報を引き出す LB Probing の紹介。
+- [Confident Learning](https://speakerdeck.com/asei/confident-learning): 多クラス分類でラベル誤りを効率的に発見する手法の解説資料。
 - [Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation](https://arxiv.org/abs/2505.00612): データ汚染が避けにくい生成 AI の評価において、コンペ形式の厳密さを gold standard と位置づける position paper。
 - [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark): コンペ運営で培った対不正技術を活かした「Kaggle Benchmark」による独立したモデル評価環境の紹介。
 

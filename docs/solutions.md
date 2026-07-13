@@ -164,6 +164,54 @@
 
 <div id="competition-list">
 
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/mayo-clinic-strip-ai">Mayo Clinic - STRIP AI</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [MATLABとPythonの違いとは: PythonでKaggleに参加し、3位に入賞したMathWorks社員が感じたこと](https://blogs.mathworks.com/japan-community/2022/12/08/mayo-clinic-3rd-kaggle/): 脳卒中の血栓画像分類コンペの 3 位解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/feedback-prize-effectiveness">Feedback Prize - Predicting Effective Arguments</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle「Feedback Prize - Predicting Effective Arguments」上位解法まとめ](https://zenn.dev/yume_neko/articles/6e8f78a12a1d2a): 生徒の論証を分類するコンペの上位解法まとめ。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/tensorflow-great-barrier-reef">Tensorflow - Help Protect the Great Barrier Reef</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Great Barrier Reef 参加録](https://kdl-di.hatenablog.com/entry/2022/09/30/090000): オニヒトデ検出コンペの進め方と参加意義を綴る参加録。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="nishika">
+<h3><a href="https://competition.nishika.com/">Nishika 生鮮野菜の価格予測</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Nishika</span>
+
+- [生鮮野菜の価格予測 優勝解法](https://qiita.com/aji-pandas/items/4cb941a7ea9020a501de)
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/tabular-playground-series-may-2022">Tabular Playground Series - May 2022</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [【Kaggle】 Tabular Playground Series - May 2022コンペ参加記(9th/1151)](https://zenn.dev/bizyu/articles/5e7dae75dcbc06)
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="nishika">
+<h3><a href="https://competition.nishika.com/">Nishika ボケ判定AIを作ろう！</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Nishika</span>
+
+- [「笑い」を理解するAIを作ってみました　～ボケ判定AIを作ろう！ (ボケてコンペ ＃1) 1st place solution ～](https://qiita.com/z-lai/items/2d51ce123d77ad7100e8)
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/physionet-ecg-image-digitization">PhysioNet - Digitization of ECG Images</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
@@ -772,6 +820,7 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [【マケデコ】JPX Kaggleコンペ5位解法共有](https://speakerdeck.com/ghtaro/makedeko-jpx-kagglekonpe5wei-jie-fa-gong-you)
+- [JPX Tokyo Stock Exchange Prediction Award Ceremony 解法総評](https://speakerdeck.com/gamella/jpx-tokyo-stock-exchange-prediction-award-ceremony-jie-fa-zong-ping): 主催者による表彰式での上位解法総評。
 
 </div>
 

@@ -20,6 +20,11 @@
 - [Kaggleは研究の役に立つのか？](https://aru47.hatenablog.com/entry/2025/12/08/223234): 新規性の創出や課題設計など、研究への活用の観点から Kaggle の価値を論じる記事。
 - [Kaggleはどう実務やスキルアップに役立つか](https://aitc.hatenablog.com/entry/kaggle_for_data_science_skills): 企業データサイエンティストの視点で Kaggle 参加の利点を綴る記事。
 - [Kaggleや競プロのトップランカーが持つ「本質的な強み」とは。リクルートが作り出す、競技と業務の好循環](https://hatenanews.com/articles/2023/01/18/103000): 競技実績者へのインタビューを通じ、競技と実務の好循環を語る記事。
+- [Feedback3 コンペでボロ負けしたので教訓を全部吐きます【懺悔】](https://zenn.dev/aidemy/articles/3299c8fd9f394a): 失敗から得た教訓を綴る参加録。
+- [コンペの選び方](https://qiita.com/shinmura0/items/9dcf12b9c9e8d42b8633): コンペ選定の考え方と実践例の紹介。
+- [北陸新幹線でAIを用いた「着雪量予測モデル」の本運用を開始します](https://www.westjr.co.jp/press/article/2022/11/page_21394.html): SIGNATE コンペ由来のモデルが実運用された事例。
+- [Kaggleソロ参戦の流れ](https://qiita.com/tt20210824/items/6edbc7afd518bafcca78): 個人参加時の分析の進め方を共有する記事。
+- [「メルカリShops」の価格推定モデル検証（Mercari 4位解法活用）](https://engineering.mercari.com/blog/entry/20220916-a0a50d6fc5/): Kaggle 由来の解法を実務で応用した事例記事。
 - [Kaggleは「○○」に役立つ](https://thinkit.co.jp/corner/12611): Kaggle の様々な役割を紐解く連載企画の一覧ページ。
 - [Kaggle未経験社員をメダリストに育てる「AIドラゴン桜」](https://speakerdeck.com/lycorptech_jp/20260526c): LINE ヤフーによる Kaggle を用いたリスキリングの取り組みと成果の発表資料。
 - [​​社員の自走力を育てる─DeNAが実践するデータ分析コンペティション参加支援制度​](https://note-udemyjapan.benesse.co.jp/n/nbc897b623c88): コンペを通じた人材育成を語る Kaggle Grandmaster の対談記事。

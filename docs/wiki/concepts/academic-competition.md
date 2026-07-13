@@ -16,6 +16,10 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [LLM-jp FT-LLMコンペに直球ど真ん中ストレートを投げ込んだ(つもりの)話](https://zenn.dev/mkj/articles/ftllm_20260323): NLP2026 のワークショップとして開催された LLM チューニングコンペの取り組み紹介。
 - [Small Object Detection Challenge for Spotting Birds 2023](http://www.mva-org.jp/mva2023/challenge): MVA2023 併設の小鳥検出コンペ。論文執筆枠と性能枠の 2 部門で構成。
 - [Deep learning models for predicting RNA degradation via dual crowdsourcing](https://www.nature.com/articles/s42256-022-00571-8): OpenVaccine コンペの成果をまとめた Nature Machine Intelligence 掲載論文。
+- [YAMALEX が第３回 AI 王に参加しました](https://acro-engineer.hatenablog.com/entry/2022/12/07/190000)
+- [Analysis of the Human Protein Atlas Weakly Supervised Single-Cell Classification competition](https://www.nature.com/articles/s41592-022-01606-z): コンペの設計と結果を報告する論文。
+- [KDD Cup 2022 ESCI Challenge 参加録](https://nttdocomo-developers.jp/entry/2022/08/24/120000): 商品検索改善コンペの取り組みを紹介する参加録。
+- [YANS 第17回シンポジウム内コンペの概要・解法](https://yans.anlp.jp/entry/yans2022report): Amazon レビューのスコア付けを題材にしたコンペの概要と解法。
 - [チューニングコンペティション（LLM-jp）](https://llm-jp.github.io/tuning-competition/2026/feature.html): 国立情報学研究所 LLM 勉強会によるコンペの公式ページ。数学タスクと自由提案タスクで構成。
 - [チューニングコンペティション開催報告](https://drive.google.com/file/d/1M1bpEDvARxSq-KNbudf1B8V4kbpYxO5u/view): 言語処理学会第 31 回年次大会のワークショップ内で開催された LLM チューニングコンペの開催報告。
 - [人間の移動予測コンペ Humob 2024 上位3チーム解法の紹介](https://nttdocomo-developers.jp/entry/2024/12/10/090000_1): 国際学会ワークショップで開催された位置情報予測コンペの上位解法まとめ。

@@ -71,6 +71,13 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [Zero-shot Learning網羅的サーベイ：CLIPが切り開いたVision & Languageの新しい世界](https://techblog.exawizards.com/entry/2023/05/10/055218): CLIP 後続の研究 70 本程度を調査したサーベイ記事。
 - [Face Recognition @ ECCV2022](https://speakerdeck.com/takarasawa_/face-recognition-at-eccv2022): ArcFace を起点とした顔認証分野の ECCV2022 論文調査資料。
 - [AI×医用画像の現状と可能性_2022年版](https://speakerdeck.com/tdys13/aixmedical-imaging-in-japan-2022): 医用画像 AI 領域の研究動向をまとめた資料。
+- [動作認識に関するサーベイ資料](https://www.slideshare.net/ttamaki/ss-254290005): 動作認識の手法・タスク・データセットをまとめた資料。
+- [CNN vs ViT](https://speakerdeck.com/yushiku/cnn-vs-vit): CNN と ViT を複数観点で比較する発表資料。
+- [ECCV 2022 参加記録](https://acro-engineer.hatenablog.com/entry/2022/10/28/123000): 面白かった論文 5 本を紹介する参加記録。
+- [『Vision Transformer入門』書評](https://note.com/maxwell/n/nbdda95bc01e0)
+- [『Vision Transformer入門』著者による紹介記事](https://snowman-88888.hatenablog.com/entry/2022/09/17/090000): 執筆の背景と各章の概要のまとめ。
+- [dethub](https://github.com/okotaku/dethub): 物体検出・セグメンテーションのベースラインと精度向上手法を検討するリポジトリ。
+- [衛星データを題材にした機械学習タスクの紹介](https://sorabatake.jp/27897/): 物体検出・セグメンテーション・画像分類・超解像などの整理記事。
 - [視覚基盤モデル（DINOv3）を使って衛星画像コンペで勝ちたい](https://www.docswell.com/s/motokimura/KVM382-dinov3-sat-bench): 衛星画像コンペでの視覚基盤モデル活用の実験報告。
 - [[輪講] SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features](https://speakerdeck.com/nk35jk/lun-jiang-siglip-2-multilingual-vision-language-encoders-with-improved-semantic-understanding-localization-and-dense-features)
 - [LLMの効率化を支えるアルゴリズム](https://speakerdeck.com/taturabe/llmnoxiao-lu-hua-wozhi-eruarugorizumu)

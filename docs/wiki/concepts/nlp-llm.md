@@ -95,6 +95,17 @@
 - [DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing](https://retarfi.hatenablog.jp/entry/2022/12/15/090815): NLP コンペ頻出モデル DeBERTaV3 の論文解説記事。
 - [Word Tour: One-dimensional Word Embeddings via the Traveling Salesman Problem](https://www.jstage.jst.go.jp/article/jnlp/29/4/29_1297/_article/-char/ja): 単語を 1 次元に埋め込む手法の論文解説。Kaggle での活用例に言及。
 - [AI 激動の年！2022年の人工知能10大トレンドと必読論文](https://ja.stateofaiguides.com/20221231-ai-trends-2022/): 2022 年の AI 研究動向と参考文献のまとめ。基盤モデル関連の話題を多数含む。
+- [【AI Shift/Kaggle Advent Calendar 2022】Kaggleで学んだBERTをfine-tuningする際のTips④〜Adversarial Training編〜](https://www.ai-shift.co.jp/techblog/2985): NLP コンペで使われる Adversarial Training の解説記事。
+- [【AI Shift Advent Calendar 2022】SetFitによるfew-shotテキスト分類](https://www.ai-shift.co.jp/techblog/2931): 少量データで学習できる SetFit の紹介記事。Disaster Tweets で検証。
+- [イントロダクション（Hugging Face Course 日本語訳）](https://huggingface.co/course/ja/chapter1/1): Hugging Face 公式コースの日本語訳。東北大学の学生による翻訳プロジェクト。
+- [世界最高精度を達成した言語モデルLUKEの論文を徹底解説](https://qiita.com/Mizuiro__sakura/items/9ccbd655501e78df5cc6): 言語モデル LUKE の論文解説。日本語 large モデル公開時の記事。
+- [hppRC / simple-simcse](https://github.com/hppRC/simple-simcse): 文埋め込み手法 SimCSE の再現実装。複数モデルでの性能比較つき。
+- [BERTを用いた教師なし文表現の発展](https://tech.retrieva.jp/entry/20221028): SimCSE の発展系 DiffCSE の紹介記事。
+- [roberta-long-japanese](https://huggingface.co/megagonlabs/roberta-long-japanese): 512 トークンを超える長系列を扱える日本語 RoBERTa モデル。
+- [KWJA](https://github.com/ku-nlp/kwja): 形態素解析・構文解析などを統一インターフェースで扱う日本語処理ライブラリ。
+- [Box Embeddingの解説](https://ja.stateofaiguides.com/20221013-box-embeddings/): データを箱として表現し埋め込みを学習する Box Embedding の解説記事。
+- [敵対学習手法(AWP)の論文解説と実装解説](https://speakerdeck.com/masakiaota/kaggledeshi-yong-sarerudi-dui-xue-xi-fang-fa-awpnolun-wen-jie-shuo-toshi-zhuang-jie-shuo-adversarial-weight-perturbation-helps-robust-generalization): NLP コンペで使われる敵対学習手法 AWP の解説と実装。
+- [huggingface.co/abeja](https://huggingface.co/abeja): ABEJA が構築した日本語大規模言語モデルの公開。
 - [情報検索100本ノック](https://github.com/ir100/ir100): 情報検索の課題を集めた「100 本ノック」形式の演習教材。
 - [ku-nlp/deberta-v2-large-japanese](https://huggingface.co/ku-nlp/deberta-v2-large-japanese): 京大黒橋研による日本語 DeBERTa V2（large）。当時最大級のコーパスで学習。
 - [ku-nlp/deberta-v2-base-japanese](https://huggingface.co/ku-nlp/deberta-v2-base-japanese): 同モデルの base / tiny サイズ版。
