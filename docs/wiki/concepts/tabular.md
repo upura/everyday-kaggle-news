@@ -56,6 +56,12 @@
 - [PolarsとPanderaで実現する高速でロバストなデータ処理](https://speakerdeck.com/chimuichimu/polarstopanderadeshi-xian-suru-gao-su-derobasutonadetachu-li): 高速処理の Polars とデータ検証の Pandera を組み合わせる発表資料。
 - [テーブル形式のデータセットに対する決定木と深層学習の性能比較論文](https://arxiv.org/abs/2207.08815): 決定木を基にした手法と深層学習手法を比較して議論する論文。
 - [テーブルデータを扱う際の特徴量管理の方法を考察する記事](https://teyoblog.hatenablog.com/entry/2022/06/09/193005): 数値かカテゴリかの情報も管理する方法を紹介。
+- [不均衡データ分類に関する応用例・解説・手法のリンク集](https://www.jstage.jst.go.jp/article/jjsai/37/3/37_376/_article/-char/ja/): 人工知能学会誌に掲載されたリンク集記事。
+- [『データサイエンス100本ノック（構造化データ加工編）』書籍](https://www.socym.co.jp/book/1356): SQL・Python・R の 3 言語に対応した演習書籍。
+- [テーブル形式データセットの探索的データ分析の方法を紹介する記事](https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a): さまざまな切り口での集計・可視化の実践例。
+- [TabNetのハイパーパラメータ調整方法まとめ](https://zenn.dev/nishimoto/articles/f2af21c24413d3): Kaggle での事例や元論文の記述に基づく調整方法の解説。
+- [p値を使ったTarget Encodingの方法紹介記事](https://kuruton.hatenablog.com/entry/2022/02/24/092716): atmaCup のデータで性能向上を確認した検証記事。
+- [特徴量エンジニアリングライブラリ「xfeat」の紹介記事](https://blog.amedama.jp/entry/xfeat): 具体的な使い方をコードとともに解説。
 
 ## 関連概念
 

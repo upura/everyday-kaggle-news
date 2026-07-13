@@ -39,6 +39,7 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [朝日新聞社主催 大学生・大学院生対象コンペ](https://peakers.jp/projects/97): 朝日新聞社の記事や関連画像データを用いたコンペの開催告知。
 - [Inverse Scaling Prize](https://github.com/inverse-scaling/prize): 言語モデルのサイズが大きくなるほど性能が悪化するようなタスク設計を問う、ニューヨーク大学研究チーム主催のコンペ。
 - [WAT 2022 翻訳データクリーニングコンペ](https://sites.google.com/view/wat-filtering/): 学習設定を固定し、日英科学技術論文データのクリーニングによる翻訳性能を競う機械翻訳ワークショップ併設コンペ。
+- [「AI王 〜クイズAI日本一決定戦〜」第2回コンペティション3位解法](https://techblog.exawizards.com/entry/2022/04/25/161045): 外部データセットの取り込みで性能を高めた日本語質疑応答コンペの解法。
 
 ## 関連概念
 

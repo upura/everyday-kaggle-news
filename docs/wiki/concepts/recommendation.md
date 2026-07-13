@@ -19,6 +19,8 @@
 - [レコメンド系kaggleコンペまとめ](https://zenn.dev/mina_moto/articles/6ff668f34fa557): Kaggle の推薦コンペを横断してコンペ概要と上位解法をまとめた記事。
 - [Transformers4Recで簡単にセッションベースなレコメンデーションを試してみた](https://acro-engineer.hatenablog.com/entry/2022/12/14/130000): NVIDIA 製セッション推薦ライブラリの紹介記事。
 - [RecSys Challenge 2022 3位解法（NVIDIA）](https://medium.com/nvidia-merlin/building-a-diverse-models-ensemble-for-fashion-session-based-recommendation-for-recsys2022-2419d2182c4c): ファッション推薦を題材にした RecSys 併設コンペの 3 位解法。
+- [『推薦システム実践入門――仕事で使える導入ガイド』書評](https://upura.hatenablog.com/entry/2022/05/03/165903): 映画推薦を題材とした Netflix Prize コンペの話題にも言及する書評記事。
+- [推薦システムの演習問題集 recsys-python](https://recsyslab.github.io/recsys-python/): 13 章構成・全 163 問でコードと出力結果つきの演習教材。
 
 ## 関連概念
 

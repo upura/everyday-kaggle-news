@@ -36,6 +36,9 @@
 - [Kaggle Conversations（Adaption Labs）](https://www.youtube.com/watch?v=lnKnLZd66Ng): Adaption Labs の CEO が、同社が開催した Kaggle コンペの狙いと AI 研究の展望を語る動画シリーズ。
 - [パナソニックグループ社内コンペの開催報告](https://tech-ai.panasonic.com/jp/blog_page.html?id=20220805): Kaggle Grandmaster の社員が監修し、データも公開された社内コンペの報告記事。
 - [大規模な船舶の検出・特性評価コンペの結果報告論文](https://arxiv.org/abs/2206.00897): データセットやコードも公開したコンペ結果の報告論文。
+- [社内コンペ開催に向けたサンプルノートブックの紹介記事](https://blog.recruit.co.jp/data/articles/mlcomp2021_sample_notebooks/): コンペにおける役割や意識した点を綴った記事。
+- [リクルート社内機械学習コンテストの開催報告連載記事](https://blog.recruit.co.jp/data/articles/ml_compe2021_vol1/): 開催の背景や目的を紹介する連載第 1 回。
+- [SIGNATE「SUBARU 画像認識チャレンジ」データセット・結果報告論文](https://arxiv.org/abs/2204.12717): 運転支援システム「アイサイト」の走行中画像から先行車速度を推論するコンペの報告書。
 
 ## 関連概念
 

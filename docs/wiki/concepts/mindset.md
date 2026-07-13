@@ -44,6 +44,10 @@
 - [From Beginner to World Champion: What 10,000 hours on Kaggle taught me](https://www.linkedin.com/pulse/from-beginner-world-champion-what-10000-hours-kaggle-taught-henkel-w6tpf/)
 - [『Kaggleで磨く 機械学習の実践力』執筆体験記](https://qiita.com/m-morohashi/items/de748dd6d4f04c34e8d8): 出版までの流れや困りごとを綴った記事。
 - [Kaggleに価値はあるのか](https://forecastegy.com/posts/is-competing-on-kaggle-worth-ponderings-of-a-kaggle-grandmaster/): 数年前に「引退」した Kaggle Grandmaster の Mario Filho さんが所感を綴った記事。
+- [Kaggleで培った技術の業務活用事例](https://www.datarobot.com/jp/blog/business-use-of-kaggle-skills/): 顧客課題の解決に Kaggle の学びを活かした事例を Grandmaster が紹介する記事。
+- [2021年の面白かったコンペと論文を7人のKagglerに調査した記事](https://sorabatake.jp/26199/): 回答者のコメントも併記した調査記事。
+- [「Kaggle&AtCoder支援制度」の紹介記事](https://www.nablas.com/post/blog_kaggle-atcoder): 実績に応じて業務時間の一部を活動に利用できる社内制度の紹介。
+- [2022年時点での機械学習コンペの動向をまとめた記事](https://medium.com/machine-learning-insights/winning-approach-ml-competition-2022-b89ec512b1bb): プログラミング言語・上位解法アプローチ・利用ライブラリなどを可視化した記事。
 
 ## 関連概念
 

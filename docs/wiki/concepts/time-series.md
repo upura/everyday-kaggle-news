@@ -32,6 +32,7 @@
 - [Numeraiで学ぶ金融時系列モデル評価指標](https://zenn.dev/katsu1110/articles/c1269aec88ee05): 金融時系列の評価指標の特徴と Python 実装例の紹介。
 - [Polarsで始める時系列データ処理 #atmaCup 19 振り返り会 LT枠](https://speakerdeck.com/koheiiwamasa/polarsdeshi-merushi-xi-lie-detachu-li-number-atmacup-19-zhen-rifan-rihui-ltwaku)
 - [時系列データに関する性能検証の方法を議論する記事](https://note.com/currypurin/n/n7bd3153a7238): 多くの Kaggler の意見を取りまとめた議論記事。
+- [Uberの深層学習による到着時間推定（DeepETA）](https://eng.uber.com/deepeta-how-uber-predicts-arrival-times/): XGBoost からの置き換え過程を、問題設定・特徴量・アーキテクチャ・高速化・バイアス・損失関数・デプロイの観点で解説。
 
 ## 関連概念
 

@@ -94,6 +94,15 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [画像認識分野でのTransformer応用解説（SSII2022）](https://speakerdeck.com/yushiku/20220608_ssii_transformer): Transformer の概要・応用範囲・近年の潮流を紹介。
 - [階層的Vision Transformerの研究動向まとめ](https://www.slideshare.net/ren4yu/hierarchical-vision-transformer): Swin Transformer など Kaggle でも多用されるモデルの研究動向。
 - [ArcFace関連の距離学習手法サーベイ](https://speakerdeck.com/takarasawa_/face-recognition-and-arcface-papers): 顔認識タスクを題材に距離学習関連の関連研究をまとめた資料。
+- [Awesome Deep Homographyの最新動向まとめ](https://tech-blog.abeja.asia/entry/awesome-deep-homography-202004): 2 つの異なる姿勢から撮影した平面間の変換推定について、SIFT と深層学習の手法を比較しながら解説する記事。
+- [CLIP・CLOOBの日本語版学習済みモデル公開](https://prtimes.jp/main/html/rd/p/000000031.000070041.html): オープンソースデータで学習され商用利用も可能な日本語言語画像モデルの公開。
+- [Swin Transformer V2 事前学習済み重み公開](https://github.com/microsoft/Swin-Transformer): Kaggle コンペの上位解法にも登場する画像認識モデルの公開重み。
+- [OpenVINOによる画像認識モデル最適化の実験記事](https://acro-engineer.hatenablog.com/entry/2022/05/12/000000): PyTorch モデルを変換し複数モデルで最適化効果を検証した記事。
+- [デジタル技術を用いた「くずし字」資料解読の研究動向まとめ](https://current.ndl.go.jp/ca2015): Kaggle で開催されたくずし字コンペにも言及する記事。
+- [「A ConvNet for the 2020s」解説記事](https://devblog.thebase.in/entry/2022/03/28/110000): 近年の画像認識の動向を振り返りながら ConvNeXt の性能改善の工夫を解説。
+- [CLIP日本語版モデルの学習方法解説記事](https://qiita.com/sonoisa/items/00e8e2861147842f0237): 画像とテキストの埋め込み表現を学習する CLIP の日本語版モデルの学習方法を解説。
+- [Vision Transformerの注意機構に着目した論文の解説記事](https://tech.sensetime.jp/?p=2220): 「When Shift Operation Meets Vision Transformer」の解説。
+- [CLIPを模した日本語モデルの作成記事](https://www.ogis-ri.co.jp/otc/hiroba/technical/similar-document-search/part19.html): 画像とテキストを同じ多次元ベクトル空間に埋め込むモデルを Google Colaboratory 上で学習する記事。
 
 ## 関連概念
 

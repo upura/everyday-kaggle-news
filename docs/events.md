@@ -159,3 +159,9 @@ https://kansaikaggler.connpass.com/
 - [言語処理学会主催「言語処理技術セミナー2022」](https://sites.google.com/site/nlpseminarweb): 「Transformersによる自然言語処理の実践」と題した講演が予定されたセミナー。
 - [ビジョン技術の実利用ワークショップ「機械学習コンテストの登り方」チュートリアル](https://view.tc-iaip.org/view/2022/speaker/ts1): 物体検出や画像検索タスクの取り組み方・実装ノウハウを扱うチュートリアル。
 - [Kaggle Grandmaster currypurinさんによる交差検証を題材にした講演](https://labbaseplus-event220909.peatix.com/): コンペでのモデル評価や失敗例などを扱う講演。
+- [Google Cloud「盛り上がる株式予測コンペの問題設計と勝利者解法考察」](https://cloudonair.withgoogle.com/events/financial-data-science): JPX Tokyo Stock Exchange Prediction 開催に関わった日本取引所グループと AlpacaJapan 社員による発表イベント。
+- [Numercon - Numerai Conference 2022](https://www.eventbrite.com/e/numercon-numerai-conference-2022-tickets-166200162159): 多くの Kaggle Grandmaster が登壇する株価予測プラットフォーム Numerai のイベント。
+- [実践 Google Cloud ハンズオン セミナー Kaggle 編](https://cloudonair.withgoogle.com/events/gcd22-hands-on-kaggle-wb-03): 「Google Cloud Day: Digital '22」内で実施されたセミナー。
+- [DeNA TechCon 2022「Kagglers, Now!」](https://techcon2022.dena.dev/spring/session/kagglers-now/): 独自の社内 Kaggle ランク制度を持つ DeNA の Grandmaster 4 人によるパネルディスカッション。
+- [Nishika「AI×商標：イメージサーチコンペティション」表彰式](https://nishika.connpass.com/event/241285/): 特許庁による初めてのコンペ開催の表彰式。
+- [仙台市×東北大学「データサイエンス・トレーニングキャンプ」](https://prtimes.jp/main/html/rd/p/000000008.000084933.html): Kaggle を用いた課題解決型講座の開講告知。

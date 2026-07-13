@@ -180,6 +180,14 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/feedback-prize-2021">Feedback Prize - Evaluating Student Writing</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle「Feedback Prize - Evaluating Student Writing」振り返り資料](https://speakerdeck.com/shimacos/kaggle-feedback-prizekonpe-fan-sheng-hui): 学生が書いた議論用文章を解析するコンペの概要と上位解法のまとめ。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2021" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/c/tensorflow-great-barrier-reef">Tensorflow - Help Protect the Great Barrier Reef</a></h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
@@ -746,6 +754,7 @@
 - [NBMEコンペ反省会](https://connpass.com/event/246896/)
 - [Kaggle「NBME - Score Clinical Patient Notes」の4位解法](https://blog.recruit.co.jp/data/articles/kaggle-nbme-score-clinical-patient-notes/): 取り組みの概要や上位解法の考察をまとめた記事。
 - [NBME - Score Clinical Patient Notes 1位解法](https://www.docswell.com/s/currypurin/Z8L7L5-2022-05-23-081854): 有志による「NBMEコンペ反省会」での発表資料。
+- [NBME - Score Clinical Patient Notes 参加録](https://www.ai-shift.co.jp/techblog/2583): コンペ概要や解法をまとめた参加記録。
 
 </div>
 
@@ -754,6 +763,7 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [KAGGLEのJigsawで銀メダルを獲得した解法等](https://www.docswell.com/s/2600123617/58M475-2022-03-07-204955)
+- [Jigsaw Rate Severity of Toxic Comments 銀メダル解法](https://qiita.com/Toshihikoko/items/cde3480eab7e02a9d7f2): 取り組んだ内容やコード・発表資料をまとめた記事。
 
 </div>
 
@@ -829,6 +839,7 @@
 - [【マケデコ】JPX Kaggleコンペ5位解法共有](https://speakerdeck.com/ghtaro/makedeko-jpx-kagglekonpe5wei-jie-fa-gong-you)
 - [JPX Tokyo Stock Exchange Prediction Award Ceremony 解法総評](https://speakerdeck.com/gamella/jpx-tokyo-stock-exchange-prediction-award-ceremony-jie-fa-zong-ping): 主催者による表彰式での上位解法総評。
 - [システムトレーダー視点での「JPX Tokyo Stock Exchange Prediction」参加感想](https://qiita.com/blog_UKI/items/efba4ac7b1543a9bef85): 記事を受けて主催者が問題設計の流れを解説する記事も公開された。
+- [システムトレーダーによる「JPX: Tokyo Stock Exchange Prediction」考察記事](https://note.com/uki_profit/n/nd32b67489e23): 同コンペが個人投資家に与える影響について説明する記事。
 
 </div>
 
@@ -855,6 +866,15 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
 
 - [BirdCLEF 2022 6位解法](https://docs.google.com/presentation/d/1K-uFxM7edPpWamEQCF5qzyYylGj0JcRvZQScDHwesi8/edit): 肝となった「ハンドラベリング」を中心に解説。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/happy-whale-and-dolphin">Happywhale - Whale and Dolphin Identification</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Happywhale - Whale and Dolphin Identification 上位解法まとめ](https://zenn.dev/yume_neko/articles/f0177aadbb4eb5): クジラとイルカの個体識別コンペの上位解法まとめ。
+- [Happywhale 優勝・10位解法解説](https://tech.preferred.jp/ja/blog/kaggle-happywhale-1st-10th-solution/): Preferred Networks 社員による優勝・10 位解法の解説。2 位の Rist、6 位のアイリスからもそれぞれプレスリリースが公開された。
 
 </div>
 
@@ -1235,6 +1255,8 @@
 <span class="badge badge-year">2024</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">その他</span>
 
 - [シミュレーションコンペで銅メダル2つを獲得してkaggle Expertになった方法](https://zenn.dev/epicai_techblog/articles/a80959e01d62fd)
+- [Solafune「市街地画像の超解像化」11位解法](https://yuta0306.github.io/mscup-feedback): コンペ概要や具体的な取り組みをまとめた記事。
+- [Solafune「市街地画像の超解像化」5位解法](https://jp.morgenrot.cloud/blog/super-resolution-of-city-images/): 画像コンペで利用が増えている Swin Transformer を用いた超解像モデルを採用。
 
 </div>
 
@@ -1298,6 +1320,7 @@
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
 
 - [jupyterノートブックを公開いたします（ Public２位、Private１位）](https://comp.probspace.com/topics/datascience-Post2959de7ddfcc4ee201b7)
+- [ProbSpace「Kiva／クラウドファンディングの資金調達額予測」の12位解法](https://yshr10ic.com/2022/02/27/probspace-kiva/): 融資マッチング支援機関「Kiva」の融資額を予測するコンペの解法。
 
 </div>
 
