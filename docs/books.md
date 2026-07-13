@@ -36,3 +36,6 @@
 - [『Kaggleのチュートリアル 第7版』をKindleで公開しました](https://note.com/currypurin/n/nef92a6bcc3c4): 著者による第7版の公開告知。Titanic を題材に最初のサブミットまでを案内する入門書で、コーディングエージェント時代の変化も踏まえて改訂されている。
 - [書籍概要: Kaggleではじめる大規模言語モデル入門](https://upura.hatenablog.com/entry/publishing-kaggle-llm-book)
 - [『Software Design 2021年11月号』Kaggle特集の著者による紹介記事](https://future-architect.github.io/articles/20211026b/): 「前処理から学習モデルの構築、スコアの上げ方までわかる」特集の著者による紹介。感想記事も別途公開。
+- [『Kaggleで勝つデータ分析の技術』中国語（繁体字）版発行](https://www.books.com.tw/products/0010883417): 「ITエンジニア本大賞2020」技術書部門で上位 3 冊に選ばれた書籍の中国語版。
+- [『つくりながら学ぶ！PyTorchによる発展ディープラーニング』著者による講演資料](https://www.slideshare.net/yutaroogawa1116/it-243412167): Kaggle にも言及し、『Kaggleコンペティション チャレンジブック』を紹介する講演資料。
+- [Abhishek Thakurさんの自主出版書籍の無償公開](https://github.com/abhishekkrthakur/approachingalmost): Kaggle 全 4 カテゴリ Grandmaster による NLP 実践書の PDF 無償公開。

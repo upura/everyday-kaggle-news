@@ -912,6 +912,8 @@
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle「MoA」で4位入賞、Masterの称号を獲得しました](https://techblog.recruit.co.jp/article-236/)
+- [Mechanisms of Action (MoA) Prediction 4位解法](https://www.m3tech.blog/entry/2021/01/13/180000): Code Competition 形式での取り組み方に焦点を当てた解説記事。
+- [Mechanisms of Action (MoA) Prediction 上位4%の解法](https://towardsdatascience.com/how-we-two-beginners-placed-in-kaggle-competition-top-4-3ea508638f2d?gi=7bf9e13fedec): 初心者 2 人による、手法と心構えの両面を紹介する記事。
 
 </div>
 
@@ -969,6 +971,7 @@
 
 - [atmaCup#8振り返り〜個人的なテーブルコンペの取組み方と解法〜](https://speakerdeck.com/tomo20180402/atmacup-number-8zhen-rifan-ri-ge-ren-de-nateburukonpefalsequ-zu-mifang-tojie-fa)
 - [atmaCup#10参加レポート](https://takaito0423.hatenablog.com/entry/2021/03/17/213956)
+- [「#10 [初心者歓迎!] atmaCup」振り返り会 3位解法](https://speakerdeck.com/calpis10000/atmacup-number-10-zhen-rifan-rihui-3rd-place-solution): 動画も合わせて公開された振り返り会の発表資料。
 - [「Sansan × atmaCup #12」開催報告](https://buildersbox.corp-sansan.com/entry/2021/12/18/110000): コンペの概要や上位解法を紹介する主催者記事。
 - [「#12 Sansan × atmaCup」9位参加録](https://caddi.tech/archives/2866): 特徴量生成や後処理に利用したライブラリを紹介。
 
@@ -1185,6 +1188,62 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="audio" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/rfcx-species-audio-detection">Rainforest Connection Species Audio Detection</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Rainforest Connection Species Audio Detection 5位チーム解法（反省会資料）](https://speakerdeck.com/kuto5046/niao-wa-konpefan-sheng-hui-birdcall-revengetimu): 有志によるコンペ反省会での発表資料。
+- [Rainforest Connection Species Audio Detection 5位解法の解説記事](https://www.ai-shift.co.jp/techblog/1657): 学習データのラベルが完全でない点などコンペ特有の難しさを紹介。
+- [Rainforest Connection Species Audio Detection 銅メダル解法](https://buildersbox.corp-sansan.com/entry/2021/02/25/110500): 不完全なラベルへの試行錯誤を中心にまとめた記事。実験管理ツール導入の関連記事も公開。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/lyft-motion-prediction-autonomous-vehicles">Lyft Motion Prediction for Autonomous Vehicles</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Lyft Motion Prediction for Autonomous Vehicles 解法共有会アーカイブ動画](https://vimeo.com/509856257): 4 位入賞の Preferred Networks チームなど上位参加者による発表。
+- [Lyft Motion Prediction for Autonomous Vehicles 4位解法](https://tech.preferred.jp/ja/blog/kaggle-lyft-motion-prediction-for-autonomous-vehicles-4th-place-solution/): 一風変わった課題設定のコンペの概要と取り組みをまとめた記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/riiid-test-answer-prediction">Riiid! Answer Correctness Prediction</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Riiid! Answer Correctness Prediction 1位解法](https://www.kaggle.com/c/riiid-test-answer-prediction/discussion/218318): 系列長を 1700 以上利用した点が特徴。上位 5 チームの論文は国際学会ワークショップで公開。
+- [Riiid! Answer Correctness Prediction 1位解法ワークショップ初披露告知](https://www.kaggle.com/c/riiid-test-answer-prediction/discussion/211046): 優勝した keetar さんが開催主と協議のうえ 2 月 9 日に初披露。
+- [Riiid! Answer Correctness Prediction 銀メダル解法（Kaggleデビュー）](https://blog.tsurubee.tech/entry/2021/01/09/084035): Kaggle との出会いからコンペ終了までの過程を紹介。
+- [Riiid! Answer Correctness Prediction 銀メダル解法（LightGBM中心）](https://krksan.com/blogs/article/48): Kaggle Master 昇格を果たした yyykrk さんによる振り返り記事。
+- [Riiid! Answer Correctness Prediction 参加録（暫定52位）](https://naotaka1128.hatenadiary.jp/entry/riiid2020): コンペ概要と取り組みを紹介する参加録。
+- [Riiid! Answer Correctness Prediction のデータを用いたBigQueryML紹介記事](https://www.ai-shift.co.jp/techblog/1600): SQL の記述でモデルを学習する方法を紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/nfl-impact-detection">NFL 1st and Future - Impact Detection</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [NFL 1st and Future - Impact Detection 14位解法](https://www.slideshare.net/KazuyukiMiyazawa/kaggle-nfl-1st-and-future-impact-detection): プレイ中のヘルメット衝撃を検出するコンペの解法。上位 10 チームの解法もまとめて紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2019" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/ieee-fraud-detection">IEEE-CIS Fraud Detection</a></h3>
+<span class="badge badge-year">2019</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [IEEE-CIS Fraud Detection 優勝解法紹介（Chris Deotte）](https://developer.nvidia.com/blog/leveraging-machine-learning-to-detect-fraud-tips-to-developing-a-winning-kaggle-solution/): 課題の把握・可視化・特徴量作成を段階的に解説する記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="other" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/stanford-covid-vaccine">OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
+
+- [OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction NVIDIAチーム解法共有](https://www.youtube.com/watch?v=sp3kZwKKYfw&feature=youtu.be): 2 位チームの ONODERA さんらによる解法発表。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="signate">
 <h3>SIGNATE</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">SIGNATE</span>
@@ -1198,6 +1257,9 @@
 - [【FDUA】第一回 金融データ活用チャレンジの戦い方を考える](https://takaito0423.hatenablog.com/entry/2023/02/03/212539): 提出までのソースコードと改善点を紹介するチュートリアル記事。
 - [SIGANTE「ブルーカーボン・ダイナミクスを可視化せよ！」最終評価 14 位の取り組みとコード](https://github.com/upura/signate-jsai2023-bluecarbon)
 - [Signate 第2回 金融データ活用チャレンジ ベースラインサマリー](https://zenn.dev/nishimoto/articles/1587fe7a29f145): 企業向けローンの返済可否予測コンペのベースライン記事。
+- [SIGNATE「オフロード画像のセグメンテーションチャレンジ」精度認識部門3位解法](https://www.slideshare.net/ren4yu/signate-3rd-place-solution): 整備されていない道路の走行画像を領域分割するコンペの解法。
+- [SIGNATE「The 4th Tellus Satellite Challenge：海岸線の抽出」解法まとめ](https://note.com/regonn314/n/n4ab040af3072): 上位解法の紹介記事へのリンクも掲載。
+- [SIGNATE「日本取引所グループ ファンダメンタルズ分析チャレンジ」ニューラルネットワーク活用チュートリアル](https://zenn.dev/katsu1110/articles/c5123713a2c14b): 一連のソースコードと提出方法を紹介する記事。
 - [SIGNATE Student Cup 2023 の感想](https://qiita.com/haru1385/items/d947a1ba45720e357b1f): 前処理・特徴量・モデルを紹介する 25 位解法。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)
@@ -1542,6 +1604,7 @@
 
 - [jupyterノートブックを公開いたします（ Public２位、Private１位）](https://comp.probspace.com/topics/datascience-Post2959de7ddfcc4ee201b7)
 - [ProbSpace「Kiva／クラウドファンディングの資金調達額予測」の12位解法](https://yshr10ic.com/2022/02/27/probspace-kiva/): 融資マッチング支援機関「Kiva」の融資額を予測するコンペの解法。
+- [ProbSpace「対戦ゲームデータ分析甲子園」参加録](https://note.com/cograph_data/n/nfcc75513019e): 任天堂「スプラトゥーン」を題材にした、探索的データ分析を軸に据えたコンペの取り組み方紹介。
 
 </div>
 

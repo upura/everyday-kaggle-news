@@ -19,6 +19,7 @@
 - [グラフニューラルネットワークの解説記事](https://theaisummer.com/gnn-architectures/): グラフの基礎から著名なアーキテクチャまでを扱う解説記事。
 - [GPU上でグラフデータを分析するライブラリ「cuGraph」の紹介記事](https://acro-engineer.hatenablog.com/entry/2021/05/21/120000): ページランクの計算速度を比較する記事。
 - [スタンフォード大学「Machine Learning with Graphs」講義動画](https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn): 埋め込み表現やニューラルネットワークを扱う講義動画。
+- [ネットワークデータに対する深層学習の紹介記事](https://buildersbox.corp-sansan.com/entry/2021/02/19/114000): 数式を使わずタスクの概観とモデルを紹介する記事。
 - [Graph Neural Networks: Foundations, Frontiers, and Applications](https://graph-neural-networks.github.io/): 27 章にわたる無料公開のグラフニューラルネットワーク書籍。
 
 ## 関連概念

@@ -36,6 +36,7 @@
 - [金融業界での機械学習活用アンチパターン論文の要点まとめ記事](https://zenn.dev/atfujita/articles/35a546f083b69a): データ漏洩やサンプリングなどの問題を扱う論文の解説。
 - [金融持株会社を題材にした機械学習アンチパターン論文](https://arxiv.org/abs/2107.00079): コロナ禍での性能悪化やデータ漏洩の問題を扱う原論文。
 - [ホールドアウト検証に対する交差検証の理論的優位性を報告する論文の解説記事](https://iblog.ridge-i.com/entry/2021/05/26/110000): 見積もられる誤差の違いを議論する記事。
+- [NeurIPS2020「Dataset Shift」論文まとめ資料](https://speakerdeck.com/mkimura/neurips2020-papers-on-dataset-shift-and-machine-learning): 学習・評価データセットの条件が異なる問題設計を扱う論文のまとめ。
 
 ## 関連概念
 

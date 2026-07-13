@@ -45,6 +45,7 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [KDD 2021時系列異常検知コンペ参加報告・上位解法まとめ](https://www.slideshare.net/GentaYoshimura/kdd-cup-2021): 「KDD2021 参加報告&論文読み会」での発表資料。
 - [自然言語処理系国際会議で2020年に開催されたコンペのまとめ](https://k141303.com/index.php/2021/05/10/nlp_shared_task_2020/): 文書分類・翻訳などのタスクを横断したまとめ記事。
 - [「森羅2021-ML: 多言語分類タスク」開催ページ](http://shinra-project.info/shinra2021ml/?lang=en): 30 言語の Wikipedia 記事を約 220 の固有表現カテゴリに分類するコンペ。
+- [WMT2020 Shared Task 機械翻訳コンペ参加報告資料](https://speakerdeck.com/butsugiri/ji-jie-fan-yi-konpeteisiyoncan-jia-bao-gao): 性能向上のための手法の組み合わせやリソースの重要性を語る資料。
 
 ## 関連概念
 

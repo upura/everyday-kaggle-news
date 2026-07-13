@@ -30,6 +30,13 @@
 - [深層学習の実験試行回数を増やすTips資料](https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021): ファイル分割・コード管理・便利ツールをまとめた資料。
 - [Optuna・MLflow・Hydraを組み合わせた実験管理方法の発表資料](https://speakerdeck.com/supikiti/hydra-mlflow-optunafalsezu-mihe-wasedeshou-qing-nishi-meruhaipaparametaguan-li-210b3f53-5c57-4468-b7c8-07ba5f1f05a4): 「Optuna Meetup #1」での発表資料。
 - [「1実験1スクリプト」を勧める発表動画](https://www.youtube.com/watch?v=Gmm96T1lpSg&feature=youtu.be): コンペのためのコード管理方針を扱う発表。同勉強会の他 2 件の動画も公開。
+- [Pythonのlinter統合ツール「pysen」の紹介記事（Preferred Networks）](https://tech.preferred.jp/ja/blog/pysen-is-the-new-sempai/): flake8・isort・mypy・black を統合管理できるツールの紹介。
+- [pysen OSS公開（Preferred Networks）](https://github.com/pfnet/pysen): 3 位入賞コンペでも使われた実績を持つ linter 統合ライブラリの公開。
+- [国内10研究室による研究効率化Tipsまとめ資料（200ページ超）](https://www.slideshare.net/cvpaperchallenge/cvpaperchallenge-tips-241914101): 実験管理・便利ツール・他者とのやり取りなど Kaggle 観点でも参考になる資料。
+- [実験管理ツール「Weights and Biases」が4500万ドルの資金調達](https://wandb.ai/wandb/news/reports/Weights-and-Biases-raises-45m-to-build-better-tools-for-ML-practitioners--Vmlldzo0NDExMTE): 実験管理の必要性と今後の展開に言及した発表。
+- [Hydra・MLflow・Optunaを組み合わせた実験管理術の紹介記事](https://supikiti22.medium.com/hydra-mlflow-optuna%E3%81%AE%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E5%A7%8B%E3%82%81%E3%82%8B%E3%83%8F%E3%82%A4%E3%83%91%E3%83%BC%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E7%AE%A1%E7%90%86-6b8e6d41b3da): 各ツールの利点や使い方をまとめた記事。
+- [Kaggle GrandmasterのtakuokoさんによるpipelineとKaggle過去解法活用の発表](https://the-ai.jp/): コンペに向けた開発環境などを紹介する発表。
+- [Kaggle「Tweet Sentiment Extraction」2位チームによる実験管理術の記事](https://recruit.gmo.jp/engineer/jisedai/blog/kaggleops-mlflow/): Google Colaboratory と Kaggle Notebook を駆使した検証結果管理方法の紹介。
 
 ### ツール・テンプレート
 

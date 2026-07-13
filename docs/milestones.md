@@ -124,3 +124,12 @@
 - [WMT2020翻訳コンペでAAMT長尾賞受賞](https://aamt.info/news/nagao-2/): 機械翻訳システムの実用化に貢献した個人・組織を表彰する賞。参加報告資料も公開。
 - [Kaggle「Indoor Location & Navigation」でMasterを獲得した入門者向け記事](https://note.com/kou_256/n/n2840bc79145f): 過去の取り組みを振り返りつつコンペ参加の魅力を語る記事。
 - [Kaggleコンペ部門世界ランク1位Guanshuo Xuさんインタビュー](https://towardsdatascience.com/what-it-takes-to-become-a-world-no-1-on-kaggle-f149df44e98c?gi=f8a3c95cf672): 機械学習との関わりや Kaggle への取り組み方を語るインタビュー。
+- [Kaggleコンペ部門ランキング1位Psiさん登壇「My journey to Kaggle #1」動画](https://www.youtube.com/watch?v=OenmJTdF0-M&feature=youtu.be): 過去コンペの振り返りと知見の共有。
+- [Kaggleコンペ部門ランキング1位Psiさん登壇イベント告知](https://www.meetup.com/Machine-Learning-Tokyo/events/276942874/): 「My journey to Kaggle #1」と題した講演と質疑応答の告知。
+- [H2O.ai所属Kaggle GrandmasterによるパネルディスカッションPsi・Guanshuo Xu対談](https://www.pscp.tv/w/1dRKZNnkPyDKB): Kaggle コンペ部門ランキング上位 2 名が登壇。
+- [Kaggle登録から10年経過した所感記事（Koheiさん）](https://i.ho.lc/kaggle-10-years.html): 印象的な出来事や運営側の立場からの気付きを語る記事。
+- [Kaggle GrandmasterのTheo Vielさんインタビュー](https://analyticsindiamag.com/interview-with-kaggle-gm-and-deep-learning-researcher-theo-viel/): お気に入りのテキストエディタとして VS Code を挙げるインタビュー。
+- [Kaggle 3カテゴリGrandmasterのRob Mullaさんインタビュー](https://analyticsindiamag.com/interview-kaggle-grandmaster-rob-mulla/): Notebooks 称号取得後 Competition に注力した経緯や今後注目の領域を語る。
+- [Kaggle GrandmasterのPsiさんインタビュー（H2O.ai）](https://www.h2o.ai/blog/meet-the-data-scientist-who-just-cant-stop-winning-on-kaggle/): Kaggle 参加の経緯や心構えを語るインタビュー。
+- [DeNA、Kaggle Grandmaster在籍数が日本企業で最多と報告](https://dena.com/jp/press/004688): 「Riiid! Answer Correctness Prediction」の結果を受けた報告。Master も国内最多の 16 人在籍。
+- [PyTorch Lightning開発者インタビュー](https://www.youtube.com/watch?v=xbcGj_mtTB0&feature=youtu.be): 自身の経歴とライブラリ開発に至った考えを語るインタビュー。

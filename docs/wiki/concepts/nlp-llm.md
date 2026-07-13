@@ -177,6 +177,20 @@
 - [Transformer解説記事（Riiid実装例つき）](https://qiita.com/birdwatcher/items/b3e4428f63f708db37b7): 丁寧な図解と、Kaggle「Riiid Answer Correctness Prediction」を題材にした実装例。
 - [近年の自然言語処理動向まとめ資料（汎用事前学習言語モデル観点）](https://speakerdeck.com/karakurist/nlp-survey): 様々な提案手法を簡単な説明と共に列挙した資料。
 - [Transformer機構の調査資料（基礎解説・画像認識応用）](https://www.slideshare.net/cvpaperchallenge/transformer-247407256): 基礎的な解説から画像認識分野への応用までをまとめた資料。
+- [Transformers書籍のプレビュー版公開（O'Reilly）](https://www.oreilly.com/library/view/natural-language-processing/9781098103231/): Hugging Face 共同創設者 Thomas Wolf さんも共著者に名を連ねる書籍。
+- [Hugging FaceとAmazonの提携発表](https://huggingface.co/blog/the-partnership-amazon-sagemaker-and-hugging-face): Amazon SageMaker 上に言語モデル構築向けインスタンスを提供。
+- [自然言語処理の事前学習済みモデルの動向まとめ記事](https://elyza-inc.hatenablog.com/entry/2021/03/25/160727): 研究の方向性を分類し、学習方法の観点で改良の流れを紹介。
+- [NVIDIA Kaggle Grandmasterによる自然言語処理コンペ解説動画](https://www.youtube.com/watch?v=PXc_SlnT2g0&feature=youtu.be): Transformers ライブラリの解説と直近コンペの解法紹介。
+- [東北大学の日本語BERT largeがTransformersに追加](https://huggingface.co/cl-tohoku): 従来の BERT base より層数の多いモデルが利用可能に。
+- [Hugging Face「AutoNLP」ウェブサイト公開](https://huggingface.co/autonlp): 開発に関わる Kaggle Grandmaster Abhishek Thakur さんの解説動画も公開。
+- [テキスト前処理ライブラリ「NLPretext」の紹介記事](https://medium.com/artefact-engineering-and-data-science/introducing-nlpretext-a8bb7c03df89): basic・social・token・augmentation の 4 要素で構成。
+- [Transformers v4.3.0公開（Wav2Vec2）](https://github.com/huggingface/transformers/releases/tag/v4.3.0): Facebook の音声事前学習モデル Wav2Vec2 などを実装。
+- [日本語データ水増し手法の実装記事（EDA）](https://qiita.com/tchih11/items/aef9505d26d1bf06a04c): 英文向け手法「Easy Data Augmentation」を日本語に応用。
+- [AllenNLP v2.0.0リリース](https://github.com/allenai/allennlp/releases/tag/v2.0.0): PyTorch ベースで構築された NLP ライブラリの大型更新。
+- [Transformerの解説記事（RNNとの比較）](https://blog.brainpad.co.jp/entry/2021/01/06/113000): 応用例も含めて紹介する入門記事。
+- [Transformerのスケーリング則を主張する論文の紹介](https://deeplearning.hatenablog.com/entry/scaling_law): パラメータ数・データセットサイズ・計算予算の冪乗則を論じる OpenAI の論文。同時期に DALL·E も公開。
+- [Hugging Face「AutoNLP」公開予告](https://huggingface.typeform.com/to/FAtsVfbg): Kaggle 史上初の全 4 カテゴリ Grandmaster Abhishek Thakur さんによるプロジェクト。
+- [2020年の機械学習・自然言語処理領域の総括記事（DeepMind研究者）](https://ruder.io/research-highlights-2020/): 言語モデルの巨大化・軽量化や少データ学習の展望も含めてまとめた記事。
 
 ## 関連概念
 

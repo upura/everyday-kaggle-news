@@ -54,6 +54,9 @@
 - [Google Smartphone Decimeter Challengeメダル獲得者による取り組み方記事](https://qiita.com/shu421/items/ed255c1ad846c92ba448): Titanic 後の Kaggle との向き合い方の軌跡を綴る記事。
 - [Kaggle Masterの称号を持つ方の転職体験記](https://krksan.com/blogs/article/49): 書類選考の段階で役立った経験を綴る体験記。
 - [SETI Breakthrough Listenのスペクトラム画像に「kaggle」の文字列が発見された話](https://www.kaggle.com/c/seti-breakthrough-listen/discussion/239438): 主催者による意図的な埋め込みで発見者に景品が贈られたエピソード。
+- [2020年の面白かったコンペ・論文に関する9人のKagglerアンケート記事](https://sorabatake.jp/18734/): 2020 年を振り返るアンケート結果のまとめ記事。
+- [データサイエンティスト協会シンポジウム「企業のKaggler枠って実際どうなの？」書き起こし記事](https://www.atmarkit.co.jp/ait/articles/2102/01/news024.html): Kaggler 支援の取り組みに関する議論の書き起こし。
+- [SIGNATE「産業技術総合研究所 衛星画像分析コンテスト」を題材にした資料](https://www2.slideshare.net/matsukenbook/ss-241542814): 参加者視点でコンペの実情を語る資料。
 
 ## 関連概念
 

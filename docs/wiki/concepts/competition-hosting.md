@@ -42,6 +42,9 @@
 - [JR西日本×SIGNATE コンペ開催経験者を招いたPodcast](https://ledge.ai/podcast_16th/): 元新幹線運転手の社員が上位入賞した話やデータサイエンス活用事例を語る。
 - [Kaggleでコンペを開催する場合の検討事項をまとめた記事](https://note.com/m3dag/n/na1f1667a0ccb): 必要な情報や開催の利点を紹介する記事。
 - [社内データ分析コンペを独自サイトで開催した事例記事](https://engineers.ntt.com/entry/2021/08/30/130431): 順位表に加えコード共有・議論機能も備えた独自コンペサイトの構築事例。
+- [Nishika「判例の個人情報の自動マスキング」コンペ運営振り返り記事](https://note.com/nishika_inc/n/n78447a423abe): 開催の背景・上位解法・固有表現抽出データセット作りの過程を紹介。
+- [DeNAの機械学習基盤に関する発表動画](https://techcon.dena.com/2021/session/12/): コンペ形式で事業課題を解決する仕組みを紹介。
+- [Kaggle「LANL Earthquake Prediction」開催に関する論文](https://www.pnas.org/content/118/5/e2011362118): 優勝チームの意外な戦略や、コンペ開催の意義に言及する論文。
 - [Kaggle「PANDA Challenge」の成果を報告するNature Medicine掲載論文](https://www.wouterbulten.nl/blog/tech/panda-challenge/): 課題の背景やコンペ上位解法を紹介する論文。
 - [SIGNATE「熱帯低気圧（台風等）検出アルゴリズム作成」コンペのまとめ論文](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-021-00459-y): 海洋研究開発機構主催コンペを通じた性能向上を報告する論文。
 

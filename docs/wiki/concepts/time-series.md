@@ -35,6 +35,10 @@
 - [Uberの深層学習による到着時間推定（DeepETA）](https://eng.uber.com/deepeta-how-uber-predicts-arrival-times/): XGBoost からの置き換え過程を、問題設定・特徴量・アーキテクチャ・高速化・バイアス・損失関数・デプロイの観点で解説。
 - [PyCaretに時系列分析用の新モジュールが追加](https://towardsdatascience.com/announcing-pycarets-new-time-series-module-b6e724d4636c?gi=e51367bdc8a0): ソースコードと実行結果をまとめた発表記事。
 - [時系列データの検証用データセット構築方法を議論する記事](https://zenn.dev/ymd/articles/fd08fb46bc868c): Combinatorial Purged Cross-Validation などの手法を紹介。
+- [Transformerを用いた時系列予測の記事](https://blog.brainpad.co.jp/entry/2021/02/17/140000): 製品購入量の予測タスクを題材にした概要説明と実装。
+- [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting 解説記事](https://cookie-box.hatenablog.com/entry/2021/02/11/195822): 時系列データの長期予測手法を関連研究・背景付きで紹介。
+- [機械学習を用いた株価予測に役立つ日本語情報のリンク集](https://note.com/regonn314/n/n4d2b3edb62be): Kaggle「Jane Street Market Prediction」など頻出テーマの情報源をまとめた記事。
+- [Transformerで時系列データを扱う記事（Keras実装）](https://towardsdatascience.com/the-time-series-transformer-2a521a0efad3?gi=d3f3a4c95be8): 上位解法にしばしば登場する手法の実装例。
 
 ## 関連概念
 

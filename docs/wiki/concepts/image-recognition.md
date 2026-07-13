@@ -132,6 +132,13 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [EfficientNetV2の解説記事](https://dajiro.com/entry/2021/04/10/230416): EfficientNet の後継モデルの解説記事。
 - [Transformer勉強会資料（第六回全日本コンピュータビジョン勉強会）](https://speakerdeck.com/sei88888/quan-ri-ben-cvmian-qiang-hui-fa-biao-zi-liao-learning-transformer-in-40-minutes): 画像領域における Transformer を題材にした勉強資料。
 - [CVPR 2021 3次元物体検出サーベイ資料](https://speakerdeck.com/takarasawa_/monocular-3d-object-detection-at-cvpr2021): 各論文が扱う課題や提案手法の概要をまとめた資料。
+- [OpenAI「CLIP」の解説記事（PyTorch実装つき）](https://sachinruk.github.io/blog/pytorch/pytorch%20lightning/loss%20function/gpu/2021/03/07/CLIP.html): 画像認識モデル CLIP を PyTorch 実装とともに紹介。
+- [「DALL·E」解説Podcast（第3回）](https://anchor.fm/yoheikikuta/episodes/DALLE--part-3-DALLE-errr51): テキストから画像を生成するモデルの解説シリーズ最終回。要点メモも公開。
+- [「NFNets」の解説動画](https://www.youtube.com/watch?v=rNkHjZtH0RQ&feature=youtu.be): Batch Normalization を使わない画像分類の最高性能モデルの解説。
+- [動画認識コンペのサーベイ資料（ActivityNet Challenge等）](https://www.slideshare.net/cvpaperchallenge/towards-performant-video-recognition-231628214): さまざまなコンペの課題・解法をまとめた資料。
+- [PyTorchによる画像分類の性能向上手法まとめ記事](https://twitter.com/omiita_atiimo/status/1362249066013335553?s=20): データ水増し手法などをソースコード付きで紹介。
+- [Metric Learning「Supervised Contrastive Learning」の解説記事](https://towardsdatascience.com/how-to-use-metric-learning-embedding-is-all-you-need-f26e01597375?gi=95f213204ad5): 通常の画像分類との違いを中心に説明し実装も公開。
+- [2010年以降のコンピュータビジョン分野の動向まとめ記事](https://gihyo.jp/dev/column/newyear/2021/computer-vision-trends): 深層学習による画像認識コンペの革新から近年の潮流までを解説。
 
 ## 関連概念
 

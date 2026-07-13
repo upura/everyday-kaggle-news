@@ -27,6 +27,9 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [ヒューリスティック・マラソン形式コンテストの入門記事](https://qiita.com/tanaka-a/items/3c2a1bca63759ec71e7f): Kaggle「Santa 2021 - The Merry Movie Montage」も当てはまる形式の入門解説。
 - [Optuna v3.0.0-a0 最初のリリース候補公開](https://github.com/optuna/optuna/releases/tag/v3.0.0-a0): 「LightGBMTuner.best_booster」の変更なども含むリリースノート。
 - [SIGNATE「タダノ クレーン旋回操作最適化チャレンジ」参加者向けイベント](https://us02web.zoom.us/webinar/register/WN_VNbxaRUsQeihoUkjvHe0cA): SIGNATE 初のシミュレーション形式コンペのイベント。
+- [最適化手法「SAM」の性能変化を検証する記事](https://dajiro.com/entry/2021/03/14/124435): 「Sharpness-Aware Minimization」の効果をソースコード付きで検証。
+- [PyTorch Lightningで「SAM」を利用する方法の紹介記事](https://chizuchizu.com/blog/sam_lightning/): 画像分類タスクで最高性能を示し話題となった手法の実装方法。
+- [Optuna v2.4.0リリース](https://github.com/optuna/optuna/releases/tag/v2.4.0): Python 3.9 サポートを開始したリリース。
 
 ## 関連概念
 

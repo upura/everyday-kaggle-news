@@ -80,6 +80,26 @@
 - [自然言語列を含むテーブルデータの特徴量エンジニアリング技法まとめ記事](https://zenn.dev/koukyo1994/articles/9b1da2482d8ba1): 具体的な実装とともに技法を紹介。
 - [LightGBMの損失関数「Focal Loss」の活用記事](https://developers.microad.co.jp/entry/2021/04/26/060000): 不均衡データに有効な損失関数を数式・実装・実験結果付きで解説。
 - [表形式の複数データセットでXGBoostと深層学習を比較した研究](https://arxiv.org/abs/2106.03253): XGBoost の優位性とアンサンブルによる性能向上を確認。
+- [「Tabular Playground Series」の紹介記事](https://towardsdatascience.com/progressively-approaching-kaggle-f58db71a42a9?gi=32e36ede2a44): Titanic に代わる月次開催の練習用コンペを紹介する記事。
+- [LightGBMのデータ量とイテレーション回数の関係を調査した記事](https://blog.amedama.jp/entry/lgbm-data-size-vs-best-iters): 概ね線形な関係にあることを実験的に確認。
+- [テーブルデータにVariational Autoencoderを適用する記事](https://note.com/regonn314/n/n492ee6da4bd0): PyTorch での実装を公開。
+- [小売予測のベストプラクティス記事（Instacart 2位解法者ら共著）](https://developer.nvidia.com/blog/best-practices-of-using-ai-to-develop-the-most-accurate-retail-forecasting-solution/): 具体的なコードと共にまとめたベストプラクティス。
+- [順序関係を持つクラス分類「label distribution learning」の紹介記事](https://tech-blog.optim.co.jp/entry/2021/03/30/100000): 正解ラベルを中心とした正規分布でラベルのゆらぎを考慮する手法。
+- [「Pandas」に代わるRust製ライブラリ「Pypolars」の紹介記事](https://medium.com/analytics-vidhya/is-pypolars-the-new-alternative-to-pandas-916400f03fd7): 結合などの速度で優位性を示す実験結果。
+- [xfeatで集約特徴量を自作関数で作る方法の紹介記事](https://www.smartbowwow.com/2021/02/xfeataggregation.html): 生成後のカラム名を制御する方法も解説。
+- [PyTorchでCatBoostのカスタム損失関数を定義する方法の解説記事](https://towardsdatascience.com/easy-custom-losses-for-tree-boosters-using-pytorch-57ffaa0b2eb3?gi=57a373d316f7): 損失関数の違いによる出力の変化も考察。
+- [NODE: Neural Oblivious Decision Ensembles for Deep Learning on Tabular Data の紹介記事](https://towardsdatascience.com/modelling-tabular-data-with-catboost-and-node-929bfbaaeb08?gi=5d170809abeb): CatBoost で知られる Yandex による手法の紹介。実装も公開。
+- [勾配ブースティングの学習にTensorFlowの損失関数を使う方法の記事](https://lab.astamuse.co.jp/entry/training-xgboost-with-tensorflow): GPU 対応による計算時間短縮の利点を紹介。
+- [KaggleのNotebooks環境で使えるNVIDIA製ライブラリ「NVTabular」の紹介記事](https://medium.com/nvidia-merlin/faster-gpu-based-feature-engineering-and-tabular-deep-learning-training-with-nvtabular-on-kaggle-com-9791fa2f4b61): GPU でテーブルデータを処理する機能を紹介。
+- [scikit-learn v0.24の更新内容まとめ記事](https://towardsdatascience.com/new-features-of-scikit-learn-fbbfe7652bfb?gi=df07ba9e078e): Sequential Feature Selector や半教師あり学習の分類器などを紹介。
+- [Pandasの value_counts() のあまり知られていない引数を紹介する記事](https://towardsdatascience.com/getting-more-value-from-the-pandas-value-counts-aa17230907a6?gi=fb8fe3fcf37e): `dropna=False`・`bins=N` などを紹介。
+- [XGBoost 1.3.0のGPU版SHAP「GPUTreeSHAP」の解説記事](https://medium.com/rapids-ai/gpu-accelerated-shap-values-with-xgboost-1-3-and-rapids-587fad6822): GPU でモデルを解釈する手法の紹介。
+- [BigQuery上の機械学習機能「BQML」の検証資料](https://speakerdeck.com/shimacos/bqmlkotohazime): Kaggle「Otto Group Product Classification Challenge」のデータを用いた検証結果。
+- [Pandas v1.2.0・SciPy v1.6.0公開](https://pandas.pydata.org/pandas-docs/version/1.2.0/whatsnew/v1.2.0.html): 両ライブラリの同時期リリースを紹介。
+- [Tabular Playground Series 2021年4月分開始](https://www.kaggle.com/c/tabular-playground-series-apr-2021/): Titanic データに GAN を用いて生成したデータセットを使用。
+- [CatBoost v0.25リリース](https://github.com/catboost/catboost/releases/tag/v0.25): 特徴量重要度に基づく特徴選択機能や GPU 損失計算の変更を追加。
+- [テーブルデータへのTransformer利用方法の紹介記事（Riiid実装）](https://future-architect.github.io/articles/20210325/): Kaggle「Riiid Answer Correctness Prediction」を題材に具体的な実装を公開。
+- [Amazon製欠損値補完ライブラリ「DataWig」の紹介記事](https://zenn.dev/atfujita/articles/84e826f3b8e4f99d24cb): 深層学習を用いて欠損値を予測するライブラリの紹介。
 
 ## 関連概念
 

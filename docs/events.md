@@ -196,3 +196,13 @@ https://kansaikaggler.connpass.com/
 - [Optunaイベント（開発者発表・公募発表枠あり）](https://optuna.connpass.com/event/207545/): ハイパーパラメータ最適化ツールに関するコミュニティイベント。
 - [コペルニクス・マスターズ日本大会開催](https://copernicus-masters-japan.digitalblast.co.jp/): 衛星データ活用ビジネスアイディアコンテスト。情報交換の場に Nishika のプラットフォームを活用。
 - [Kaggle「HuBMAP - Hacking the Kidney」表彰式](https://www.youtube.com/watch?v=fZebsmQoUEY&feature=youtu.be): 予測部門の表彰と審査員賞発表が予定された表彰式。
+- [第三回全国医療AIコンテスト開催報告](https://zenn.dev/tpt_ochanomizu/articles/dad722d9410f0a): 心電図から心筋梗塞かどうかを判定するコンペの開催報告記事。
+- [SIGNATE「オフロード画像のセグメンテーションチャレンジ」表彰式](https://us02web.zoom.us/webinar/register/WN_a8ivojBeT6i3Rtr1Su-sDw): 「第4回AIエッジコンテスト（実装コンテスト②）」表彰式の動画・発表資料も合わせて公開。
+- [SIGNATE「漁業×AIチャレンジ：魚群検知アルゴリズムの作成」表彰式](https://signate.mk6-robo.com/pages/hui-han-an-konpeiao-hang-hi-/): 入賞者プレゼンテーションと質疑応答が予定された表彰式。
+- [「atmaCup オンサイトデータコンペ #9」運営視点の振り返り記事](https://atma.hatenablog.com/entry/2021/02/25/185945): 振り返り会の開催報告と優勝者資料も合わせて公開。
+- [DeNA実データを用いたデータ解析コンペ開催](https://dena-ai.connpass.com/event/204494/): 学生以外も参加可能なコンペの開催告知。
+- [医療データを用いた学生・医療従事者限定コンペ開催](https://connpass.com/event/204007/): 講演・チュートリアルも予定されたコンペ。
+- [「Sansan × atmaCup #6」開催記念勉強会](https://sansan.connpass.com/event/202716/): Kaggle Master 3 人・Expert 2 人が発表予定の勉強会。
+- [SIGNATE「第4回AIエッジコンテスト（実装コンテスト②）」表彰式](https://www.ai-edge-contest.org/): 自動車走行画像認識コンペの上位入賞者発表。
+- [「#SwipeToSuccess」コンペ優勝者発表イベント](https://www.meetup.com/Democratic-AI-by-bitgrit-Tokyo/events/275960044/): インド展開に伴い開催されたマッチングアプリコンペの優勝者発表。
+- [「分析コンペ 勉強会」運営による振り返り記事](https://buildersbox.corp-sansan.com/entry/2021/03/05/110000): 全 5 件の発表資料も公開。「Colaboratoryで分析コンペをする時のテクニック集」の補足記事も別途公開。
