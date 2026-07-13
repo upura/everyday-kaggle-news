@@ -91,6 +91,9 @@
 - [30分で完全理解するTransformerの世界](https://zenn.dev/zenkigen/articles/2023-01-shimizu): サーベイ論文をもとに Transformer 機構を解説する記事。
 - [Transformer モデルの仕組みを JAX/Flax で実装しながら解説してみる（パート１）](https://enakai00.hatenablog.com/entry/2023/02/10/102036): Transformer を JAX/Flax で実装しながら解説する連載記事。
 - [情報検索100本ノック](https://github.com/ir100/ir100): 情報検索の課題を集めた「100 本ノック」形式の演習教材。
+- [ku-nlp/deberta-v2-large-japanese](https://huggingface.co/ku-nlp/deberta-v2-large-japanese): 京大黒橋研による日本語 DeBERTa V2（large）。当時最大級のコーパスで学習。
+- [ku-nlp/deberta-v2-base-japanese](https://huggingface.co/ku-nlp/deberta-v2-base-japanese): 同モデルの base / tiny サイズ版。
+- [Kaggleで学んだBERTをfine-tuningする際のTips⑤〜ラベルなしデータ活用編〜](https://www.ai-shift.co.jp/techblog/3161): Pseudo Labeling と追加事前学習によるラベルなしデータ活用の連載第 5 回。
 - [Cohereの多言語用の埋め込みモデルを日本語で評価してみる](https://hironsan.hatenablog.com/entry/2023/11/06/133504): 多言語埋め込みモデルの日本語性能を文類似度と検索で評価した記事。
 - [Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368): LLM の合成データで埋め込みモデルを改善する論文。e5-mistral モデル公開つき。
 - [近似最近傍探索ライブラリVoyagerで類似単語検索を試す](https://zenn.dev/chimuichimu/articles/bab071c182784c): Spotify 公開の ANN ライブラリを Annoy と比較する検証記事。

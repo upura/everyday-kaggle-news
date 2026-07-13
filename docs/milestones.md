@@ -19,6 +19,7 @@
 - [Kaggle Grandmaster になるまでの振り返り](https://tnkcoder.hatenablog.com/entry/2023/08/11/201816): 修士 1 年で昇格した tk さんの振り返り記事。
 - [Kaggle Grandmasterになるまで](https://zenn.dev/s_shohey/articles/46d48ad096b82f): 称号の段階別の取り組みと参加姿勢を紹介する振り返り記事。
 - [Kaggle Grandmasterになったので今までを振り返る](https://aryyyyy.hatenablog.com/entry/2023/03/14/110252): RSNA 乳がん検出コンペで昇格した YujiAriyasu さんの振り返り記事。
+- [Kaggle Grandmasterになったのでこれまでの参加コンペを振り返る](https://yu4u.hatenadiary.org/entry/2023/01/15/185119): G2Net コンペで昇格した yu4u さんの回顧録。
 - [世界トップクラスAIエンジニアの証明である「Kaggle Grandmaster」に世界で最初に認定された73名のうちの一人・小嵜耕平がRistに入社](https://www.rist.co.jp/202303014651/): 『Kaggleに挑む深層学習プログラミングの極意』著者 smly さんの入社リリース。
 
 ## Kaggle Master 振り返り

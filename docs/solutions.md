@@ -712,6 +712,7 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Learning to detect continuous gravitational waves: an open data-analysis competition](https://arxiv.org/abs/2509.06445)
+- [G2Netコンペ2023 振り返り](https://sqrt4kaido.hatenablog.com/entry/2023/01/07/020404): CNN を用いた 17 位解法の振り返り記事。
 
 </div>
 

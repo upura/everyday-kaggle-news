@@ -138,6 +138,7 @@ https://kansaikaggler.connpass.com/
 - [🤗 Hugging Face x TohokuNLP Joint Workshop](https://sites.google.com/view/huggingface-tohoku-workshop): Hugging Face エンジニアらが登壇したワークショップ。
 - [AI王 〜クイズAI日本一決定戦〜 振り返り会](https://pksha-technology.connpass.com/event/280481/): 第 3 回コンペの解法発表を含む振り返り会。
 - [W&B 東京ミートアップ #1](https://wandb.connpass.com/event/273873/presentation/): Stability AI 日本代表による画像生成 AI の講演。
+- [【ProbSpace】 "花粉飛散量予測" コンペティション表彰式・解法共有会](https://connpass.com/event/271860/)
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)
