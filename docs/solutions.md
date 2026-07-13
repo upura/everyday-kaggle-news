@@ -1117,6 +1117,7 @@
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [MLB Player Digital Engagement Forecasting 参加録](https://sqrt4kaido.hatenablog.com/entry/2021/08/06/022645): 将来のデータを予測するコンペ特有の難しさを端的にまとめた記事。
+- [MLB Player Digital Engagement Forecasting コンペ紹介記事（Kaggle公式）](https://cloud.google.com/blog/products/ai-machine-learning/using-machine-learning-to-deconstruct-baseball-fandom): Kaggle の Julia Elliott さんによる紹介記事。大谷翔平選手にも言及。
 
 </div>
 
@@ -1125,6 +1126,62 @@
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">その他</span>
 
 - [ビジネス版マッチングアプリ「Yenta」のデータを用いた「#SwipeToSuccess」コンペ振り返り](https://note.com/datagateway/n/n19d015dd7483): Kaggle Grandmaster の Senkin さんのコメントも掲載する振り返り記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="audio" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/birdclef-2021">BirdCLEF 2021 - Birdcall Identification</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
+
+- [BirdCLEF 2021 優勝解法まとめ](https://speakerdeck.com/startjapan/birdclef2021matome): 優勝解法に絞って解説した記事も別途公開。
+- [BirdCLEF 2021 2位解法](https://arxiv.org/abs/2107.07728): ソースコードも公開された 2 位解法。
+- [BirdCLEF 2021 10位解法](https://arxiv.org/abs/2107.04878): 弱ラベルを用いた教師あり学習の枠組みを提案する解法。
+- [BirdCLEF 2021 銅メダル解法](https://teyoblog.hatenablog.com/entry/2021/06/05/154849): データの準備から後処理までを具体的に紹介する記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="multimodal" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/shopee-product-matching">Shopee - Price Match Guarantee</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Multimodal</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Shopee - Price Match Guarantee 2位解法](https://speakerdeck.com/lyakaap/shopee-2nd-place-solutiontoshang-wei-jie-fa-matome): スコアと合わせた解説、コード提出形式コンペでの Tips も掲載。
+- [Shopee - Price Match Guarantee 銀メダル解法](https://techblog.exawizards.com/entry/2021/06/07/141648): 画像・テキスト情報を用いて商品をまとめ上げる手法の解説。
+- [Shopee - Price Match Guarantee 5位解法](https://acro-engineer.hatenablog.com/entry/2021/05/31/120000): 候補群の生成や凝縮型クラスタリングなどを詳細に紹介。
+- [Shopee - Price Match Guarantee 10位解法](https://lab.mo-t.com/blog/kaggle-shopee): 手法を選んだ背景と上位解法もあわせて詳細にまとめた記事。
+- [Shopee - Price Match Guarantee 銅メダル解法](https://masatakashiwagi.github.io/portfolio/post/kaggle-shopee-solution/): 記事後半で上位解法もまとめて紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/bms-molecular-translation">Bristol-Myers Squibb – Molecular Translation</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Bristol-Myers Squibb – Molecular Translation 3位解法](https://dena.ai/news/202106-kaggle-bms/): 同コンペで Grandmaster に昇格した KF さんによる 3 位チーム解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/coleridgeinitiative-show-us-the-data">Coleridge Initiative - Show US the Data</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Coleridge Initiative - Show US the Data 銀メダル解法](https://tmyoda.hatenablog.com/entry/20210628/1624883322): 別の参加者による参加録も合わせて公開。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/indoor-location-navigation">Indoor Location & Navigation</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Indoor Location & Navigation 15位解法](https://cocoinit23.com/kaggle-indoor-location-navigation-15th-place-solution/): モデル作成・後処理などを丁寧に説明する解法解説。
+- [Indoor Location & Navigation 銅メダル獲得者の取り組み](https://cpptake.com/archives/791): 限られた参加期間でスコアを上げた方法をまとめた記事。Shopee - Price Match Guarantee 終盤参戦での銀メダル獲得記事も合わせて公開。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="other">
+<h3>ProbSpace「論文の被引用数予測」</h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
+
+- [ProbSpace「論文の被引用数予測」4位解法](https://pop-ketle.hatenablog.com/entry/2021/04/12/203016): 作成した特徴量などコンペ中の取り組みを具体的に紹介。
 
 </div>
 
@@ -1148,6 +1205,8 @@
 - [SIGNATE「医学論文の自動仕分けチャレンジ」参加録](https://zenn.dev/kuboko/articles/signate-srwspsg-pytorch): BERT を用いた取り組みを紹介する参加録。
 - [SIGNATE「ファンダメンタルズ分析チャレンジ」「ニュース分析チャレンジ」上位チームのコード公開](https://www.jpx.co.jp/corporate/news/news-releases/0010/20210813-01.html): 表彰式での発表資料も掲載。
 - [SIGNATE「J-Quants データ分析コンペティション」表彰式 質問への追加回答](https://qiita.com/blog_UKI/items/1e329bd684f06db50ca7): 両部門で 2 位になった参加者による、ソースコード・資料付きの回答記事。
+- [SIGNATE「ファンダメンタルズ分析チャレンジ」「ニュース分析チャレンジ」上位解法まとめ（表彰式発表資料）](https://speakerdeck.com/gamella/j-quantsbiao-zhang-hui-zi-liao-shang-wei-ru-shang-zhe-jie-fa-zong-ping-number-jquants): 両部門で 2 位になった参加者のソースコード・資料も掲載。
+- [SIGNATE「日本取引所グループ ファンダメンタルズ分析チャレンジ」優勝解法](https://dena.ai/news/202106-fundamentals-analysis-challenge/): 財務諸表から株価の将来の動きを予測するコンペの優勝解法。
 
 </div>
 
@@ -1462,6 +1521,7 @@
 
 - [AutoGluon-Tabular を用いたアンサンブルによる日本語質問応答システムの構築](https://speakerdeck.com/upura/aio-solution-by-autogluon-tabular)
 - [【AI王 〜クイズAI日本一決定戦〜】ふりかえり](https://www.ai-shift.co.jp/techblog/1781)
+- [「AI王 〜クイズAI日本一決定戦〜」優勝解法](https://qiita.com/z-lai/items/e547cd2a88a9b7f8e0b6): 言語処理学会第 27 回年次大会のワークショップとして開催されたコンペの優勝解法。
 
 </div>
 

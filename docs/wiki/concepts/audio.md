@@ -28,6 +28,7 @@
 - [DCASE Challenge 2022 課題一覧発表](http://dcase.community/articles/challenge-tasks-for-dcase2022): 音響イベント検出コンペの年次課題発表。
 - [2020〜2021年の鳥の鳴き声コンペ3つの振り返り記事](https://qiita.com/tattaka/items/ed355707963ec48a8106): 各コンペの概要と際立った解法をまとめた記事。
 - [近年の音声認識手法の動向まとめ記事](https://ys0510.hatenablog.com/entry/e2e_asr): 一つのニューラルネットワークで処理する End-to-End 手法に焦点を当てた記事。
+- [DCASE 2021 技術報告まとめ](http://dcase.community/challenge2021/task-unsupervised-detection-of-anomalous-sounds): 異常音検知など複数部門の上位チーム技術報告。
 
 ## 関連概念
 

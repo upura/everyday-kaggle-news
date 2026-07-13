@@ -182,3 +182,17 @@ https://kansaikaggler.connpass.com/
 - [Kaggle勉強会（実装・実験管理系の発表5件）](https://kaggle-friends.connpass.com/event/220927/): 発表資料や動画が公開された勉強会。
 - [「#11 [初心者歓迎! / 画像編] atmaCup」振り返り会](https://atma.connpass.com/event/220495/): 優勝者による解法共有や有志の発表が予定された振り返り会。
 - [SIGNATE「株式会社スペースシフト 新建造物検知アルゴリズム作成」表彰式](https://signate.connpass.com/event/220618/): 合成開口レーダー画像から新規建物を検出するコンペの表彰式。
+- [Kaggle「Hungry Geese」コンペイベント](https://kaggle-friends.connpass.com/event/219201/): 蛇を操作するゲーム AI で競う対戦形式コンペを扱うイベント。
+- [Solafune上地さん講演「AWSを活用した機械学習コンペ」](https://jawsug-ai.connpass.com/event/216573/): 衛星データを用いた高解像度画像の新コンペ開催も予告された講演。発表動画も公開。
+- [第２回分析コンペLT会](https://www.currypurin.com/entry/2021/06/20/192943): 発表資料と発表動画の録画が公開されたコミュニティイベント。
+- 『BERTによる自然言語処理入門 Transformersを使った実践プログラミング』[出版記念イベント](https://stockmark.co.jp/news/20210618): 乾健太郎教授（東北大学大学院）らが登壇。
+- [ゲームAI研究会「サッカー・Hungry Geeseから見たkaggleと強化学習」](https://www.ipsj.or.jp/kenkyukai/event/gi46.html): 特別講演が予定された研究会。
+- [Kaggle勉強会（画像処理・PyTorch関連ライブラリ）](https://kaggle-friends.connpass.com/event/214854/): pytorch-pfn-extras・PyTorch Lightning などの発表が予定された勉強会。
+- [SIGNATE Student Cup 2021春「楽曲のジャンル推定チャレンジ」表彰式](https://signate.connpass.com/event/214998/): 入賞者発表・質疑応答が予定された表彰式。
+- [SIGNATE「ひろしまQuest2020：画像データを使ったレモンの外観分類」表彰式](https://www.pref.hiroshima.lg.jp/soshiki/259/quest3.html): SIGNATE による結果説明と入賞者発表が予定された表彰式。
+- [「ニッチな分析コンペLT会」](https://kaggle-friends.connpass.com/event/214267/): コンペのタスク管理などを題材にした発表イベント。
+- [Kaggle「Shopee - Price Match Guarantee」結果発表観覧イベント](https://connpass.com/event/212677/): 当時 2 位につけていた tkm2261 さん主催の有志イベント。
+- [SIGNATE代表登壇セッション「JR西日本北陸新幹線着雪量予測コンペ」対談](https://www.microsoft.com/ja-jp/events/azureaidays/2021.aspx): 主催企業のデータサイエンティストとの対談が予告されたセッション。
+- [Optunaイベント（開発者発表・公募発表枠あり）](https://optuna.connpass.com/event/207545/): ハイパーパラメータ最適化ツールに関するコミュニティイベント。
+- [コペルニクス・マスターズ日本大会開催](https://copernicus-masters-japan.digitalblast.co.jp/): 衛星データ活用ビジネスアイディアコンテスト。情報交換の場に Nishika のプラットフォームを活用。
+- [Kaggle「HuBMAP - Hacking the Kidney」表彰式](https://www.youtube.com/watch?v=fZebsmQoUEY&feature=youtu.be): 予測部門の表彰と審査員賞発表が予定された表彰式。

@@ -52,6 +52,8 @@
 - [NVIDIA所属Kaggle Grandmaster 9人によるイベントまとめ記事](https://developer.nvidia.com/blog/competition-and-community-insights-from-nvidias-kaggle-grandmasters/): おすすめライブラリやコンペへの取り組み方に関する質問応答をまとめた記事。
 - [今年5月からKaggleに参加した方の振り返り記事](https://qiita.com/Java_is_a_sparrow/items/b4f4dd4a2c4530db5a72): 初参加コンペの感想や心構えを綴る記事。
 - [Google Smartphone Decimeter Challengeメダル獲得者による取り組み方記事](https://qiita.com/shu421/items/ed255c1ad846c92ba448): Titanic 後の Kaggle との向き合い方の軌跡を綴る記事。
+- [Kaggle Masterの称号を持つ方の転職体験記](https://krksan.com/blogs/article/49): 書類選考の段階で役立った経験を綴る体験記。
+- [SETI Breakthrough Listenのスペクトラム画像に「kaggle」の文字列が発見された話](https://www.kaggle.com/c/seti-breakthrough-listen/discussion/239438): 主催者による意図的な埋め込みで発見者に景品が贈られたエピソード。
 
 ## 関連概念
 

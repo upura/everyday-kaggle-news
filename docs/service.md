@@ -44,3 +44,5 @@
 
 - [SIGNATE 金融マーケット予測の実践講座](https://prtimes.jp/main/html/rd/p/000000027.000015818.html): SIGNATE で開催されたコンペのチュートリアルを基にした講座。
 - [NHK朝のニュースでSIGNATEが紹介](https://www3.nhk.or.jp/news/contents/ohabiz/2021_0907.html): データサイエンティストの話題の中で SIGNATE が取り上げられた報道。
+- [Kaggleコンペ一覧ページのUI刷新](https://www.kaggle.com/product-feedback/245652): 実行環境の R 言語バージョンも 4.x に更新。
+- [SIGNATE独自メディア「SIGNATE Articles」公開](https://signate.jp/articles/): コンペ入賞者へのインタビュー記事などを掲載するメディア。

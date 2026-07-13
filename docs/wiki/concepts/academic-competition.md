@@ -43,6 +43,8 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [「AI王 〜クイズAI日本一決定戦〜」第2回コンペのベースラインコード公開](https://github.com/cl-tohoku/AIO2_DPR_baseline): 第 1 回の 20 択形式から自由回答形式に変わった問題設定のベースライン。
 - [Kaggle「OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction」の成果をまとめた論文](https://arxiv.org/abs/2110.07531): コンペの概要・成果・上位解法を紹介する論文。
 - [KDD 2021時系列異常検知コンペ参加報告・上位解法まとめ](https://www.slideshare.net/GentaYoshimura/kdd-cup-2021): 「KDD2021 参加報告&論文読み会」での発表資料。
+- [自然言語処理系国際会議で2020年に開催されたコンペのまとめ](https://k141303.com/index.php/2021/05/10/nlp_shared_task_2020/): 文書分類・翻訳などのタスクを横断したまとめ記事。
+- [「森羅2021-ML: 多言語分類タスク」開催ページ](http://shinra-project.info/shinra2021ml/?lang=en): 30 言語の Wikipedia 記事を約 220 の固有表現カテゴリに分類するコンペ。
 
 ## 関連概念
 

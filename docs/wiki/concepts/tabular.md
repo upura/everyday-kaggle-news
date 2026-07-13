@@ -74,6 +74,12 @@
 - [特徴量生成ライブラリ「Featuretools」v1.0.0公開](https://github.com/alteryx/featuretools/releases/tag/v1.0.0): テーブル形式データセットに対する自動特徴量生成ライブラリ。
 - [Python 3.10.0・CatBoost v1.0.0リリース](https://www.python.org/downloads/release/python-3100/): 両ライブラリの同時期リリースを紹介する記事。
 - [Long-tail learning via logit adjustment 紹介資料（ICLR 2021）](https://speakerdeck.com/eumesy/long-tail-learning-via-logit-adjustment): 不均衡データの分類問題に対応する手法の議論。
+- [画像向け「TTA」をテーブルデータに適用した論文（WiDS Datathon 2020 1位解法）](https://ieeexplore.ieee.org/document/9462159): テーブルデータでの Test Time Augmentation の応用論文。
+- [GBDTのハイパーパラメータを図示しながら解説する記事](https://knknkn.hatenablog.com/entry/2021/06/29/125226): 調整方法についても紹介する記事。
+- [決定木系アルゴリズム推論高速化ライブラリの解説記事（RAPIDS FIL）](https://medium.com/rapids-ai/rapids-forest-inference-library-prediction-at-100-million-rows-per-second-19558890bc35): 「Shopee - Price Match Guarantee」金メダルチームも利用したライブラリ。
+- [自然言語列を含むテーブルデータの特徴量エンジニアリング技法まとめ記事](https://zenn.dev/koukyo1994/articles/9b1da2482d8ba1): 具体的な実装とともに技法を紹介。
+- [LightGBMの損失関数「Focal Loss」の活用記事](https://developers.microad.co.jp/entry/2021/04/26/060000): 不均衡データに有効な損失関数を数式・実装・実験結果付きで解説。
+- [表形式の複数データセットでXGBoostと深層学習を比較した研究](https://arxiv.org/abs/2106.03253): XGBoost の優位性とアンサンブルによる性能向上を確認。
 
 ## 関連概念
 

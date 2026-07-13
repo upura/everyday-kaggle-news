@@ -164,6 +164,19 @@
 - [CommonLit Readability Prizeを題材にしたBERT学習効率化Tips記事](https://www.ai-shift.co.jp/techblog/2138): 近年のコンペで使われる効率化手法を紹介。
 - [BERTファインチューニングでの過学習抑制Tips記事（CommonLit）](https://www.ai-shift.co.jp/techblog/2170): ドロップアウト関連の手法や議論を紹介。
 - [SparseBERT: Rethinking the Importance Analysis in Self-attention 解説記事（ICML2021）](https://tech.retrieva.jp/entry/2021/07/29/094758): BERT の注意機構の軽量化に取り組む論文の解説。
+- [「Approaching (Almost) Any Natural Language Processing Problem」公開予告](https://github.com/abhishekkrthakur/approaching_almost_nlp): Abhishek Thakur さんによる NLP 実践書の構想公開ページ。
+- [日本語自然言語処理ライブラリ「GiNZA」開発者による日本語言語モデル構築の取り組み資料](https://docs.google.com/presentation/d/1zOUTIXBdw8MhGqCdvq3wn0n2UCfQ99gpkQDsvjb-Xbs/edit): 「WAP NLP Tech Talk #3 With GiNZA」での発表資料。
+- [テキスト前処理・可視化ライブラリ「Texthero」の紹介記事](https://buildersbox.corp-sansan.com/entry/2021/06/29/110000): 日本語対応のためのコードも掲載。
+- [Hugging Face入門講座公開](https://huggingface.co/course/chapter1): ライブラリの使い方を中心に基礎的な内容を紹介する公式講座。
+- [Transformerのサーベイ論文（体系的分類）](https://arxiv.org/abs/2106.04554): Transformer の解説と派生系の分類方法を提唱する論文。
+- [BERTによる日本語自然言語処理の書籍出版予告（Transformers活用）](https://www.ohmsha.co.jp/book/9784274227264/): 学習コードに PyTorch Lightning を利用する書籍の出版告知。
+- [学習済みTransformerモデルを用いたデータ拡張の記事](https://www.ai-shift.co.jp/techblog/1939): 隠された単語を予測する仕組みで新しい文を生成する手法の紹介。
+- [Transformer解説資料（図解中心）](https://speakerdeck.com/yusuketakagi/transformerhahe-woyatuteirufalseka): データの流れを図で説明する解説資料。
+- [日本語対応ライブラリ「AutoNLP」での文書分類記事](https://www.ai-shift.co.jp/techblog/1880): 線形回帰・BERT との性能比較も掲載。
+- [Transformerの一種「Big Bird」の紹介記事](https://tech.retrieva.jp/entry/2021/04/28/172553): 長文を扱うための注意機構の工夫を解説。
+- [Transformer解説記事（Riiid実装例つき）](https://qiita.com/birdwatcher/items/b3e4428f63f708db37b7): 丁寧な図解と、Kaggle「Riiid Answer Correctness Prediction」を題材にした実装例。
+- [近年の自然言語処理動向まとめ資料（汎用事前学習言語モデル観点）](https://speakerdeck.com/karakurist/nlp-survey): 様々な提案手法を簡単な説明と共に列挙した資料。
+- [Transformer機構の調査資料（基礎解説・画像認識応用）](https://www.slideshare.net/cvpaperchallenge/transformer-247407256): 基礎的な解説から画像認識分野への応用までをまとめた資料。
 
 ## 関連概念
 

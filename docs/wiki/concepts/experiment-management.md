@@ -28,6 +28,8 @@
 - [Kaggle用独自ライブラリの構成・思想に関する記事](https://teadev.netlify.app/posts/2021-10-20/): 「Google Brain - Ventilator Pressure Prediction」17 位のコード公開も予定した記事。
 - [ViEW2021チュートリアル「最新研究の始め方」発表資料](https://www.slideshare.net/cvpaperchallenge/tips-ver2-250474910): 3 社 12 研究室による約 300 ページの研究効率化ノウハウ集。
 - [深層学習の実験試行回数を増やすTips資料](https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021): ファイル分割・コード管理・便利ツールをまとめた資料。
+- [Optuna・MLflow・Hydraを組み合わせた実験管理方法の発表資料](https://speakerdeck.com/supikiti/hydra-mlflow-optunafalsezu-mihe-wasedeshou-qing-nishi-meruhaipaparametaguan-li-210b3f53-5c57-4468-b7c8-07ba5f1f05a4): 「Optuna Meetup #1」での発表資料。
+- [「1実験1スクリプト」を勧める発表動画](https://www.youtube.com/watch?v=Gmm96T1lpSg&feature=youtu.be): コンペのためのコード管理方針を扱う発表。同勉強会の他 2 件の動画も公開。
 
 ### ツール・テンプレート
 

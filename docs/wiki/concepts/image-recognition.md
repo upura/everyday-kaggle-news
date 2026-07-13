@@ -121,6 +121,17 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [Torchvision物体検出モデルの比較記事](https://github.com/NobuoTsukamoto/benchmarks/blob/main/pytorch/torchvision/README.md): GTX 1070・Google Colaboratory での検証と動画リンクつき。
 - [NTIRE超解像コンペの紹介資料（CVPR併設）](https://speakerdeck.com/sansandsoc/ntire-2021-learning-the-super-resolution-space-challenge): 超解像分野の歴史と具体的な結果を解説する資料。
 - [MIRU2021チュートリアル「限られたデータからの深層学習」](https://twitter.com/CVpaperChalleng/status/1419906270643908613?s=20): 様々な学習の枠組みやラベルなしデータでの事前学習をまとめた資料。
+- [自己教師あり学習「DINO」の解説記事](https://oumpy.github.io/blog/2021/05/dino.html): atmaCup 上位者が利用した手法の背景とモデル構造を解説。
+- [画像認識分野へのTransformer応用に関する洞察まとめ記事](https://note.com/akira_tosei/n/n3fb6dcd82b93): 弱点や改善の方向性についても議論する記事。
+- [画像認識領域でのTransformer研究動向資料（SSII2021）](https://www.slideshare.net/SSII_Slides/ssii2021-ss1-transformer-x-computer-vision-transformercomputer-vision): 実活用の観点での CNN との比較と今後の展望を扱う資料。
+- [Vision Transformer (ViT) の解説記事（衛星画像分類）](https://sorabatake.jp/20454/): 概要説明の後、衛星画像分類への適用を紹介。
+- [MLP-Mixer・gMLP論文の解説資料](https://www.slideshare.net/KazuyukiMiyazawa/mlpmixer-an-allmlp-architecture-for-vision): 畳み込みや注意機構を使わない多層パーセプトロンによる画像分類の解説。
+- [ViTに畳み込みを導入したモデルの解説記事](https://qiita.com/omiita/items/01687855d7891bcf5fed): 構造の概要と論文の実験結果をまとめた記事。
+- [画像認識分野の学習効率化の調査資料](https://www.slideshare.net/cvpaperchallenge/efficient-training): ネットワーク探索・学習コスト削減の枠組みをまとめた資料。
+- [少ないデータ・ラベルを効率活用する機械学習動画シリーズ第1弾](https://www.youtube.com/playlist?list=PLbtqZvaoOVPBF8MypuGdfMKuc_fHhjp9-): データ拡張・転移学習・半教師あり学習を扱う動画シリーズ。
+- [EfficientNetV2の解説記事](https://dajiro.com/entry/2021/04/10/230416): EfficientNet の後継モデルの解説記事。
+- [Transformer勉強会資料（第六回全日本コンピュータビジョン勉強会）](https://speakerdeck.com/sei88888/quan-ri-ben-cvmian-qiang-hui-fa-biao-zi-liao-learning-transformer-in-40-minutes): 画像領域における Transformer を題材にした勉強資料。
+- [CVPR 2021 3次元物体検出サーベイ資料](https://speakerdeck.com/takarasawa_/monocular-3d-object-detection-at-cvpr2021): 各論文が扱う課題や提案手法の概要をまとめた資料。
 
 ## 関連概念
 

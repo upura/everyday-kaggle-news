@@ -33,6 +33,9 @@
 - [深層学習の予測不確実性をまとめた調査論文の紹介資料](https://www.slideshare.net/ssuser8672d7/uncertainty-in-deep-neural-networks-250505655): 学習・評価データセットの特性差やアンサンブル手法などを取り上げる資料。
 - [Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning 解説記事](https://ai.googleblog.com/2021/10/baselines-for-uncertainty-and.html): 標準的な深層学習手法の実装集を公開する取り組みの紹介。
 - [ニューラルネットや決定木を簡単なモデルで近似して説明する手法の解説記事](https://qiita.com/tmaehara/items/300e61e4a7a0907e441b): LIME などの専用ライブラリを使わずに説明する手続きを紹介。
+- [金融業界での機械学習活用アンチパターン論文の要点まとめ記事](https://zenn.dev/atfujita/articles/35a546f083b69a): データ漏洩やサンプリングなどの問題を扱う論文の解説。
+- [金融持株会社を題材にした機械学習アンチパターン論文](https://arxiv.org/abs/2107.00079): コロナ禍での性能悪化やデータ漏洩の問題を扱う原論文。
+- [ホールドアウト検証に対する交差検証の理論的優位性を報告する論文の解説記事](https://iblog.ridge-i.com/entry/2021/05/26/110000): 見積もられる誤差の違いを議論する記事。
 
 ## 関連概念
 

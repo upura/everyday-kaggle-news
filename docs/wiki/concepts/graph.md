@@ -17,6 +17,8 @@
 - [グラフニューラルネットワーク（PyTorch実装つき書籍）](https://www.ohmsha.co.jp/book/9784274228872/): 基本的な知識や研究事例を PyTorch 実装と共に紹介する書籍。
 - [大規模グラフデータを題材にしたNeurIPS 2022コンペ](https://ogb.stanford.edu/neurips2022/): 「KDD Cup 2021」に続き 2 度目の開催となった国際学会併設コンペ。
 - [グラフニューラルネットワークの解説記事](https://theaisummer.com/gnn-architectures/): グラフの基礎から著名なアーキテクチャまでを扱う解説記事。
+- [GPU上でグラフデータを分析するライブラリ「cuGraph」の紹介記事](https://acro-engineer.hatenablog.com/entry/2021/05/21/120000): ページランクの計算速度を比較する記事。
+- [スタンフォード大学「Machine Learning with Graphs」講義動画](https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn): 埋め込み表現やニューラルネットワークを扱う講義動画。
 - [Graph Neural Networks: Foundations, Frontiers, and Applications](https://graph-neural-networks.github.io/): 27 章にわたる無料公開のグラフニューラルネットワーク書籍。
 
 ## 関連概念

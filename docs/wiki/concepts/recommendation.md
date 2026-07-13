@@ -27,6 +27,11 @@
 - [埋め込み表現の活用方法紹介資料（検索・推薦、KaggleライクなCI環境構築）](https://speakerdeck.com/nadare881/embeddingwoyong-itafen-xi-jian-suo-tui-jian-falseji-shu): ニューラルネットワークで獲得した埋め込み表現の活用手法をまとめた資料。
 - [セッションベース推薦ライブラリ「Transformers4Rec」公開（NVIDIA）](https://medium.com/nvidia-merlin/transformers4rec-4523cc7d8fa8): Hugging Face Transformers を活用した実装。RecSys 2021 に論文採択。
 - [深層学習を用いたクリック予測ライブラリ「DeepCTR」の解説記事](https://qiita.com/guglilac/items/028ba8e156e5c74f650a): 主要モデルを既存解説記事へのリンクと共に紹介。
+- [深層学習推薦システムの概要・有名構造まとめ記事](https://developer.nvidia.com/blog/using-neural-networks-for-your-recommender-system/): 「Deep Learning Recommender Summit」開催告知も合わせて掲載。
+- [SIGIR eCom 2021併設コンペの解法（Transformerによるセッションベース推薦）](https://medium.com/nvidia-merlin/winning-the-sigir-ecommerce-challenge-on-session-based-recommendation-with-transformers-v2-793f6fac2994): 国際学会ワークショップ併設コンペの優勝解法。
+- [Booking.com Data Challenge NVIDIAチーム優勝解法の講演動画](https://www.youtube.com/watch?v=bHuww-l_Sq0&feature=youtu.be): ACM WSDM ワークショップ併設コンペの旅程推薦優勝解法。
+- [Booking.com Data Challenge NVIDIAチーム優勝解法の記事](https://developer.nvidia.com/blog/how-to-build-a-winning-deep-learning-powered-recommender-system-part-3/): 深層学習を用いた旅程推薦の優勝解法を解説する記事。
+- [Netflix Prizeの意義を振り返る記事](https://xamat.medium.com/on-the-usefulness-of-the-netflix-prize-403d360aaf2): 優勝モデルの本番実装にも取り組んだ Xavier Amatriain さんによる振り返り。
 
 ## 関連概念
 
