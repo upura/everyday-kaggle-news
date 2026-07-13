@@ -136,6 +136,7 @@ https://kansaikaggler.connpass.com/
 - [第4回 Data-Centric AI勉強会 -コンペLT大会-](https://dcai-jp.connpass.com/event/298953/): コンペでの Data-Centric な事例を扱う勉強会。
 - [🤗 Hugging Face x TohokuNLP Joint Workshop](https://sites.google.com/view/huggingface-tohoku-workshop): Hugging Face エンジニアらが登壇したワークショップ。
 - [AI王 〜クイズAI日本一決定戦〜 振り返り会](https://pksha-technology.connpass.com/event/280481/): 第 3 回コンペの解法発表を含む振り返り会。
+- [W&B 東京ミートアップ #1](https://wandb.connpass.com/event/273873/presentation/): Stability AI 日本代表による画像生成 AI の講演。
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
 - [Image Matching Challenge 2025 振り返り会](https://turing.connpass.com/event/360266/)
