@@ -153,6 +153,17 @@
 - [ニューラルネットワークによる自然言語処理の概観資料](https://www.slideshare.net/shotakase33/ss-250870067): 系列を扱う構造や学習方法、動向を紹介する資料。
 - [2021年NLPコンペ上位解法に共通する手法・方針の解説記事](https://qiita.com/cfiken/items/0890269721fb78bd9683): アンサンブルや外部データ利用などの事例をまとめた記事。
 - [『深層学習』改訂第2版（講談社）発売告知](https://www.hanmoto.com/bd/isbn/9784065133323): Transformer やグラフニューラルネットワークなどを大幅加筆した定番書籍の改訂版。
+- [FlaxでTPU上のBERTをファインチューニングする解説記事](https://www.ai-shift.co.jp/techblog/2209): Kaggle「CommonLit Readability Prize」を題材にした解説記事。
+- [マルチタスク学習で有用なタスクを選ぶ手法の解説記事（NeurIPS 2021）](https://ai.googleblog.com/2021/10/deciding-which-tasks-should-train.html): 「Efficiently Identifying Task Groupings for Multi-Task Learning」の紹介。
+- [Transformer用最適化ライブラリ「xFormers」公開（Facebook Research）](https://github.com/facebookresearch/xformers): PyTorch ベースの Transformer 最適化実装ライブラリ。
+- [教師なし文表現作成手法「SimCSE」の解説記事](https://tech.retrieva.jp/entry/2021/10/12/130850): 日本語ニュース記事での実験結果も掲載。
+- [新たな言語モデル「FLAN」の発表（Google Research）](https://ai.googleblog.com/2021/10/introducing-flan-more-generalizable.html): 実験で GPT-3 を上回る性能を報告。
+- [rinna日本語GPT-2・BERT公開、Megagon日本語T5公開](https://prtimes.jp/main/html/rd/p/000000017.000070041.html): 日本語特化の事前学習済みモデル群の公開告知。
+- [ACL 2021ベストペーパーを日本語文書で検証する記事](https://tech.retrieva.jp/entry/2021/08/25/185920): 適切な語彙サイズを自動決定する枠組みの日本語検証。
+- [BERT推論高速化手法の検証記事（量子化・蒸留・剪定）](https://tech.jxpress.net/entry/2021/08/26/170000): 詳細な実験結果と共に紹介する記事。
+- [CommonLit Readability Prizeを題材にしたBERT学習効率化Tips記事](https://www.ai-shift.co.jp/techblog/2138): 近年のコンペで使われる効率化手法を紹介。
+- [BERTファインチューニングでの過学習抑制Tips記事（CommonLit）](https://www.ai-shift.co.jp/techblog/2170): ドロップアウト関連の手法や議論を紹介。
+- [SparseBERT: Rethinking the Importance Analysis in Self-attention 解説記事（ICML2021）](https://tech.retrieva.jp/entry/2021/07/29/094758): BERT の注意機構の軽量化に取り組む論文の解説。
 
 ## 関連概念
 

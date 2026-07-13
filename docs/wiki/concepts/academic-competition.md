@@ -40,6 +40,9 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [Inverse Scaling Prize](https://github.com/inverse-scaling/prize): 言語モデルのサイズが大きくなるほど性能が悪化するようなタスク設計を問う、ニューヨーク大学研究チーム主催のコンペ。
 - [WAT 2022 翻訳データクリーニングコンペ](https://sites.google.com/view/wat-filtering/): 学習設定を固定し、日英科学技術論文データのクリーニングによる翻訳性能を競う機械翻訳ワークショップ併設コンペ。
 - [「AI王 〜クイズAI日本一決定戦〜」第2回コンペティション3位解法](https://techblog.exawizards.com/entry/2022/04/25/161045): 外部データセットの取り込みで性能を高めた日本語質疑応答コンペの解法。
+- [「AI王 〜クイズAI日本一決定戦〜」第2回コンペのベースラインコード公開](https://github.com/cl-tohoku/AIO2_DPR_baseline): 第 1 回の 20 択形式から自由回答形式に変わった問題設定のベースライン。
+- [Kaggle「OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction」の成果をまとめた論文](https://arxiv.org/abs/2110.07531): コンペの概要・成果・上位解法を紹介する論文。
+- [KDD 2021時系列異常検知コンペ参加報告・上位解法まとめ](https://www.slideshare.net/GentaYoshimura/kdd-cup-2021): 「KDD2021 参加報告&論文読み会」での発表資料。
 
 ## 関連概念
 

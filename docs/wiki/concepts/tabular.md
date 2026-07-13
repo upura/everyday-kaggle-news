@@ -68,6 +68,12 @@
 - [テーブルコンペ頻出の特徴量エンジニアリング技法まとめ記事](https://zenn.dev/colum2131/articles/fffac4654e7c7c): 数値データとカテゴリデータの処理方法を中心に紹介。
 - [Pandasの「遅くない書き方」まとめ記事](https://naotaka1128.hatenadiary.jp/entry/2021/12/07/083000): 複数の観点で高速化 Tips を紹介する記事。
 - [欠損データ補完手法「MCFlow」の解説資料](https://pseudo-theory-of-everything.hatenablog.com/entry/2021/11/07/143102): 欠損補完とネットワーク更新を繰り返す枠組みの提案。
+- [表形式データに対する深層学習の検証記事](https://tech.preferred.jp/ja/blog/deep-table/): 比較用ライブラリを開発・公開した検証記事。
+- [カルマンフィルタのアルゴリズム概要とパラメータ影響の解説資料](https://www.slideshare.net/ssuserf7b6ad/ss-250284912/ssuserf7b6ad/ss-250284912): Kaggle「Indoor Location & Navigation」などで利用される手法の解説。
+- [scikit-learn v1.0.0の更新内容紹介記事](https://future-architect.github.io/articles/20211008a/): キーワード引数の強制や可視化用クラスなどを抜粋して紹介。
+- [特徴量生成ライブラリ「Featuretools」v1.0.0公開](https://github.com/alteryx/featuretools/releases/tag/v1.0.0): テーブル形式データセットに対する自動特徴量生成ライブラリ。
+- [Python 3.10.0・CatBoost v1.0.0リリース](https://www.python.org/downloads/release/python-3100/): 両ライブラリの同時期リリースを紹介する記事。
+- [Long-tail learning via logit adjustment 紹介資料（ICLR 2021）](https://speakerdeck.com/eumesy/long-tail-learning-via-logit-adjustment): 不均衡データの分類問題に対応する手法の議論。
 
 ## 関連概念
 

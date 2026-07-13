@@ -49,6 +49,9 @@
 - [「Kaggle&AtCoder支援制度」の紹介記事](https://www.nablas.com/post/blog_kaggle-atcoder): 実績に応じて業務時間の一部を活動に利用できる社内制度の紹介。
 - [2022年時点での機械学習コンペの動向をまとめた記事](https://medium.com/machine-learning-insights/winning-approach-ml-competition-2022-b89ec512b1bb): プログラミング言語・上位解法アプローチ・利用ライブラリなどを可視化した記事。
 - [Zillowの機械学習モデル運用の失敗を綴る記事](https://www.businessinsider.jp/post-248629): 2017 年に Kaggle でコンペを開催した Zillow の事例を題材にしたモデル運用の難しさの記事。
+- [NVIDIA所属Kaggle Grandmaster 9人によるイベントまとめ記事](https://developer.nvidia.com/blog/competition-and-community-insights-from-nvidias-kaggle-grandmasters/): おすすめライブラリやコンペへの取り組み方に関する質問応答をまとめた記事。
+- [今年5月からKaggleに参加した方の振り返り記事](https://qiita.com/Java_is_a_sparrow/items/b4f4dd4a2c4530db5a72): 初参加コンペの感想や心構えを綴る記事。
+- [Google Smartphone Decimeter Challengeメダル獲得者による取り組み方記事](https://qiita.com/shu421/items/ed255c1ad846c92ba448): Titanic 後の Kaggle との向き合い方の軌跡を綴る記事。
 
 ## 関連概念
 

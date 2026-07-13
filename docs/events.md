@@ -170,3 +170,15 @@ https://kansaikaggler.connpass.com/
 - [「AI王 〜クイズAI日本一決定戦〜」第2回コンペ最終報告会](https://sites.google.com/view/project-aio/competition2/final-presentation): 最終結果発表・解法共有に加え、研究動向の解説やクイズ専門家の講演も予定された報告会。
 - [Kaggle Days Championship 体験記](https://lab.astamuse.co.jp/entry/kaggle-days-championship-report): 2021年11月〜2022年10月開催の Kaggle Days Championship の体験記。
 - [Numerai 公式イベント](https://numerai.connpass.com/event/231169/): 有志の発表数件が予定された株価予測プラットフォームのイベント。
+- [Kaggle投稿分析コードの輪読会](https://blog.brainpad.co.jp/entry/2021/11/02/113000): 時系列データに画像分類手法を適用する事例を扱う輪読会の紹介記事。
+- [データサイエンティスト協会シンポジウム2021](https://www.datascientist.or.jp/symp/2021/): 「データ分析コンペと実務のギャップ」などを扱うオンラインイベント。
+- [「KaggleのゲームAI世界大会で1位になった話」発表イベント](https://machine-learning15minutes.connpass.com/event/226110/): 「Hungry Geese」優勝解法の共有が予定されたイベント。
+- [Google Cloud Next「State of Data Science and Machine Learning 2021」セッション](https://cloud.withgoogle.com/next/catalog?session=GCD118): Kaggle の調査結果をもとに学習方法・ツール・仕事の詳細を掘り下げるセッション。
+- [自然言語処理分野の国際学会論文読み会（41本）](https://sites.google.com/view/snlp-jp/home/2021): 大量の論文紹介資料が公開された読み会。
+- [INTERSPEECH2021論文読み会](https://connpass.com/event/225152/): 音声分野の国際会議の論文読み会。発表者も募集。
+- [KDD2021イベント（時系列異常検知コンペ併設）](https://connpass.com/event/223966/): 「Multi-dataset Time Series Anomaly Detection」に関する発表も予定。
+- [NLP若手の会第16回シンポジウム報告記事](https://yans.anlp.jp/entry/yans2021report): 日本語 Wikipedia 固有表現抽出コンペの解法共有資料も公開された報告記事。
+- [胸部X線肺炎検知コンペ開催（9月開催・講演あり）](https://inochi-wakazo.org/hmai/): イベントでの講演も予定されたコンペ告知。
+- [Kaggle勉強会（実装・実験管理系の発表5件）](https://kaggle-friends.connpass.com/event/220927/): 発表資料や動画が公開された勉強会。
+- [「#11 [初心者歓迎! / 画像編] atmaCup」振り返り会](https://atma.connpass.com/event/220495/): 優勝者による解法共有や有志の発表が予定された振り返り会。
+- [SIGNATE「株式会社スペースシフト 新建造物検知アルゴリズム作成」表彰式](https://signate.connpass.com/event/220618/): 合成開口レーダー画像から新規建物を検出するコンペの表彰式。

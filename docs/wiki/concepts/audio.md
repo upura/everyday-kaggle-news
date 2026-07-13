@@ -27,6 +27,7 @@
 - [Hugging Face「Robust Speech Recognition Challenge」開催](https://discuss.huggingface.co/t/open-to-the-community-robust-speech-recognition-challenge/13614): 多言語音声認識を題材にしたコンペの開催告知。
 - [DCASE Challenge 2022 課題一覧発表](http://dcase.community/articles/challenge-tasks-for-dcase2022): 音響イベント検出コンペの年次課題発表。
 - [2020〜2021年の鳥の鳴き声コンペ3つの振り返り記事](https://qiita.com/tattaka/items/ed355707963ec48a8106): 各コンペの概要と際立った解法をまとめた記事。
+- [近年の音声認識手法の動向まとめ記事](https://ys0510.hatenablog.com/entry/e2e_asr): 一つのニューラルネットワークで処理する End-to-End 手法に焦点を当てた記事。
 
 ## 関連概念
 

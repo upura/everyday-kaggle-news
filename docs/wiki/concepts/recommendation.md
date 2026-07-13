@@ -25,6 +25,8 @@
 - [Transformer構造を推薦に応用した「Transformer4Rec」の紹介記事](https://recruit.gmo.jp/engineer/jisedai/blog/nlp-recsys-relation/): 時系列性を考慮した推薦と自然言語処理の繋がりを議論。
 - [ウェブ上でのユーザ行動分析まとめ記事](https://speakerdeck.com/karakurist/user-behaviour-vol2): 国際学会で開催されたコンペの解法も紹介する資料。
 - [埋め込み表現の活用方法紹介資料（検索・推薦、KaggleライクなCI環境構築）](https://speakerdeck.com/nadare881/embeddingwoyong-itafen-xi-jian-suo-tui-jian-falseji-shu): ニューラルネットワークで獲得した埋め込み表現の活用手法をまとめた資料。
+- [セッションベース推薦ライブラリ「Transformers4Rec」公開（NVIDIA）](https://medium.com/nvidia-merlin/transformers4rec-4523cc7d8fa8): Hugging Face Transformers を活用した実装。RecSys 2021 に論文採択。
+- [深層学習を用いたクリック予測ライブラリ「DeepCTR」の解説記事](https://qiita.com/guglilac/items/028ba8e156e5c74f650a): 主要モデルを既存解説記事へのリンクと共に紹介。
 
 ## 関連概念
 

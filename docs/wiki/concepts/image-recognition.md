@@ -112,6 +112,15 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [Swin Transformer 解説資料（ICCV2021論文読み会）](https://www.slideshare.net/ren4yu/swin-transformer-iccv21-best-paper): Kaggle の画像コンペで頻繁に使われるモデルの解説資料。
 - [Swin Transformerを用いた物体検出の実験記事](https://qiita.com/Abebe9849/items/47de3f77ed02ba6f242d): Kaggle「VinBigData Chest X-ray Abnormalities Detection」を題材にした実験まとめ。
 - [『コンピュータビジョン最前線』創刊号の先行公開原稿](https://www.kyoritsu-pub.co.jp/bookdetail/9784320125421): 自己教師あり学習や画像認識モデル構造など最先端の話題をまとめた書籍。
+- [Vision Transformerの仕組み解説資料](https://speakerdeck.com/himidev/vision-transformerfalsesikumi): Transformer 自体の仕組みと画像認識分野への応用事例をまとめた資料。
+- [画像認識分野でのTransformer研究動向まとめ資料](https://www.slideshare.net/kuz44ma69/transformer-in): 歴史的な流れや畳込み層との違いを扱う資料。
+- [画像認識向けMLP活用論文3本のまとめ記事](https://qiita.com/TeamN/items/4135f9a8971d5185ea74): 2021 年 5 月に arXiv 公開された論文をまとめた記事。
+- [Big Self-Supervised Models Advance Medical Image Classification 解説記事（ICCV 2021）](https://ai.googleblog.com/2021/10/self-supervised-learning-advances.html): 医療画像の事前学習とメタデータによるデータ増強を併用し性能を向上。
+- [深層距離学習の解説記事（Shopeeコンペ例）](https://tech-blog.optim.co.jp/entry/2021/10/01/100000): Kaggle「Shopee - Price Match Guarantee」など多くの解法で使われる手法の解説。
+- [EfficientNetV2・CoAtNetの紹介記事（Google Research）](https://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html): 高速かつ高性能な画像認識モデル 2 つの紹介。
+- [Torchvision物体検出モデルの比較記事](https://github.com/NobuoTsukamoto/benchmarks/blob/main/pytorch/torchvision/README.md): GTX 1070・Google Colaboratory での検証と動画リンクつき。
+- [NTIRE超解像コンペの紹介資料（CVPR併設）](https://speakerdeck.com/sansandsoc/ntire-2021-learning-the-super-resolution-space-challenge): 超解像分野の歴史と具体的な結果を解説する資料。
+- [MIRU2021チュートリアル「限られたデータからの深層学習」](https://twitter.com/CVpaperChalleng/status/1419906270643908613?s=20): 様々な学習の枠組みやラベルなしデータでの事前学習をまとめた資料。
 
 ## 関連概念
 

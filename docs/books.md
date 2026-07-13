@@ -35,3 +35,4 @@
 - [Kaggle入門のバイブルをアップデート！『Kaggleのチュートリアル第7版』執筆開始と執筆者・レビュアー募集のお知らせ](https://note.com/currypurin/n/nb228ba2a68c1)
 - [『Kaggleのチュートリアル 第7版』をKindleで公開しました](https://note.com/currypurin/n/nef92a6bcc3c4): 著者による第7版の公開告知。Titanic を題材に最初のサブミットまでを案内する入門書で、コーディングエージェント時代の変化も踏まえて改訂されている。
 - [書籍概要: Kaggleではじめる大規模言語モデル入門](https://upura.hatenablog.com/entry/publishing-kaggle-llm-book)
+- [『Software Design 2021年11月号』Kaggle特集の著者による紹介記事](https://future-architect.github.io/articles/20211026b/): 「前処理から学習モデルの構築、スコアの上げ方までわかる」特集の著者による紹介。感想記事も別途公開。

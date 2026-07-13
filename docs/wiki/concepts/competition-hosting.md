@@ -39,6 +39,9 @@
 - [社内コンペ開催に向けたサンプルノートブックの紹介記事](https://blog.recruit.co.jp/data/articles/mlcomp2021_sample_notebooks/): コンペにおける役割や意識した点を綴った記事。
 - [リクルート社内機械学習コンテストの開催報告連載記事](https://blog.recruit.co.jp/data/articles/ml_compe2021_vol1/): 開催の背景や目的を紹介する連載第 1 回。
 - [SIGNATE「SUBARU 画像認識チャレンジ」データセット・結果報告論文](https://arxiv.org/abs/2204.12717): 運転支援システム「アイサイト」の走行中画像から先行車速度を推論するコンペの報告書。
+- [JR西日本×SIGNATE コンペ開催経験者を招いたPodcast](https://ledge.ai/podcast_16th/): 元新幹線運転手の社員が上位入賞した話やデータサイエンス活用事例を語る。
+- [Kaggleでコンペを開催する場合の検討事項をまとめた記事](https://note.com/m3dag/n/na1f1667a0ccb): 必要な情報や開催の利点を紹介する記事。
+- [社内データ分析コンペを独自サイトで開催した事例記事](https://engineers.ntt.com/entry/2021/08/30/130431): 順位表に加えコード共有・議論機能も備えた独自コンペサイトの構築事例。
 - [Kaggle「PANDA Challenge」の成果を報告するNature Medicine掲載論文](https://www.wouterbulten.nl/blog/tech/panda-challenge/): 課題の背景やコンペ上位解法を紹介する論文。
 - [SIGNATE「熱帯低気圧（台風等）検出アルゴリズム作成」コンペのまとめ論文](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-021-00459-y): 海洋研究開発機構主催コンペを通じた性能向上を報告する論文。
 

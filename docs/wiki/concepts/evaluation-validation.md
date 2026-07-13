@@ -30,6 +30,9 @@
 - [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark): コンペ運営で培った対不正技術を活かした「Kaggle Benchmark」による独立したモデル評価環境の紹介。
 - [Data-Centric AI（Andrew Ng提唱）をまとめた資料](https://www.slideshare.net/KazuyukiMiyazawa/datacentric-ai): 「Data-Centric AI Competition」の解法も紹介する資料。
 - [機械学習モデル構築時のデータ漏洩問題を紹介する記事](https://towardsdatascience.com/data-leakage-in-machine-learning-how-it-can-be-detected-and-minimize-the-risk-8ef4e3a97562?gi=1a3ddeb0b0f0): リークの検知方法と対応方法を事例付きで解説。
+- [深層学習の予測不確実性をまとめた調査論文の紹介資料](https://www.slideshare.net/ssuser8672d7/uncertainty-in-deep-neural-networks-250505655): 学習・評価データセットの特性差やアンサンブル手法などを取り上げる資料。
+- [Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning 解説記事](https://ai.googleblog.com/2021/10/baselines-for-uncertainty-and.html): 標準的な深層学習手法の実装集を公開する取り組みの紹介。
+- [ニューラルネットや決定木を簡単なモデルで近似して説明する手法の解説記事](https://qiita.com/tmaehara/items/300e61e4a7a0907e441b): LIME などの専用ライブラリを使わずに説明する手続きを紹介。
 
 ## 関連概念
 

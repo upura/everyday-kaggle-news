@@ -107,6 +107,10 @@
 - [【R-plus+番外編】Kaggle Grandmaster対談インタビュー（後編）](https://www.rist.co.jp/blog/202408217166/)
 - [Kaggle GrandmasterのY.NakamaさんとHidehisa Araiさんのインタビュー記事](https://atmarkit.itmedia.co.jp/ait/articles/2111/24/news003.html): Kaggle に参戦したきっかけなどを語るインタビュー。後編も公開。
 - [2021年度リクルート入社Kaggle Grandmaster 2人へのインタビュー記事](https://atmarkit.itmedia.co.jp/ait/articles/2111/08/news009.html): 称号獲得に至るまでの体験談を綴るインタビュー。
+- [SIGNATE社員へのインタビュー動画](https://ledge.ai/ledge-ai-webinar-vol37/): コンペを運営する SIGNATE の社員が語るインタビュー動画。
+- [atmaCup3回優勝のKaggle Masterのpaoさんインタビュー](https://note.com/abeja/n/n45503527d8a3): Kaggle の魅力や業務とのつながりを語るインタビュー。
+- [Grandmasterのterekaさんインタビュー](https://www.wantedly.com/companies/acroquest/post_articles/342271): 7 年間の積み重ねと今後の意気込みを語るインタビュー。
+- [Kaggle Grandmasterのiwiwiさんインタビュー](https://gaishishukatsu.com/archives/175884): 競技プログラミングや Kaggle で習得したスキルを活かしたキャリアを紐解くインタビュー。
 
 ## 称号分析
 
@@ -114,3 +118,5 @@
 - [Kaggle Master 分析レポート 2024年版](https://research-p.com/column/1664)
 - [Kaggle Grandmaster 分析レポート 2023年版](https://research-p.com/column/1218)
 - [Kaggle参加者を国籍の観点で分析した記事](https://sinchir0.hatenablog.com/entry/2021/12/18/090325): ランキング上位 100 位以内で日本からの参加者が最も多い点などを報告。
+- [日本のKagglerの特徴を分析するNotebook](https://www.kaggle.com/iamleonie/trying-this-in-japanese-en-sub): Kaggle 大規模アンケートの回答を用いて女性比率や平均年齢などを可視化。
+- [2021 Kaggle Machine Learning & Data Science Survey開始](https://www.kaggle.com/c/kaggle-survey-2021/): Kaggle が毎年実施する大規模アンケートの結果ページ。公式まとめ資料も公開。

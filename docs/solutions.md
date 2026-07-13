@@ -1053,6 +1053,81 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/landmark-retrieval-2021">Google Landmark Retrieval 2021</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Google Landmark Retrieval 2021 の5位解法](https://acro-engineer.hatenablog.com/entry/2021/10/22/172917): ICCV 2021 の傾向にも言及し、画像処理での Transformer の台頭について紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/landmark-recognition-2021">Google Landmark Recognition 2021</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Google Landmark Recognition 2021 2位解法論文（bestfitting）](https://arxiv.org/abs/2110.02638): Transformer を用いた画像認識モデルを駆使した解法をまとめた論文。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/g2net-gravitational-wave-detection">G2Net Gravitational Wave Detection</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [G2Net Gravitational Wave Detection の19位解法](https://qiita.com/anonamename/items/5b7fa5d9d5d7f9970e06): コンペ概要や性能改善で重要だった点を紹介。
+- [G2Net Gravitational Wave Detection 銀メダル解法](https://medium.com/@junkoda/kaggle-%E9%87%8D%E5%8A%9B%E6%B3%A2%E3%81%A7%E9%8A%80%E3%83%A1%E3%83%80%E3%83%AB-1c7135e69817): 試行錯誤の過程も含めてまとめた記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/seti-breakthrough-listen">SETI Breakthrough Listen - E.T. Signal Search</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [SETI Breakthrough Listen - E.T. Signal Search 金メダル解法](https://oumpy.github.io/blog/2021/08/seti.html): 勉強会での発表も予定された金メダル解法の解説。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/google-smartphone-decimeter-challenge">Google Smartphone Decimeter Challenge</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Google Smartphone Decimeter Challenge 金メダル解法（1）](https://lab.mo-t.com/blog/kaggle-gnss): コンペの特徴や上位チームの取り組みをまとめた記事。
+- [Google Smartphone Decimeter Challenge 金メダル解法（2）](https://www.t88.work/entry/2021/08/10/005037): 車両に設置した Android スマートフォンのデータから位置を推定する課題の解法。18 位・34 位の銀メダル解法記事も公開。
+- [Google Smartphone Decimeter Challenge メダル獲得者によるKaggle取り組み方記事](https://qiita.com/shu421/items/ed255c1ad846c92ba448): Titanic 後の軌跡や所感を綴る記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/commonlitreadabilityprize">CommonLit Readability Prize</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [CommonLit Readability Prize 25位の参加録](https://note.com/shigeru_0414/n/n0b0cb0da0c84): コンペ概要・解法・反省点をまとめた参加録。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/siim-covid19-detection">SIIM-FISABIO-RSNA COVID-19 Detection</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [SIIM-FISABIO-RSNA COVID-19 Detection 銅メダルの取り組み](https://qiita.com/RedBull_132/items/97a1fefc8d00d6d4d520): 試行錯誤の過程や反省点を綴った記事。CommonLit Readability Prize の銅メダル解法も合わせて公開。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/mlb-player-digital-engagement-forecasting">MLB Player Digital Engagement Forecasting</a></h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [MLB Player Digital Engagement Forecasting 参加録](https://sqrt4kaido.hatenablog.com/entry/2021/08/06/022645): 将来のデータを予測するコンペ特有の難しさを端的にまとめた記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="text" data-platform="other">
+<h3>#SwipeToSuccess（Yenta）</h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">その他</span>
+
+- [ビジネス版マッチングアプリ「Yenta」のデータを用いた「#SwipeToSuccess」コンペ振り返り](https://note.com/datagateway/n/n19d015dd7483): Kaggle Grandmaster の Senkin さんのコメントも掲載する振り返り記事。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="signate">
 <h3>SIGNATE</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">SIGNATE</span>
@@ -1070,6 +1145,9 @@
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)
 - [【２位解法】SIGNATE開催CDLEハッカソン2020予測性能部門 「画像データに基づく気象予測」の振り返り。](https://oregin-ai.hatenablog.com/entry/2020/09/06/175415)
+- [SIGNATE「医学論文の自動仕分けチャレンジ」参加録](https://zenn.dev/kuboko/articles/signate-srwspsg-pytorch): BERT を用いた取り組みを紹介する参加録。
+- [SIGNATE「ファンダメンタルズ分析チャレンジ」「ニュース分析チャレンジ」上位チームのコード公開](https://www.jpx.co.jp/corporate/news/news-releases/0010/20210813-01.html): 表彰式での発表資料も掲載。
+- [SIGNATE「J-Quants データ分析コンペティション」表彰式 質問への追加回答](https://qiita.com/blog_UKI/items/1e329bd684f06db50ca7): 両部門で 2 位になった参加者による、ソースコード・資料付きの回答記事。
 
 </div>
 
@@ -1339,6 +1417,7 @@
 - [Solafune「市街地画像の超解像化」11位解法](https://yuta0306.github.io/mscup-feedback): コンペ概要や具体的な取り組みをまとめた記事。
 - [Solafune「市街地画像の超解像化」5位解法](https://jp.morgenrot.cloud/blog/super-resolution-of-city-images/): 画像コンペで利用が増えている Swin Transformer を用いた超解像モデルを採用。
 - [Solafune「市街地画像の超解像化」参加録](https://sorabatake.jp/25220/): コンペの概要や取り組み、難しかった点を紹介。
+- [Solafune「市街地画像の超解像化」ベースライン（ESPCN）](https://zenn.dev/ren_uechi/articles/ab9eea97ec42e5): 日本マイクロソフトとの共同開催コンペのベースライン手法とコードを公開。
 
 </div>
 

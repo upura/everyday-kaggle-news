@@ -26,6 +26,7 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [数理最適化の入門用資料](https://speakerdeck.com/e869120/introduction-to-mathematical-optimization-5cdef842-50f6-4e46-ab2d-549cf85c1b81): 線形計画問題など基本的な問題と解き方を紹介する、競技プログラミング書籍著者による資料。
 - [ヒューリスティック・マラソン形式コンテストの入門記事](https://qiita.com/tanaka-a/items/3c2a1bca63759ec71e7f): Kaggle「Santa 2021 - The Merry Movie Montage」も当てはまる形式の入門解説。
 - [Optuna v3.0.0-a0 最初のリリース候補公開](https://github.com/optuna/optuna/releases/tag/v3.0.0-a0): 「LightGBMTuner.best_booster」の変更なども含むリリースノート。
+- [SIGNATE「タダノ クレーン旋回操作最適化チャレンジ」参加者向けイベント](https://us02web.zoom.us/webinar/register/WN_VNbxaRUsQeihoUkjvHe0cA): SIGNATE 初のシミュレーション形式コンペのイベント。
 
 ## 関連概念
 

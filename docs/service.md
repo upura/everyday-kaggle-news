@@ -43,3 +43,4 @@
 ## その他プラットフォームのサービス
 
 - [SIGNATE 金融マーケット予測の実践講座](https://prtimes.jp/main/html/rd/p/000000027.000015818.html): SIGNATE で開催されたコンペのチュートリアルを基にした講座。
+- [NHK朝のニュースでSIGNATEが紹介](https://www3.nhk.or.jp/news/contents/ohabiz/2021_0907.html): データサイエンティストの話題の中で SIGNATE が取り上げられた報道。
