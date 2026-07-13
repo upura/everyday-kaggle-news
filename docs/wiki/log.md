@@ -2,6 +2,12 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-14 ingest: WKN #157 → 新規 9 件（solutions.md ×1（div）/ concepts/nlp-llm ×4, recommendation ×2, optimization ×1, experiment-management ×1, tabular ×1, milestones ×1, academic-competition ×1）
+- 2026-07-14 ingest: WKN #158 → 新規 5 件（solutions.md ×2（div 新設）/ concepts/tabular, optimization / concepts/competition-hosting）
+- 2026-07-14 ingest: WKN #159 → 新規 3 件（concepts/tabular, image-recognition, time-series）
+- 2026-07-14 ingest: WKN #160 → 新規 2 件（concepts/nlp-llm / milestones.md）
+- 注: 号 #160 のスラッグが weekly-kaggle-news-issue-160-22-12-31 に変更されているのを確認（同名の号が 2 件存在するため slug が特殊化）
+
 - 2026-07-14 ingest: WKN #161 → 新規 3 件（concepts/nlp-llm ×2 / milestones.md）
 - 2026-07-14 ingest: WKN #162 → 新規 4 件（concepts/tabular, pytorch, mindset / events.md）
 - 2026-07-14 ingest: WKN #163 → 新規 4 件（solutions.md / concepts/nlp-llm, academic-competition, tabular）

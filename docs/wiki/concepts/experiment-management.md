@@ -22,6 +22,7 @@
 - [Kaggle GMに学ぶ実験管理 ~2025 spring~](https://hakuhodo-technologies.connpass.com/event/343750/)
 - [【書籍メモ】『先輩データサイエンティストからの指南書 -実務で生き抜くためのエンジニアリングスキル』（技術評論社）](https://upura.hatenablog.com/entry/2025/08/19/181856): コード品質管理・データ確認・実験管理を扱う書籍の書評。
 - [資源として見る実験プログラム](https://speakerdeck.com/hpprc/zi-yuan-tositejian-rushi-yan-puroguramu): 実験プログラムの管理・実装の指針と技法を紹介する発表資料。
+- [Kaggleで考えるMLシステムの設計とアーキテクチャ](https://qiita.com/ieiringoo/items/dec48924e1b82e62752a): コンペを題材に機械学習システムの要件とアーキテクチャを考察する記事。
 
 ### ツール・テンプレート
 

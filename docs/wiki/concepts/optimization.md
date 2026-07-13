@@ -18,6 +18,9 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [AtCoderはKaggleの役に立つ](https://speakerdeck.com/chettub/di-3hui-guan-dong-kagglerhui-atcoderhakagglenoyi-nili-tu)
 - [ヒューリスティックコンテストで機械学習しよう](https://speakerdeck.com/nagiss/hiyurisuteitukukontesutodeji-jie-xue-xi-siyou): AHC での統計的手法の活用事例と特有の難しさを紹介する資料。
 - [SantaとAHCと遺伝的アルゴリズム](https://speakerdeck.com/nagiss/santatoahctoyi-chuan-de-arugorizumu): Santa 2022 上位 4 チームの遺伝的アルゴリズムを AHC と絡めて解説する資料。
+- [ゲームで学ぶ探索アルゴリズム実践入門～木探索とメタヒューリスティクス](https://amzn.asia/d/4U4n6VD): ゲーム AI を題材にした探索アルゴリズムの入門書。
+- [Kaggle Happywhaleコンペ優勝解法でのOptuna使用事例 - 2022/12/10 Optuna Meetup #2](https://www.slideshare.net/pfi/kaggle-happywhaleoptuna-20221210-optuna-meetup-2): 優勝チームによる Optuna 活用事例の発表資料。
+- [HACK TO THE FUTURE 2023 予選 1位解法解説](https://engineering.dena.com/blog/2022/12/httf-2023-qual/): NN を用いたヒューリスティックコンテストの優勝解法。
 
 ## 関連概念
 

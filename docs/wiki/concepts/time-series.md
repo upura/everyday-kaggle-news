@@ -25,6 +25,7 @@
 - [Google Colabで時系列基盤モデルを試す①：Google timesfm](https://note.com/hatti8/n/n734aca9d4afb): 商用可能ライセンスの時系列基盤モデル 4 つを試す記事。
 - [Prophetによる時系列データ予測: Analyst-in-the-Loop](https://zenn.dev/aidemy/articles/3587a5c0d4c210): 株価データを題材にした Prophet による分析の流れの紹介。
 - [時系列予測にTransformerを使うのは有効か？](https://www.slideshare.net/ssuser369dbc/transformer-261229829): 賛否両論の論文を題材に Transformer の時系列予測への有効性を解説する資料。
+- [最先端時系列データ分析モデルETSformerを使ってみた](https://qiita.com/Isaka-code/items/848589fc4d7dd153e915): Salesforce 製の時系列モデル ETSformer の紹介記事。
 - [Numeraiで学ぶ金融時系列モデル評価指標](https://zenn.dev/katsu1110/articles/c1269aec88ee05): 金融時系列の評価指標の特徴と Python 実装例の紹介。
 - [Polarsで始める時系列データ処理 #atmaCup 19 振り返り会 LT枠](https://speakerdeck.com/koheiiwamasa/polarsdeshi-merushi-xi-lie-detachu-li-number-atmacup-19-zhen-rifan-rihui-ltwaku)
 

@@ -724,12 +724,29 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection">RSNA 2022 Cervical Spine Fracture Detection</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle RSNA 2022 10位 解法の紹介　～頸椎のCT画像から骨折の有無を予測する～](https://datascience.nri.com/entry/2022/12/09/163110): CT 画像から頸椎骨折を予測するコンペの金メダル解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/AI4Code">Google AI4Code – Understand Code in Python Notebooks</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggleコンペ「AI4Code」振り返り](https://qiita.com/yufuin/items/1bc0bb391ad65d8595d7): 公開 Notebook のコードとコメントの関係性を分析するコンペの 3 位解法。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/amex-default-prediction">American Express - Default Prediction</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Meta Feature とは（Kaggle Amex 振り返り）](https://zenn.dev/chimuichimu/articles/42719df8f7e197)
 - [Becoming world's 1st - My first gold medal](https://christofhenkel.github.io/dieters-blog/kaggle/2022/09/07/chapter-2.html)
+- [【Kaggle】American Express - Default Predictionコンペで金メダルを獲得しました](https://blog.brainpad.co.jp/entry/2022/12/22/154432)
 
 </div>
 

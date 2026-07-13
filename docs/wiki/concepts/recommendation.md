@@ -16,6 +16,8 @@
 - [使い回しやすい 2-stage recommender systemの デザインパターンを考えて実装した話](https://speakerdeck.com/zerebom/recommender): 2 段階推薦のための自作パイプラインの紹介。コード公開つき。
 - [【Kaggleブログ】 OTTOコンペを題材に、レコメンドタスクの一般的なアプローチをご紹介！](https://blog.brainpad.co.jp/entry/2023/04/06/151913): OTTO コンペを題材にした推薦タスクの定跡の解説記事。
 - [Building a Recommender System using Machine Learning](https://medium.com/towards-data-science/building-a-recommender-system-using-machine-learning-2eefba9a692e): OTTO コンペを題材にした「Kaggle Blueprints」シリーズの解説記事。
+- [レコメンド系kaggleコンペまとめ](https://zenn.dev/mina_moto/articles/6ff668f34fa557): Kaggle の推薦コンペを横断してコンペ概要と上位解法をまとめた記事。
+- [Transformers4Recで簡単にセッションベースなレコメンデーションを試してみた](https://acro-engineer.hatenablog.com/entry/2022/12/14/130000): NVIDIA 製セッション推薦ライブラリの紹介記事。
 
 ## 関連概念
 

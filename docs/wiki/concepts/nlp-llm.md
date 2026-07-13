@@ -90,6 +90,11 @@
 - [ディープラーニングによる自然言語処理](https://www.kyoritsu-pub.co.jp/book/b10030620.html): 事前学習済みモデル LUKE の著者らによる自然言語処理の書籍。
 - [30分で完全理解するTransformerの世界](https://zenn.dev/zenkigen/articles/2023-01-shimizu): サーベイ論文をもとに Transformer 機構を解説する記事。
 - [Transformer モデルの仕組みを JAX/Flax で実装しながら解説してみる（パート１）](https://enakai00.hatenablog.com/entry/2023/02/10/102036): Transformer を JAX/Flax で実装しながら解説する連載記事。
+- [ファインチューンせずに高速に学習できる RAPIDS SVR (SVC) の紹介と MARC-ja の評価](https://secon.dev/entry/2022/12/13/090000-rapids-svr-svc-marc-ja/): Feedback Prize 上位解法で使われた RAPIDS SVR の紹介と日本語データでの検証。
+- [scikit-learnで5行でできる類似テキスト検索](https://zenn.dev/colum2131/articles/e178e20be6171e): scikit-learn による類似テキスト検索と GPU 活用の紹介記事。
+- [DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing](https://retarfi.hatenablog.jp/entry/2022/12/15/090815): NLP コンペ頻出モデル DeBERTaV3 の論文解説記事。
+- [Word Tour: One-dimensional Word Embeddings via the Traveling Salesman Problem](https://www.jstage.jst.go.jp/article/jnlp/29/4/29_1297/_article/-char/ja): 単語を 1 次元に埋め込む手法の論文解説。Kaggle での活用例に言及。
+- [AI 激動の年！2022年の人工知能10大トレンドと必読論文](https://ja.stateofaiguides.com/20221231-ai-trends-2022/): 2022 年の AI 研究動向と参考文献のまとめ。基盤モデル関連の話題を多数含む。
 - [情報検索100本ノック](https://github.com/ir100/ir100): 情報検索の課題を集めた「100 本ノック」形式の演習教材。
 - [ku-nlp/deberta-v2-large-japanese](https://huggingface.co/ku-nlp/deberta-v2-large-japanese): 京大黒橋研による日本語 DeBERTa V2（large）。当時最大級のコーパスで学習。
 - [ku-nlp/deberta-v2-base-japanese](https://huggingface.co/ku-nlp/deberta-v2-base-japanese): 同モデルの base / tiny サイズ版。

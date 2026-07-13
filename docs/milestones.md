@@ -20,6 +20,7 @@
 - [Kaggle Grandmasterになるまで](https://zenn.dev/s_shohey/articles/46d48ad096b82f): 称号の段階別の取り組みと参加姿勢を紹介する振り返り記事。
 - [Kaggle Grandmasterになったので今までを振り返る](https://aryyyyy.hatenablog.com/entry/2023/03/14/110252): RSNA 乳がん検出コンペで昇格した YujiAriyasu さんの振り返り記事。
 - [Kaggle Grandmasterになったのでこれまでの参加コンペを振り返る](https://yu4u.hatenadiary.org/entry/2023/01/15/185119): G2Net コンペで昇格した yu4u さんの回顧録。
+- [Kaggle Masterになったのでポエム](https://zenn.dev/umeko/articles/18accdcf05da6a): Master 昇格までのコンペ歴を綴る振り返り記事。
 - [世界トップクラスAIエンジニアの証明である「Kaggle Grandmaster」に世界で最初に認定された73名のうちの一人・小嵜耕平がRistに入社](https://www.rist.co.jp/202303014651/): 『Kaggleに挑む深層学習プログラミングの極意』著者 smly さんの入社リリース。
 
 ## Kaggle Master 振り返り
@@ -72,6 +73,7 @@
 - [「業務時間の最大40％をKaggleに投資」がもたらす効果とは？ Kaggle Grandmasterを2名同時輩出した医療AIベンチャーに聞く](https://type.jp/et/feature/22264/): Kaggle 参加を推奨する社内制度を語る CTO インタビュー。
 - [仕事も友達もKaggleで得た―。敏腕データサイエンティストが熱中する、分析で「競う」世界](https://gaishishukatsu.com/archives/171921)
 - [Profiling Top Kagglers: Bestfitting, Currently #1 in the World](https://medium.com/kaggle-blog/profiling-top-kagglers-bestfitting-currently-1-in-the-world-58cc0e187b)
+- [AI王 〜クイズAI日本一決定戦〜 に参加し第3位入賞した話](https://voice.pkshatech.com/n/n83343d0e00e0): 招待講演・コンペ概要と 3 位解法の参加録。
 - [新たに2名がKaggle「Grandmaster」に！GOの"Kaggler"たちの挑戦の日々を振り返る](https://go-on.goinc.jp/n/n163470a9bb45)
 - [Kaggleで世界トップレベルになるための思考法。Grandmaster小野寺和樹の頭の中](https://findy-code.io/engineer-lab/kaggle-onodera)
 - [Kaggle「Grandmaster」も在籍！ AI技術者たちの専門性追求を後押しするGOの自己研鑽カルチャー](https://go-on.goinc.jp/n/n2d2900d98332)
