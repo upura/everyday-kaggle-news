@@ -2,6 +2,10 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-14 ingest: WKN #164 → 新規 2 件（concepts/image-recognition, nlp-llm）
+- 2026-07-14 ingest: WKN #165 → 新規 2 件（solutions.md / concepts/tabular）
+- 2026-07-14 ingest: WKN #166 → 新規 4 件（concepts/nlp-llm ×2, mindset / events.md）
+
 - 2026-07-14 ingest: WKN #167 → 新規 2 件（concepts/nlp-llm, environment）。ChatGPT チャレンジ開催告知は時限性のためスキップ
 - 2026-07-14 ingest: WKN #168 → 新規 4 件（concepts/tabular, environment, recommendation / milestones.md）
 - 2026-07-14 ingest: WKN #169 → 新規 3 件（concepts/tabular, optimization / events.md）

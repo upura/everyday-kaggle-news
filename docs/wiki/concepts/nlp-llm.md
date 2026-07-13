@@ -88,6 +88,9 @@
 - [最先端の質問応答技術の研究開発と迅速な実用化ーStudio Ousiaでの取り組みー](https://speakerdeck.com/ikuyamada/zui-xian-duan-nozhi-wen-ying-da-ji-shu-noyan-jiu-kai-fa-toxun-su-nashi-yong-hua-studio-ousiadenoqu-rizu-mi): 質問応答技術の研究開発とコンペでの取り組みの解説資料。
 - [NLPとVision-and-Languageの基礎・最新動向 (1) / DEIM Tutorial Part 1: NLP](https://speakerdeck.com/kyoun/deim-tutorial-part-1-nlp): NLP と Vision & Language の基礎・最新動向を扱うチュートリアル資料。
 - [ディープラーニングによる自然言語処理](https://www.kyoritsu-pub.co.jp/book/b10030620.html): 事前学習済みモデル LUKE の著者らによる自然言語処理の書籍。
+- [30分で完全理解するTransformerの世界](https://zenn.dev/zenkigen/articles/2023-01-shimizu): サーベイ論文をもとに Transformer 機構を解説する記事。
+- [Transformer モデルの仕組みを JAX/Flax で実装しながら解説してみる（パート１）](https://enakai00.hatenablog.com/entry/2023/02/10/102036): Transformer を JAX/Flax で実装しながら解説する連載記事。
+- [情報検索100本ノック](https://github.com/ir100/ir100): 情報検索の課題を集めた「100 本ノック」形式の演習教材。
 - [Cohereの多言語用の埋め込みモデルを日本語で評価してみる](https://hironsan.hatenablog.com/entry/2023/11/06/133504): 多言語埋め込みモデルの日本語性能を文類似度と検索で評価した記事。
 - [Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368): LLM の合成データで埋め込みモデルを改善する論文。e5-mistral モデル公開つき。
 - [近似最近傍探索ライブラリVoyagerで類似単語検索を試す](https://zenn.dev/chimuichimu/articles/bab071c182784c): Spotify 公開の ANN ライブラリを Annoy と比較する検証記事。

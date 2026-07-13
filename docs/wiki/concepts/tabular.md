@@ -40,6 +40,7 @@
 - [Introduction to rpolars](https://rpolars.github.io/articles/rpolars.html): Polars の R 言語版の紹介。
 - [Python: Polars で各種エンコーダを実装したライブラリ「Shirokumas」を作った](https://blog.amedama.jp/entry/shirokumas): Target Encoding などを Polars でまとめた特徴量エンジニアリングライブラリの紹介。
 - [Polars, 旬の13のお役立ち機能](https://qiita.com/hkzm/items/8427829f6aa7853e6ad8): Polars の便利機能 13 選の紹介記事。
+- [pandas vs polars vs cudf 速度比較](https://zakopilo.hatenablog.jp/entry/2023/02/04/220552): 定番 3 ライブラリの処理速度を比較した記事。
 - [Pandas[GPU] vs Polars[CPU] vs Polars[GPU]](https://zenn.dev/parfait/articles/dedb8c0bda00f8): 表データ処理ライブラリの速度を GPU の有無を含めて比較した記事。
 - [Announcing Polars 1.0](https://pola.rs/posts/announcing-polars-1/): Polars の Python 版 v1.0 公開の公式発表。設計刷新と GPU 高速化の展望つき。
 - [RAPIDS cuDF Instantly Accelerates pandas up to 50x on Google Colab](https://developer.nvidia.com/blog/rapids-cudf-instantly-accelerates-pandas-up-to-50x-on-google-colab/): GPU 版 pandas「cuDF」が Colab に組み込まれた発表。

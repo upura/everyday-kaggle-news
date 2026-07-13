@@ -18,6 +18,7 @@
 - [Kaggle金メダル獲得戦略](https://speakerdeck.com/senkin13/kansai-kaggler-senkin13): コンペ選び・情報収集・最終提出選択の戦略をまとめた Grandmaster の発表資料。
 - [Kaggle Grandmasters Unveil Winning Strategies for Data Science Superpowers](https://developer.nvidia.com/blog/kaggle-grandmasters-unveil-winning-strategies-for-data-science-superpowers/): NVIDIA 所属 Grandmaster らによるコンペへの取り組み方の質問応答の抄録。
 - [Kaggleは研究の役に立つのか？](https://aru47.hatenablog.com/entry/2025/12/08/223234): 新規性の創出や課題設計など、研究への活用の観点から Kaggle の価値を論じる記事。
+- [Kaggleはどう実務やスキルアップに役立つか](https://aitc.hatenablog.com/entry/kaggle_for_data_science_skills): 企業データサイエンティストの視点で Kaggle 参加の利点を綴る記事。
 - [Kaggleは「○○」に役立つ](https://thinkit.co.jp/corner/12611): Kaggle の様々な役割を紐解く連載企画の一覧ページ。
 - [Kaggle未経験社員をメダリストに育てる「AIドラゴン桜」](https://speakerdeck.com/lycorptech_jp/20260526c): LINE ヤフーによる Kaggle を用いたリスキリングの取り組みと成果の発表資料。
 - [​​社員の自走力を育てる─DeNAが実践するデータ分析コンペティション参加支援制度​](https://note-udemyjapan.benesse.co.jp/n/nbc897b623c88): コンペを通じた人材育成を語る Kaggle Grandmaster の対談記事。

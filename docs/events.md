@@ -133,6 +133,7 @@ https://kansaikaggler.connpass.com/
 - [Kaggle Masterが語るMachineLearning - TechLovers #1](https://sony.connpass.com/event/315090/): 社内 Kaggle コミュニティ立ち上げなどを扱う SONY のイベント。
 - [Kaggle Grandmasterの思考法を紐解く 多様なKagglerを擁するDeNAに聞く！](https://findy.connpass.com/event/312003/)
 - [第6回全国医療AIコンテスト](https://aims.connpass.com/event/309489/): 学生・医療従事者向けのコンペと有識者講演のイベント。
+- [第5回全国医療AIコンテスト](https://medical-ai-contest.org/5th/): 学生・医療従事者向けのコンペと有識者講演のイベント。
 - [第4回 Data-Centric AI勉強会 -コンペLT大会-](https://dcai-jp.connpass.com/event/298953/): コンペでの Data-Centric な事例を扱う勉強会。
 - [🤗 Hugging Face x TohokuNLP Joint Workshop](https://sites.google.com/view/huggingface-tohoku-workshop): Hugging Face エンジニアらが登壇したワークショップ。
 - [AI王 〜クイズAI日本一決定戦〜 振り返り会](https://pksha-technology.connpass.com/event/280481/): 第 3 回コンペの解法発表を含む振り返り会。
