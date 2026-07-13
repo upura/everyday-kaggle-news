@@ -22,6 +22,7 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [Kaggle Happywhaleコンペ優勝解法でのOptuna使用事例 - 2022/12/10 Optuna Meetup #2](https://www.slideshare.net/pfi/kaggle-happywhaleoptuna-20221210-optuna-meetup-2): 優勝チームによる Optuna 活用事例の発表資料。
 - [HACK TO THE FUTURE 2023 予選 1位解法解説](https://engineering.dena.com/blog/2022/12/httf-2023-qual/): NN を用いたヒューリスティックコンテストの優勝解法。
 - [Optuna 3.0 リリース](https://medium.com/optuna/optuna-3-part-1-4c6a9022a648): ハイパーパラメータ最適化ツール Optuna v3.0 の公式リリースノート。
+- [最適化問題コンテストに取り組む上での指針](https://qiita.com/square1001/items/84604f79f55ff10d99b0): 代表的な手法として貪欲法と山登り法を解説する記事。
 
 ## 関連概念
 

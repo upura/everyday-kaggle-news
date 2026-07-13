@@ -34,6 +34,8 @@
 - [[関西Kaggler会 配布版] コミュニティコンペの継続的な開催について](https://speakerdeck.com/nejumi/guan-xi-kagglerhui-pei-bu-ban-komiyuniteikonpenoji-sok-de-nakai-cui-nituite): Kaggle の機能を用いた独自コンペの継続開催の知見をまとめた資料。
 - [IceCube -- Neutrinos in Deep Ice The Top 3 Solutions from the Public Kaggle Competition](https://arxiv.org/abs/2310.15674): IceCube コンペ上位 3 チームの取り組みを紹介する論文。
 - [Kaggle Conversations（Adaption Labs）](https://www.youtube.com/watch?v=lnKnLZd66Ng): Adaption Labs の CEO が、同社が開催した Kaggle コンペの狙いと AI 研究の展望を語る動画シリーズ。
+- [パナソニックグループ社内コンペの開催報告](https://tech-ai.panasonic.com/jp/blog_page.html?id=20220805): Kaggle Grandmaster の社員が監修し、データも公開された社内コンペの報告記事。
+- [大規模な船舶の検出・特性評価コンペの結果報告論文](https://arxiv.org/abs/2206.00897): データセットやコードも公開したコンペ結果の報告論文。
 
 ## 関連概念
 

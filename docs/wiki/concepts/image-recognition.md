@@ -20,6 +20,7 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [Kaggleスコアアップセミナー～画像系コンペ入門[後編]（2023/09/26）](https://www.docswell.com/s/fixstars/5DE9RG-20230926)
 - [Kaggle スコアアップセミナー ～画像系コンペDFL – Bundesliga Data Shootout 編～（2023/05/9）](https://www.docswell.com/s/fixstars/KENEMN-20230509)
 - [コンピュータビジョン今昔物語 - 深層学習がＣＶの世界をどう変えたか - (JPTA Tech Talk講演資料)](https://takmin.hatenablog.com/entry/2020/09/10/161621)
+- [Vision Transformer入門](https://www.amazon.co.jp/dp/4297130580): Transformer を画像認識分野に応用した Vision Transformer に関する日本語書籍。
 
 ### コンペの定跡
 
@@ -37,6 +38,9 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [Kaggle画像コンペでやっていること①](https://qiita.com/Kmat67916008/items/7aaa41be4e25bace43dc): Kaggle Grandmaster による画像コンペ Tips 連載の第 1 回。
 - [Kaggle画像コンペでやっていること②](https://qiita.com/Kmat67916008/items/73e303451e3bc69e50bb): 連載第 2 回。タスク固有の特徴を考えたモデリングを解説。
 - [Kaggle画像コンペでやっていること④](https://qiita.com/Kmat67916008/items/d7586a28e6ec8595d579): Kaggle Grandmaster による画像コンペ Tips 連載の最終回。
+- [Solafune「マルチ解像度画像の車両検出」提出までの流れ](https://zenn.dev/kwashizzz/articles/solafune-vehicle-det-mmdet): 地上撮影画像から車両を検出するコンペの提出手順を解説。
+- [TPUで動作するTensorFlow用の画像データ拡張ライブラリ imgaug-tf](https://github.com/hirune924/imgaug-tf): UW-Madison GI Tract Image Segmentation の参加者が作成・公開。
+- [ConvNeXtで小さいサイズの画像を扱う際の知見](https://lab.mo-t.com/blog/convnext): 実験結果と共に改善の流れを解説する記事。
 
 ### モデル・技術動向
 
@@ -81,6 +85,15 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [視覚基盤モデル（DINOv3）を使って衛星画像コンペで勝ちたい](https://www.docswell.com/s/motokimura/KVM382-dinov3-sat-bench): 衛星画像コンペでの視覚基盤モデル活用の実験報告。
 - [[輪講] SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features](https://speakerdeck.com/nk35jk/lun-jiang-siglip-2-multilingual-vision-language-encoders-with-improved-semantic-understanding-localization-and-dense-features)
 - [LLMの効率化を支えるアルゴリズム](https://speakerdeck.com/taturabe/llmnoxiao-lu-hua-wozhi-eruarugorizumu)
+- [Mobile-Former: Bridging MobileNet and Transformer（CVPR 2022 解説資料）](https://speakerdeck.com/tereka114/mobile-former-bridging-mobilenet-and-transformer): CVPR2022 論文読み会での発表資料。
+- [Image Matching Challenge 2022 国際会議ワークショップ報告](https://engineers.ntt.com/entry/2022/07/28/090254): 異なる視点から撮影された2画像のマッチング課題に関する報告記事。
+- [MIRU2022特別企画「局所特徴量・AlexNet・カーネル法」](https://sites.google.com/view/miru2022/program/specialevent?authuser=0): 過去の著名な研究や時代背景に焦点を当てた講演資料。
+- [局所特徴抽出における特徴表現の変遷まとめ](https://speakerdeck.com/hf149/ju-suo-te-zheng-liang-hua-xiang-ren-shi-niokerute-zheng-biao-xian-huo-de-falsebian-qian): SIFT から Vision Transformer まで幅広い変遷を紹介する資料。
+- [CVPR 2022 論文の日本語まとめ](https://xpaperchallenge.org/cv/survey/cvpr2022_summaries/listall/): 有志による CVPR 2022 採択論文の日本語サマリ集。
+- [少量データ・ラベルから効率的に学習する技術の最新研究動向（SSII2022）](https://www.slideshare.net/SSII_Slides/ssii2022-ss2): 不足情報を補うための手法を概観した資料。
+- [画像認識分野でのTransformer応用解説（SSII2022）](https://speakerdeck.com/yushiku/20220608_ssii_transformer): Transformer の概要・応用範囲・近年の潮流を紹介。
+- [階層的Vision Transformerの研究動向まとめ](https://www.slideshare.net/ren4yu/hierarchical-vision-transformer): Swin Transformer など Kaggle でも多用されるモデルの研究動向。
+- [ArcFace関連の距離学習手法サーベイ](https://speakerdeck.com/takarasawa_/face-recognition-and-arcface-papers): 顔認識タスクを題材に距離学習関連の関連研究をまとめた資料。
 
 ## 関連概念
 

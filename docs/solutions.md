@@ -744,6 +744,8 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [NBMEコンペ反省会](https://connpass.com/event/246896/)
+- [Kaggle「NBME - Score Clinical Patient Notes」の4位解法](https://blog.recruit.co.jp/data/articles/kaggle-nbme-score-clinical-patient-notes/): 取り組みの概要や上位解法の考察をまとめた記事。
+- [NBME - Score Clinical Patient Notes 1位解法](https://www.docswell.com/s/currypurin/Z8L7L5-2022-05-23-081854): 有志による「NBMEコンペ反省会」での発表資料。
 
 </div>
 
@@ -769,6 +771,8 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggleコンペ初参加でチームに恵まれ金メダル(8位)だった](https://secon.dev/entry/2022/06/21/110000-kaggle-uspppm/)
+- [Kaggle PPPMコンペ反省会](https://speakerdeck.com/k951286/kaggle-pppmkonpefan-sheng-hui): 銀メダル解法。上位への鍵となった手法を紹介。
+- [Kaggle「U.S. Patent Phrase to Phrase Matching」8位解法](https://hack.nikkei.com/blog/kaggle202207/): 複数の対象を同時に扱う方法や敵対的学習手法を紹介。
 
 </div>
 
@@ -812,6 +816,9 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [AI/機械学習を実務に活かす：レコメンドコンペティション優勝解法徹底解説（1）](https://www.datarobot.com/jp/blog/thorough-explanation-of-the-winning-solution-of-the-recommendation-competition-1/)
+- [DeNA共同執筆発表資料「H&Mコンペの振り返り」](https://speakerdeck.com/kuto5046/denamot-aiji-shu-gong-you-hui-fa-biao-zi-liao-h-and-mkonpefalsezhen-rifan-ri): 46 位の参加者を含む振り返り資料。
+- [Kaggle「H&M Personalized Fashion Recommendations」の金メダル解法](https://blog.recruit.co.jp/data/articles/kaggle-h-and-m/): コンペから得た着想で CVR を 20〜30% 向上させた業務活用も報告。
+- [Kaggle「H&M Personalized Fashion Recommendations」個人参加25位の参加録](https://yng87.github.io/blog/2022/05/kaggle_hm/): 81 位・133 位のチームの取り組みも合わせて紹介。
 
 </div>
 
@@ -821,6 +828,33 @@
 
 - [【マケデコ】JPX Kaggleコンペ5位解法共有](https://speakerdeck.com/ghtaro/makedeko-jpx-kagglekonpe5wei-jie-fa-gong-you)
 - [JPX Tokyo Stock Exchange Prediction Award Ceremony 解法総評](https://speakerdeck.com/gamella/jpx-tokyo-stock-exchange-prediction-award-ceremony-jie-fa-zong-ping): 主催者による表彰式での上位解法総評。
+- [システムトレーダー視点での「JPX Tokyo Stock Exchange Prediction」参加感想](https://qiita.com/blog_UKI/items/efba4ac7b1543a9bef85): 記事を受けて主催者が問題設計の流れを解説する記事も公開された。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/foursquare-location-matching">Foursquare - Location Matching</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Foursquare - Location Matching の7位解法](https://future-architect.github.io/articles/20220720a/): コンペ概要や具体的な取り組みを詳細に解説。
+- [Kaggle「Foursquare - Location Matching」の銀メダル解法](https://www.t88.work/entry/2022/07/10/210909): コンペ概要や解法、Kaggle 環境での推論時の工夫を紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/image-matching-challenge-2022">Image Matching Challenge 2022</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle「Image Matching Challenge 2022」の優勝解法](https://zenn.dev/yume_neko/articles/1912be56cd77d9): 参加から優勝に至るまでの取り組みを時系列で紹介。
+- [Kaggle「Image Matching Challenge 2022」の10位解法](https://forxai.konicaminolta.com/blog/017): コンペ概要や特徴、チームとしての取り組みをまとめた記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="audio" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/birdclef-2022">BirdCLEF 2022</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
+
+- [BirdCLEF 2022 6位解法](https://docs.google.com/presentation/d/1K-uFxM7edPpWamEQCF5qzyYylGj0JcRvZQScDHwesi8/edit): 肝となった「ハンドラベリング」を中心に解説。
 
 </div>
 
@@ -945,6 +979,7 @@
 - [Nishika音声認識コンペに参加して2位になりました！🎉](https://www.ai-shift.co.jp/techblog/4813)
 - [Nishika 財務・非財務情報を活用した株式の価値予測コンペ振り返り](https://note.com/nishika_inc/n/n8678212cb614)
 - [AI×商標：イメージサーチコンペティション 2nd place solution](https://speakerdeck.com/anyai/nishika-aixshang-biao-imezisatikonpeteisiyon-2nd-place-solution)
+- [Nishika「AI×商標：イメージサーチコンペティション（類似商標画像の検出）」優勝解法](https://techblog.yahoo.co.jp/entry/2022061330306280/): 参加から優勝に至るまでの取り組みを時系列で紹介。
 - [Nishika 日本酒銘柄画像検索コンペ 7位解法（備忘録）](https://zenn.dev/ubex/articles/0a49c6e912220f)
 - [Nishika 中古マンション価格予測コンペ 2023夏の部 3位解法](https://qiita.com/9en310/items/1ef8c957fd43b850162b)
 - [材料コンペ（Nishika）の2位解法](https://qiita.com/mi-212/items/694124649d2848a6b559)

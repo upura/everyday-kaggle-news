@@ -34,3 +34,7 @@
 ## ニューズレター
 
 - [Weekly Kaggle News](https://weeklykagglenews.substack.com/)
+
+## Kaggle 公式ガイド
+
+- [Kaggle Dataset Onboarding Guide](https://www.kaggle.com/page/kaggle-dataset-onboarding-guide): Kaggle 上でのデータセット公開に関する機能を紹介する公式資料。

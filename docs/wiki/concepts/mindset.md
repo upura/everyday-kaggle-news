@@ -42,6 +42,8 @@
 - [実例で示すKaggleコンペと開発実務の差（Q_takka 版）](https://speakerdeck.com/yusuketakagi/lpixel-caddi-ibentozi-liao): 企画や制約などプロジェクト進行の観点で実務との違いを示す発表資料。
 - [【DeNA × AI Day】 DeNAのAI技術獲得戦略](https://www.docswell.com/s/DeNA_Tech/KEX9DJ-aiday-specific-1700)
 - [From Beginner to World Champion: What 10,000 hours on Kaggle taught me](https://www.linkedin.com/pulse/from-beginner-world-champion-what-10000-hours-kaggle-taught-henkel-w6tpf/)
+- [『Kaggleで磨く 機械学習の実践力』執筆体験記](https://qiita.com/m-morohashi/items/de748dd6d4f04c34e8d8): 出版までの流れや困りごとを綴った記事。
+- [Kaggleに価値はあるのか](https://forecastegy.com/posts/is-competing-on-kaggle-worth-ponderings-of-a-kaggle-grandmaster/): 数年前に「引退」した Kaggle Grandmaster の Mario Filho さんが所感を綴った記事。
 
 ## 関連概念
 

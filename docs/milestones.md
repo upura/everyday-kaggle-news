@@ -30,6 +30,10 @@
 - [Rist の Kaggle チーム紹介](https://www.rist.co.jp/blog/202209084200/): Grandmaster 4 人が在籍するチームのメンバー Q&A 記事。
 - [Kaggle Master taksai さんのインタビュー](https://voice.pkshatech.com/n/n17b099a74f83): コンペで得られた学びを語るインタビュー記事。
 - [世界トップクラスAIエンジニアの証明である「Kaggle Grandmaster」に世界で最初に認定された73名のうちの一人・小嵜耕平がRistに入社](https://www.rist.co.jp/202303014651/): 『Kaggleに挑む深層学習プログラミングの極意』著者 smly さんの入社リリース。
+- [4人のKaggle Grandmasterが所属する「Rist」のインタビュー記事](https://news.mynavi.jp/techplus/article/20220824-2431717/): Kaggle に関する社内制度も紹介する記事。
+- [大阪大学 第23回課外活動総長賞 特別賞 受賞報告](https://www.osaka-u.ac.jp/ja/news/topics/2022/08/03001): Kaggle「SETI Breakthrough Listen - E.T. Signal Search」7位の実績が表彰。
+- [Dieterさんの個人ブログ開設、初参加コンペの振り返り](https://christofhenkel.github.io/dieters-blog/kaggle/2022/07/05/chapter-1.html): コンペ部門ランキング1位の Dieter さんが個人ブログを開設し初参加コンペを振り返る記事。
+- [Kaggle「NBME - Score Clinical Patient Notes」でGrandmasterを獲得したcurrypurinさんの振り返り](https://note.com/currypurin/n/n722cd306f7ad): 一時期「専業Kaggler」として取り組んでいた経験も綴る記事。
 
 ## Kaggle Master 振り返り
 
@@ -63,6 +67,7 @@
 - [Kaggle Expert(銅２)は転職で役に立つのか](https://sinchir0.hatenablog.com/entry/2020/12/23/074240)
 - [Kaggle Expertになるまで勉強したことを全て書く](https://qiita.com/Yuki_Kaggler/items/8ffe2ffa6f020e09cfd3)
 - [RでもKaggle Competitions Expertになれる](https://note.com/igjit/n/n0c019db0e7ec)
+- [R言語でのNotebook公開を通じてExpertの称号を獲得した体験記](https://note.com/igjit/n/ne4e92f5083dd): 英語での情報発信に関する心境の変化にも言及。
 
 ## Google Developer Expert
 

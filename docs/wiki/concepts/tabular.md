@@ -54,6 +54,8 @@
 - [Accelerating Polars DataFrames](https://pola.rs/posts/polars-on-gpu/): NVIDIA との連携による Polars の GPU 高速化の発表。
 - [改訂新版 前処理大全〜SQL/pandas/Polars実践テクニック](https://www.amazon.co.jp/dp/4297141388/): Polars を採用した『前処理大全』の改訂新版。
 - [PolarsとPanderaで実現する高速でロバストなデータ処理](https://speakerdeck.com/chimuichimu/polarstopanderadeshi-xian-suru-gao-su-derobasutonadetachu-li): 高速処理の Polars とデータ検証の Pandera を組み合わせる発表資料。
+- [テーブル形式のデータセットに対する決定木と深層学習の性能比較論文](https://arxiv.org/abs/2207.08815): 決定木を基にした手法と深層学習手法を比較して議論する論文。
+- [テーブルデータを扱う際の特徴量管理の方法を考察する記事](https://teyoblog.hatenablog.com/entry/2022/06/09/193005): 数値かカテゴリかの情報も管理する方法を紹介。
 
 ## 関連概念
 

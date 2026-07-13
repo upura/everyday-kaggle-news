@@ -36,6 +36,9 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [都市における人間移動予測の最前線 SIGSPATIAL Cup 2025 上位解法の紹介](https://speakerdeck.com/mujirushi/du-shi-niokeruren-jian-yi-dong-yu-ce-nozui-qian-xian-sigspatial-cup-2025-shang-wei-jie-fa-noshao-jie): 人間の移動予測を扱う ACM SIGSPATIAL 併設コンペの上位解法紹介。
 - [音声・映像データから感情と原因を抽出する - SemEval-2024優勝手法に学ぶ「非言語情報の言語化」アプローチ](https://zenn.dev/pksha/articles/0847a9f0e36d18): マルチモーダル情報から感情と原因の対を抽出する国際コンペの優勝解法の解説。
 - [Kaggle 2COOOL 準優勝：学習データなし動画コンペのVLM解法とICCVレポート](https://zenn.dev/turing_motors/articles/b92bc6c5ac659a): ドライブレコーダー動画から事故レポートを生成する ICCV 併設コンペの 2 位解法。
+- [朝日新聞社主催 大学生・大学院生対象コンペ](https://peakers.jp/projects/97): 朝日新聞社の記事や関連画像データを用いたコンペの開催告知。
+- [Inverse Scaling Prize](https://github.com/inverse-scaling/prize): 言語モデルのサイズが大きくなるほど性能が悪化するようなタスク設計を問う、ニューヨーク大学研究チーム主催のコンペ。
+- [WAT 2022 翻訳データクリーニングコンペ](https://sites.google.com/view/wat-filtering/): 学習設定を固定し、日英科学技術論文データのクリーニングによる翻訳性能を競う機械翻訳ワークショップ併設コンペ。
 
 ## 関連概念
 

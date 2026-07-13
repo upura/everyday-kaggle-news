@@ -156,3 +156,6 @@ https://kansaikaggler.connpass.com/
 - [Kaggle Grandmasterが語る - チームコンペで挑んだ日々から得た学び -](https://findy.connpass.com/event/351003)
 - [Kaggle Grandmaster 井戸端会議 〜Grandmasterへの軌跡と思考法〜](https://findy.connpass.com/event/329915/): Grandmaster 3 人が軌跡と思考法を語ったイベント。
 - [【オンライン】世界的データ分析コンペKDD Cup入賞者が語るコンペ攻略のコツ ＆ LT大会](https://pydatafukuoka.connpass.com/event/208050/)
+- [言語処理学会主催「言語処理技術セミナー2022」](https://sites.google.com/site/nlpseminarweb): 「Transformersによる自然言語処理の実践」と題した講演が予定されたセミナー。
+- [ビジョン技術の実利用ワークショップ「機械学習コンテストの登り方」チュートリアル](https://view.tc-iaip.org/view/2022/speaker/ts1): 物体検出や画像検索タスクの取り組み方・実装ノウハウを扱うチュートリアル。
+- [Kaggle Grandmaster currypurinさんによる交差検証を題材にした講演](https://labbaseplus-event220909.peatix.com/): コンペでのモデル評価や失敗例などを扱う講演。

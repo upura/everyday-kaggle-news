@@ -23,6 +23,12 @@
 - [情報処理学会関西支部2024年度定期講演会「自然言語処理と大規模言語モデルの基礎」](https://speakerdeck.com/ksudoh/qing-bao-chu-li-xue-hui-guan-xi-zhi-bu-2024nian-du-ding-qi-jiang-yan-hui-zi-ran-yan-yu-chu-li-toda-gui-mo-yan-yu-moderunoji-chu): LLM 登場までの自然言語処理の潮流と課題を解説する講演資料。
 - [大規模言語モデル (LLM) の技術と最新動向](https://speakerdeck.com/ikuyamada/da-gui-mo-yan-yu-moderu-llm-noji-shu-tozui-xin-dong-xiang): LLM 構築の流れと技術背景を解説する資料。『大規模言語モデル入門Ⅱ』著者による。
 - [言語処理100本ノック 2025](https://nlp100.github.io/2025/ja/index.html)
+- [文書分類からはじめる自然言語処理入門 基本からBERTまで](https://www.amazon.co.jp/%E6%96%87%E6%9B%B8%E5%88%86%E9%A1%9E%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E5%85%A5%E9%96%80-%E5%9F%BA%E6%9C%AC%E3%81%8B%E3%82%89BERT%E3%81%BE%E3%81%A7-%E8%A8%AD%E8%A8%88%E6%8A%80%E8%A1%93%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA108-%E6%96%B0%E7%B4%8D-%E6%B5%A9%E5%B9%B8/dp/4910558144): 伝統的な手法から BERT まで幅広く扱う文書分類の書籍。
+- [自然言語処理の基礎（深層学習編）](https://www.ohmsha.co.jp/book/9784274229008/): 深層学習に基づく自然言語処理の基礎知識・考え方をまとめた書籍。
+- [最先端の自然言語処理ライブラリのためのTransformers（日本語版）](https://www.amazon.co.jp/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AETransformers-%E2%80%95%E6%9C%80%E5%85%88%E7%AB%AF%E3%81%AE%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AB%E3%82%88%E3%82%8B%E3%83%A2%E3%83%87%E3%83%AB%E9%96%8B%E7%99%BA-Lewis-Tunstall/dp/4873119952): Hugging Face 共同創業者らによる Transformers 解説書の日本語版。
+- [Hugging Faceが公開する学習講座の紹介](https://hiromu-nlp.com/huggingface-course-intro/): 自然言語処理ライブラリを開発する Hugging Face の公式学習講座の紹介記事。
+- [NLPとVision-and-Languageの基礎・最新動向をまとめたチュートリアル](https://speakerdeck.com/kyoun/a-tutorial-on-nlp-and-vision-and-language): 自然言語処理と、画像と合わせて扱う領域への発展をまとめた資料。
+- [深層学習と自然言語処理の研究動向（東大講座資料）](https://speakerdeck.com/verypluming/dong-jing-da-xue-shen-ceng-xue-xi-deep-learningji-chu-jiang-zuo-2022-shen-ceng-xue-xi-tozi-ran-yan-yu-chu-li): 深層学習と自然言語処理の研究動向を概説する講座資料。
 - [RAG開発の超入門【RaggleのQuickStart Pythonのソースコードあり】](https://zenn.dev/galirage/articles/raggle_quickstart)
 - [Kaggle自然言語処理コンペ向けローカルLLM活用入門](https://speakerdeck.com/k951286/kagglezi-ran-yan-yu-chu-li-konpexiang-kerokarullmhuo-yong-ru-men)
 - [検索システム なぜ検索システムは欲しい情報を見つけられるのか、あるいはなぜ見つけられないのか](https://www.amazon.co.jp/dp/4065429714/): 検索の基本原理からランキング学習・検索拡張生成までを扱う書籍。
@@ -50,6 +56,9 @@
 - [Transformers高速化ライブラリvLLMのAsyncLLMEngineを利用した非同期高速文章生成](https://hashicco.hatenablog.com/entry/2024/07/06/165959): AIMO コンペの Discussion を題材にした vLLM の非同期生成の紹介。
 - [LLM性能改善の実践知 Kaggleでの学びを現場に活かす思考法](https://speakerdeck.com/sinchir0/llmxing-neng-gai-shan-noshi-jian-zhi-kaggledenoxue-biwoxian-chang-nihuo-kasusi-kao-fa): 『Kaggleではじめる大規模言語モデル入門』4・5 章を題材にした LLM 性能改善の発表資料。
 - [【第3回】関東Kaggler会「NLPの変遷とNLPコンペの最新事情 〜進化する技術と変化する戦い方〜」](https://speakerdeck.com/takaito/di-3hui-guan-dong-kagglerhui-nlpnobian-qian-tonlpkonpenozui-xin-shi-qing-jin-hua-suruji-shu-tobian-hua-suruzhan-ifang)
+- [敵対的学習手法「FGM」「AWP」の解説記事](https://blog.brainpad.co.jp/entry/2022/08/23/153001): NLP コンペで頻出する敵対的学習手法を解説。
+- [Nishika 個人情報固有表現抽出データセット・モデル公開](https://info.nishika.com/solution-cl-data/personal-inquiry): 判例の個人情報自動マスキング向けに、商用利用可のデータセットとコンペ解法を基にしたモデル・ソースコードを公開。
+- [Hugging Faceのモデル評価ライブラリ「evaluate」の紹介](https://hiromu-nlp.com/huggingface-evaluate/): 具体的な使い方をソースコードと共に紹介。
 
 ### モデル・技術動向
 
@@ -113,6 +122,14 @@
 - [Cohereの多言語用の埋め込みモデルを日本語で評価してみる](https://hironsan.hatenablog.com/entry/2023/11/06/133504): 多言語埋め込みモデルの日本語性能を文類似度と検索で評価した記事。
 - [Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368): LLM の合成データで埋め込みモデルを改善する論文。e5-mistral モデル公開つき。
 - [近似最近傍探索ライブラリVoyagerで類似単語検索を試す](https://zenn.dev/chimuichimu/articles/bab071c182784c): Spotify 公開の ANN ライブラリを Annoy と比較する検証記事。
+- [広範なデータで学習される「基盤モデル」のサーベイ資料](https://www.slideshare.net/cvpaperchallenge/foundation-models): 自然言語処理を起点に画像領域への展開などをまとめた資料。
+- [ABEJAによる日本語版大規模言語モデル構築プロジェクト](https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207): 一部モデルの一般公開を予定した日本語 LLM 構築の発表。
+- [大規模データで学習された「基盤モデル」の解説記事](https://blog.recruit.co.jp/data/articles/foundation_models/): BERT などの基盤モデルの概要・活用事例・課題を紹介。
+- [Word Tour: One-dimensional Word Embeddings via the Traveling Salesman Problem（NAACL 2022 発表資料）](https://www.slideshare.net/joisino/word-tour-onedimensional-word-embeddings-via-the-traveling-salesman-problem-naacl-2022): 高次元の単語埋め込みを巡回セールスマン問題で 1 次元に変換する手法の発表資料。
+- [Transformerの汎用的な性能向上に向けた方法論](https://speakerdeck.com/butsugiri/yoriliang-itransformerwotukuru): 位置表現や注意機構、追試結果に言及した資料。
+- [日本語言語理解ベンチマーク「JGLUE」公開](https://randd.yahoo.co.jp/jp/softwaredata#jglue): 日本語の事前学習済みモデルの性能比較も掲載。
+- [deberta-large-japanese-aozora](https://huggingface.co/KoichiYasuoka): 青空文庫の文章などで事前学習された、日本語では珍しい DeBERTa のモデル。
+- [医療分野のテキストで事前学習されたTransformersモデルの紹介](https://hiromu-nlp.com/transfomers-bio-models/): 医療関連コンペで活用できる事前学習モデルをまとめた記事。
 
 ## 関連概念
 
