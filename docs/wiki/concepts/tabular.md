@@ -62,6 +62,12 @@
 - [TabNetのハイパーパラメータ調整方法まとめ](https://zenn.dev/nishimoto/articles/f2af21c24413d3): Kaggle での事例や元論文の記述に基づく調整方法の解説。
 - [p値を使ったTarget Encodingの方法紹介記事](https://kuruton.hatenablog.com/entry/2022/02/24/092716): atmaCup のデータで性能向上を確認した検証記事。
 - [特徴量エンジニアリングライブラリ「xfeat」の紹介記事](https://blog.amedama.jp/entry/xfeat): 具体的な使い方をコードとともに解説。
+- [クリック予測問題を題材にしたデータ分析インターン教材](https://fan-adn.github.io/ist-textbook-open/): データ可視化や過学習への対応など実践的な内容を扱う教材。
+- [決定境界付近のサンプル重み調整による不均衡データ対応論文の解説記事](https://qiita.com/koshian2/items/52e4bdc682fc152fe05e): 通常学習後に特殊な損失でファインチューニングする手法を紹介。
+- [LightGBMのパラメータ「extra_trees」の紹介記事](https://note.com/j26/n/n64d9c37167a6): 過学習抑制効果のあるパラメータの解説記事。
+- [テーブルコンペ頻出の特徴量エンジニアリング技法まとめ記事](https://zenn.dev/colum2131/articles/fffac4654e7c7c): 数値データとカテゴリデータの処理方法を中心に紹介。
+- [Pandasの「遅くない書き方」まとめ記事](https://naotaka1128.hatenadiary.jp/entry/2021/12/07/083000): 複数の観点で高速化 Tips を紹介する記事。
+- [欠損データ補完手法「MCFlow」の解説資料](https://pseudo-theory-of-everything.hatenablog.com/entry/2021/11/07/143102): 欠損補完とネットワーク更新を繰り返す枠組みの提案。
 
 ## 関連概念
 

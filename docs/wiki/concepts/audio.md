@@ -24,6 +24,9 @@
 - [クロスモーダル表現学習の研究動向: 音声関連を中心として](https://speakerdeck.com/ryomasumura/kurosumodarubiao-xian-xue-xi-noyan-jiu-dong-xiang-yin-sheng-guan-lian-wozhong-xin-tosite): 音声を中心としたクロスモーダル表現学習の研究動向の解説資料。
 - [muana vol.11 音楽識別の事前学習モデル](https://speakerdeck.com/yamathcy/muana-vol-dot-11-yin-le-shi-bie-noshi-qian-xue-xi-moderu): 音楽識別のための事前学習済みモデルと活用知見の解説資料。
 - [音声認識ライブラリ「HuggingSound」の紹介記事](https://www.ai-shift.co.jp/techblog/2547): 日本語データでファインチューニングする方法を解説。
+- [Hugging Face「Robust Speech Recognition Challenge」開催](https://discuss.huggingface.co/t/open-to-the-community-robust-speech-recognition-challenge/13614): 多言語音声認識を題材にしたコンペの開催告知。
+- [DCASE Challenge 2022 課題一覧発表](http://dcase.community/articles/challenge-tasks-for-dcase2022): 音響イベント検出コンペの年次課題発表。
+- [2020〜2021年の鳥の鳴き声コンペ3つの振り返り記事](https://qiita.com/tattaka/items/ed355707963ec48a8106): 各コンペの概要と際立った解法をまとめた記事。
 
 ## 関連概念
 

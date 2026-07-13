@@ -21,6 +21,10 @@
 - [RecSys Challenge 2022 3位解法（NVIDIA）](https://medium.com/nvidia-merlin/building-a-diverse-models-ensemble-for-fashion-session-based-recommendation-for-recsys2022-2419d2182c4c): ファッション推薦を題材にした RecSys 併設コンペの 3 位解法。
 - [『推薦システム実践入門――仕事で使える導入ガイド』書評](https://upura.hatenablog.com/entry/2022/05/03/165903): 映画推薦を題材とした Netflix Prize コンペの話題にも言及する書評記事。
 - [推薦システムの演習問題集 recsys-python](https://recsyslab.github.io/recsys-python/): 13 章構成・全 163 問でコードと出力結果つきの演習教材。
+- [Netflixの推薦システムに深層学習を導入した際の課題と教訓をまとめた論文](https://ojs.aaai.org/index.php/aimagazine/article/view/18140): アーキテクチャ・特徴量・オフライン/オンライン評価の乖離など幅広い話題に言及。
+- [Transformer構造を推薦に応用した「Transformer4Rec」の紹介記事](https://recruit.gmo.jp/engineer/jisedai/blog/nlp-recsys-relation/): 時系列性を考慮した推薦と自然言語処理の繋がりを議論。
+- [ウェブ上でのユーザ行動分析まとめ記事](https://speakerdeck.com/karakurist/user-behaviour-vol2): 国際学会で開催されたコンペの解法も紹介する資料。
+- [埋め込み表現の活用方法紹介資料（検索・推薦、KaggleライクなCI環境構築）](https://speakerdeck.com/nadare881/embeddingwoyong-itafen-xi-jian-suo-tui-jian-falseji-shu): ニューラルネットワークで獲得した埋め込み表現の活用手法をまとめた資料。
 
 ## 関連概念
 

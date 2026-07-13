@@ -24,6 +24,7 @@
 - [資源として見る実験プログラム](https://speakerdeck.com/hpprc/zi-yuan-tositejian-rushi-yan-puroguramu): 実験プログラムの管理・実装の指針と技法を紹介する発表資料。
 - [Kaggleで考えるMLシステムの設計とアーキテクチャ](https://qiita.com/ieiringoo/items/dec48924e1b82e62752a): コンペを題材に機械学習システムの要件とアーキテクチャを考察する記事。
 - [学習が何で律速してるか、把握してますか？](https://aru47.hatenablog.com/entry/2022/12/07/170944): 学習速度低下の要因をデータ読み込み・前処理の観点で整理する記事。
+- [機械学習の実験管理ツール比較記事](https://qiita.com/fam_taro/items/401ba82e710dca2781eb): TensorBoard・MLflow・Neptune.ai・Weights & Biases・Comet を比較する記事。
 
 ### ツール・テンプレート
 

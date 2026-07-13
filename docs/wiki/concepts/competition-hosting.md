@@ -39,6 +39,8 @@
 - [社内コンペ開催に向けたサンプルノートブックの紹介記事](https://blog.recruit.co.jp/data/articles/mlcomp2021_sample_notebooks/): コンペにおける役割や意識した点を綴った記事。
 - [リクルート社内機械学習コンテストの開催報告連載記事](https://blog.recruit.co.jp/data/articles/ml_compe2021_vol1/): 開催の背景や目的を紹介する連載第 1 回。
 - [SIGNATE「SUBARU 画像認識チャレンジ」データセット・結果報告論文](https://arxiv.org/abs/2204.12717): 運転支援システム「アイサイト」の走行中画像から先行車速度を推論するコンペの報告書。
+- [Kaggle「PANDA Challenge」の成果を報告するNature Medicine掲載論文](https://www.wouterbulten.nl/blog/tech/panda-challenge/): 課題の背景やコンペ上位解法を紹介する論文。
+- [SIGNATE「熱帯低気圧（台風等）検出アルゴリズム作成」コンペのまとめ論文](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-021-00459-y): 海洋研究開発機構主催コンペを通じた性能向上を報告する論文。
 
 ## 関連概念
 

@@ -28,6 +28,8 @@
 - [Confident Learning](https://speakerdeck.com/asei/confident-learning): 多クラス分類でラベル誤りを効率的に発見する手法の解説資料。
 - [Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation](https://arxiv.org/abs/2505.00612): データ汚染が避けにくい生成 AI の評価において、コンペ形式の厳密さを gold standard と位置づける position paper。
 - [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark): コンペ運営で培った対不正技術を活かした「Kaggle Benchmark」による独立したモデル評価環境の紹介。
+- [Data-Centric AI（Andrew Ng提唱）をまとめた資料](https://www.slideshare.net/KazuyukiMiyazawa/datacentric-ai): 「Data-Centric AI Competition」の解法も紹介する資料。
+- [機械学習モデル構築時のデータ漏洩問題を紹介する記事](https://towardsdatascience.com/data-leakage-in-machine-learning-how-it-can-be-detected-and-minimize-the-risk-8ef4e3a97562?gi=1a3ddeb0b0f0): リークの検知方法と対応方法を事例付きで解説。
 
 ## 関連概念
 

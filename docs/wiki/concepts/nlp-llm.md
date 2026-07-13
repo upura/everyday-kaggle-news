@@ -30,6 +30,8 @@
 - [NLPとVision-and-Languageの基礎・最新動向をまとめたチュートリアル](https://speakerdeck.com/kyoun/a-tutorial-on-nlp-and-vision-and-language): 自然言語処理と、画像と合わせて扱う領域への発展をまとめた資料。
 - [深層学習と自然言語処理の研究動向（東大講座資料）](https://speakerdeck.com/verypluming/dong-jing-da-xue-shen-ceng-xue-xi-deep-learningji-chu-jiang-zuo-2022-shen-ceng-xue-xi-tozi-ran-yan-yu-chu-li): 深層学習と自然言語処理の研究動向を概説する講座資料。
 - [Transformers for Natural Language Processing（日本語訳書）](https://www.amazon.co.jp/Transformer%E3%81%AB%E3%82%88%E3%82%8B%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86-Denis-Rothman/dp/4254122659): アーキテクチャ紹介から GPT-3 によるテキスト生成まで扱う書籍。
+- [Natural Language Processing with Transformers（原著）](https://transformersbook.com/): Hugging Face 共同創業者らによる Transformers 解説書。サンプルコードを GitHub で公開。
+- [系列ラベリングの理論とJAX実装を扱う技術書（技術書典12）](https://techbookfest.org/product/6195059194068992): 数式の展開も含めて系列ラベリングを解説する同人技術書。
 - [RAG開発の超入門【RaggleのQuickStart Pythonのソースコードあり】](https://zenn.dev/galirage/articles/raggle_quickstart)
 - [Kaggle自然言語処理コンペ向けローカルLLM活用入門](https://speakerdeck.com/k951286/kagglezi-ran-yan-yu-chu-li-konpexiang-kerokarullmhuo-yong-ru-men)
 - [検索システム なぜ検索システムは欲しい情報を見つけられるのか、あるいはなぜ見つけられないのか](https://www.amazon.co.jp/dp/4065429714/): 検索の基本原理からランキング学習・検索拡張生成までを扱う書籍。
@@ -66,6 +68,7 @@
 - [Transformers に強化学習モデル「Decision Transformer」が追加](https://huggingface.co/blog/decision-transformers): チュートリアル用のソースコードと解説も公開。
 - [Data2vec: A General Framework for Self-supervised Learning in Speech, Vision, and Language 解説資料](https://www.slideshare.net/DeepLearningJP2016/dldata2vec-a-general-framework-for-selfsupervised-learning-in-speech-vision-and-language-251106954): 音声・画像・自然言語を同一枠組みで扱う自己教師あり学習手法の解説。
 - [日本語データ拡張ライブラリ](https://kajyuuen.hatenablog.com/entry/2022/02/14/094602): 置換や削除といった処理で文を拡張するライブラリの紹介記事。
+- [2021年のML/NLP研究動向まとめ（15の観点）](https://ruder.io/ml-highlights-2021/): 何が起きたか・なぜ重要か・次は何かを観点別に整理した記事。
 
 ### モデル・技術動向
 
@@ -142,6 +145,14 @@
 - [Transformers v4.18.0リリース](https://github.com/huggingface/transformers/releases/tag/v4.18.0): 画像認識分野の ResNet などが新たに追加。
 - [OPT-175B 公開](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/): Meta AI による 175B パラメータの言語モデル公開。構築の試行錯誤の過程も公開。
 - [自然言語処理領域での転移学習の進展と近年の動向まとめ](https://www.slideshare.net/techblogyahoo/ss-251672433): 132 ページにわたり多岐の話題を扱うサーベイ資料。
+- [Data2vec: 音声・画像・自然言語を統一的に扱う自己教師あり学習の解説記事（Meta AI公式）](https://ai.facebook.com/blog/the-first-high-performance-self-supervised-algorithm-that-works-for-speech-vision-and-text): 事前学習済みモデルも公開。
+- [Transformers v4.16.0リリース](https://github.com/huggingface/transformers/releases/tag/v4.16.0): 画像認識分野の Swin Transformer が新たに追加。
+- [rinna 日本語GPT言語モデル公開](https://prtimes.jp/main/html/rd/p/000000025.000070041.html): 13 億パラメータの日本語特化 GPT モデルを MIT ライセンスで公開。
+- [日本語Wikipediaで事前学習されたRoBERTa・GPT-2公開](https://huggingface.co/nlp-waseda/roberta-base-japanese): 形態素解析に Juman++ を利用する早稲田大学研究グループのモデル。
+- [2021年の深層学習関連10大トピックまとめ](https://ja.stateofaiguides.com/20211230-ai-trends-2021/): 参考文献と共に大まかな流れを紹介する記事。
+- [ニューラルネットワークによる自然言語処理の概観資料](https://www.slideshare.net/shotakase33/ss-250870067): 系列を扱う構造や学習方法、動向を紹介する資料。
+- [2021年NLPコンペ上位解法に共通する手法・方針の解説記事](https://qiita.com/cfiken/items/0890269721fb78bd9683): アンサンブルや外部データ利用などの事例をまとめた記事。
+- [『深層学習』改訂第2版（講談社）発売告知](https://www.hanmoto.com/bd/isbn/9784065133323): Transformer やグラフニューラルネットワークなどを大幅加筆した定番書籍の改訂版。
 
 ## 関連概念
 

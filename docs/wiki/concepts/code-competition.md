@@ -14,6 +14,7 @@
 
 - [効率的なコードコンペティションの作業フロー](https://ho.lc/blog/kaggle-code-submission): VSCode と Kaggle CLI でブラウザ操作を減らし、実装コードを Dataset として管理して提出ノートブックから呼び出す設計パターンの提案。
 - [code competition も楽したい KaggleOps](https://osushinekotan.hatenablog.com/entry/2025/12/06/072458): 学習済みモデルと推論コードの提出を GitHub Actions で自動化する構成の紹介。
+- [Kaggle「Riiid Answer Correctness Prediction」でのC++メモリ節約記事](https://takkyu.net/ja/riiid-cpp/): C++ を活用してメモリ使用量を節約する方法を、Python からの呼び出しも含めて解説。
 
 ## 関連概念
 

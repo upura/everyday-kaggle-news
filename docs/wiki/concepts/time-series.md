@@ -33,6 +33,8 @@
 - [Polarsで始める時系列データ処理 #atmaCup 19 振り返り会 LT枠](https://speakerdeck.com/koheiiwamasa/polarsdeshi-merushi-xi-lie-detachu-li-number-atmacup-19-zhen-rifan-rihui-ltwaku)
 - [時系列データに関する性能検証の方法を議論する記事](https://note.com/currypurin/n/n7bd3153a7238): 多くの Kaggler の意見を取りまとめた議論記事。
 - [Uberの深層学習による到着時間推定（DeepETA）](https://eng.uber.com/deepeta-how-uber-predicts-arrival-times/): XGBoost からの置き換え過程を、問題設定・特徴量・アーキテクチャ・高速化・バイアス・損失関数・デプロイの観点で解説。
+- [PyCaretに時系列分析用の新モジュールが追加](https://towardsdatascience.com/announcing-pycarets-new-time-series-module-b6e724d4636c?gi=e51367bdc8a0): ソースコードと実行結果をまとめた発表記事。
+- [時系列データの検証用データセット構築方法を議論する記事](https://zenn.dev/ymd/articles/fd08fb46bc868c): Combinatorial Purged Cross-Validation などの手法を紹介。
 
 ## 関連概念
 

@@ -969,6 +969,87 @@
 
 - [atmaCup#8振り返り〜個人的なテーブルコンペの取組み方と解法〜](https://speakerdeck.com/tomo20180402/atmacup-number-8zhen-rifan-ri-ge-ren-de-nateburukonpefalsequ-zu-mifang-tojie-fa)
 - [atmaCup#10参加レポート](https://takaito0423.hatenablog.com/entry/2021/03/17/213956)
+- [「Sansan × atmaCup #12」開催報告](https://buildersbox.corp-sansan.com/entry/2021/12/18/110000): コンペの概要や上位解法を紹介する主催者記事。
+- [「#12 Sansan × atmaCup」9位参加録](https://caddi.tech/archives/2866): 特徴量生成や後処理に利用したライブラリを紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/g-research-crypto-forecasting">G-Research Crypto Forecasting</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [システムトレーダー視点での「G-Research Crypto Forecasting」参加感想](https://qiita.com/blog_UKI/private/fbad4b19e734084e73bf): コンペの仕様に関する考察などを紹介する記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation">Sartorius - Cell Instance Segmentation</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Sartorius - Cell Instance Segmentation の4位解法](https://acro-engineer.hatenablog.com/entry/2022/02/02/120000): 顕微鏡画像からニューロン細胞を検出するコンペの概要や取り組みを紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/petfinder-pawpularity-score">PetFinder.my - Pawpularity Contest</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [PetFinder.my - Pawpularity Contest の銀メダル解法](https://qiita.com/tt20210824/items/6cef4a715cfefa50e8a7): 解法の詳細や得られた知見をまとめた記事。
+- [PetFinder.my - Pawpularity Contest 2位入賞者の振り返り](https://teyoblog.hatenablog.com/entry/2022/01/23/211430): 取組内容や考察を綴った振り返り記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment">NFL Health &amp; Safety - Helmet Assignment</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [NFL Health &amp; Safety - Helmet Assignment 優勝者によるコンペ紹介](https://qiita.com/Kmat67916008/items/8ccf0171219036621540): コンペ特有の難しさや取り組み方を綴った記事。
+- [NFL Health &amp; Safety - Helmet Assignment 概要資料（16位解法・上位3チーム解法紹介）](https://speakerdeck.com/takarasawa_/kaggle-nfl2): 資料作成者による 16 位解法と上位 3 チームの解法を紹介。
+- [NFL Health &amp; Safety - Helmet Assignment 振り返り会の回顧録](https://fam-taro.hatenablog.com/entry/2021/11/08/230247): コンペ上位 3 人や運営に携わった Kaggle Grandmaster も参加した振り返り会の回顧録。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/ventilator-pressure-prediction">Google Brain - Ventilator Pressure Prediction</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Google Brain - Ventilator Pressure Prediction 上位解法まとめ](https://teyoblog.hatenablog.com/entry/2021/12/05/000000): 公開情報を参考に金メダル相当のスコアを再現した記事。
+- [Google Brain - Ventilator Pressure Prediction 17位解法](https://sqrt4kaido.hatenablog.com/entry/2021/11/07/152227): コンペ概要や具体的な取り組みをまとめた記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering">chaii - Hindi and Tamil Question Answering</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [chaii - Hindi and Tamil Question Answering の12位解法](https://blog.recruit.co.jp/data/articles/kaggle-chaii/): コンペの概要と解法をまとめた記事。
+- [chaii - Hindi and Tamil Question Answering の2位解法](https://techblog.exawizards.com/entry/2021/12/14/170743): 外部データ・アンサンブル・言語特有の後処理などを紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="nishika">
+<h3><a href="https://competition.nishika.com/">Nishika 小説家になろう ブクマ数予測</a></h3>
+<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Nishika</span>
+
+- [「小説家になろう ブクマ数予測 ~"伸びる"タイトルとは？~」3位解法](https://qiita.com/z-lai/items/4b563c4c78bf25427120): 公式振り返り会の録画も公開されている。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="other">
+<h3>エンジニアの年収予測</h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
+
+- [「エンジニアの年収予測」1位解法](https://github.com/go5paopao/quevico-salary-prediction-1st-place-solution): Stack Overflow のアンケートから回答者の給料を予測するコンペの解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2021" data-datatype="image" data-platform="other">
+<h3>Facebook AI Image Similarity Challenge</h3>
+<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">その他</span>
+
+- [Facebook AI Image Similarity Challenge 上位解法まとめ](https://www.drivendata.co/blog/image-similarity-winners/): Kaggle Grandmaster の lyakaap さんが Descriptor Track で優勝。
+- [Facebook AI Image Similarity Challenge: Matching Track 2位解法](https://arxiv.org/abs/2111.09113): 同時開催の Descriptor Track では lyakaap さんが優勝。
+- [Facebook AI Image Similarity Challenge 入賞解法](https://engineering.dena.com/blog/2021/12/fb-isc-1st/): 課題設定や取り組みを丁寧に解説する記事。
 
 </div>
 
@@ -1257,6 +1338,7 @@
 - [シミュレーションコンペで銅メダル2つを獲得してkaggle Expertになった方法](https://zenn.dev/epicai_techblog/articles/a80959e01d62fd)
 - [Solafune「市街地画像の超解像化」11位解法](https://yuta0306.github.io/mscup-feedback): コンペ概要や具体的な取り組みをまとめた記事。
 - [Solafune「市街地画像の超解像化」5位解法](https://jp.morgenrot.cloud/blog/super-resolution-of-city-images/): 画像コンペで利用が増えている Swin Transformer を用いた超解像モデルを採用。
+- [Solafune「市街地画像の超解像化」参加録](https://sorabatake.jp/25220/): コンペの概要や取り組み、難しかった点を紹介。
 
 </div>
 

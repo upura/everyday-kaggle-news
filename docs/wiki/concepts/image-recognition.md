@@ -103,6 +103,15 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [CLIP日本語版モデルの学習方法解説記事](https://qiita.com/sonoisa/items/00e8e2861147842f0237): 画像とテキストの埋め込み表現を学習する CLIP の日本語版モデルの学習方法を解説。
 - [Vision Transformerの注意機構に着目した論文の解説記事](https://tech.sensetime.jp/?p=2220): 「When Shift Operation Meets Vision Transformer」の解説。
 - [CLIPを模した日本語モデルの作成記事](https://www.ogis-ri.co.jp/otc/hiroba/technical/similar-document-search/part19.html): 画像とテキストを同じ多次元ベクトル空間に埋め込むモデルを Google Colaboratory 上で学習する記事。
+- [TensorFlow Image Models](https://github.com/martinsbruveris/tensorflow-image-models): PyTorch Image Models を模した TensorFlow 版の画像モデルライブラリ。
+- [多重物体追跡（MOT）の技術発展の歴史紹介記事（前編）](https://tech.acesinc.co.jp/entry/2021/11/08/133336): NFL Helmet Assignment で使われた技術にも言及。
+- [多重物体追跡（MOT）の技術発展の歴史紹介記事（後編）](https://tech.acesinc.co.jp/entry/2021/11/24/165628): より最新の技術を扱う続編記事。
+- [2021年末時点で利用可能な物体検出ライブラリの紹介記事](https://aru47.hatenablog.com/entry/2022/01/01/123929): 参考記事・コードへのリンクと著者の所感をまとめた記事。
+- [画像を対象とした自己教師あり表現学習まとめ（連載第1回）](https://blog.recruit.co.jp/data/articles/ssl_vision_01/): 手法の基本的な考え方を紹介する 3 本立て連載の初回。
+- [言語と画像を組み合わせた領域でのTransformer活用総説論文](https://link.springer.com/article/10.1007/s11263-021-01547-8): Vision & Language 領域での Transformer 活用をまとめた総説論文。
+- [Swin Transformer 解説資料（ICCV2021論文読み会）](https://www.slideshare.net/ren4yu/swin-transformer-iccv21-best-paper): Kaggle の画像コンペで頻繁に使われるモデルの解説資料。
+- [Swin Transformerを用いた物体検出の実験記事](https://qiita.com/Abebe9849/items/47de3f77ed02ba6f242d): Kaggle「VinBigData Chest X-ray Abnormalities Detection」を題材にした実験まとめ。
+- [『コンピュータビジョン最前線』創刊号の先行公開原稿](https://www.kyoritsu-pub.co.jp/bookdetail/9784320125421): 自己教師あり学習や画像認識モデル構造など最先端の話題をまとめた書籍。
 
 ## 関連概念
 

@@ -24,6 +24,8 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [Optuna 3.0 リリース](https://medium.com/optuna/optuna-3-part-1-4c6a9022a648): ハイパーパラメータ最適化ツール Optuna v3.0 の公式リリースノート。
 - [最適化問題コンテストに取り組む上での指針](https://qiita.com/square1001/items/84604f79f55ff10d99b0): 代表的な手法として貪欲法と山登り法を解説する記事。
 - [数理最適化の入門用資料](https://speakerdeck.com/e869120/introduction-to-mathematical-optimization-5cdef842-50f6-4e46-ab2d-549cf85c1b81): 線形計画問題など基本的な問題と解き方を紹介する、競技プログラミング書籍著者による資料。
+- [ヒューリスティック・マラソン形式コンテストの入門記事](https://qiita.com/tanaka-a/items/3c2a1bca63759ec71e7f): Kaggle「Santa 2021 - The Merry Movie Montage」も当てはまる形式の入門解説。
+- [Optuna v3.0.0-a0 最初のリリース候補公開](https://github.com/optuna/optuna/releases/tag/v3.0.0-a0): 「LightGBMTuner.best_booster」の変更なども含むリリースノート。
 
 ## 関連概念
 

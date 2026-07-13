@@ -165,3 +165,8 @@ https://kansaikaggler.connpass.com/
 - [DeNA TechCon 2022「Kagglers, Now!」](https://techcon2022.dena.dev/spring/session/kagglers-now/): 独自の社内 Kaggle ランク制度を持つ DeNA の Grandmaster 4 人によるパネルディスカッション。
 - [Nishika「AI×商標：イメージサーチコンペティション」表彰式](https://nishika.connpass.com/event/241285/): 特許庁による初めてのコンペ開催の表彰式。
 - [仙台市×東北大学「データサイエンス・トレーニングキャンプ」](https://prtimes.jp/main/html/rd/p/000000008.000084933.html): Kaggle を用いた課題解決型講座の開講告知。
+- [Kaggle Master currypurinさんの講演会](https://peatix.com/event/3151725): Kaggle への入門方法やキャリア形成を扱う講演会。
+- [NeurIPS 2021 論文読み会](https://line.connpass.com/event/236385/): 9 件の論文紹介が予定された国際学会の論文読み会。
+- [「AI王 〜クイズAI日本一決定戦〜」第2回コンペ最終報告会](https://sites.google.com/view/project-aio/competition2/final-presentation): 最終結果発表・解法共有に加え、研究動向の解説やクイズ専門家の講演も予定された報告会。
+- [Kaggle Days Championship 体験記](https://lab.astamuse.co.jp/entry/kaggle-days-championship-report): 2021年11月〜2022年10月開催の Kaggle Days Championship の体験記。
+- [Numerai 公式イベント](https://numerai.connpass.com/event/231169/): 有志の発表数件が予定された株価予測プラットフォームのイベント。

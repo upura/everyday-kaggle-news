@@ -48,6 +48,7 @@
 - [2021年の面白かったコンペと論文を7人のKagglerに調査した記事](https://sorabatake.jp/26199/): 回答者のコメントも併記した調査記事。
 - [「Kaggle&AtCoder支援制度」の紹介記事](https://www.nablas.com/post/blog_kaggle-atcoder): 実績に応じて業務時間の一部を活動に利用できる社内制度の紹介。
 - [2022年時点での機械学習コンペの動向をまとめた記事](https://medium.com/machine-learning-insights/winning-approach-ml-competition-2022-b89ec512b1bb): プログラミング言語・上位解法アプローチ・利用ライブラリなどを可視化した記事。
+- [Zillowの機械学習モデル運用の失敗を綴る記事](https://www.businessinsider.jp/post-248629): 2017 年に Kaggle でコンペを開催した Zillow の事例を題材にしたモデル運用の難しさの記事。
 
 ## 関連概念
 

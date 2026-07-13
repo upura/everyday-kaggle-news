@@ -30,6 +30,7 @@
 ## GitHub Actions
 
 - [GitHubプロフィールにKaggleのバッジを表示するGitHub Actionsを作成しました](https://qiita.com/Takayoshi_Makabe/items/8e287bc6a8f90018049c): Kaggle ランクに応じたバッジを生成する Actions の紹介。
+- [kaggle-badge](https://github.com/subinium/kaggle-badge): Kaggle の個人実績画像を自動生成するアプリケーション。
 
 ## ニューズレター
 
@@ -38,3 +39,7 @@
 ## Kaggle 公式ガイド
 
 - [Kaggle Dataset Onboarding Guide](https://www.kaggle.com/page/kaggle-dataset-onboarding-guide): Kaggle 上でのデータセット公開に関する機能を紹介する公式資料。
+
+## その他プラットフォームのサービス
+
+- [SIGNATE 金融マーケット予測の実践講座](https://prtimes.jp/main/html/rd/p/000000027.000015818.html): SIGNATE で開催されたコンペのチュートリアルを基にした講座。

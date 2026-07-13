@@ -7,6 +7,7 @@
 - [新卒(ほぼ)専業Kagglerという選択肢](https://speakerdeck.com/nocchi1/xin-zu-hobo-zhuan-ye-kagglertoiuxuan-ze-zhi): 卒業後に専業 Kaggler として活動し Grandmaster に昇格した体験の発表資料。
 - [Kaggle Competition Grandmasterになるまでの振り返り](https://sqrt4kaido.hatenablog.com/entry/2025/01/02/165851): 印象深いコンペの思い出とともに昇格までを振り返る記事。
 - [Kaggle Competitions Grandmaster になるまでの 6年半を振り返る](https://kaeru-nantoka.hatenablog.com/entry/2024/12/20/161203): 称号獲得までに参加したコンペを取り上げた振り返り記事。
+- [2021年にKaggle Grandmasterの称号を獲得したterekaさんの振り返り記事](https://nonbiri-tereka.hatenablog.com/entry/2021/12/25/221425): メリット・デメリットや今後の挑戦を綴る「Kaggle Advent Calendar 2021」最終日の記事。
 - [Kaggle Grandmasterになったので取り組み方や今までを振り返る(kami編)](https://zenn.dev/dena/articles/f2c90e00ffbc26): これまでの取り組みと今後の意気込みを綴った振り返り記事。
 - [カグルとワタシ ~ kaggle GM振り返りポエム ~](https://qiita.com/Kmat67916008/items/631838d128e538f16119): 2019 年からの参加コンペの思い出と変化を綴る振り返り記事。
 - [Kaggle Grandmasterになるまでを振り返ってみる](https://penguin46.hatenablog.com/entry/2024/07/28/150155): 競技プログラミングの経験も活かして昇格した過程の振り返り記事。
@@ -50,6 +51,7 @@
 - [KaggleMasterになるまで！期間4年間の難易度へ金メダルへ挑戦と学び](https://team-shiny.org/kagglemasterkinmedaru/)
 - [2022年の振り返り（kaggle編）](https://c10000.hatenadiary.com/entry/2022/12/31/141747)
 - [Kaggleに入門しました](https://note.com/ymg_aq/n/n78158f97704a)
+- [14歳でKaggle Competition Masterになった道のり](https://towardsdatascience.com/my-journey-to-kaggle-master-at-the-age-of-14-e2c42b19c6f7?gi=2ab8c7957cb6): 取り組み方や学んだことをまとめた記事。
 
 ## Kaggle Expert 振り返り
 
@@ -73,6 +75,7 @@
 
 - [Google Developer Expert になりました](https://ho.lc/blog/google-developer-expert-kaggle)
 - [Kaggle Google Developer Expert として 2025 年にやったこと](https://upura.hatenablog.com/entry/kaggle-advent-20251205)
+- [Google Open Source Expert Prize 初回受賞者発表](https://www.kaggle.com/google-oss-expert-prize-winners): Google の OSS フレームワークに関する情報発信を表彰する制度。TPU 入門向け Notebook などが選出。
 
 ## インタビュー
 
@@ -102,9 +105,12 @@
 - [Anthony Goldbloom — How to Win Kaggle Competitions](https://www.wandb.com/podcast/anthony-goldbloom)
 - [【R-plus+番外編】Kaggle Grandmaster対談インタビュー（前編）](https://www.rist.co.jp/blog/202408217164/)
 - [【R-plus+番外編】Kaggle Grandmaster対談インタビュー（後編）](https://www.rist.co.jp/blog/202408217166/)
+- [Kaggle GrandmasterのY.NakamaさんとHidehisa Araiさんのインタビュー記事](https://atmarkit.itmedia.co.jp/ait/articles/2111/24/news003.html): Kaggle に参戦したきっかけなどを語るインタビュー。後編も公開。
+- [2021年度リクルート入社Kaggle Grandmaster 2人へのインタビュー記事](https://atmarkit.itmedia.co.jp/ait/articles/2111/08/news009.html): 称号獲得に至るまでの体験談を綴るインタビュー。
 
 ## 称号分析
 
 - [Kaggle Grandmaster 分析レポート 2024年 -update版-](https://research-p.com/column/1619)
 - [Kaggle Master 分析レポート 2024年版](https://research-p.com/column/1664)
 - [Kaggle Grandmaster 分析レポート 2023年版](https://research-p.com/column/1218)
+- [Kaggle参加者を国籍の観点で分析した記事](https://sinchir0.hatenablog.com/entry/2021/12/18/090325): ランキング上位 100 位以内で日本からの参加者が最も多い点などを報告。
