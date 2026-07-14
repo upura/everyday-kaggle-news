@@ -30,4 +30,4 @@ Claude Code などの LLM エージェントを「道具」としてコンペ作
 
 ## 関連概念
 
-- [エージェント対戦コンペ](./agent-competition.md) / [自然言語処理コンペ](./nlp-llm.md) / [実験管理](./experiment-management.md)
+- [エージェント対戦コンペ](./agent-competition.md) / [自然言語処理コンペ](./nlp-llm.md) / [実験管理](./experiment-management.md) / [サービス・ツール](../../service.md)
