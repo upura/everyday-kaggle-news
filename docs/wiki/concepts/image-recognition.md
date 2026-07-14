@@ -161,6 +161,9 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [「ReZero is All You Need」論文の概説記事](https://st1990.hatenablog.com/entry/2020/03/29/144230): CIFAR-10 で効果を確認した検証も掲載。
 - [半教師あり学習・弱教師あり学習のサーベイ資料](https://www.slideshare.net/ren4yu/semi-supervised-weaklysupervised-unsupervised-and-active-learning): 画像処理の事例を中心に手法をまとめた資料。
 - [画像タスクの精度向上手法解説動画（U-Net・HRNetなど）](https://www.youtube.com/watch?v=05qlCP-xL9Y&feature=youtu.be): 複数解像度を扱う CNN アーキテクチャの紹介。
+- [半教師あり学習手法まとめ記事（Temporal ensembling・Mean teachers・UDA・MixMatch）](https://hotcocoastudy.hatenablog.jp/entry/2020/01/23/210357): 代表的な半教師あり学習手法を整理した記事。
+- [半教師あり学習「FixMatch」の解説記事](https://medium.com/@akichan_f/1%E6%9E%9A%E3%81%97%E3%81%8B%E3%83%A9%E3%83%99%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF%E3%81%8C%E3%81%AA%E3%81%8F%E3%81%A6%E3%82%82%E5%AD%A6%E7%BF%92%E3%81%A7%E3%81%8D%E3%82%8Bfixmatch-982275853a88): 少量ラベルでも学習可能な手法を実験結果と共に紹介。
+- [CNNが画像の位置情報を学習しているか検証した論文のまとめスライド](https://www.slideshare.net/KazuyukiMiyazawa/how-much-position-information-do-convolutional-neural-networks-encode): 位置情報学習に必要な要素を実験で指摘。
 
 ## 関連概念
 

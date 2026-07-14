@@ -226,6 +226,13 @@
 - [日本語Wikipedia・青空文庫で事前学習されたBERTモデル公開（NICT）](https://alaginrc.nict.go.jp/nict-bert/index.html): 情報通信研究機構による日本語 BERT モデルの公開。
 - [BERTを中心にした自然言語処理モデル解説Podcast](https://anchor.fm/pod-de-engineer/episodes/BERT-with-agatan-ebijrr/a-a1n58q9): 音声のみで端的に BERT を紹介する分かりやすい構成。
 - [日本語word2vecモデルの評価記事](https://blog.hoxo-m.com/entry/2020/02/20/090000): 複数の学習済みモデルを日本語データセットで比較評価。
+- [日本語BERTモデルをPyTorchでfine-tuningするチュートリアル](https://radiology-nlp.hatenablog.com/entry/2020/01/18/013039): SentencePiece ベースモデルを題材にした各ステップの丁寧な解説。
+- [Attention機構の解説動画](https://www.youtube.com/watch?v=g5DSLeJozdw&feature=youtu.be): ニューラルネットワークの基本構造をわかりやすく解説する動画。
+- [Hugging Faceがトークン化ライブラリ「Tokenizers」を公開](https://medium.com/dair-ai/hugging-face-introduces-tokenizers-d792482db360): Transformers と合わせて BERT などのモデルを使いやすくするライブラリ。
+- [自然言語処理のEmbedding手法解説記事（USE・BERTなど）](https://yukoishizaki.hatenablog.com/entry/2020/01/03/175156): 学習済みモデルからベクトルを取得するサンプルコードつき。
+- [BERTの特徴・Pre-training・モデル構造の可視化資料](https://www.slideshare.net/matsukenbook/bert-217710964): transformers ライブラリの実装をもとにした丁寧な図解資料。
+- [「Real or Not? NLP with Disaster Tweets」BERTベースラインNotebook](https://www.kaggle.com/bibek777/bert-baseline): PyTorch の transformers ライブラリによる Fine-tuning から予測までの一連の流れ。
+- [GPUでのNLP時「CUDA out of memory」回避Tips記事](https://qiita.com/shinochin/items/8b6b7e76bf426ab86444): Embedding layer を CPU に載せるなどのアイディアを列挙。
 
 ## 関連概念
 

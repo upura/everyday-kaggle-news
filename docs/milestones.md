@@ -157,3 +157,7 @@
 - [4カテゴリ中3部門Grandmaster Dieterさんインタビュー（アイコンとのギャップが話題に）](https://www.youtube.com/watch?v=Q0_Xajic_9U&feature=youtu.be): コミュニティで話題となったインタビュー。
 - [『Kaggleで勝つデータ分析の技術』著者・門脇さん（threecourse）インタビュー](https://trainz.jp/media/89/): 執筆の背景や反響を語るインタビュー。
 - [Kaggle運営Walterさん（Inversion）インタビュー動画](https://www.youtube.com/watch?v=OoB_LQpgDCk&feature=youtu.be): 入社前の話も含む「中の人」への貴重な質疑。
+- [2019年のKaggleコンペ振り返り動画](https://www.youtube.com/watch?v=pL96IPZZ-88&feature=youtu.be): 勝者・ツール・賞金・国など多角的な観点で総括。
+- [Kaggle過去最高ランク38位の方による経歴記事](https://neongen-ai.github.io/2020/01/18/how_I_found_my_current_job.html): 転職を機に Kaggle へ注力し始めた理由を紹介。
+- [Kaggle GrandmasterのVladimir Iglovikovさん転職体験記](https://towardsdatascience.com/how-i-found-my-current-job-3fb22e511a1f?gi=e7a0e1df0fcc): Deep Learning / Computer Vision 業界へ飛び込むまでの挫折を含む体験記。
+- [Kaggle史上初のトリプルGM AbhishekさんのYouTubeチャンネル](https://www.youtube.com/user/abhisheksvnit/videos): 実際のコーディングの様子を含む動画を公開。

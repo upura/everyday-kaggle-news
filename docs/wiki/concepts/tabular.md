@@ -139,6 +139,12 @@
 - [テーブルデータへのGAN適用に関する記事](https://towardsdatascience.com/review-of-gans-for-tabular-data-a30a2199342?gi=3b347c068100): 2 つのライブラリを検証しコードも公開。
 - [Pandasの主要操作をまとめた記事](https://naotaka1128.hatenadiary.jp/entry/pandas-start-guide): 網羅性の高い操作一覧で抜け漏れ確認に使える記事。
 - [AutoML「AutoGluon-Tabular」をTitanicデータで試す記事](https://upura.hatenablog.com/entry/2020/03/18/190300): 前処理不要でファイルパスを渡すだけの手軽さを紹介。
+- [LightGBMでFocal Lossを使う方法の解説記事](https://towardsdatascience.com/lightgbm-with-the-focal-loss-for-imbalanced-datasets-9836a9ae00ca?gi=7b8fb1af1f08): Kaggle「Credit Card Fraud Detection」を題材にした不均衡データ対応。
+- [ハイパーパラメータ探索ツール「keras-tuner」の紹介記事](https://tksmml.hatenablog.com/entry/2020/02/01/093000): Keras との連携面での優位性を紹介。
+- [NGBoostの解説記事（LightGBM・XGBoostとの比較）](https://towardsdatascience.com/ngboost-explained-comparison-to-lightgbm-and-xgboost-fda510903e53?gi=417d4d77d870): 予測分布も出力できる勾配ブースティング手法を実装例付きで比較。
+- [大規模高次元データ向け可視化手法「ShapeVis」の提案論文](https://arxiv.org/abs/2001.05166): t-SNE・UMAP と比較し可視化品質とスケーラビリティを議論。
+- [次元削減手法「PHATE」の解説記事](https://qiita.com/khigashi02/items/b4b95714cae9e3f2a7be): `pip install phate` で手軽に導入できる手法の紹介。
+- [「AutoGluon」の紹介記事（Deep Learning AutoML）](https://towardsdatascience.com/autogluon-deep-learning-automl-5cdb4e2388ec?gi=bc672119f00b): AutoML ライブラリ AutoGluon の概要紹介。
 
 ## 関連概念
 

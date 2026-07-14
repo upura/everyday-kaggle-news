@@ -48,6 +48,7 @@
 - [「M4」コンペ参加者による論文（データリーク議論）](https://arxiv.org/abs/2003.12796): コンペ成功要因の一つとしてデータリークを指摘し、コンペ設計への提言も含む。
 - [Confident Learningの解説記事（ICML2020）](https://aotamasaki.hatenablog.com/entry/confident_learning): データセット内の誤ラベルを検知する汎用的な枠組みの提案。pip install 対応。
 - [評価指標「MCC」の解説記事](https://guchio3.hatenablog.com/entry/2020/03/13/222815): 他の指標との違いや導出を丁寧にまとめた記事。
+- [機械学習モデルの説明性・公平性に関するまとめスライド](https://www.slideshare.net/SatoshiHara3/ver2-225753735): 大阪大学・産業技術総合研究所の研究者による発表資料。
 
 ## 関連概念
 

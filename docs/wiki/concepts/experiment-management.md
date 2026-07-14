@@ -44,6 +44,7 @@
 - [設定ファイル管理ツール「Hydra」v1.0.0リリース](https://hydra.cc/blog/2020/09/03/Hydra_1.0/): サンプルコードと共に主要な追加機能を解説する公式ブログ記事。
 - [実験管理ツール「Comet.ml」の紹介記事](https://www.nogawanogawa.com/entry/comet_ml): Weights & Biases・Neptune.ai と並ぶ実験管理ツールの紹介。
 - [機械学習実験管理ツールの紹介・比較記事](http://nonbiri-tereka.hatenablog.com/entry/2020/02/17/090613): Excel・mlflow・Weights and Biases などを複数観点で比較。
+- [HydraとMLflowでパラメータ・実験管理を行う記事](https://ymym3412.hatenablog.com/entry/2020/02/09/034644): Livedoor ニュースコーパスのテキスト分類を題材にした管理方法の紹介。
 
 ### ツール・テンプレート
 

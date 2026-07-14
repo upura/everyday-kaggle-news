@@ -39,6 +39,7 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [Optuna v1.3.0リリース](https://github.com/optuna/optuna/releases/tag/v1.3.0): ハイパーパラメータの重要度を可視化する機能などを追加。
 - [OptunaでQWKを最適化する記事](https://blog.amedama.jp/entry/optuna-qwk-optimization): 連続値を離散値に変換する閾値の探索を紹介。
 - [OptunaのHyperband実装解説記事](https://medium.com/optuna/optuna-supports-hyperband-93b0cae1a137): v1.1.0 で導入された探索アルゴリズムの実装方法と実験結果を報告。
+- [Optuna拡張機能「LightGBM Tuner」の紹介記事](https://tech.preferred.jp/ja/blog/hyperparameter-tuning-with-optuna-integration-lightgbm-tuner/): 「重要なハイパーパラメータから順に調整する」という Kaggler の経験則を実装。
 
 ## 関連概念
 

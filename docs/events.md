@@ -223,3 +223,4 @@ https://kansaikaggler.connpass.com/
 - [SciPy Conference 2020講演動画集](https://www.youtube.com/playlist?list=PLYx7XA2nY5GfY4WWJjG5cQZDc7DIUmn6Z): 科学技術における Python 活用事例を扱う講演集。10 月には SciPy Japan 2020 も開催予定。
 - [ICLR論文読み会イベント](https://exawizards.connpass.com/event/176947/): 招待講演・通常発表・LT の資料が公開された読み会。
 - [BERT応用勉強会（LT形式）](https://nlpaper-challenge.connpass.com/event/174957/?utm_campaign=event_participate_to_follower&utm_medium=twitter&utm_source=notifications): ドメイン活用事例やフロントエンド利用例を扱う勉強会。
+- [「Kaggle Days China」2019講演動画公開](https://www.youtube.com/watch?v=rQQAIJIf60s&feature=youtu.be): 「Solving NLP Problems with BERT」など複数の講演動画を順次公開。

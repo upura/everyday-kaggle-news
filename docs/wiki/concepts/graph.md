@@ -20,6 +20,7 @@
 - [GPU上でグラフデータを分析するライブラリ「cuGraph」の紹介記事](https://acro-engineer.hatenablog.com/entry/2021/05/21/120000): ページランクの計算速度を比較する記事。
 - [スタンフォード大学「Machine Learning with Graphs」講義動画](https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn): 埋め込み表現やニューラルネットワークを扱う講義動画。
 - [GCNを用いた企業格付け予測手法（SIG-FIN発表）](https://www.slideshare.net/MasakazuMori2/gcn-230165927): 取引関係の有向グラフから特徴を獲得する手法を LightGBM 比較付きで提案。
+- [グラフのデータ分析に関する概説資料](https://www.slideshare.net/ssuser0c8361/20200212-227754437): グラフ表現学習・グラフ畳み込みニューラルネットワーク・学会動向をまとめた資料。
 - [ネットワークデータに対する深層学習の紹介記事](https://buildersbox.corp-sansan.com/entry/2021/02/19/114000): 数式を使わずタスクの概観とモデルを紹介する記事。
 - [Graph Neural Networks: Foundations, Frontiers, and Applications](https://graph-neural-networks.github.io/): 27 章にわたる無料公開のグラフニューラルネットワーク書籍。
 

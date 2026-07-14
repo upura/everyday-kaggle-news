@@ -1440,6 +1440,14 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="other" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/santa-workshop-tour-2019">Santa's Workshop Tour 2019</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Santa's Workshop Tour 2019 最適解の解説動画（約90分）](https://www.youtube.com/watch?v=0AdaTRU--YE&feature=youtu.be): コンペ解法に加え数理最適化全体も概説する Kaggle Master による長尺動画。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="signate">
 <h3>SIGNATE</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">SIGNATE</span>

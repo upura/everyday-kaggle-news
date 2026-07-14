@@ -70,6 +70,8 @@
 - [Notebooksランク1位によるBengaliコンペ振り返り（メダルなし）](https://towardsdatascience.com/what-to-do-when-you-dont-get-any-medal-in-a-kaggle-competition-b54cc433da3?gi=458782e3d00e): 実行環境・GPU・Pipeline の観点で得た知見をまとめた記事。
 - [「タイタニック号の生存者予測」を題材にしたカードゲーム](https://hanshakaijin.booth.pm/items/1870011): 特徴量モンスターとアルゴリズムマシンを駆使する遊び心のある企画。
 - [機械学習モデル運用の注意点を論じる記事](https://tjo.hatenablog.com/entry/2020/02/24/201203): 『Kaggleで勝つデータ分析の技術』を題材に AutoML 活用の観点で知見を整理。
+- [シンガポール列車の異常事象をデータ分析で特定した話](https://postd.cc/how-we-caught-the-circle-line-rogue-train-with-data/): Jupyter Notebook 上での仮説検証の進め方が Kaggle の取り組みに通じる記事。
+- [「AIを何から始めれば良いか」システムエンジニア向け解説記事（ABEJA）](https://qiita.com/yutakikuc/items/b1243a21c3decfa83d3b): 教師あり学習を題材にサービス導入への道筋を言語化した記事。
 
 ## 関連概念
 
