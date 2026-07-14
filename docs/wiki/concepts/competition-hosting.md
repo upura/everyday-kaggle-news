@@ -55,7 +55,10 @@
 - [アイリス株式会社が機械学習コンペ環境構築コードをOSS公開](https://github.com/AillisInc/ml_competition_platform): 管理者が評価指標を定義し参加者がファイル投稿できる枠組み。
 - [Kaggle「PANDA Challenge」の成果を報告するNature Medicine掲載論文](https://www.wouterbulten.nl/blog/tech/panda-challenge/): 課題の背景やコンペ上位解法を紹介する論文。
 - [SIGNATE「熱帯低気圧（台風等）検出アルゴリズム作成」コンペのまとめ論文](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-021-00459-y): 海洋研究開発機構主催コンペを通じた性能向上を報告する論文。
+- [Deep learning models for predicting RNA degradation via dual crowdsourcing](https://www.nature.com/articles/s42256-022-00571-8): Kaggle「OpenVaccine」の成果と得られた知見をまとめた Nature Machine Intelligence 掲載論文。
+- [Analysis of the Human Protein Atlas Weakly Supervised Single-Cell Classification competition](https://www.nature.com/articles/s41592-022-01606-z): コンペの設計と結果を報告する論文。
+- [チューニングコンペティション（LLM-jp）開催報告](https://drive.google.com/file/d/1M1bpEDvARxSq-KNbudf1B8V4kbpYxO5u/view): 言語処理学会第 31 回年次大会のワークショップ内で開催された LLM チューニングコンペの開催報告。
 
 ## 関連概念
 
-- [学会コンペ](./academic-competition.md) / [性能評価と検証](./evaluation-validation.md)
+- [コンペプラットフォーム](../../platform.md) / [性能評価と検証](./evaluation-validation.md)

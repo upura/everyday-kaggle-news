@@ -1794,6 +1794,10 @@
 - [AutoGluon-Tabular を用いたアンサンブルによる日本語質問応答システムの構築](https://speakerdeck.com/upura/aio-solution-by-autogluon-tabular)
 - [【AI王 〜クイズAI日本一決定戦〜】ふりかえり](https://www.ai-shift.co.jp/techblog/1781)
 - [「AI王 〜クイズAI日本一決定戦〜」優勝解法](https://qiita.com/z-lai/items/e547cd2a88a9b7f8e0b6): 言語処理学会第 27 回年次大会のワークショップとして開催されたコンペの優勝解法。
+- [YAMALEX が第３回 AI 王に参加しました](https://acro-engineer.hatenablog.com/entry/2022/12/07/190000)
+- [AI王で準優勝を獲りました](https://acro-engineer.hatenablog.com/entry/2024/02/13/120000): クイズ AI コンペ「AI王」第 4 回の問題作成部門の参加録。
+- [「AI王 〜クイズAI日本一決定戦〜」第2回コンペティション3位解法](https://techblog.exawizards.com/entry/2022/04/25/161045): 外部データセットの取り込みで性能を高めた日本語質疑応答コンペの解法。
+- [「AI王 〜クイズAI日本一決定戦〜」第2回コンペのベースラインコード公開](https://github.com/cl-tohoku/AIO2_DPR_baseline): 第 1 回の 20 択形式から自由回答形式に変わった問題設定のベースライン。
 
 </div>
 
@@ -1805,6 +1809,46 @@
 - [学会コンペで論文執筆の流れを学んだ話](https://upura.hatenablog.com/entry/kaggle-advent-20241217)
 - [学会コンペ参加してみた](https://qiita.com/ShunsukeKikuchi/items/8f4a431e0a804b3871fe)
 - [眼科AI学会 AIコンペティション 8th solutionと上位解法](https://www.docswell.com/s/yuki-tashiro/K3G7NE-ophthalmology-AI-competition-8th-solution)
+- [国際音声AIコンペ総合第1位：URGENT Challenge優勝モデルの技術解説](https://zenn.dev/softbank/articles/bf95e2e274cf97): 音声復元を扱う国際チャレンジの優勝解法の技術解説。
+- [【MICCAI Challenge 2024】COSAS: 臓器もスキャナーも違う画像でがんの境界を描けるか？腺がんセグチャレンジ読み解き](https://zenn.dev/sugupoko/articles/7ae03c02c84feb): 医用画像の国際チャレンジの概要と上位解法のまとめ。
+- [LLM-jp FT-LLMコンペに直球ど真ん中ストレートを投げ込んだ(つもりの)話](https://zenn.dev/mkj/articles/ftllm_20260323): NLP2026 のワークショップとして開催された LLM チューニングコンペの取り組み紹介。
+- [YANS 第17回シンポジウム内コンペの概要・解法](https://yans.anlp.jp/entry/yans2022report): Amazon レビューのスコア付けを題材にしたコンペの概要と解法。
+- [2023 LLMサマースクール コンペの解法メモ](https://www.docswell.com/s/KanHatakeyama/58GQRE-2023-11-25-115012): 東大松尾研サマースクール内コンペの 3 位解法。
+- [1st prize in the "Automated checkout" competition of 7th AI CITY CHALLENGE](https://blog.fltech.dev/entry/2023/09/21/ai-city-challenge-1st-prize-en): 自動レジ技術を競う AI CITY CHALLENGE の 1 位解法。
+- [SISAP 2023 Indexing Challenge 参加記](https://mti-lab.github.io/blog/2023/09/05/sisap23_comp_jp.html): 類似度検索の国際会議で開催された高速アルゴリズムコンペの 2 位解法。
+- [都市における人間移動予測の最前線 SIGSPATIAL Cup 2025 上位解法の紹介](https://speakerdeck.com/mujirushi/du-shi-niokeruren-jian-yi-dong-yu-ce-nozui-qian-xian-sigspatial-cup-2025-shang-wei-jie-fa-noshao-jie): 人間の移動予測を扱う ACM SIGSPATIAL 併設コンペの上位解法紹介。
+- [音声・映像データから感情と原因を抽出する - SemEval-2024優勝手法に学ぶ「非言語情報の言語化」アプローチ](https://zenn.dev/pksha/articles/0847a9f0e36d18): マルチモーダル情報から感情と原因の対を抽出する国際コンペの優勝解法の解説。
+- [WMT2020 Shared Task 機械翻訳コンペ参加報告資料](https://speakerdeck.com/butsugiri/ji-jie-fan-yi-konpeteisiyoncan-jia-bao-gao): 性能向上のための手法の組み合わせやリソースの重要性を語る資料。
+- [「CoNLL 2020 Shared Task」「SemEval 2020」複数部門1位の報告記事（日立）](https://www.hitachi.co.jp/New/cnews/month/2020/12/1202.html): 意味表現解析・意味理解を題材にしたコンペでの成果報告。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2023" data-datatype="text" data-platform="other">
+<h3>KDD Cup</h3>
+<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">その他</span>
+
+- [KDD Cup 2022 ESCI Challenge 参加録](https://nttdocomo-developers.jp/entry/2022/08/24/120000): 商品検索改善コンペの取り組みを紹介する参加録。
+- [KDD 2021時系列異常検知コンペ参加報告・上位解法まとめ](https://www.slideshare.net/GentaYoshimura/kdd-cup-2021): 「KDD2021 参加報告&論文読み会」での発表資料。
+- [「KDDCUP 2020 ML Track2」4位解法（Adversarial Attack）](https://qiita.com/keiichi_ochiai/items/64122c8c4bbdb548b32d): 深層学習モデルを誤認識させる攻撃を題材にした解法。
+- [NTTドコモ研究開発部署による「KDD Cup」への取り組み紹介記事](https://qiita.com/dcm_chida/items/5da1530ab69961c2c828): コンペ用 AWS 開発環境の運用ノウハウも掲載。
+- [データマイニングの国際学会KDD2023に現地参加し、ポスター発表してきました](https://acro-engineer.hatenablog.com/entry/2023/08/23/120000): KDDCup 参加者による国際学会の現地体験記。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2024" data-datatype="tabular" data-platform="other">
+<h3>HuMob Challenge</h3>
+<span class="badge badge-year">2024</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
+
+- [HuMob Challenge 2023 に参加しました！](https://osushinekotan.hatenablog.com/entry/2023/09/29/092252): 平常時とコロナ禍の人流予測コンペの参加録。
+- [人間の移動予測コンペ Humob 2024 上位3チーム解法の紹介](https://nttdocomo-developers.jp/entry/2024/12/10/090000_1): 国際学会ワークショップで開催された位置情報予測コンペの上位解法まとめ。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2025" data-datatype="video" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/2coool">2COOOL</a></h3>
+<span class="badge badge-year">2025</span> <span class="badge badge-datatype">Video</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle 2COOOL 準優勝：学習データなし動画コンペのVLM解法とICCVレポート](https://zenn.dev/turing_motors/articles/b92bc6c5ac659a): ドライブレコーダー動画から事故レポートを生成する ICCV 併設コンペの 2 位解法。
 
 </div>
 
