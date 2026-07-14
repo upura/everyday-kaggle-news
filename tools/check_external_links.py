@@ -13,7 +13,7 @@ import urllib.error
 import urllib.request
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
-LINK_RE = re.compile(r"\]\((https?://[^)\s]+)\)")
+LINK_RE = re.compile(r"\]\((https?://(?:[^()\s]|\([^()\s]*\))+)\)")
 MANUAL_DOMAINS = ("x.com", "twitter.com", "linkedin.com",
                   "amazon.co.jp", "amazon.com", "amzn.asia")
 UA = "Mozilla/5.0 (compatible; everyday-kaggle-news-linkcheck)"
