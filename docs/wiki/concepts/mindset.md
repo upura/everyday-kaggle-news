@@ -66,6 +66,10 @@
 - [子育てをしながらKaggleに取り組む4人の座談会](https://www.youtube.com/watch?v=dvMf-iiaA5I&feature=youtu.be): 時間の使い方や Kaggle への向き合い方を語る座談会。
 - [KaggleコミュニティのCOVID-19への貢献まとめ記事（Google Cloud）](https://cloud.google.com/blog/products/ai-machine-learning/how-kaggle-data-scientists-help-with-coronavirus): 自然言語処理・時系列予測・データセット構築の 3 観点で事例を紹介。
 - [「Google Landmark Retrieval 2020」順位表アイコンのネタ解説記事](https://www.sixthtone.com/news/1003025/the-memes-that-bring-good-luck): 上位陣が使う縁起物アイコンの背景を紹介するコミュニティ小話。
+- [Kaggleコンペ後に技術報告・論文を書くためのTips記事](https://towardsdatascience.com/writing-papers-tech-reports-after-kaggle-competitions-ee504fc0c4c1?gi=90d442b3602e): 執筆の意義・難しさ・具体的なステップを紹介。
+- [Notebooksランク1位によるBengaliコンペ振り返り（メダルなし）](https://towardsdatascience.com/what-to-do-when-you-dont-get-any-medal-in-a-kaggle-competition-b54cc433da3?gi=458782e3d00e): 実行環境・GPU・Pipeline の観点で得た知見をまとめた記事。
+- [「タイタニック号の生存者予測」を題材にしたカードゲーム](https://hanshakaijin.booth.pm/items/1870011): 特徴量モンスターとアルゴリズムマシンを駆使する遊び心のある企画。
+- [機械学習モデル運用の注意点を論じる記事](https://tjo.hatenablog.com/entry/2020/02/24/201203): 『Kaggleで勝つデータ分析の技術』を題材に AutoML 活用の観点で知見を整理。
 
 ## 関連概念
 

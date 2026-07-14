@@ -61,3 +61,5 @@
 - [Kaggleコミュニティ・ガイドライン更新](https://www.kaggle.com/community-guidelines): 行動規範や報告方法を更新した公式発表。
 - [H2O.ai、中国拠点でKaggle Grandmaster・Masterを募集](https://www.kaggle.com/jobs/20017/hiring-kaggle-grandmasters-and-masters-in-china): 業務内容にコンペ参加を含む採用情報。
 - [Kaggle、新型コロナワクチン研究向けデータセット・コードを無償公開](https://prtimes.jp/main/html/rd/p/000000406.000004374.html): ワクチン研究開発を促す目的の公開。Kaggle 関連プレスリリースの増加を示す一例。
+- [「Kaggle Days」公式オンラインショップ開設](https://kaggle-days-shop.myshopify.com/): マグカップや T シャツなどのグッズを販売。
+- [KaggleがAutoMLでスパムアカウントを検知した話](https://cloud.google.com/blog/products/ai-machine-learning/how-kaggle-solved-a-spam-problem-using-automl): 自然言語処理 API を活用し 8 日間でデプロイまで展開した事例。

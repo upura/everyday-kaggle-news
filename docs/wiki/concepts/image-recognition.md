@@ -156,6 +156,11 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [CVPR論文読み会資料（別回、前半）](https://takmin.hatenablog.com/entry/2020/07/05/000451): 後編は別日程で予定された論文読み会資料。
 - [画像データ水増し手法まとめ記事（TensorFlow実装）](https://app.wandb.ai/authors/tfaugmentation/reports/Modern-Data-Augmentation-Techniques-for-Computer-Vision--VmlldzoxODA3NTQ): 検証結果も掲載するデータ拡張手法の紹介。
 - [DETR（Transformerによる物体検出）の紹介記事](https://blog.seishin55.com/entry/2020/05/30/175811): モデル・損失関数・実験結果の概要をまとめた記事。
+- [画像認識のための深層学習サーベイ資料](https://www.slideshare.net/ren4yu/ss-234439652): モデルアーキテクチャの歴史や高速化手法を紹介。
+- [「YOTO」を不均衡データ画像分類に適用する記事](https://st1990.hatenablog.com/entry/2020/05/04/012738): Class Balanced Loss に YOTO（ICLR2020, Google）を適用した検証。
+- [「ReZero is All You Need」論文の概説記事](https://st1990.hatenablog.com/entry/2020/03/29/144230): CIFAR-10 で効果を確認した検証も掲載。
+- [半教師あり学習・弱教師あり学習のサーベイ資料](https://www.slideshare.net/ren4yu/semi-supervised-weaklysupervised-unsupervised-and-active-learning): 画像処理の事例を中心に手法をまとめた資料。
+- [画像タスクの精度向上手法解説動画（U-Net・HRNetなど）](https://www.youtube.com/watch?v=05qlCP-xL9Y&feature=youtu.be): 複数解像度を扱う CNN アーキテクチャの紹介。
 
 ## 関連概念
 

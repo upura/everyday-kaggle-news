@@ -50,6 +50,9 @@
 - [サイバーエージェントのデータ分析コンペ開催知見の発表資料](https://speakerdeck.com/ykaneko1992/bizinesu-falseren-de-nixi-siikonpekai-cui-falseyarifang): 開催で得られた知見とビジネス価値を紹介。Mobility Technologies・ヤフーの Master も登壇。
 - [atmaCup主催者nyk510さんによるコンペ設計の取り組み紹介](https://speakerdeck.com/nyk510/onsaitodetakonpefalsemei-li-guan-waruquan-yuan-gale-siikonpeshe-ji-falsetamefalsequ-rizu-mi): 課題設計に加え初心者向けサポートにも言及。
 - [プッシュ通知開封率予測を題材にした社内コンペの紹介記事](https://tech.connehito.com/entry/2020/08/27/165753): 自社データを使う社内コンペの取り組みやすさを紹介。
+- [Nishikaによる「データサイエンスコンペ」紹介記事（運営視点）](https://note.com/nishika_inc/n/n473a6c4a6a07): コンペのメリットと情報保護上の懸念を運営目線で解説。
+- [atmaCup主催者nyk510さんのPodcast出演](https://shirokane-kougyou.fm/episode/27): 開催の経緯や主催者としての思いを語る回。
+- [アイリス株式会社が機械学習コンペ環境構築コードをOSS公開](https://github.com/AillisInc/ml_competition_platform): 管理者が評価指標を定義し参加者がファイル投稿できる枠組み。
 - [Kaggle「PANDA Challenge」の成果を報告するNature Medicine掲載論文](https://www.wouterbulten.nl/blog/tech/panda-challenge/): 課題の背景やコンペ上位解法を紹介する論文。
 - [SIGNATE「熱帯低気圧（台風等）検出アルゴリズム作成」コンペのまとめ論文](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-021-00459-y): 海洋研究開発機構主催コンペを通じた性能向上を報告する論文。
 

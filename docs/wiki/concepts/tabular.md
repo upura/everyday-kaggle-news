@@ -125,6 +125,20 @@
 - [TabNetのPyTorch実装講演](https://www.youtube.com/watch?v=ysBaZO8YmX8&feature=youtu.be): pip install で導入できる、sklearn 風インターフェースの実装解説。
 - [「Coding habits for data scientists」要点紹介記事](https://zerebom.hatenablog.com/entry/2020/06/11/185321): Notebook からスクリプトへの移行など実践的なテクニックを紹介。
 - [XGBoostの交差検証でモデルを取り出す方法の紹介記事](https://blog.amedama.jp/entry/xgboost-cv-model): LightGBM 版の関連記事も既に公開。
+- [PyTorchでテーブルデータのニューラルネットワークを組むチュートリアル](https://towardsdatascience.com/deep-learning-using-pytorch-for-tabular-data-c68017d8b480?gi=7edc040289e5): 諸設定を改変して再利用できるソースコードつき。
+- [PyCaretの使いどころを語るポッドキャスト](https://shirokane-kougyou.fm/episode/25): 実務・個人での自動化系ツール活用経験から探る使い所。
+- [CatBoostの推論の仕組みを解説する記事](https://note.com/y_katayama/n/n30feff33acd9): ソースコードを追いながら推論過程を紐解く記事。
+- [NGBoostの解説記事](https://nykergoto.hatenablog.jp/entry/2020/05/01/NGBoost%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B): 最適化の流れの解説と独自実装の公開。
+- [PyCaretの紹介記事](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46?gi=6547135c721c): 特徴量エンジニアリングやアルゴリズム比較など AutoML 的機能を提供。
+- [Gauss rank transformationをRAPIDSで高速化する解説記事](https://medium.com/rapids-ai/gauss-rank-transformation-is-100x-faster-with-rapids-and-cupy-7c947e3397da): cuDF・CuPy を用いた GPU 高速化の手法を紹介。
+- [不均衡データへのDNN適用事例（失敗例含む）](https://devblog.thebase.in/entry/2020/02/29/110000): コードと共に分かりやすく解説する記事。
+- [「Advanced kNN」の提案論文](https://arxiv.org/abs/2003.00415): 学習データにないクラスを "unknown" と判定する機構を備えた kNN の拡張。
+- [アンサンブル技法まとめ記事（Linear Quiz Blending / Netflix Blending）](https://upura.hatenablog.com/entry/2020/03/01/190400): 数式を交えたアンサンブル手法の解説。
+- [CatBoostのテキストカラム指定機能を試した記事](https://upura.hatenablog.com/entry/2020/03/03/195929): 生の文章カラムを指定してベンチマークを手早く作る方法。
+- [Pseudo Labelingを拡張したGoogleの論文の解説記事](https://upura.hatenablog.com/entry/2020/02/18/180500): 予測 test データを追加する際にノイズを加え頑健性を高める工夫を紹介。
+- [テーブルデータへのGAN適用に関する記事](https://towardsdatascience.com/review-of-gans-for-tabular-data-a30a2199342?gi=3b347c068100): 2 つのライブラリを検証しコードも公開。
+- [Pandasの主要操作をまとめた記事](https://naotaka1128.hatenadiary.jp/entry/pandas-start-guide): 網羅性の高い操作一覧で抜け漏れ確認に使える記事。
+- [AutoML「AutoGluon-Tabular」をTitanicデータで試す記事](https://upura.hatenablog.com/entry/2020/03/18/190300): 前処理不要でファイルパスを渡すだけの手軽さを紹介。
 
 ## 関連概念
 

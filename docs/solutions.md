@@ -1307,6 +1307,7 @@
 <span class="badge badge-year">2019</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [2019 Data Science Bowl 17位解法（QWK直接最適化）](https://zenn.dev/jackthekaggler/articles/cf988ca341e34ed83034): 評価指標「QWK」を勾配ブースティング系アルゴリズムで直接最適化する取り組み。
+- [2019 Data Science Bowl 反省会資料一覧](https://umi-log.com/kaggle-dsb-mtg/): 2 位解法・10 位の shake up 知見・カスタムロスによる評価指標最適化など多数の発表メモ。
 
 </div>
 
@@ -1420,6 +1421,25 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/google-quest-challenge">Google QUEST Q&amp;A Labeling</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Google QUEST Q&amp;A Labeling 2nd place solutionのアイディア検証記事](https://towardsdatascience.com/siamese-and-dual-bert-for-multi-text-classification-c6552d435533?gi=e70f3ef32145): text1・text2 を別々の BERT に入れてから結合する手法の検証。
+- [Google QUEST Q&amp;A Labeling 上位解法まとめ](https://guchio3.hatenablog.com/entry/2020/02/27/100505): コンペ概要と近年の NLP コンペで標準的な基礎知識も解説。
+- [Google QUEST Q&amp;A Labeling 1位チームへの公式インタビュー](https://medium.com/kaggle-blog/the-3-ingredients-to-our-success-winners-dish-on-their-solution-to-googles-quest-q-a-labeling-c1a63014b88): 言語モデルの事前学習・Pseudo-labeling・後処理の要点を解説。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/widsdatathon2020">WiDS Datathon 2020</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [WiDS Datathon 2020 解法まとめ](https://upura.hatenablog.com/entry/2020/02/29/134230): 検査データから 1 週間後の生死を予測するシンプルなテーブルコンペの解法。
+- [WiDS Datathon 2020 14位解法](https://upura.hatenablog.com/entry/2020/02/25/183400): メダルなしだが Discussion で上位解法も共有された取り組み。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="signate">
 <h3>SIGNATE</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">SIGNATE</span>
@@ -1441,6 +1461,7 @@
 - [SIGNATE Student Cup 2023 の感想](https://qiita.com/haru1385/items/d947a1ba45720e357b1f): 前処理・特徴量・モデルを紹介する 25 位解法。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE Student Cup 2020 2位解法](https://www.slideshare.net/HogeBona/student-cup-2020-2nd-solution-lt): Twitter で公開された情報は togetter にまとめて掲載。
+- [SIGNATE「国立国会図書館の画像データレイアウト認識」1位解法](https://www.slideshare.net/kojiasami/signate-1st-place-solution-229868677): CNN のアーキテクチャを含むモデル構造とハイパーパラメータをまとめた解法。
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)
 - [【２位解法】SIGNATE開催CDLEハッカソン2020予測性能部門 「画像データに基づく気象予測」の振り返り。](https://oregin-ai.hatenablog.com/entry/2020/09/06/175415)
 - [SIGNATE「医学論文の自動仕分けチャレンジ」参加録](https://zenn.dev/kuboko/articles/signate-srwspsg-pytorch): BERT を用いた取り組みを紹介する参加録。
@@ -1460,6 +1481,8 @@
 - [AI×商標：イメージサーチコンペティション 2nd place solution](https://speakerdeck.com/anyai/nishika-aixshang-biao-imezisatikonpeteisiyon-2nd-place-solution)
 - [Nishika「AI×商標：イメージサーチコンペティション（類似商標画像の検出）」優勝解法](https://techblog.yahoo.co.jp/entry/2022061330306280/): 参加から優勝に至るまでの取り組みを時系列で紹介。
 - [Nishika 日本酒銘柄画像検索コンペ 7位解法（備忘録）](https://zenn.dev/ubex/articles/0a49c6e912220f)
+- [Nishika「財務・非財務情報を活用した株主価値予測」2位解法](https://upura.hatenablog.com/entry/2020/05/28/220300): アンサンブル手法「Netflix blending」の解説つき。ソースコードも GitHub で公開。
+- [Nishika「AIは芥川龍之介を見分けられるのか？」2位解法](https://www.m3tech.blog/entry/2020/03/12/110000): 「gokart」「redshells」を活用したモデルパイプラインも紹介。
 - [Nishika 中古マンション価格予測コンペ 2023夏の部 3位解法](https://qiita.com/9en310/items/1ef8c957fd43b850162b)
 - [材料コンペ（Nishika）の2位解法](https://qiita.com/mi-212/items/694124649d2848a6b559)
 

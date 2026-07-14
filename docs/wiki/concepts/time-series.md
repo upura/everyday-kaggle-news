@@ -42,6 +42,9 @@
 - [「PyTorch Forecasting」の紹介記事](https://towardsdatascience.com/introducing-pytorch-forecasting-64de99b9ef46?gi=7393708a2fb): 最先端の時系列モデルを手軽に利用できるライブラリの紹介。
 - [複数の時系列モデルを統一的に扱うライブラリ「Darts」の紹介記事](https://blog.ikedaosushi.com/entry/2020/08/25/003557): アルゴリズムに加え検証・可視化用の関数も用意。
 - [時系列予測に使えるPythonライブラリまとめ記事](http://zakopilo.hatenablog.jp/entry/2020/07/19/173851): Prophet・PyFlux・Pyro・PyTorch・LightGBM の使い方を紹介。
+- [Microsoftによる時系列予測ベストプラクティスリポジトリ](https://github.com/microsoft/forecasting): ARIMA・線形回帰・LightGBM・CNN などをまとめた GitHub リポジトリ。
+- [TimeSeriesSplitをカラム指定でソートするコードの公開](https://blog.amedama.jp/entry/time-series-cv): 痒いところに手が届く改良を紹介する記事。
+- [時系列データからの特徴抽出の考え方・ツール紹介記事（DataRobot）](https://blog.datarobot.com/jp/use_manufacturing_sensor_data_for_machine_learning): 転職した Kaggle Grandmaster の Senkin さんも登場する記事。
 
 ## 関連概念
 

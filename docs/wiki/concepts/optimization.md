@@ -35,6 +35,10 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [最適化アルゴリズム「AdaBelief」の解説記事（NeurIPS 2020）](https://qiita.com/z-lai/items/b4d02f1050e99c59ad37): Adam と比較しながら特徴を紹介する記事。
 - [Optuna v2.2.0リリース（TPE改善）](https://medium.com/optuna/multivariate-tpe-makes-optuna-even-more-powerful-63c4bfbaebe2): デフォルト探索アルゴリズム TPE の改善機能を実装。
 - [Optunaの実装を丁寧に解説する記事（Minituna）](https://cyberagent.ai/optuna-from-scratch): 簡略化版「Minituna」で各モジュールの役割を分かりやすく解説。
+- [Optuna v1.4.0リリース](https://github.com/optuna/optuna/releases/tag/v1.4.0): 多目的最適化や MLFlow・AllenNLP とのインテグレーション機能を追加。
+- [Optuna v1.3.0リリース](https://github.com/optuna/optuna/releases/tag/v1.3.0): ハイパーパラメータの重要度を可視化する機能などを追加。
+- [OptunaでQWKを最適化する記事](https://blog.amedama.jp/entry/optuna-qwk-optimization): 連続値を離散値に変換する閾値の探索を紹介。
+- [OptunaのHyperband実装解説記事](https://medium.com/optuna/optuna-supports-hyperband-93b0cae1a137): v1.1.0 で導入された探索アルゴリズムの実装方法と実験結果を報告。
 
 ## 関連概念
 

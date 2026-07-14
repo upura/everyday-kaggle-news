@@ -150,3 +150,10 @@
 - [「Chai Time Data Science Show」最新作（Kaggle運営陣3名インタビュー）](https://www.youtube.com/watch?v=-eU2z8xWpEs&feature=youtu.be): Sanyam Bhutani さんによる Kaggler インタビューシリーズの一本。
 - [2011〜2020年のKaggle Competitionsランキング順位遷移動画](https://www.youtube.com/watch?v=guLZ_2WcEqM&feature=youtu.be): bestfitting さんの登場など複数のターニングポイントを確認できる動画。
 - [Abhishek Thakurさんインタビュー動画](https://www.youtube.com/watch?v=zgC8fjF0Now&feature=youtu.be): 自主出版書籍や Kaggle への取り組み方を語るインタビュー。
+- [「kagglerを訪ねて三千里」第3弾（smlyさん）](https://www.youtube.com/watch?v=BSvP60BzoOc&feature=youtu.be): 日本人 Kaggler インタビュー企画の第 3 弾。
+- [H2O.ai Parul Pandeyさん「母の日」インタビュー](https://medium.com/@kaggleteam/a-career-360-during-maternity-leave-a-mothers-day-interview-with-kaggler-paurl-pandey-497333be8a60): 子育てと仕事の両立、女性向け ML コミュニティ立ち上げの経緯を語る。
+- [Kaggle MasterのterekaさんがYouTubeチャンネル開設](https://www.youtube.com/watch?v=5zrWsxaIRPg&feature=youtu.be): 初回動画は Bengali.AI Handwritten Grapheme Classification の解法解説。
+- [Bengali.AIコンペ1位の学生Kaggler公式インタビュー](https://medium.com/kaggle-blog/top-marks-for-student-kaggler-in-bengali-ai-a-winners-interview-with-linsho-kaku-dd321b324c74): 東工大修士課程生による取り組みと所見を紹介。
+- [4カテゴリ中3部門Grandmaster Dieterさんインタビュー（アイコンとのギャップが話題に）](https://www.youtube.com/watch?v=Q0_Xajic_9U&feature=youtu.be): コミュニティで話題となったインタビュー。
+- [『Kaggleで勝つデータ分析の技術』著者・門脇さん（threecourse）インタビュー](https://trainz.jp/media/89/): 執筆の背景や反響を語るインタビュー。
+- [Kaggle運営Walterさん（Inversion）インタビュー動画](https://www.youtube.com/watch?v=OoB_LQpgDCk&feature=youtu.be): 入社前の話も含む「中の人」への貴重な質疑。

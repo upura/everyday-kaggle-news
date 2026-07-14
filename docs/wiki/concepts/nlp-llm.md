@@ -213,6 +213,19 @@
 - [spaCy v2.3.0リリース（日本語モデル追加）](https://explosion.ai/blog/spacy-v2-3/): 日本語向けチュートリアルも公開。
 - [自然言語処理タスク向けGoogle Colabリンク集「Super Duper NLP Repo」](https://medium.com/towards-artificial-intelligence/nlp-colab-repository-65136d3e45da): 41 ファイルの新規追加を含む紹介記事。
 - [東大松尾研「Deep Learning基礎講座」招待講演資料（自然言語処理領域）](https://www.slideshare.net/HitomiYanaka/2020deep-learning-9-236561673): 深層学習前後の NLP 領域を概観し近年の研究課題までまとめた資料。
+- [Yann LeCunさんによるself-supervised learning講演の要約記事（AAAI 2020）](https://bdtechtalks.com/2020/03/23/yann-lecun-self-supervised-learning/): BERT に代表される Transformers の成果と、深層学習研究が抱える課題を議論。
+- [NLTKによる英語テキストの文分割・単語分割の解説記事](https://eieito.hatenablog.com/entry/2020/05/27/100000): スペース区切りでは対応できないケースを含めた詳細な解析。
+- [BERT応用勉強会の聴講メモ](https://upura.hatenablog.com/entry/2020/05/15/211833): 5 件の興味深い発表内容をまとめた記事。アーカイブ動画も公開。
+- [NLPにおけるデータ水増し手法のまとめ記事](https://amitness.com/2020/05/data-augmentation-for-nlp/): 語彙変換・翻訳・表層・交叉などを図示。
+- [BERT応用勉強会の開催告知](https://nlpaper-challenge.connpass.com/event/174957/?utm_campaign=event_participate_to_follower&utm_medium=twitter&utm_source=notifications): ドメイン活用事例やフロントエンド利用例を LT 形式で発表。
+- [Transformers v2.9.0リリース](https://github.com/huggingface/transformers/releases/tag/v2.9.0): PyTorch・TensorFlow 2 を同一インターフェースで扱う Trainer クラスが登場。
+- [Quoraの重複質問特定を題材にした論文](https://arxiv.org/abs/2004.11694): tf-idf ベクトル化 + XGBoost・深層学習など Kaggle でも馴染み深い手法を検証。
+- [文書分類コンペ5つを題材にしたTipsまとめ記事](https://neptune.ai/blog/text-classification-tips-and-tricks-kaggle-competitions): 前処理・モデリング・アンサンブルの観点別に整理。
+- [BERT質問応答モデルのデータ前処理解説動画](https://www.youtube.com/watch?v=6a6L_9USZxg&feature=youtu.be): RoBERTa などへの切り替え方法も紹介。
+- [wikipediaの文化差異を捉えるBERT fine-tuning論文](https://arxiv.org/abs/2004.04938): 逆翻訳によるデータ拡張を用いた手法の紹介。
+- [日本語Wikipedia・青空文庫で事前学習されたBERTモデル公開（NICT）](https://alaginrc.nict.go.jp/nict-bert/index.html): 情報通信研究機構による日本語 BERT モデルの公開。
+- [BERTを中心にした自然言語処理モデル解説Podcast](https://anchor.fm/pod-de-engineer/episodes/BERT-with-agatan-ebijrr/a-a1n58q9): 音声のみで端的に BERT を紹介する分かりやすい構成。
+- [日本語word2vecモデルの評価記事](https://blog.hoxo-m.com/entry/2020/02/20/090000): 複数の学習済みモデルを日本語データセットで比較評価。
 
 ## 関連概念
 

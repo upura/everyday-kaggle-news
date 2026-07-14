@@ -42,6 +42,12 @@
 - ["adversarial validation"に関する2016年の記事](https://www.kdnuggets.com/2016/10/adversarial-validation-explained.html): Kaggler の間で言葉の定義や使い方が議論された記事。
 - [順序分類タスクの評価指標を提案する論文の解説（ACL2020読み会）](https://speakerdeck.com/diracdiego/20200906-acl2020-metric-for-ordinal-classification-yoheikikuta): 評価指標が満たすべき性質の定義と実験的検証を紹介。
 - [Kaggle「COVID19 Global Forecasting」から派生した検証研究](https://github.com/h2oai/covid19-backtesting-publication): 時系列モデルの予測誤差が感染拡大の段階に応じて異なる点を確認し、段階を問わない検証の重要性を強調。
+- [Calibration勉強会のまとめ記事](https://yukoishizaki.hatenablog.com/entry/2020/05/24/145155): 分類モデルの出力値を補正する「Calibration」を扱う勉強会のまとめ。
+- [COVID-19画像データセットの"Leakage"を議論する記事（DataRobot）](https://blog.datarobot.com/identifying-leakage-in-computer-vision-on-medical-images): 撮影状況由来の特徴が判別に使われている点を可視化して指摘。
+- [Confident Learningを実践する記事（Reutersデータセット）](https://aotamasaki.hatenablog.com/entry/reuter_with_confident_learning): 誤ラベル検知後に擬似ラベルを付与するアプローチを試行。
+- [「M4」コンペ参加者による論文（データリーク議論）](https://arxiv.org/abs/2003.12796): コンペ成功要因の一つとしてデータリークを指摘し、コンペ設計への提言も含む。
+- [Confident Learningの解説記事（ICML2020）](https://aotamasaki.hatenablog.com/entry/confident_learning): データセット内の誤ラベルを検知する汎用的な枠組みの提案。pip install 対応。
+- [評価指標「MCC」の解説記事](https://guchio3.hatenablog.com/entry/2020/03/13/222815): 他の指標との違いや導出を丁寧にまとめた記事。
 
 ## 関連概念
 
