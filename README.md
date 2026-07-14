@@ -13,11 +13,11 @@
 
 直近の更新の抜粋です（全履歴は[操作ログ](./docs/wiki/log.md)）。
 
+- 2026-07-14: [画像認識コンペ](./docs/wiki/concepts/image-recognition.md)・[自然言語処理コンペ](./docs/wiki/concepts/nlp-llm.md)を実践・定跡と技術動向に分割し、[画像認識・視覚モデルの技術動向](./docs/wiki/concepts/image-recognition-trends.md)・[LLM・自然言語処理の技術動向](./docs/wiki/concepts/nlp-llm-trends.md)を新設
 - 2026-07-14: 概念ページ「学会コンペ」を廃止し、解法・参加録は[コンペ解法](./docs/solutions.md)へ、残る概説は[コンペプラットフォーム](./docs/platform.md)の新設セクションへ統合
 - 2026-07-14: Markdown テーブルとして誤レンダリングされていたリンク 4 件（パイプ文字未エスケープ）を修正
 - 2026-07-14: Weekly Kaggle News #1〜#157 のバックフィルが完了。これで全号（#1〜#343）の反映が完了
 - 2026-07-12: Weekly Kaggle News #285〜#302 を反映
-- 2026-07-11: 目次をトップページに統合。サイト内検索・[概念マップ](./docs/concept-map.md)・共通ナビゲーションを追加
 
 ## 目次
 
@@ -43,7 +43,9 @@
 - [コンペ解法](./docs/solutions.md): コンペ別の解法・参加録（年・データ種別・プラットフォームで絞り込み可）
 - [表データコンペ](./docs/wiki/concepts/tabular.md): GBDT・特徴量エンジニアリング・Polars・表向け NN
 - [画像認識コンペ](./docs/wiki/concepts/image-recognition.md): バックボーン選択・公開モデルの活用と高速化
+- [画像認識・視覚モデルの技術動向](./docs/wiki/concepts/image-recognition-trends.md): Vision Transformer・CLIP・自己教師あり学習と国際会議サーベイ
 - [自然言語処理コンペ](./docs/wiki/concepts/nlp-llm.md): BERT 系の定跡と LLM 活用・推論高速化
+- [LLM・自然言語処理の技術動向](./docs/wiki/concepts/nlp-llm-trends.md): モデル公開・日本語リソース・ライブラリ・研究サーベイ
 - [時系列予測コンペ](./docs/wiki/concepts/time-series.md): 時間分割バリデーション・損失設計・時系列基盤モデル
 - [音声コンペ](./docs/wiki/concepts/audio.md): メルスペクトログラム化と画像モデル適用・異常音検知
 - [グラフ](./docs/wiki/concepts/graph.md): グラフ構造データの学習
