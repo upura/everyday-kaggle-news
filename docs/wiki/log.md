@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-14 restructure: 監査で判明した「資料 15 件超・見出しなし」の概念ページ 13 本（image-recognition・tabular・pytorch・environment・mindset・competition-hosting・evaluation-validation・time-series・agent-competition・optimization・recommendation・audio・experiment-management は既存見出しを維持）に `###` 小見出しを追加して整理（nlp-llm.md は別コミットで先行対応済み）。全て機械的な並べ替えのみで、既存の資料エントリの文言・URL・注釈は一切変更していない（各ページで整理前後の項目数を比較し一致を確認）。nlp-llm.md（212件→6見出し）と image-recognition.md（144件→7見出し）は依然として資料件数が多く、将来的に複数ページへの分割も検討の余地がある
+
 - 2026-07-14 lint: 監査で見つかった重複を解消。solutions.md の「RecSys Challenge 2020」div を「RecSys Challenge」div に統合。ai-agent・audio・experiment-management・agent-competition・optimization・mindset の各概念ページに残っていた solutions.md との重複エントリ計 6 件を削除（解法・参加録は solutions.md に一元化）。competition-hosting.md の開催論文と重複していた G2Net の論文リンクを solutions.md 側から削除。`tools/verify_wiki.py` に検査を3件追加: solutions.md 内の競技名(h3)重複検出、solutions.md と他ページの URL 重複検出、リスト項目内の未エスケープパイプ文字検出（kramdown がテーブルと誤解釈する問題の再発防止）
 
 - 2026-07-14 restructure: 概念ページ「学会コンペ」を廃止。解法・参加録 23 件は `docs/solutions.md` へ移設（既存の AI王 div に 4 件追記、新設した KDD Cup / HuMob Challenge / 2COOOL の各 div と既存の汎用「学会コンペ」div に集約）、コンペ開催論文・開催報告 3 件は [コンペ開催](./concepts/competition-hosting.md) へ、残る概説・プロジェクトページ・開催告知 11 件は [コンペプラットフォーム](../platform.md) の新設セクション「学会併設コンペ」へ統合。重複していたエントリ 1 件は除去。README.md の目次・関連概念のリンクを更新
