@@ -7,9 +7,11 @@
 ## 押さえどころ
 
 - 学習と検証の分割は必ず時間で切る。未来の情報が特徴量に混入する形のリークが最頻出の失敗（[性能評価と検証](./evaluation-validation.md)も参照）
+- 交差検証の設計に唯一解はなく、Combinatorial Purged Cross-Validation など複数の手法が今も Kaggler の間で議論され続けている（[時系列データの検証用データセット構築方法を議論する記事](https://zenn.dev/ymd/articles/fd08fb46bc868c)）
 - 評価指標（順位相関など）と損失関数のズレは、torchsort などの微分可能なソートを使ってカスタム損失で直接最適化できる（[金融時系列予測における評価指標に応じた損失関数のデザイン](https://zenn.dev/tonic/articles/70cc6c46408aeb)）
 - 時期によって特徴量と目的変数の関係が変わる問題には、分割の「方向の一貫性」を最大化する WarpGBM / Directional Era-Splitting のようなアプローチがある
-- ゼロショットで使える時系列基盤モデル（Chronos-Bolt など）も選択肢になってきた
+- 2020〜21 年頃は Darts・PyTorch Forecasting・Prophet などライブラリの使い方紹介が中心だったが、2024〜25 年にはゼロショットで使える時系列基盤モデル（Chronos-Bolt、TimesFM など）が主要な話題になっている。少パラメータのモデルが大規模基盤モデルの性能を上回る報告もあり、基盤モデルへの過信には注意が必要（[パラメータ4個で710M超えのFoundation Modelに勝った時系列予測手法FLAIRの全貌](https://zenn.dev/t_honda/articles/flair-time-series-forecasting)）
+- Transformer の時系列予測への有効性は、賛否両論の論文が繰り返し引用される決着していない論点
 
 ## 資料
 

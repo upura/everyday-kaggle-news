@@ -6,11 +6,12 @@ Claude Code などの LLM エージェントを「道具」としてコンペ作
 
 ## 押さえどころ
 
-- エージェント任せでも「上位 30% 程度」のモデルは作れるが、メダル圏には届かない。人間の役割はデータ整備、問題定義、モデル改善へシフトする（[Claude Code と Kaggle をやったら何も考えずに上位30%になれた話](https://zenn.dev/genda_jp/articles/20250909_kaggle_with_claude_code)）
+- 2023 年時点では ChatGPT の Code Interpreter でコミュニティコンペに挑んで「惨敗」した事例が報告されていたが、2025 年には Claude Code 主体で「上位 30% 程度」まで到達する事例が出ており、エージェント支援の実用性は短期間で急速に向上している（[データコンペでCode Interpreter片手に戦ってみたけど惨敗でした](https://zenn.dev/karaage0703/articles/1fa0a14d4cdd63)、[Claude Code と Kaggle をやったら何も考えずに上位30%になれた話](https://zenn.dev/genda_jp/articles/20250909_kaggle_with_claude_code)）
+- とはいえメダル圏にはまだ届かず、人間の役割はデータ整備、問題定義、モデル改善へシフトする
 - 2025 年時点の年次レポートでも、完全自律のエージェントが上位入賞した事例はまだ報告されていない（[The State of Machine Learning Competitions 2025](https://mlcontests.com/state-of-machine-learning-competitions-2025/)）。一方、人間とエージェントの協働による金メダル事例は国内でも複数出ている
-- 過去コンペの上位解法を調査してレポートさせる使い方は、コンペ序盤のサーベイを大きく効率化する
-- エージェントと協働するには、実験の再現性と記録が前提になる（[実験管理](./experiment-management.md)）
-- ノートブックのクラッシュを集めたベンチマーク（JunoBench）など、エージェントの評価基盤も整備されつつある
+- Claude Code のほか Cursor・Manus AI・Cline・Devin など複数の AI コーディングツールが使われ始めており、用途に応じた比較検証が進んでいる
+- 過去コンペの上位解法を調査してレポートさせる使い方は、コンペ序盤のサーベイを大きく効率化する。skills・agents の構成をコミュニティで共有・比較する動きも出てきている
+- エージェントと協働するには、実験の再現性と記録が前提になる（[実験管理](./experiment-management.md)）。ノートブックのクラッシュを集めたベンチマーク（JunoBench）や MLE-Bench など、エージェントの評価基盤も整備されつつある
 
 ## 資料
 

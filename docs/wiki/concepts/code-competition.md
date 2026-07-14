@@ -6,7 +6,8 @@
 ## 押さえどころ
 
 - 提出ノートブックには実行時間の制限、インターネット遮断、依存ライブラリの事前準備といった制約があり、学習と推論のコードを分離した作業フローの設計が要になる
-- ローカル開発から Kaggle への提出を GitHub Actions で自動化する「KaggleOps」的なアプローチで、手作業のアップロードを排除できる
+- ローカル開発の生産性を上げる工夫が定番化している。VS Code や Kaggle CLI でブラウザ操作を減らし実装コードを Dataset として管理する方法（[効率的なコードコンペティションの作業フロー](https://ho.lc/blog/kaggle-code-submission)）や、GitHub Actions で学習済みモデル・推論コードの提出まで自動化する「KaggleOps」的なアプローチ（[code competition も楽したい KaggleOps](https://osushinekotan.hatenablog.com/entry/2025/12/06/072458)）で、手作業のアップロードを排除できる
+- メモリ・実行時間が厳しいコンペでは、C++ など Python 以外の言語を部分的に組み込む工夫も有効（[Riiid Answer Correctness Prediction でのC++メモリ節約記事](https://takkyu.net/ja/riiid-cpp/)）
 - LLM 系のコードコンペでは、制限時間に収めるために推論高速化（vLLM や量子化）がほぼ必須になる（[自然言語処理コンペ](./nlp-llm.md)）
 - 実験の再現性や管理の仕組みとセットで整備すると効果が大きい（[実験管理](./experiment-management.md)）
 
