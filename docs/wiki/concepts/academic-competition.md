@@ -46,6 +46,9 @@ KDD Cup や NeurIPS コンペなど、国際学会が主催・併設するコン
 - [自然言語処理系国際会議で2020年に開催されたコンペのまとめ](https://k141303.com/index.php/2021/05/10/nlp_shared_task_2020/): 文書分類・翻訳などのタスクを横断したまとめ記事。
 - [「森羅2021-ML: 多言語分類タスク」開催ページ](http://shinra-project.info/shinra2021ml/?lang=en): 30 言語の Wikipedia 記事を約 220 の固有表現カテゴリに分類するコンペ。
 - [WMT2020 Shared Task 機械翻訳コンペ参加報告資料](https://speakerdeck.com/butsugiri/ji-jie-fan-yi-konpeteisiyoncan-jia-bao-gao): 性能向上のための手法の組み合わせやリソースの重要性を語る資料。
+- [「KDDCUP 2020 ML Track2」4位解法（Adversarial Attack）](https://qiita.com/keiichi_ochiai/items/64122c8c4bbdb548b32d): 深層学習モデルを誤認識させる攻撃を題材にした解法。
+- [「CoNLL 2020 Shared Task」「SemEval 2020」複数部門1位の報告記事（日立）](https://www.hitachi.co.jp/New/cnews/month/2020/12/1202.html): 意味表現解析・意味理解を題材にしたコンペでの成果報告。
+- [NTTドコモ研究開発部署による「KDD Cup」への取り組み紹介記事](https://qiita.com/dcm_chida/items/5da1530ab69961c2c828): コンペ用 AWS 開発環境の運用ノウハウも掲載。
 
 ## 関連概念
 

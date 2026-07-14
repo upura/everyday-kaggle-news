@@ -30,6 +30,11 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [最適化手法「SAM」の性能変化を検証する記事](https://dajiro.com/entry/2021/03/14/124435): 「Sharpness-Aware Minimization」の効果をソースコード付きで検証。
 - [PyTorch Lightningで「SAM」を利用する方法の紹介記事](https://chizuchizu.com/blog/sam_lightning/): 画像分類タスクで最高性能を示し話題となった手法の実装方法。
 - [Optuna v2.4.0リリース](https://github.com/optuna/optuna/releases/tag/v2.4.0): Python 3.9 サポートを開始したリリース。
+- [Optunaチュートリアルページ刷新](https://optuna.readthedocs.io/en/latest/tutorial/index.html): Python・Jupyter Notebook 形式でダウンロードして実行できる公式チュートリアル。
+- [Optuna v2.3.0リリース](https://github.com/optuna/optuna/releases/tag/v2.3.0): LightGBMTunerCV からの個別モデル取得や多目的 TPE sampler などを追加。
+- [最適化アルゴリズム「AdaBelief」の解説記事（NeurIPS 2020）](https://qiita.com/z-lai/items/b4d02f1050e99c59ad37): Adam と比較しながら特徴を紹介する記事。
+- [Optuna v2.2.0リリース（TPE改善）](https://medium.com/optuna/multivariate-tpe-makes-optuna-even-more-powerful-63c4bfbaebe2): デフォルト探索アルゴリズム TPE の改善機能を実装。
+- [Optunaの実装を丁寧に解説する記事（Minituna）](https://cyberagent.ai/optuna-from-scratch): 簡略化版「Minituna」で各モジュールの役割を分かりやすく解説。
 
 ## 関連概念
 

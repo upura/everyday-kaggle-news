@@ -100,6 +100,16 @@
 - [CatBoost v0.25リリース](https://github.com/catboost/catboost/releases/tag/v0.25): 特徴量重要度に基づく特徴選択機能や GPU 損失計算の変更を追加。
 - [テーブルデータへのTransformer利用方法の紹介記事（Riiid実装）](https://future-architect.github.io/articles/20210325/): Kaggle「Riiid Answer Correctness Prediction」を題材に具体的な実装を公開。
 - [Amazon製欠損値補完ライブラリ「DataWig」の紹介記事](https://zenn.dev/atfujita/articles/84e826f3b8e4f99d24cb): 深層学習を用いて欠損値を予測するライブラリの紹介。
+- [xfeatの紹介記事（Optuna連携）](https://acro-engineer.hatenablog.com/entry/2020/12/15/120000): Optuna と連携した特徴量探索など各機能の使い方をまとめた記事。
+- [TabTransformerの提案論文](https://arxiv.org/abs/2012.06678): カテゴリ変数の処理に Transformer 層を用い、勾配ブースティングに匹敵する性能を報告。
+- [TabNetの解説記事](https://zenn.dev/sinchir0/articles/9228eccebfbf579bfdf4): 論文の概説と使い方を紹介する記事。
+- [Julia言語とPythonを併用したデータ処理方法の提案記事](https://tech.mntsq.co.jp/entry/2020/12/07/154854): Pandas 相当の Julia ライブラリ「DataFrames.jl」などを紹介。
+- [GPUデータ処理ライブラリ「cuDF」の紹介記事](https://acro-engineer.hatenablog.com/entry/2020/12/10/120000): Pandas との違いや注意点を具体的なコードと共に紹介。
+- [SageMaker上でcuDF・cuMLを用いた前処理記事](https://aws.amazon.com/jp/blogs/news/rapids-on-amazon-sagemaker-processing/): 必要な場合のみ GPU を利用する計算資源の使い分けを紹介。
+- [探索的データ分析（EDA）用Pythonライブラリ4選の紹介記事](https://towardsdatascience.com/4-libraries-that-can-perform-eda-in-one-line-of-python-code-b13938a06ae?gi=e0adfce1f1a0): 簡単な使い方と実行結果を GIF で紹介。
+- [CatBoostの「Uncertainty estimation」機能の紹介記事](https://towardsdatascience.com/tutorial-uncertainty-estimation-with-catboost-255805ff217e?gi=eb19c92aff1b): コードと共に使い方を解説。
+- [Pandasを効率的に学ぶための問題集](https://qiita.com/kunishou/items/bd5fad9a334f4f5be51c): データ集計・抽出・可視化など基本操作を扱う演習問題集。
+- [CRANにLightGBMが登場](https://cran.r-project.org/web/packages/lightgbm/index.html): R 言語向け LightGBM パッケージの公開。
 
 ## 関連概念
 

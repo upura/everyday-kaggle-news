@@ -139,6 +139,15 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [PyTorchによる画像分類の性能向上手法まとめ記事](https://twitter.com/omiita_atiimo/status/1362249066013335553?s=20): データ水増し手法などをソースコード付きで紹介。
 - [Metric Learning「Supervised Contrastive Learning」の解説記事](https://towardsdatascience.com/how-to-use-metric-learning-embedding-is-all-you-need-f26e01597375?gi=95f213204ad5): 通常の画像分類との違いを中心に説明し実装も公開。
 - [2010年以降のコンピュータビジョン分野の動向まとめ記事](https://gihyo.jp/dev/column/newyear/2021/computer-vision-trends): 深層学習による画像認識コンペの革新から近年の潮流までを解説。
+- [マルチモーダル深層学習「WIDeText」の記事（Airbnb）](https://medium.com/airbnb-engineering/widetext-a-multimodal-deep-learning-framework-31ce2565880c): 説明文・写真・メタデータを特徴量に活用する部屋タイプ分類の紹介。
+- [End-to-End Object Detection with Transformers（DETR）解説資料](https://speakerdeck.com/yushiku/end-to-end-object-detection-with-transformers): ECCV2020 を題材にした勉強会での発表資料。
+- [Vision Transformer (ViT) 解説教材（Notebook形式）](https://colab.research.google.com/github/hirotomusiker/schwert_colab_data_storage/blob/master/notebook/Vision_Transformer_Tutorial.ipynb): 段階的に実行しながら仕組みを学べる教材。
+- [2020年のKaggle画像分類コンペ1位解法まとめ記事](https://qiita.com/inoichan/items/140cf018d31151d2701a): 8 コンペの概要と解法を端的に紹介。
+- [自己教師あり学習の概説記事（Contrastive Learning）](https://qiita.com/omiita/items/a7429ec42e4eef4b6a4d): 画像分類を題材に手法を中心解説。
+- [Solafuneコンペ向けKerasサンプルコード](https://zenn.dev/beluga/articles/f2b7d94c0213680b3dc2): PyTorch 版に続く有志による情報共有。
+- [Vision Transformer論文・実装公開](https://arxiv.org/abs/2010.11929): Transformer 機構を画像分類タスクに適用し高性能を報告。
+- [Vision Transformerの解説記事](https://qiita.com/omiita/items/0049ade809c4817670d7): Transformer 機構の画像分類タスク適用を解説する記事。
+- [ECCV2020サーベイ資料](https://speakerdeck.com/mot_ai_tech/eccv2020-papers): 研究開発エンジニア 5 人が選定した論文 24 本を解説。
 
 ## 関連概念
 

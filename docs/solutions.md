@@ -904,6 +904,7 @@
 - [kaggle tweet コンペの闇と光 (コンペ概要と上位解法)](https://guchio3.hatenablog.com/entry/2020/06/20/115616)
 - [Tweet Sentiment Extraction Top Teams YouTube Discussion](https://youtu.be/gdhqdDwLuU0)
 - [Tweet Sentiment Extraction 反省記録](http://mathshingo.chillout.jp/blog24.html)
+- [Tweet Sentiment Extraction 5位チーム解法](https://www.slideshare.net/taguchinaoya/20201010-ds-ltguchio/): アーカイブ動画も合わせて公開された解法発表資料。
 
 </div>
 
@@ -914,6 +915,8 @@
 - [Kaggle「MoA」で4位入賞、Masterの称号を獲得しました](https://techblog.recruit.co.jp/article-236/)
 - [Mechanisms of Action (MoA) Prediction 4位解法](https://www.m3tech.blog/entry/2021/01/13/180000): Code Competition 形式での取り組み方に焦点を当てた解説記事。
 - [Mechanisms of Action (MoA) Prediction 上位4%の解法](https://towardsdatascience.com/how-we-two-beginners-placed-in-kaggle-competition-top-4-3ea508638f2d?gi=7bf9e13fedec): 初心者 2 人による、手法と心構えの両面を紹介する記事。
+- [Mechanisms of Action (MoA) Prediction 4位解法](https://recruit-tech.co.jp/blog/2020/12/23/kaggle_moa/): 検証・特徴量エンジニアリング・アンサンブルの方法を紹介。
+- [Mechanisms of Action (MoA) Prediction ニューラルネットワークによるStacking紹介記事](https://tawara.hatenablog.com/entry/2020/12/16/132415): 最終的に最上位相当のスコアを達成した手法の紹介。
 
 </div>
 
@@ -974,6 +977,8 @@
 - [「#10 [初心者歓迎!] atmaCup」振り返り会 3位解法](https://speakerdeck.com/calpis10000/atmacup-number-10-zhen-rifan-rihui-3rd-place-solution): 動画も合わせて公開された振り返り会の発表資料。
 - [「Sansan × atmaCup #12」開催報告](https://buildersbox.corp-sansan.com/entry/2021/12/18/110000): コンペの概要や上位解法を紹介する主催者記事。
 - [「#12 Sansan × atmaCup」9位参加録](https://caddi.tech/archives/2866): 特徴量生成や後処理に利用したライブラリを紹介。
+- [「Sansan × atmaCup #6」開催報告記事](https://atma.hatenablog.com/entry/2020/11/26/183059): 振り返り会の資料も合わせて掲載。
+- [「Sansan × atmaCup #6」solution発表会資料](https://speakerdeck.com/sansandsoc/sansanxatmacup-number-6-issue-summary-and-results): 優勝者・学生上位者の解法やグラフデータ分析の発表資料も公開。
 
 </div>
 
@@ -1241,6 +1246,99 @@
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
 - [OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction NVIDIAチーム解法共有](https://www.youtube.com/watch?v=sp3kZwKKYfw&feature=youtu.be): 2 位チームの ONODERA さんらによる解法発表。
+- [OpenVaccine 4位解法（コンペ未参加者向け解説）](https://towardsdatascience.com/predicting-mrna-degradation-using-gnns-and-rnns-in-the-search-for-a-covid-19-vaccine-b3070d20b2e5?gi=bc79e6b7e00a): 課題の背景も含めて端的に解説する記事。
+- [OpenVaccine 12位チームのDomain Adversarial Neural Networks解説記事](https://zenn.dev/koukyo1994/articles/8ebac81fd74d2f4f0905): 画像分類タスクでの検証結果も合わせて紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/cdp-unlocking-climate-solutions">CDP - Unlocking Climate Solutions</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [CDP - Unlocking Climate Solutions 挑戦記](https://medium.com/programming-soda/cdp-unlocking-climate-solutions-%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%99%E3%82%8Bpart4-end-4e365024ae87): 環境アンケートデータから KPI を見出すコンペへの挑戦記。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="other" data-platform="other">
+<h3>Black-Box Optimization Challenge</h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">その他</span>
+
+- [Black-Box Optimization Challenge 5位解法](https://tech.preferred.jp/ja/blog/bbo-challenge-2020/): Optuna 開発メンバーが合同参加したハイパーパラメータ最適化アルゴリズムコンペの解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression">OSIC Pulmonary Fibrosis Progression</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [OSIC Pulmonary Fibrosis Progression 2位解法](https://krksan.com/blogs/article/45): コンペ中に考えたことを具体的に綴った解法記事。賞金受領に関する記事も公開。
+- [OSIC Pulmonary Fibrosis Progression 参加録](https://zenn.dev/currypurin/articles/ee355b70f3f245dca952): 終了後の検証内容も含めた取り組みのまとめ。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/bengaliai-cv19">Bengali.AI Handwritten Grapheme Classification</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Bengali.AI Handwritten Grapheme Classification 振り返り（NVIDIA Grandmasterチーム）](https://developer.nvidia.com/blog/grandmasters-series-learning-from-bengali-character-recognition-kaggle-challenge/): 個々の参加者の取り組みを紹介する振り返り記事。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="timeseries" data-platform="other">
+<h3>Basketball Behavior Challenge: BBC2020</h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">その他</span>
+
+- [Basketball Behavior Challenge: BBC2020 1位解法](https://upura.hatenablog.com/entry/2020/12/01/000000): 時系列座標データから「スクリーンプレイ」の有無を判定するコンペの優勝解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection">RSNA STR Pulmonary Embolism Detection</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [RSNA STR Pulmonary Embolism Detection 9位解法](https://lab.mo-t.com/blog/kaggle-rsna-2020): 胸部 CT 画像から肺塞栓症を予測するコンペの解法。画像サイズと推論時間の観点に言及。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2019" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/data-science-bowl-2019">2019 Data Science Bowl</a></h3>
+<span class="badge badge-year">2019</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [2019 Data Science Bowl 17位解法（QWK直接最適化）](https://zenn.dev/jackthekaggler/articles/cf988ca341e34ed83034): 評価指標「QWK」を勾配ブースティング系アルゴリズムで直接最適化する取り組み。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="other" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/abstraction-and-reasoning-challenge">Abstraction and Reasoning Challenge</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Abstraction and Reasoning Challenge 2位解法](https://medium.com/jovianml/finishing-2nd-in-kaggles-abstraction-and-reasoning-challenge-24e59c07b50a): 入力・出力ペアから規則性を捉える AI を作る一風変わった課題の解法。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="other">
+<h3>RecSys Challenge 2020</h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
+
+- [RecSys Challenge 2020 3位解法](https://speakerdeck.com/hakubishin3/a-stacking-ensemble-model-for-prediction-of-multi-type-tweet-engagements-recsys-challenge-2020-3rd-place-solution): 「RecSys2020論文読み会」での発表資料。
+- [RecSys Challenge 2020 優勝解法の概要記事](https://medium.com/rapids-ai/winning-solution-of-recsys2020-challenge-gpu-accelerated-feature-engineering-and-training-for-cd67c5a87b1f): GPU を活用した大規模データの前処理・学習を紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/prostate-cancer-grade-assessment">Prostate cANcer graDe Assessment (PANDA) Challenge</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [PANDA Challenge 優勝コード公開](https://github.com/kentaroy47/Kaggle-PANDA-1st-place-solution): コンペ終了後の「Best generalization performance award」にも言及。
+- [Rist主催「Kaggle Workshop #2」でのPANDA Challenge優勝解法発表資料](https://docs.google.com/presentation/d/1Ies4vnyVtW5U3XNDr_fom43ZJDIodu1SV6DSK8di6fs/edit): 4 位・6 位チームも登壇した発表会の資料。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="audio" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/birdsong-recognition">Cornell Birdcall Identification</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Cornell Birdcall Identification 銀メダル解法](https://pira-nino.hatenablog.com/entry/bird_call_63rd): 銅メダル解法など複数の日本語ブログ記事も合わせて公開。
 
 </div>
 
@@ -1260,6 +1358,8 @@
 - [SIGNATE「オフロード画像のセグメンテーションチャレンジ」精度認識部門3位解法](https://www.slideshare.net/ren4yu/signate-3rd-place-solution): 整備されていない道路の走行画像を領域分割するコンペの解法。
 - [SIGNATE「The 4th Tellus Satellite Challenge：海岸線の抽出」解法まとめ](https://note.com/regonn314/n/n4ab040af3072): 上位解法の紹介記事へのリンクも掲載。
 - [SIGNATE「日本取引所グループ ファンダメンタルズ分析チャレンジ」ニューラルネットワーク活用チュートリアル](https://zenn.dev/katsu1110/articles/c5123713a2c14b): 一連のソースコードと提出方法を紹介する記事。
+- [SIGNATE「The 4th Tellus Satellite Challenge：海岸線の抽出」参加録](https://denden-seven.hatenablog.com/entry/coastline): 衛星画像から海岸線を推測する課題への取り組み記録。
+- [SIGNATE「CDLE HACKATHON 2020」優勝解法](https://lotti.info/cdle-hackathon-2020/): 雲画像の変化を予測する課題の具体的な処理や工夫点を解説。
 - [SIGNATE Student Cup 2023 の感想](https://qiita.com/haru1385/items/d947a1ba45720e357b1f): 前処理・特徴量・モデルを紹介する 25 位解法。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)

@@ -206,3 +206,12 @@ https://kansaikaggler.connpass.com/
 - [SIGNATE「第4回AIエッジコンテスト（実装コンテスト②）」表彰式](https://www.ai-edge-contest.org/): 自動車走行画像認識コンペの上位入賞者発表。
 - [「#SwipeToSuccess」コンペ優勝者発表イベント](https://www.meetup.com/Democratic-AI-by-bitgrit-Tokyo/events/275960044/): インド展開に伴い開催されたマッチングアプリコンペの優勝者発表。
 - [「分析コンペ 勉強会」運営による振り返り記事](https://buildersbox.corp-sansan.com/entry/2021/03/05/110000): 全 5 件の発表資料も公開。「Colaboratoryで分析コンペをする時のテクニック集」の補足記事も別途公開。
+- [Kaggle関連セッション動画（DA-NCE）](https://conference.da-nce.jp/): 「Kaggle Masterに学ぶキャリアとスキルアップの要諦」など 2 本のセッション動画。
+- [SIGNATEインターン選考コンペ開始](https://signate.jp/competitions/402): 予測モデル部門とコンペ設計部門の 2 種類で構成。
+- [Kaggle「M5 Forecasting - Accuracy / Uncertainty」表彰式](https://www.youtube.com/watch?v=cQ_xPo9F9h4&feature=youtu.be): 運営・入賞者発表を含む 2 時間弱の表彰式。
+- [Kaggle勉強会（サイバーエージェント・Mobility Technologies・ヤフーMaster登壇）](https://scramble.connpass.com/event/191304/): 各社 Kaggle Master が登壇する勉強会。
+- [Kaggle「SIIM-ISIC Melanoma Classification」イベント](https://www.youtube.com/watch?v=L1QKTPb6V_I&feature=youtu.be): NVIDIA 所属 Grandmaster 3 人が登壇するイベント。
+- [IBIS2020「kaggle・実践データ解析入門」チュートリアル](http://ibisml.org/ibis2020/tutorial/): Kaggle Grandmaster takuoko さんが講師を務めるチュートリアル。
+- [Kaggle「Cornell Birdcall Identification」反省会](https://connpass.com/event/189722/): 参加者有志による反省会。ハッシュタグまとめや資料まとめ記事も公開。
+- [SIGNATE Student Cup 2020上位入賞者プレゼンテーション動画](https://www.youtube.com/playlist?list=PLx--cSjgRP_SAF4tCsKvq40kXUMNs2OM4): 「AIエッジコンテスト」関連動画も合わせて公開。
+- [Kaggle GrandmasterのCPMPさんによる講演「Did you know GPU are not just for Deep Learning?」](https://www.youtube.com/watch?v=hUlvFtuFqy8&feature=youtu.be): ニューラルネットワーク以外での GPU 活用方法を扱う講演。

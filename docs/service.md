@@ -48,3 +48,11 @@
 - [SIGNATE独自メディア「SIGNATE Articles」公開](https://signate.jp/articles/): コンペ入賞者へのインタビュー記事などを掲載するメディア。
 - [Kaggle Notebookの埋め込みリンク発行機能追加](https://www.kaggle.com/product-feedback/230748): Notebook を他サイトに埋め込める新機能の告知。
 - [SIGNATE代表取締役社長 齊藤さん出演Podcast](https://ledge.ai/podcast-1st/): サービス誕生の経緯やビジネスモデル、「ひろしまQuest」などを語るPodcast。
+- [SIGNATE転職スカウトサービス「SIGNATE Delta」担当者インタビュー](https://zine.qiita.com/products/202012-signate/): サービスに込めた思いを語るインタビュー。
+- [Rist技術支援サービス開始](https://prtimes.jp/main/html/rd/p/000000032.000023649.html): Kaggle Master 以上の参加を確約する独自チーム制度の技術支援サービス。
+- [Kaggle Notebookに「corgi mode」が追加](https://twitter.com/MeganRisdal/status/1339103298394066945?s=20): 犬が画面上部を往復する遊び心のある新機能。
+- [SIGNATE Quest分野特化型講座の提供開始](https://quest.signate.jp/markets): Preferred Networks による機械学習基礎講座などを第 1 弾として提供。
+- [KaggleのNotebooks・Discussions既読管理Chrome拡張](https://chrome.google.com/webstore/detail/kagglewatch/bnhfgkjmniihijokbjbikfogiegopkbc/related?authuser=0&hl=ja): 既読に色を付ける機能などを提供する有志の拡張機能。
+- [SIGNATE Scout・Careerが統合され「SIGNATE Delta」開始](https://delta.signate.jp/about): プロフィール欄の刷新と Kaggle ID 連携に対応。
+- [Podcast「regonn&curry.fm」第100回放送](https://www.youtube.com/watch?v=_HLeEBS5268&feature=youtu.be): 2018 年 9 月開始のデータサイエンス系 Podcast の節目の放送。
+- [SIGNATE Scoutの「SIGNATE Career」統合予告](https://signate.jp/scout): 「SIGNATE Delta」としてのサービス提供開始を予告。

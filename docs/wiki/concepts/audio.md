@@ -29,6 +29,10 @@
 - [2020〜2021年の鳥の鳴き声コンペ3つの振り返り記事](https://qiita.com/tattaka/items/ed355707963ec48a8106): 各コンペの概要と際立った解法をまとめた記事。
 - [近年の音声認識手法の動向まとめ記事](https://ys0510.hatenablog.com/entry/e2e_asr): 一つのニューラルネットワークで処理する End-to-End 手法に焦点を当てた記事。
 - [DCASE 2021 技術報告まとめ](http://dcase.community/challenge2021/task-unsupervised-detection-of-anomalous-sounds): 異常音検知など複数部門の上位チーム技術報告。
+- [音声認識ライブラリ「ESPnet」の紹介記事](https://tech.retrieva.jp/entry/2020/12/23/170645): 学習済みモデルを用いた音声認識の実践例。
+- [PyTorchによる音声分類チュートリアル](https://github.com/daisukelab/sound-clf-pytorch): Kaggle「Freesound General-Purpose Audio Tagging Challenge」を題材にしたチュートリアル。
+- [環境音認識の研究概要と動向紹介動画（DCASE2020含む）](https://linedevday.linecorp.com/2020/ja/sessions/5825): 「DCASE2020 Challenge」1 位解法の具体的手法も解説。
+- [DCASE2020 Challenge 1位解法](https://engineering.linecorp.com/ja/blog/dcase2020-challenge/): YouTube 動画の音を分類する課題への取り組みを紹介。ラベルなしデータの活用が要点。
 
 ## 関連概念
 

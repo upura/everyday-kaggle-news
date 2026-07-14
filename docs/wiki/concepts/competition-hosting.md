@@ -45,6 +45,9 @@
 - [Nishika「判例の個人情報の自動マスキング」コンペ運営振り返り記事](https://note.com/nishika_inc/n/n78447a423abe): 開催の背景・上位解法・固有表現抽出データセット作りの過程を紹介。
 - [DeNAの機械学習基盤に関する発表動画](https://techcon.dena.com/2021/session/12/): コンペ形式で事業課題を解決する仕組みを紹介。
 - [Kaggle「LANL Earthquake Prediction」開催に関する論文](https://www.pnas.org/content/118/5/e2011362118): 優勝チームの意外な戦略や、コンペ開催の意義に言及する論文。
+- [「CA × atmaCup 2nd」開催側視点の振り返り記事](https://developers.cyberagent.co.jp/blog/archives/28220/): サイバーエージェントによるコンペ開催の意義を語る記事。
+- [「RecSys Challenge 2020」開催側の総括記事（Twitter）](https://towardsdatascience.com/what-twitter-learned-from-the-recsys-2020-challenge-d3ae2f7ccf0f?gi=1a27354a3b9): 上位 3 チームの解法と有効だった点を主催側視点で解説。
+- [サイバーエージェントのデータ分析コンペ開催知見の発表資料](https://speakerdeck.com/ykaneko1992/bizinesu-falseren-de-nixi-siikonpekai-cui-falseyarifang): 開催で得られた知見とビジネス価値を紹介。Mobility Technologies・ヤフーの Master も登壇。
 - [Kaggle「PANDA Challenge」の成果を報告するNature Medicine掲載論文](https://www.wouterbulten.nl/blog/tech/panda-challenge/): 課題の背景やコンペ上位解法を紹介する論文。
 - [SIGNATE「熱帯低気圧（台風等）検出アルゴリズム作成」コンペのまとめ論文](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-021-00459-y): 海洋研究開発機構主催コンペを通じた性能向上を報告する論文。
 

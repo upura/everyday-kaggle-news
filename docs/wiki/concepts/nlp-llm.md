@@ -191,6 +191,12 @@
 - [Transformerのスケーリング則を主張する論文の紹介](https://deeplearning.hatenablog.com/entry/scaling_law): パラメータ数・データセットサイズ・計算予算の冪乗則を論じる OpenAI の論文。同時期に DALL·E も公開。
 - [Hugging Face「AutoNLP」公開予告](https://huggingface.typeform.com/to/FAtsVfbg): Kaggle 史上初の全 4 カテゴリ Grandmaster Abhishek Thakur さんによるプロジェクト。
 - [2020年の機械学習・自然言語処理領域の総括記事（DeepMind研究者）](https://ruder.io/research-highlights-2020/): 言語モデルの巨大化・軽量化や少データ学習の展望も含めてまとめた記事。
+- [Rustを用いた自然言語処理・機械学習の取り組み記事](https://vaaaaaanquish.hatenablog.com/entry/2020/12/14/192246): ニュース本文から媒体を分類するタスクへの挑戦。
+- [Transformers v4.0.0-rc-1公開](https://github.com/huggingface/transformers/releases/tag/v4.0.0-rc-1): デフォルト tokenizer が高速な Rust 製に切り替わるなどの変更。
+- [SBERT-WKの紹介記事](https://ai-scholar.tech/articles/natural-language-processing/sbert-wk): BERT の各層出力・分散を用いた文ベクトル生成手法の改良を背景から解説。
+- [BERTOverflow公開（StackOverflowデータで事前学習）](https://huggingface.co/lanwuwei/BERTOverflow_stackoverflow_github): ACL 2020 採択論文が提案するモデルの公開。
+- [Googleの多言語埋め込みモデル「LaBSE」に関する記事](https://hironsan.hatenablog.com/entry/text-classification-with-labse): 文章分類問題での性能を検証。Universal Sentence Encoder との比較記事も別途公開。
+- [「最先端NLP勉強会2020」発表資料集](https://sites.google.com/view/snlp-jp/home/2020): 著名な国際会議採択論文の紹介資料 30 件以上を公開。
 
 ## 関連概念
 

@@ -33,6 +33,8 @@
 - [Booking.com Data Challenge NVIDIAチーム優勝解法の記事](https://developer.nvidia.com/blog/how-to-build-a-winning-deep-learning-powered-recommender-system-part-3/): 深層学習を用いた旅程推薦の優勝解法を解説する記事。
 - [Netflix Prizeの意義を振り返る記事](https://xamat.medium.com/on-the-usefulness-of-the-netflix-prize-403d360aaf2): 優勝モデルの本番実装にも取り組んだ Xavier Amatriain さんによる振り返り。
 - [購買データコンペ振り返り会でのword2vec活用発表資料](https://www.takapy.work/entry/2021/02/27/122300): 商品・ユーザの埋め込み表現を word2vec で獲得する手法の紹介。
+- [「RecSys」特徴量エンジニアリングのチュートリアル資料（Chris Deotte）](https://github.com/rapidsai/deeplearning/tree/main/RecSys2020Tutorial): GPU を用いた高速化にも言及する充実したチュートリアル。
+- [「RecSys Challenge 2020」優勝解法の講演告知](https://www.nvidia.com/en-us/gtc/session-catalog/?ncid=so-twit-74735&search=A21139&search.language=1594320459782001LCjF&tab.catalogtabfields=1600209910618001TWM3): GPU で大規模データを前処理・学習した取り組みの講演。
 
 ## 関連概念
 

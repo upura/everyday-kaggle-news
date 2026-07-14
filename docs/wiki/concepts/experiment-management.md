@@ -37,6 +37,10 @@
 - [Hydra・MLflow・Optunaを組み合わせた実験管理術の紹介記事](https://supikiti22.medium.com/hydra-mlflow-optuna%E3%81%AE%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E5%A7%8B%E3%82%81%E3%82%8B%E3%83%8F%E3%82%A4%E3%83%91%E3%83%BC%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E7%AE%A1%E7%90%86-6b8e6d41b3da): 各ツールの利点や使い方をまとめた記事。
 - [Kaggle GrandmasterのtakuokoさんによるpipelineとKaggle過去解法活用の発表](https://the-ai.jp/): コンペに向けた開発環境などを紹介する発表。
 - [Kaggle「Tweet Sentiment Extraction」2位チームによる実験管理術の記事](https://recruit.gmo.jp/engineer/jisedai/blog/kaggleops-mlflow/): Google Colaboratory と Kaggle Notebook を駆使した検証結果管理方法の紹介。
+- [Kaggle「Otto Group Product Classification Challenge」の実験環境共有記事](https://qiita.com/chizuchizu/items/8261bb831b2eebf1a6af): 「Kaggle Advent Calendar 2020」で多数投稿された実験環境記事の一つ。
+- [PyTorchと実験管理ライブラリMLflowの連携記事](https://medium.com/pytorch/mlflow-and-pytorch-where-cutting-edge-ai-meets-mlops-1985cf8aa789): PyTorch Lightning のログ機能強化を紹介。
+- [数カ月にわたるKaggleコンペを戦うためのメモ術記事](https://zenn.dev/fkubota/articles/3d8afb0e919b555ef068): 小規模データでコードを検証する実験のコツも紹介。
+- [機械学習実験管理ツール「Guild AI」の紹介記事](https://kuromt.hatenablog.com/entry/2020/09/11/230142): コード追加なしで簡単に試せる点が特徴。
 
 ### ツール・テンプレート
 

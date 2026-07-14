@@ -57,6 +57,9 @@
 - [2020年の面白かったコンペ・論文に関する9人のKagglerアンケート記事](https://sorabatake.jp/18734/): 2020 年を振り返るアンケート結果のまとめ記事。
 - [データサイエンティスト協会シンポジウム「企業のKaggler枠って実際どうなの？」書き起こし記事](https://www.atmarkit.co.jp/ait/articles/2102/01/news024.html): Kaggler 支援の取り組みに関する議論の書き起こし。
 - [SIGNATE「産業技術総合研究所 衛星画像分析コンテスト」を題材にした資料](https://www2.slideshare.net/matsukenbook/ss-241542814): 参加者視点でコンペの実情を語る資料。
+- [Kaggleにおけるコンペ以外のカテゴリの魅力を紹介する記事](https://zenn.dev/koukyo1994/articles/7b8b06de0680f0): Notebook・Discussion・Dataset に投稿する楽しさとメダル獲得の心掛けを紹介。
+- [Kaggle参加による代休が発生する社内制度の紹介記事](https://note.com/yamitzky/n/n2e8bc6c218d8): 自学自習の推進による会社全体の成長を狙う制度。
+- [PFNが肺がん検診AIを試験導入](https://preferred.jp/ja/news/pr20201012/): 2018 年 Kaggle「RSNA Pneumonia Detection Challenge」の知見を実務に活用した事例。
 
 ## 関連概念
 

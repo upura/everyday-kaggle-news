@@ -133,3 +133,14 @@
 - [Kaggle GrandmasterのPsiさんインタビュー（H2O.ai）](https://www.h2o.ai/blog/meet-the-data-scientist-who-just-cant-stop-winning-on-kaggle/): Kaggle 参加の経緯や心構えを語るインタビュー。
 - [DeNA、Kaggle Grandmaster在籍数が日本企業で最多と報告](https://dena.com/jp/press/004688): 「Riiid! Answer Correctness Prediction」の結果を受けた報告。Master も国内最多の 16 人在籍。
 - [PyTorch Lightning開発者インタビュー](https://www.youtube.com/watch?v=xbcGj_mtTB0&feature=youtu.be): 自身の経歴とライブラリ開発に至った考えを語るインタビュー。
+- [Kaggle MasterのRabotniKumaさんインタビュー](https://analyticsindiamag.com/interview-kaggle-master-hiroshi-yoshihara/): 入門者への推薦資料や課題への取り組み方を語るインタビュー。
+- [Kaggle GrandmasterのDieterさんインタビュー（コンペランキング4位）](https://analyticsindiamag.com/kaggle-interview-grand-master-christof-henkel/): 過去の経歴とすべてのコンペで実施する 5 つのステップを語るインタビュー。
+- [Y.NakamaさんがKaggle Grandmasterになるまでの道のり記事](https://nmaviv.hatenablog.com/entry/2020/12/13/154455): 時系列に沿って取り組みを列挙する振り返り記事。
+- [Kaggle「Google Landmark Recognition 2020」イベント（優勝Dieterさん登壇）](https://www.youtube.com/watch?v=VxNDH6qLZ_Q&feature=youtu.be): 大規模画像分類問題での取り組みを語るイベント。
+- [Kaggle Grandmasterのtakuokoさんインタビュー](https://analyticsindiamag.com/okoshi-takumi-kaggle-interview-data-scientist/): 野球への興味からデータサイエンスに入った経緯やお気に入りツールを語る。
+- [Notebooks Grandmaster Martin Henzeさんインタビュー予告](https://www.youtube.com/watch?v=kI4yxAL2wtM&feature=youtu.be): Kaggle 史上初の Notebooks Grandmaster による探索的データ分析の考え方インタビュー。
+- [Kaggle Masterのterekaさんインタビュー](https://analyticsindiamag.com/interview-kaggle-master-hiroki-yamamoto/): 機械学習・Kaggle への取り組みや初学者向けアドバイスを語る。
+- [Kaggle公式YouTubeでGrandmasterインタビュー動画公開開始](https://www.youtube.com/playlist?list=PLqFaTIg4myu_nXnLEgDfhPhfMqeMQ_Bcl): 30 日時点で 7 人分の動画を公開。
+- [Hugging Face共同創業者インタビュー](https://www.youtube.com/watch?v=invR7r7c_pU&feature=youtu.be): 自然言語処理研究にたどり着いた経緯や熱意を語るインタビュー。
+- [Kaggle「Google Landmark Recognition 2020」優勝チームインタビュー](https://www.youtube.com/watch?v=NRl3lMlixPc&feature=youtu.be): Dieter さんと Psi さんが解法と Kaggle の魅力を語るインタビュー。
+- [SIGNATE「第3回AIエッジコンテスト」優勝JR西日本社員インタビュー](https://ledge.ai/jr-west-ai-edge-contest-champion/): 解法概要と社内データ分析チームへの異動の経緯を紹介。
