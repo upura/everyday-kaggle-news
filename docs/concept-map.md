@@ -37,8 +37,8 @@
 
 <script>
 (function () {
-  var GROUPS = ["学び方", "情報収集・コミュニティ", "データ種別・タスク", "進め方・環境", "コンペの開催"];
-  var COLORS = ["#2a78d6", "#1baf7a", "#eda100", "#008300", "#4a3aa7"];
+  var GROUPS = ["学び方", "情報収集・コミュニティ", "データ種別・タスク", "技術動向", "進め方・環境"];
+  var COLORS = ["#2a78d6", "#1baf7a", "#eda100", "#4a3aa7", "#008300"];
   var INK = "#1f2328", INK2 = "#57606a", INK3 = "#8c959f", EDGE = "rgba(87,96,106,0.32)";
 
   var cv = document.getElementById("cmap-cv");
