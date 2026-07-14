@@ -268,7 +268,7 @@
 
 - [Claude Code / CodexでKaggle金メダルを取った話](https://zenn.dev/chiman/articles/b233cc808d6af3): 生成 AI を用いた開発方法と役割分担を詳述する金メダル解法。
 - [草コンペ振り返り](https://speakerdeck.com/chihironakayama/cao-konhezhen-rifan-ri): 牧草画像から飼料の量を予測するコンペの 5 位解法。
-- [Kaggle 草コンペ振り返り & 上位解法まとめ | CSIRO - Image2Biomass Prediction](https://zenn.dev/prgckwb/articles/kaggle-csiro-image2biomass)
+- [CSIRO - Image2Biomass Prediction 上位解法まとめ](https://zenn.dev/prgckwb/articles/kaggle-csiro-image2biomass): 1〜5 位の解法を横断した振り返り記事。DINOv3 バックボーンやテスト時オンライン学習など各チームのアプローチを紹介。
 
 </div>
 
@@ -685,7 +685,7 @@
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Multimodal</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Stable Diffusion - Image to Prompts](https://speakerdeck.com/kfujikawa/stable-diffusion-image-to-prompts): 生成プロンプトを推定するコンペの概要と上位解法の解説資料。
-- [1st Place Solution | Stable Diffusion - Image to Prompts](https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/411237): 当時ランキング 1 位 bestfitting さんの優勝解法。
+- [Stable Diffusion - Image to Prompts 1st Place Solution](https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/411237): 当時ランキング 1 位 bestfitting さんの優勝解法。
 
 </div>
 
@@ -933,7 +933,7 @@
 <h3><a href="https://www.guruguru.science/competitions/30/">#22 CA x atmaCup 3rd :||</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">atmaCup</span>
 
-- [#22 CA x atmaCup 3rd :|| 1st Place Solution](https://speakerdeck.com/yumizu/number-22-ca-x-atmacup-3rd-1st-place-solution)
+- [#22 CA x atmaCup 3rd :\|\| 1st Place Solution](https://speakerdeck.com/yumizu/number-22-ca-x-atmacup-3rd-1st-place-solution)
 - [atmaCup#22 振り返り](https://zenn.dev/dalab/articles/85e77d0ea8ed55)
 - [atmaCup22で使用された手法まとめ](https://qiita.com/making111/items/cb20ebffe2238c9a2226)
 
