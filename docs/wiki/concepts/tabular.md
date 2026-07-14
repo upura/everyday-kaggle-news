@@ -169,4 +169,4 @@
 
 ## 関連概念
 
-- [時系列予測コンペ](./time-series.md) / [性能評価と検証](./evaluation-validation.md) / [実験管理](./experiment-management.md)
+- [時系列予測コンペ](./time-series.md) / [性能評価と検証](./evaluation-validation.md) / [実験管理](./experiment-management.md) / [コンペ形式・技術動向の変遷](./competition-evolution.md)

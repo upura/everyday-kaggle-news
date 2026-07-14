@@ -64,4 +64,4 @@
 
 ## 関連概念
 
-- [時系列予測コンペ](./time-series.md) / [表データコンペ](./tabular.md) / [実験管理](./experiment-management.md) / [エージェント対戦コンペ](./agent-competition.md)
+- [時系列予測コンペ](./time-series.md) / [表データコンペ](./tabular.md) / [実験管理](./experiment-management.md) / [エージェント対戦コンペ](./agent-competition.md) / [コンペ形式・技術動向の変遷](./competition-evolution.md)

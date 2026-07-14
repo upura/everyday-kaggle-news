@@ -115,4 +115,4 @@
 
 ## 関連概念
 
-- [LLM・自然言語処理の技術動向](./nlp-llm-trends.md) / [AI エージェント活用](./ai-agent.md) / [コードコンペティション](./code-competition.md) / [画像認識コンペ](./image-recognition.md) / [音声コンペ](./audio.md)
+- [LLM・自然言語処理の技術動向](./nlp-llm-trends.md) / [AI エージェント活用](./ai-agent.md) / [コードコンペティション](./code-competition.md) / [画像認識コンペ](./image-recognition.md) / [音声コンペ](./audio.md) / [コンペ形式・技術動向の変遷](./competition-evolution.md)

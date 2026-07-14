@@ -47,4 +47,4 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 
 ## 関連概念
 
-- [画像認識・視覚モデルの技術動向](./image-recognition-trends.md) / [音声コンペ](./audio.md) / [自然言語処理コンペ](./nlp-llm.md) / [実験管理](./experiment-management.md)
+- [画像認識・視覚モデルの技術動向](./image-recognition-trends.md) / [音声コンペ](./audio.md) / [自然言語処理コンペ](./nlp-llm.md) / [実験管理](./experiment-management.md) / [コンペ形式・技術動向の変遷](./competition-evolution.md)

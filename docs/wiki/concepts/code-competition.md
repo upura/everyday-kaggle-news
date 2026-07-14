@@ -21,4 +21,4 @@
 
 ## 関連概念
 
-- [実験管理](./experiment-management.md) / [自然言語処理コンペ](./nlp-llm.md)
+- [実験管理](./experiment-management.md) / [自然言語処理コンペ](./nlp-llm.md) / [コンペ形式・技術動向の変遷](./competition-evolution.md)
