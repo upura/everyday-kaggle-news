@@ -48,6 +48,8 @@
 - [「CA × atmaCup 2nd」開催側視点の振り返り記事](https://developers.cyberagent.co.jp/blog/archives/28220/): サイバーエージェントによるコンペ開催の意義を語る記事。
 - [「RecSys Challenge 2020」開催側の総括記事（Twitter）](https://towardsdatascience.com/what-twitter-learned-from-the-recsys-2020-challenge-d3ae2f7ccf0f?gi=1a27354a3b9): 上位 3 チームの解法と有効だった点を主催側視点で解説。
 - [サイバーエージェントのデータ分析コンペ開催知見の発表資料](https://speakerdeck.com/ykaneko1992/bizinesu-falseren-de-nixi-siikonpekai-cui-falseyarifang): 開催で得られた知見とビジネス価値を紹介。Mobility Technologies・ヤフーの Master も登壇。
+- [atmaCup主催者nyk510さんによるコンペ設計の取り組み紹介](https://speakerdeck.com/nyk510/onsaitodetakonpefalsemei-li-guan-waruquan-yuan-gale-siikonpeshe-ji-falsetamefalsequ-rizu-mi): 課題設計に加え初心者向けサポートにも言及。
+- [プッシュ通知開封率予測を題材にした社内コンペの紹介記事](https://tech.connehito.com/entry/2020/08/27/165753): 自社データを使う社内コンペの取り組みやすさを紹介。
 - [Kaggle「PANDA Challenge」の成果を報告するNature Medicine掲載論文](https://www.wouterbulten.nl/blog/tech/panda-challenge/): 課題の背景やコンペ上位解法を紹介する論文。
 - [SIGNATE「熱帯低気圧（台風等）検出アルゴリズム作成」コンペのまとめ論文](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-021-00459-y): 海洋研究開発機構主催コンペを通じた性能向上を報告する論文。
 

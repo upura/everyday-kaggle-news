@@ -35,6 +35,7 @@
 - [購買データコンペ振り返り会でのword2vec活用発表資料](https://www.takapy.work/entry/2021/02/27/122300): 商品・ユーザの埋め込み表現を word2vec で獲得する手法の紹介。
 - [「RecSys」特徴量エンジニアリングのチュートリアル資料（Chris Deotte）](https://github.com/rapidsai/deeplearning/tree/main/RecSys2020Tutorial): GPU を用いた高速化にも言及する充実したチュートリアル。
 - [「RecSys Challenge 2020」優勝解法の講演告知](https://www.nvidia.com/en-us/gtc/session-catalog/?ncid=so-twit-74735&search=A21139&search.language=1594320459782001LCjF&tab.catalogtabfields=1600209910618001TWM3): GPU で大規模データを前処理・学習した取り組みの講演。
+- [Airbnbの推薦アルゴリズム関連論文3報の紹介記事](https://speakerdeck.com/pacocat/airbnbfalseji-jie-xue-xi-dao-ru-karaxue-bu): サービス特性に応じた特徴量エンジニアリングの工夫を時系列で紹介。
 
 ## 関連概念
 

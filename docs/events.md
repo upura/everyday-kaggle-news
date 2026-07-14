@@ -215,3 +215,10 @@ https://kansaikaggler.connpass.com/
 - [Kaggle「Cornell Birdcall Identification」反省会](https://connpass.com/event/189722/): 参加者有志による反省会。ハッシュタグまとめや資料まとめ記事も公開。
 - [SIGNATE Student Cup 2020上位入賞者プレゼンテーション動画](https://www.youtube.com/playlist?list=PLx--cSjgRP_SAF4tCsKvq40kXUMNs2OM4): 「AIエッジコンテスト」関連動画も合わせて公開。
 - [Kaggle GrandmasterのCPMPさんによる講演「Did you know GPU are not just for Deep Learning?」](https://www.youtube.com/watch?v=hUlvFtuFqy8&feature=youtu.be): ニューラルネットワーク以外での GPU 活用方法を扱う講演。
+- [PANDA Challenge上位入賞者の学会Workshop登壇告知](https://panda.grand-challenge.org/workshop-schedule/): 10 月 8 日の学会 Workshop と 9 月 24 日の Rist 主催 Kaggle Workshop #2 で登壇。
+- [Kaggle GrandmasterのtakuokoさんへのYouTube Liveインタビュー告知](https://twitter.com/tkm2261/status/1297758301921226755?s=20): 9 月 5 日開催予定で質問も募集。
+- [SIGNATE「The 4th Tellus Satellite Challenge」紹介記事](https://sorabatake.jp/14130/): 海岸線抽出タスクの意義や参考文献をまとめた紹介記事。
+- [Kaggle GrandmasterのChris・Abhishekを招いたGPU/TPU活用イベント（アーカイブ動画）](https://www.youtube.com/watch?v=DEuvGh4ZwaY&feature=youtu.be): Kaggle コンペでの GPU・TPU 活用方法を紹介するイベント。
+- [Kaggle GrandmasterのChris・Abhishekを招いたイベント告知](https://www.kaggle.com/accelerator-power-hour): 日本時間深夜 2 時開始のオンラインイベント告知。
+- [SciPy Conference 2020講演動画集](https://www.youtube.com/playlist?list=PLYx7XA2nY5GfY4WWJjG5cQZDc7DIUmn6Z): 科学技術における Python 活用事例を扱う講演集。10 月には SciPy Japan 2020 も開催予定。
+- [ICLR論文読み会イベント](https://exawizards.connpass.com/event/176947/): 招待講演・通常発表・LT の資料が公開された読み会。

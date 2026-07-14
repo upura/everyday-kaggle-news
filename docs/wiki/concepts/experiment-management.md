@@ -41,6 +41,8 @@
 - [PyTorchと実験管理ライブラリMLflowの連携記事](https://medium.com/pytorch/mlflow-and-pytorch-where-cutting-edge-ai-meets-mlops-1985cf8aa789): PyTorch Lightning のログ機能強化を紹介。
 - [数カ月にわたるKaggleコンペを戦うためのメモ術記事](https://zenn.dev/fkubota/articles/3d8afb0e919b555ef068): 小規模データでコードを検証する実験のコツも紹介。
 - [機械学習実験管理ツール「Guild AI」の紹介記事](https://kuromt.hatenablog.com/entry/2020/09/11/230142): コード追加なしで簡単に試せる点が特徴。
+- [設定ファイル管理ツール「Hydra」v1.0.0リリース](https://hydra.cc/blog/2020/09/03/Hydra_1.0/): サンプルコードと共に主要な追加機能を解説する公式ブログ記事。
+- [実験管理ツール「Comet.ml」の紹介記事](https://www.nogawanogawa.com/entry/comet_ml): Weights & Biases・Neptune.ai と並ぶ実験管理ツールの紹介。
 
 ### ツール・テンプレート
 

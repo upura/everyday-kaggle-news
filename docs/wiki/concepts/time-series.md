@@ -40,6 +40,8 @@
 - [機械学習を用いた株価予測に役立つ日本語情報のリンク集](https://note.com/regonn314/n/n4d2b3edb62be): Kaggle「Jane Street Market Prediction」など頻出テーマの情報源をまとめた記事。
 - [Transformerで時系列データを扱う記事（Keras実装）](https://towardsdatascience.com/the-time-series-transformer-2a521a0efad3?gi=d3f3a4c95be8): 上位解法にしばしば登場する手法の実装例。
 - [「PyTorch Forecasting」の紹介記事](https://towardsdatascience.com/introducing-pytorch-forecasting-64de99b9ef46?gi=7393708a2fb): 最先端の時系列モデルを手軽に利用できるライブラリの紹介。
+- [複数の時系列モデルを統一的に扱うライブラリ「Darts」の紹介記事](https://blog.ikedaosushi.com/entry/2020/08/25/003557): アルゴリズムに加え検証・可視化用の関数も用意。
+- [時系列予測に使えるPythonライブラリまとめ記事](http://zakopilo.hatenablog.jp/entry/2020/07/19/173851): Prophet・PyFlux・Pyro・PyTorch・LightGBM の使い方を紹介。
 
 ## 関連概念
 

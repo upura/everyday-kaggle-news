@@ -40,6 +40,8 @@
 - [混同行列ライブラリ「PyCM」の紹介記事](https://tech-blog.optim.co.jp/entry/2020/12/08/100000): 画像分類やセグメンテーションを例に具体的な使い方を解説。
 - [ROC曲線の解説記事](https://zenn.dev/jackthekaggler/articles/64b4e32cce7d34022ae3): 図を用いて丁寧に説明する入門記事。
 - ["adversarial validation"に関する2016年の記事](https://www.kdnuggets.com/2016/10/adversarial-validation-explained.html): Kaggler の間で言葉の定義や使い方が議論された記事。
+- [順序分類タスクの評価指標を提案する論文の解説（ACL2020読み会）](https://speakerdeck.com/diracdiego/20200906-acl2020-metric-for-ordinal-classification-yoheikikuta): 評価指標が満たすべき性質の定義と実験的検証を紹介。
+- [Kaggle「COVID19 Global Forecasting」から派生した検証研究](https://github.com/h2oai/covid19-backtesting-publication): 時系列モデルの予測誤差が感染拡大の段階に応じて異なる点を確認し、段階を問わない検証の重要性を強調。
 
 ## 関連概念
 

@@ -148,6 +148,14 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [Vision Transformer論文・実装公開](https://arxiv.org/abs/2010.11929): Transformer 機構を画像分類タスクに適用し高性能を報告。
 - [Vision Transformerの解説記事](https://qiita.com/omiita/items/0049ade809c4817670d7): Transformer 機構の画像分類タスク適用を解説する記事。
 - [ECCV2020サーベイ資料](https://speakerdeck.com/mot_ai_tech/eccv2020-papers): 研究開発エンジニア 5 人が選定した論文 24 本を解説。
+- [KaggleのNotebookで画像読み込み・データ増幅を高速化する記事](https://qiita.com/hirune924/items/bfb099a704537b4e22ca): NVIDIA DALI と Kornia の組み合わせを紹介。
+- [Kaggle Masterによる画像コンペTipsまとめ（phalanxさん）](https://github.com/phalanx-hk/kaggle_cv_pipeline/blob/master/kaggle_tips.md): 事前知識・取り組み方・参考リンク集をまとめた資料。
+- [Transformerの解説記事（歴史的流れを踏まえて）](https://aru47.hatenablog.com/entry/2020/08/18/175711): 上位解法に頻出する Transformer の特徴を紹介。
+- [ディズニーがPyTorchでアニメキャラクター顔認識に取り組む記事](https://medium.com/pytorch/how-disney-uses-pytorch-for-animated-character-recognition-a1722a182627): データセット拡張や高速化のための試行錯誤を紹介。
+- [CVPR論文読み会資料（前半まとめ）](https://takmin.hatenablog.com/entry/2020/07/18/235337): コンピュータビジョン国際会議の論文読み会資料。
+- [CVPR論文読み会資料（別回、前半）](https://takmin.hatenablog.com/entry/2020/07/05/000451): 後編は別日程で予定された論文読み会資料。
+- [画像データ水増し手法まとめ記事（TensorFlow実装）](https://app.wandb.ai/authors/tfaugmentation/reports/Modern-Data-Augmentation-Techniques-for-Computer-Vision--VmlldzoxODA3NTQ): 検証結果も掲載するデータ拡張手法の紹介。
+- [DETR（Transformerによる物体検出）の紹介記事](https://blog.seishin55.com/entry/2020/05/30/175811): モデル・損失関数・実験結果の概要をまとめた記事。
 
 ## 関連概念
 

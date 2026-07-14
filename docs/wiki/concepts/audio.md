@@ -33,6 +33,7 @@
 - [PyTorchによる音声分類チュートリアル](https://github.com/daisukelab/sound-clf-pytorch): Kaggle「Freesound General-Purpose Audio Tagging Challenge」を題材にしたチュートリアル。
 - [環境音認識の研究概要と動向紹介動画（DCASE2020含む）](https://linedevday.linecorp.com/2020/ja/sessions/5825): 「DCASE2020 Challenge」1 位解法の具体的手法も解説。
 - [DCASE2020 Challenge 1位解法](https://engineering.linecorp.com/ja/blog/dcase2020-challenge/): YouTube 動画の音を分類する課題への取り組みを紹介。ラベルなしデータの活用が要点。
+- [波形データを扱うニューラルネットワークの解説動画（SONY）](https://www.youtube.com/watch?v=_4r7uTIPG1s&feature=youtu.be): OSS「Neural Network Libraries」開発元による動画シリーズの一本。
 
 ## 関連概念
 

@@ -144,3 +144,9 @@
 - [Hugging Face共同創業者インタビュー](https://www.youtube.com/watch?v=invR7r7c_pU&feature=youtu.be): 自然言語処理研究にたどり着いた経緯や熱意を語るインタビュー。
 - [Kaggle「Google Landmark Recognition 2020」優勝チームインタビュー](https://www.youtube.com/watch?v=NRl3lMlixPc&feature=youtu.be): Dieter さんと Psi さんが解法と Kaggle の魅力を語るインタビュー。
 - [SIGNATE「第3回AIエッジコンテスト」優勝JR西日本社員インタビュー](https://ledge.ai/jr-west-ai-edge-contest-champion/): 解法概要と社内データ分析チームへの異動の経緯を紹介。
+- [「COVID-19 Open Research Dataset Challenge」優勝者インタビュー](https://medium.com/kaggle-blog/gaining-a-sense-of-control-over-the-covid-19-pandemic-a-winners-interview-with-daniel-wolffram-1320fb2717c4): 技術的な取り組みと得られた知見を語るインタビュー。
+- [全4カテゴリGrandmaster Chris Deotteさんインタビュー動画](https://www.youtube.com/watch?v=QGCvycOXs2M): 称号獲得の秘訣と人柄を語るインタビュー。
+- [Kaggle MasterのPaoさんの転職エントリ](https://pao2.hatenablog.com/entry/2020/04/25/013310): Kaggle 経験が転職に活きたポイントを紹介。Kaggle Master かまろさんの転職エントリも同時期に公開。
+- [「Chai Time Data Science Show」最新作（Kaggle運営陣3名インタビュー）](https://www.youtube.com/watch?v=-eU2z8xWpEs&feature=youtu.be): Sanyam Bhutani さんによる Kaggler インタビューシリーズの一本。
+- [2011〜2020年のKaggle Competitionsランキング順位遷移動画](https://www.youtube.com/watch?v=guLZ_2WcEqM&feature=youtu.be): bestfitting さんの登場など複数のターニングポイントを確認できる動画。
+- [Abhishek Thakurさんインタビュー動画](https://www.youtube.com/watch?v=zgC8fjF0Now&feature=youtu.be): 自主出版書籍や Kaggle への取り組み方を語るインタビュー。

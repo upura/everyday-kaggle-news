@@ -60,6 +60,12 @@
 - [Kaggleにおけるコンペ以外のカテゴリの魅力を紹介する記事](https://zenn.dev/koukyo1994/articles/7b8b06de0680f0): Notebook・Discussion・Dataset に投稿する楽しさとメダル獲得の心掛けを紹介。
 - [Kaggle参加による代休が発生する社内制度の紹介記事](https://note.com/yamitzky/n/n2e8bc6c218d8): 自学自習の推進による会社全体の成長を狙う制度。
 - [PFNが肺がん検診AIを試験導入](https://preferred.jp/ja/news/pr20201012/): 2018 年 Kaggle「RSNA Pneumonia Detection Challenge」の知見を実務に活用した事例。
+- [ディープラーニングのモデリングに関する経験則まとめ（Togetter）](https://togetter.com/li/1570085): 多くの実践者が自身の経験則を述べたスレッドのまとめ。
+- [直近3年間のKaggle優勝解法を分析した記事](https://www.datarobot.com/jp/blog/is-deep-learning-almighty/): 非構造化データはディープラーニング、テーブルデータは勾配ブースティングという傾向を分析。
+- [「Global Wheat Detection」でのチームメイトによる解法販売の不正投稿](https://www.kaggle.com/c/global-wheat-detection/discussion/161296): コミュニティで問題となった不正事例の告発投稿。
+- [子育てをしながらKaggleに取り組む4人の座談会](https://www.youtube.com/watch?v=dvMf-iiaA5I&feature=youtu.be): 時間の使い方や Kaggle への向き合い方を語る座談会。
+- [KaggleコミュニティのCOVID-19への貢献まとめ記事（Google Cloud）](https://cloud.google.com/blog/products/ai-machine-learning/how-kaggle-data-scientists-help-with-coronavirus): 自然言語処理・時系列予測・データセット構築の 3 観点で事例を紹介。
+- [「Google Landmark Retrieval 2020」順位表アイコンのネタ解説記事](https://www.sixthtone.com/news/1003025/the-memes-that-bring-good-luck): 上位陣が使う縁起物アイコンの背景を紹介するコミュニティ小話。
 
 ## 関連概念
 

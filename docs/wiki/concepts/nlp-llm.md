@@ -197,6 +197,22 @@
 - [BERTOverflow公開（StackOverflowデータで事前学習）](https://huggingface.co/lanwuwei/BERTOverflow_stackoverflow_github): ACL 2020 採択論文が提案するモデルの公開。
 - [Googleの多言語埋め込みモデル「LaBSE」に関する記事](https://hironsan.hatenablog.com/entry/text-classification-with-labse): 文章分類問題での性能を検証。Universal Sentence Encoder との比較記事も別途公開。
 - [「最先端NLP勉強会2020」発表資料集](https://sites.google.com/view/snlp-jp/home/2020): 著名な国際会議採択論文の紹介資料 30 件以上を公開。
+- [ACL2020読み会 招待講演「半教師あり学習・疑似データ学習法の進展」](https://www.slideshare.net/AkihiroFujii2/2020-0906-acl2020readingshared): 不完全なデータを活用した性能向上手法をまとめた資料。
+- [ELECTRAの日本語版モデル](https://cinnamon.is/ideas/2020/06/22/20200619_research_001/): ICLR 2020 発表モデルの日本語版公開。
+- [AMBERTの解説記事（バイトダンス）](https://towardsdatascience.com/ambert-a-multi-grained-bert-6564ed24bcc3?source=social.tw&gi=f0496fcb4092): 2 種類の粒度の tokenizer を使い分ける BERT 拡張モデルの解説。
+- [Transformers Trainerにハイパーパラメータ調整機能が実装](https://twitter.com/GuggerSylvain/status/1297948214214221825?s=20): Optuna・Ray Tune を利用可能に。
+- [Hugging Faceがニューズレターを開始](https://huggingface.curated.co/issues/1): 21 日朝に配信された初回号。
+- [日本語形態素解析器比較ライブラリ「toiro」](https://github.com/taishi-i/toiro): テキストダウンロードや分類器機能も備えるライブラリ。
+- [自然言語処理モデル学習時間短縮の検証記事（transformers）](https://app.wandb.ai/pommedeterresautee/speed_training/reports/Train-HuggingFace-models-twice-as-fast--VmlldzoxMDgzOTI): トークン化バッチの工夫による高速化を検証。
+- [「flair」ライブラリの紹介記事（日本語文書分類）](https://nmoriyama.hatenablog.com/entry/2020/07/10/160031): livedoor ニュースコーパスを用いた分類タスクの実践。
+- [Sudachi・MeCabの形態素解析結果を比較する記事](http://tdual.hatenablog.com/entry/2020/07/13/162151): livedoor ニュースコーパスでの分類タスクを通じた比較。
+- [Real or Not? NLP with Disaster Tweetsを題材にしたFastaiチュートリアル](https://harish3110.github.io/through-tinted-lenses/natural%20language%20processing/sentiment%20analysis/2020/06/27/Introduction-to-NLP-using-Fastai.html): データ可視化から予測までの流れをまとめた記事。
+- [KerasのCNNで文書2値分類の特徴を可視化するチュートリアル](https://towardsdatascience.com/viewing-text-through-the-eyes-of-a-machine-db30c744ee17?gi=c98845badcb6): 予測結果分析に使える可視化手法。
+- [Transformers v3.0リリース](https://github.com/huggingface/transformers/releases/tag/v3.0.0): ドキュメント刷新と新トークナイズ API を追加。
+- [AllenNLP v1.0.0リリース](https://github.com/allenai/allennlp/releases/tag/v1.0.0): PyTorch ベースの NLP ライブラリ。Optuna との連携機能も用意。
+- [spaCy v2.3.0リリース（日本語モデル追加）](https://explosion.ai/blog/spacy-v2-3/): 日本語向けチュートリアルも公開。
+- [自然言語処理タスク向けGoogle Colabリンク集「Super Duper NLP Repo」](https://medium.com/towards-artificial-intelligence/nlp-colab-repository-65136d3e45da): 41 ファイルの新規追加を含む紹介記事。
+- [東大松尾研「Deep Learning基礎講座」招待講演資料（自然言語処理領域）](https://www.slideshare.net/HitomiYanaka/2020deep-learning-9-236561673): 深層学習前後の NLP 領域を概観し近年の研究課題までまとめた資料。
 
 ## 関連概念
 

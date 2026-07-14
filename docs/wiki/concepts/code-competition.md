@@ -16,6 +16,7 @@
 - [code competition も楽したい KaggleOps](https://osushinekotan.hatenablog.com/entry/2025/12/06/072458): 学習済みモデルと推論コードの提出を GitHub Actions で自動化する構成の紹介。
 - [Kaggle「Riiid Answer Correctness Prediction」でのC++メモリ節約記事](https://takkyu.net/ja/riiid-cpp/): C++ を活用してメモリ使用量を節約する方法を、Python からの呼び出しも含めて解説。
 - [Code Competitionsでの推論・提出方法を解説する記事](https://towardsdatascience.com/submitting-model-predictions-to-kaggle-competition-ccb64b17132e?gi=8f7f83f11330): インターネット利用不可状態でのライブラリインストール方法も紹介。
+- [「Code Competitions」形式のTipsまとめ記事](https://nonbiri-tereka.hatenablog.com/entry/2020/09/03/091530): 多くのコンペで導入が進む開催形式の攻略 Tips。
 
 ## 関連概念
 

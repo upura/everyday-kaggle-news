@@ -905,6 +905,7 @@
 - [Tweet Sentiment Extraction Top Teams YouTube Discussion](https://youtu.be/gdhqdDwLuU0)
 - [Tweet Sentiment Extraction 反省記録](http://mathshingo.chillout.jp/blog24.html)
 - [Tweet Sentiment Extraction 5位チーム解法](https://www.slideshare.net/taguchinaoya/20201010-ds-ltguchio/): アーカイブ動画も合わせて公開された解法発表資料。
+- [Tweet Sentiment Extraction 5位の参加録](https://www.slideshare.net/taguchinaoya/kaggle-tweet): 時系列に沿った取り組みと上位解法をまとめた参加録。
 
 </div>
 
@@ -1289,6 +1290,7 @@
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">その他</span>
 
 - [Basketball Behavior Challenge: BBC2020 1位解法](https://upura.hatenablog.com/entry/2020/12/01/000000): 時系列座標データから「スクリーンプレイ」の有無を判定するコンペの優勝解法。
+- [Basketball Behavior Challenge: BBC2020 優勝直後の速報記事](https://upura.hatenablog.com/entry/2020/09/02/205300): 参加チーム 4 の中での優勝を報告する記事。2 位解法も合わせて公開。
 
 </div>
 
@@ -1313,6 +1315,8 @@
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Abstraction and Reasoning Challenge 2位解法](https://medium.com/jovianml/finishing-2nd-in-kaggles-abstraction-and-reasoning-challenge-24e59c07b50a): 入力・出力ペアから規則性を捉える AI を作る一風変わった課題の解法。
+- [Abstraction and Reasoning Challenge 金メダル獲得の発表（企業リリース）](https://jp.ricoh.com/info/2020/0626_1): 日本企業による Kaggle 成果リリースの一例。
+- [Abstraction and Reasoning Challenge 2位入賞の振り返り記事](https://aryyyyy.hatenablog.com/entry/2020/06/05/122356): 機械学習の勉強を始めてからの Kaggle 遍歴を紹介する記事。
 
 </div>
 
@@ -1342,6 +1346,80 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/siim-isic-melanoma-classification">SIIM-ISIC Melanoma Classification</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [SIIM-ISIC Melanoma Classification 参加録（銅メダル）](https://qiita.com/tachyon777/items/05e7d35b7e0b53ef03dd): 公開情報も活用しつつ銅メダルを獲得した取り組みの紹介。
+- [SIIM-ISIC Melanoma Classification チュートリアル動画（Abhishek Thakur）](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155672): 皮膚がんの一種「Melanoma」を画像から判定するコンペのチュートリアル。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="other">
+<h3>第4回FUJIFILM Brain(s)コンテスト</h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
+
+- [第4回FUJIFILM Brain(s)コンテスト参加録（化合物の溶解度・毒性予測）](https://blog.tan5o.com/2020/08/%E5%AF%8C%E5%A3%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%82%B3%E3%83%B3%E3%83%9A%E7%B7%8F%E5%90%881%E4%BD%8D%E8%A7%A3%E6%B3%95%E3%82%A2%E3%83%97%E3%83%AD%E3%83%BC%E3%83%81%E5%8C%96%E5%90%88%E7%89%A9%E3%81%AE%E6%BA%B6%E8%A7%A3%E5%BA%A6%E4%BA%88%E6%B8%AC2%E4%BD%8D%E5%A4%89%E7%95%B0%E6%80%A7%E4%BA%88%E6%B8%AC2%E4%BD%8D/): 学生対象コンペの 2 タスクへの取り組み紹介。
+- [第4回FUJIFILM Brain(s)コンテスト参加録（発ガン性化合物予測）](https://mosamosa.hatenadiary.jp/entry/2020/08/27/151137): 分野特有の取り組みを具体的に語る参加録。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="timeseries" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/trends-assessment-prediction">TReNDS Neuroimaging</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
+
+- [TReNDS Neuroimaging 個人3位の取り組み紹介](https://lab.mo-t.com/blog/kaggle-trends): 「実務でどう役立つか」の観点にも言及する取り組み記録。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/nfl-big-data-bowl-2020">NFL Big Data Bowl</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [NFL Big Data Bowl 優勝解法の実運用活用事例](https://www.nfl.com/news/next-gen-stats-intro-to-expected-rushing-yards): 開催主のモデルに実際に組み込まれた優勝解法の活用事例。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="timeseries" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/m5-forecasting-uncertainty">M5 Forecasting - Uncertainty / Accuracy</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
+
+- [M5 Forecasting - Uncertainty 4位解法](https://www.slideshare.net/MasakazuMori2/kaggle-m5-forecasting): コンペ概要も含めて丁寧に解説する解法紹介スライド。M5 Forecasting - Accuracy 42位チームの検証データセット構築の工夫にも言及。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="video" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/deepfake-detection-challenge">Deepfake Detection Challenge</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Video</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Deepfake Detection Challenge 優勝解法解説動画](https://www.youtube.com/watch?v=fg8lKeJZ7vA&feature=youtu.be): 発表はロシア語、スライドは英語の優勝解法解説。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/imet-2020-fgvc7">iMet Collection 2020 - FGVC7</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [iMet Collection 2020 - FGVC7 優勝DeNAチーム解法](https://dena.ai/news/202005-imet/): CVPR2020 併設コンペでの優勝解法発表資料。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2019" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/open-images-2019-object-detection">Open Images 2019 - Object Detection</a></h3>
+<span class="badge badge-year">2019</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Open Images 2019 - Object Detection ソロ6位の参加録](https://www.slideshare.net/HHiroto/open-images-235464179): 巨大データセットを扱う上での独特の難しさを紹介。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/c/liverpool-ion-switching">University of Liverpool - Ion Switching</a></h3>
+<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
+
+- [University of Liverpool - Ion Switching 上位解法まとめ](https://www.slideshare.net/KatsuhisaKawaguchi/kaggle-ion): 時系列ノイズ解析が鍵となったコンペでの探索的データ分析の重要性を強調。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="signate">
 <h3>SIGNATE</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">SIGNATE</span>
@@ -1362,6 +1440,7 @@
 - [SIGNATE「CDLE HACKATHON 2020」優勝解法](https://lotti.info/cdle-hackathon-2020/): 雲画像の変化を予測する課題の具体的な処理や工夫点を解説。
 - [SIGNATE Student Cup 2023 の感想](https://qiita.com/haru1385/items/d947a1ba45720e357b1f): 前処理・特徴量・モデルを紹介する 25 位解法。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
+- [SIGNATE Student Cup 2020 2位解法](https://www.slideshare.net/HogeBona/student-cup-2020-2nd-solution-lt): Twitter で公開された情報は togetter にまとめて掲載。
 - [SIGNATE 鰹節コンペ 2nd Place Solution](https://www.slideshare.net/ren4yu/signate-2nd-place-solution)
 - [【２位解法】SIGNATE開催CDLEハッカソン2020予測性能部門 「画像データに基づく気象予測」の振り返り。](https://oregin-ai.hatenablog.com/entry/2020/09/06/175415)
 - [SIGNATE「医学論文の自動仕分けチャレンジ」参加録](https://zenn.dev/kuboko/articles/signate-srwspsg-pytorch): BERT を用いた取り組みを紹介する参加録。

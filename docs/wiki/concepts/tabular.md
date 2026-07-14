@@ -110,6 +110,21 @@
 - [CatBoostの「Uncertainty estimation」機能の紹介記事](https://towardsdatascience.com/tutorial-uncertainty-estimation-with-catboost-255805ff217e?gi=eb19c92aff1b): コードと共に使い方を解説。
 - [Pandasを効率的に学ぶための問題集](https://qiita.com/kunishou/items/bd5fad9a334f4f5be51c): データ集計・抽出・可視化など基本操作を扱う演習問題集。
 - [CRANにLightGBMが登場](https://cran.r-project.org/web/packages/lightgbm/index.html): R 言語向け LightGBM パッケージの公開。
+- [cuMLでTarget Encodingが利用可能に](https://medium.com/rapids-ai/target-encoding-with-rapids-cuml-do-more-with-your-categorical-data-8c762c79e784#cid=av01_so-twit_en-us): GPU による高速化を実現する RAPIDS.AI の機能追加。
+- [特徴選択ライブラリ「OptimalFlow」の紹介記事](https://towardsdatascience.com/ensemble-feature-selection-in-machine-learning-by-optimalflow-49f6ee0d52eb?gi=81e25efe2f2c): インストールから実行までの最低限のコードを解説。
+- [LightGBMの feature_fraction が変数重要度に与える影響の検証記事](https://note.com/watagusa/n/ndff4e86d7110): パラメータの影響を丁寧に検証する記事。
+- [Pandas・NumPyのテスト用モジュール紹介資料（PyConJP 2020）](https://speakerdeck.com/komofr/pyconjp2020): 許容誤差の観点も含めたテストの必要性を解説。
+- [データサイエンティスト協会「データサイエンス100本ノック（構造化データ加工編）」公開](https://digitalpr.jp/r/39499): SQL・Python・R 対応で解答 Notebook も用意。
+- [TensorFlow NumPy高速化モジュール](https://www.tensorflow.org/api_docs/python/tf/experimental/numpy): GPU・TPU で NumPy を高速化するモジュール。
+- [Julia言語をKaggle Notebook上で実行するチュートリアル](https://www.kaggle.com/marketneutral/julia-live-on-kaggle): 科学計算に秀でた Julia の Kaggle での利用方法を紹介。
+- [勾配ブースティングの解説資料（MIRU2020チュートリアル、173ページ）](https://www.slideshare.net/RyuichiKanoh/miru2020-tutorial-237272385): 内部処理や近年の研究動向まで扱う重厚な資料。
+- [LightGBMの交差検証関数から個別モデルを取り出す機能が実装](https://github.com/microsoft/LightGBM/pull/3204): 次期リリースで反映予定の新機能。
+- [PyCaret v2.0リリース](https://towardsdatascience.com/announcing-pycaret-2-0-39c11014540e?gi=3a242628d837): 少量のコードで多くのアルゴリズムの結果を比較できるツールの更新。
+- [Pandas並列化・高速化ライブラリ2つの紹介記事](https://blog.ikedaosushi.com/entry/2020/07/26/173109): 比較実験の結果も掲載する紹介記事。
+- [AutoKerasの紹介記事](https://towardsdatascience.com/getting-started-with-autokeras-8c5332b829?gi=b075ccdf13c8): テーブル・画像・テキストに対応する構造自動探索ライブラリ。
+- [TabNetのPyTorch実装講演](https://www.youtube.com/watch?v=ysBaZO8YmX8&feature=youtu.be): pip install で導入できる、sklearn 風インターフェースの実装解説。
+- [「Coding habits for data scientists」要点紹介記事](https://zerebom.hatenablog.com/entry/2020/06/11/185321): Notebook からスクリプトへの移行など実践的なテクニックを紹介。
+- [XGBoostの交差検証でモデルを取り出す方法の紹介記事](https://blog.amedama.jp/entry/xgboost-cv-model): LightGBM 版の関連記事も既に公開。
 
 ## 関連概念
 

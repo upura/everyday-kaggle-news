@@ -41,3 +41,5 @@
 - [Abhishek Thakurさんの自主出版書籍の無償公開](https://github.com/abhishekkrthakur/approachingalmost): Kaggle 全 4 カテゴリ Grandmaster による NLP 実践書の PDF 無償公開。
 - [『Kaggleのチュートリアル』第5版無料公開](https://www.currypurin.com/entry/kaggle_tutorial_ver5): 「Kaggle Advent Calendar 2020」最終日に合わせた同人誌の無料公開。
 - [『Kaggleコンペティション チャレンジブック』発売予告](https://www.amazon.co.jp/dp/4839968934): 冒頭抜粋と概要が先行公開された書籍の発売告知。
+- [機械学習の前処理を題材にした書籍発売](https://book.mynavi.jp/ec/products/detail/id=116696): テーブルデータに加えテキスト・画像データも扱う書籍。
+- [Abhishek Thakurさんの自主出版書籍が正式発売](https://www.amazon.com/dp/8269211508): 各国向け購入リンクが用意された『Approaching (Almost) Any Machine Learning Problem』。
