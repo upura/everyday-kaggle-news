@@ -72,12 +72,12 @@ with open(report_path, "w", encoding="utf-8") as f:
     if broken:
         f.write("## リンク切れ(404/410)\n\n")
         for url, page, code in broken:
-            f.write(f"- [{code}] {url}(掲載: {page})\n")
+            f.write(f"- [{code}] {url} (掲載: {page})\n")
         f.write("\n")
     if suspect:
         f.write("## 要手動確認(403/タイムアウト/ボット対策ドメインなど)\n\n")
         for url, page, code in suspect:
-            f.write(f"- [{code}] {url}(掲載: {page})\n")
+            f.write(f"- [{code}] {url} (掲載: {page})\n")
 
 print(open(report_path, encoding="utf-8").read())
 sys.exit(1 if broken else 0)
