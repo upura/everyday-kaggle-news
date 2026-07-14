@@ -2,7 +2,9 @@
 """LLM Wiki の整合性チェック(lint の内部検査項目)。
 
 検査: 相対リンク切れ / 孤立概念ページ / README.md 目次と実ファイルの同期 /
-目次ラベルと H1 の一致 / solutions.md の div・datatype 形式 / 同一セクション内の URL 重複
+目次ラベルと H1 の一致 / solutions.md の div・datatype 形式 / 同一セクション内の URL 重複 /
+solutions.md 内の競技名(h3)重複 / solutions.md と他ページとの URL 重複 /
+リスト項目内の未エスケープパイプ文字(kramdown が表として誤解釈する)
 参考情報として注釈カバレッジも表示する。問題があれば終了コード 1。
 """
 import os
@@ -81,6 +83,33 @@ for path, text in all_text.items():
             if c > 1:
                 problems.append(
                     f"[同一セクション内重複] {os.path.relpath(path, ROOT)}: {url} ×{c}")
+
+# 6. solutions.md 内の競技名(h3)重複 — 同じコンペの div が別々に作られていないか
+H3_RE = re.compile(r"<h3>(?:<a[^>]*>)?([^<]+)(?:</a>)?</h3>")
+h3_titles = H3_RE.findall(sol)
+for title, c in Counter(h3_titles).items():
+    if c > 1:
+        problems.append(f"[solutions.md 競技名重複] 「{title}」の div が {c} 件存在")
+
+# 7. solutions.md と他ページとの URL 重複 — 解法・参加録は solutions.md に一元化する規約のため
+sol_path = os.path.join(ROOT, "docs/solutions.md")
+sol_urls = {norm(m.group(2)) for m in LINK_RE.finditer(sol) if m.group(2).startswith("http")}
+for path, text in all_text.items():
+    if path == sol_path:
+        continue
+    for m in LINK_RE.finditer(text):
+        url = m.group(2)
+        if url.startswith("http") and norm(url) in sol_urls:
+            problems.append(
+                f"[solutions.mdと重複] {os.path.relpath(path, ROOT)}: {norm(url)} は "
+                "docs/solutions.md にも掲載されている(解法・参加録は solutions.md に一元化する)")
+
+# 8. リスト項目内の未エスケープパイプ文字 — markdown="1" 内で kramdown が表として誤解釈する
+for path, text in all_text.items():
+    for line in text.splitlines():
+        if re.match(r"^\s*-\s+\[", line) and "|" in line.replace("\\|", ""):
+            problems.append(
+                f"[未エスケープパイプ] {os.path.relpath(path, ROOT)}: {line.strip()[:80]}")
 
 # 参考: 注釈カバレッジ(検査ではなく情報表示)
 total = annotated = 0

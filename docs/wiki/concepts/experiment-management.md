@@ -17,7 +17,6 @@
 - [分析コンペをチームで戦うための技術](https://www.takapy.work/entry/2020/12/22/225715): 5 人チームでの Issue ベースの実験管理・情報連携の実践記録。
 - [実験管理 - 結局、重要なのは何なの？-](https://speakerdeck.com/chumajin/shi-yan-guan-li-jie-ju-zhong-yao-nanohahe-nano): 実験管理で本当に重要な点を問い直す登壇資料。
 - [機械学習プロジェクトにおける実験管理](https://www.docswell.com/s/2625216247/ZQXY9J-2026-02-02-185832): 再現性を担保するための考え方を紹介する講演資料。
-- [Kaggle銀メダル獲得に向けた実験管理の工夫](https://aitc.dentsusoken.com/column/how-to-approach-kaggle-competitions/): NLP コンペでの銀メダル獲得を支えた実験管理の実践記録。
 - [Kaggle Competitions Expertが振り返る、データ分析コンペ初心者が入賞するために必要なこと](https://codezine.jp/article/detail/21110)
 - [Kaggle GMに学ぶ実験管理 ~2025 spring~](https://hakuhodo-technologies.connpass.com/event/343750/)
 - [【書籍メモ】『先輩データサイエンティストからの指南書 -実務で生き抜くためのエンジニアリングスキル』（技術評論社）](https://upura.hatenablog.com/entry/2025/08/19/181856): コード品質管理・データ確認・実験管理を扱う書籍の書評。

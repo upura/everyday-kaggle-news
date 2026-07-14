@@ -2,6 +2,8 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-07-14 lint: 監査で見つかった重複を解消。solutions.md の「RecSys Challenge 2020」div を「RecSys Challenge」div に統合。ai-agent・audio・experiment-management・agent-competition・optimization・mindset の各概念ページに残っていた solutions.md との重複エントリ計 6 件を削除（解法・参加録は solutions.md に一元化）。competition-hosting.md の開催論文と重複していた G2Net の論文リンクを solutions.md 側から削除。`tools/verify_wiki.py` に検査を3件追加: solutions.md 内の競技名(h3)重複検出、solutions.md と他ページの URL 重複検出、リスト項目内の未エスケープパイプ文字検出（kramdown がテーブルと誤解釈する問題の再発防止）
+
 - 2026-07-14 restructure: 概念ページ「学会コンペ」を廃止。解法・参加録 23 件は `docs/solutions.md` へ移設（既存の AI王 div に 4 件追記、新設した KDD Cup / HuMob Challenge / 2COOOL の各 div と既存の汎用「学会コンペ」div に集約）、コンペ開催論文・開催報告 3 件は [コンペ開催](./concepts/competition-hosting.md) へ、残る概説・プロジェクトページ・開催告知 11 件は [コンペプラットフォーム](../platform.md) の新設セクション「学会併設コンペ」へ統合。重複していたエントリ 1 件は除去。README.md の目次・関連概念のリンクを更新
 
 - 2026-07-14 ingest: WKN #1〜#9（9 号、並列取得バッチ処理）→ 新規 33 件。solutions.md に div 1 新設（Santa's Workshop Tour 2019）、既存の WiDS Datathon 2020 div に追記。nlp-llm ×8、tabular ×7、pytorch ×4、image-recognition ×4、evaluation-validation ×2、milestones ×5、optimization ×2、mindset ×3、service.md ×2、events ×2、environment ×2、graph ×2、experiment-management ×1 に配分。これで WKN 全号（#1〜#343）のバックフィルが完了

@@ -12,7 +12,6 @@
 
 ## 資料
 
-- [国際音声AIコンペ総合第1位：URGENT Challenge優勝モデルの技術解説](https://zenn.dev/softbank/articles/bf95e2e274cf97): 多様な劣化を含む音声を復元する国際コンペの優勝解法の技術解説。
 - [機械音の異常検知チャレンジ DCASE 2020 Task 2](https://qiita.com/daisukelab/items/b106c567cf8927a5519a): 教師なし異常音検知タスクのデータセット分析と複数ベースラインの実験記録。コードも公開されている。
 - [ESPnet による音声認識入門 ～ESPnet Model Zoo 編～](https://note.com/retrieva/n/nd04d38377f1b): 学習済みモデルをダウンロードして数行で音声認識を動かす入門記事。
 - [湘南kaggler会 音声認識で使うのってメルス・・・なんだっけ？](https://speakerdeck.com/sugupoko/20250413-xiang-nan-kagglerhui-yin-sheng-ren-shi-deshi-unotutemerusunandatuke)

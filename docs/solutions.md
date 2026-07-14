@@ -771,7 +771,6 @@
 <h3><a href="https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves">G2Net Detecting Continuous Gravitational Waves</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
-- [Learning to detect continuous gravitational waves: an open data-analysis competition](https://arxiv.org/abs/2509.06445)
 - [G2Netコンペ2023 振り返り](https://sqrt4kaido.hatenablog.com/entry/2023/01/07/020404): CNN を用いた 17 位解法の振り返り記事。
 
 </div>
@@ -1321,15 +1320,6 @@
 
 </div>
 
-<div class="competition-entry" markdown="1" data-year="2020" data-datatype="tabular" data-platform="other">
-<h3>RecSys Challenge 2020</h3>
-<span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
-
-- [RecSys Challenge 2020 3位解法](https://speakerdeck.com/hakubishin3/a-stacking-ensemble-model-for-prediction-of-multi-type-tweet-engagements-recsys-challenge-2020-3rd-place-solution): 「RecSys2020論文読み会」での発表資料。
-- [RecSys Challenge 2020 優勝解法の概要記事](https://medium.com/rapids-ai/winning-solution-of-recsys2020-challenge-gpu-accelerated-feature-engineering-and-training-for-cd67c5a87b1f): GPU を活用した大規模データの前処理・学習を紹介。
-
-</div>
-
 <div class="competition-entry" markdown="1" data-year="2020" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/c/prostate-cancer-grade-assessment">Prostate cANcer graDe Assessment (PANDA) Challenge</a></h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
@@ -1454,7 +1444,7 @@
 
 - [第1回 国土交通省コンペ優勝！賃料予測コンペ1位解法](https://www.estie.jp/blog/entry/2024/12/24/160000)
 - [【PCDUA】第1回 国土交通省 地理空間情報データチャレンジの戦い方を考える](https://takaito0423.hatenablog.com/entry/2024/10/23/221608): 地理空間情報コンペの取り組み方の紹介記事。
-- [第４回空戦AIチャレンジ最終一位チームの「最終解法」](https://qiita.com/TaroKawa_Spakona/items/0a2f110216f4d00f295c)
+- [第４回空戦AIチャレンジ最終一位チームの「最終解法」](https://qiita.com/TaroKawa_Spakona/items/0a2f110216f4d00f295c): 対戦型空戦コンペの優勝解法。
 - [SIGNATE Cup 2024 夏 旅行パッケージ成約率予測 Bronze Solution](https://resweater.hatenablog.com/entry/2024/09/03/202547): 旅行パッケージの成約率予測コンペの銅メダル解法。
 - [ARISE Kaggle部活動記 #6](https://www.ariseanalytics.com/activities/report/20240206/): 第 1 回金融データ活用チャレンジの 4 位解法。
 - [SIGNATE 金融データ活用チャレンジ ～解法編～](https://www.nri-digital.jp/tech/20230530-13833/): 第 1 回金融データ活用チャレンジの 21 位解法。
@@ -1728,6 +1718,8 @@
 - [RecSys Challenge 2024 優勝報告](https://speakerdeck.com/unonao/jsai2025-recsyschallenge2024-you-sheng-bao-gao)
 - [「Team Wantedly」 が RecSys Challenge 2020 で３位に入賞しました](https://www.wantedly.com/companies/wantedly/post_articles/249713)
 - [RecSys Challenge 2020 備忘録](https://note.com/myaun/n/ndcbd9a4e7150)
+- [RecSys Challenge 2020 3位解法](https://speakerdeck.com/hakubishin3/a-stacking-ensemble-model-for-prediction-of-multi-type-tweet-engagements-recsys-challenge-2020-3rd-place-solution): 「RecSys2020論文読み会」での発表資料。
+- [RecSys Challenge 2020 優勝解法の概要記事](https://medium.com/rapids-ai/winning-solution-of-recsys2020-challenge-gpu-accelerated-feature-engineering-and-training-for-cd67c5a87b1f): GPU を活用した大規模データの前処理・学習を紹介。
 
 </div>
 
