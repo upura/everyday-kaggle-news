@@ -44,6 +44,7 @@
 - [「CA × atmaCup 2nd」開催側視点の振り返り記事](https://developers.cyberagent.co.jp/blog/archives/28220/): サイバーエージェントによるコンペ開催の意義を語る記事。
 - [サイバーエージェントのデータ分析コンペ開催知見の発表資料](https://speakerdeck.com/ykaneko1992/bizinesu-falseren-de-nixi-siikonpekai-cui-falseyarifang): 開催で得られた知見とビジネス価値を紹介。Mobility Technologies・ヤフーの Master も登壇。
 - [atmaCup主催者nyk510さんによるコンペ設計の取り組み紹介](https://speakerdeck.com/nyk510/onsaitodetakonpefalsemei-li-guan-waruquan-yuan-gale-siikonpeshe-ji-falsetamefalsequ-rizu-mi): 課題設計に加え初心者向けサポートにも言及。
+- [atmaCup主催者nyk510さんのPodcast出演](https://shirokane-kougyou.github.io/episode/27): 開催の経緯や主催者としての思いを語る回。
 - [アイリス株式会社が機械学習コンペ環境構築コードをOSS公開](https://github.com/AillisInc/ml_competition_platform): 管理者が評価指標を定義し参加者がファイル投稿できる枠組み。
 
 ### 研究データ・学会併設コンペの開催論文
