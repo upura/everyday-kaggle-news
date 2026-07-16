@@ -26,7 +26,6 @@
 - [Kaggleで考えるMLシステムの設計とアーキテクチャ](https://qiita.com/ieiringoo/items/dec48924e1b82e62752a): コンペを題材に機械学習システムの要件とアーキテクチャを考察する記事。
 - [学習が何で律速してるか、把握してますか？](https://aru47.hatenablog.com/entry/2022/12/07/170944): 学習速度低下の要因をデータ読み込み・前処理の観点で整理する記事。
 - [機械学習の実験管理ツール比較記事](https://qiita.com/fam_taro/items/401ba82e710dca2781eb): TensorBoard・MLflow・Neptune.ai・Weights & Biases・Comet を比較する記事。
-- [Kaggle用独自ライブラリの構成・思想に関する記事](https://teadev.netlify.app/posts/2021-10-20/): 「Google Brain - Ventilator Pressure Prediction」17 位のコード公開も予定した記事。
 - [ViEW2021チュートリアル「最新研究の始め方」発表資料](https://www.slideshare.net/cvpaperchallenge/tips-ver2-250474910): 3 社 12 研究室による約 300 ページの研究効率化ノウハウ集。
 - [深層学習の実験試行回数を増やすTips資料](https://speakerdeck.com/butsugiri/increasing-number-of-attempts-ver-2021): ファイル分割・コード管理・便利ツールをまとめた資料。
 - [Optuna・MLflow・Hydraを組み合わせた実験管理方法の発表資料](https://speakerdeck.com/supikiti/hydra-mlflow-optunafalsezu-mihe-wasedeshou-qing-nishi-meruhaipaparametaguan-li-210b3f53-5c57-4468-b7c8-07ba5f1f05a4): 「Optuna Meetup #1」での発表資料。

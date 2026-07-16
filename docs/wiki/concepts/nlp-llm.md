@@ -27,11 +27,9 @@
 - [文書分類からはじめる自然言語処理入門 基本からBERTまで](https://www.amazon.co.jp/%E6%96%87%E6%9B%B8%E5%88%86%E9%A1%9E%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E5%85%A5%E9%96%80-%E5%9F%BA%E6%9C%AC%E3%81%8B%E3%82%89BERT%E3%81%BE%E3%81%A7-%E8%A8%AD%E8%A8%88%E6%8A%80%E8%A1%93%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA108-%E6%96%B0%E7%B4%8D-%E6%B5%A9%E5%B9%B8/dp/4910558144): 伝統的な手法から BERT まで幅広く扱う文書分類の書籍。
 - [自然言語処理の基礎（深層学習編）](https://www.ohmsha.co.jp/book/9784274229008/): 深層学習に基づく自然言語処理の基礎知識・考え方をまとめた書籍。
 - [最先端の自然言語処理ライブラリのためのTransformers（日本語版）](https://www.amazon.co.jp/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AETransformers-%E2%80%95%E6%9C%80%E5%85%88%E7%AB%AF%E3%81%AE%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AB%E3%82%88%E3%82%8B%E3%83%A2%E3%83%87%E3%83%AB%E9%96%8B%E7%99%BA-Lewis-Tunstall/dp/4873119952): Hugging Face 共同創業者らによる Transformers 解説書の日本語版。
-- [Hugging Faceが公開する学習講座の紹介](https://hiromu-nlp.com/huggingface-course-intro/): 自然言語処理ライブラリを開発する Hugging Face の公式学習講座の紹介記事。
 - [NLPとVision-and-Languageの基礎・最新動向をまとめたチュートリアル](https://speakerdeck.com/kyoun/a-tutorial-on-nlp-and-vision-and-language): 自然言語処理と、画像と合わせて扱う領域への発展をまとめた資料。
 - [深層学習と自然言語処理の研究動向（東大講座資料）](https://speakerdeck.com/verypluming/dong-jing-da-xue-shen-ceng-xue-xi-deep-learningji-chu-jiang-zuo-2022-shen-ceng-xue-xi-tozi-ran-yan-yu-chu-li): 深層学習と自然言語処理の研究動向を概説する講座資料。
 - [Transformers for Natural Language Processing（日本語訳書）](https://www.amazon.co.jp/Transformer%E3%81%AB%E3%82%88%E3%82%8B%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86-Denis-Rothman/dp/4254122659): アーキテクチャ紹介から GPT-3 によるテキスト生成まで扱う書籍。
-- [Natural Language Processing with Transformers（原著）](https://transformersbook.com/): Hugging Face 共同創業者らによる Transformers 解説書。サンプルコードを GitHub で公開。
 - [系列ラベリングの理論とJAX実装を扱う技術書（技術書典12）](https://techbookfest.org/product/6195059194068992): 数式の展開も含めて系列ラベリングを解説する同人技術書。
 - [RAG開発の超入門【RaggleのQuickStart Pythonのソースコードあり】](https://zenn.dev/galirage/articles/raggle_quickstart)
 - [Kaggle自然言語処理コンペ向けローカルLLM活用入門](https://speakerdeck.com/k951286/kagglezi-ran-yan-yu-chu-li-konpexiang-kerokarullmhuo-yong-ru-men)
@@ -41,14 +39,13 @@
 - [イントロダクション（Hugging Face Course 日本語訳）](https://huggingface.co/course/ja/chapter1/1): Hugging Face 公式コースの日本語訳。東北大学の学生による翻訳プロジェクト。
 - [情報検索100本ノック](https://github.com/ir100/ir100): 情報検索の課題を集めた「100 本ノック」形式の演習教材。
 - [『深層学習』改訂第2版（講談社）発売告知](https://www.hanmoto.com/bd/isbn/9784065133323): Transformer やグラフニューラルネットワークなどを大幅加筆した定番書籍の改訂版。
-- [「Approaching (Almost) Any Natural Language Processing Problem」公開予告](https://github.com/abhishekkrthakur/approaching_almost_nlp): Abhishek Thakur さんによる NLP 実践書の構想公開ページ。
 - [Hugging Face入門講座公開](https://huggingface.co/course/chapter1): ライブラリの使い方を中心に基礎的な内容を紹介する公式講座。
 - [BERTによる日本語自然言語処理の書籍出版予告（Transformers活用）](https://www.ohmsha.co.jp/book/9784274227264/): 学習コードに PyTorch Lightning を利用する書籍の出版告知。
 - [Transformer解説資料（図解中心）](https://speakerdeck.com/yusuketakagi/transformerhahe-woyatuteirufalseka): データの流れを図で説明する解説資料。
 - [Transformer機構の調査資料（基礎解説・画像認識応用）](https://www.slideshare.net/cvpaperchallenge/transformer-247407256): 基礎的な解説から画像認識分野への応用までをまとめた資料。
 - [Transformers書籍のプレビュー版公開（O'Reilly）](https://www.oreilly.com/library/view/natural-language-processing/9781098103231/): Hugging Face 共同創設者 Thomas Wolf さんも共著者に名を連ねる書籍。
 - [Transformerの解説記事（RNNとの比較）](https://blog.brainpad.co.jp/entry/2021/01/06/113000): 応用例も含めて紹介する入門記事。
-- [自然言語処理タスク向けGoogle Colabリンク集「Super Duper NLP Repo」](https://medium.com/towards-artificial-intelligence/nlp-colab-repository-65136d3e45da): 41 ファイルの新規追加を含む紹介記事。
+- [自然言語処理タスク向けGoogle Colabリンク集「Super Duper NLP Repo」](https://pub.towardsai.net/nlp-colab-repository-65136d3e45da): 41 ファイルの新規追加を含む紹介記事。
 - [東大松尾研「Deep Learning基礎講座」招待講演資料（自然言語処理領域）](https://www.slideshare.net/HitomiYanaka/2020deep-learning-9-236561673): 深層学習前後の NLP 領域を概観し近年の研究課題までまとめた資料。
 - [BERTを中心にした自然言語処理モデル解説Podcast](https://anchor.fm/pod-de-engineer/episodes/BERT-with-agatan-ebijrr/a-a1n58q9): 音声のみで端的に BERT を紹介する分かりやすい構成。
 - [Attention機構の解説動画](https://www.youtube.com/watch?v=g5DSLeJozdw&feature=youtu.be): ニューラルネットワークの基本構造をわかりやすく解説する動画。
@@ -80,7 +77,6 @@
 - [【第3回】関東Kaggler会「NLPの変遷とNLPコンペの最新事情 〜進化する技術と変化する戦い方〜」](https://speakerdeck.com/takaito/di-3hui-guan-dong-kagglerhui-nlpnobian-qian-tonlpkonpenozui-xin-shi-qing-jin-hua-suruji-shu-tobian-hua-suruzhan-ifang)
 - [敵対的学習手法「FGM」「AWP」の解説記事](https://blog.brainpad.co.jp/entry/2022/08/23/153001): NLP コンペで頻出する敵対的学習手法を解説。
 - [Nishika 個人情報固有表現抽出データセット・モデル公開](https://info.nishika.com/solution-cl-data/personal-inquiry): 判例の個人情報自動マスキング向けに、商用利用可のデータセットとコンペ解法を基にしたモデル・ソースコードを公開。
-- [Hugging Faceのモデル評価ライブラリ「evaluate」の紹介](https://hiromu-nlp.com/huggingface-evaluate/): 具体的な使い方をソースコードと共に紹介。
 - [自然言語処理コンペの上位解法に登場する「敵対的学習」の調査資料](https://www.slideshare.net/ssuserc45ddf/adversarial-trainingpptx): 過学習を防ぎモデルの頑健性を高める効果を整理した資料。
 - [Adversarial Training（敵対的学習）に関する近年の動向まとめ](https://speakerdeck.com/hirokiadachi/sabei-adversarial-training): 実験に用いたソースコードも公開する動向まとめ資料。
 - [Transformers ライブラリでの推論をONNX形式で高速化する記事](https://tech.retrieva.jp/entry/20220228): 約 2.4 倍の高速化を報告する検証記事。
@@ -105,10 +101,7 @@
 - [NVIDIA Kaggle Grandmasterによる自然言語処理コンペ解説動画](https://www.youtube.com/watch?v=PXc_SlnT2g0&feature=youtu.be): Transformers ライブラリの解説と直近コンペの解法紹介。
 - [日本語データ水増し手法の実装記事（EDA）](https://qiita.com/tchih11/items/aef9505d26d1bf06a04c): 英文向け手法「Easy Data Augmentation」を日本語に応用。
 - [Rustを用いた自然言語処理・機械学習の取り組み記事](https://vaaaaaanquish.hatenablog.com/entry/2020/12/14/192246): ニュース本文から媒体を分類するタスクへの挑戦。
-- [Real or Not? NLP with Disaster Tweetsを題材にしたFastaiチュートリアル](https://harish3110.github.io/through-tinted-lenses/natural%20language%20processing/sentiment%20analysis/2020/06/27/Introduction-to-NLP-using-Fastai.html): データ可視化から予測までの流れをまとめた記事。
-- [KerasのCNNで文書2値分類の特徴を可視化するチュートリアル](https://towardsdatascience.com/viewing-text-through-the-eyes-of-a-machine-db30c744ee17?gi=c98845badcb6): 予測結果分析に使える可視化手法。
 - [NLPにおけるデータ水増し手法のまとめ記事](https://amitness.com/2020/05/data-augmentation-for-nlp/): 語彙変換・翻訳・表層・交叉などを図示。
-- [文書分類コンペ5つを題材にしたTipsまとめ記事](https://neptune.ai/blog/text-classification-tips-and-tricks-kaggle-competitions): 前処理・モデリング・アンサンブルの観点別に整理。
 - [BERT質問応答モデルのデータ前処理解説動画](https://www.youtube.com/watch?v=6a6L_9USZxg&feature=youtu.be): RoBERTa などへの切り替え方法も紹介。
 - [日本語BERTモデルをPyTorchでfine-tuningするチュートリアル](https://radiology-nlp.hatenablog.com/entry/2020/01/18/013039): SentencePiece ベースモデルを題材にした各ステップの丁寧な解説。
 - [「Real or Not? NLP with Disaster Tweets」BERTベースラインNotebook](https://www.kaggle.com/bibek777/bert-baseline): PyTorch の transformers ライブラリによる Fine-tuning から予測までの一連の流れ。

@@ -29,7 +29,6 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [SantaとAHCと遺伝的アルゴリズム](https://speakerdeck.com/nagiss/santatoahctoyi-chuan-de-arugorizumu): Santa 2022 上位 4 チームの遺伝的アルゴリズムを AHC と絡めて解説する資料。
 - [HACK TO THE FUTURE 2023 予選 1位解法解説](https://engineering.dena.com/blog/2022/12/httf-2023-qual/): NN を用いたヒューリスティックコンテストの優勝解法。
 - [最適化問題コンテストに取り組む上での指針](https://qiita.com/square1001/items/84604f79f55ff10d99b0): 代表的な手法として貪欲法と山登り法を解説する記事。
-- [SIGNATE「タダノ クレーン旋回操作最適化チャレンジ」参加者向けイベント](https://us02web.zoom.us/webinar/register/WN_VNbxaRUsQeihoUkjvHe0cA): SIGNATE 初のシミュレーション形式コンペのイベント。
 
 ### Optuna・ハイパーパラメータ最適化
 
@@ -50,7 +49,6 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 ### 最適化手法・アルゴリズム研究
 
 - [最適化手法「SAM」の性能変化を検証する記事](https://dajiro.com/entry/2021/03/14/124435): 「Sharpness-Aware Minimization」の効果をソースコード付きで検証。
-- [PyTorch Lightningで「SAM」を利用する方法の紹介記事](https://chizuchizu.com/blog/sam_lightning/): 画像分類タスクで最高性能を示し話題となった手法の実装方法。
 - [最適化アルゴリズム「AdaBelief」の解説記事（NeurIPS 2020）](https://qiita.com/z-lai/items/b4d02f1050e99c59ad37): Adam と比較しながら特徴を紹介する記事。
 
 ## 関連概念

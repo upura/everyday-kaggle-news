@@ -26,7 +26,7 @@ Claude Code などの LLM エージェントを「道具」としてコンペ作
 - [データコンペでCode Interpreter片手に戦ってみたけど惨敗でした](https://zenn.dev/karaage0703/articles/1fa0a14d4cdd63): ChatGPT の Code Interpreter でコミュニティコンペに挑んだ 2023 年の初期事例。
 - [AIコーディングツール実践比較：Kaggleタスクで見えたClaude Code・Manus AI・Cline・Devinの最適な活用場面](https://zenn.dev/mkj/articles/fbb48ba58c77a1): Kaggle コンペを題材に 4 つの AI コーディングツールを比較検証した記事。
 - [KaggleはAIに解けるか？ MLE-Benchのいま (2025/08/23; 第4回 関東Kaggler会)](https://speakerdeck.com/iwiwi/23-di-4hui-guan-dong-kagglerhui): Kaggle の問題を AI エージェントに解かせるベンチマーク MLE-Bench の動向をまとめた発表資料。
-- [MLE-Benchの論文とコードを読んで](https://ho.lc/blog/openai_mle_bench/): MLE-bench の論文とコードを Kaggle 参加者の視点で読み解いた考察記事。
+- [MLE-Benchの論文とコードを読んで](https://ho.lc/blog/openai-mle-bench/): MLE-bench の論文とコードを Kaggle 参加者の視点で読み解いた考察記事。
 - [JunoBench: Crashes in Python ML Jupyter Notebooks](https://arxiv.org/abs/2510.18013v1): Kaggle 由来の再現可能なノートブックのクラッシュ 111 件を集めたベンチマークの論文。
 
 ## 関連概念

@@ -15,7 +15,8 @@ import urllib.request
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 LINK_RE = re.compile(r"\]\((https?://(?:[^()\s]|\([^()\s]*\))+)\)")
 MANUAL_DOMAINS = ("x.com", "twitter.com", "linkedin.com",
-                  "amazon.co.jp", "amazon.com", "amzn.asia")
+                  "amazon.co.jp", "amazon.com", "amzn.asia", "amzn.to",
+                  "kaggle.com", "medium.com")
 UA = "Mozilla/5.0 (compatible; everyday-kaggle-news-linkcheck)"
 
 report_path = sys.argv[1] if len(sys.argv) > 1 else "linkcheck-report.md"

@@ -30,7 +30,6 @@
 - [DCASE Challenge 2022 課題一覧発表](http://dcase.community/articles/challenge-tasks-for-dcase2022): 音響イベント検出コンペの年次課題発表。
 - [2020〜2021年の鳥の鳴き声コンペ3つの振り返り記事](https://qiita.com/tattaka/items/ed355707963ec48a8106): 各コンペの概要と際立った解法をまとめた記事。
 - [DCASE 2021 技術報告まとめ](http://dcase.community/challenge2021/task-unsupervised-detection-of-anomalous-sounds): 異常音検知など複数部門の上位チーム技術報告。
-- [環境音認識の研究概要と動向紹介動画（DCASE2020含む）](https://linedevday.linecorp.com/2020/ja/sessions/5825): 「DCASE2020 Challenge」1 位解法の具体的手法も解説。
 - [DCASE2020 Challenge 1位解法](https://engineering.linecorp.com/ja/blog/dcase2020-challenge/): YouTube 動画の音を分類する課題への取り組みを紹介。ラベルなしデータの活用が要点。
 
 ### モデル・技術動向

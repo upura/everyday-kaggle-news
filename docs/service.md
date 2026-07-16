@@ -47,7 +47,6 @@
 - [Kaggleコンペ一覧ページのUI刷新](https://www.kaggle.com/product-feedback/245652): 実行環境の R 言語バージョンも 4.x に更新。
 - [SIGNATE独自メディア「SIGNATE Articles」公開](https://signate.jp/articles/): コンペ入賞者へのインタビュー記事などを掲載するメディア。
 - [Kaggle Notebookの埋め込みリンク発行機能追加](https://www.kaggle.com/product-feedback/230748): Notebook を他サイトに埋め込める新機能の告知。
-- [SIGNATE代表取締役社長 齊藤さん出演Podcast](https://ledge.ai/podcast-1st/): サービス誕生の経緯やビジネスモデル、「ひろしまQuest」などを語るPodcast。
 - [SIGNATE転職スカウトサービス「SIGNATE Delta」担当者インタビュー](https://zine.qiita.com/products/202012-signate/): サービスに込めた思いを語るインタビュー。
 - [Rist技術支援サービス開始](https://prtimes.jp/main/html/rd/p/000000032.000023649.html): Kaggle Master 以上の参加を確約する独自チーム制度の技術支援サービス。
 - [Kaggle Notebookに「corgi mode」が追加](https://twitter.com/MeganRisdal/status/1339103298394066945?s=20): 犬が画面上部を往復する遊び心のある新機能。
@@ -56,11 +55,9 @@
 - [SIGNATE Scout・Careerが統合され「SIGNATE Delta」開始](https://delta.signate.jp/about): プロフィール欄の刷新と Kaggle ID 連携に対応。
 - [Podcast「regonn&curry.fm」第100回放送](https://www.youtube.com/watch?v=_HLeEBS5268&feature=youtu.be): 2018 年 9 月開始のデータサイエンス系 Podcast の節目の放送。
 - [SIGNATE Scoutの「SIGNATE Career」統合予告](https://signate.jp/scout): 「SIGNATE Delta」としてのサービス提供開始を予告。
-- [atmaCupにユーザーランキングシステムが導入](https://www.guruguru.ml/rankings/competition): コンペとディスカッションに分かれたランキングを公開。算出方法も公開。
 - [SIGNATE「ひろしまQuest」が第5回HRテクノロジー大賞を受賞](https://prtimes.jp/main/html/rd/p/000000041.000038674.html): 地方型 AI 人材育成の取り組みが評価された受賞。
 - [Kaggleコミュニティ・ガイドライン更新](https://www.kaggle.com/community-guidelines): 行動規範や報告方法を更新した公式発表。
 - [H2O.ai、中国拠点でKaggle Grandmaster・Masterを募集](https://www.kaggle.com/jobs/20017/hiring-kaggle-grandmasters-and-masters-in-china): 業務内容にコンペ参加を含む採用情報。
 - [Kaggle、新型コロナワクチン研究向けデータセット・コードを無償公開](https://prtimes.jp/main/html/rd/p/000000406.000004374.html): ワクチン研究開発を促す目的の公開。Kaggle 関連プレスリリースの増加を示す一例。
-- [「Kaggle Days」公式オンラインショップ開設](https://kaggle-days-shop.myshopify.com/): マグカップや T シャツなどのグッズを販売。
 - [KaggleがAutoMLでスパムアカウントを検知した話](https://cloud.google.com/blog/products/ai-machine-learning/how-kaggle-solved-a-spam-problem-using-automl): 自然言語処理 API を活用し 8 日間でデプロイまで展開した事例。
 - [Kaggle利用規約（Terms of Use）ページ](https://www.kaggle.com/terms): 「Simulations Competitions」新設を受けて 2019 年 12 月に更新。
