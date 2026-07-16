@@ -353,14 +353,6 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/competitions/llms-you-cant-please-them-all/">LLMs - You Can't Please Them All</a></h3>
-<span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
-
-- [【振り返りメモ】LLMs - You Can't Please Them All](https://zenn.dev/mytm/articles/d766e49b77a3c4): 3 つの LLM の評価の不一致を最大化するコンペの概要と上位解法の紹介。
-
-</div>
-
-<div class="competition-entry" markdown="1" data-year="2025" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming">Red‑Teaming Challenge - OpenAI gpt-oss-20b</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -690,14 +682,6 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/">Vesuvius Challenge - Ink Detection</a></h3>
-<span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
-
-- [$12,000 Ink Detection Followup (August 28th)](https://scrollprize.org/ink_detection_followup): 主催者による上位解法の紹介ページ。解説動画とコードへのリンクつき。
-
-</div>
-
-<div class="competition-entry" markdown="1" data-year="2023" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature">HuBMAP - Hacking the Human Vasculature</a></h3>
 <span class="badge badge-year">2023</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
@@ -816,7 +800,6 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [【Kaggle】OTTOコンペ参加記(22th/2587th)🥈](https://zenn.dev/zerebom/articles/91910acb0d9b93)
-- [6日目: Ottoコンペの振り返り](https://bilzard.hatenablog.com/entry/2023/02/01/092026)
 
 </div>
 
@@ -825,9 +808,7 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [AI/機械学習を実務に活かす：レコメンドコンペティション優勝解法徹底解説（1）](https://www.datarobot.com/jp/blog/thorough-explanation-of-the-winning-solution-of-the-recommendation-competition-1/)
-- [DeNA共同執筆発表資料「H&Mコンペの振り返り」](https://speakerdeck.com/kuto5046/denamot-aiji-shu-gong-you-hui-fa-biao-zi-liao-h-and-mkonpefalsezhen-rifan-ri): 46 位の参加者を含む振り返り資料。
 - [Kaggle「H&M Personalized Fashion Recommendations」の金メダル解法](https://blog.recruit.co.jp/data/articles/kaggle-h-and-m/): コンペから得た着想で CVR を 20〜30% 向上させた業務活用も報告。
-- [Kaggle「H&M Personalized Fashion Recommendations」個人参加25位の参加録](https://yng87.github.io/blog/2022/05/kaggle_hm/): 81 位・133 位のチームの取り組みも合わせて紹介。
 
 </div>
 
@@ -902,7 +883,6 @@
 
 - [kaggle tweet コンペの闇と光 (コンペ概要と上位解法)](https://guchio3.hatenablog.com/entry/2020/06/20/115616)
 - [Tweet Sentiment Extraction Top Teams YouTube Discussion](https://youtu.be/gdhqdDwLuU0)
-- [Tweet Sentiment Extraction 反省記録](http://mathshingo.chillout.jp/blog24.html)
 - [Tweet Sentiment Extraction 5位チーム解法](https://www.slideshare.net/taguchinaoya/20201010-ds-ltguchio/): アーカイブ動画も合わせて公開された解法発表資料。
 - [Tweet Sentiment Extraction 5位の参加録](https://www.slideshare.net/taguchinaoya/kaggle-tweet): 時系列に沿った取り組みと上位解法をまとめた参加録。
 
@@ -914,7 +894,6 @@
 
 - [Kaggle「MoA」で4位入賞、Masterの称号を獲得しました](https://techblog.recruit.co.jp/article-236/)
 - [Mechanisms of Action (MoA) Prediction 4位解法](https://www.m3tech.blog/entry/2021/01/13/180000): Code Competition 形式での取り組み方に焦点を当てた解説記事。
-- [Mechanisms of Action (MoA) Prediction 上位4%の解法](https://towardsdatascience.com/how-we-two-beginners-placed-in-kaggle-competition-top-4-3ea508638f2d?gi=7bf9e13fedec): 初心者 2 人による、手法と心構えの両面を紹介する記事。
 - [Mechanisms of Action (MoA) Prediction 4位解法](https://recruit-tech.co.jp/blog/2020/12/23/kaggle_moa/): 検証・特徴量エンジニアリング・アンサンブルの方法を紹介。
 - [Mechanisms of Action (MoA) Prediction ニューラルネットワークによるStacking紹介記事](https://tawara.hatenablog.com/entry/2020/12/16/132415): 最終的に最上位相当のスコアを達成した手法の紹介。
 
@@ -1104,14 +1083,6 @@
 
 </div>
 
-<div class="competition-entry" markdown="1" data-year="2021" data-datatype="text" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/c/commonlitreadabilityprize">CommonLit Readability Prize</a></h3>
-<span class="badge badge-year">2021</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
-
-- [CommonLit Readability Prize 25位の参加録](https://note.com/shigeru_0414/n/n0b0cb0da0c84): コンペ概要・解法・反省点をまとめた参加録。
-
-</div>
-
 <div class="competition-entry" markdown="1" data-year="2021" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/c/siim-covid19-detection">SIIM-FISABIO-RSNA COVID-19 Detection</a></h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
@@ -1218,8 +1189,6 @@
 
 - [Riiid! Answer Correctness Prediction 1位解法](https://www.kaggle.com/c/riiid-test-answer-prediction/discussion/218318): 系列長を 1700 以上利用した点が特徴。上位 5 チームの論文は国際学会ワークショップで公開。
 - [Riiid! Answer Correctness Prediction 1位解法ワークショップ初披露告知](https://www.kaggle.com/c/riiid-test-answer-prediction/discussion/211046): 優勝した keetar さんが開催主と協議のうえ 2 月 9 日に初披露。
-- [Riiid! Answer Correctness Prediction 銀メダル解法（Kaggleデビュー）](https://blog.tsurubee.tech/entry/2021/01/09/084035): Kaggle との出会いからコンペ終了までの過程を紹介。
-- [Riiid! Answer Correctness Prediction 銀メダル解法（LightGBM中心）](https://krksan.com/blogs/article/48): Kaggle Master 昇格を果たした yyykrk さんによる振り返り記事。
 - [Riiid! Answer Correctness Prediction 参加録（暫定52位）](https://naotaka1128.hatenadiary.jp/entry/riiid2020): コンペ概要と取り組みを紹介する参加録。
 - [Riiid! Answer Correctness Prediction のデータを用いたBigQueryML紹介記事](https://www.ai-shift.co.jp/techblog/1600): SQL の記述でモデルを学習する方法を紹介。
 
@@ -1246,7 +1215,6 @@
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
 - [OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction NVIDIAチーム解法共有](https://www.youtube.com/watch?v=sp3kZwKKYfw&feature=youtu.be): 2 位チームの ONODERA さんらによる解法発表。
-- [OpenVaccine 4位解法（コンペ未参加者向け解説）](https://towardsdatascience.com/predicting-mrna-degradation-using-gnns-and-rnns-in-the-search-for-a-covid-19-vaccine-b3070d20b2e5?gi=bc79e6b7e00a): 課題の背景も含めて端的に解説する記事。
 - [OpenVaccine 12位チームのDomain Adversarial Neural Networks解説記事](https://zenn.dev/koukyo1994/articles/8ebac81fd74d2f4f0905): 画像分類タスクでの検証結果も合わせて紹介。
 
 </div>
@@ -1271,7 +1239,6 @@
 <h3><a href="https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression">OSIC Pulmonary Fibrosis Progression</a></h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
-- [OSIC Pulmonary Fibrosis Progression 2位解法](https://krksan.com/blogs/article/45): コンペ中に考えたことを具体的に綴った解法記事。賞金受領に関する記事も公開。
 - [OSIC Pulmonary Fibrosis Progression 参加録](https://zenn.dev/currypurin/articles/ee355b70f3f245dca952): 終了後の検証内容も含めた取り組みのまとめ。
 
 </div>
@@ -1455,7 +1422,6 @@
 - [SIGNATE「The 4th Tellus Satellite Challenge：海岸線の抽出」解法まとめ](https://note.com/regonn314/n/n4ab040af3072): 上位解法の紹介記事へのリンクも掲載。
 - [SIGNATE「日本取引所グループ ファンダメンタルズ分析チャレンジ」ニューラルネットワーク活用チュートリアル](https://zenn.dev/katsu1110/articles/c5123713a2c14b): 一連のソースコードと提出方法を紹介する記事。
 - [SIGNATE「The 4th Tellus Satellite Challenge：海岸線の抽出」参加録](https://denden-seven.hatenablog.com/entry/coastline): 衛星画像から海岸線を推測する課題への取り組み記録。
-- [SIGNATE「CDLE HACKATHON 2020」優勝解法](https://lotti.info/cdle-hackathon-2020/): 雲画像の変化を予測する課題の具体的な処理や工夫点を解説。
 - [SIGNATE Student Cup 2023 の感想](https://qiita.com/haru1385/items/d947a1ba45720e357b1f): 前処理・特徴量・モデルを紹介する 25 位解法。
 - [SIGNATE Student Cup 2020](https://signate.jp/competitions/281/summary)
 - [SIGNATE Student Cup 2020 2位解法](https://www.slideshare.net/HogeBona/student-cup-2020-2nd-solution-lt): Twitter で公開された情報は togetter にまとめて掲載。
@@ -1738,7 +1704,6 @@
 
 - [シミュレーションコンペで銅メダル2つを獲得してkaggle Expertになった方法](https://zenn.dev/epicai_techblog/articles/a80959e01d62fd)
 - [Solafune「市街地画像の超解像化」11位解法](https://yuta0306.github.io/mscup-feedback): コンペ概要や具体的な取り組みをまとめた記事。
-- [Solafune「市街地画像の超解像化」5位解法](https://jp.morgenrot.cloud/blog/super-resolution-of-city-images/): 画像コンペで利用が増えている Swin Transformer を用いた超解像モデルを採用。
 - [Solafune「市街地画像の超解像化」参加録](https://sorabatake.jp/25220/): コンペの概要や取り組み、難しかった点を紹介。
 - [Solafune「市街地画像の超解像化」ベースライン（ESPCN）](https://zenn.dev/ren_uechi/articles/ab9eea97ec42e5): 日本マイクロソフトとの共同開催コンペのベースライン手法とコードを公開。
 
@@ -1849,7 +1814,6 @@
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
 
 - [jupyterノートブックを公開いたします（ Public２位、Private１位）](https://comp.probspace.com/topics/datascience-Post2959de7ddfcc4ee201b7)
-- [ProbSpace「Kiva／クラウドファンディングの資金調達額予測」の12位解法](https://yshr10ic.com/2022/02/27/probspace-kiva/): 融資マッチング支援機関「Kiva」の融資額を予測するコンペの解法。
 - [ProbSpace「対戦ゲームデータ分析甲子園」参加録](https://note.com/cograph_data/n/nfcc75513019e): 任天堂「スプラトゥーン」を題材にした、探索的データ分析を軸に据えたコンペの取り組み方紹介。
 
 </div>

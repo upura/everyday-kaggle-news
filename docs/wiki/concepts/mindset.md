@@ -18,7 +18,6 @@
 
 - [Kaggleで鍛えたスキルの実務での活かし方　競技とプロダクト開発のリアル](https://speakerdeck.com/recruitengineers/kagglededuan-etasukirunoshi-wu-denohuo-kasifang-jing-ji-topurodakutokai-fa-noriaru): Kaggle Grandmaster と Master による、コンペの学びを実務で活かした事例の発表資料。
 - [Kaggle Grandmasters Unveil Winning Strategies for Data Science Superpowers](https://developer.nvidia.com/blog/kaggle-grandmasters-unveil-winning-strategies-for-data-science-superpowers/): NVIDIA 所属 Grandmaster らによるコンペへの取り組み方の質問応答の抄録。
-- [Kaggleはどう実務やスキルアップに役立つか](https://aitc.hatenablog.com/entry/kaggle_for_data_science_skills): 企業データサイエンティストの視点で Kaggle 参加の利点を綴る記事。
 - [Kaggleや競プロのトップランカーが持つ「本質的な強み」とは。リクルートが作り出す、競技と業務の好循環](https://hatenanews.com/articles/2023/01/18/103000): 競技実績者へのインタビューを通じ、競技と実務の好循環を語る記事。
 - [北陸新幹線でAIを用いた「着雪量予測モデル」の本運用を開始します](https://www.westjr.co.jp/press/article/2022/11/page_21394.html): SIGNATE コンペ由来のモデルが実運用された事例。
 - [「メルカリShops」の価格推定モデル検証（Mercari 4位解法活用）](https://engineering.mercari.com/blog/entry/20220916-a0a50d6fc5/): Kaggle 由来の解法を実務で応用した事例記事。
@@ -30,7 +29,6 @@
 - [実例で示すKaggleコンペと開発実務の差（Q_takka 版）](https://speakerdeck.com/yusuketakagi/lpixel-caddi-ibentozi-liao): 企画や制約などプロジェクト進行の観点で実務との違いを示す発表資料。
 - [Kaggleで培った技術の業務活用事例](https://www.datarobot.com/jp/blog/business-use-of-kaggle-skills/): 顧客課題の解決に Kaggle の学びを活かした事例を Grandmaster が紹介する記事。
 - [NVIDIA所属Kaggle Grandmaster 9人によるイベントまとめ記事](https://developer.nvidia.com/blog/competition-and-community-insights-from-nvidias-kaggle-grandmasters/): おすすめライブラリやコンペへの取り組み方に関する質問応答をまとめた記事。
-- [Kaggle Masterの称号を持つ方の転職体験記](https://krksan.com/blogs/article/49): 書類選考の段階で役立った経験を綴る体験記。
 - [PFNが肺がん検診AIを試験導入](https://preferred.jp/ja/news/pr20201012/): 2018 年 Kaggle「RSNA Pneumonia Detection Challenge」の知見を実務に活用した事例。
 - [「AIを何から始めれば良いか」システムエンジニア向け解説記事（ABEJA）](https://qiita.com/yutakikuc/items/b1243a21c3decfa83d3b): 教師あり学習を題材にサービス導入への道筋を言語化した記事。
 
@@ -72,8 +70,6 @@
 - [2022年時点での機械学習コンペの動向をまとめた記事](https://medium.com/machine-learning-insights/winning-approach-ml-competition-2022-b89ec512b1bb): プログラミング言語・上位解法アプローチ・利用ライブラリなどを可視化した記事。
 - [2020年の面白かったコンペ・論文に関する9人のKagglerアンケート記事](https://sorabatake.jp/18734/): 2020 年を振り返るアンケート結果のまとめ記事。
 - [ディープラーニングのモデリングに関する経験則まとめ（Togetter）](https://togetter.com/li/1570085): 多くの実践者が自身の経験則を述べたスレッドのまとめ。
-- [Kaggleコンペ後に技術報告・論文を書くためのTips記事](https://towardsdatascience.com/writing-papers-tech-reports-after-kaggle-competitions-ee504fc0c4c1?gi=90d442b3602e): 執筆の意義・難しさ・具体的なステップを紹介。
-- [Notebooksランク1位によるBengaliコンペ振り返り（メダルなし）](https://towardsdatascience.com/what-to-do-when-you-dont-get-any-medal-in-a-kaggle-competition-b54cc433da3?gi=458782e3d00e): 実行環境・GPU・Pipeline の観点で得た知見をまとめた記事。
 
 ### コミュニティのエピソード
 

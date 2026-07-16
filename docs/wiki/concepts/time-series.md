@@ -17,11 +17,8 @@
 
 ### ライブラリ・ツール
 
-- [複数の時系列モデルを統一的に扱うライブラリ「Darts」の紹介記事](https://blog.ikedaosushi.com/entry/2020/08/25/003557): アルゴリズムに加え検証・可視化用の関数も用意。
 - [「PyTorch Forecasting」の紹介記事](https://towardsdatascience.com/introducing-pytorch-forecasting-64de99b9ef46?gi=7393708a2fb): 最先端の時系列モデルを手軽に利用できるライブラリの紹介。
 - [時系列予測に使えるPythonライブラリまとめ記事](http://zakopilo.hatenablog.jp/entry/2020/07/19/173851): Prophet・PyFlux・Pyro・PyTorch・LightGBM の使い方を紹介。
-- [Microsoftによる時系列予測ベストプラクティスリポジトリ](https://github.com/microsoft/forecasting): ARIMA・線形回帰・LightGBM・CNN などをまとめた GitHub リポジトリ。
-- [PyCaretに時系列分析用の新モジュールが追加](https://towardsdatascience.com/announcing-pycarets-new-time-series-module-b6e724d4636c?gi=e51367bdc8a0): ソースコードと実行結果をまとめた発表記事。
 - [Prophetによる時系列データ予測: Analyst-in-the-Loop](https://zenn.dev/aidemy/articles/3587a5c0d4c210): 株価データを題材にした Prophet による分析の流れの紹介。
 - [最先端時系列データ分析モデルETSformerを使ってみた](https://qiita.com/Isaka-code/items/848589fc4d7dd153e915): Salesforce 製の時系列モデル ETSformer の紹介記事。
 
@@ -49,8 +46,6 @@
 - [Kaggleで学ぶ系列データのための深層学習モデリング](https://speakerdeck.com/yu4u/kaggletexue-huxi-lie-tetanotamenoshen-ceng-xue-xi-moterinku): 系列データを扱ったコンペと上位解法から深層学習モデリングを俯瞰する資料。
 - [時系列予測にTransformerを使うのは有効か？](https://www.slideshare.net/ssuser369dbc/transformer-261229829): 賛否両論の論文を題材に Transformer の時系列予測への有効性を解説する資料。
 - [Transformerを用いた時系列予測の記事](https://blog.brainpad.co.jp/entry/2021/02/17/140000): 製品購入量の予測タスクを題材にした概要説明と実装。
-- [Transformerで時系列データを扱う記事（Keras実装）](https://towardsdatascience.com/the-time-series-transformer-2a521a0efad3?gi=d3f3a4c95be8): 上位解法にしばしば登場する手法の実装例。
-- [Uberの深層学習による到着時間推定（DeepETA）](https://eng.uber.com/deepeta-how-uber-predicts-arrival-times/): XGBoost からの置き換え過程を、問題設定・特徴量・アーキテクチャ・高速化・バイアス・損失関数・デプロイの観点で解説。
 
 ### 実務・前処理・書籍
 

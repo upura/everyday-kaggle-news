@@ -4,7 +4,6 @@
 
 [Awesome Kaggle Grandmaster Stories](https://github.com/yu4u/awesome-kaggle-grandmaster-stories)
 
-- [新卒(ほぼ)専業Kagglerという選択肢](https://speakerdeck.com/nocchi1/xin-zu-hobo-zhuan-ye-kagglertoiuxuan-ze-zhi): 卒業後に専業 Kaggler として活動し Grandmaster に昇格した体験の発表資料。
 - [Kaggle Competition Grandmasterになるまでの振り返り](https://sqrt4kaido.hatenablog.com/entry/2025/01/02/165851): 印象深いコンペの思い出とともに昇格までを振り返る記事。
 - [Kaggle Competitions Grandmaster になるまでの 6年半を振り返る](https://kaeru-nantoka.hatenablog.com/entry/2024/12/20/161203): 称号獲得までに参加したコンペを取り上げた振り返り記事。
 - [2021年にKaggle Grandmasterの称号を獲得したterekaさんの振り返り記事](https://nonbiri-tereka.hatenablog.com/entry/2021/12/25/221425): メリット・デメリットや今後の挑戦を綴る「Kaggle Advent Calendar 2021」最終日の記事。
@@ -23,13 +22,12 @@
 - [Kaggle Grandmasterになったのでこれまでの参加コンペを振り返る](https://yu4u.hatenadiary.org/entry/2023/01/15/185119): G2Net コンペで昇格した yu4u さんの回顧録。
 - [Kaggle Masterになったのでポエム](https://zenn.dev/umeko/articles/18accdcf05da6a): Master 昇格までのコンペ歴を綴る振り返り記事。
 - [Kaggle コンペ Feedback Prize - English Language Learning でチーム参加15位金メダル取得で、Kaggle Master へ](https://secon.dev/entry/2022/11/30/100000-kaggle-fp3-comp/)
-- [Open Problems - Multimodal Single-Cell Integration 優勝者の振り返り](https://www.mattari-benkyo-note.com/2022/11/19/open-problems-multimodal/): 優勝と同時に Grandmaster 昇格した Shuji Suzuki さんの振り返り記事。
+- [Open Problems - Multimodal Single-Cell Integration 優勝者の振り返り](https://mattari-benkyo-note.com/2022/11/19/open-problems-multimodal/): 優勝と同時に Grandmaster 昇格した Shuji Suzuki さんの振り返り記事。
 - [Dieter さんの Grandmaster への軌跡](https://christofhenkel.github.io/dieters-blog-v2/posts/2022-11-20-chapter-3.html): 個人参加で金メダルを重ね世界ランク 1 位になった軌跡の記事。
 - [Google Universal Image Embedding で Grandmaster に昇格した振り返り](https://zenn.dev/hirune924/articles/6519ee83e817a9): hirune924 さんの GM 昇格振り返り記事。
 - [10日に終了したKaggle「Google Universal Image Embedding」で5位に入ったhirune924さんがGrandmasterに昇格しました](https://www.nssol.nipponsteel.com/press/2022/20221019_110000.html): 所属企業によるプレスリリース。
 - [Google Smartphone Decimeter Challenge 2022 上位者へのインタビュー](https://www.gpsworld.com/smart-ways-to-improve-smartphone-location-accuracy/)
 - [Rist の Kaggle チーム紹介](https://www.rist.co.jp/blog/202209084200/): Grandmaster 4 人が在籍するチームのメンバー Q&A 記事。
-- [Kaggle Master taksai さんのインタビュー](https://voice.pkshatech.com/n/n17b099a74f83): コンペで得られた学びを語るインタビュー記事。
 - [世界トップクラスAIエンジニアの証明である「Kaggle Grandmaster」に世界で最初に認定された73名のうちの一人・小嵜耕平がRistに入社](https://www.rist.co.jp/202303014651/): 『Kaggleに挑む深層学習プログラミングの極意』著者 smly さんの入社リリース。
 - [4人のKaggle Grandmasterが所属する「Rist」のインタビュー記事](https://news.mynavi.jp/techplus/article/20220824-2431717/): Kaggle に関する社内制度も紹介する記事。
 - [大阪大学 第23回課外活動総長賞 特別賞 受賞報告](https://www.osaka-u.ac.jp/ja/news/topics/2022/08/03001): Kaggle「SETI Breakthrough Listen - E.T. Signal Search」7位の実績が表彰。
@@ -107,7 +105,6 @@
 - [【R-plus+番外編】Kaggle Grandmaster対談インタビュー（後編）](https://www.rist.co.jp/blog/202408217166/)
 - [Kaggle GrandmasterのY.NakamaさんとHidehisa Araiさんのインタビュー記事](https://atmarkit.itmedia.co.jp/ait/articles/2111/24/news003.html): Kaggle に参戦したきっかけなどを語るインタビュー。後編も公開。
 - [2021年度リクルート入社Kaggle Grandmaster 2人へのインタビュー記事](https://atmarkit.itmedia.co.jp/ait/articles/2111/08/news009.html): 称号獲得に至るまでの体験談を綴るインタビュー。
-- [SIGNATE社員へのインタビュー動画](https://ledge.ai/ledge-ai-webinar-vol37/): コンペを運営する SIGNATE の社員が語るインタビュー動画。
 - [atmaCup3回優勝のKaggle Masterのpaoさんインタビュー](https://note.com/abeja/n/n45503527d8a3): Kaggle の魅力や業務とのつながりを語るインタビュー。
 - [Grandmasterのterekaさんインタビュー](https://www.wantedly.com/companies/acroquest/post_articles/342271): 7 年間の積み重ねと今後の意気込みを語るインタビュー。
 - [Kaggle Grandmasterのiwiwiさんインタビュー](https://gaishishukatsu.com/archives/175884): 競技プログラミングや Kaggle で習得したスキルを活かしたキャリアを紐解くインタビュー。
@@ -126,8 +123,6 @@
 - [Kaggleコンペ部門世界ランク1位Guanshuo Xuさんインタビュー](https://towardsdatascience.com/what-it-takes-to-become-a-world-no-1-on-kaggle-f149df44e98c?gi=f8a3c95cf672): 機械学習との関わりや Kaggle への取り組み方を語るインタビュー。
 - [Kaggleコンペ部門ランキング1位Psiさん登壇「My journey to Kaggle #1」動画](https://www.youtube.com/watch?v=OenmJTdF0-M&feature=youtu.be): 過去コンペの振り返りと知見の共有。
 - [Kaggleコンペ部門ランキング1位Psiさん登壇イベント告知](https://www.meetup.com/Machine-Learning-Tokyo/events/276942874/): 「My journey to Kaggle #1」と題した講演と質疑応答の告知。
-- [H2O.ai所属Kaggle GrandmasterによるパネルディスカッションPsi・Guanshuo Xu対談](https://www.pscp.tv/w/1dRKZNnkPyDKB): Kaggle コンペ部門ランキング上位 2 名が登壇。
-- [Kaggle登録から10年経過した所感記事（Koheiさん）](https://i.ho.lc/kaggle-10-years.html): 印象的な出来事や運営側の立場からの気付きを語る記事。
 - [Kaggle GrandmasterのTheo Vielさんインタビュー](https://analyticsindiamag.com/interview-with-kaggle-gm-and-deep-learning-researcher-theo-viel/): お気に入りのテキストエディタとして VS Code を挙げるインタビュー。
 - [Kaggle 3カテゴリGrandmasterのRob Mullaさんインタビュー](https://analyticsindiamag.com/interview-kaggle-grandmaster-rob-mulla/): Notebooks 称号取得後 Competition に注力した経緯や今後注目の領域を語る。
 - [Kaggle GrandmasterのPsiさんインタビュー（H2O.ai）](https://www.h2o.ai/blog/meet-the-data-scientist-who-just-cant-stop-winning-on-kaggle/): Kaggle 参加の経緯や心構えを語るインタビュー。
@@ -143,7 +138,6 @@
 - [Kaggle公式YouTubeでGrandmasterインタビュー動画公開開始](https://www.youtube.com/playlist?list=PLqFaTIg4myu_nXnLEgDfhPhfMqeMQ_Bcl): 30 日時点で 7 人分の動画を公開。
 - [Hugging Face共同創業者インタビュー](https://www.youtube.com/watch?v=invR7r7c_pU&feature=youtu.be): 自然言語処理研究にたどり着いた経緯や熱意を語るインタビュー。
 - [Kaggle「Google Landmark Recognition 2020」優勝チームインタビュー](https://www.youtube.com/watch?v=NRl3lMlixPc&feature=youtu.be): Dieter さんと Psi さんが解法と Kaggle の魅力を語るインタビュー。
-- [SIGNATE「第3回AIエッジコンテスト」優勝JR西日本社員インタビュー](https://ledge.ai/jr-west-ai-edge-contest-champion/): 解法概要と社内データ分析チームへの異動の経緯を紹介。
 - [「COVID-19 Open Research Dataset Challenge」優勝者インタビュー](https://medium.com/kaggle-blog/gaining-a-sense-of-control-over-the-covid-19-pandemic-a-winners-interview-with-daniel-wolffram-1320fb2717c4): 技術的な取り組みと得られた知見を語るインタビュー。
 - [全4カテゴリGrandmaster Chris Deotteさんインタビュー動画](https://www.youtube.com/watch?v=QGCvycOXs2M): 称号獲得の秘訣と人柄を語るインタビュー。
 - [Kaggle MasterのPaoさんの転職エントリ](https://pao2.hatenablog.com/entry/2020/04/25/013310): Kaggle 経験が転職に活きたポイントを紹介。Kaggle Master かまろさんの転職エントリも同時期に公開。
@@ -158,6 +152,4 @@
 - [『Kaggleで勝つデータ分析の技術』著者・門脇さん（threecourse）インタビュー](https://trainz.jp/media/89/): 執筆の背景や反響を語るインタビュー。
 - [Kaggle運営Walterさん（Inversion）インタビュー動画](https://www.youtube.com/watch?v=OoB_LQpgDCk&feature=youtu.be): 入社前の話も含む「中の人」への貴重な質疑。
 - [2019年のKaggleコンペ振り返り動画](https://www.youtube.com/watch?v=pL96IPZZ-88&feature=youtu.be): 勝者・ツール・賞金・国など多角的な観点で総括。
-- [Kaggle過去最高ランク38位の方による経歴記事](https://neongen-ai.github.io/2020/01/18/how_I_found_my_current_job.html): 転職を機に Kaggle へ注力し始めた理由を紹介。
-- [Kaggle GrandmasterのVladimir Iglovikovさん転職体験記](https://towardsdatascience.com/how-i-found-my-current-job-3fb22e511a1f?gi=e7a0e1df0fcc): Deep Learning / Computer Vision 業界へ飛び込むまでの挫折を含む体験記。
 - [Kaggle史上初のトリプルGM AbhishekさんのYouTubeチャンネル](https://www.youtube.com/user/abhisheksvnit/videos): 実際のコーディングの様子を含む動画を公開。

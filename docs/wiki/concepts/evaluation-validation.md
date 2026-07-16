@@ -19,10 +19,9 @@
 - [機械学習の落とし穴 リーク問題について](https://tech-blog.abeja.asia/entry/advent-2023-day15): リークの定義と実例、回避のための実践的な観点を整理した記事。
 - [トラブルがあったコンペに学ぶデータ分析](https://speakerdeck.com/tereka114/toraburugaatutakonpenixue-budetafen-xi): ライセンスやデータ漏洩など、コンペで実際に起きた問題を参加者目線で紹介する資料。
 - [Feature Importanceによる特徴量選択とリーク](https://speakerdeck.com/rsakata/feature-importanceniyorute-zheng-liang-xuan-ze-toriku): 変数重要度による特徴量選択でのデータ分割の注意点を人工データで検証した資料。
-- [機械学習モデル構築時のデータ漏洩問題を紹介する記事](https://towardsdatascience.com/data-leakage-in-machine-learning-how-it-can-be-detected-and-minimize-the-risk-8ef4e3a97562?gi=1a3ddeb0b0f0): リークの検知方法と対応方法を事例付きで解説。
 - [金融業界での機械学習活用アンチパターン論文の要点まとめ記事](https://zenn.dev/atfujita/articles/35a546f083b69a): データ漏洩やサンプリングなどの問題を扱う論文の解説。
 - [金融持株会社を題材にした機械学習アンチパターン論文](https://arxiv.org/abs/2107.00079): コロナ禍での性能悪化やデータ漏洩の問題を扱う原論文。
-- [COVID-19画像データセットの"Leakage"を議論する記事（DataRobot）](https://blog.datarobot.com/identifying-leakage-in-computer-vision-on-medical-images): 撮影状況由来の特徴が判別に使われている点を可視化して指摘。
+- [COVID-19画像データセットの"Leakage"を議論する記事（DataRobot）](https://www.datarobot.com/blog/identifying-leakage-in-computer-vision-on-medical-images): 撮影状況由来の特徴が判別に使われている点を可視化して指摘。
 - [「M4」コンペ参加者による論文（データリーク議論）](https://arxiv.org/abs/2003.12796): コンペ成功要因の一つとしてデータリークを指摘し、コンペ設計への提言も含む。
 
 ### データセット品質・ラベル誤り

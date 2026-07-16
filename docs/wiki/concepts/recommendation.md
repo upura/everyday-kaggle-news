@@ -20,7 +20,6 @@
 - [推薦システムの演習問題集 recsys-python](https://recsyslab.github.io/recsys-python/): 13 章構成・全 163 問でコードと出力結果つきの演習教材。
 - [ウェブ上でのユーザ行動分析まとめ記事](https://speakerdeck.com/karakurist/user-behaviour-vol2): 国際学会で開催されたコンペの解法も紹介する資料。
 - [埋め込み表現の活用方法紹介資料（検索・推薦、KaggleライクなCI環境構築）](https://speakerdeck.com/nadare881/embeddingwoyong-itafen-xi-jian-suo-tui-jian-falseji-shu): ニューラルネットワークで獲得した埋め込み表現の活用手法をまとめた資料。
-- [Netflix Prizeの意義を振り返る記事](https://xamat.medium.com/on-the-usefulness-of-the-netflix-prize-403d360aaf2): 優勝モデルの本番実装にも取り組んだ Xavier Amatriain さんによる振り返り。
 
 ### コンペ解法・取り組み
 
