@@ -14,6 +14,8 @@
 
 ## コンペの開催情報
 
+本サイトの[コンペ開催カレンダー](./calendar.md)で、開催中のメダル対象コンペの期間をタイムラインで確認できます（Kaggle API から毎日自動更新）。
+
 [Kaggle 公式のコンペ一覧](https://www.kaggle.com/competitions)でも確認できますが、有志による X（旧 Twitter）の bot が有用です。
 
 - [Kagoole](https://x.com/kagoole): 新着コンペを通知します。

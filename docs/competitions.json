@@ -1,0 +1,77 @@
+{
+ "updatedAt": "2026-07-17T09:16:55Z",
+ "competitions": [
+  {
+   "slug": "rogii-wellbore-geology-prediction",
+   "title": "ROGII - Wellbore Geology Prediction",
+   "url": "https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction",
+   "category": "Featured",
+   "reward": "50,000 USD",
+   "organization": "ROGII",
+   "start": "2026-05-05",
+   "deadline": "2026-08-05T23:59:00Z",
+   "teamCount": 5091,
+   "longRunning": false
+  },
+  {
+   "slug": "pokemon-tcg-ai-battle",
+   "title": "The Pokémon Company - PTCG AI Battle Challenge Simulation",
+   "url": "https://www.kaggle.com/competitions/pokemon-tcg-ai-battle",
+   "category": "Featured",
+   "reward": "Knowledge",
+   "organization": "The Pokémon Company - PTCGABC Team",
+   "start": "2026-06-16",
+   "deadline": "2026-08-16T23:59:00Z",
+   "teamCount": 5183,
+   "longRunning": false
+  },
+  {
+   "slug": "ai-agent-security-multi-step-tool-attacks",
+   "title": "AI Agent Security - Multi-Step Tool Attacks",
+   "url": "https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks",
+   "category": "Featured",
+   "reward": "50,000 USD",
+   "organization": "OpenAI",
+   "start": null,
+   "deadline": "2026-09-01T23:59:00Z",
+   "teamCount": 1994,
+   "longRunning": false
+  },
+  {
+   "slug": "biohub-cell-tracking-during-development",
+   "title": "Biohub - Cell Tracking During Development",
+   "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development",
+   "category": "Research",
+   "reward": "60,000 USD",
+   "organization": "Biohub",
+   "start": "2026-06-29",
+   "deadline": "2026-09-29T23:59:00Z",
+   "teamCount": 1312,
+   "longRunning": false
+  },
+  {
+   "slug": "arc-prize-2026-arc-agi-2",
+   "title": "ARC Prize 2026 - ARC-AGI-2",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2",
+   "category": "Featured",
+   "reward": "700,000 USD",
+   "organization": "Abstraction and Reasoning Corpus",
+   "start": "2026-03-25",
+   "deadline": "2026-11-02T23:59:00Z",
+   "teamCount": 1177,
+   "longRunning": false
+  },
+  {
+   "slug": "arc-prize-2026-arc-agi-3",
+   "title": "ARC Prize 2026 - ARC-AGI-3",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3",
+   "category": "Featured",
+   "reward": "850,000 USD",
+   "organization": "Abstraction and Reasoning Corpus",
+   "start": "2026-03-25",
+   "deadline": "2026-11-02T23:59:00Z",
+   "teamCount": 1765,
+   "longRunning": false
+  }
+ ]
+}

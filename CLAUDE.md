@@ -23,9 +23,10 @@
 - `README.md` の「最近の更新」セクション — 直近 5 件程度のダイジェストを維持する
 - `docs/wiki/log.md` — 操作ログ（新しいものを上に追記）
 - `docs/wiki/concepts/*.md` — 概念ページ（話題ごとの統合知識と資料の全リスト）
-- `docs/` 直下の一覧ページ 8 本: quickstart / recent / solutions / milestones / books / events / service / platform
+- `docs/` 直下の一覧ページ 9 本: quickstart / recent / solutions / milestones / books / events / service / platform / calendar
   - エントリ追記・注釈付与は通常のオペレーションとして実施
-  - 見出し・ページの分割統合などの構成変更も可能だが、8 ページの役割分担（分類）とエントリ形式は保ち、構成変更は log.md に `restructure` として記録する
+  - 見出し・ページの分割統合などの構成変更も可能だが、9 ページの役割分担（分類）とエントリ形式は保ち、構成変更は log.md に `restructure` として記録する
+  - calendar（コンペ開催カレンダー）は例外的にデータ駆動のページ: GitHub Actions の `update-competitions` が毎日生成する `docs/competitions.json` を表示する。エントリの手動追記や ingest の掲載先にはしない
 
 ## エントリ形式
 
