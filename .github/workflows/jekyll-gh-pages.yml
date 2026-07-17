@@ -6,6 +6,10 @@ on:
   push:
     branches: ["main"]
 
+  # 毎日 06:00 JST に最新のコンペ開催情報(docs/calendar.md 用)で再ビルドする
+  schedule:
+    - cron: "0 21 * * *"
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -32,6 +36,15 @@ jobs:
         run: |
           python3 tools/build_search_index.py
           python3 tools/build_graph_data.py
+      # コンペ開催カレンダー用のデータを取得(要シークレット KAGGLE_API_TOKEN。
+      # 失敗時はコミット済みの docs/competitions.json をそのまま使う)
+      - name: Fetch latest competitions data
+        continue-on-error: true
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: python3 tools/fetch_competitions.py docs/competitions.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll

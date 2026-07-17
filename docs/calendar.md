@@ -150,7 +150,7 @@
       });
     }).filter(function (c) { return isFinite(c.end) && c.end > Date.now(); });
     if (!comps.length) {
-      message("コンペ情報がまだ生成されていません。GitHub Actions の update-competitions ワークフローの実行後に表示されます。");
+      message("コンペ情報がまだ生成されていません。次回のサイトビルド後に表示されます。");
       return;
     }
     comps.sort(function (a, b) { return a.end - b.end; });

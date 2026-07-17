@@ -26,7 +26,7 @@
 - `docs/` 直下の一覧ページ 9 本: quickstart / recent / solutions / milestones / books / events / service / platform / calendar
   - エントリ追記・注釈付与は通常のオペレーションとして実施
   - 見出し・ページの分割統合などの構成変更も可能だが、9 ページの役割分担（分類）とエントリ形式は保ち、構成変更は log.md に `restructure` として記録する
-  - calendar（コンペ開催カレンダー）は例外的にデータ駆動のページ: GitHub Actions の `update-competitions` が毎日生成する `docs/competitions.json` を表示する。エントリの手動追記や ingest の掲載先にはしない
+  - calendar（コンペ開催カレンダー）は例外的にデータ駆動のページ: Pages ビルド（`jekyll-gh-pages`、毎日定期再ビルド）が `tools/fetch_competitions.py` で生成する `docs/competitions.json` を表示する。エントリの手動追記や ingest の掲載先にはしない
 
 ## エントリ形式
 
