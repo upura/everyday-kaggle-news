@@ -13,9 +13,9 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
 - 2025〜2026 年、初期の Simulation Competitions の系譜が新しい意味を持ち始めている。公式ゲームエンジン提供の大型対戦コンペや、Kaggle 自身が運営するモデル評価基盤「Game Arena」の登場により、対戦型コンペは実験的な一形式から、フロンティアモデルを評価する中心的な仕組みへと役割を広げた。データ上もシミュレーションは 2025 年に再登場し、マルチモーダルも 2024〜2025 年に初めて現れるなど、直近の多様化がうかがえる（[性能評価と検証](./evaluation-validation.md)も参照）
 - 「その年に何が話題だったか」を振り返るアンケート・年次まとめ記事が 2020 年以降ほぼ毎年蓄積されており、技術動向を定点観測する材料になっている
 
-## データで見る：メダル対象コンペのデータ種別構成（2015〜2025）
+## データで見る：メダル対象コンペのデータ種別構成（2015〜2026）
 
-押さえどころで述べた変遷を、Kaggle 公式の Meta Kaggle データセットで裏づけます。メダル対象コンペ（`CanQualifyTiers` が真の 461 件）だけを抜き出し、締切年ごとにデータ種別の構成を集計しました。表データが最大種別だった時代から、画像（2017〜2021 年）・テキスト（2022 年以降）へと主役が移り、直近ではシミュレーション（対戦型）とマルチモーダルが加わる流れが見て取れます。「構成比」と「件数」を切り替えられ、棒にカーソルを合わせると内訳を表示します。データ種別はコンペタグからの推定である点に注意が必要で、より精緻な分類は人手でタグ付けした[コンペ参加録](../../solutions.md)のほうが正確です。
+押さえどころで述べた変遷を、Kaggle 公式の Meta Kaggle データセットで裏づけます。メダル対象コンペ（`CanQualifyTiers` が真のもの）だけを抜き出し、締切年ごとにデータ種別の構成を集計しました。表データが最大種別だった時代から、画像（2017〜2021 年）・テキスト（2022 年以降）へと主役が移り、直近ではシミュレーション（対戦型）とマルチモーダルが加わる流れが見て取れます。「構成比」と「件数」を切り替えられ、棒にカーソルを合わせると内訳を表示します。データ種別はコンペタグからの推定である点に注意が必要で、より精緻な分類は人手でタグ付けした[コンペ参加録](../../solutions.md)のほうが正確です。なお末尾の 2026 年（`*`）は進行中の暫定値で、集計方法も他の年と異なります（図の下の注記を参照）。
 
 <style>
 #ce-fig { border: 1px solid #d0d7de; border-radius: 8px; padding: 16px 18px 18px; margin: 8px 0; }
@@ -31,7 +31,9 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
 #ce-chart .ce-axis { stroke: #d0d7de; }
 #ce-chart .ce-grid { stroke: #eff2f5; stroke-width: 1; }
 #ce-chart rect.ce-seg { stroke: #fff; stroke-width: 2; transition: opacity .12s; }
-#ce-chart rect.ce-seg.ce-dim { opacity: .28; }
+#ce-chart rect.ce-seg.ce-prov { opacity: .58; }
+#ce-chart rect.ce-seg.ce-dim { opacity: .24; }
+#ce-chart text.ce-prov-mark { fill: #6e7781; font-style: italic; }
 #ce-tip { position: fixed; z-index: 10; max-width: 240px; background: #fff; border: 1px solid #d0d7de; border-radius: 8px; padding: 8px 11px; box-shadow: 0 4px 12px rgba(0,0,0,.14); font-size: 12px; color: #57606a; pointer-events: none; display: none; line-height: 1.6; }
 #ce-tip .ce-tt { font-weight: 600; color: #1f2328; }
 #ce-tip .ce-tr { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
@@ -56,13 +58,14 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
     <summary>データを表で見る（件数）</summary>
     <div style="overflow-x:auto"><table id="ce-table"></table></div>
   </details>
-  <p class="ce-note">出典: Kaggle 公式 <code>Meta Kaggle</code>（2026-07-31 取得）。メダル対象は <code>CanQualifyTiers = true</code> で定義。データ種別はコンペタグからの推定で、タグ付き 245/326 件（カバー率 75%、2025 年は 52%）を集計。年は締切年ベースで、単年の母数は 14〜27 件と小さい点に留意。</p>
+  <p class="ce-note">出典: Kaggle 公式 <code>Meta Kaggle</code>（2026-07-31 取得）。メダル対象は <code>CanQualifyTiers = true</code> で定義。年は締切年ベースで、単年の母数は 14〜27 件と小さいため構成比はぶれやすい。<br><b>2015〜2025 年</b>: データ種別はコンペタグ（<code>data type &gt; …</code> 等）からの機械的な集計で、タグの付かないコンペは除外している（タグ付き 245/326 件、カバー率 75%、2025 年は 52%）。<br><b>* 2026 年（暫定・要注意）</b>: 2026-07-31 時点で進行中の年で、コンペタグがまだ整備されていないため、<b>他の年と集計方法が異なり</b>、締切・タイトルから手作業で分類した。メダル対象 24 件のうち分類できた 18 件を集計し、データ種別の枠組みに馴染まない 6 件（数理最適化の Santa、分子構造予測の RNA 3D Folding、抽象推論の ARC-AGI-2／3、内容が判別しづらい NeuroGolf・Kaggriculture）は除外している。とくに ARC・AIMO のような大型の推論・エージェント系コンペは「データ種別」に収まりにくく、この図は 2026 年に進む推論・対戦型へのシフトを過小評価する（賞金規模では推論・エージェント・対戦型が 2026 年メダルコンペの約 8 割を占める）。年後半にコンペが追加され得る点も含め、2026 年は参考値として扱ってほしい。より精緻な分類は人手でタグ付けした<a href="../../solutions.md">コンペ参加録</a>のほうが正確。</p>
 </div>
 <div id="ce-tip" role="tooltip"></div>
 
 <script>
 (function () {
-  var YEARS = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
+  var YEARS = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
+  var PROVISIONAL = 2026;
   var MODS = ["tabular", "text", "image", "timeseries", "audio", "video", "multimodal", "simulation"];
   var JA = {
     tabular: "テーブル", text: "テキスト (NLP)", image: "画像", timeseries: "時系列",
@@ -73,14 +76,14 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
     audio: "#1baf7a", video: "#eb6834", multimodal: "#4a3aa7", simulation: "#e34948"
   };
   var BY = {
-    tabular: [19, 17, 6, 4, 8, 3, 4, 7, 7, 3, 1],
-    text: [1, 1, 4, 1, 3, 4, 3, 7, 2, 8, 4],
-    image: [2, 6, 12, 10, 14, 11, 12, 9, 8, 5, 4],
-    timeseries: [1, 0, 0, 0, 0, 2, 0, 1, 2, 2, 2],
-    audio: [0, 0, 0, 0, 1, 1, 2, 1, 2, 1, 0],
-    video: [0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0],
-    multimodal: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
-    simulation: [0, 0, 0, 0, 0, 2, 3, 1, 1, 0, 2]
+    tabular: [19, 17, 6, 4, 8, 3, 4, 7, 7, 3, 1, 4],
+    text: [1, 1, 4, 1, 3, 4, 3, 7, 2, 8, 4, 4],
+    image: [2, 6, 12, 10, 14, 11, 12, 9, 8, 5, 4, 5],
+    timeseries: [1, 0, 0, 0, 0, 2, 0, 1, 2, 2, 2, 2],
+    audio: [0, 0, 0, 0, 1, 1, 2, 1, 2, 1, 0, 1],
+    video: [0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+    multimodal: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+    simulation: [0, 0, 0, 0, 0, 2, 3, 1, 1, 0, 2, 2]
   };
   var NS = "http://www.w3.org/2000/svg";
   var mode = "share";
@@ -129,13 +132,14 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
         var val = share ? (tot ? raw / tot * 100 : 0) : raw;
         var y0 = yOf(acc), y1 = yOf(acc + val);
         acc += val;
-        var r = svg("rect", { "class": "ce-seg", x: x, y: y1, width: bar, height: Math.max(0, y0 - y1), fill: COL[k] });
+        var r = svg("rect", { "class": (yr === PROVISIONAL ? "ce-seg ce-prov" : "ce-seg"), x: x, y: y1, width: bar, height: Math.max(0, y0 - y1), fill: COL[k] });
         r.setAttribute("data-k", k);
         attachTip(r, yr, k, raw, tot);
         s.appendChild(r);
       });
       var xl = svg("text", { x: cx, y: H - mb + 15, "text-anchor": "middle", "font-size": 10.5 });
-      xl.textContent = "'" + String(yr).slice(2);
+      xl.textContent = "'" + String(yr).slice(2) + (yr === PROVISIONAL ? "*" : "");
+      if (yr === PROVISIONAL) { xl.setAttribute("class", "ce-prov-mark"); }
       s.appendChild(xl);
       if (!share && tot > 0) {
         var tl = svg("text", { x: cx, y: yOf(tot) - 5, "text-anchor": "middle", "font-size": 10, "font-weight": 600, fill: "#6e7781" });
