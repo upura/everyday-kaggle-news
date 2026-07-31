@@ -1,17 +1,242 @@
 # コンペ形式・技術動向の変遷
 
 Kaggle のコンペは、表データ・GBDT を中心とした時代から、画像・自然言語処理の深層学習化、コード提出形式の定着を経て、直近では LLM エージェントと対戦型コンペがプラットフォームの中心機能になりつつあります。
-本ページは各データ種別・技術動向系のページを横断する時系列の見取り図です（本リンク集は Weekly Kaggle News のアーカイブが始まる 2019 年末以降を主にカバーするため、それ以前の記述は一般的な文脈情報として扱っています）。
+本ページは各データ種別・技術動向系のページを横断する時系列の見取り図です（本リンク集は Weekly Kaggle News のアーカイブが始まる 2019 年末以降を主にカバーするため、それ以前の記述は一般的な文脈情報として扱っています）。後半では、この見取り図を Kaggle 公式の Meta Kaggle データセットで裏づける図も掲載しています。
 
 ## 押さえどころ
 
-- 表データ・GBDT はコンペの共通言語として今も生き続けている。Titanic の後継として月次開催された Tabular Playground Series がその象徴で、初学者の入口という役割は形を変えて続いている
-- 2019〜2021 年にかけて、[表データコンペ](./tabular.md)と並走する形で[画像認識コンペ](./image-recognition.md)・[自然言語処理コンペ](./nlp-llm.md)が本格的な柱になった。同時期に「学習済みモデルと推論コードをノートブックとして提出する」[コードコンペティション](./code-competition.md)形式の導入が進み、実行時間制限・オフライン実行という制約が戦い方を変えた
-- 「値の予測」ではなく「エージェントを提出して対戦する」Simulation Competitions は、実は 2018〜2021 年の Halite・Connect X・Lux AI・Hungry Geese の頃から存在する古参の形式。この時期はまだ強化学習中心の一分野という位置づけだった（[エージェント対戦コンペ](./agent-competition.md)）
+- 表データ・GBDT はコンペの共通言語として今も生き続けている。Titanic の後継として月次開催された Tabular Playground Series がその象徴で、初学者の入口という役割は形を変えて続いている。一方でメダル対象コンペに限ると、表データの構成比は 2015 年の 8 割超から 2020 年代半ばには 1〜2 割へと下がっており、主戦場が月次の Playground 側へ移ったことがうかがえる（下図）
+- 2019〜2021 年にかけて、[表データコンペ](./tabular.md)と並走する形で[画像認識コンペ](./image-recognition.md)・[自然言語処理コンペ](./nlp-llm.md)が本格的な柱になった。メダル対象コンペでも同区間は画像が最大種別で、2019 年は 27 件中 14 件と過半を占めた。同時期に「学習済みモデルと推論コードをノートブックとして提出する」[コードコンペティション](./code-competition.md)形式の導入が進み、実行時間制限・オフライン実行という制約が戦い方を変えた
+- 「値の予測」ではなく「エージェントを提出して対戦する」Simulation Competitions は、実は 2018〜2021 年の Halite・Connect X・Lux AI・Hungry Geese の頃から存在する古参の形式。実データでもシミュレーション系のコンペは 2020〜2021 年にまとまって現れる。この時期はまだ強化学習中心の一分野という位置づけだった（[エージェント対戦コンペ](./agent-competition.md)）
 - 2022〜2023 年は表・画像・NLP のどれが主流とも言えない並走期。[表データコンペ](./tabular.md)では「深層学習 vs 決定木」論争が続く一方、NLP 側では LLM によるデータ生成・水増しが精度向上の主要な手段として台頭し始めた
-- 2023〜2025 年で LLM が戦い方そのものに入り込んだ。NLP コンペはエンコーダ型（BERT・DeBERTa 系）からデコーダ型 LLM への移行が明確になり、同時に AI コーディングエージェントが「惨敗」（2023 年、ChatGPT Code Interpreter）から「上位 30%」（2025 年、Claude Code）へとわずか 2 年で実用性を急速に高めた（[AI エージェント活用](./ai-agent.md)）
-- 2025〜2026 年、初期の Simulation Competitions の系譜が新しい意味を持ち始めている。公式ゲームエンジン提供の大型対戦コンペや、Kaggle 自身が運営するモデル評価基盤「Game Arena」の登場により、対戦型コンペは実験的な一形式から、フロンティアモデルを評価する中心的な仕組みへと役割を広げた（[性能評価と検証](./evaluation-validation.md)も参照）
+- 2023〜2025 年で LLM が戦い方そのものに入り込んだ。NLP コンペはエンコーダ型（BERT・DeBERTa 系）からデコーダ型 LLM への移行が明確になり、メダル対象コンペではテキスト（NLP）が 2024 年に単年最大種別（8 件）へ伸びて画像と入れ替わった。同時に AI コーディングエージェントが「惨敗」（2023 年、ChatGPT Code Interpreter）から「上位 30%」（2025 年、Claude Code）へとわずか 2 年で実用性を急速に高めた（[AI エージェント活用](./ai-agent.md)）
+- 2025〜2026 年、初期の Simulation Competitions の系譜が新しい意味を持ち始めている。公式ゲームエンジン提供の大型対戦コンペや、Kaggle 自身が運営するモデル評価基盤「Game Arena」の登場により、対戦型コンペは実験的な一形式から、フロンティアモデルを評価する中心的な仕組みへと役割を広げた。データ上もシミュレーションは 2025 年に再登場し、マルチモーダルも 2024〜2025 年に初めて現れるなど、直近の多様化がうかがえる（[性能評価と検証](./evaluation-validation.md)も参照）
 - 「その年に何が話題だったか」を振り返るアンケート・年次まとめ記事が 2020 年以降ほぼ毎年蓄積されており、技術動向を定点観測する材料になっている
+
+## データで見る：メダル対象コンペのデータ種別構成（2015〜2025）
+
+押さえどころで述べた変遷を、Kaggle 公式の Meta Kaggle データセットで裏づけます。メダル対象コンペ（`CanQualifyTiers` が真の 461 件）だけを抜き出し、締切年ごとにデータ種別の構成を集計しました。表データが最大種別だった時代から、画像（2017〜2021 年）・テキスト（2022 年以降）へと主役が移り、直近ではシミュレーション（対戦型）とマルチモーダルが加わる流れが見て取れます。「構成比」と「件数」を切り替えられ、棒にカーソルを合わせると内訳を表示します。データ種別はコンペタグからの推定である点に注意が必要で、より精緻な分類は人手でタグ付けした[コンペ参加録](../../solutions.md)のほうが正確です。
+
+<style>
+#ce-fig { border: 1px solid #d0d7de; border-radius: 8px; padding: 16px 18px 18px; margin: 8px 0; }
+#ce-fig .ce-toggle { display: inline-flex; background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 8px; padding: 3px; margin-bottom: 12px; }
+#ce-fig .ce-toggle button { font: inherit; font-size: 13px; color: #57606a; background: transparent; border: 0; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
+#ce-fig .ce-toggle button[aria-pressed="true"] { background: #fff; color: #1f2328; font-weight: 600; box-shadow: 0 1px 2px rgba(0,0,0,.1); }
+#ce-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 2px 0 12px; }
+#ce-legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: #57606a; }
+#ce-legend i { width: 11px; height: 11px; border-radius: 3px; display: inline-block; }
+#ce-chart-wrap { overflow-x: auto; }
+#ce-chart { display: block; width: 100%; height: auto; }
+#ce-chart text { fill: #57606a; }
+#ce-chart .ce-axis { stroke: #d0d7de; }
+#ce-chart .ce-grid { stroke: #eff2f5; stroke-width: 1; }
+#ce-chart rect.ce-seg { stroke: #fff; stroke-width: 2; transition: opacity .12s; }
+#ce-chart rect.ce-seg.ce-dim { opacity: .28; }
+#ce-tip { position: fixed; z-index: 10; max-width: 240px; background: #fff; border: 1px solid #d0d7de; border-radius: 8px; padding: 8px 11px; box-shadow: 0 4px 12px rgba(0,0,0,.14); font-size: 12px; color: #57606a; pointer-events: none; display: none; line-height: 1.6; }
+#ce-tip .ce-tt { font-weight: 600; color: #1f2328; }
+#ce-tip .ce-tr { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+#ce-tip .ce-tr i { width: 9px; height: 9px; border-radius: 2px; }
+#ce-fig details { margin-top: 12px; }
+#ce-fig summary { cursor: pointer; color: #57606a; font-size: 13px; }
+#ce-fig table { border-collapse: collapse; font-size: 12px; margin-top: 10px; }
+#ce-fig th, #ce-fig td { border: 1px solid #d0d7de; padding: 3px 7px; text-align: right; white-space: nowrap; }
+#ce-fig th:first-child, #ce-fig td:first-child { text-align: left; }
+#ce-fig th { background: #f6f8fa; color: #57606a; }
+.ce-note { font-size: 12px; color: #6e7781; margin-top: 12px; }
+</style>
+
+<div id="ce-fig" markdown="0">
+  <div class="ce-toggle" role="group" aria-label="表示切替">
+    <button id="ce-btn-share" type="button" aria-pressed="true">構成比</button>
+    <button id="ce-btn-count" type="button" aria-pressed="false">件数</button>
+  </div>
+  <div id="ce-legend"></div>
+  <div id="ce-chart-wrap"></div>
+  <details>
+    <summary>データを表で見る（件数）</summary>
+    <div style="overflow-x:auto"><table id="ce-table"></table></div>
+  </details>
+  <p class="ce-note">出典: Kaggle 公式 <code>Meta Kaggle</code>（2026-07-31 取得）。メダル対象は <code>CanQualifyTiers = true</code> で定義。データ種別はコンペタグからの推定で、タグ付き 245/326 件（カバー率 75%、2025 年は 52%）を集計。年は締切年ベースで、単年の母数は 14〜27 件と小さい点に留意。</p>
+</div>
+<div id="ce-tip" role="tooltip"></div>
+
+<script>
+(function () {
+  var YEARS = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
+  var MODS = ["tabular", "text", "image", "timeseries", "audio", "video", "multimodal", "simulation"];
+  var JA = {
+    tabular: "テーブル", text: "テキスト (NLP)", image: "画像", timeseries: "時系列",
+    audio: "音声", video: "動画", multimodal: "マルチモーダル", simulation: "シミュレーション"
+  };
+  var COL = {
+    tabular: "#2a78d6", text: "#008300", image: "#e87ba4", timeseries: "#eda100",
+    audio: "#1baf7a", video: "#eb6834", multimodal: "#4a3aa7", simulation: "#e34948"
+  };
+  var BY = {
+    tabular: [19, 17, 6, 4, 8, 3, 4, 7, 7, 3, 1],
+    text: [1, 1, 4, 1, 3, 4, 3, 7, 2, 8, 4],
+    image: [2, 6, 12, 10, 14, 11, 12, 9, 8, 5, 4],
+    timeseries: [1, 0, 0, 0, 0, 2, 0, 1, 2, 2, 2],
+    audio: [0, 0, 0, 0, 1, 1, 2, 1, 2, 1, 0],
+    video: [0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0],
+    multimodal: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+    simulation: [0, 0, 0, 0, 0, 2, 3, 1, 1, 0, 2]
+  };
+  var NS = "http://www.w3.org/2000/svg";
+  var mode = "share";
+  var wrap = document.getElementById("ce-chart-wrap");
+  var legend = document.getElementById("ce-legend");
+  var tip = document.getElementById("ce-tip");
+
+  function svg(name, attrs) {
+    var e = document.createElementNS(NS, name);
+    for (var k in attrs) { e.setAttribute(k, attrs[k]); }
+    return e;
+  }
+  function totalAt(i) {
+    var s = 0;
+    for (var m = 0; m < MODS.length; m++) { s += BY[MODS[m]][i]; }
+    return s;
+  }
+
+  function render() {
+    var W = 760, H = 400, mt = 14, mr = 14, mb = 32, ml = 36;
+    var iw = W - ml - mr, ih = H - mt - mb;
+    var share = mode === "share";
+    var totals = YEARS.map(function (_, i) { return totalAt(i); });
+    var maxTot = Math.max.apply(null, totals);
+    var nice = share ? 100 : Math.ceil(maxTot / 5) * 5;
+    var yOf = function (v) { return mt + ih - (v / nice) * ih; };
+    var bw = iw / YEARS.length, bar = Math.min(38, bw * 0.66);
+    var step = share ? 20 : (nice <= 15 ? 3 : 5);
+
+    var s = svg("svg", { id: "ce-chart", viewBox: "0 0 " + W + " " + H, preserveAspectRatio: "xMinYMin meet" });
+
+    for (var v = 0; v <= nice; v += step) {
+      var y = yOf(v);
+      s.appendChild(svg("line", { "class": "ce-grid", x1: ml, x2: W - mr, y1: y, y2: y }));
+      var lt = svg("text", { x: ml - 6, y: y + 3, "text-anchor": "end", "font-size": 11 });
+      lt.textContent = share ? v + "%" : v;
+      s.appendChild(lt);
+    }
+    s.appendChild(svg("line", { "class": "ce-axis", x1: ml, x2: W - mr, y1: yOf(0), y2: yOf(0) }));
+
+    YEARS.forEach(function (yr, i) {
+      var cx = ml + bw * i + bw / 2, x = cx - bar / 2, acc = 0, tot = totals[i];
+      MODS.forEach(function (k) {
+        var raw = BY[k][i];
+        if (raw <= 0) { return; }
+        var val = share ? (tot ? raw / tot * 100 : 0) : raw;
+        var y0 = yOf(acc), y1 = yOf(acc + val);
+        acc += val;
+        var r = svg("rect", { "class": "ce-seg", x: x, y: y1, width: bar, height: Math.max(0, y0 - y1), fill: COL[k] });
+        r.setAttribute("data-k", k);
+        attachTip(r, yr, k, raw, tot);
+        s.appendChild(r);
+      });
+      var xl = svg("text", { x: cx, y: H - mb + 15, "text-anchor": "middle", "font-size": 10.5 });
+      xl.textContent = "'" + String(yr).slice(2);
+      s.appendChild(xl);
+      if (!share && tot > 0) {
+        var tl = svg("text", { x: cx, y: yOf(tot) - 5, "text-anchor": "middle", "font-size": 10, "font-weight": 600, fill: "#6e7781" });
+        tl.textContent = tot;
+        s.appendChild(tl);
+      }
+    });
+
+    wrap.textContent = "";
+    wrap.appendChild(s);
+    buildLegend();
+  }
+
+  function buildLegend() {
+    legend.textContent = "";
+    MODS.forEach(function (k) {
+      var sp = document.createElement("span");
+      var i = document.createElement("i");
+      i.style.background = COL[k];
+      sp.appendChild(i);
+      sp.appendChild(document.createTextNode(JA[k]));
+      legend.appendChild(sp);
+    });
+  }
+
+  function segs() { return wrap.querySelectorAll("rect.ce-seg"); }
+
+  function attachTip(r, yr, k, raw, tot) {
+    r.addEventListener("mousemove", function (ev) {
+      var all = segs();
+      for (var j = 0; j < all.length; j++) {
+        if (all[j].getAttribute("data-k") === k) { all[j].classList.remove("ce-dim"); }
+        else { all[j].classList.add("ce-dim"); }
+      }
+      var pct = tot ? Math.round(raw / tot * 100) : 0;
+      tip.textContent = "";
+      var t = document.createElement("div");
+      t.className = "ce-tt";
+      t.textContent = yr + "年 ・ タグ付き " + tot + " 件";
+      tip.appendChild(t);
+      var row = document.createElement("div");
+      row.className = "ce-tr";
+      var ic = document.createElement("i");
+      ic.style.background = COL[k];
+      row.appendChild(ic);
+      row.appendChild(document.createTextNode(JA[k] + ": " + raw + " 件 (" + pct + "%)"));
+      tip.appendChild(row);
+      tip.style.display = "block";
+      var x = ev.clientX + 14;
+      if (x + 250 > window.innerWidth) { x = ev.clientX - 250; }
+      tip.style.left = Math.max(x, 8) + "px";
+      tip.style.top = (ev.clientY + 14) + "px";
+    });
+    r.addEventListener("mouseleave", function () {
+      tip.style.display = "none";
+      var all = segs();
+      for (var j = 0; j < all.length; j++) { all[j].classList.remove("ce-dim"); }
+    });
+  }
+
+  function buildTable() {
+    var t = document.getElementById("ce-table");
+    var head = document.createElement("tr");
+    head.appendChild(th("年"));
+    MODS.forEach(function (k) { head.appendChild(th(JA[k])); });
+    head.appendChild(th("計"));
+    t.appendChild(head);
+    YEARS.forEach(function (yr, i) {
+      var tr = document.createElement("tr");
+      tr.appendChild(td(yr, false));
+      var tot = 0;
+      MODS.forEach(function (k) {
+        var v = BY[k][i];
+        tot += v;
+        tr.appendChild(td(v || "", false));
+      });
+      tr.appendChild(td(tot, true));
+      t.appendChild(tr);
+    });
+  }
+  function th(x) { var e = document.createElement("th"); e.textContent = x; return e; }
+  function td(x, bold) {
+    var e = document.createElement("td");
+    if (bold) { var b = document.createElement("strong"); b.textContent = x; e.appendChild(b); }
+    else { e.textContent = x; }
+    return e;
+  }
+
+  function setMode(x) {
+    mode = x;
+    document.getElementById("ce-btn-share").setAttribute("aria-pressed", String(x === "share"));
+    document.getElementById("ce-btn-count").setAttribute("aria-pressed", String(x === "count"));
+    render();
+  }
+  document.getElementById("ce-btn-share").addEventListener("click", function () { setMode("share"); });
+  document.getElementById("ce-btn-count").addEventListener("click", function () { setMode("count"); });
+
+  buildTable();
+  render();
+})();
+</script>
 
 ## 資料
 
