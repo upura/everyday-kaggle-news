@@ -9,6 +9,7 @@
 - 社内コンペは人材育成や組織文化の醸成を目的に据える例が目立つ（NTT グループ横断 100 人規模、パナソニック、リクルート、DeNA など）。難易度調整や役割設計など、外部公開のコミュニティコンペとは異なる運営上の配慮が語られる
 - コミュニティコンペ（atmaCup、関西 Kaggler 会、大学サークルなど）は、個人や小規模チームでも開催できることを示す実践記が多い。継続開催のノウハウや、Hugging Face Competitions のようなプラットフォーム機能を使う軽量な開催方法も紹介されている
 - 研究データを使った学会併設コンペは、開催後に成果を論文化する流れが定着している（重力波・IceCube・PANDA・OpenVaccine など Nature 系ジャーナルや arXiv への掲載例が複数）。上位解法の紹介だけでなく、コンペという形式自体の有効性を検証する内容も含む
+- 論文化の流れは学会併設コンペに限らない。参加者どうしが対戦する形式のコミュニティコンペでは、試行錯誤の過程自体が対戦ログとして残るため、開催そのものが研究用データを生む副産物を持つ（[atmaCup #21 のプロンプト対戦ログを分析した ICLR 2026 ワークショップ論文](https://www.atma.co.jp/news/4d27cbb5-13a1-46d2-84cf-0d3544a3d99e)）
 - プラットフォーム運営者側の視点（Solafune・Nishika・RecSys Challenge など）からは、個人情報や機密データの取り扱いへの懸念（Nishika）、有効だった審査・運営手法の総括（RecSys Challenge）など、参加者目線では見えにくい運営特有の論点が語られる
 - 評価設計・リーク対策は[性能評価と検証](./evaluation-validation.md)と表裏の関係にある
 
@@ -62,6 +63,8 @@
 - [Deep learning models for predicting RNA degradation via dual crowdsourcing](https://www.nature.com/articles/s42256-022-00571-8): Kaggle「OpenVaccine」の成果と得られた知見をまとめた Nature Machine Intelligence 掲載論文。
 - [Analysis of the Human Protein Atlas Weakly Supervised Single-Cell Classification competition](https://www.nature.com/articles/s41592-022-01606-z): コンペの設計と結果を報告する論文。
 - [チューニングコンペティション（LLM-jp）開催報告](https://drive.google.com/file/d/1M1bpEDvARxSq-KNbudf1B8V4kbpYxO5u/view): 言語処理学会第 31 回年次大会のワークショップ内で開催された LLM チューニングコンペの開催報告。
+- [atmaCup #21の競技データを活用した論文が、ICLR 2026 Workshopに採択されました](https://www.atma.co.jp/news/4d27cbb5-13a1-46d2-84cf-0d3544a3d99e): LLM の攻撃・防御プロンプトを対戦形式で競ったコンペの対戦ログ（247 名・29,084 試合）が、国際会議のワークショップ論文の分析対象になったという開催者側の告知。
+- [Non-Monotonicity and Catastrophic Risk of Prompt Interventions in Adversarial LLM Control](https://openreview.net/forum?id=HPw77rwbrb): 上記の論文。プロンプトに指示や制約を足すことが必ずしも性能向上につながらない点を、コンペで蓄積されたプロンプト拡張の前後スコアから分析している。
 
 ### プラットフォーム運営者の視点
 
