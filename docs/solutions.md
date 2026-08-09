@@ -330,6 +330,14 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="timeseries" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction">ROGII - Wellbore Geology Prediction</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle ROGIIコンペ振り返りー192nd Place Solution](https://zenn.dev/fusic/articles/240bd206835c53): 水平井戸のガンマ線検層を typewell に対応づけるコンペの銀メダル解法。行単位の回帰から井戸 1 本を 1 枚の画像として扱う残差 U-Net へ切り替えた経緯と、ローカル評価と Public LB の逆転を受けて坑井単位の検証へ移した判断を振り返っている。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2025" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/image-matching-challenge-2025">Image Matching Challenge 2025</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>

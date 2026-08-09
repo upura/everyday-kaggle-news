@@ -44,6 +44,7 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [Solafune「マルチ解像度画像の車両検出」提出までの流れ](https://zenn.dev/kwashizzz/articles/solafune-vehicle-det-mmdet): 地上撮影画像から車両を検出するコンペの提出手順を解説。
 - [TPUで動作するTensorFlow用の画像データ拡張ライブラリ imgaug-tf](https://github.com/hirune924/imgaug-tf): UW-Madison GI Tract Image Segmentation の参加者が作成・公開。
 - [ConvNeXtで小さいサイズの画像を扱う際の知見](https://lab.mo-t.com/blog/convnext): 実験結果と共に改善の流れを解説する記事。
+- [画像モデルの転移学習でどの層をどう学習するか？](https://zenn.dev/ca_kagglers/articles/transfer-learning-guide): 事前学習済みモデルのどこを凍結し、どこを学習するかの選択肢を整理した記事。Linear Probing・Full Fine-Tuning・下位層の凍結・層別学習率・LP-FT を、データ量やタスクの粒度に応じた使い分けとして解説している。
 
 ## 関連概念
 

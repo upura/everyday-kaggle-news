@@ -11,6 +11,7 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
 - 2022〜2023 年は表・画像・NLP のどれが主流とも言えない並走期。[表データコンペ](./tabular.md)では「深層学習 vs 決定木」論争が続く一方、NLP 側では LLM によるデータ生成・水増しが精度向上の主要な手段として台頭し始めた
 - 2023〜2025 年で LLM が戦い方そのものに入り込んだ。NLP コンペはエンコーダ型（BERT・DeBERTa 系）からデコーダ型 LLM への移行が明確になり、メダル対象コンペではテキスト（NLP）が 2024 年に単年最大種別（8 件）へ伸びて画像と入れ替わった。同時に AI コーディングエージェントが「惨敗」（2023 年、ChatGPT Code Interpreter）から「上位 30%」（2025 年、Claude Code）へとわずか 2 年で実用性を急速に高めた（[AI エージェント活用](./ai-agent.md)）
 - 2025〜2026 年、初期の Simulation Competitions の系譜が新しい意味を持ち始めている。公式ゲームエンジン提供の大型対戦コンペや、Kaggle 自身が運営するモデル評価基盤「Game Arena」の登場により、対戦型コンペは実験的な一形式から、フロンティアモデルを評価する中心的な仕組みへと役割を広げた。データ上もシミュレーションは 2025 年に再登場し、マルチモーダルも 2024〜2025 年に初めて現れるなど、直近の多様化がうかがえる（[性能評価と検証](./evaluation-validation.md)も参照）
+- エージェント時代の変化は「設計」「操縦」「評価」の 3 層に分けて捉えると見通しが良い。開催側が自前で設計できる問題はプラットフォームから減り、解法の実装はコーディングエージェントにどこまで委ねられるかが論点になり、Kaggle が積み上げた評価設計の知見はベンチマークの規範として引き合いに出される、という整理である（[Agent 時代の Kaggle 展望](https://speakerdeck.com/upura/kaggle-in-the-agentic-era)）
 - 「その年に何が話題だったか」を振り返るアンケート・年次まとめ記事が 2020 年以降ほぼ毎年蓄積されており、技術動向を定点観測する材料になっている
 
 ## データで見る：メダル対象コンペのデータ種別構成（2015〜2026）
@@ -278,6 +279,7 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
 - [Kaggle Game Arena evaluates AI models through games](https://blog.google/innovation-and-ai/products/kaggle-game-arena/): モデル同士をゲームで対戦させる評価基盤 Game Arena の公式発表。
 - [Game Arena: Poker and Werewolf, and Gemini 3 tops chess](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/): ポーカー・人狼ベンチマークの追加とチェストーナメント結果の続報。
 - [AtCoder World Tour Finals 2025 に OpenAI がスポンサーとして参画](https://prtimes.jp/main/html/rd/p/000000059.000028415.html): 「人間 vs AI」のエキシビションが行われた競技プログラミングイベントの発表。
+- [Agent 時代の Kaggle 展望](https://speakerdeck.com/upura/kaggle-in-the-agentic-era): 第 6 回関東 Kaggler 会での発表資料。プラットフォームの変化を「設計」「操縦」「評価」の 3 つの論点で整理し、コンペ形式とベンチマーク設計の境界が曖昧になっていく見通しを述べている。
 
 ## 関連概念
 
