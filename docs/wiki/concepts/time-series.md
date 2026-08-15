@@ -12,6 +12,7 @@
 - 時期によって特徴量と目的変数の関係が変わる問題には、分割の「方向の一貫性」を最大化する WarpGBM / Directional Era-Splitting のようなアプローチがある
 - 2020〜21 年頃は Darts・PyTorch Forecasting・Prophet などライブラリの使い方紹介が中心だったが、2024〜25 年にはゼロショットで使える時系列基盤モデル（Chronos-Bolt、TimesFM など）が主要な話題になっている。少パラメータのモデルが大規模基盤モデルの性能を上回る報告もあり、基盤モデルへの過信には注意が必要（[パラメータ4個で710M超えのFoundation Modelに勝った時系列予測手法FLAIRの全貌](https://zenn.dev/t_honda/articles/flair-time-series-forecasting)）
 - Transformer の時系列予測への有効性は、賛否両論の論文が繰り返し引用される決着していない論点
+- 系列を 1 行ずつの回帰として解くと予測が不連続に飛び、長い予測区間ではドリフトが累積する。系列全体を 2 次元画像に変換して U-Net 系のセグメンテーションとして解く定跡があり、ROGII コンペでは 20 位以内の過半数がこの構成だった（[ROGIIコンペ振り返り - 35位解法およびU-Netソリューションまとめ](https://zenn.dev/dalab/articles/71296cdee9a945)）
 
 ## 資料
 

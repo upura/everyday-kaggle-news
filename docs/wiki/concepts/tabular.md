@@ -6,6 +6,7 @@
 ## 押さえどころ
 
 - 定跡は、分布シフトを意識した EDA、多様なベースラインの迅速な構築、大量の特徴量生成、ヒルクライミングによるアンサンブルとスタッキング、疑似ラベルとシード平均、という流れで進む。「高速な実験」と「慎重な検証」の両輪が原則（[The Kaggle Grandmasters Playbook](https://developer.nvidia.com/blog/the-kaggle-grandmasters-playbook-7-battle-tested-modeling-techniques-for-tabular-data/)）
+- この分野の起点は [XGBoost の原論文](https://dl.acm.org/doi/10.1145/2939672.2939785)（KDD 2016）で、アルゴリズムの工夫と実装・システム面の最適化を同時に示したことが普及の理由だった。LightGBM・CatBoost を含め、現在の定跡はこの延長線上にある（2026 年の KDD Test of Time Award を受賞）
 - GBDT の学習・推論・特徴量処理を GPU で高速化する話題（cuML でのスタッキング、RAPIDS FIL による推論高速化、GPUTreeSHAP、cuDF、XGBoost 3.0 の大規模データ対応など）は年を通じて繰り返し取り上げられ、実務での定番手段として定着してきた
 - データ処理基盤は pandas から Polars への移行が進んでいる。特徴量の変換処理を `pl.Expr` で宣言的に定義し計算と切り離して管理する設計や、cuDF・Polars on GPU による高速化も選択肢に加わっている
 - 特徴量エンジニアリングの中核技法である Target Encoding は、スムージングや p 値ベースの改良、GPU（cuML）実装など継続的に磨き込まれてきた定番技法
@@ -16,6 +17,7 @@
 
 ### GBDT・決定木のテクニック
 
+- [XGBoost: A Scalable Tree Boosting System](https://dl.acm.org/doi/10.1145/2939672.2939785): XGBoost の原論文（KDD 2016）。疎データを扱う分岐探索、近似分割のための weighted quantile sketch、キャッシュ・外部メモリを意識した実装という 3 点で、勾配ブースティングを大規模データへ届かせた。2026 年の KDD Test of Time Award を受賞している。
 - [The Kaggle Grandmasters Playbook: 7 Battle-Tested Modeling Techniques for Tabular Data](https://developer.nvidia.com/blog/the-kaggle-grandmasters-playbook-7-battle-tested-modeling-techniques-for-tabular-data/): NVIDIA の Grandmaster 陣による表データコンペの定跡 7 選。EDA からアンサンブル・疑似ラベルまでの流れを GPU 高速化前提でまとめている。
 - [Grandmaster Pro Tip: Winning First Place in a Kaggle Competition with Stacking Using cuML](https://developer.nvidia.com/blog/grandmaster-pro-tip-winning-first-place-in-a-kaggle-competition-with-stacking-using-cuml/): GPU（cuML）を使ったスタッキングで優勝した手法の解説。
 - [コンペで使える！？LightGBMで実装する３つの弱教師あり学習](https://tech-blog.abeja.asia/entry/lightgbm-weakly-supervised-learning-202309): 弱教師あり学習 3 設定の解き方と LightGBM 実装の紹介。
