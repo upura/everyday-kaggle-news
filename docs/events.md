@@ -45,6 +45,8 @@ https://kaggle-friends.connpass.com/
 ## 関東 Kaggler 会
 
 - [第 6 回 関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/397753/)
+    - [第6回 関東Kaggler会に参加してきました](https://nakakiiro.hateblo.jp/entry/2026/08/08/090000): 参加者視点の参加録。招待講演 4 件の内容と会場の雰囲気を紹介している。
+    - [【第6回】関東Kaggler会の参加レポート](https://takaito0423.hatenablog.com/entry/2026/08/08/213952): 運営視点のレポート。会場・タイムテーブルや各発表のメモに加え、初参加者向けの案内も兼ねている。
 - [第 5 回関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/378154/)
 - [第 4 回 関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/362280/)
     - [YouTube](https://www.youtube.com/playlist?list=PL_ApLOfkNYwSvETFNijF-OGVthIzbnzZc)

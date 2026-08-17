@@ -335,6 +335,8 @@
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Time Series</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle ROGIIコンペ振り返りー192nd Place Solution](https://zenn.dev/fusic/articles/240bd206835c53): 水平井戸のガンマ線検層を typewell に対応づけるコンペの銀メダル解法。行単位の回帰から井戸 1 本を 1 枚の画像として扱う残差 U-Net へ切り替えた経緯と、ローカル評価と Public LB の逆転を受けて坑井単位の検証へ移した判断を振り返っている。
+- [kaggle ROGIIコンペ 6位 - 勘違いからソロ金メダルでマスターへ](https://qiita.com/kosakae256/items/4190925a724b436eb303): 参入 4 か月でソロ金メダルを獲得しマスターに到達した経緯の振り返り。手法そのものより、初参加からの学び方と取り組みの姿勢に重心を置いている。
+- [ROGIIコンペ振り返り - 35位解法およびU-Netソリューションまとめ](https://zenn.dev/dalab/articles/71296cdee9a945): 銀メダル解法の解説に加え、20 位以内の U-Net 系解法を体系的に比較し「アイデアは同じでも金メダルに何が足りなかったか」を検証した記事。GR マッチングを 2 次元画像に変換する着想と、HRNet + U-Net++ に GRU 経路・ガウス過程回帰を組み合わせたアンサンブルを説明している。
 
 </div>
 
