@@ -92,16 +92,18 @@ for title, c in Counter(h3_titles).items():
         problems.append(f"[solutions.md 競技名重複] 「{title}」の div が {c} 件存在")
 
 # 7. solutions.md と他ページとの URL 重複 — 解法・参加録は solutions.md に一元化する規約のため
+# 対象は資料エントリ(`- [タイトル](URL)` 行)のみ。概念ページの「押さえどころ」は
+# 主張の出典として同じ資料へリンクしてよい規約なので、地の文中のリンクは重複扱いしない
 sol_path = os.path.join(ROOT, "docs/solutions.md")
 sol_urls = {norm(m.group(2)) for m in LINK_RE.finditer(sol) if m.group(2).startswith("http")}
 for path, text in all_text.items():
     if path == sol_path:
         continue
-    for m in LINK_RE.finditer(text):
-        url = m.group(2)
-        if url.startswith("http") and norm(url) in sol_urls:
+    for line in text.splitlines():
+        m = ENTRY_RE.match(line)
+        if m and norm(m.group(2)) in sol_urls:
             problems.append(
-                f"[solutions.mdと重複] {os.path.relpath(path, ROOT)}: {norm(url)} は "
+                f"[solutions.mdと重複] {os.path.relpath(path, ROOT)}: {norm(m.group(2))} は "
                 "docs/solutions.md にも掲載されている(解法・参加録は solutions.md に一元化する)")
 
 # 8. リスト項目内の未エスケープパイプ文字 — markdown="1" 内で kramdown が表として誤解釈する
