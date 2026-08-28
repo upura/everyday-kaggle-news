@@ -1,18 +1,6 @@
 {
- "updatedAt": "2026-07-17T09:16:55Z",
+ "updatedAt": "2026-08-28T00:11:38Z",
  "competitions": [
-  {
-   "slug": "rogii-wellbore-geology-prediction",
-   "title": "ROGII - Wellbore Geology Prediction",
-   "url": "https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction",
-   "category": "Featured",
-   "reward": "50,000 USD",
-   "organization": "ROGII",
-   "start": "2026-05-05",
-   "deadline": "2026-08-05T23:59:00Z",
-   "teamCount": 5091,
-   "longRunning": false
-  },
   {
    "slug": "pokemon-tcg-ai-battle",
    "title": "The Pokémon Company - PTCG AI Battle Challenge Simulation",
@@ -21,8 +9,8 @@
    "reward": "Knowledge",
    "organization": "The Pokémon Company - PTCGABC Team",
    "start": "2026-06-16",
-   "deadline": "2026-08-16T23:59:00Z",
-   "teamCount": 5183,
+   "deadline": "2026-08-31T23:59:00Z",
+   "teamCount": 6807,
    "longRunning": false
   },
   {
@@ -34,7 +22,7 @@
    "organization": "OpenAI",
    "start": null,
    "deadline": "2026-09-01T23:59:00Z",
-   "teamCount": 1994,
+   "teamCount": 4145,
    "longRunning": false
   },
   {
@@ -46,7 +34,31 @@
    "organization": "Biohub",
    "start": "2026-06-29",
    "deadline": "2026-09-29T23:59:00Z",
-   "teamCount": 1312,
+   "teamCount": 2802,
+   "longRunning": false
+  },
+  {
+   "slug": "kaggriculture",
+   "title": "Kaggriculture",
+   "url": "https://www.kaggle.com/competitions/kaggriculture",
+   "category": "Featured",
+   "reward": "50,000 USD",
+   "organization": "Kaggle",
+   "start": "2026-07-30",
+   "deadline": "2026-09-30T23:59:00Z",
+   "teamCount": 6656,
+   "longRunning": false
+  },
+  {
+   "slug": "rsna-knee-abnormality-detection",
+   "title": "RSNA Knee Abnormality Detection",
+   "url": "https://www.kaggle.com/competitions/rsna-knee-abnormality-detection",
+   "category": "Research",
+   "reward": "77,000 USD",
+   "organization": "Radiological Society of North America",
+   "start": "2026-08-05",
+   "deadline": "2026-10-22T23:59:00Z",
+   "teamCount": 2542,
    "longRunning": false
   },
   {
@@ -58,7 +70,7 @@
    "organization": "Abstraction and Reasoning Corpus",
    "start": "2026-03-25",
    "deadline": "2026-11-02T23:59:00Z",
-   "teamCount": 1177,
+   "teamCount": 1661,
    "longRunning": false
   },
   {
@@ -70,7 +82,7 @@
    "organization": "Abstraction and Reasoning Corpus",
    "start": "2026-03-25",
    "deadline": "2026-11-02T23:59:00Z",
-   "teamCount": 1765,
+   "teamCount": 2574,
    "longRunning": false
   }
  ]

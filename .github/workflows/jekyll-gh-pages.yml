@@ -14,8 +14,9 @@ on:
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# contents: write は更新した docs/competitions.json を main に書き戻すために必要
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -45,6 +46,21 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         run: python3 tools/fetch_competitions.py docs/competitions.json
+      # 終了直後のコンペは Kaggle API から消えるため、取得結果を main に書き戻して
+      # 次回ビルドの引き継ぎ元にする(GITHUB_TOKEN による push はワークフローを再起動しない)
+      - name: Commit refreshed competitions data
+        continue-on-error: true
+        run: |
+          git show HEAD:docs/competitions.json > /tmp/prev-competitions.json 2>/dev/null || echo '{}' > /tmp/prev-competitions.json
+          if python3 -c "import json,sys; a=json.load(open('/tmp/prev-competitions.json')).get('competitions'); b=json.load(open('docs/competitions.json')).get('competitions'); sys.exit(0 if a == b else 1)"; then
+            echo "コンペ一覧に変化なし。コミットをスキップします"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/competitions.json
+          git commit -m "Update competitions data"
+          git push origin HEAD:main
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
