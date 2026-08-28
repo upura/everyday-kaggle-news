@@ -6,9 +6,12 @@
 ## 押さえどころ
 
 - 企業主催コンペは「問題設計の工夫」を語る報告が多い。金融時系列（三井物産コモディティ予測・JPX 株価予測）を手がけた開催者による一連の解説は、データリークが起きやすい領域での設計上の勘所を具体的に示す
+- 金融時系列のように成績が相場環境に左右される領域では、順位の不安定さ自体が設計課題になる。同じ開催者が 2011 年以降のコンペをたどった[設計史](https://zenn.dev/gamella/articles/f5e6bddab37c8d)は、評価プロトコル・予測対象・相対値の取り方・評価指標という複数の軸を並行して改良してきた蓄積として、この分野の設計を読み解いている
 - 社内コンペは人材育成や組織文化の醸成を目的に据える例が目立つ（NTT グループ横断 100 人規模、パナソニック、リクルート、DeNA など）。難易度調整や役割設計など、外部公開のコミュニティコンペとは異なる運営上の配慮が語られる
 - コミュニティコンペ（atmaCup、関西 Kaggler 会、大学サークルなど）は、個人や小規模チームでも開催できることを示す実践記が多い。継続開催のノウハウや、Hugging Face Competitions のようなプラットフォーム機能を使う軽量な開催方法も紹介されている
 - 研究データを使った学会併設コンペは、開催後に成果を論文化する流れが定着している（重力波・IceCube・PANDA・OpenVaccine など Nature 系ジャーナルや arXiv への掲載例が複数）。上位解法の紹介だけでなく、コンペという形式自体の有効性を検証する内容も含む
+- 開催後に続編を検討する段階では、分野の実務家と Kaggler で望ましい設計が食い違うことがある。[CZII の開催報告論文](https://www.nature.com/articles/s41592-026-03198-4)は、分野側が汎化を測る難しい設定（教師なし・分布外データでの評価）を求めたのに対し、参加者側は課題が明確で評価指標が単純なコンペを好み、合意に至らなかった経緯を記録している
+- 学会の開催支援制度のような外部の後ろ盾は、賞金や評価環境の費用だけでなく広報面でも効く。[LA-Bench 2025 の主催者インタビュー](https://kikaku.ai-gakkai.or.jp/article/interview-labench2025)は、学会経由の告知でドメイン外（AI 側）の参加者が増え、受賞者の顔ぶれも多様になったと述べている
 - 論文化の流れは学会併設コンペに限らない。参加者どうしが対戦する形式のコミュニティコンペでは、試行錯誤の過程自体が対戦ログとして残るため、開催そのものが研究用データを生む副産物を持つ（[atmaCup #21 のプロンプト対戦ログを分析した ICLR 2026 ワークショップ論文](https://www.atma.co.jp/news/4d27cbb5-13a1-46d2-84cf-0d3544a3d99e)）
 - プラットフォーム運営者側の視点（Solafune・Nishika・RecSys Challenge など）からは、個人情報や機密データの取り扱いへの懸念（Nishika）、有効だった審査・運営手法の総括（RecSys Challenge）など、参加者目線では見えにくい運営特有の論点が語られる
 - 評価設計・リーク対策は[性能評価と検証](./evaluation-validation.md)と表裏の関係にある
@@ -21,6 +24,7 @@
 - [Kaggleコンペ「MITSUI & CO. Commodity Prediction Challenge」問題設計 詳細解説](https://zenn.dev/gamella/articles/7e944bd18cdbe6): 同コンペの設計担当者による解説記事。金融時系列コンペ特有の課題と設計意図を詳述。
 - [【Kaggle×人材育成】NTTグループ横断で100人が参加！Python初心者も2時間で楽しめるKaggleオンサイトコンペをやった話](https://qiita.com/daikon_desu/items/e6f672324d5d9c2ab1f3): 企業内の初心者向けオンサイトコンペの開催報告。修正箇所をプロンプトに限定する難易度調整など運営の工夫を紹介。
 - [JPX Tokyo Stock Exchange Prediction 開催知見](https://zenn.dev/gamella/articles/eaf7fe5a96bdf0): 金融コンペの問題設計の工夫を綴る主催者記事。
+- [botterのためのKaggle金融予測コンペの設計史](https://zenn.dev/gamella/articles/f5e6bddab37c8d): 2011 年から 2026 年までの金融予測コンペを、設計者の視点で通観した記事。評価プロトコル・予測対象の選び方・相対値の構成・評価指標という 4 つの軸で、順位の不安定さへの対処がどう積み重なってきたかを整理している。
 - [日経電子版のデータを用いた機械学習コンペティションをKaggle Days Tokyoで開催しました](https://hack.nikkei.com/blog/report_kaggle_days_tokyo)
 - [パナソニックグループ社内コンペの開催報告](https://tech-ai.panasonic.com/jp/blog_page.html?id=20220805): Kaggle Grandmaster の社員が監修し、データも公開された社内コンペの報告記事。
 - [社内コンペ開催に向けたサンプルノートブックの紹介記事](https://blog.recruit.co.jp/data/articles/mlcomp2021_sample_notebooks/): コンペにおける役割や意識した点を綴った記事。
@@ -62,6 +66,7 @@
 - [SIGNATE「熱帯低気圧（台風等）検出アルゴリズム作成」コンペのまとめ論文](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-021-00459-y): 海洋研究開発機構主催コンペを通じた性能向上を報告する論文。
 - [Deep learning models for predicting RNA degradation via dual crowdsourcing](https://www.nature.com/articles/s42256-022-00571-8): Kaggle「OpenVaccine」の成果と得られた知見をまとめた Nature Machine Intelligence 掲載論文。
 - [Analysis of the Human Protein Atlas Weakly Supervised Single-Cell Classification competition](https://www.nature.com/articles/s41592-022-01606-z): コンペの設計と結果を報告する論文。
+- [Lessons learned from a Kaggle challenge for particle picking in cryo-electron tomography](https://www.nature.com/articles/s41592-026-03198-4): クライオ電子線トモグラフィ画像からタンパク質複合体を検出する Kaggle「CZII - CryoET Object Identification」の開催報告論文。上位 10 チームがいずれも 3D U-Net を基盤としていたことや、主催者のベースラインにデータ拡張を足すだけでスコアが大きく伸びたことを、主催者側で再現・検証している。
 - [チューニングコンペティション（LLM-jp）開催報告](https://drive.google.com/file/d/1M1bpEDvARxSq-KNbudf1B8V4kbpYxO5u/view): 言語処理学会第 31 回年次大会のワークショップ内で開催された LLM チューニングコンペの開催報告。
 - [atmaCup #21の競技データを活用した論文が、ICLR 2026 Workshopに採択されました](https://www.atma.co.jp/news/4d27cbb5-13a1-46d2-84cf-0d3544a3d99e): LLM の攻撃・防御プロンプトを対戦形式で競ったコンペの対戦ログ（247 名・29,084 試合）が、国際会議のワークショップ論文の分析対象になったという開催者側の告知。
 - [Non-Monotonicity and Catastrophic Risk of Prompt Interventions in Adversarial LLM Control](https://openreview.net/forum?id=HPw77rwbrb): 上記の論文。プロンプトに指示や制約を足すことが必ずしも性能向上につながらない点を、コンペで蓄積されたプロンプト拡張の前後スコアから分析している。
@@ -69,6 +74,8 @@
 ### プラットフォーム運営者の視点
 
 - [【募集案内】人工知能学会コンペティション開催支援制度募集要領](https://www.ai-gakkai.or.jp/event/ai-seminar/competition_convening_support/): 最大 100 万円の助成でコンペ開催を支援する学会制度。
+- [2026年度人工知能学会コンペティション開催支援制度募集要領](https://kikaku.ai-gakkai.or.jp/article/about_competitionsupport): 現行の募集要領。1 件あたり上限 50 万円で 3 件程度を採択する条件のほか、応募資格・選考基準・2023 年度以降に採択されたコンペの一覧を掲載している。
+- [参加者を呼び込み、挑戦を後押し 「実験手順生成AIコンペ」主催者に聞く、コンペ開催の狙いと今後](https://kikaku.ai-gakkai.or.jp/article/interview-labench2025): 上記の制度に 2025 年度に採択された「LA-Bench 2025」主催者へのインタビュー。個別の成功事例が比較できない分野に共通の土俵を作るという開催の狙いや、助成金を賞金・評価環境・旅費に配分した内訳を語っている。
 - [データサイエンスコンテストを開催するときに考えること](https://qiita.com/torumitsutake/items/c4998e455f76808a63a7): Solafune 運営者による開催側視点の検討事項まとめ。
 - [Nishika「判例の個人情報の自動マスキング」コンペ運営振り返り記事](https://note.com/nishika_inc/n/n78447a423abe): 開催の背景・上位解法・固有表現抽出データセット作りの過程を紹介。
 - [Nishikaによる「データサイエンスコンペ」紹介記事（運営視点）](https://note.com/nishika_inc/n/n473a6c4a6a07): コンペのメリットと情報保護上の懸念を運営目線で解説。
