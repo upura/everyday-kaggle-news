@@ -1,6 +1,7 @@
 # コンペ開催カレンダー
 
 開催中の Kaggle コンペのうち、メダル獲得の対象となるコンペの開催期間をタイムラインで表示します。
+締切から 7 日以内に終了したコンペも、解法共有が続く期間として引き続き掲載します。
 バーにカーソルを合わせると詳細を表示し、クリックするとコンペページへ移動します。
 データは GitHub Actions が Kaggle API から毎日取得しています。X の bot など他の情報源は[最新情報の確認](./recent.md)を参照してください。
 
@@ -42,6 +43,8 @@
 .cal-bar:focus-visible { outline: 2px solid #0969da; outline-offset: 2px; }
 .cal-bar.clip-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .cal-bar.clip-r { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.cal-bar.ended { opacity: 0.45; }
+.cal-name.ended a, #cal-table tr.ended td { color: #6e7781; }
 .cal-note { font-size: 12px; color: #6e7781; margin-top: 8px; }
 #cal-tip {
   position: fixed; z-index: 10; max-width: 320px; background: #fff;
@@ -72,7 +75,7 @@
   </div>
 </div>
 
-<p class="cal-note" id="cal-wrap-note" style="display:none">縦の濃い線は今日の位置です。左右に切れているバーは表示範囲の外まで続きます。締切が 400 日以上先のコンペは下の「常設・長期開催」に分けて表示します。</p>
+<p class="cal-note" id="cal-wrap-note" style="display:none">縦の濃い線は今日の位置です。左右に切れているバーは表示範囲の外まで続きます。薄いバーは締切を過ぎたコンペで、終了から 7 日で一覧から外れます。締切が 400 日以上先のコンペは下の「常設・長期開催」に分けて表示します。</p>
 
 <div id="cal-long-section" markdown="0">
   <h2>常設・長期開催</h2>
@@ -101,6 +104,8 @@
   };
   var OTHER = "その他", OTHER_COLOR = "#898781";
   var DAY = 86400e3, JST = 9 * 3600e3, PX = 9;
+  // 締切を過ぎても掲載し続ける日数（tools/fetch_competitions.py の RECENTLY_ENDED_DAYS と合わせる）
+  var ENDED_GRACE_DAYS = 7;
 
   var names = document.getElementById("cal-names");
   var axis = document.getElementById("cal-axis");
@@ -146,9 +151,12 @@
       return Object.assign({}, c, {
         end: Date.parse(c.deadline),
         startT: c.start ? Date.parse(c.start) : null,
-        cat: catOf(c)
+        cat: catOf(c),
+        ended: Date.parse(c.deadline) < Date.now()
       });
-    }).filter(function (c) { return isFinite(c.end) && c.end > Date.now(); });
+    }).filter(function (c) {
+      return isFinite(c.end) && c.end > Date.now() - ENDED_GRACE_DAYS * DAY;
+    });
     if (!comps.length) {
       message("コンペ情報がまだ生成されていません。次回のサイトビルド後に表示されます。");
       return;
@@ -232,7 +240,7 @@
 
     timeline.forEach(function (c) {
       var name = document.createElement("div");
-      name.className = "cal-name";
+      name.className = "cal-name" + (c.ended ? " ended" : "");
       var a = document.createElement("a");
       a.href = c.url;
       a.textContent = c.title;
@@ -245,7 +253,7 @@
       var s = c.startT ? jstDay(c.startT) : w0;
       var e = jstDay(c.end) + 1;
       var bar = document.createElement("a");
-      bar.className = "cal-bar";
+      bar.className = "cal-bar" + (c.ended ? " ended" : "");
       bar.href = c.url;
       if (s < w0) { s = w0; bar.classList.add("clip-l"); }
       if (e > w1) { e = w1; bar.classList.add("clip-r"); }
@@ -263,11 +271,17 @@
   }
 
   function daysLeft(c) { return Math.ceil((c.end - Date.now()) / DAY); }
+  function daysSinceEnd(c) { return Math.max(Math.floor((Date.now() - c.end) / DAY), 0); }
+  function remaining(c) {
+    if (!c.ended) { return "残り " + daysLeft(c) + " 日"; }
+    var d = daysSinceEnd(c);
+    return d ? "終了（" + d + " 日前）" : "終了";
+  }
   function period(c) {
     return (c.startT ? ymd(jstDay(c.startT)) + " " : "") + "〜 " + ymd(jstDay(c.end));
   }
   function barLabel(c) {
-    return c.title + "（" + c.cat + "、" + period(c) + "、残り " + daysLeft(c) + " 日）";
+    return c.title + "（" + c.cat + "、" + period(c) + "、" + remaining(c) + "）";
   }
 
   function attachTip(el, c) {
@@ -285,7 +299,7 @@
       cat.appendChild(document.createTextNode(c.cat + (c.organization ? "・" + c.organization : "")));
       tip.appendChild(cat);
       addRow("期間", period(c));
-      addRow("締切", jstDateTime(new Date(c.end)) + " JST（残り " + daysLeft(c) + " 日）");
+      addRow("締切", jstDateTime(new Date(c.end)) + " JST（" + remaining(c) + "）");
       if (c.reward) { addRow("賞金", c.reward); }
       if (c.teamCount) { addRow("チーム数", String(c.teamCount)); }
       tip.style.display = "block";
@@ -328,6 +342,7 @@
       var far = c.end - Date.now() > 3 * 365 * DAY;
       li.appendChild(document.createTextNode(
         "（" + c.cat + (far ? "、常設" : "、締切 " + ymd(jstDay(c.end))) + "）"));
+      if (c.ended) { li.className = "ended"; }
       ul.appendChild(li);
       rows.push({ comp: c, els: [li] });
     });
@@ -338,9 +353,10 @@
     var tbody = document.querySelector("#cal-table tbody");
     comps.forEach(function (c) {
       var tr = document.createElement("tr");
+      if (c.ended) { tr.className = "ended"; }
       var cells = [
         null, c.cat, c.startT ? ymd(jstDay(c.startT)) : "-",
-        jstDateTime(new Date(c.end)), daysLeft(c) + " 日",
+        jstDateTime(new Date(c.end)), remaining(c),
         c.reward || "-", c.teamCount ? String(c.teamCount) : "-"
       ];
       cells.forEach(function (v, i) {

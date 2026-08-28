@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""開催中の Kaggle コンペのうちメダル対象のものを docs/competitions.json に書き出す。
+"""開催中および終了直後の Kaggle コンペのうちメダル対象のものを docs/competitions.json に書き出す。
 
 Kaggle API (https://www.kaggle.com/api/v1/competitions/list) を標準ライブラリのみで叩き、
 awardsPoints(メダル・ポイント付与のランク対象コンペ)が偽のものは除外する。
 認証情報は次の順で読む(KGAT_ で始まる新形式トークンは Bearer、従来の username/key は Basic):
 KAGGLE_API_TOKEN → KAGGLE_USERNAME / KAGGLE_KEY → ~/.kaggle/kaggle.json
 docs/calendar.md がこの JSON を読み込んでタイムライン表示する。
+
+Kaggle API は締切を過ぎたコンペを返さないため、終了直後(RECENTLY_ENDED_DAYS 以内)のコンペは
+前回の出力ファイルから引き継ぐ。GitHub Actions が出力を毎日コミットして状態をつなぐ。
 
 Usage: python3 tools/fetch_competitions.py [output.json]
 """
@@ -22,6 +25,8 @@ from pathlib import Path
 API_BASE = "https://www.kaggle.com/api/v1/competitions/list"
 # タイムラインに載せる締切の上限(これより先はロングラン・常設扱い)
 LONG_RUNNING_DAYS = 400
+# 締切を過ぎたコンペを残す日数(終了直後は解法共有が続くため掲載する)
+RECENTLY_ENDED_DAYS = 7
 
 
 def auth_header():
@@ -69,11 +74,34 @@ def parse_date(value):
     return dt.astimezone(timezone.utc)
 
 
+def carry_over(path, seen, keep_since, now):
+    """API から消えた終了直後のコンペを前回の出力から引き継ぐ。"""
+    if not path.exists():
+        return []
+    try:
+        previous = json.loads(path.read_text(encoding="utf-8")).get("competitions") or []
+    except (OSError, ValueError):
+        return []
+    carried = []
+    for item in previous:
+        slug = item.get("slug")
+        deadline = parse_date(item.get("deadline"))
+        if not slug or slug in seen or deadline is None:
+            continue
+        # 締切が未来なのに API に無いものは非公開・削除とみなして引き継がない
+        if not keep_since <= deadline < now:
+            continue
+        seen.add(slug)
+        carried.append(dict(item, longRunning=False))
+    return carried
+
+
 def main():
     out_path = Path(sys.argv[1] if len(sys.argv) > 1 else "docs/competitions.json")
     header = auth_header()
 
     now = datetime.now(timezone.utc)
+    keep_since = now - timedelta(days=RECENTLY_ENDED_DAYS)
     competitions = []
     seen = set()
     for page in range(1, 21):
@@ -87,7 +115,7 @@ def main():
                 continue
             seen.add(slug)
             deadline = parse_date(item.get("deadline"))
-            if deadline is None or deadline < now:
+            if deadline is None or deadline < keep_since:
                 continue
             # メダル対象のみ掲載(フィールドが無い場合は除外しない)
             if item.get("awardsPoints") is False:
@@ -108,6 +136,7 @@ def main():
                 }
             )
 
+    competitions.extend(carry_over(out_path, seen, keep_since, now))
     competitions.sort(key=lambda c: c["deadline"])
     payload = {
         "updatedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -116,7 +145,8 @@ def main():
     out_path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
     )
-    print(f"wrote {len(competitions)} competitions -> {out_path}")
+    ended = sum(1 for c in competitions if parse_date(c["deadline"]) < now)
+    print(f"wrote {len(competitions)} competitions ({ended} ended) -> {out_path}")
 
 
 if __name__ == "__main__":
