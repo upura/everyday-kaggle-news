@@ -28,6 +28,7 @@
 | [Kaggleではじめる大規模言語モデル入門](https://www.kodansha.co.jp/book/products/0000420398) | | 2026 年 1 月 |
 | [The Kaggle Book: 2nd Edition](https://www.amazon.com/dp/B0FDFXR8N9) | 英語 | 2025 年 12 月 |
 | [Kaggleのチュートリアル第7版](https://www.amazon.co.jp/dp/B0H71K7BSS) | 『Kaggleのチュートリアル第6版』の改訂版 | 2026 年 7 月 |
+| [イラストで学ぶ 自然言語処理 大規模言語モデルへの最短コース](https://www.hanmoto.com/bd/isbn/9784065447208) | 李凌寒 著（講談社）。Transformer から Mixture of Experts・マルチモーダル LLM・分散学習・評価と安全性までを図と Python 演習で扱う入門書 | 2026 年 10 月 |
 
 ## Kaggle 関連書籍に関する記事
 

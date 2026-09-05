@@ -11,6 +11,8 @@ Claude Code などの LLM エージェントを「道具」としてコンペ作
 - 2025 年時点の年次レポートでも、完全自律のエージェントが上位入賞した事例はまだ報告されていない（[The State of Machine Learning Competitions 2025](https://mlcontests.com/state-of-machine-learning-competitions-2025/)）。一方、人間とエージェントの協働による金メダル事例は国内でも複数出ている
 - Claude Code のほか Cursor・Manus AI・Cline・Devin など複数の AI コーディングツールが使われ始めており、用途に応じた比較検証が進んでいる
 - 過去コンペの上位解法を調査してレポートさせる使い方は、コンペ序盤のサーベイを大きく効率化する。skills・agents の構成をコミュニティで共有・比較する動きも出てきている
+- 協働の質を決めるのは分担の切り方で、「方針決定と採否の判定は人、実装と確認はエージェント」という線引きが繰り返し語られる。実験結果をリポジトリと指示ファイルに集約しておけばセッションが切れても引き継げるため、ローカル GPU 1 枚・スマホからの短い指示だけで金メダルに届いた事例もある（[いま、生成AIにKaggleをどこまで 任せられるか](https://speakerdeck.com/k951286/ima-seisei-ai-ni-kaggle-o-doko-made-makaserareru-ka-rogii-konpe-deno-susumekata-to-tips)）
+- 委譲するほど、人が握る「判定基準」の設計が効いてくる。実験の足切り基準を誤ると有望な案を序盤で捨ててしまい、リークや行き詰まりはエージェント自身では検知できない。実装が速い分だけ構成が複雑になりやすく、定期的に単純な設計へ戻す見直しも要る
 - エージェントと協働するには、実験の再現性と記録が前提になる（[実験管理](./experiment-management.md)）。ノートブックのクラッシュを集めたベンチマーク（JunoBench）や MLE-Bench など、エージェントの評価基盤も整備されつつある
 
 ## 資料

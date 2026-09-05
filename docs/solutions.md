@@ -337,6 +337,25 @@
 - [Kaggle ROGIIコンペ振り返りー192nd Place Solution](https://zenn.dev/fusic/articles/240bd206835c53): 水平井戸のガンマ線検層を typewell に対応づけるコンペの銀メダル解法。行単位の回帰から井戸 1 本を 1 枚の画像として扱う残差 U-Net へ切り替えた経緯と、ローカル評価と Public LB の逆転を受けて坑井単位の検証へ移した判断を振り返っている。
 - [kaggle ROGIIコンペ 6位 - 勘違いからソロ金メダルでマスターへ](https://qiita.com/kosakae256/items/4190925a724b436eb303): 参入 4 か月でソロ金メダルを獲得しマスターに到達した経緯の振り返り。手法そのものより、初参加からの学び方と取り組みの姿勢に重心を置いている。
 - [ROGIIコンペ振り返り - 35位解法およびU-Netソリューションまとめ](https://zenn.dev/dalab/articles/71296cdee9a945): 銀メダル解法の解説に加え、20 位以内の U-Net 系解法を体系的に比較し「アイデアは同じでも金メダルに何が足りなかったか」を検証した記事。GR マッチングを 2 次元画像に変換する着想と、HRNet + U-Net++ に GRU 経路・ガウス過程回帰を組み合わせたアンサンブルを説明している。
+- [いま、生成AIにKaggleをどこまで 任せられるか — ROGIIコンペでの進め方とTips](https://speakerdeck.com/k951286/ima-seisei-ai-ni-kaggle-o-doko-made-makaserareru-ka-rogii-konpe-deno-susumekata-to-tips): 3 週間・ローカル GPU 1 枚のソロ参加で 13 位・金メダルに至った進め方の資料。方針決定と採否判定は人、実装と確認は生成 AI という分担でスマホからの短い指示だけで実験を回した体制と、1 段階目のスコアで足切りしたために有望案を捨てた失敗を共有している。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="text" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/">AI Agent Security - Multi-Step Tool Attacks</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle AI Agent Securityコンペ振り返り ー345th Place Solution](https://zenn.dev/fusic/articles/61c4bcba3e4820): ツールを使う LLM エージェントへの多段階攻撃を生成するコードを提出するコンペの銅メダル解法。ガードレールが検査しない引数に着目した手法と、Public 最高スコアの提出が Private で 0 点になった経験から得た「同じ理由で失敗する提出を重ねない」という最終提出の選び方を述べている。
+- [未経験でkaggleに出たら銅メダル穫れた](https://note.com/saldra/n/nf6126a314be2): 初参加で銅メダルを獲得したチームの振り返り。「憲法」と呼ぶ運用ルールで意思決定に権限レイヤーを設け、重要な判断だけレビュー必須としてコーディングエージェントに自律実行させた体制づくりに重心を置いている。
+- [【初Kaggle参戦】ソフトウェアエンジニアふたりがAI Agent Security - Multi-Step Tool Attacksで銅メダルを取るまでログ](https://note.com/yasunacoffee/n/n7936b64c8277): 同じチームのもう一方の視点による参加録。タイムアウトで 0 点になった状態からの改善過程と、gpt-oss-20b より Gemma 系が難しかった点、堅実な提出と攻めた提出を組み合わせた最終選択を時系列で記録している。
+
+</div>
+
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="other" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/pokemon-tcg-ai-battle">The Pokémon Company - PTCG AI Battle Challenge Simulation</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle Pokémon TCG AI Battle Challenge ポケカコンペ振り返りーメダルなし](https://zenn.dev/fusic/articles/4b6e8eb23c0363): メダルには届かなかった参加録。手作りルールから探索、勝率を予測する価値関数、上位エージェントの行動クローン、PPO による自己対戦、相手デッキのベイズ推定へと段階的に積み上げた過程と、対戦相手・先攻後攻・乱数種を分けて評価しないと改善を見誤るという検証面の教訓を記録している。
 
 </div>
 

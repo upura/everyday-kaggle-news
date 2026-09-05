@@ -132,6 +132,7 @@ LLM・自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [ACL 2021ベストペーパーを日本語文書で検証する記事](https://tech.retrieva.jp/entry/2021/08/25/185920): 適切な語彙サイズを自動決定する枠組みの日本語検証。
 - [近年の自然言語処理動向まとめ資料（汎用事前学習言語モデル観点）](https://speakerdeck.com/karakurist/nlp-survey): 様々な提案手法を簡単な説明と共に列挙した資料。
 - [2020年の機械学習・自然言語処理領域の総括記事（DeepMind研究者）](https://ruder.io/research-highlights-2020/): 言語モデルの巨大化・軽量化や少データ学習の展望も含めてまとめた記事。
+- [第18回最先端NLP勉強会](https://sites.google.com/view/snlp-jp/home/2026?authuser=0): 2026 年 8 月に国立情報学研究所で開催された論文読み会。TACL・ACL・EMNLP・NAACL などから参加者投票で選ばれた約 30 本を分担紹介する形式で、発表資料もプログラムから公開されている。
 - [「最先端NLP勉強会2020」発表資料集](https://sites.google.com/view/snlp-jp/home/2020): 著名な国際会議採択論文の紹介資料 30 件以上を公開。
 - [ACL2020読み会 招待講演「半教師あり学習・疑似データ学習法の進展」](https://www.slideshare.net/AkihiroFujii2/2020-0906-acl2020readingshared): 不完全なデータを活用した性能向上手法をまとめた資料。
 - [Yann LeCunさんによるself-supervised learning講演の要約記事（AAAI 2020）](https://bdtechtalks.com/2020/03/23/yann-lecun-self-supervised-learning/): BERT に代表される Transformers の成果と、深層学習研究が抱える課題を議論。

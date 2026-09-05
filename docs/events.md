@@ -96,6 +96,7 @@ https://kansaikaggler.connpass.com/
 
 ## その他
 
+- [Kaggle「AI Agent Security」コンペ \| ソリューション共有会 @ Elith](https://elith.connpass.com/event/405693/): 2026 年 9 月 20 日開催の解法共有会。成功した戦略だけでなく失敗した実験の共有も掲げ、現地（文京区）とオンラインのハイブリッドで実施される。
 - [Kaggler の海外経験を聞く会 #1](https://kaggler-international.connpass.com/event/397666/)
 - [RECRUIT TECH CONFERENCE 2026](https://www.recruit.co.jp/special/techconference2026/): Kaggle Grandmaster・Master が登壇するセッションが開催された技術カンファレンス。
 - [Kaggle サンタコンペ 2025 振り返り会](https://algo-artis.connpass.com/event/382730/)
