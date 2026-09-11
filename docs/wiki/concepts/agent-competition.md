@@ -24,6 +24,7 @@ Kaggle のシミュレーションコンペとして以前からある形式で�
 - [Simulation Competitions(kaggle-cli ドキュメント)](https://github.com/Kaggle/kaggle-cli/blob/main/docs/simulation_competitions.md): エージェント提出・対戦評価の仕組みの公式解説。
 - [The Pokémon Company - PTCG AI Battle Challenge Simulation](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle): ポケモンカードゲームの対戦 AI を競う大型コンペ（Simulation Track）。
 - [AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks): ツールを使う LLM エージェントへの多段階攻撃を設計するコンペ。予測値ではなく攻撃候補を生成するコードを提出する形式で、4,000 チーム超が参加した。
+- [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture): 農業シミュレーション上で収益の最大化を競う 2 人対戦のターン制コンペ。2026 年 7 月開始のメダル対象コンペで、8,000 チーム超が参加した。
 - [The State of Machine Learning Competitions 2025 Edition](https://mlcontests.com/state-of-machine-learning-competitions-2025/): 対戦トーナメント形式の導入を含む 2025 年のコンペ動向の年次まとめ。
 - [ALE-Bench：AIの長期的推論能力を測るコーディングベンチマーク](https://speakerdeck.com/imjk/w-and-b-meetup-number-24-in-tokyo): AtCoder Heuristic Contest 40 問で AI の長期的な問題解決能力を測るベンチマークの紹介資料。
 - [AtCoder World Tour Finals 2025 に OpenAI がスポンサーとして参画](https://prtimes.jp/main/html/rd/p/000000059.000028415.html): 「人間 vs AI」のエキシビションが行われた競技プログラミングイベントの発表。

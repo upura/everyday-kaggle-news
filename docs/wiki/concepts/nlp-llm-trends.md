@@ -15,6 +15,9 @@ LLM・自然言語処理分野のモデル公開、日本語リソース、ラ�
 
 ### モデル・技術動向
 
+- [Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber の追加](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/): Gemini ファミリーに効率型のフラグシップ、最速・最安の軽量版、セキュリティ特化版の 3 つを追加した発表。エージェントを多数動かす用途を見据えた品揃えになっている。
+- [超小型な多言語ベクトル検索モデル Bekko Embedding を公開](https://secon.dev/entry/2026/07/29/080000-bekko-embedding/): アクティブパラメータ 8M・25M という小規模の多言語埋め込みモデルの公開記事。mmBERT-small の層の刈り込み、埋め込みテーブルの量子化、Matryoshka 学習という縮小の手口と、CPU・ブラウザでの実行速度を報告している。
+- [HAKARI-Bench - 実運用視点での情報検索モデル評価ベンチマーク](https://speakerdeck.com/hotchpotch/hakari-bench-shi-yun-yong-shi-dian-denoqing-bao-jian-suo-moderuping-jia-bentimaku): 検索モデルを精度だけで選べない、という問題意識から作られたベンチマークの紹介資料。推論速度・アクティブパラメータ・ベクトル次元・量子化の影響まで含め、多言語 35 ベンチマークを横断で測る。
 
 - [Introducing LFM2.5: The Next Generation of On-Device AI](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai): 日本語特化モデルや視覚言語モデルを含む小規模モデル群 LFM2.5 の公開告知。
 - [LoRAの進化：基礎から最新のLoRA-Proまで](https://zenn.dev/mkj/articles/11168509d10eb4): fine-tuning で頻出の LoRA の基礎と研究動向のまとめ。

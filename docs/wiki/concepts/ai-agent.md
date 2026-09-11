@@ -7,7 +7,7 @@ Claude Code などの LLM エージェントを「道具」としてコンペ作
 ## 押さえどころ
 
 - 2023 年時点では ChatGPT の Code Interpreter でコミュニティコンペに挑んで「惨敗」した事例が報告されていたが、2025 年には Claude Code 主体で「上位 30% 程度」まで到達する事例が出ており、エージェント支援の実用性は短期間で急速に向上している（[データコンペでCode Interpreter片手に戦ってみたけど惨敗でした](https://zenn.dev/karaage0703/articles/1fa0a14d4cdd63)、[Claude Code と Kaggle をやったら何も考えずに上位30%になれた話](https://zenn.dev/genda_jp/articles/20250909_kaggle_with_claude_code)）
-- とはいえメダル圏にはまだ届かず、人間の役割はデータ整備、問題定義、モデル改善へシフトする
+- とはいえメダル圏にはまだ届かず、人間の役割はデータ整備、問題定義、モデル改善へシフトする。実装が容易になったことでベースラインまでの距離は縮まり、勝負どころは「このコンペは何で決まるのか」を見抜く判断、エージェントの書いたコードの妥当性を検証できる CV 設計と評価指標の理解、分布差やリーク・時系列特性を読んで次の方向を決めるデータ解釈に移る（[コーディングエージェント時代のKaggle](https://note.com/currypurin/n/n93de6df91535)）
 - 2025 年時点の年次レポートでも、完全自律のエージェントが上位入賞した事例はまだ報告されていない（[The State of Machine Learning Competitions 2025](https://mlcontests.com/state-of-machine-learning-competitions-2025/)）。一方、人間とエージェントの協働による金メダル事例は国内でも複数出ている
 - Claude Code のほか Cursor・Manus AI・Cline・Devin など複数の AI コーディングツールが使われ始めており、用途に応じた比較検証が進んでいる
 - 過去コンペの上位解法を調査してレポートさせる使い方は、コンペ序盤のサーベイを大きく効率化する。skills・agents の構成をコミュニティで共有・比較する動きも出てきている
@@ -22,6 +22,7 @@ Claude Code などの LLM エージェントを「道具」としてコンペ作
 - [Winning a Kaggle Competition with Generative AI–Assisted Coding](https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/): Kaggle Grandmaster の Chris Deotte さんによる、テーブルコンペでの AI 支援コーディングの活用事例。
 - [Kaggle過去コンペ上位解法をAIエージェントでレポートする](https://speakerdeck.com/kuto5046/kaggleguo-qu-konpeshang-wei-jie-fa-woaiezientoderepotosuru)
 - [NVIDIA Kaggle Plugin](https://github.com/NVIDIA/nvidia-kaggle): Kaggle の公開解法を収集するコーディングエージェント向けプラグイン。過去解法サーベイの自動化に使える。
+- [コーディングエージェント時代のKaggle──人間の役割がより本質へ](https://note.com/currypurin/n/n93de6df91535): 実装の壁が下がったぶん人間の仕事が前段に移ったと論じる記事。学習コード・EDA・実験の実行と結果のレポート化は任せ、次にどの実験を優先するかは自分で決める、という線引きを具体例で述べている。
 - [Agent時代のKaggleで、人間は何を見るべきか (関西kaggler会 2026.5.22)](https://speakerdeck.com/chihironakayama/agentshi-dai-nokagglede-ren-jian-hahe-wojian-rubekika-guan-xi-kagglerhui-2026-dot-5-22): エージェントによるコーディングが普及した時代の Kaggle の変化と人間の役割を論じる発表資料。
 - [Claude Codeはどこまで戦えるのか？Kaggle金メダルで見えた現在地](https://speakerdeck.com/chihironakayama/claude-codehadokomadezhan-erunoka-kagglejin-medarudejian-etaxian-zai-di): Claude Code を用いたコンペ参加録。金メダル獲得までの活用実態を紹介する LT 資料。
 - [【Claude Code】Kaggle上位勢が設定するClaude Codeのskillsとagentsをチェックする](https://zenn.dev/nakakiiro/articles/kaggle_claude_code_boilerplate): 公開されている Kaggler 3 人の Claude Code 構成（skills / agents）を比較・解説する記事。
