@@ -13,7 +13,7 @@ description: Kaggle 関連の URL をリンク集と wiki に取り込む。記�
 
 1. 号ページを WebFetch し、紹介されている記事・資料の「タイトル | URL」一覧を抽出する
 2. 抽出した各 URL に対して下記の「記事 URL ごとの手順」を実施する（重複はスキップ）
-3. `docs/wiki/log.md` には号単位で 1 行記録する: `- YYYY-MM-DD ingest: WKN #NNN → 新規 M 件(変更ページ一覧)`
+3. `docs/wiki/log.md` には号単位で 1 行記録する: `- YYYY-MM-DD ingest: WKN #NNN → 新規 M 件(変更ページ一覧)`。この行頭の形式は `tools/detect_uningested_issues.py` が「取り込み済みの号」の判定に使うため崩さない(号番号を本文中で参照するだけの言及は判定に影響しない)
 4. 号番号のみ（例: `#343`）を渡された場合は、アーカイブ（`/archive`）から該当号の URL を特定する。2022 年末〜2023 年初頭の一部の号は同じ号番号のタイトルが 2 件存在し、スラッグが `weekly-kaggle-news-issue-<N>-<YY-MM-DD>` の形式になっている場合があるため、`weekly-kaggle-news-<N>` で 404 の場合はアーカイブ API（`archive?sort=new&offset=...`）で正確なスラッグを確認する。号 #40 のみタイトルが「Weekly Kaggle Issue #40」でスラッグも `weekly-kaggle-issue-40-...`（「news」を含まない）という例外がある
 5. WKN のアーカイブは号 #1（2019-12-20）まで遡れる（アーカイブ API の `limit` は 25 が上限のため、`offset` を変えて分割取得する）
 6. 最新号の特定・本文取得には `archive?sort=new&offset=...` や `/api/v1/posts/<slug>` の JSON API を使う（`curl -A "Mozilla/5.0" ...` で安定して取得できる）。生の `/feed`（RSS）エンドポイントは GitHub Actions 環境からのアクセスが Cloudflare のボット対策に阻まれ、フィードの代わりに JS チャレンジページ（`<!DOCTYPE html>...Just a moment...`）が返ってくることがある。取得結果が期待した JSON/フィード形式でない場合（HTML が返ってきた、`<!DOCTYPE` を含む等）は取得失敗として扱い、その内容をファイルに保存したりコミットに含めたりしない。1 回だけ再試行し、なお失敗する場合はその回の ingest をスキップし、理由を報告する

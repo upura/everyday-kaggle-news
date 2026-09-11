@@ -1,5 +1,9 @@
-# Weekly Kaggle News の最新号を LLM が ingest し、PR を作成するワークフロー
+# Weekly Kaggle News の号を LLM が ingest し、号ごとに PR を作成するワークフロー
 # 反映はこの PR を編集者がレビュー・マージすることで行う(CLAUDE.md の運用サイクル参照)
+#
+# 号ごとに独立したブランチ(auto/wkn-<号番号>)を使う。固定ブランチを使うと、
+# 前週の PR が未マージのまま翌週の実行にリセット・上書きされ、取り込みが消える
+# (#350 が実際にこれで失われた)。
 name: Weekly ingest
 
 on:
@@ -9,18 +13,51 @@ on:
   workflow_dispatch:
     inputs:
       issue_url:
-        description: "取り込む Weekly Kaggle News の号 URL(省略時は最新号)"
+        description: "取り込む号の URL(省略時は未取り込みの号を自動で検出する)"
         required: false
         default: ""
+      force:
+        description: "log.md に記録済みの号でも取り込む"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
   pull-requests: write
   id-token: write
 
+concurrency:
+  group: weekly-ingest
+  cancel-in-progress: false
+
 jobs:
-  ingest:
+  # log.md に記録が無い号を洗い出す。取りこぼした号も後から拾えるようにする
+  detect:
     runs-on: ubuntu-latest
+    outputs:
+      issues: ${{ steps.detect.outputs.issues }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detect un-ingested issues
+        id: detect
+        env:
+          ISSUE_URL: ${{ inputs.issue_url }}
+          FORCE: ${{ inputs.force }}
+        run: python3 tools/detect_uningested_issues.py
+
+  ingest:
+    needs: detect
+    if: needs.detect.outputs.issues != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      # 1 号でも失敗した場合に残りを巻き添えにしない
+      fail-fast: false
+      # 取りこぼし分をまとめて処理するとき、PR を 1 本ずつ順に作る
+      max-parallel: 1
+      matrix:
+        issue: ${{ fromJSON(needs.detect.outputs.issues) }}
     steps:
       - uses: actions/checkout@v4
 
@@ -31,9 +68,12 @@ jobs:
           prompt: |
             .claude/skills/ingest/SKILL.md の手順に従い、Weekly Kaggle News の号を取り込んでください。
 
-            - 対象の号: ${{ inputs.issue_url || '最新号(https://weeklykagglenews.substack.com/archive から特定する)' }}
+            - 対象の号: ${{ matrix.issue.url }} (Weekly Kaggle News #${{ matrix.issue.number }})
+            - この号だけを取り込むこと。ほかの号には手を出さないこと
             - ルートの CLAUDE.md の規約(エントリ形式・タクソノミー・権利面)に従うこと
             - docs/ 配下のファイルを直接編集し、docs/wiki/log.md に号単位で記録すること
+            - log.md の記録は必ず `- YYYY-MM-DD ingest: WKN #${{ matrix.issue.number }} → ...` の形式で
+              始めること(この行が次回以降の取り込み済み判定に使われる)
             - git のコミットや push は行わないこと(後段のステップが PR を作成する)
             - 最後に、追加したエントリと変更したページの一覧を出力すること
           claude_args: |
@@ -42,21 +82,45 @@ jobs:
       - name: Clean up stray files outside the wiki scope
         run: git clean -fd -- . ':!docs' ':!README.md'
 
+      # log.md への記録が無いと次回の実行が同じ号をもう一度拾ってしまうため、
+      # 静かに通さず失敗させる
+      - name: Verify the issue was recorded in log.md
+        run: |
+          if ! grep -qE "^- [0-9]{4}-[0-9]{2}-[0-9]{2} ingest: WKN #${{ matrix.issue.number }}\b" docs/wiki/log.md; then
+            echo "::error::docs/wiki/log.md に WKN #${{ matrix.issue.number }} の記録がありません"
+            exit 1
+          fi
+
       - name: Create Pull Request
+        id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "Weekly ingest from Weekly Kaggle News"
-          title: "Weekly ingest: Weekly Kaggle News 最新号の取り込み"
+          commit-message: "Ingest Weekly Kaggle News #${{ matrix.issue.number }}"
+          title: "Weekly ingest: Weekly Kaggle News #${{ matrix.issue.number }}"
           body: |
-            週次の自動 ingest です。以下を確認してからマージしてください。
+            [Weekly Kaggle News #${{ matrix.issue.number }}](${{ matrix.issue.url }}) の自動 ingest です。
+            以下を確認してからマージしてください。
 
             - `docs/wiki/log.md` の号単位の記録
             - 追加エントリの分類・注釈・形式(CLAUDE.md の規約準拠)
 
+            取りこぼし分をまとめて取り込んだ場合は、この PR のほかにも号ごとの PR が開いています。
+            いずれも `main` を基点にしているため、**号番号の小さいものから順にマージ**してください。
+            後続の PR は `log.md` と README の「最近の更新」で衝突することがあります。
+
             🤖 Generated with [Claude Code](https://claude.com/claude-code)
-          branch: auto/weekly-ingest
+          branch: auto/wkn-${{ matrix.issue.number }}
           delete-branch: true
           add-paths: |
             docs/**
             README.md
           # docs/ と README.md 以外の差分(取得失敗時の一時ファイルなど)は PR に含めない
+
+      # 差分ゼロで PR が作られないまま success になると取りこぼしに気づけない
+      - name: Fail if no pull request was produced
+        run: |
+          if [ -z "${{ steps.cpr.outputs.pull-request-number }}" ]; then
+            echo "::error::WKN #${{ matrix.issue.number }} の取り込みで差分が生じず、PR が作成されませんでした"
+            exit 1
+          fi
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }} (${{ steps.cpr.outputs.pull-request-operation }}): ${{ steps.cpr.outputs.pull-request-url }}" >> "$GITHUB_STEP_SUMMARY"
