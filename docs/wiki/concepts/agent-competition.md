@@ -12,6 +12,7 @@ Kaggle のシミュレーションコンペとして以前からある形式で�
 - 解法はヒューリスティック・強化学習・LLM の組み合わせが主戦場で、ヒューリスティックが必ずしも強化学習に劣らないという実務的な知見も繰り返し語られる（[「Halite」AIコンペからの知見まとめ記事](https://www.twosigma.com/insights/article/best-practices-from-building-a-machine-learning-bot-for-halite/)）。強化学習ライブラリでは HandyRL が複数コンペでの優勝・上位実績を持つ定番になっている。ヒューリスティックの基礎は[数理最適化コンペ](./optimization.md)と地続き
 - 強化学習は「学習が進んでいるか」の判断自体が難しく、専用のデバッグ・検証プロセスを組む必要がある点が対戦形式コンペ特有の難しさとして報告されている。対戦相手・先攻後攻・乱数種を揃えずに勝率を比べると改善を見誤るため、評価用エージェントを複数用意して条件を固定する手当てが要る（[ポケカコンペの参加録](../../solutions.md)）
 - 積み上げ方には定番の順序がある。手作りのルールから始めて数手先の探索、局面から勝率を予測する価値関数、上位エージェントの行動クローン、自己対戦による方策の微調整、公開情報からの相手デッキ推定、と段階的に足していく形が取りやすい。価値関数の学習データは自己対戦の局面から数十万規模で作れる
+- 2026 年には、エージェント同士を戦わせるのではなくエージェントを攻撃対象に据える形式も現れた。「[AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks)」はツールを使う LLM エージェントへの多段階攻撃を生成するコードを提出させるもので、対戦相手ではなくガードレールと採点系の検査範囲のずれが攻略の焦点になった（[コンペ解法](../../solutions.md)に銅メダル解法と参加録を掲載）。形式の位置づけは[コンペ形式・技術動向の変遷](./competition-evolution.md)も参照
 - 「エージェントを道具として使って通常のコンペを戦う」話題は[AI エージェント活用](./ai-agent.md)へ
 
 ## 資料
@@ -22,6 +23,7 @@ Kaggle のシミュレーションコンペとして以前からある形式で�
 - [Game Arena: Poker and Werewolf, and Gemini 3 tops chess](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/): ポーカー・人狼ベンチマークの追加とチェストーナメント結果の続報。
 - [Simulation Competitions(kaggle-cli ドキュメント)](https://github.com/Kaggle/kaggle-cli/blob/main/docs/simulation_competitions.md): エージェント提出・対戦評価の仕組みの公式解説。
 - [The Pokémon Company - PTCG AI Battle Challenge Simulation](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle): ポケモンカードゲームの対戦 AI を競う大型コンペ（Simulation Track）。
+- [AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks): ツールを使う LLM エージェントへの多段階攻撃を設計するコンペ。予測値ではなく攻撃候補を生成するコードを提出する形式で、4,000 チーム超が参加した。
 - [The State of Machine Learning Competitions 2025 Edition](https://mlcontests.com/state-of-machine-learning-competitions-2025/): 対戦トーナメント形式の導入を含む 2025 年のコンペ動向の年次まとめ。
 - [ALE-Bench：AIの長期的推論能力を測るコーディングベンチマーク](https://speakerdeck.com/imjk/w-and-b-meetup-number-24-in-tokyo): AtCoder Heuristic Contest 40 問で AI の長期的な問題解決能力を測るベンチマークの紹介資料。
 - [AtCoder World Tour Finals 2025 に OpenAI がスポンサーとして参画](https://prtimes.jp/main/html/rd/p/000000059.000028415.html): 「人間 vs AI」のエキシビションが行われた競技プログラミングイベントの発表。

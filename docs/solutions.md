@@ -342,7 +342,7 @@
 </div>
 
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="text" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/">AI Agent Security - Multi-Step Tool Attacks</a></h3>
+<h3><a href="https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks">AI Agent Security - Multi-Step Tool Attacks</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggle AI Agent Securityコンペ振り返り ー345th Place Solution](https://zenn.dev/fusic/articles/61c4bcba3e4820): ツールを使う LLM エージェントへの多段階攻撃を生成するコードを提出するコンペの銅メダル解法。ガードレールが検査しない引数に着目した手法と、Public 最高スコアの提出が Private で 0 点になった経験から得た「同じ理由で失敗する提出を重ねない」という最終提出の選び方を述べている。
