@@ -14,6 +14,7 @@ Claude Code などの LLM エージェントを「道具」としてコンペ作
 - 協働の質を決めるのは分担の切り方で、「方針決定と採否の判定は人、実装と確認はエージェント」という線引きが繰り返し語られる。実験結果をリポジトリと指示ファイルに集約しておけばセッションが切れても引き継げるため、ローカル GPU 1 枚・スマホからの短い指示だけで金メダルに届いた事例もある（[いま、生成AIにKaggleをどこまで 任せられるか](https://speakerdeck.com/k951286/ima-seisei-ai-ni-kaggle-o-doko-made-makaserareru-ka-rogii-konpe-deno-susumekata-to-tips)）
 - 委譲するほど、人が握る「判定基準」の設計が効いてくる。実験の足切り基準を誤ると有望な案を序盤で捨ててしまい、リークや行き詰まりはエージェント自身では検知できない。実装が速い分だけ構成が複雑になりやすく、定期的に単純な設計へ戻す見直しも要る
 - エージェントと協働するには、実験の再現性と記録が前提になる（[実験管理](./experiment-management.md)）。ノートブックのクラッシュを集めたベンチマーク（JunoBench）や MLE-Bench など、エージェントの評価基盤も整備されつつある
+- 「エージェントを道具として使う」話題の隣で、データ分析エージェントそのものを競わせるコンペも立ち上がっている。KDD Cup 2026 の「[Data Agents for Complex Data Analysis](https://dataagent.top/)」は、異種データの束と自然言語の問いからエージェントに分析の段取りを組ませる形式で、スコアだけを競うトラックとシステムの完成度・新規性を評価するトラックを併設している。単一スコアで測りにくい対象をどう評価するかという論点は[性能評価と検証](./evaluation-validation.md)と地続き
 
 ## 資料
 
@@ -30,6 +31,8 @@ Claude Code などの LLM エージェントを「道具」としてコンペ作
 - [KaggleはAIに解けるか？ MLE-Benchのいま (2025/08/23; 第4回 関東Kaggler会)](https://speakerdeck.com/iwiwi/23-di-4hui-guan-dong-kagglerhui): Kaggle の問題を AI エージェントに解かせるベンチマーク MLE-Bench の動向をまとめた発表資料。
 - [MLE-Benchの論文とコードを読んで](https://ho.lc/blog/openai-mle-bench/): MLE-bench の論文とコードを Kaggle 参加者の視点で読み解いた考察記事。
 - [JunoBench: Crashes in Python ML Jupyter Notebooks](https://arxiv.org/abs/2510.18013v1): Kaggle 由来の再現可能なノートブックのクラッシュ 111 件を集めたベンチマークの論文。
+- [KDD Cup 2026: Data Agents for Complex Data Analysis](https://dataagent.top/): 表・文書・ログ・API・知識グラフが混在するデータ束と自然言語の問いを渡し、分析の段取りを自律的に組み立てさせる KDD Cup の公式サイト。評価は DataAgent-Bench のタスク群で行い、順位を競う Leaderboard Track とシステムの完成度・新規性を評価する Creative Track の 2 本立てになっている。
+- [KDD Cup 2026 Data Agents: Presentation Archive](https://dataagent.top/presentations): 上記コンペの最終順位と上位チームのシステム・発表資料を公開するアーカイブ。
 
 ## 関連概念
 

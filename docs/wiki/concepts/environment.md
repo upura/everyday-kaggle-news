@@ -8,7 +8,7 @@ Kaggle Notebook の制約を超えたいときの選択肢を集めています�
 - 大きな選択肢は「自宅 GPU マシンの調達」「クラウド（GCP・AWS・RunPod など）の利用」「Google Colaboratory・Kaggle Notebook などの無料/定額枠」の3系統。継続的に参加するなら費用対効果と管理コストが論点になる
 - クラウドは Terraform などの IaC でコンペごとに環境を素早く立ち上げる運用が定着してきた
 - Google Colaboratory は Pro/Pro+ やコンピューティングユニット制、TPU 提供などで機能を拡張し続ける一方、Python バージョンや利用規約の変更が度々発生するため追随が必要
-- Kaggle Notebook 自体も GPU 環境や信頼性の改善が継続的に行われており、VS Code・Cursor などローカル IDE から接続して使う選択肢も増えている
+- Kaggle Notebook 自体も GPU 環境や信頼性の改善が継続的に行われており、VS Code・Cursor などローカル IDE から接続して使う選択肢も増えている。アクセラレータの選択肢は世代交代で入れ替わり、2026 年 9 月 15 日には P100 が提供終了して GPU は T4x2 に一本化された（[公式アナウンス](https://www.kaggle.com/discussions/product-announcements/735239)）。単一 GPU 前提のコードは複数 GPU・GPU あたり 16 GB という構成の違いを踏まえて見直しておきたい
 - パッケージ管理は rye・Poetry などのツールや Docker を用いたコンペ環境の再現性確保に関心が向かっている。NumPy 2.0 のようなメジャーアップデートでは既存コードとの互換性に注意が必要
 - エディタ（VS Code）の設定を整えるだけでも深層学習の開発体験は大きく変わる。SSH 接続でのバックグラウンド実行など、長時間の学習を止めずに作業する工夫も定番
 - 環境をテンプレート化してコンペ間で使い回す話は[実験管理](./experiment-management.md)を参照
@@ -67,6 +67,7 @@ Kaggle Notebook の制約を超えたいときの選択肢を集めています�
 
 ### Kaggle Notebook環境
 
+- [Sunsetting the NVIDIA Tesla P100 GPU on September 15, 2026](https://www.kaggle.com/discussions/product-announcements/735239): P100 の提供終了を告げる公式アナウンス。Google Cloud 側の提供終了と待ち行列の長さが理由で、以後は T4x2 に自動で切り替わる。
 - [Create a Remote LLM Server Using Kaggle Notebooks and Ollama](https://medium.com/data-science-collective/create-a-remote-llm-server-using-kaggle-notebooks-and-ollama-acb299ead1e5): Kaggle の計算環境で LLM 推論サーバを立てる方法のコード付き解説。
 - [kaggle小技まとめてみた(随時更新予定)](https://note.com/chumajin/n/nfafe926a69cf): Kaggle Notebook 環境の便利機能のまとめ。
 - [KaggleデータセットをGoogle Colaboratoryにダウンロードするスクリプト](https://tic-memo.netlify.app/posts/kaggle-download-data/): Kaggle Notebook と同様のフォルダ構造で配置。
