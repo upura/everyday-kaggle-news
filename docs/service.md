@@ -42,6 +42,7 @@
 
 ## その他プラットフォームのサービス
 
+- [Kaggle AI Benchmarks](https://www.kaggle.com/benchmarks): AI モデル・エージェントの評価ベンチマークを作成・実行・公開できる Kaggle の機能。研究コミュニティがベンチマーク自体を持ち寄る形をとる。
 - [AIYSS \| 年齢ではなく、能力で機会を。](https://aiyss.org/): 中学生・高校生・大学生の Kaggle での取り組みを対象コンペごとにポイント化し、年間の「AIYSS Kaggle League」として順位を掲載する非公式サービス。参加登録は Kaggle プロフィールの Bio に認証キーを書く方式で本人確認する。
 - [SIGNATE 金融マーケット予測の実践講座](https://prtimes.jp/main/html/rd/p/000000027.000015818.html): SIGNATE で開催されたコンペのチュートリアルを基にした講座。
 - [NHK朝のニュースでSIGNATEが紹介](https://www3.nhk.or.jp/news/contents/ohabiz/2021_0907.html): データサイエンティストの話題の中で SIGNATE が取り上げられた報道。

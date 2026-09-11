@@ -96,6 +96,9 @@ https://kansaikaggler.connpass.com/
 
 ## その他
 
+- [Fields Model Day with AIMO Winners and Organisers: 21 July 2026](https://llmc.nii.ac.jp/topics/fields-model-day-with-aimo-winners-and-organisers-21-july-2026/): 2026 年 7 月 21 日に国立情報学研究所で開催された AI Mathematical Olympiad（AIMO）の報告会。主催者と上位入賞者が登壇し、国内の定理証明・AI4Math 研究の概況と併せて発表された。
+- [Kaggle x コーディングエージェント勉強会 - Kaggleのチュートリアル7版公開記念 -](https://www.youtube.com/watch?v=SqCnI-hpnzM): 『Kaggleのチュートリアル第7版』の公開記念に開催された勉強会の録画。コーディングエージェントの活用とエージェント時代の取り組み方をテーマに、発表とパネルディスカッションが行われた。
+- [Kaggle x コーディングエージェント勉強会の発表資料まとめ](https://note.com/currypurin/n/nadeecf1c48d8): 上記の勉強会と併催された入門講座の告知・資料まとめ。成長の心構え、uv や Polars の知見をエージェントに渡す工夫、コミュニティ運営など登壇者ごとの資料へリンクしている。
 - [Kaggle「AI Agent Security」コンペ \| ソリューション共有会 @ Elith](https://elith.connpass.com/event/405693/): 2026 年 9 月 20 日開催の解法共有会。成功した戦略だけでなく失敗した実験の共有も掲げ、現地（文京区）とオンラインのハイブリッドで実施される。
 - [Kaggler の海外経験を聞く会 #1](https://kaggler-international.connpass.com/event/397666/)
 - [RECRUIT TECH CONFERENCE 2026](https://www.recruit.co.jp/special/techconference2026/): Kaggle Grandmaster・Master が登壇するセッションが開催された技術カンファレンス。

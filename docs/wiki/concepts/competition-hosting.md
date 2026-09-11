@@ -21,6 +21,7 @@
 ### 企業主催コンペの開催報告
 
 - [LINEヤフー データサイエンス Meetup「三井物産コモディティ予測チャレンジ」の舞台裏-AlpacaTechパート](https://speakerdeck.com/gamella/lineyahu-detasaiensu-meetup-san-jing-wu-chan-komodeiteiyu-ce-tiyarenzi-nowu-tai-li-alpacatechpato): 企業主催 Kaggle コンペの設計者による発表資料。金融タスク特有の問題設計の工夫を説明。
+- [Kaggleコンペ開催に実際にかかる費用と、今後生成AIに関わる企業が改めてKaggleコンペ開催に挑戦するべき理由](https://note.com/tomoya_kitayama/n/nfe267fb95bab): 開催支援の経験から費用を見積もった記事。ホスティング費用と賞金という表に出る額のほかに、データの再配信ライセンス交渉、運ゲー化を防ぐための事前検証といった見えない負担があると説明している。
 - [Kaggleコンペ「MITSUI & CO. Commodity Prediction Challenge」問題設計 詳細解説](https://zenn.dev/gamella/articles/7e944bd18cdbe6): 同コンペの設計担当者による解説記事。金融時系列コンペ特有の課題と設計意図を詳述。
 - [【Kaggle×人材育成】NTTグループ横断で100人が参加！Python初心者も2時間で楽しめるKaggleオンサイトコンペをやった話](https://qiita.com/daikon_desu/items/e6f672324d5d9c2ab1f3): 企業内の初心者向けオンサイトコンペの開催報告。修正箇所をプロンプトに限定する難易度調整など運営の工夫を紹介。
 - [JPX Tokyo Stock Exchange Prediction 開催知見](https://zenn.dev/gamella/articles/eaf7fe5a96bdf0): 金融コンペの問題設計の工夫を綴る主催者記事。
@@ -70,6 +71,11 @@
 - [チューニングコンペティション（LLM-jp）開催報告](https://drive.google.com/file/d/1M1bpEDvARxSq-KNbudf1B8V4kbpYxO5u/view): 言語処理学会第 31 回年次大会のワークショップ内で開催された LLM チューニングコンペの開催報告。
 - [atmaCup #21の競技データを活用した論文が、ICLR 2026 Workshopに採択されました](https://www.atma.co.jp/news/4d27cbb5-13a1-46d2-84cf-0d3544a3d99e): LLM の攻撃・防御プロンプトを対戦形式で競ったコンペの対戦ログ（247 名・29,084 試合）が、国際会議のワークショップ論文の分析対象になったという開催者側の告知。
 - [Non-Monotonicity and Catastrophic Risk of Prompt Interventions in Adversarial LLM Control](https://openreview.net/forum?id=HPw77rwbrb): 上記の論文。プロンプトに指示や制約を足すことが必ずしも性能向上につながらない点を、コンペで蓄積されたプロンプト拡張の前後スコアから分析している。
+
+### 審査・運営ルールの設計
+
+- [Announcing the Measuring Progress Toward AGI: Cognitive Abilities Hackathon Winners](https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918): ハッカソン形式コンペの受賞発表スレッド。審査基準に照らして受賞作の評価過程に一貫性がないとする問題提起があり、採点の配点が公開されないことや、生成 AI で量産された提出物を人手で審査しきれるのかという論点が議論された。
+- [Public Notebook Sharing Deadline: August 2](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/728935): 開催中のコンペで公開ノートブックの共有を締め切ると告知したスレッド。テストセットが全公開の最適化・対戦系コンペで、終盤の公開が順位を左右する問題への運営側の対処例。
 
 ### プラットフォーム運営者の視点
 
