@@ -1,6 +1,6 @@
 # サービス・ツール
 
-本ページでは、Kaggle に関する非公式サービス・ツールなどの情報を掲載します。
+Kaggle やデータサイエンスコンペに関連する周辺サービス、拡張機能、通知ツールをまとめています。
 
 ## X bot
 
@@ -9,19 +9,19 @@
 
 ## Slack
 
-- [kaggler-ja](https://yutori-datascience.hatenablog.com/entry/2017/08/23/143146)
+- [kaggler-ja](https://yutori-datascience.hatenablog.com/entry/2017/08/23/143146): 日本人 Kaggler 向けの有志 Slack ワークスペース。
 
 ## Discord
 
-- 「[かぐるーど](https://scrapbox.io/kaggle-friends/%E3%81%8B%E3%81%90%E3%82%8B%E3%83%BC%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)」
+- [かぐるーど](https://scrapbox.io/kaggle-friends/%E3%81%8B%E3%81%90%E3%82%8B%E3%83%BC%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6): コンペ参加者向けの有志 Discord サーバ。
 
 ## Chrome 拡張
 
-- [Kaggle Notebook Translation Helper](https://www.kaggle.com/discussions/general/364744)
+- [Kaggle Notebook Translation Helper](https://www.kaggle.com/discussions/general/364744): Kaggle Notebook の画面上で翻訳を支援する Chrome 拡張機能。
 
 ## VS Code 拡張
 
-- [Kaggleコンペ用のVScode拡張を開発した](https://ho.lc/blog/vscode-kaggle-extension)
+- [Kaggleコンペ用のVScode拡張を開発した](https://ho.lc/blog/vscode-kaggle-extension): VS Code からデータセット取得や Notebook 提出を行う拡張機能の開発記。
 
 ## コーディングエージェント向けプラグイン
 
@@ -29,12 +29,12 @@
 
 ## GitHub Actions
 
-- [GitHubプロフィールにKaggleのバッジを表示するGitHub Actionsを作成しました](https://qiita.com/Takayoshi_Makabe/items/8e287bc6a8f90018049c): Kaggle ランクに応じたバッジを生成する Actions の紹介。
+- [GitHubプロフィールにKaggleのバッジを表示するGitHub Actionsを作成しました](https://qiita.com/Takayoshi_Makabe/items/8e287bc6a8f90018049c): Kaggle ランクに応じたバッジを生成する GitHub Actions の紹介。
 - [kaggle-badge](https://github.com/subinium/kaggle-badge): Kaggle の個人実績画像を自動生成するアプリケーション。
 
-## ニューズレター
+## ニュースレター
 
-- [Weekly Kaggle News](https://weeklykagglenews.substack.com/)
+- [Weekly Kaggle News](https://weeklykagglenews.substack.com/): 毎週金曜日に配信される、コンペの話題や注目記事をまとめたニュースレター。
 
 ## Kaggle 公式ガイド
 
@@ -42,8 +42,8 @@
 
 ## その他プラットフォームのサービス
 
-- [Kaggle AI Benchmarks](https://www.kaggle.com/benchmarks): AI モデル・エージェントの評価ベンチマークを作成・実行・公開できる Kaggle の機能。研究コミュニティがベンチマーク自体を持ち寄る形をとる。
-- [AIYSS \| 年齢ではなく、能力で機会を。](https://aiyss.org/): 中学生・高校生・大学生の Kaggle での取り組みを対象コンペごとにポイント化し、年間の「AIYSS Kaggle League」として順位を掲載する非公式サービス。参加登録は Kaggle プロフィールの Bio に認証キーを書く方式で本人確認する。
+- [Kaggle AI Benchmarks](https://www.kaggle.com/benchmarks): AI モデルやエージェントの評価ベンチマークを作成、実行、公開できる Kaggle の機能。研究コミュニティがベンチマーク自体を持ち寄る形をとる。
+- [AIYSS \| 年齢ではなく、能力で機会を。](https://aiyss.org/): 中学生、高校生、大学生の Kaggle での取り組みを対象コンペごとにポイント化し、年間の「AIYSS Kaggle League」として順位を掲載する非公式サービス。参加登録は Kaggle プロフィールの Bio に認証キーを書く方式で本人確認する。
 - [SIGNATE 金融マーケット予測の実践講座](https://prtimes.jp/main/html/rd/p/000000027.000015818.html): SIGNATE で開催されたコンペのチュートリアルを基にした講座。
 - [NHK朝のニュースでSIGNATEが紹介](https://www3.nhk.or.jp/news/contents/ohabiz/2021_0907.html): データサイエンティストの話題の中で SIGNATE が取り上げられた報道。
 - [Kaggleコンペ一覧ページのUI刷新](https://www.kaggle.com/product-feedback/245652): 実行環境の R 言語バージョンも 4.x に更新。

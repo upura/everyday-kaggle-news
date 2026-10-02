@@ -1,6 +1,6 @@
 # Kaggle 関連書籍
 
-本ページでは、Kaggle に関する書籍の情報を掲載します。
+Kaggle やデータサイエンスコンペに関連する書籍と、関連書籍に関する記事をまとめています。
 
 ## Kaggle 関連書籍一覧
 
@@ -28,18 +28,18 @@
 | [Kaggleではじめる大規模言語モデル入門](https://www.kodansha.co.jp/book/products/0000420398) | | 2026 年 1 月 |
 | [The Kaggle Book: 2nd Edition](https://www.amazon.com/dp/B0FDFXR8N9) | 英語 | 2025 年 12 月 |
 | [Kaggleのチュートリアル第7版](https://www.amazon.co.jp/dp/B0H71K7BSS) | 『Kaggleのチュートリアル第6版』の改訂版 | 2026 年 7 月 |
-| [イラストで学ぶ 自然言語処理 大規模言語モデルへの最短コース](https://www.hanmoto.com/bd/isbn/9784065447208) | 李凌寒 著（講談社）。Transformer から Mixture of Experts・マルチモーダル LLM・分散学習・評価と安全性までを図と Python 演習で扱う入門書 | 2026 年 10 月 |
+| [イラストで学ぶ 自然言語処理 大規模言語モデルへの最短コース](https://www.hanmoto.com/bd/isbn/9784065447208) | 李凌寒 著（講談社）。Transformer から Mixture of Experts、マルチモーダル LLM、分散学習、評価と安全性までを図と Python 演習で扱う入門書 | 2026 年 10 月 |
 
-## Kaggle 関連書籍に関する記事
+## 書籍に関する記事
 
-- [Kaggleと名のつく本を全て読んだので紹介していく](https://qiita.com/Isaka-code/items/efbdc60b4c557e2fba1b)
-- [Kaggle入門のバイブルをアップデート！『Kaggleのチュートリアル第7版』執筆開始と執筆者・レビュアー募集のお知らせ](https://note.com/currypurin/n/nb228ba2a68c1)
-- [『Kaggleのチュートリアル 第7版』をKindleで公開しました](https://note.com/currypurin/n/nef92a6bcc3c4): 著者による第7版の公開告知。Titanic を題材に最初のサブミットまでを案内する入門書で、コーディングエージェント時代の変化も踏まえて改訂されている。
-- [書籍概要: Kaggleではじめる大規模言語モデル入門](https://upura.hatenablog.com/entry/publishing-kaggle-llm-book)
-- [『Software Design 2021年11月号』Kaggle特集の著者による紹介記事](https://future-architect.github.io/articles/20211026b/): 「前処理から学習モデルの構築、スコアの上げ方までわかる」特集の著者による紹介。感想記事も別途公開。
-- [『Kaggleで勝つデータ分析の技術』中国語（繁体字）版発行](https://www.books.com.tw/products/0010883417): 「ITエンジニア本大賞2020」技術書部門で上位 3 冊に選ばれた書籍の中国語版。
-- [『つくりながら学ぶ！PyTorchによる発展ディープラーニング』著者による講演資料](https://www.slideshare.net/yutaroogawa1116/it-243412167): Kaggle にも言及し、『Kaggleコンペティション チャレンジブック』を紹介する講演資料。
-- [Abhishek Thakurさんの自主出版書籍の無償公開](https://github.com/abhishekkrthakur/approachingalmost): Kaggle 全 4 カテゴリ Grandmaster による NLP 実践書の PDF 無償公開。
-- [『Kaggleのチュートリアル』第5版無料公開](https://www.currypurin.com/entry/kaggle_tutorial_ver5): 「Kaggle Advent Calendar 2020」最終日に合わせた同人誌の無料公開。
+- [Kaggleと名のつく本を全て読んだので紹介していく](https://qiita.com/Isaka-code/items/efbdc60b4c557e2fba1b): 日本語で読める Kaggle 関連書籍の特徴や難易度を比較したまとめ記事。
+- [Kaggle入門のバイブルをアップデート！『Kaggleのチュートリアル第7版』執筆開始と執筆者・レビュアー募集のお知らせ](https://note.com/currypurin/n/nb228ba2a68c1): 第7版の執筆方針と執筆者やレビュアーの募集告知。
+- [『Kaggleのチュートリアル 第7版』をKindleで公開しました](https://note.com/currypurin/n/nef92a6bcc3c4): 著者による第7版の公開告知。Titanic を題材に最初の提出までを案内する入門書で、コーディングエージェントの活用を踏まえて改訂。
+- [書籍概要: Kaggleではじめる大規模言語モデル入門](https://upura.hatenablog.com/entry/publishing-kaggle-llm-book): 著者による構成案と各章のポイント解説記事。
+- [『Software Design 2021年11月号』Kaggle特集の著者による紹介記事](https://future-architect.github.io/articles/20211026b/): 特集「前処理から学習モデルの構築、スコアの上げ方までわかる」の著者による紹介記事。
+- [『Kaggleで勝つデータ分析の技術』中国語（繁体字）版発行](https://www.books.com.tw/products/0010883417): 「ITエンジニア本大賞2020」技術書部門で上位 3 冊に選出された書籍の中国語版。
+- [『つくりながら学ぶ！PyTorchによる発展ディープラーニング』著者による講演資料](https://www.slideshare.net/yutaroogawa1116/it-243412167): Kaggle への言及や『Kaggleコンペティション チャレンジブック』を紹介する講演資料。
+- [Abhishek Thakurさんの自主出版書籍の無償公開](https://github.com/abhishekkrthakur/approachingalmost): Kaggle 全 4 カテゴリ Grandmaster による実践書の PDF 無償公開。
+- [『Kaggleのチュートリアル』第5版無料公開](https://www.currypurin.com/entry/kaggle_tutorial_ver5): 「Kaggle Advent Calendar 2020」最終日に合わせた電子書籍の無料公開。
 - [『Kaggleコンペティション チャレンジブック』発売予告](https://www.amazon.co.jp/dp/4839968934): 冒頭抜粋と概要が先行公開された書籍の発売告知。
 - [Abhishek Thakurさんの自主出版書籍が正式発売](https://www.amazon.com/dp/8269211508): 各国向け購入リンクが用意された『Approaching (Almost) Any Machine Learning Problem』。

@@ -192,7 +192,7 @@
 <h3><a href="https://www.kaggle.com/c/tensorflow-great-barrier-reef">Tensorflow - Help Protect the Great Barrier Reef</a></h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
-- [Great Barrier Reef 参加録](https://kdl-di.hatenablog.com/entry/2022/09/30/090000): オニヒトデ検出コンペの進め方と参加意義を綴る参加録。
+- [Great Barrier Reef 参加録](https://kdl-di.hatenablog.com/entry/2022/09/30/090000): オニヒトデ検出コンペの進め方と参加意義をまとめた参加録。
 
 </div>
 
@@ -268,7 +268,7 @@
 
 - [Claude Code / CodexでKaggle金メダルを取った話](https://zenn.dev/chiman/articles/b233cc808d6af3): 生成 AI を用いた開発方法と役割分担を詳述する金メダル解法。
 - [草コンペ振り返り](https://speakerdeck.com/chihironakayama/cao-konhezhen-rifan-ri): 牧草画像から飼料の量を予測するコンペの 5 位解法。
-- [CSIRO - Image2Biomass Prediction 上位解法まとめ](https://zenn.dev/prgckwb/articles/kaggle-csiro-image2biomass): 1〜5 位の解法を横断した振り返り記事。DINOv3 バックボーンやテスト時オンライン学習など各チームのアプローチを紹介。
+- [CSIRO - Image2Biomass Prediction 上位解法まとめ](https://zenn.dev/prgckwb/articles/kaggle-csiro-image2biomass): 1〜5 位の解法を横断した振り返り記事。DINOv3 バックボーンやテスト時オンライン学習など、各チームのアプローチを解説している。
 
 </div>
 
@@ -317,7 +317,7 @@
 <h3><a href="https://www.kaggle.com/competitions/birdclef-2026">BirdCLEF+ 2026</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
 
-- [【Kaggle】BirdCLEF+ 2026 参加記録(🥈31位)](https://zenn.dev/dalab/articles/7ea7584b75af39): 毎年恒例の鳥の鳴き声認識コンペの銀メダル解法。
+- [【Kaggle】BirdCLEF+ 2026 参加記録(🥈31位)](https://zenn.dev/dalab/articles/7ea7584b75af39): 鳥の鳴き声認識コンペの銀メダル解法。
 
 </div>
 
@@ -434,7 +434,7 @@
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [NeurIPS - Open Polymer Prediction 2025 反省会](https://speakerdeck.com/calpis10000/kaggle-neurips-open-polymer-prediction-2025-konpe-fan-sheng-hui)
-- [NeurIPS Polymer 2025 上位解法の追試してみた話](https://zenn.dev/amana/articles/neurips-polymer-2025): 優勝解法の再現をコード付きで試みる記事。
+- [NeurIPS Polymer 2025 上位解法の追試してみた話](https://zenn.dev/amana/articles/neurips-polymer-2025): 優勝解法の再現をコード付きで試みた検証記事。
 
 </div>
 
@@ -797,8 +797,8 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggleコンペ初参加でチームに恵まれ金メダル(8位)だった](https://secon.dev/entry/2022/06/21/110000-kaggle-uspppm/)
-- [Kaggle PPPMコンペ反省会](https://speakerdeck.com/k951286/kaggle-pppmkonpefan-sheng-hui): 銀メダル解法。上位への鍵となった手法を紹介。
-- [Kaggle「U.S. Patent Phrase to Phrase Matching」8位解法](https://hack.nikkei.com/blog/kaggle202207/): 複数の対象を同時に扱う方法や敵対的学習手法を紹介。
+- [Kaggle PPPMコンペ反省会](https://speakerdeck.com/k951286/kaggle-pppmkonpefan-sheng-hui): 銀メダル解法。上位進出につながった手法を解説している。
+- [Kaggle「U.S. Patent Phrase to Phrase Matching」8位解法](https://hack.nikkei.com/blog/kaggle202207/): 複数の対象を同時に扱う方法や敵対的学習手法を解説している。
 
 </div>
 
@@ -841,7 +841,7 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [AI/機械学習を実務に活かす：レコメンドコンペティション優勝解法徹底解説（1）](https://www.datarobot.com/jp/blog/thorough-explanation-of-the-winning-solution-of-the-recommendation-competition-1/)
-- [Kaggle「H&M Personalized Fashion Recommendations」の金メダル解法](https://blog.recruit.co.jp/data/articles/kaggle-h-and-m/): コンペから得た着想で CVR を 20〜30% 向上させた業務活用も報告。
+- [Kaggle「H&M Personalized Fashion Recommendations」の金メダル解法](https://blog.recruit.co.jp/data/articles/kaggle-h-and-m/): コンペから得た着想で CVR を 20〜30% 向上させた業務活用事例も報告している。
 
 </div>
 
@@ -852,7 +852,7 @@
 - [【マケデコ】JPX Kaggleコンペ5位解法共有](https://speakerdeck.com/ghtaro/makedeko-jpx-kagglekonpe5wei-jie-fa-gong-you)
 - [JPX Tokyo Stock Exchange Prediction Award Ceremony 解法総評](https://speakerdeck.com/gamella/jpx-tokyo-stock-exchange-prediction-award-ceremony-jie-fa-zong-ping): 主催者による表彰式での上位解法総評。
 - [システムトレーダー視点での「JPX Tokyo Stock Exchange Prediction」参加感想](https://qiita.com/blog_UKI/items/efba4ac7b1543a9bef85): 記事を受けて主催者が問題設計の流れを解説する記事も公開された。
-- [システムトレーダーによる「JPX: Tokyo Stock Exchange Prediction」考察記事](https://note.com/uki_profit/n/nd32b67489e23): 同コンペが個人投資家に与える影響について説明する記事。
+- [システムトレーダーによる「JPX: Tokyo Stock Exchange Prediction」考察記事](https://note.com/uki_profit/n/nd32b67489e23): 同コンペが個人投資家に与える影響を考察した記事。
 
 </div>
 
@@ -860,8 +860,8 @@
 <h3><a href="https://www.kaggle.com/competitions/foursquare-location-matching">Foursquare - Location Matching</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
-- [Foursquare - Location Matching の7位解法](https://future-architect.github.io/articles/20220720a/): コンペ概要や具体的な取り組みを詳細に解説。
-- [Kaggle「Foursquare - Location Matching」の銀メダル解法](https://www.t88.work/entry/2022/07/10/210909): コンペ概要や解法、Kaggle 環境での推論時の工夫を紹介。
+- [Foursquare - Location Matching の7位解法](https://future-architect.github.io/articles/20220720a/): コンペの概要と具体的な取り組みを解説している。
+- [Kaggle「Foursquare - Location Matching」の銀メダル解法](https://www.t88.work/entry/2022/07/10/210909): コンペ概要と解法に加え、Kaggle 環境での推論高速化の工夫を解説している。
 
 </div>
 
@@ -869,7 +869,7 @@
 <h3><a href="https://www.kaggle.com/competitions/image-matching-challenge-2022">Image Matching Challenge 2022</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
-- [Kaggle「Image Matching Challenge 2022」の優勝解法](https://zenn.dev/yume_neko/articles/1912be56cd77d9): 参加から優勝に至るまでの取り組みを時系列で紹介。
+- [Kaggle「Image Matching Challenge 2022」の優勝解法](https://zenn.dev/yume_neko/articles/1912be56cd77d9): 参加から優勝に至るまでの取り組みを時系列でまとめた記事。
 - [Kaggle「Image Matching Challenge 2022」の10位解法](https://forxai.konicaminolta.com/blog/017): コンペ概要や特徴、チームとしての取り組みをまとめた記事。
 
 </div>
@@ -878,7 +878,7 @@
 <h3><a href="https://www.kaggle.com/competitions/birdclef-2022">BirdCLEF 2022</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Audio</span> <span class="badge badge-platform">Kaggle</span>
 
-- [BirdCLEF 2022 6位解法](https://docs.google.com/presentation/d/1K-uFxM7edPpWamEQCF5qzyYylGj0JcRvZQScDHwesi8/edit): 肝となった「ハンドラベリング」を中心に解説。
+- [BirdCLEF 2022 6位解法](https://docs.google.com/presentation/d/1K-uFxM7edPpWamEQCF5qzyYylGj0JcRvZQScDHwesi8/edit): 精度向上に寄与した「ハンドラベリング」の手法を中心に解説している。
 
 </div>
 
@@ -896,7 +896,7 @@
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Video</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Kaggleコンペティション「MABe Challenge」振り返り](https://speakerdeck.com/yu4u/kagglekonpeteisiyon-mabe-challenge-social-action-recognition-in-mice-zhen-rifan-ri)
-- [MABe Challenge振り返りと Cursorを使った実験の回し方](https://www.docswell.com/s/DeNA_Tech/Z8W439-2026-02-25-154748): 2 位解法。Cursor を使った実験の回し方も紹介。
+- [MABe Challenge振り返りと Cursorを使った実験の回し方](https://www.docswell.com/s/DeNA_Tech/Z8W439-2026-02-25-154748): 2 位解法。Cursor を活用した実験サイクルの回し方も紹介している。
 - [Kaggle MABe Challenge 金メダル獲得までの開発スタイル振り返り](https://go-drive-tech.hatenablog.com/entry/2026/01/28/180859)
 
 </div>
@@ -1093,7 +1093,7 @@
 <h3><a href="https://www.kaggle.com/c/g2net-gravitational-wave-detection">G2Net Gravitational Wave Detection</a></h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
-- [G2Net Gravitational Wave Detection の19位解法](https://qiita.com/anonamename/items/5b7fa5d9d5d7f9970e06): コンペ概要や性能改善で重要だった点を紹介。
+- [G2Net Gravitational Wave Detection の19位解法](https://qiita.com/anonamename/items/5b7fa5d9d5d7f9970e06): コンペ概要と性能改善に寄与した要点を解説している。
 - [G2Net Gravitational Wave Detection 銀メダル解法](https://medium.com/@junkoda/kaggle-%E9%87%8D%E5%8A%9B%E6%B3%A2%E3%81%A7%E9%8A%80%E3%83%A1%E3%83%80%E3%83%AB-1c7135e69817): 試行錯誤の過程も含めてまとめた記事。
 
 </div>
@@ -1102,7 +1102,7 @@
 <h3><a href="https://www.kaggle.com/c/seti-breakthrough-listen">SETI Breakthrough Listen - E.T. Signal Search</a></h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
-- [SETI Breakthrough Listen - E.T. Signal Search 金メダル解法](https://oumpy.github.io/blog/2021/08/seti.html): 勉強会での発表も予定された金メダル解法の解説。
+- [SETI Breakthrough Listen - E.T. Signal Search 金メダル解法](https://oumpy.github.io/blog/2021/08/seti.html): 勉強会で発表された金メダル解法の解説。
 
 </div>
 
@@ -1407,7 +1407,7 @@
 <h3><a href="https://www.kaggle.com/c/liverpool-ion-switching">University of Liverpool - Ion Switching</a></h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
-- [University of Liverpool - Ion Switching 上位解法まとめ](https://www.slideshare.net/KatsuhisaKawaguchi/kaggle-ion): 時系列ノイズ解析が鍵となったコンペでの探索的データ分析の重要性を強調。
+- [University of Liverpool - Ion Switching 上位解法まとめ](https://www.slideshare.net/KatsuhisaKawaguchi/kaggle-ion): 時系列ノイズの解析がスコアを左右したコンペにおける、探索的データ分析のアプローチを解説している。
 
 </div>
 
@@ -1806,9 +1806,9 @@
 - [2023 LLMサマースクール コンペの解法メモ](https://www.docswell.com/s/KanHatakeyama/58GQRE-2023-11-25-115012): 東大松尾研サマースクール内コンペの 3 位解法。
 - [1st prize in the "Automated checkout" competition of 7th AI CITY CHALLENGE](https://blog.fltech.dev/entry/2023/09/21/ai-city-challenge-1st-prize-en): 自動レジ技術を競う AI CITY CHALLENGE の 1 位解法。
 - [SISAP 2023 Indexing Challenge 参加記](https://mti-lab.github.io/blog/2023/09/05/sisap23_comp_jp.html): 類似度検索の国際会議で開催された高速アルゴリズムコンペの 2 位解法。
-- [都市における人間移動予測の最前線 SIGSPATIAL Cup 2025 上位解法の紹介](https://speakerdeck.com/mujirushi/du-shi-niokeruren-jian-yi-dong-yu-ce-nozui-qian-xian-sigspatial-cup-2025-shang-wei-jie-fa-noshao-jie): 人間の移動予測を扱う ACM SIGSPATIAL 併設コンペの上位解法紹介。
+- [都市における人間移動予測の最前線 SIGSPATIAL Cup 2025 上位解法の紹介](https://speakerdeck.com/mujirushi/du-shi-niokeruren-jian-yi-dong-yu-ce-nozui-qian-xian-sigspatial-cup-2025-shang-wei-jie-fa-noshao-jie): 人間の移動予測を扱う ACM SIGSPATIAL 併設コンペの上位解法の紹介資料。
 - [音声・映像データから感情と原因を抽出する - SemEval-2024優勝手法に学ぶ「非言語情報の言語化」アプローチ](https://zenn.dev/pksha/articles/0847a9f0e36d18): マルチモーダル情報から感情と原因の対を抽出する国際コンペの優勝解法の解説。
-- [WMT2020 Shared Task 機械翻訳コンペ参加報告資料](https://speakerdeck.com/butsugiri/ji-jie-fan-yi-konpeteisiyoncan-jia-bao-gao): 性能向上のための手法の組み合わせやリソースの重要性を語る資料。
+- [WMT2020 Shared Task 機械翻訳コンペ参加報告資料](https://speakerdeck.com/butsugiri/ji-jie-fan-yi-konpeteisiyoncan-jia-bao-gao): 計算資源の確保や手法の組み合わせによる性能向上を論じた発表資料。
 - [「CoNLL 2020 Shared Task」「SemEval 2020」複数部門1位の報告記事（日立）](https://www.hitachi.co.jp/New/cnews/month/2020/12/1202.html): 意味表現解析・意味理解を題材にしたコンペでの成果報告。
 
 </div>

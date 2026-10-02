@@ -1,16 +1,16 @@
 # 音声コンペ
 
 音声や音響イベントを扱うコンペ（BirdCLEF、DCASE など）では、波形をメルスペクトログラムに変換して画像認識モデルを適用するのが定跡です。
-異常音検知や音声認識など、タスクごとに設定の癖が強いのも特徴です。
+異常音検知や音声認識など、タスクごとに問題設定が大きく異なる点も特徴です。
 
 ## 押さえどころ
 
 - 定番のパイプラインは「波形 → メルスペクトログラム → 画像認識モデル」。[画像認識コンペ](./image-recognition.md)の知見（バックボーン選択やデータ拡張）がそのまま活きる
-- 異常音検知（DCASE Task 2 系）は「学習データは正常音のみ」の教師なし設定で、オートエンコーダ系のベースラインすら超えにくい難タスク（[DCASE 2020 Task 2 の解説](https://qiita.com/daisukelab/items/b106c567cf8927a5519a)）
-- 音声認識は ESPnet Model Zoo などの学習済みモデルを数行のコードで利用できる
-- 音声を扱うマルチモーダル LLM の潮流は[自然言語処理コンペ](./nlp-llm.md)とも接続する
-- 鳥の鳴き声（BirdCLEF）や DCASE の異常音検知・音響イベント検出は毎年開催される定番コンペで、複数年分の振り返り記事が蓄積されている。ラベルなしデータの活用（DCASE2020 1位解法など）が勝敗を分けるポイントとして繰り返し登場する
-- 時間-周波数解析の工夫（Superlets など）は、脳波（HMS コンペ）のような音声以外の波形データにも応用が効く
+- 異常音検知（DCASE Task 2 系）は「学習データは正常音のみ」の教師なし設定で、オートエンコーダ系のベースラインを超える工夫が求められる難タスクである（[DCASE 2020 Task 2 の解説](https://qiita.com/daisukelab/items/b106c567cf8927a5519a)）
+- 音声認識では ESPnet Model Zoo などの学習済みモデルを活用できる
+- 音声を扱うマルチモーダル LLM の潮流は[自然言語処理コンペ](./nlp-llm.md)とも密接に関係する
+- 鳥の鳴き声（BirdCLEF）や DCASE の異常音検知や音響イベント検出は毎年開催される定番コンペで、複数年分の振り返り記事が蓄積されている。ラベルなしデータの活用（DCASE2020 1位解法など）が上位入賞の手法として繰り返し登場する
+- 時間周波数解析（Superlets など）の工夫は、脳波（HMS コンペ）のような音声以外の生体信号や波形データにも応用できる
 
 ## 資料
 
@@ -38,10 +38,10 @@
 - [Deep Learning (for Audio) with Python](https://www.youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf)
 - [音学シンポジウム 2025 チュートリアル 「マルチモーダル大規模言語モデル入門」](https://github.com/ryota-komatsu/slp2025)
 - [音声感情認識技術の進展と展望](https://speakerdeck.com/nagase/yin-sheng-gan-qing-ren-shi-ji-shu-nojin-zhan-tozhan-wang): 音声感情認識の基礎と研究動向のサーベイ資料。
-- [Superlets: 時間-周波数解析における「超解像度」filterbank](https://zenn.dev/bilzard/articles/stft-wavelet-superlet): HMS コンペ優勝解法に登場した時間-周波数解析手法の解説記事。
+- [Superlets: 時間-周波数解析における「超解像度」filterbank](https://zenn.dev/bilzard/articles/stft-wavelet-superlet): HMS コンペ優勝解法で用いられた時間周波数解析手法 Superlets の解説記事。
 - [クロスモーダル表現学習の研究動向: 音声関連を中心として](https://speakerdeck.com/ryomasumura/kurosumodarubiao-xian-xue-xi-noyan-jiu-dong-xiang-yin-sheng-guan-lian-wozhong-xin-tosite): 音声を中心としたクロスモーダル表現学習の研究動向の解説資料。
 - [muana vol.11 音楽識別の事前学習モデル](https://speakerdeck.com/yamathcy/muana-vol-dot-11-yin-le-shi-bie-noshi-qian-xue-xi-moderu): 音楽識別のための事前学習済みモデルと活用知見の解説資料。
-- [波形データを扱うニューラルネットワークの解説動画（SONY）](https://www.youtube.com/watch?v=_4r7uTIPG1s&feature=youtu.be): OSS「Neural Network Libraries」開発元による動画シリーズの一本。
+- [波形データを扱うニューラルネットワークの解説動画（SONY）](https://www.youtube.com/watch?v=_4r7uTIPG1s&feature=youtu.be): ソニーの OSS「Neural Network Libraries」開発チームによる解説動画。
 
 ## 関連概念
 

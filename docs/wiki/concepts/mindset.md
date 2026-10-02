@@ -5,10 +5,10 @@
 
 ## 押さえどころ
 
-- Kaggle で培ったスキルの実務転用は、個々の感想を超えて「制度化」が進んでいる。LINEヤフー「AIドラゴン桜」や DeNA・リクルート、業務時間の一部を活動に充てられる nablas の社内制度など、複数の企業でコンペ参加を人材育成に組み込む動きが確認できる。北陸新幹線の着雪量予測モデルやメルカリ Shops の価格推定モデルのように、コンペ由来の解法がそのまま実運用に至った事例も積み重なっている
-- コンペと開発実務は似て非なるもの。企画・制約・チーム連携などの観点で両者の違いを言語化する発表が複数あり、差分を意識することがコンペの経験を実務に翻訳する鍵になる。一方で手順の骨格は流用が利き、コンペの「課題把握 → 評価設計 → ベースライン → 改善」をそのままプロダクト開発に対応づける整理も示されている（[Kaggler流のプロダクト開発入門！](https://zenn.dev/elith/articles/609498a4109ad2)）。最初に端から端まで通る最小構成を作り、変更の前後を比較できる状態にしてから改善に入る点が共通の勘所になる
-- 「時間をかけたのに知識が増えた実感がない」という停滞は、目的が順位の最大化にすり替わることから起きやすい。公開ノートブックや AI の出力をそのまま使うと結果は出ても手元に何も残らないため、順位ではなく次のコンペにも持ち越せる知見を目標に据え、最終的な判断は自分で下す、という置き方が処方箋として語られる（[Kaggleで成長するために意識したこと](https://speakerdeck.com/prgckwb/kaggledecheng-chang-surutameniyi-shi-sitakoto)）。コンペ選びや停滞期の乗り越え方など「取り組み方」の言語化も蓄積されている。直近 3 年間の優勝解法分析（非構造化データはディープラーニング、表データは勾配ブースティングという傾向）のような定量的な振り返りも参照できる
-- 「面白かったコンペ・論文」を Kaggler に聞くアンケート記事が 2020・2021・2023 年と複数年分蓄積されており、その年の技術トレンドを俯瞰する定点観測として機能している
+- Kaggle で培ったスキルの実務転用は、個々の感想を超えて「制度化」が進んでいる。LINEヤフー「AIドラゴン桜」や DeNA、リクルート、業務時間の一部を活動に充てられる nablas の社内制度など、複数の企業でコンペ参加を人材育成に組み込む動きが確認できる。北陸新幹線の着雪量予測モデルやメルカリ Shops の価格推定モデルのように、コンペ由来の解法がそのまま実運用に至った事例も積み重なっている
+- コンペと開発実務は似て非なるもの。企画や制約、チーム連携など実務との相違点を整理した発表が複数あり、この差分を意識することがコンペの経験を実務に活かす足がかりになる。一方で手順の骨格は流用が利き、コンペの「課題把握 → 評価設計 → ベースライン → 改善」をそのままプロダクト開発に対応づける整理も示されている（[Kaggler流のプロダクト開発入門！](https://zenn.dev/elith/articles/609498a4109ad2)）。最初に端から端まで通る最小構成を作り、変更の前後を比較できる状態にしてから改善に入る点が共通の勘所になる
+- 「時間をかけたのに知識が増えた実感がない」という停滞は、目的が順位の最大化にすり替わることから起きやすい。公開ノートブックや AI の出力をそのまま使うと結果は出ても手元に何も残らないため、順位ではなく次のコンペにも持ち越せる知見を目標に据え、最終的な判断は自分で下す、という置き方が処方箋として語られる（[Kaggleで成長するために意識したこと](https://speakerdeck.com/prgckwb/kaggledecheng-chang-surutameniyi-shi-sitakoto)）。コンペ選びや停滞期の乗り越え方など、取り組み方の整理も蓄積されている。直近 3 年間の優勝解法分析（非構造化データはディープラーニング、表データは勾配ブースティングという傾向）のような定量的な振り返りも参照できる
+- 「面白かったコンペ・論文」を Kaggler に聞くアンケート記事が 2020 年、2021 年、2023 年と複数年分蓄積されており、その年の技術トレンドを俯瞰する定点観測として機能している
 - コミュニティには遊び心のあるエピソード（順位表アイコンの縁起物、タイタニックのカードゲーム）がある一方、解法販売の不正投稿（Global Wheat Detection）や Zillow の実運用失敗のように、データ分析コミュニティが直面する現実的な課題を伝える記事もある
 - 世界トップレベルの Kaggler も長期の積み重ね（10,000 時間）を語っており、短期の成果に一喜一憂しない姿勢が大切。称号を目指す道のりの実例は[称号振り返り・インタビュー](../../milestones.md)に多数ある
 
@@ -24,16 +24,16 @@
 - [北陸新幹線でAIを用いた「着雪量予測モデル」の本運用を開始します](https://www.westjr.co.jp/press/article/2022/11/page_21394.html): SIGNATE コンペ由来のモデルが実運用された事例。
 - [「メルカリShops」の価格推定モデル検証（Mercari 4位解法活用）](https://engineering.mercari.com/blog/entry/20220916-a0a50d6fc5/): Kaggle 由来の解法を実務で応用した事例記事。
 - [Kaggleは「○○」に役立つ](https://thinkit.co.jp/corner/12611): Kaggle の様々な役割を紐解く連載企画の一覧ページ。
-- [解説記事「実務にデータ分析コンペは有効か」](https://tech-ai.panasonic.com/jp/news_page.html?id=20241009): 電子情報通信学会誌に掲載された Grandmaster・Master 著者による解説記事。
+- [解説記事「実務にデータ分析コンペは有効か」](https://tech-ai.panasonic.com/jp/news_page.html?id=20241009): 電子情報通信学会誌に掲載された、Grandmaster と Master の執筆者による解説記事。
 - [Kaggleは「加速」に役立つ ー挫折から戦略を立て直し、Kaggle Masterに至るまでの成長曲線](https://thinkit.co.jp/article/39543): 初期の停滞から戦略を立て直して Master に到達した過程を振り返り、コンペでの高速な試行錯誤が実務の成長をどう加速させたかを綴る連載記事（第 7 回）。
 - [Kaggleは「キャリアの選択肢の拡大」に役立つ ーコンペで得た学びが、実務・教育・研究・執筆へと広がるまで](https://thinkit.co.jp/article/39307): コンペで得た学びが実務・教育・研究・執筆に広がった経験を綴った連載記事。
-- [Kaggleは「キャリア」に役立つ ー機械屋がデータサイエンティスト、R&Dというキャリアに至った道筋](https://thinkit.co.jp/article/39248): Kaggle での研鑽がデータサイエンス活用のキャリアに繋がった事例（連載第 2 回）。
+- [Kaggleは「キャリア」に役立つ ー機械屋がデータサイエンティスト、R&Dというキャリアに至った道筋](https://thinkit.co.jp/article/39248): Kaggle ででの研鑽がデータサイエンス活用のキャリアに繋がった事例（連載第 2 回）。
 - [実例で示すKaggleコンペと開発実務の差](https://www.docswell.com/s/kaeru_nantoka/Z8G8EW-2024-03-22-142237)
-- [実例で示すKaggleコンペと開発実務の差（Q_takka 版）](https://speakerdeck.com/yusuketakagi/lpixel-caddi-ibentozi-liao): 企画や制約などプロジェクト進行の観点で実務との違いを示す発表資料。
+- [実例で示すKaggleコンペと開発実務の差（Q_takka 版）](https://speakerdeck.com/yusuketakagi/lpixel-caddi-ibentozi-liao): 企画や制約などプロジェクト進行の面から、コンペと実務の違いを比較したスライド。
 - [Kaggleで培った技術の業務活用事例](https://www.datarobot.com/jp/blog/business-use-of-kaggle-skills/): 顧客課題の解決に Kaggle の学びを活かした事例を Grandmaster が紹介する記事。
 - [NVIDIA所属Kaggle Grandmaster 9人によるイベントまとめ記事](https://developer.nvidia.com/blog/competition-and-community-insights-from-nvidias-kaggle-grandmasters/): おすすめライブラリやコンペへの取り組み方に関する質問応答をまとめた記事。
 - [PFNが肺がん検診AIを試験導入](https://preferred.jp/ja/news/pr20201012/): 2018 年 Kaggle「RSNA Pneumonia Detection Challenge」の知見を実務に活用した事例。
-- [「AIを何から始めれば良いか」システムエンジニア向け解説記事（ABEJA）](https://qiita.com/yutakikuc/items/b1243a21c3decfa83d3b): 教師あり学習を題材にサービス導入への道筋を言語化した記事。
+- [「AIを何から始めれば良いか」システムエンジニア向け解説記事（ABEJA）](https://qiita.com/yutakikuc/items/b1243a21c3decfa83d3b): 教師あり学習を題材に、システム開発から機械学習サービス導入までの道筋を解説した記事。
 
 ### 企業の支援・育成制度
 
@@ -48,29 +48,29 @@
 
 - [Kaggleの「次の一手」を探る6個のヒント](https://zenn.dev/muku_8949/articles/2633c986a51254): コンペでの停滞期を乗り越えるためのヒント集。
 - [Prizeを捉える解法の見つけ方（第4回 関東Kaggler会）](https://speakerdeck.com/esprit/di-4hui-guan-dong-kagglerhui-prizewozhuo-erujie-fa-nojian-tukefang): 3 度の賞金圏経験をもとにした、賞金を狙うための心構えの発表資料。
-- [Kaggle金メダル獲得戦略](https://speakerdeck.com/senkin13/kansai-kaggler-senkin13): コンペ選び・情報収集・最終提出選択の戦略をまとめた Grandmaster の発表資料。
-- [Kaggleは研究の役に立つのか？](https://aru47.hatenablog.com/entry/2025/12/08/223234): 新規性の創出や課題設計など、研究への活用の観点から Kaggle の価値を論じる記事。
+- [Kaggle金メダル獲得戦略](https://speakerdeck.com/senkin13/kansai-kaggler-senkin13): コンペ選び、情報収集、最終サブミッション選択の戦略をまとめた Grandmaster の発表資料。
+- [Kaggleは研究の役に立つのか？](https://aru47.hatenablog.com/entry/2025/12/08/223234): 新規性の創出や課題設定など、学術研究に Kaggle の知見を活かす意義を論じた記事。
 - [Feedback3 コンペでボロ負けしたので教訓を全部吐きます【懺悔】](https://zenn.dev/aidemy/articles/3299c8fd9f394a): 失敗から得た教訓を綴る参加録。
 - [コンペの選び方](https://qiita.com/shinmura0/items/9dcf12b9c9e8d42b8633): コンペ選定の考え方と実践例の紹介。
 - [Kaggleソロ参戦の流れ](https://qiita.com/tt20210824/items/6edbc7afd518bafcca78): 個人参加時の分析の進め方を共有する記事。
 - [Competitionsだけじゃない！ Kaggle Notebooks Grandmasterのすすめ](https://speakerdeck.com/corochann/competitionstakesiyanai-kaggle-notebooks-grandmasternosusume): Notebooks 部門への取り組み方を紹介する二冠 Grandmaster の発表資料。
-- [関西Kaggler会 交流会 in Osaka 2024#2 データ分析コンペとの向き合い方 ver2](https://speakerdeck.com/takaito/guan-xi-kagglerhui-jiao-liu-hui-in-osaka-2024-number-2-detafen-xi-konpetonoxiang-kihe-ifang-ver2): 個人参加のメリット・デメリットも含むコンペとの向き合い方の発表資料。
+- [関西Kaggler会 交流会 in Osaka 2024#2 データ分析コンペとの向き合い方 ver2](https://speakerdeck.com/takaito/guan-xi-kagglerhui-jiao-liu-hui-in-osaka-2024-number-2-detafen-xi-konpetonoxiang-kihe-ifang-ver2): 個人参加のメリットとデメリットを含め、コンペとの向き合い方をまとめた発表資料。
 - [競技としてのKaggle、役に立つKaggle](https://speakerdeck.com/yu4u/jing-ji-tositenokaggle-yi-nili-tukaggle): 画像コンペを題材にコンペの流れと Tips をまとめた Grandmaster の発表資料。
 - [今年5月からKaggleに参加した方の振り返り記事](https://qiita.com/Java_is_a_sparrow/items/b4f4dd4a2c4530db5a72): 初参加コンペの感想や心構えを綴る記事。
 - [Kaggleにおけるコンペ以外のカテゴリの魅力を紹介する記事](https://zenn.dev/koukyo1994/articles/7b8b06de0680f0): Notebook・Discussion・Dataset に投稿する楽しさとメダル獲得の心掛けを紹介。
 - [直近3年間のKaggle優勝解法を分析した記事](https://www.datarobot.com/jp/blog/is-deep-learning-almighty/): 非構造化データはディープラーニング、テーブルデータは勾配ブースティングという傾向を分析。
-- [機械学習モデル運用の注意点を論じる記事](https://tjo.hatenablog.com/entry/2020/02/24/201203): 『Kaggleで勝つデータ分析の技術』を題材に AutoML 活用の観点で知見を整理。
+- [機械学習モデル運用の注意点を論じる記事](https://tjo.hatenablog.com/entry/2020/02/24/201203): 『Kaggleで勝つデータ分析の技術』を題材に、AutoML の活用とモデル運用時の注意点を整理した記事。
 
 ### 称号・執筆・アンケートによる振り返り
 
-- [Kaggleランカーの5人に聞いた、2023年面白かったコンペ5選と論文5選](https://sorabatake.jp/37130/): Grandmaster・Master 5 人へのアンケートをまとめた記事。
+- [Kaggleランカーの5人に聞いた、2023年面白かったコンペ5選と論文5選](https://sorabatake.jp/37130/): Grandmaster や Master 5 人へのアンケートをまとめた記事。
 - [20250322_Monkey Conference Party 2025_プログラミングコンテストのススメ](https://www.docswell.com/s/tm8619/ZN182E-2025-03-22-142419)
 - [I trained a model. What is next?](https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26)
 - [From Beginner to World Champion: What 10,000 hours on Kaggle taught me](https://www.linkedin.com/pulse/from-beginner-world-champion-what-10000-hours-kaggle-taught-henkel-w6tpf/)
 - [『Kaggleで磨く 機械学習の実践力』執筆体験記](https://qiita.com/m-morohashi/items/de748dd6d4f04c34e8d8): 出版までの流れや困りごとを綴った記事。
-- [Kaggleに価値はあるのか](https://forecastegy.com/posts/is-competing-on-kaggle-worth-ponderings-of-a-kaggle-grandmaster/): 数年前に「引退」した Kaggle Grandmaster の Mario Filho さんが所感を綴った記事。
+- [Kaggleに価値はあるのか](https://forecastegy.com/posts/is-competing-on-kaggle-worth-ponderings-of-a-kaggle-grandmaster/): 数年前に競技から離れた Kaggle Grandmaster の Mario Filho による所感を綴った記事。
 - [2021年の面白かったコンペと論文を7人のKagglerに調査した記事](https://sorabatake.jp/26199/): 回答者のコメントも併記した調査記事。
-- [2022年時点での機械学習コンペの動向をまとめた記事](https://medium.com/machine-learning-insights/winning-approach-ml-competition-2022-b89ec512b1bb): プログラミング言語・上位解法アプローチ・利用ライブラリなどを可視化した記事。
+- [2022年時点での機械学習コンペの動向をまとめた記事](https://medium.com/machine-learning-insights/winning-approach-ml-competition-2022-b89ec512b1bb): プログラミング言語、上位解法のアプローチ、利用ライブラリなどを可視化した記事。
 - [2020年の面白かったコンペ・論文に関する9人のKagglerアンケート記事](https://sorabatake.jp/18734/): 2020 年を振り返るアンケート結果のまとめ記事。
 - [ディープラーニングのモデリングに関する経験則まとめ（Togetter）](https://togetter.com/li/1570085): 多くの実践者が自身の経験則を述べたスレッドのまとめ。
 
@@ -82,7 +82,7 @@
 - [SIGNATE「産業技術総合研究所 衛星画像分析コンテスト」を題材にした資料](https://www2.slideshare.net/matsukenbook/ss-241542814): 参加者視点でコンペの実情を語る資料。
 - [「Global Wheat Detection」でのチームメイトによる解法販売の不正投稿](https://www.kaggle.com/c/global-wheat-detection/discussion/161296): コミュニティで問題となった不正事例の告発投稿。
 - [子育てをしながらKaggleに取り組む4人の座談会](https://www.youtube.com/watch?v=dvMf-iiaA5I&feature=youtu.be): 時間の使い方や Kaggle への向き合い方を語る座談会。
-- [KaggleコミュニティのCOVID-19への貢献まとめ記事（Google Cloud）](https://cloud.google.com/blog/products/ai-machine-learning/how-kaggle-data-scientists-help-with-coronavirus): 自然言語処理・時系列予測・データセット構築の 3 観点で事例を紹介。
+- [KaggleコミュニティのCOVID-19への貢献まとめ記事（Google Cloud）](https://cloud.google.com/blog/products/ai-machine-learning/how-kaggle-data-scientists-help-with-coronavirus): 自然言語処理、時系列予測、データセット構築の 3 分野で事例を紹介。
 - [「Google Landmark Retrieval 2020」順位表アイコンのネタ解説記事](https://www.sixthtone.com/news/1003025/the-memes-that-bring-good-luck): 上位陣が使う縁起物アイコンの背景を紹介するコミュニティ小話。
 - [「タイタニック号の生存者予測」を題材にしたカードゲーム](https://hanshakaijin.booth.pm/items/1870011): 特徴量モンスターとアルゴリズムマシンを駆使する遊び心のある企画。
 - [シンガポール列車の異常事象をデータ分析で特定した話](https://postd.cc/how-we-caught-the-circle-line-rogue-train-with-data/): Jupyter Notebook 上での仮説検証の進め方が Kaggle の取り組みに通じる記事。

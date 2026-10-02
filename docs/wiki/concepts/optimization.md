@@ -6,7 +6,7 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 ## 押さえどころ
 
 - Santa 系コンペは巡回セールスマン問題などの組合せ最適化が題材で、焼きなまし法やビームサーチなどのヒューリスティックと、ソルバー（混合整数計画など）の使い分けが軸になる。HACK TO THE FUTURE のような企業主催コンテストでは NN を使ったヒューリスティックが優勝する例もある（[HTTF 2023 予選1位解法](https://engineering.dena.com/blog/2022/12/httf-2023-qual/)）
-- AtCoder（特に AHC）での経験と練習がそのまま役立つ。入門には AtCoder Heuristic First-step の講義スライドが充実しており、レッドコーダーへのインタビュー記事も攻略の勘所を言語化している
+- AtCoder（特に AHC）での経験と練習がそのまま役立つ。入門には AtCoder Heuristic First-step の講義スライドが充実しており、レッドコーダーへのインタビュー記事も攻略の勘所を整理している
 - 資料の半数近くを Optuna 関連が占める。「重要なハイパーパラメータから順に調整する」という Kaggler の経験則を実装した LightGBM Tuner のような統合が広く使われ、Happywhale コンペ優勝解法など実戦での活用例も蓄積している
 - SAM（Sharpness-Aware Minimization）や AdaBelief など、汎用の最適化アルゴリズム研究がモデル学習の精度向上に直結する場面もある
 - 機械学習コンペとは評価や提出の性質が異なり、探索の実装力と計算資源の使い方が効く
@@ -36,11 +36,11 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [Optuna 3.0 リリース](https://medium.com/optuna/optuna-3-part-1-4c6a9022a648): ハイパーパラメータ最適化ツール Optuna v3.0 の公式リリースノート。
 - [Optuna v3.0.0-a0 最初のリリース候補公開](https://github.com/optuna/optuna/releases/tag/v3.0.0-a0): 「LightGBMTuner.best_booster」の変更なども含むリリースノート。
 - [Optuna v2.4.0リリース](https://github.com/optuna/optuna/releases/tag/v2.4.0): Python 3.9 サポートを開始したリリース。
-- [Optunaチュートリアルページ刷新](https://optuna.readthedocs.io/en/latest/tutorial/index.html): Python・Jupyter Notebook 形式でダウンロードして実行できる公式チュートリアル。
+- [Optunaチュートリアルページ刷新](https://optuna.readthedocs.io/en/latest/tutorial/index.html): Python スクリプトや Jupyter Notebook 形式でダウンロードして実行できる公式チュートリアル。
 - [Optuna v2.3.0リリース](https://github.com/optuna/optuna/releases/tag/v2.3.0): LightGBMTunerCV からの個別モデル取得や多目的 TPE sampler などを追加。
 - [Optuna v2.2.0リリース（TPE改善）](https://medium.com/optuna/multivariate-tpe-makes-optuna-even-more-powerful-63c4bfbaebe2): デフォルト探索アルゴリズム TPE の改善機能を実装。
 - [Optunaの実装を丁寧に解説する記事（Minituna）](https://cyberagent.ai/optuna-from-scratch): 簡略化版「Minituna」で各モジュールの役割を分かりやすく解説。
-- [Optuna v1.4.0リリース](https://github.com/optuna/optuna/releases/tag/v1.4.0): 多目的最適化や MLFlow・AllenNLP とのインテグレーション機能を追加。
+- [Optuna v1.4.0リリース](https://github.com/optuna/optuna/releases/tag/v1.4.0): 多目的最適化や MLflow、AllenNLP との連携機能を追加。
 - [Optuna v1.3.0リリース](https://github.com/optuna/optuna/releases/tag/v1.3.0): ハイパーパラメータの重要度を可視化する機能などを追加。
 - [OptunaでQWKを最適化する記事](https://blog.amedama.jp/entry/optuna-qwk-optimization): 連続値を離散値に変換する閾値の探索を紹介。
 - [OptunaのHyperband実装解説記事](https://medium.com/optuna/optuna-supports-hyperband-93b0cae1a137): v1.1.0 で導入された探索アルゴリズムの実装方法と実験結果を報告。

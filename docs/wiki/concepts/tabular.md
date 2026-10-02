@@ -6,11 +6,11 @@
 ## 押さえどころ
 
 - 定跡は、分布シフトを意識した EDA、多様なベースラインの迅速な構築、大量の特徴量生成、ヒルクライミングによるアンサンブルとスタッキング、疑似ラベルとシード平均、という流れで進む。「高速な実験」と「慎重な検証」の両輪が原則（[The Kaggle Grandmasters Playbook](https://developer.nvidia.com/blog/the-kaggle-grandmasters-playbook-7-battle-tested-modeling-techniques-for-tabular-data/)）
-- この分野の起点は [XGBoost の原論文](https://dl.acm.org/doi/10.1145/2939672.2939785)（KDD 2016）で、アルゴリズムの工夫と実装・システム面の最適化を同時に示したことが普及の理由だった。LightGBM・CatBoost を含め、現在の定跡はこの延長線上にある（2026 年の KDD Test of Time Award を受賞）
-- GBDT の学習・推論・特徴量処理を GPU で高速化する話題（cuML でのスタッキング、RAPIDS FIL による推論高速化、GPUTreeSHAP、cuDF、XGBoost 3.0 の大規模データ対応など）は年を通じて繰り返し取り上げられ、実務での定番手段として定着してきた
-- データ処理基盤は pandas から Polars への移行が進んでいる。特徴量の変換処理を `pl.Expr` で宣言的に定義し計算と切り離して管理する設計や、cuDF・Polars on GPU による高速化も選択肢に加わっている
-- 特徴量エンジニアリングの中核技法である Target Encoding は、スムージングや p 値ベースの改良、GPU（cuML）実装など継続的に磨き込まれてきた定番技法
-- 「深層学習 vs 決定木」は長年の論争テーマで、中規模の実データでは決定木系が依然優位という報告が多い（[深層学習VS決定木：テーブルデータ分析の未来](https://voice.pkshatech.com/n/n2f125daeb9da)）。近年は対立構図ではなく、GBDT 的なアンサンブルを NN で再現する TabM や、合成テーブルで事前学習したゼロショット基盤モデル（TabPFN、[TabFM](https://arxiv.org/abs/2609.37959)、オープンウェイトの [NVIDIA Kumo Tabular](https://huggingface.co/blog/nvidia/kumo-tabular)）、さらに凍結した基盤モデルの前処理・特徴量生成を LLM エージェントで反復改善する [TabFM-Auto](https://arxiv.org/abs/2609.37989) が新しい選択肢として登場している
+- この分野の起点は [XGBoost の原論文](https://dl.acm.org/doi/10.1145/2939672.2939785)（KDD 2016）で、アルゴリズムの工夫と実装面やシステム面の最適化を同時に示したことが普及の契機となった。LightGBM や CatBoost を含め、現在の定跡はこの延長線上にある（2026 年の KDD Test of Time Award を受賞）
+- GBDT の学習、推論、特徴量処理を GPU で高速化する手法（cuML でのスタッキング、RAPIDS FIL による推論高速化、GPUTreeSHAP、cuDF、XGBoost 3.0 の大規模データ対応など）は繰り返し検証され、実務の定番手段として定着している
+- データ処理基盤は pandas から Polars への移行が進んでいる。特徴量の変換処理を `pl.Expr` で宣言的に定義し計算と切り離して管理する設計や、cuDF や Polars on GPU による高速化も選択肢に加わっている
+- 特徴量エンジニアリングの基本技法である Target Encoding は、スムージングや p 値ベースの改良、GPU（cuML）実装など継続的に改善されている
+- 「深層学習 vs 決定木」は長年の論争テーマで、中規模の実データでは決定木系が依然優位という報告が多い（[深層学習VS決定木：テーブルデータ分析の未来](https://voice.pkshatech.com/n/n2f125daeb9da)）。近年は対立構図ではなく、GBDT 的なアンサンブルを NN で再現する TabM や、合成テーブルで事前学習したゼロショット基盤モデル（TabPFN、[TabFM](https://arxiv.org/abs/2609.37959)、オープンウェイトの [NVIDIA Kumo Tabular](https://huggingface.co/blog/nvidia/kumo-tabular)）、さらに凍結した基盤モデルの前処理や特徴量生成を LLM エージェントで反復改善する [TabFM-Auto](https://arxiv.org/abs/2609.37989) が新しい選択肢として登場している
 - バリデーション設計とリーク防止は[性能評価と検証](./evaluation-validation.md)を参照
 
 ## 資料
@@ -22,14 +22,14 @@
 - [Grandmaster Pro Tip: Winning First Place in a Kaggle Competition with Stacking Using cuML](https://developer.nvidia.com/blog/grandmaster-pro-tip-winning-first-place-in-a-kaggle-competition-with-stacking-using-cuml/): GPU（cuML）を使ったスタッキングで優勝した手法の解説。
 - [コンペで使える！？LightGBMで実装する３つの弱教師あり学習](https://tech-blog.abeja.asia/entry/lightgbm-weakly-supervised-learning-202309): 弱教師あり学習 3 設定の解き方と LightGBM 実装の紹介。
 - [LightGBM のランク学習における正規化の効果](https://zenn.dev/suk1yak1/articles/0ef5d77b84ac80): lambdarank_norm の効果を検証し、正規化が学習の安定性と精度に寄与すると報告する記事。
-- [Train with Terabyte-Scale Datasets on a Single NVIDIA Grace Hopper Superchip Using XGBoost 3.0](https://developer.nvidia.com/blog/train-with-terabyte-scale-datasets-on-a-single-nvidia-grace-hopper-superchip-using-xgboost-3-0/): XGBoost 3.0 で GPU による大規模データ学習を行う方法の紹介。
-- [LightGBMのパラメータ「extra_trees」の紹介記事](https://note.com/j26/n/n64d9c37167a6): 過学習抑制効果のあるパラメータの解説記事。
-- [Python 3.10.0・CatBoost v1.0.0リリース](https://www.python.org/downloads/release/python-3100/): 両ライブラリの同時期リリースを紹介する記事。
+- [Train with Terabyte-Scale Datasets on a Single NVIDIA Grace Hopper Superchip Using XGBoost 3.0](https://developer.nvidia.com/blog/train-with-terabyte-scale-datasets-on-a-single-nvidia-grace-hopper-superchip-using-xgboost-3-0/): XGBoost 3.0 で GPU による大規模データ学習を行う手法の解説。
+- [LightGBMのパラメータ「extra_trees」の紹介記事](https://note.com/j26/n/n64d9c37167a6): 過学習を抑えるパラメータ extra_trees の解説。
+- [Python 3.10.0・CatBoost v1.0.0リリース](https://www.python.org/downloads/release/python-3100/): 両ライブラリの同時期リリースの紹介。
 - [画像向け「TTA」をテーブルデータに適用した論文（WiDS Datathon 2020 1位解法）](https://ieeexplore.ieee.org/document/9462159): テーブルデータでの Test Time Augmentation の応用論文。
-- [GBDTのハイパーパラメータを図示しながら解説する記事](https://knknkn.hatenablog.com/entry/2021/06/29/125226): 調整方法についても紹介する記事。
-- [決定木系アルゴリズム推論高速化ライブラリの解説記事（RAPIDS FIL）](https://medium.com/rapids-ai/rapids-forest-inference-library-prediction-at-100-million-rows-per-second-19558890bc35): 「Shopee - Price Match Guarantee」金メダルチームも利用したライブラリ。
-- [LightGBMの損失関数「Focal Loss」の活用記事](https://developers.microad.co.jp/entry/2021/04/26/060000): 不均衡データに有効な損失関数を数式・実装・実験結果付きで解説。
-- [LightGBMのデータ量とイテレーション回数の関係を調査した記事](https://blog.amedama.jp/entry/lgbm-data-size-vs-best-iters): 概ね線形な関係にあることを実験的に確認。
+- [GBDTのハイパーパラメータを図示しながら解説する記事](https://knknkn.hatenablog.com/entry/2021/06/29/125226): 主要パラメータの意味と調整方針を図示して解説する記事。
+- [決定木系アルゴリズム推論高速化ライブラリの解説記事（RAPIDS FIL）](https://medium.com/rapids-ai/rapids-forest-inference-library-prediction-at-100-million-rows-per-second-19558890bc35): 金メダルチームも利用した推論高速化ライブラリの解説。
+- [LightGBMの損失関数「Focal Loss」の活用記事](https://developers.microad.co.jp/entry/2021/04/26/060000): 不均衡データに有効な損失関数を数式、実装、実験結果付きで解説。
+- [LightGBMのデータ量とイテレーション回数の関係を調査した記事](https://blog.amedama.jp/entry/lgbm-data-size-vs-best-iters): データ量と最適イテレーション回数が概ね線形関係にあることを実験的に確認した記事。
 - [PyTorchでCatBoostのカスタム損失関数を定義する方法の解説記事](https://towardsdatascience.com/easy-custom-losses-for-tree-boosters-using-pytorch-57ffaa0b2eb3?gi=57a373d316f7): 損失関数の違いによる出力の変化も考察。
 - [勾配ブースティングの学習にTensorFlowの損失関数を使う方法の記事](https://lab.astamuse.co.jp/entry/training-xgboost-with-tensorflow): GPU 対応による計算時間短縮の利点を紹介。
 - [XGBoost 1.3.0のGPU版SHAP「GPUTreeSHAP」の解説記事](https://medium.com/rapids-ai/gpu-accelerated-shap-values-with-xgboost-1-3-and-rapids-587fad6822): GPU でモデルを解釈する手法の紹介。
@@ -38,11 +38,11 @@
 - [CatBoostの「Uncertainty estimation」機能の紹介記事](https://towardsdatascience.com/tutorial-uncertainty-estimation-with-catboost-255805ff217e?gi=eb19c92aff1b): コードと共に使い方を解説。
 - [CRANにLightGBMが登場](https://cran.r-project.org/web/packages/lightgbm/index.html): R 言語向け LightGBM パッケージの公開。
 - [勾配ブースティングの解説資料（MIRU2020チュートリアル、173ページ）](https://www.slideshare.net/RyuichiKanoh/miru2020-tutorial-237272385): 内部処理や近年の研究動向まで扱う重厚な資料。
-- [LightGBMの交差検証関数から個別モデルを取り出す機能が実装](https://github.com/microsoft/LightGBM/pull/3204): 次期リリースで反映予定の新機能。
-- [XGBoostの交差検証でモデルを取り出す方法の紹介記事](https://blog.amedama.jp/entry/xgboost-cv-model): LightGBM 版の関連記事も既に公開。
-- [CatBoostの推論の仕組みを解説する記事](https://note.com/y_katayama/n/n30feff33acd9): ソースコードを追いながら推論過程を紐解く記事。
+- [LightGBMの交差検証関数から個別モデルを取り出す機能が実装](https://github.com/microsoft/LightGBM/pull/3204): 交差検証で学習した各フォールドのモデルを取り出す機能の Pull Request。
+- [XGBoostの交差検証でモデルを取り出す方法の紹介記事](https://blog.amedama.jp/entry/xgboost-cv-model): 交差検証関数からフォールドごとのモデルを取り出す実装手順の解説。
+- [CatBoostの推論の仕組みを解説する記事](https://note.com/y_katayama/n/n30feff33acd9): ソースコードを追いながら推論処理の流れを紐解く記事。
 - [NGBoostの解説記事](https://nykergoto.hatenablog.jp/entry/2020/05/01/NGBoost%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B): 最適化の流れの解説と独自実装の公開。
-- [不均衡データへのDNN適用事例（失敗例含む）](https://devblog.thebase.in/entry/2020/02/29/110000): コードと共に分かりやすく解説する記事。
+- [不均衡データへのDNN適用事例（失敗例含む）](https://devblog.thebase.in/entry/2020/02/29/110000): コードとともに実験経過や失敗要因を解説する記事。
 - [CatBoostのテキストカラム指定機能を試した記事](https://upura.hatenablog.com/entry/2020/03/03/195929): 生の文章カラムを指定してベンチマークを手早く作る方法。
 
 ### 特徴量エンジニアリング・前処理
@@ -62,7 +62,7 @@
 - [特徴量生成ライブラリ「Featuretools」v1.0.0公開](https://github.com/alteryx/featuretools/releases/tag/v1.0.0): テーブル形式データセットに対する自動特徴量生成ライブラリ。
 - [Long-tail learning via logit adjustment 紹介資料（ICLR 2021）](https://speakerdeck.com/eumesy/long-tail-learning-via-logit-adjustment): 不均衡データの分類問題に対応する手法の議論。
 - [自然言語列を含むテーブルデータの特徴量エンジニアリング技法まとめ記事](https://zenn.dev/koukyo1994/articles/9b1da2482d8ba1): 具体的な実装とともに技法を紹介。
-- [小売予測のベストプラクティス記事（Instacart 2位解法者ら共著）](https://developer.nvidia.com/blog/best-practices-of-using-ai-to-develop-the-most-accurate-retail-forecasting-solution/): 具体的なコードと共にまとめたベストプラクティス。
+- [小売予測のベストプラクティス記事（Instacart 2位解法者ら共著）](https://developer.nvidia.com/blog/best-practices-of-using-ai-to-develop-the-most-accurate-retail-forecasting-solution/): 具体的なコードとともにまとめたベストプラクティス。
 - [順序関係を持つクラス分類「label distribution learning」の紹介記事](https://tech-blog.optim.co.jp/entry/2021/03/30/100000): 正解ラベルを中心とした正規分布でラベルのゆらぎを考慮する手法。
 - [xfeatで集約特徴量を自作関数で作る方法の紹介記事](https://www.smartbowwow.com/2021/02/xfeataggregation.html): 生成後のカラム名を制御する方法も解説。
 - [KaggleのNotebooks環境で使えるNVIDIA製ライブラリ「NVTabular」の紹介記事](https://medium.com/nvidia-merlin/faster-gpu-based-feature-engineering-and-tabular-deep-learning-training-with-nvtabular-on-kaggle-com-9791fa2f4b61): GPU でテーブルデータを処理する機能を紹介。
@@ -90,13 +90,13 @@
 - [RAPIDS cuDF Instantly Accelerates pandas up to 50x on Google Colab](https://developer.nvidia.com/blog/rapids-cudf-instantly-accelerates-pandas-up-to-50x-on-google-colab/): GPU 版 pandas「cuDF」が Colab に組み込まれた発表。
 - [Accelerating Polars DataFrames](https://pola.rs/posts/polars-on-gpu/): NVIDIA との連携による Polars の GPU 高速化の発表。
 - [PolarsとPanderaで実現する高速でロバストなデータ処理](https://speakerdeck.com/chimuichimu/polarstopanderadeshi-xian-suru-gao-su-derobasutonadetachu-li): 高速処理の Polars とデータ検証の Pandera を組み合わせる発表資料。
-- [Pandasの「遅くない書き方」まとめ記事](https://naotaka1128.hatenadiary.jp/entry/2021/12/07/083000): 複数の観点で高速化 Tips を紹介する記事。
+- [Pandasの「遅くない書き方」まとめ記事](https://naotaka1128.hatenadiary.jp/entry/2021/12/07/083000): ボトルネックになりやすい操作と高速化の Tips を紹介する記事。
 - [「Pandas」に代わるRust製ライブラリ「Pypolars」の紹介記事](https://medium.com/analytics-vidhya/is-pypolars-the-new-alternative-to-pandas-916400f03fd7): 結合などの速度で優位性を示す実験結果。
 - [Julia言語とPythonを併用したデータ処理方法の提案記事](https://tech.mntsq.co.jp/entry/2020/12/07/154854): Pandas 相当の Julia ライブラリ「DataFrames.jl」などを紹介。
 - [GPUデータ処理ライブラリ「cuDF」の紹介記事](https://acro-engineer.hatenablog.com/entry/2020/12/10/120000): Pandas との違いや注意点を具体的なコードと共に紹介。
 - [SageMaker上でcuDF・cuMLを用いた前処理記事](https://aws.amazon.com/jp/blogs/news/rapids-on-amazon-sagemaker-processing/): 必要な場合のみ GPU を利用する計算資源の使い分けを紹介。
 - [Pandasを効率的に学ぶための問題集](https://qiita.com/kunishou/items/bd5fad9a334f4f5be51c): データ集計・抽出・可視化など基本操作を扱う演習問題集。
-- [Pandas・NumPyのテスト用モジュール紹介資料（PyConJP 2020）](https://speakerdeck.com/komofr/pyconjp2020): 許容誤差の観点も含めたテストの必要性を解説。
+- [Pandas・NumPyのテスト用モジュール紹介資料（PyConJP 2020）](https://speakerdeck.com/komofr/pyconjp2020): 浮動小数点の許容誤差の扱いを含めたテストの必要性を解説。
 - [TensorFlow NumPy高速化モジュール](https://www.tensorflow.org/api_docs/python/tf/experimental/numpy): GPU・TPU で NumPy を高速化するモジュール。
 - [Julia言語をKaggle Notebook上で実行するチュートリアル](https://www.kaggle.com/marketneutral/julia-live-on-kaggle): 科学計算に秀でた Julia の Kaggle での利用方法を紹介。
 - [Pandasの主要操作をまとめた記事](https://naotaka1128.hatenadiary.jp/entry/pandas-start-guide): 網羅性の高い操作一覧で抜け漏れ確認に使える記事。
@@ -123,29 +123,29 @@
 - [TabNetの解説記事](https://zenn.dev/sinchir0/articles/9228eccebfbf579bfdf4): 論文の概説と使い方を紹介する記事。
 - [TabNetのPyTorch実装講演](https://www.youtube.com/watch?v=ysBaZO8YmX8&feature=youtu.be): pip install で導入できる、sklearn 風インターフェースの実装解説。
 - [AutoML「AutoGluon-Tabular」をTitanicデータで試す記事](https://upura.hatenablog.com/entry/2020/03/18/190300): 前処理不要でファイルパスを渡すだけの手軽さを紹介。
-- [ハイパーパラメータ探索ツール「keras-tuner」の紹介記事](https://tksmml.hatenablog.com/entry/2020/02/01/093000): Keras との連携面での優位性を紹介。
+- [ハイパーパラメータ探索ツール「keras-tuner」の紹介記事](https://tksmml.hatenablog.com/entry/2020/02/01/093000): Keras と連携しやすい利点を解説。
 
 ### 検証・評価・可視化
 
-- [Ensemble Metrics](https://github.com/hitachi-nlp/ensemble-metrics): アンサンブルの強み・弱みを精度・多様性・情報損失の観点で要因分析するライブラリ。
-- [人工知能学会２０２３ランチョンセミナー「アンサンブル学習における基礎理論の構築」](https://speakerdeck.com/morishtr/ren-gong-zhi-neng-xue-hui-2023rantiyonsemina-ansanburuxue-xi-niokeruji-chu-li-lun-nogou-zhu): アンサンブルの強み・弱みを分析できる理論の提案資料。
+- [Ensemble Metrics](https://github.com/hitachi-nlp/ensemble-metrics): アンサンブルの長所と短所を精度、多様性、情報損失に分解して要因分析するライブラリ。
+- [人工知能学会２０２３ランチョンセミナー「アンサンブル学習における基礎理論の構築」](https://speakerdeck.com/morishtr/ren-gong-zhi-neng-xue-hui-2023rantiyonsemina-ansanburuxue-xi-niokeruji-chu-li-lun-nogou-zhu): アンサンブルの長所と短所を定式化して分析する理論の提案資料。
 - [テーブル形式データセットの探索的データ分析の方法を紹介する記事](https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a): さまざまな切り口での集計・可視化の実践例。
 - [アンサンブル技法まとめ記事（Linear Quiz Blending / Netflix Blending）](https://upura.hatenablog.com/entry/2020/03/01/190400): 数式を交えたアンサンブル手法の解説。
-- [大規模高次元データ向け可視化手法「ShapeVis」の提案論文](https://arxiv.org/abs/2001.05166): t-SNE・UMAP と比較し可視化品質とスケーラビリティを議論。
+- [大規模高次元データ向け可視化手法「ShapeVis」の提案論文](https://arxiv.org/abs/2001.05166): t-SNE や UMAP と比較し、可視化品質と計算スケーラビリティを検証した論文。
 - [次元削減手法「PHATE」の解説記事](https://qiita.com/khigashi02/items/b4b95714cae9e3f2a7be): `pip install phate` で手軽に導入できる手法の紹介。
 
 ### 書籍
 
 - [実践Data Scienceシリーズ Pythonではじめる データ分析のための前処理入門](https://www.amazon.co.jp/dp/4065395860): 前処理からモデリングまでを体系的に解説する書籍。
 - [LightGBM予測モデル実装ハンドブック](https://www.amazon.co.jp/dp/479806761X): LightGBM の実装を体系的に扱うハンドブック書籍。
-- [事例で学ぶ特徴量エンジニアリング](https://amzn.asia/d/1qdK69i): NLP・画像・時系列など 5 つの実例で特徴量エンジニアリングを学ぶ書籍。
-- [1月新刊情報『SQLではじめるデータ分析』](https://www.oreilly.co.jp/blog/2022/12/40020_sql_for_data_analysis.html): SQL による前処理・時系列・異常検知などを扱う書籍。
+- [事例で学ぶ特徴量エンジニアリング](https://amzn.asia/d/1qdK69i): NLP、画像、時系列など 5 つの実例で特徴量エンジニアリングを学ぶ書籍。
+- [1月新刊情報『SQLではじめるデータ分析』](https://www.oreilly.co.jp/blog/2022/12/40020_sql_for_data_analysis.html): SQL による前処理、時系列分析、異常検知などを扱う書籍。
 - [評価指標入門〜データサイエンスとビジネスをつなぐ架け橋](https://amzn.asia/d/fsYciY8): 評価指標を軸にビジネス課題をデータサイエンスの問題に落とし込む書籍。
 - [Optunaによるブラックボックス最適化](https://amzn.asia/d/6aUSXdB): Optuna 開発者らによるハイパーパラメータ最適化の書籍。
 - [『Rユーザのためのtidymodels[実践]入門』という本が出ます。](https://y-mattu.hatenablog.com/entry/tidymodels_book): R 言語の機械学習ライブラリ tidymodels を扱う日本語初の書籍。
 - [改訂新版 前処理大全〜SQL/pandas/Polars実践テクニック](https://www.amazon.co.jp/dp/4297141388/): Polars を採用した『前処理大全』の改訂新版。
-- [『データサイエンス100本ノック（構造化データ加工編）』書籍](https://www.socym.co.jp/book/1356): SQL・Python・R の 3 言語に対応した演習書籍。
-- [データサイエンティスト協会「データサイエンス100本ノック（構造化データ加工編）」公開](https://digitalpr.jp/r/39499): SQL・Python・R 対応で解答 Notebook も用意。
+- [『データサイエンス100本ノック（構造化データ加工編）』書籍](https://www.socym.co.jp/book/1356): SQL、Python、R の 3 言語に対応した演習書籍。
+- [データサイエンティスト協会「データサイエンス100本ノック（構造化データ加工編）」公開](https://digitalpr.jp/r/39499): SQL、Python、R に対応し、解答 Notebook も提供されている演習資料。
 
 ### その他
 
@@ -153,7 +153,7 @@
 - [「Tabular Playground Series」の紹介記事](https://towardsdatascience.com/progressively-approaching-kaggle-f58db71a42a9?gi=32e36ede2a44): Titanic に代わる月次開催の練習用コンペを紹介する記事。
 - [Tabular Playground Series 2021年4月分開始](https://www.kaggle.com/c/tabular-playground-series-apr-2021/): Titanic データに GAN を用いて生成したデータセットを使用。
 - [「Coding habits for data scientists」要点紹介記事](https://zerebom.hatenablog.com/entry/2020/06/11/185321): Notebook からスクリプトへの移行など実践的なテクニックを紹介。
-- [Gauss rank transformationをRAPIDSで高速化する解説記事](https://medium.com/rapids-ai/gauss-rank-transformation-is-100x-faster-with-rapids-and-cupy-7c947e3397da): cuDF・CuPy を用いた GPU 高速化の手法を紹介。
+- [Gauss rank transformationをRAPIDSで高速化する解説記事](https://medium.com/rapids-ai/gauss-rank-transformation-is-100x-faster-with-rapids-and-cupy-7c947e3397da): cuDF と CuPy を用いた GPU 高速化の手法を紹介。
 
 ## 関連概念
 

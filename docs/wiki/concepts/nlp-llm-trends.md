@@ -1,24 +1,24 @@
 # LLM・自然言語処理の技術動向
 
-LLM・自然言語処理分野のモデル公開、日本語リソース、ライブラリ、研究サーベイの動向をまとめます。
-コンペでの実践的な戦い方・定跡は [自然言語処理コンペ](./nlp-llm.md) を参照してください。
+LLM や自然言語処理分野のモデル公開、日本語リソース、ライブラリ、研究サーベイの動向をまとめます。
+コンペでの実践的な戦い方や定跡は [自然言語処理コンペ](./nlp-llm.md) を参照してください。
 
 ## 押さえどころ
 
-- 日本語 LLM・埋め込みモデルの担い手は、2020 年前後の研究機関による事前学習モデル公開（東北大 BERT、早稲田大 RoBERTa・GPT-2、NICT の BERT など）から、2022〜23 年ごろの企業発 LLM（PLaMo、ELYZA、Swallow）へ、そして 2024 年以降は TinySwallow・日本語 StaticEmbedding・日本語リランカーのような軽量・高速なモデルへと重心が移ってきている
-- 文埋め込み・検索は一貫した研究テーマで、対照学習ベースの SimCSE・DiffCSE（2021 年）から、LLM の合成データで埋め込みを改善する e5-mistral（[Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368)）を経て、2025〜26 年は軽量リランカーやベクトル検索の実用化記事が増えている
-- Hugging Face Transformers のメジャーバージョンの変遷（v2.9〜v5）はそのままアーキテクチャ普及の年表になっており、Wav2Vec2（v4.3）、Swin Transformer（v4.16）、ResNet（v4.18）、OPT（v4.19）のように新アーキテクチャの追加時期がバージョン番号から追える
-- モデルの大規模化（OPT-175B の公開、スケーリング則）と、その後の効率化（LoRA・LoRA-Pro、モデルマージ、TAID による知識蒸留を用いた TinySwallow）は表裏の関係にあり、公開されるモデルの重心は年々「大きく強く」から「小さく速く実用的」に移っている
-- Transformer 一辺倒ではなく、状態空間モデル Mamba のような計算コストを抑える代替アーキテクチャの解説記事も資料に含まれる
+- 日本語 LLM や埋め込みモデルの担い手は、2020 年前後の研究機関による事前学習モデル公開（東北大 BERT、早稲田大 RoBERTa や GPT-2、NICT の BERT など）から、2022〜23 年ごろの企業発 LLM（PLaMo、ELYZA、Swallow）へ、そして 2024 年以降は TinySwallow、日本語 StaticEmbedding、日本語リランカーのような軽量かつ高速なモデルへと重心が移ってきている。
+- 文埋め込みや検索は一貫した研究テーマであり、対照学習ベースの SimCSE や DiffCSE（2021 年）から、LLM の合成データで埋め込みを改善する e5-mistral（[Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368)）を経て、2025〜26 年は軽量リランカーやベクトル検索の実用化に関する知見が増えている。
+- Hugging Face Transformers のメジャーバージョンの変遷（v2.9〜v5）はそのままアーキテクチャ普及の年表になっており、Wav2Vec2（v4.3）、Swin Transformer（v4.16）、ResNet（v4.18）、OPT（v4.19）のように、新アーキテクチャの追加時期をバージョン番号から追える。
+- モデルの大規模化（OPT-175B の公開やスケーリング則）と、その後の効率化（LoRA や LoRA-Pro、モデルマージ、TAID による知識蒸留を用いた TinySwallow）は表裏の関係にあり、公開されるモデルの重心は年々「大きく強く」から「小さく速く実用的」に移っている。
+- Transformer 一辺倒ではなく、状態空間モデル Mamba のような計算コストを抑える代替アーキテクチャの解説記事も資料に含まれる。
 
 ## 資料
 
 ### モデル・技術動向
 
-- [Jevはどこで使うべきか？ LLM・機械学習・ルールベースとの使い分け](https://qiita.com/Isaka-code/items/8944ef8b521517f92da0): 自由文生成を省き定義済みの選択肢と確信度のみを高速・低コストに返す意思決定特化モデル「Jev」（System One Model）を、汎用 LLM、従来の機械学習モデル、ルールベースと比較して適材適所を整理した記事。
+- [Jevはどこで使うべきか？ LLM・機械学習・ルールベースとの使い分け](https://qiita.com/Isaka-code/items/8944ef8b521517f92da0): 自由文生成を省き定義済みの選択肢と確信度のみを高速かつ低コストに返す意思決定特化モデル「Jev」（System One Model）を、汎用 LLM、従来の機械学習モデル、ルールベースと比較して適材適所を整理した記事。
 - [Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber の追加](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/): Gemini ファミリーに効率型のフラグシップ、最速・最安の軽量版、セキュリティ特化版の 3 つを追加した発表。エージェントを多数動かす用途を見据えた品揃えになっている。
-- [超小型な多言語ベクトル検索モデル Bekko Embedding を公開](https://secon.dev/entry/2026/07/29/080000-bekko-embedding/): アクティブパラメータ 8M・25M という小規模の多言語埋め込みモデルの公開記事。mmBERT-small の層の刈り込み、埋め込みテーブルの量子化、Matryoshka 学習という縮小の手口と、CPU・ブラウザでの実行速度を報告している。
-- [HAKARI-Bench - 実運用視点での情報検索モデル評価ベンチマーク](https://speakerdeck.com/hotchpotch/hakari-bench-shi-yun-yong-shi-dian-denoqing-bao-jian-suo-moderuping-jia-bentimaku): 検索モデルを精度だけで選べない、という問題意識から作られたベンチマークの紹介資料。推論速度・アクティブパラメータ・ベクトル次元・量子化の影響まで含め、多言語 35 ベンチマークを横断で測る。
+- [超小型な多言語ベクトル検索モデル Bekko Embedding を公開](https://secon.dev/entry/2026/07/29/080000-bekko-embedding/): アクティブパラメータ 8M、25M という小規模の多言語埋め込みモデルの公開記事。mmBERT-small の層の刈り込み、埋め込みテーブルの量子化、Matryoshka 学習によるモデル縮小手法と、CPU やブラウザでの実行速度を報告している。
+- [HAKARI-Bench - 実運用視点での情報検索モデル評価ベンチマーク](https://speakerdeck.com/hotchpotch/hakari-bench-shi-yun-yong-shi-dian-denoqing-bao-jian-suo-moderuping-jia-bentimaku): 検索モデルを精度だけで選べない、という問題意識から作られたベンチマークの紹介資料。推論速度、アクティブパラメータ、ベクトル次元、量子化の影響まで含め、多言語 35 ベンチマークを横断して測定する。
 
 - [Introducing LFM2.5: The Next Generation of On-Device AI](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai): 日本語特化モデルや視覚言語モデルを含む小規模モデル群 LFM2.5 の公開告知。
 - [LoRAの進化：基礎から最新のLoRA-Proまで](https://zenn.dev/mkj/articles/11168509d10eb4): fine-tuning で頻出の LoRA の基礎と研究動向のまとめ。
@@ -43,11 +43,11 @@ LLM・自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [SparseBERT: Rethinking the Importance Analysis in Self-attention 解説記事（ICML2021）](https://tech.retrieva.jp/entry/2021/07/29/094758): BERT の注意機構の軽量化に取り組む論文の解説。
 - [Transformerのサーベイ論文（体系的分類）](https://arxiv.org/abs/2106.04554): Transformer の解説と派生系の分類方法を提唱する論文。
 - [Transformerの一種「Big Bird」の紹介記事](https://tech.retrieva.jp/entry/2021/04/28/172553): 長文を扱うための注意機構の工夫を解説。
-- [Transformerのスケーリング則を主張する論文の紹介](https://deeplearning.hatenablog.com/entry/scaling_law): パラメータ数・データセットサイズ・計算予算の冪乗則を論じる OpenAI の論文。同時期に DALL·E も公開。
+- [Transformerのスケーリング則を主張する論文の紹介](https://deeplearning.hatenablog.com/entry/scaling_law): パラメータ数、データセットサイズ、計算予算の冪乗則を論じる OpenAI の論文。同時期に DALL·E も公開。
 - [BERTOverflow公開（StackOverflowデータで事前学習）](https://huggingface.co/lanwuwei/BERTOverflow_stackoverflow_github): ACL 2020 採択論文が提案するモデルの公開。
 - [Googleの多言語埋め込みモデル「LaBSE」に関する記事](https://hironsan.hatenablog.com/entry/text-classification-with-labse): 文章分類問題での性能を検証。Universal Sentence Encoder との比較記事も別途公開。
 - [AMBERTの解説記事（バイトダンス）](https://towardsdatascience.com/ambert-a-multi-grained-bert-6564ed24bcc3?source=social.tw&gi=f0496fcb4092): 2 種類の粒度の tokenizer を使い分ける BERT 拡張モデルの解説。
-- [Quoraの重複質問特定を題材にした論文](https://arxiv.org/abs/2004.11694): tf-idf ベクトル化 + XGBoost・深層学習など Kaggle でも馴染み深い手法を検証。
+- [Quoraの重複質問特定を題材にした論文](https://arxiv.org/abs/2004.11694): tf-idf ベクトル化と XGBoost や深層学習など、Kaggle でも定番の手法を検証。
 - [wikipediaの文化差異を捉えるBERT fine-tuning論文](https://arxiv.org/abs/2004.04938): 逆翻訳によるデータ拡張を用いた手法の紹介。
 
 ### 日本語モデル・リソース
@@ -59,9 +59,9 @@ LLM・自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [新手法「TAID」を用いた小規模日本語言語モデル「TinySwallow-1.5B」の公開](https://sakana.ai/taid-jp/): 知識蒸留の新手法 TAID による小規模日本語 LLM の公開告知。
 - [100倍速で実用的な文章ベクトルを作れる、日本語 StaticEmbedding モデルを公開](https://secon.dev/entry/2025/01/21/060000-static-embedding-japanese/): CPU でも高速な日本語文章ベクトルモデルの紹介。性能比較とコードつき。
 - [日本語版 Gemma 2 2B を公開](https://blog.google/intl/ja-jp/company-news/technology/gemma-2-2b/): Gemma Developer Day in Tokyo で発表された日本語版 Gemma 2 の公開告知。
-- [日本語テキスト埋め込みベンチマークJMTEBの構築](https://www.sbintuitions.co.jp/blog/entry/2024/05/16/130848): 6 タスク・16 データセットの日本語埋め込みベンチマークの紹介。
-- [ku-nlp/deberta-v3-base-japanese](https://huggingface.co/ku-nlp/deberta-v3-base-japanese): 日本語・英語・コードで事前学習された DeBERTa v3 モデルの公開。
-- [Swallow](https://tokyotech-llm.github.io/swallow-llama): 公開当時に日本語最高性能を報告した東工大・産総研による日本語 LLM。
+- [日本語テキスト埋め込みベンチマークJMTEBの構築](https://www.sbintuitions.co.jp/blog/entry/2024/05/16/130848): 6 タスク、16 データセットの日本語埋め込みベンチマークの紹介。
+- [ku-nlp/deberta-v3-base-japanese](https://huggingface.co/ku-nlp/deberta-v3-base-japanese): 日本語、英語、コードで事前学習された DeBERTa v3 モデルの公開。
+- [Swallow](https://tokyotech-llm.github.io/swallow-llama): 公開当時に日本語最高性能を報告した東工大と産総研による日本語 LLM。
 - [izumi-lab/deberta-v2-base-japanese](https://huggingface.co/izumi-lab/deberta-v2-base-japanese): 日本語で事前学習された DeBERTa v2 モデル（base / small）。
 - [日英2言語対応の大規模言語モデルPLaMo-13Bを研究・商用利用可能なオープンソースソフトウェアライセンスで公開](https://www.preferred.jp/ja/news/pr20230928/): PFN による日英 LLM の公開告知。
 - [Metaの「Llama 2」をベースとした商用利用可能な日本語LLM「ELYZA-japanese-Llama-2-7b」を公開しました](https://note.com/elyza/n/na405acaca130): Llama 2 を日本語で追加事前学習したモデルの公開告知。
@@ -90,7 +90,7 @@ LLM・自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [fast-bunkai](https://github.com/hotchpotch/fast-bunkai): 日本語文境界判定器 Bunkai の高速版。Rust 実装で大幅な高速化を実現。
 - [Hugging Faceでload_dataset()できなくなったときの対処](https://qiita.com/tetsuro731/items/783afb42f9a36787262b): datasets ライブラリの仕様変更で発生するエラーへの対処記事。
 - [Training and Finetuning Embedding Models with Sentence Transformers v3](https://huggingface.co/blog/train-sentence-transformers): 文埋め込みライブラリ v3 での学習方法の解説記事。
-- [KWJA](https://github.com/ku-nlp/kwja): 形態素解析・構文解析などを統一インターフェースで扱う日本語処理ライブラリ。
+- [KWJA](https://github.com/ku-nlp/kwja): 形態素解析や構文解析などを統一インターフェースで扱う日本語処理ライブラリ。
 - [近似最近傍探索ライブラリVoyagerで類似単語検索を試す](https://zenn.dev/chimuichimu/articles/bab071c182784c): Spotify 公開の ANN ライブラリを Annoy と比較する検証記事。
 - [Transformers v4.19.0リリース](https://github.com/huggingface/transformers/releases/tag/v4.19.0): Meta 公開の OPT (Open Pre-trained Transformer Language Models) などを追加。
 - [Transformers v4.18.0リリース](https://github.com/huggingface/transformers/releases/tag/v4.18.0): 画像認識分野の ResNet などが新たに追加。
@@ -99,12 +99,12 @@ LLM・自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [テキスト前処理・可視化ライブラリ「Texthero」の紹介記事](https://buildersbox.corp-sansan.com/entry/2021/06/29/110000): 日本語対応のためのコードも掲載。
 - [Hugging FaceとAmazonの提携発表](https://huggingface.co/blog/the-partnership-amazon-sagemaker-and-hugging-face): Amazon SageMaker 上に言語モデル構築向けインスタンスを提供。
 - [Hugging Face「AutoNLP」ウェブサイト公開](https://huggingface.co/autonlp): 開発に関わる Kaggle Grandmaster Abhishek Thakur さんの解説動画も公開。
-- [テキスト前処理ライブラリ「NLPretext」の紹介記事](https://medium.com/artefact-engineering-and-data-science/introducing-nlpretext-a8bb7c03df89): basic・social・token・augmentation の 4 要素で構成。
+- [テキスト前処理ライブラリ「NLPretext」の紹介記事](https://medium.com/artefact-engineering-and-data-science/introducing-nlpretext-a8bb7c03df89): basic、social、token、augmentation の 4 要素で構成。
 - [Transformers v4.3.0公開（Wav2Vec2）](https://github.com/huggingface/transformers/releases/tag/v4.3.0): Facebook の音声事前学習モデル Wav2Vec2 などを実装。
 - [AllenNLP v2.0.0リリース](https://github.com/allenai/allennlp/releases/tag/v2.0.0): PyTorch ベースで構築された NLP ライブラリの大型更新。
 - [Hugging Face「AutoNLP」公開予告](https://huggingface.typeform.com/to/FAtsVfbg): Kaggle 史上初の全 4 カテゴリ Grandmaster Abhishek Thakur さんによるプロジェクト。
 - [Transformers v4.0.0-rc-1公開](https://github.com/huggingface/transformers/releases/tag/v4.0.0-rc-1): デフォルト tokenizer が高速な Rust 製に切り替わるなどの変更。
-- [Transformers Trainerにハイパーパラメータ調整機能が実装](https://twitter.com/GuggerSylvain/status/1297948214214221825?s=20): Optuna・Ray Tune を利用可能に。
+- [Transformers Trainerにハイパーパラメータ調整機能が実装](https://twitter.com/GuggerSylvain/status/1297948214214221825?s=20): Optuna や Ray Tune を利用可能に。
 - [日本語形態素解析器比較ライブラリ「toiro」](https://github.com/taishi-i/toiro): テキストダウンロードや分類器機能も備えるライブラリ。
 - [自然言語処理モデル学習時間短縮の検証記事（transformers）](https://app.wandb.ai/pommedeterresautee/speed_training/reports/Train-HuggingFace-models-twice-as-fast--VmlldzoxMDgzOTI): トークン化バッチの工夫による高速化を検証。
 - [「flair」ライブラリの紹介記事（日本語文書分類）](https://nmoriyama.hatenablog.com/entry/2020/07/10/160031): livedoor ニュースコーパスを用いた分類タスクの実践。
@@ -113,7 +113,7 @@ LLM・自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [AllenNLP v1.0.0リリース](https://github.com/allenai/allennlp/releases/tag/v1.0.0): PyTorch ベースの NLP ライブラリ。Optuna との連携機能も用意。
 - [spaCy v2.3.0リリース（日本語モデル追加）](https://explosion.ai/blog/spacy-v2-3/): 日本語向けチュートリアルも公開。
 - [NLTKによる英語テキストの文分割・単語分割の解説記事](https://eieito.hatenablog.com/entry/2020/05/27/100000): スペース区切りでは対応できないケースを含めた詳細な解析。
-- [Transformers v2.9.0リリース](https://github.com/huggingface/transformers/releases/tag/v2.9.0): PyTorch・TensorFlow 2 を同一インターフェースで扱う Trainer クラスが登場。
+- [Transformers v2.9.0リリース](https://github.com/huggingface/transformers/releases/tag/v2.9.0): PyTorch と TensorFlow 2 を同一インターフェースで扱う Trainer クラスが登場。
 - [Hugging Faceがトークン化ライブラリ「Tokenizers」を公開](https://medium.com/dair-ai/hugging-face-introduces-tokenizers-d792482db360): Transformers と合わせて BERT などのモデルを使いやすくするライブラリ。
 - [GPUでのNLP時「CUDA out of memory」回避Tips記事](https://qiita.com/shinochin/items/8b6b7e76bf426ab86444): Embedding layer を CPU に載せるなどのアイディアを列挙。
 
@@ -124,19 +124,19 @@ LLM・自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [ModernBERT のブログを読んでみた感想](https://zenn.dev/dev_commune/articles/3f5ab431abdea1)
 - [【2026年版】 ベクトル検索と Embedding 最前線](https://speakerdeck.com/mocobeta/2026nian-ban-bekutorujian-suo-embeddingzui-qian-xian): ベクトル検索と埋め込みモデルの動向をまとめた資料。次元削減や量子化などの技法にも触れる。
 - [LLM×強化学習の新しいパラダイム: Agentic RLの研究紹介](https://zenn.dev/kuto5046/articles/agentic_rl_2025): サーベイ論文をもとに LLM への強化学習の最新動向を紹介する記事。
-- [Generative or Discriminative? Revisiting Text Classification in the Era of Transformers](https://aclanthology.org/2025.emnlp-main.486/): テキスト分類の識別的・生成的アプローチを包括比較した EMNLP 2025 Outstanding Paper。
+- [Generative or Discriminative? Revisiting Text Classification in the Era of Transformers](https://aclanthology.org/2025.emnlp-main.486/): テキスト分類の識別的アプローチと生成型アプローチを網羅的に比較した EMNLP 2025 Outstanding Paper。
 - [ChatGPT vs BERT：どちらが日本語をより理解できるのか？](https://fintan.jp/page/9126/): JGLUE ベンチマークで ChatGPT と BERT 系を比較した検証記事。
 - [最先端の質問応答技術の研究開発と迅速な実用化ーStudio Ousiaでの取り組みー](https://speakerdeck.com/ikuyamada/zui-xian-duan-nozhi-wen-ying-da-ji-shu-noyan-jiu-kai-fa-toxun-su-nashi-yong-hua-studio-ousiadenoqu-rizu-mi): 質問応答技術の研究開発とコンペでの取り組みの解説資料。
 - [NLPとVision-and-Languageの基礎・最新動向 (1) / DEIM Tutorial Part 1: NLP](https://speakerdeck.com/kyoun/deim-tutorial-part-1-nlp): NLP と Vision & Language の基礎・最新動向を扱うチュートリアル資料。
 - [Cohereの多言語用の埋め込みモデルを日本語で評価してみる](https://hironsan.hatenablog.com/entry/2023/11/06/133504): 多言語埋め込みモデルの日本語性能を文類似度と検索で評価した記事。
 - [広範なデータで学習される「基盤モデル」のサーベイ資料](https://www.slideshare.net/cvpaperchallenge/foundation-models): 自然言語処理を起点に画像領域への展開などをまとめた資料。
-- [大規模データで学習された「基盤モデル」の解説記事](https://blog.recruit.co.jp/data/articles/foundation_models/): BERT などの基盤モデルの概要・活用事例・課題を紹介。
+- [大規模データで学習された「基盤モデル」の解説記事](https://blog.recruit.co.jp/data/articles/foundation_models/): BERT などの基盤モデルの概要、活用事例、課題を紹介。
 - [自然言語処理領域での転移学習の進展と近年の動向まとめ](https://www.slideshare.net/techblogyahoo/ss-251672433): 132 ページにわたり多岐の話題を扱うサーベイ資料。
 - [ニューラルネットワークによる自然言語処理の概観資料](https://www.slideshare.net/shotakase33/ss-250870067): 系列を扱う構造や学習方法、動向を紹介する資料。
 - [ACL 2021ベストペーパーを日本語文書で検証する記事](https://tech.retrieva.jp/entry/2021/08/25/185920): 適切な語彙サイズを自動決定する枠組みの日本語検証。
 - [近年の自然言語処理動向まとめ資料（汎用事前学習言語モデル観点）](https://speakerdeck.com/karakurist/nlp-survey): 様々な提案手法を簡単な説明と共に列挙した資料。
-- [2020年の機械学習・自然言語処理領域の総括記事（DeepMind研究者）](https://ruder.io/research-highlights-2020/): 言語モデルの巨大化・軽量化や少データ学習の展望も含めてまとめた記事。
-- [第18回最先端NLP勉強会](https://sites.google.com/view/snlp-jp/home/2026?authuser=0): 2026 年 8 月に国立情報学研究所で開催された論文読み会。TACL・ACL・EMNLP・NAACL などから参加者投票で選ばれた約 30 本を分担紹介する形式で、発表資料もプログラムから公開されている。
+- [2020年の機械学習・自然言語処理領域の総括記事（DeepMind研究者）](https://ruder.io/research-highlights-2020/): 言語モデルの巨大化や軽量化、少データ学習の展望も含めてまとめた記事。
+- [第18回最先端NLP勉強会](https://sites.google.com/view/snlp-jp/home/2026?authuser=0): 2026 年 8 月に国立情報学研究所で開催された論文読み会。TACL、ACL、EMNLP、NAACL などから参加者投票で選ばれた約 30 本を分担して紹介する形式で、発表資料もプログラムから公開されている。
 - [「最先端NLP勉強会2020」発表資料集](https://sites.google.com/view/snlp-jp/home/2020): 著名な国際会議採択論文の紹介資料 30 件以上を公開。
 - [ACL2020読み会 招待講演「半教師あり学習・疑似データ学習法の進展」](https://www.slideshare.net/AkihiroFujii2/2020-0906-acl2020readingshared): 不完全なデータを活用した性能向上手法をまとめた資料。
 - [Yann LeCunさんによるself-supervised learning講演の要約記事（AAAI 2020）](https://bdtechtalks.com/2020/03/23/yann-lecun-self-supervised-learning/): BERT に代表される Transformers の成果と、深層学習研究が抱える課題を議論。

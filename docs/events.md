@@ -86,7 +86,7 @@ https://kansaikaggler.connpass.com/
 - [JOAI 2026 講評会レポート——出題意図と上位入賞者7名の解法を一挙公開](https://note.com/ioai_japan/n/ne8b5660e3d17): 日本人工知能オリンピックの出題意図と上位解法のまとめ。
 - [JOAI発表資料 @ 関東kaggler会](https://speakerdeck.com/joai_committee/joaifa-biao-zi-liao-at-guan-dong-kagglerhui): 国際人工知能オリンピックの出題コンペなどを紹介する委員会の発表資料。
 - [【イベント開催報告】第2回日本人工知能オリンピック（JOAI2026）講評会＆日本代表解法紹介を開催しました](https://ioai-japan.org/2026/04/17/1238/)
-- [JOAI2026 講評](https://speakerdeck.com/go5paopao/joai2026-jiang-ping): 第 2 回日本人工知能オリンピックの講評資料。日本代表の高校生らの取り組みも紹介。
+- [JOAI2026 講評](https://speakerdeck.com/go5paopao/joai2026-jiang-ping): 第 2 回日本人工知能オリンピックの講評資料。日本代表の高校生らによる取り組みも紹介している。
 - [第2回日本人工知能オリンピック講評会 & 日本代表解法紹介](https://joai-commitee.connpass.com/event/389126/)
 - [知識ゼロからのAIオリンピック講座](https://joai-commitee.connpass.com/event/379970/)
 - [IOAI2025日本代表が金メダル1枚、銀メダル1枚、銅メダル2枚を獲得！](https://ioai-japan.org/2025/08/10/845/): 第 2 回国際人工知能オリンピックでの日本代表の成績報告。
@@ -101,7 +101,7 @@ https://kansaikaggler.connpass.com/
 - [Kaggle x コーディングエージェント勉強会の発表資料まとめ](https://note.com/currypurin/n/nadeecf1c48d8): 上記の勉強会と併催された入門講座の告知・資料まとめ。成長の心構え、uv や Polars の知見をエージェントに渡す工夫、コミュニティ運営など登壇者ごとの資料へリンクしている。
 - [Kaggle「AI Agent Security」コンペ \| ソリューション共有会 @ Elith](https://elith.connpass.com/event/405693/): 2026 年 9 月 20 日開催の解法共有会。成功した戦略だけでなく失敗した実験の共有も掲げ、現地（文京区）とオンラインのハイブリッドで実施される。
 - [Kaggler の海外経験を聞く会 #1](https://kaggler-international.connpass.com/event/397666/)
-- [RECRUIT TECH CONFERENCE 2026](https://www.recruit.co.jp/special/techconference2026/): Kaggle Grandmaster・Master が登壇するセッションが開催された技術カンファレンス。
+- [RECRUIT TECH CONFERENCE 2026](https://www.recruit.co.jp/special/techconference2026/): Kaggle Grandmaster や Master が登壇した技術カンファレンス。
 - [Kaggle サンタコンペ 2025 振り返り会](https://algo-artis.connpass.com/event/382730/)
 - [#22 CA x atmaCup 3rd 振り返り会](https://atma.connpass.com/event/380482/)
 - [atmaCup #20 in collaboration with Udemy　表彰式＆振り返り会](https://atma.connpass.com/event/364957/)
@@ -109,7 +109,7 @@ https://kansaikaggler.connpass.com/
 - [#17 atmaCup 振り返り会](https://atma.connpass.com/event/333637/)
 - [#16 atmaCup 表彰式&振り返り会](https://atma.connpass.com/event/305563/)
 - [#15 atmaCup 振り返り会](https://atma.connpass.com/event/291606/)
-- [Kaggleふりかえり〜LLM 20 Questions & ISIC 2024](https://recruit-event.connpass.com/event/327716/): 2 コンペの上位チームが登壇した解法共有会。
+- [Kaggleふりかえり〜LLM 20 Questions & ISIC 2024](https://recruit-event.connpass.com/event/327716/): 2 つのコンペの上位チームが登壇した解法共有会。
 - [MAP, Jigsaw, Code Golf 振り返り会 by 関東Kaggler会](https://kanto-kaggler.connpass.com/event/375336/presentation/): 発表資料の一部が公開されている。
 - [Google Developer Group - DevFest Tokyo 2025](https://gdg-tokyo.connpass.com/event/369416/): 「生成 AI 時代の Kaggle の姿」の発表があった Google 技術の総括イベント。
 - [RecSys2025論文読み会](https://connpass.com/event/372676/): 併設コンペの解法論文も扱う推薦システム国際会議の論文読み会。
@@ -138,8 +138,8 @@ https://kansaikaggler.connpass.com/
 - [Polars Data Crunch #1](https://polars-ja.connpass.com/event/318454/): Polars 日本コミュニティの第 1 回イベント。発表資料が公開されている。
 - [Kaggle Masterが語るMachineLearning - TechLovers #1](https://sony.connpass.com/event/315090/): 社内 Kaggle コミュニティ立ち上げなどを扱う SONY のイベント。
 - [Kaggle Grandmasterの思考法を紐解く 多様なKagglerを擁するDeNAに聞く！](https://findy.connpass.com/event/312003/)
-- [第6回全国医療AIコンテスト](https://aims.connpass.com/event/309489/): 学生・医療従事者向けのコンペと有識者講演のイベント。
-- [第5回全国医療AIコンテスト](https://medical-ai-contest.org/5th/): 学生・医療従事者向けのコンペと有識者講演のイベント。
+- [第6回全国医療AIコンテスト](https://aims.connpass.com/event/309489/): 学生や医療従事者を対象としたコンペと、有識者講演のイベント。
+- [第5回全国医療AIコンテスト](https://medical-ai-contest.org/5th/): 学生や医療従事者を対象としたコンペと、有識者講演のイベント。
 - [第4回 Data-Centric AI勉強会 -コンペLT大会-](https://dcai-jp.connpass.com/event/298953/): コンペでの Data-Centric な事例を扱う勉強会。
 - [🤗 Hugging Face x TohokuNLP Joint Workshop](https://sites.google.com/view/huggingface-tohoku-workshop): Hugging Face エンジニアらが登壇したワークショップ。
 - [AI王 〜クイズAI日本一決定戦〜 振り返り会](https://pksha-technology.connpass.com/event/280481/): 第 3 回コンペの解法発表を含む振り返り会。
@@ -172,18 +172,18 @@ https://kansaikaggler.connpass.com/
 - [仙台市×東北大学「データサイエンス・トレーニングキャンプ」](https://prtimes.jp/main/html/rd/p/000000008.000084933.html): Kaggle を用いた課題解決型講座の開講告知。
 - [Kaggle Master currypurinさんの講演会](https://peatix.com/event/3151725): Kaggle への入門方法やキャリア形成を扱う講演会。
 - [NeurIPS 2021 論文読み会](https://line.connpass.com/event/236385/): 9 件の論文紹介が予定された国際学会の論文読み会。
-- [「AI王 〜クイズAI日本一決定戦〜」第2回コンペ最終報告会](https://sites.google.com/view/project-aio/competition2/final-presentation): 最終結果発表・解法共有に加え、研究動向の解説やクイズ専門家の講演も予定された報告会。
-- [Kaggle Days Championship 体験記](https://lab.astamuse.co.jp/entry/kaggle-days-championship-report): 2021年11月〜2022年10月開催の Kaggle Days Championship の体験記。
+- [「AI王 〜クイズAI日本一決定戦〜」第2回コンペ最終報告会](https://sites.google.com/view/project-aio/competition2/final-presentation): 最終結果発表や解法共有に加え、研究動向の解説やクイズ専門家の講演が行われた報告会。
+- [Kaggle Days Championship 体験記](https://lab.astamuse.co.jp/entry/kaggle-days-championship-report): 2021 年 11 月から 2022 年 10 月にかけて開催された Kaggle Days Championship の体験記。
 - [Numerai 公式イベント](https://numerai.connpass.com/event/231169/): 有志の発表数件が予定された株価予測プラットフォームのイベント。
 - [Kaggle投稿分析コードの輪読会](https://blog.brainpad.co.jp/entry/2021/11/02/113000): 時系列データに画像分類手法を適用する事例を扱う輪読会の紹介記事。
 - [データサイエンティスト協会シンポジウム2021](https://www.datascientist.or.jp/symp/2021/): 「データ分析コンペと実務のギャップ」などを扱うオンラインイベント。
 - [「KaggleのゲームAI世界大会で1位になった話」発表イベント](https://machine-learning15minutes.connpass.com/event/226110/): 「Hungry Geese」優勝解法の共有が予定されたイベント。
-- [Google Cloud Next「State of Data Science and Machine Learning 2021」セッション](https://cloud.withgoogle.com/next/catalog?session=GCD118): Kaggle の調査結果をもとに学習方法・ツール・仕事の詳細を掘り下げるセッション。
+- [Google Cloud Next「State of Data Science and Machine Learning 2021」セッション](https://cloud.withgoogle.com/next/catalog?session=GCD118): Kaggle のアンケート調査結果をもとに、学習方法や利用ツール、業務の実態を解説したセッション。
 - [自然言語処理分野の国際学会論文読み会（41本）](https://sites.google.com/view/snlp-jp/home/2021): 大量の論文紹介資料が公開された読み会。
-- [INTERSPEECH2021論文読み会](https://connpass.com/event/225152/): 音声分野の国際会議の論文読み会。発表者も募集。
-- [KDD2021イベント（時系列異常検知コンペ併設）](https://connpass.com/event/223966/): 「Multi-dataset Time Series Anomaly Detection」に関する発表も予定。
+- [INTERSPEECH2021論文読み会](https://connpass.com/event/225152/): 音声分野の国際会議に関する論文読み会。
+- [KDD2021イベント（時系列異常検知コンペ併設）](https://connpass.com/event/223966/): 「Multi-dataset Time Series Anomaly Detection」に関する発表を含むイベント。
 - [NLP若手の会第16回シンポジウム報告記事](https://yans.anlp.jp/entry/yans2021report): 日本語 Wikipedia 固有表現抽出コンペの解法共有資料も公開された報告記事。
-- [胸部X線肺炎検知コンペ開催（9月開催・講演あり）](https://inochi-wakazo.org/hmai/): イベントでの講演も予定されたコンペ告知。
+- [胸部X線肺炎検知コンペ開催（9月開催・講演あり）](https://inochi-wakazo.org/hmai/): 講演も実施されたコンペの告知。
 - [Kaggle勉強会（実装・実験管理系の発表5件）](https://kaggle-friends.connpass.com/event/220927/): 発表資料や動画が公開された勉強会。
 - [「#11 [初心者歓迎! / 画像編] atmaCup」振り返り会](https://atma.connpass.com/event/220495/): 優勝者による解法共有や有志の発表が予定された振り返り会。
 - [SIGNATE「株式会社スペースシフト 新建造物検知アルゴリズム作成」表彰式](https://signate.connpass.com/event/220618/): 合成開口レーダー画像から新規建物を検出するコンペの表彰式。
@@ -191,8 +191,8 @@ https://kansaikaggler.connpass.com/
 - [Solafune上地さん講演「AWSを活用した機械学習コンペ」](https://jawsug-ai.connpass.com/event/216573/): 衛星データを用いた高解像度画像の新コンペ開催も予告された講演。発表動画も公開。
 - [第２回分析コンペLT会](https://www.currypurin.com/entry/2021/06/20/192943): 発表資料と発表動画の録画が公開されたコミュニティイベント。
 - [ゲームAI研究会「サッカー・Hungry Geeseから見たkaggleと強化学習」](https://www.ipsj.or.jp/kenkyukai/event/gi46.html): 特別講演が予定された研究会。
-- [Kaggle勉強会（画像処理・PyTorch関連ライブラリ）](https://kaggle-friends.connpass.com/event/214854/): pytorch-pfn-extras・PyTorch Lightning などの発表が予定された勉強会。
-- [SIGNATE Student Cup 2021春「楽曲のジャンル推定チャレンジ」表彰式](https://signate.connpass.com/event/214998/): 入賞者発表・質疑応答が予定された表彰式。
+- [Kaggle勉強会（画像処理・PyTorch関連ライブラリ）](https://kaggle-friends.connpass.com/event/214854/): pytorch-pfn-extras や PyTorch Lightning などの活用事例が発表された勉強会。
+- [SIGNATE Student Cup 2021春「楽曲のジャンル推定チャレンジ」表彰式](https://signate.connpass.com/event/214998/): 入賞者発表と質疑応答が行われた表彰式。
 - [「ニッチな分析コンペLT会」](https://kaggle-friends.connpass.com/event/214267/): コンペのタスク管理などを題材にした発表イベント。
 - [Kaggle「Shopee - Price Match Guarantee」結果発表観覧イベント](https://connpass.com/event/212677/): 当時 2 位につけていた tkm2261 さん主催の有志イベント。
 - [Optunaイベント（開発者発表・公募発表枠あり）](https://optuna.connpass.com/event/207545/): ハイパーパラメータ最適化ツールに関するコミュニティイベント。
@@ -201,25 +201,25 @@ https://kansaikaggler.connpass.com/
 - [第三回全国医療AIコンテスト開催報告](https://zenn.dev/tpt_ochanomizu/articles/dad722d9410f0a): 心電図から心筋梗塞かどうかを判定するコンペの開催報告記事。
 - [「atmaCup オンサイトデータコンペ #9」運営視点の振り返り記事](https://atma.hatenablog.com/entry/2021/02/25/185945): 振り返り会の開催報告と優勝者資料も合わせて公開。
 - [DeNA実データを用いたデータ解析コンペ開催](https://dena-ai.connpass.com/event/204494/): 学生以外も参加可能なコンペの開催告知。
-- [医療データを用いた学生・医療従事者限定コンペ開催](https://connpass.com/event/204007/): 講演・チュートリアルも予定されたコンペ。
-- [「Sansan × atmaCup #6」開催記念勉強会](https://sansan.connpass.com/event/202716/): Kaggle Master 3 人・Expert 2 人が発表予定の勉強会。
+- [医療データを用いた学生・医療従事者限定コンペ開催](https://connpass.com/event/204007/): 講演やチュートリアルも実施された、学生および医療従事者限定のコンペ。
+- [「Sansan × atmaCup #6」開催記念勉強会](https://sansan.connpass.com/event/202716/): Kaggle Master 3 名と Expert 2 名が登壇した勉強会。
 - [「#SwipeToSuccess」コンペ優勝者発表イベント](https://www.meetup.com/Democratic-AI-by-bitgrit-Tokyo/events/275960044/): インド展開に伴い開催されたマッチングアプリコンペの優勝者発表。
 - [「分析コンペ 勉強会」運営による振り返り記事](https://buildersbox.corp-sansan.com/entry/2021/03/05/110000): 全 5 件の発表資料も公開。「Colaboratoryで分析コンペをする時のテクニック集」の補足記事も別途公開。
 - [Kaggle関連セッション動画（DA-NCE）](https://conference.da-nce.jp/): 「Kaggle Masterに学ぶキャリアとスキルアップの要諦」など 2 本のセッション動画。
 - [SIGNATEインターン選考コンペ開始](https://signate.jp/competitions/402): 予測モデル部門とコンペ設計部門の 2 種類で構成。
 - [Kaggle「M5 Forecasting - Accuracy / Uncertainty」表彰式](https://www.youtube.com/watch?v=cQ_xPo9F9h4&feature=youtu.be): 運営・入賞者発表を含む 2 時間弱の表彰式。
-- [Kaggle勉強会（サイバーエージェント・Mobility Technologies・ヤフーMaster登壇）](https://scramble.connpass.com/event/191304/): 各社 Kaggle Master が登壇する勉強会。
-- [Kaggle「SIIM-ISIC Melanoma Classification」イベント](https://www.youtube.com/watch?v=L1QKTPb6V_I&feature=youtu.be): NVIDIA 所属 Grandmaster 3 人が登壇するイベント。
+- [Kaggle勉強会（サイバーエージェント・Mobility Technologies・ヤフーMaster登壇）](https://scramble.connpass.com/event/191304/): 各社の Kaggle Master が登壇した勉強会。
+- [Kaggle「SIIM-ISIC Melanoma Classification」イベント](https://www.youtube.com/watch?v=L1QKTPb6V_I&feature=youtu.be): NVIDIA 所属の Grandmaster 3 名が登壇したイベント。
 - [IBIS2020「kaggle・実践データ解析入門」チュートリアル](http://ibisml.org/ibis2020/tutorial/): Kaggle Grandmaster takuoko さんが講師を務めるチュートリアル。
-- [Kaggle「Cornell Birdcall Identification」反省会](https://connpass.com/event/189722/): 参加者有志による反省会。ハッシュタグまとめや資料まとめ記事も公開。
+- [Kaggle「Cornell Birdcall Identification」反省会](https://connpass.com/event/189722/): 参加者有志による反省会。ハッシュタグのまとめや発表資料のまとめ記事も公開されている。
 - [SIGNATE Student Cup 2020上位入賞者プレゼンテーション動画](https://www.youtube.com/playlist?list=PLx--cSjgRP_SAF4tCsKvq40kXUMNs2OM4): 「AIエッジコンテスト」関連動画も合わせて公開。
 - [Kaggle GrandmasterのCPMPさんによる講演「Did you know GPU are not just for Deep Learning?」](https://www.youtube.com/watch?v=hUlvFtuFqy8&feature=youtu.be): ニューラルネットワーク以外での GPU 活用方法を扱う講演。
-- [PANDA Challenge上位入賞者の学会Workshop登壇告知](https://panda.grand-challenge.org/workshop-schedule/): 10 月 8 日の学会 Workshop と 9 月 24 日の Rist 主催 Kaggle Workshop #2 で登壇。
-- [Kaggle GrandmasterのtakuokoさんへのYouTube Liveインタビュー告知](https://twitter.com/tkm2261/status/1297758301921226755?s=20): 9 月 5 日開催予定で質問も募集。
+- [PANDA Challenge上位入賞者の学会Workshop登壇告知](https://panda.grand-challenge.org/workshop-schedule/): 学会ワークショップと Rist 主催 Kaggle Workshop #2 における登壇告知。
+- [Kaggle GrandmasterのtakuokoさんへのYouTube Liveインタビュー告知](https://twitter.com/tkm2261/status/1297758301921226755?s=20): YouTube Live でのインタビュー配信に関する告知。
 - [SIGNATE「The 4th Tellus Satellite Challenge」紹介記事](https://sorabatake.jp/14130/): 海岸線抽出タスクの意義や参考文献をまとめた紹介記事。
-- [Kaggle GrandmasterのChris・Abhishekを招いたGPU/TPU活用イベント（アーカイブ動画）](https://www.youtube.com/watch?v=DEuvGh4ZwaY&feature=youtu.be): Kaggle コンペでの GPU・TPU 活用方法を紹介するイベント。
-- [Kaggle GrandmasterのChris・Abhishekを招いたイベント告知](https://www.kaggle.com/accelerator-power-hour): 日本時間深夜 2 時開始のオンラインイベント告知。
-- [SciPy Conference 2020講演動画集](https://www.youtube.com/playlist?list=PLYx7XA2nY5GfY4WWJjG5cQZDc7DIUmn6Z): 科学技術における Python 活用事例を扱う講演集。10 月には SciPy Japan 2020 も開催予定。
+- [Kaggle GrandmasterのChris・Abhishekを招いたGPU/TPU活用イベント（アーカイブ動画）](https://www.youtube.com/watch?v=DEuvGh4ZwaY&feature=youtu.be): Kaggle コンペでの GPU や TPU の活用方法を紹介したイベント。
+- [Kaggle GrandmasterのChris・Abhishekを招いたイベント告知](https://www.kaggle.com/accelerator-power-hour): オンラインで開催されたイベントの告知。
+- [SciPy Conference 2020講演動画集](https://www.youtube.com/playlist?list=PLYx7XA2nY5GfY4WWJjG5cQZDc7DIUmn6Z): 科学技術における Python 活用事例を扱った講演集。
 - [ICLR論文読み会イベント](https://exawizards.connpass.com/event/176947/): 招待講演・通常発表・LT の資料が公開された読み会。
-- [BERT応用勉強会（LT形式）](https://nlpaper-challenge.connpass.com/event/174957/?utm_campaign=event_participate_to_follower&utm_medium=twitter&utm_source=notifications): ドメイン活用事例やフロントエンド利用例を扱う勉強会。
-- [「Kaggle Days China」2019講演動画公開](https://www.youtube.com/watch?v=rQQAIJIf60s&feature=youtu.be): 「Solving NLP Problems with BERT」など複数の講演動画を順次公開。
+- [BERT応用勉強会（LT形式）](https://nlpaper-challenge.connpass.com/event/174957/?utm_campaign=event_participate_to_follower&utm_medium=twitter&utm_source=notifications): ドメイン適用事例やフロントエンドでの利用例を扱った勉強会。
+- [「Kaggle Days China」2019講演動画公開](https://www.youtube.com/watch?v=rQQAIJIf60s&feature=youtu.be): 「Solving NLP Problems with BERT」など複数の講演動画が公開されている。
