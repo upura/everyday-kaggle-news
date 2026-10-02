@@ -1211,7 +1211,6 @@
 <h3><a href="https://www.kaggle.com/c/lyft-motion-prediction-autonomous-vehicles">Lyft Motion Prediction for Autonomous Vehicles</a></h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
-- [Lyft Motion Prediction for Autonomous Vehicles 解法共有会アーカイブ動画](https://vimeo.com/509856257): 4 位入賞の Preferred Networks チームなど上位参加者による発表。
 - [Lyft Motion Prediction for Autonomous Vehicles 4位解法](https://tech.preferred.jp/ja/blog/kaggle-lyft-motion-prediction-for-autonomous-vehicles-4th-place-solution/): 一風変わった課題設定のコンペの概要と取り組みをまとめた記事。
 
 </div>
@@ -1306,7 +1305,6 @@
 <span class="badge badge-year">2019</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [2019 Data Science Bowl 17位解法（QWK直接最適化）](https://zenn.dev/jackthekaggler/articles/cf988ca341e34ed83034): 評価指標「QWK」を勾配ブースティング系アルゴリズムで直接最適化する取り組み。
-- [2019 Data Science Bowl 反省会資料一覧](https://umi-log.com/kaggle-dsb-mtg/): 2 位解法・10 位の shake up 知見・カスタムロスによる評価指標最適化など多数の発表メモ。
 
 </div>
 
@@ -1350,7 +1348,6 @@
 <h3>第4回FUJIFILM Brain(s)コンテスト</h3>
 <span class="badge badge-year">2020</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">その他</span>
 
-- [第4回FUJIFILM Brain(s)コンテスト参加録（化合物の溶解度・毒性予測）](https://blog.tan5o.com/2020/08/%E5%AF%8C%E5%A3%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%82%B3%E3%83%B3%E3%83%9A%E7%B7%8F%E5%90%881%E4%BD%8D%E8%A7%A3%E6%B3%95%E3%82%A2%E3%83%97%E3%83%AD%E3%83%BC%E3%83%81%E5%8C%96%E5%90%88%E7%89%A9%E3%81%AE%E6%BA%B6%E8%A7%A3%E5%BA%A6%E4%BA%88%E6%B8%AC2%E4%BD%8D%E5%A4%89%E7%95%B0%E6%80%A7%E4%BA%88%E6%B8%AC2%E4%BD%8D/): 学生対象コンペの 2 タスクへの取り組み紹介。
 - [第4回FUJIFILM Brain(s)コンテスト参加録（発ガン性化合物予測）](https://mosamosa.hatenadiary.jp/entry/2020/08/27/151137): 分野特有の取り組みを具体的に語る参加録。
 
 </div>

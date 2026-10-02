@@ -24,7 +24,6 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 - [画像認識分野でのTransformer応用解説（SSII2022）](https://speakerdeck.com/yushiku/20220608_ssii_transformer): Transformer の概要、応用範囲、近年の潮流を紹介。
 - [階層的Vision Transformerの研究動向まとめ](https://www.slideshare.net/ren4yu/hierarchical-vision-transformer): Swin Transformer など Kaggle でも多用されるモデルの研究動向。
 - [Swin Transformer V2 事前学習済み重み公開](https://github.com/microsoft/Swin-Transformer): Kaggle コンペの上位解法にも登場する画像認識モデルの公開重み。
-- [Vision Transformerの注意機構に着目した論文の解説記事](https://tech.sensetime.jp/?p=2220): 「When Shift Operation Meets Vision Transformer」の解説。
 - [Swin Transformer 解説資料（ICCV2021論文読み会）](https://www.slideshare.net/ren4yu/swin-transformer-iccv21-best-paper): Kaggle の画像コンペで頻繁に使われるモデルの解説資料。
 - [Swin Transformerを用いた物体検出の実験記事](https://qiita.com/Abebe9849/items/47de3f77ed02ba6f242d): Kaggle「VinBigData Chest X-ray Abnormalities Detection」を題材にした実験まとめ。
 - [Vision Transformerの仕組み解説資料](https://speakerdeck.com/himidev/vision-transformerfalsesikumi): Transformer 自体の仕組みと画像認識分野への応用事例をまとめた資料。
@@ -57,11 +56,10 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 - [【論文紹介】Is CLIP ideal? No. Can we fix it? Yes!](https://speakerdeck.com/shun6211/lun-wen-shao-jie-is-clip-ideal-no-can-we-fix-it-yes-di-65hui-konpiyutabiziyonmian-qiang-hui-at-guan-dong): CLIP の埋め込み空間の課題と改善策を提案する論文の紹介資料。
 - [Zero-shot Learning網羅的サーベイ：CLIPが切り開いたVision & Languageの新しい世界](https://techblog.exawizards.com/entry/2023/05/10/055218): CLIP 後続の研究 70 本程度を調査したサーベイ記事。
 - [[輪講] SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features](https://speakerdeck.com/nk35jk/lun-jiang-siglip-2-multilingual-vision-language-encoders-with-improved-semantic-understanding-localization-and-dense-features)
-- [CLIP・CLOOBの日本語版学習済みモデル公開](https://prtimes.jp/main/html/rd/p/000000031.000070041.html): オープンソースデータで学習され商用利用も可能な日本語言語画像モデルの公開。
 - [CLIP日本語版モデルの学習方法解説記事](https://qiita.com/sonoisa/items/00e8e2861147842f0237): 画像とテキストの埋め込み表現を学習する CLIP の日本語版モデルの学習方法を解説。
 - [CLIPを模した日本語モデルの作成記事](https://www.ogis-ri.co.jp/otc/hiroba/technical/similar-document-search/part19.html): 画像とテキストを同じ多次元ベクトル空間に埋め込むモデルを Google Colaboratory 上で学習する記事。
 - [言語と画像を組み合わせた領域でのTransformer活用総説論文](https://link.springer.com/article/10.1007/s11263-021-01547-8): Vision & Language 領域での Transformer 活用をまとめた総説論文。
-- [OpenAI「CLIP」の解説記事（PyTorch実装つき）](https://sachinruk.github.io/blog/pytorch/pytorch%20lightning/loss%20function/gpu/2021/03/07/CLIP.html): 画像認識モデル CLIP を PyTorch 実装とともに紹介。
+- [OpenAI「CLIP」の解説記事（PyTorch実装つき）](https://deepschool.ai/blog/2021-03-07-clip.html): 画像認識モデル CLIP を PyTorch 実装とともに紹介。
 - [「DALL·E」解説Podcast（第3回）](https://anchor.fm/yoheikikuta/episodes/DALLE--part-3-DALLE-errr51): テキストから画像を生成するモデルの解説シリーズ最終回。要点メモも公開。
 - [マルチモーダル深層学習「WIDeText」の記事（Airbnb）](https://medium.com/airbnb-engineering/widetext-a-multimodal-deep-learning-framework-31ce2565880c): 説明文、写真、メタデータを特徴量に活用する部屋タイプ分類の紹介。
 
@@ -140,12 +138,10 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 - [「NFNets」の解説動画](https://www.youtube.com/watch?v=rNkHjZtH0RQ&feature=youtu.be): Batch Normalization を使わない画像分類の最高性能モデルの解説。
 - [動画認識コンペのサーベイ資料（ActivityNet Challenge等）](https://www.slideshare.net/cvpaperchallenge/towards-performant-video-recognition-231628214): さまざまなコンペの課題や解法をまとめた資料。
 - [PyTorchによる画像分類の性能向上手法まとめ記事](https://twitter.com/omiita_atiimo/status/1362249066013335553?s=20): データ水増し手法などをソースコード付きで紹介。
-- [Metric Learning「Supervised Contrastive Learning」の解説記事](https://towardsdatascience.com/how-to-use-metric-learning-embedding-is-all-you-need-f26e01597375?gi=95f213204ad5): 通常の画像分類との違いを中心に説明し実装も公開。
 - [Vision Transformer (ViT) 解説教材（Notebook形式）](https://colab.research.google.com/github/hirotomusiker/schwert_colab_data_storage/blob/master/notebook/Vision_Transformer_Tutorial.ipynb): 段階的に実行しながら仕組みを学べる教材。
 - [2020年のKaggle画像分類コンペ1位解法まとめ記事](https://qiita.com/inoichan/items/140cf018d31151d2701a): 8 コンペの概要と解法を端的に紹介。
 - [Solafuneコンペ向けKerasサンプルコード](https://zenn.dev/beluga/articles/f2b7d94c0213680b3dc2): PyTorch 版に続く有志による情報共有。
 - [KaggleのNotebookで画像読み込み・データ増幅を高速化する記事](https://qiita.com/hirune924/items/bfb099a704537b4e22ca): NVIDIA DALI と Kornia の組み合わせを紹介。
-- [Kaggle Masterによる画像コンペTipsまとめ（phalanxさん）](https://github.com/phalanx-hk/kaggle_cv_pipeline/blob/master/kaggle_tips.md): 事前知識、取り組み方、参考リンク集をまとめた資料。
 - [ディズニーがPyTorchでアニメキャラクター顔認識に取り組む記事](https://medium.com/pytorch/how-disney-uses-pytorch-for-animated-character-recognition-a1722a182627): データセット拡張や高速化のための試行錯誤を紹介。
 - [画像データ水増し手法まとめ記事（TensorFlow実装）](https://app.wandb.ai/authors/tfaugmentation/reports/Modern-Data-Augmentation-Techniques-for-Computer-Vision--VmlldzoxODA3NTQ): 検証結果も掲載するデータ拡張手法の紹介。
 - [画像認識のための深層学習サーベイ資料](https://www.slideshare.net/ren4yu/ss-234439652): モデルアーキテクチャの歴史や高速化手法を紹介。

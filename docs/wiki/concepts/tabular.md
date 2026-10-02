@@ -54,7 +54,6 @@
 - [不均衡データ分類に関する応用例・解説・手法のリンク集](https://www.jstage.jst.go.jp/article/jjsai/37/3/37_376/_article/-char/ja/): 人工知能学会誌に掲載されたリンク集記事。
 - [p値を使ったTarget Encodingの方法紹介記事](https://kuruton.hatenablog.com/entry/2022/02/24/092716): atmaCup のデータで性能向上を確認した検証記事。
 - [特徴量エンジニアリングライブラリ「xfeat」の紹介記事](https://blog.amedama.jp/entry/xfeat): 具体的な使い方をコードとともに解説。
-- [クリック予測問題を題材にしたデータ分析インターン教材](https://fan-adn.github.io/ist-textbook-open/): データ可視化や過学習への対応など実践的な内容を扱う教材。
 - [決定境界付近のサンプル重み調整による不均衡データ対応論文の解説記事](https://qiita.com/koshian2/items/52e4bdc682fc152fe05e): 通常学習後に特殊な損失でファインチューニングする手法を紹介。
 - [テーブルコンペ頻出の特徴量エンジニアリング技法まとめ記事](https://zenn.dev/colum2131/articles/fffac4654e7c7c): 数値データとカテゴリデータの処理方法を中心に紹介。
 - [欠損データ補完手法「MCFlow」の解説資料](https://pseudo-theory-of-everything.hatenablog.com/entry/2021/11/07/143102): 欠損補完とネットワーク更新を繰り返す枠組みの提案。
@@ -84,7 +83,6 @@
 - [Polars, 旬の13のお役立ち機能](https://qiita.com/hkzm/items/8427829f6aa7853e6ad8): Polars の便利機能 13 選の紹介記事。
 - [pandas vs polars vs cudf 速度比較](https://zakopilo.hatenablog.jp/entry/2023/02/04/220552): 定番 3 ライブラリの処理速度を比較した記事。
 - [表形式データライブラリの比較検証（PyCon JP 2022）](https://speakerdeck.com/mhrtech/pyconjp2022-hpc): 大規模な表形式データを処理するライブラリの比較資料。
-- [RAPIDS が pip でインストール可能に](https://rapids.ai/pip.html): GPU 機械学習ライブラリ RAPIDS の pip 対応の公式告知。
 - [Pandas[GPU] vs Polars[CPU] vs Polars[GPU]](https://zenn.dev/parfait/articles/dedb8c0bda00f8): 表データ処理ライブラリの速度を GPU の有無を含めて比較した記事。
 - [Announcing Polars 1.0](https://pola.rs/posts/announcing-polars-1/): Polars の Python 版 v1.0 公開の公式発表。設計刷新と GPU 高速化の展望つき。
 - [RAPIDS cuDF Instantly Accelerates pandas up to 50x on Google Colab](https://developer.nvidia.com/blog/rapids-cudf-instantly-accelerates-pandas-up-to-50x-on-google-colab/): GPU 版 pandas「cuDF」が Colab に組み込まれた発表。

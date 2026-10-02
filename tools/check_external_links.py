@@ -46,7 +46,7 @@ def status(url):
             with urllib.request.urlopen(req, timeout=15) as r:
                 return r.status
         except urllib.error.HTTPError as e:
-            if method == "HEAD" and e.code in (403, 405, 501):
+            if method == "HEAD" and e.code in (403, 404, 405, 501):
                 continue
             return e.code
         except Exception:

@@ -34,7 +34,6 @@ PyTorch は Kaggle の深層学習コンペで事実上の標準（デファク�
 - [深層モデルの高速化](https://speakerdeck.com/joisino/shen-ceng-moderunogao-su-hua): 推論時間制限のあるコンペにも役立つ深層学習高速化のサーベイ資料。
 - [DeepSpeed: 深層学習の訓練と推論を劇的に高速化するフレームワーク](https://www.deepspeed.ai/assets/files/DeepSpeed_Overview_Japanese_2023Jun7th.pdf): Microsoft 製の高速化フレームワークの日本語解説資料。
 - [高速な深層学習モデルアーキテクチャ2023](https://speakerdeck.com/yu4u/gao-su-nashen-ceng-xue-xi-moteruakitekutiya2023): 蒸留や量子化からアーキテクチャ別まで扱う高速化の調査資料。
-- [PyTorchのDataLoaderクラスの高速化を解説する記事](https://zenn.dev/xiongjie/articles/0ae1378feb4204): 処理の概要を紐解きながら高速化の勘所を紹介。
 - [PyTorchとJAXの速度比較記事](https://mattari-benkyo-note.com/2021/11/17/ssw-jax-vs-torch/): PyTorch 高速化の技法としても参考になる検証記事。
 - [PyTorch学習高速化ライブラリ「torch_ort.ORTModule」公開](https://cloudblogs.microsoft.com/opensource/2021/07/13/accelerate-pytorch-training-with-torch-ort/): 言語モデルのファインチューニングが 1.2〜1.3 倍程度高速化。
 - [深層学習の効率化に関するブログ記事（Google研究者、第3弾）](https://www.kdnuggets.com/2021/07/high-performance-deep-learning-part3.html): 同著者によるサーベイ論文も公開。

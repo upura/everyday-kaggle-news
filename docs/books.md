@@ -13,7 +13,7 @@ Kaggle やデータサイエンスコンペに関連する書籍と、関連書�
 | [Kaggleで学んでハイスコアをたたき出す! Python機械学習&データ分析](https://www.shuwasystem.co.jp/book/9784798061863.html) || 2020 年 8 月 |
 | [Pythonで動かして学ぶ！Kaggleデータ分析入門](https://www.shoeisha.co.jp/book/detail/9784798165233) || 2020 年 10 月 |
 | [Kaggleのチュートリアル第7版](https://note.com/currypurin/n/nef92a6bcc3c4) || 2026 年 7 月 |
-| [Kaggleコンペティション チャレンジブック](https://book.mynavi.jp/ec/products/detail/id=119629) || 2020 年 12 月 |
+| [Kaggleコンペティション チャレンジブック](https://www.amazon.co.jp/dp/4839968934) || 2020 年 12 月 |
 | [Approaching (Almost) Any Machine Learning Problem](https://www.amazon.co.jp/-/en/Approaching-Almost-Machine-Learning-Problem/dp/8269211508) | 英語 | 2020 年 6 月 |
 | [Kaggle Grandmasterに学ぶ 機械学習 実践アプローチ](https://book.mynavi.jp/ec/products/detail/id=123641) | 『Approaching (Almost) Any Machine Learning Problem』の日本語版 | 2021 年 8 月 |
 | [The Kaggle Book: Data analysis and machine learning for competitive data science](https://www.kaggle.com/discussions/general/320574) | 英語 | 2022 年 4 月 |

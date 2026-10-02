@@ -43,7 +43,7 @@
 - [BERTによる日本語自然言語処理の書籍出版予告（Transformers活用）](https://www.ohmsha.co.jp/book/9784274227264/): 学習コードに PyTorch Lightning を利用する書籍の出版告知。
 - [Transformer解説資料（図解中心）](https://speakerdeck.com/yusuketakagi/transformerhahe-woyatuteirufalseka): データの流れを図で説明する解説資料。
 - [Transformer機構の調査資料（基礎解説・画像認識応用）](https://www.slideshare.net/cvpaperchallenge/transformer-247407256): 基礎的な解説から画像認識分野への応用までをまとめた資料。
-- [Transformers書籍のプレビュー版公開（O'Reilly）](https://www.oreilly.com/library/view/natural-language-processing/9781098103231/): Hugging Face 共同創設者 Thomas Wolf さんも共著者に名を連ねる書籍。
+- [Transformers書籍のプレビュー版公開（O'Reilly）](https://www.oreilly.com/library/view/natural-language-processing/9781098136789/): Hugging Face 共同創設者 Thomas Wolf さんも共著者に名を連ねる書籍。
 - [Transformerの解説記事（RNNとの比較）](https://blog.brainpad.co.jp/entry/2021/01/06/113000): 応用例も含めて紹介する入門記事。
 - [自然言語処理タスク向けGoogle Colabリンク集「Super Duper NLP Repo」](https://pub.towardsai.net/nlp-colab-repository-65136d3e45da): 41 ファイルの新規追加を含む紹介記事。
 - [東大松尾研「Deep Learning基礎講座」招待講演資料（自然言語処理領域）](https://www.slideshare.net/HitomiYanaka/2020deep-learning-9-236561673): 深層学習前後の NLP 領域を概観し近年の研究課題までまとめた資料。
@@ -76,7 +76,6 @@
 - [LLM性能改善の実践知 Kaggleでの学びを現場に活かす思考法](https://speakerdeck.com/sinchir0/llmxing-neng-gai-shan-noshi-jian-zhi-kaggledenoxue-biwoxian-chang-nihuo-kasusi-kao-fa): 『Kaggleではじめる大規模言語モデル入門』第 4 章と第 5 章を題材にした LLM 性能改善の発表資料。
 - [【第3回】関東Kaggler会「NLPの変遷とNLPコンペの最新事情 〜進化する技術と変化する戦い方〜」](https://speakerdeck.com/takaito/di-3hui-guan-dong-kagglerhui-nlpnobian-qian-tonlpkonpenozui-xin-shi-qing-jin-hua-suruji-shu-tobian-hua-suruzhan-ifang)
 - [敵対的学習手法「FGM」「AWP」の解説記事](https://blog.brainpad.co.jp/entry/2022/08/23/153001): NLP コンペで頻出する敵対的学習手法を解説。
-- [Nishika 個人情報固有表現抽出データセット・モデル公開](https://info.nishika.com/solution-cl-data/personal-inquiry): 判例の個人情報自動マスキング向けに、商用利用可能なデータセットとコンペ解法に基づくモデルやソースコードを公開。
 - [自然言語処理コンペの上位解法に登場する「敵対的学習」の調査資料](https://www.slideshare.net/ssuserc45ddf/adversarial-trainingpptx): 過学習を防ぎモデルの頑健性を高める効果を整理した資料。
 - [Adversarial Training（敵対的学習）に関する近年の動向まとめ](https://speakerdeck.com/hirokiadachi/sabei-adversarial-training): 実験に用いたソースコードも公開する動向まとめ資料。
 - [Transformers ライブラリでの推論をONNX形式で高速化する記事](https://tech.retrieva.jp/entry/20220228): 約 2.4 倍の高速化を報告する検証記事。

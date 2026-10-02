@@ -45,6 +45,5 @@ KDD Cup や NeurIPS コンペのように、国際学会が主催または併設
 - [NTCIR-18](https://research.nii.ac.jp/ntcir/ntcir-18/index-ja.html): 情報アクセス技術の評価を目的に複数コンペが開催される国際会議。
 - [「Wikipedia + 拡張固有表現」構造化プロジェクト（森羅プロジェクト）](https://2023.shinra-project.info/): Wikipedia 情報の構造化に取り組む学術的 AI コンペのプロジェクト。
 - [「森羅2021-ML: 多言語分類タスク」開催ページ](http://shinra-project.info/shinra2021ml/?lang=en): 30 言語の Wikipedia 記事を約 220 の固有表現カテゴリに分類するコンペ。
-- [チューニングコンペティション（LLM-jp）](https://llm-jp.github.io/tuning-competition/2026/feature.html): 国立情報学研究所 LLM 勉強会によるコンペの公式ページ。数学タスクと自由提案タスクで構成。
 - [Inverse Scaling Prize](https://github.com/inverse-scaling/prize): 言語モデルのサイズが大きくなるほど性能が悪化するようなタスク設計を問う、ニューヨーク大学研究チーム主催のコンペ。
 - [WAT 2022 翻訳データクリーニングコンペ](https://sites.google.com/view/wat-filtering/): 学習設定を固定し、日英科学技術論文データのクリーニングによる翻訳性能を競う機械翻訳ワークショップ併設コンペ。

@@ -54,7 +54,6 @@ Kaggle やデータサイエンスコンペに関連する周辺サービス、�
 - [Kaggle Notebookに「corgi mode」が追加](https://twitter.com/MeganRisdal/status/1339103298394066945?s=20): 犬が画面上部を往復する遊び心のある新機能。
 - [SIGNATE Quest分野特化型講座の提供開始](https://quest.signate.jp/markets): Preferred Networks による機械学習基礎講座などを第 1 弾として提供。
 - [KaggleのNotebooks・Discussions既読管理Chrome拡張](https://chrome.google.com/webstore/detail/kagglewatch/bnhfgkjmniihijokbjbikfogiegopkbc/related?authuser=0&hl=ja): 既読に色を付ける機能などを提供する有志の拡張機能。
-- [SIGNATE Scout・Careerが統合され「SIGNATE Delta」開始](https://delta.signate.jp/about): プロフィール欄の刷新と Kaggle ID 連携に対応。
 - [Podcast「regonn&curry.fm」第100回放送](https://www.youtube.com/watch?v=_HLeEBS5268&feature=youtu.be): 2018 年 9 月開始のデータサイエンス系 Podcast の節目の放送。
 - [SIGNATE Scoutの「SIGNATE Career」統合予告](https://signate.jp/scout): 「SIGNATE Delta」としてのサービス提供開始を予告。
 - [SIGNATE「ひろしまQuest」が第5回HRテクノロジー大賞を受賞](https://prtimes.jp/main/html/rd/p/000000041.000038674.html): 地方型 AI 人材育成の取り組みが評価された受賞。
