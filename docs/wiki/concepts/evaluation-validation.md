@@ -9,7 +9,7 @@
 - データセット品質はモデリング以前の前提条件。ラベル誤りを体系的に見つける Confident Learning のような枠組みや、モデルではなくデータを改善する Data-Centric AI の視点がコンペ・実務双方で参照される
 - バリデーション設計の核心は「CV と LB の乖離」への対処。adversarial validation・LB probing・shake-up の要因分析など、train/test の分布差を疑って検証する技法が定跡として蓄積されている。K-fold の分割数も慣習ではなく効用最大化の観点で決める議論が出てきている（[Determining the K in K-fold cross-validation](https://arxiv.org/abs/2511.12698)）
 - 時系列データでは時間分割のバリデーションが必須（[時系列予測コンペ](./time-series.md)）
-- 評価の観点はコンペ参加だけでなく、データセット構築やコンペ開催の側にも及ぶ。「コンペ形式の評価こそ生成 AI 評価の gold standard」という立場の論文もあり、Kaggle 自体も「Kaggle Benchmarks」やモデル対戦の「Game Arena」を通じてフロンティアモデルの評価基盤へと機能を広げている（[エージェント対戦コンペ](./agent-competition.md)も参照）
+- 評価の観点はコンペ参加だけでなく、データセット構築やコンペ開催の側にも及ぶ。「コンペ形式の評価こそ生成 AI 評価の gold standard」という立場の論文もあり、Kaggle 自体も「Kaggle Benchmarks」（文書抽出の [ExtractBench](https://www.kaggle.com/benchmarks/llamaindex-org/extractbench-leaderboard) など外部機関のベンチマークも掲載）やモデル対戦の「Game Arena」を通じてフロンティアモデルの評価基盤へと機能を広げている（[エージェント対戦コンペ](./agent-competition.md)も参照）
 - 信頼できる CV が作れたら、あとは CV を信じて[実験を回す](./experiment-management.md)のが定跡
 
 ## 資料
@@ -48,6 +48,7 @@
 
 ### 評価指標・ベンチマーク
 
+- [ExtractBench](https://www.kaggle.com/benchmarks/llamaindex-org/extractbench-leaderboard): Kaggle Benchmarks 上に公開されたスキーマ指定の文書抽出ベンチマーク。370 文書・4,869 ページを対象に、長い表での抜け漏れ、該当なし項目での値のでっち上げ、根拠箇所の特定、抽出コストを評価する。
 - [リーダーボードという名の幻影：LMArenaは信じられるのか？](https://jiwasawa.github.io/blog_jp/posts/lmarena/): LLM 対戦評価「Chatbot Arena」の信頼性を指摘した論文の紹介記事。
 - [Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation](https://arxiv.org/abs/2505.00612): データ汚染が避けにくい生成 AI の評価において、コンペ形式の厳密さを gold standard と位置づける position paper。
 - [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark): コンペ運営で培った対不正技術を活かした「Kaggle Benchmark」による独立したモデル評価環境の紹介。

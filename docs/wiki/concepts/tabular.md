@@ -10,7 +10,7 @@
 - GBDT の学習・推論・特徴量処理を GPU で高速化する話題（cuML でのスタッキング、RAPIDS FIL による推論高速化、GPUTreeSHAP、cuDF、XGBoost 3.0 の大規模データ対応など）は年を通じて繰り返し取り上げられ、実務での定番手段として定着してきた
 - データ処理基盤は pandas から Polars への移行が進んでいる。特徴量の変換処理を `pl.Expr` で宣言的に定義し計算と切り離して管理する設計や、cuDF・Polars on GPU による高速化も選択肢に加わっている
 - 特徴量エンジニアリングの中核技法である Target Encoding は、スムージングや p 値ベースの改良、GPU（cuML）実装など継続的に磨き込まれてきた定番技法
-- 「深層学習 vs 決定木」は長年の論争テーマで、中規模の実データでは決定木系が依然優位という報告が多い（[深層学習VS決定木：テーブルデータ分析の未来](https://voice.pkshatech.com/n/n2f125daeb9da)）。近年は対立構図ではなく、GBDT 的なアンサンブルを NN で再現する TabM や、特徴量設計・チューニング不要のゼロショット基盤モデル TabPFN/TabFM が新しい選択肢として登場している
+- 「深層学習 vs 決定木」は長年の論争テーマで、中規模の実データでは決定木系が依然優位という報告が多い（[深層学習VS決定木：テーブルデータ分析の未来](https://voice.pkshatech.com/n/n2f125daeb9da)）。近年は対立構図ではなく、GBDT 的なアンサンブルを NN で再現する TabM や、合成テーブルで事前学習したゼロショット基盤モデル（TabPFN、[TabFM](https://arxiv.org/abs/2609.37959)、オープンウェイトの [NVIDIA Kumo Tabular](https://huggingface.co/blog/nvidia/kumo-tabular)）、さらに凍結した基盤モデルの前処理・特徴量生成を LLM エージェントで反復改善する [TabFM-Auto](https://arxiv.org/abs/2609.37989) が新しい選択肢として登場している
 - バリデーション設計とリーク防止は[性能評価と検証](./evaluation-validation.md)を参照
 
 ## 資料
@@ -103,6 +103,9 @@
 
 ### 表データ向けNN・基盤モデル・AutoML
 
+- [TabFM: A Zero-Shot Foundation Model for Tabular Data](https://arxiv.org/abs/2609.37959): 構造的因果モデルによる数億件の合成テーブルで事前学習した 400M パラメータの表データ基盤モデル TabFM の論文。ファインチューニングなしのインコンテキスト学習で GBDT や AutoGluon を上回る精度と推論速度を報告している。
+- [TabFM-Auto](https://arxiv.org/abs/2609.37989): 重みを凍結した TabFM と LLM エージェントを組み合わせ、検証スコアを手がかりに前処理、特徴量生成、コンテキスト選択、後処理を反復改善する枠組みの論文。
+- [NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction](https://huggingface.co/blog/nvidia/kumo-tabular): 欠損やノイズを含む合成データで事前学習したオープンウェイトの表データ基盤モデル（28M〜215M パラメータ）の公開記事。TabArena や BeyondArena で GBDT や既存の表データ基盤モデルを上回る精度と推論効率を報告している。
 - [Pytorch LightningでTabM学習・予測](https://qiita.com/gnbrganchan/items/b9009f87f4e85b50442e): 表データ向け NN「TabM」を PyTorch Lightning で実装する手順。複数モデル出力の平均化など実装上の要点を解説。
 - [Introducing TabFM: A zero-shot foundation model for tabular data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/): Google Research による表データ向け基盤モデルの紹介。ゼロショットで分類・回帰の予測を生成する。
 - [Exploring TabPFN: A Foundation Model Built for Tabular Data](https://towardsdatascience.com/exploring-tabpfn-a-foundation-model-built-for-tabular-data/): 表データ向け基盤モデル TabPFN の紹介記事。TabPFN-2.5 までの発展を解説。

@@ -345,6 +345,8 @@
 <h3><a href="https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks">AI Agent Security - Multi-Step Tool Attacks</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
+- [Kaggleコンペ紹介：AI Agent Security - Multi-Step Tool Attacks](https://zenn.dev/mkj/articles/fad8adf0586665): 4 位・金メダル獲得者の解法紹介。応答の文面や処理時間の差から非公開のガードレール機構を推定した手順と、評価指標が速度あたりスコアである点を踏まえて KV キャッシュ再利用や平均負の対数尤度による事前選別で高速化した工夫を解説している。
+- [14位解法、戦略の要点（AI Agent Securityコンペ ソリューション共有会）](https://speakerdeck.com/esprit/14-kurai-kaihou-senryaku-no-youten-ai-agent-security-konpe-kyouyuukai): 14 位・金メダル獲得者の発表資料。応答長に埋め込んだメッセージ長から Private 環境のツール呼び出し成否を特定し、4 カテゴリのうち 3 カテゴリで対象ツールが遮断されていることを早期に突き止めて残る 1 カテゴリ（メール送信）の攻略と提出回数の積み増しに集中した戦略をまとめている。
 - [Kaggle AI Agent Securityコンペ振り返り ー345th Place Solution](https://zenn.dev/fusic/articles/61c4bcba3e4820): ツールを使う LLM エージェントへの多段階攻撃を生成するコードを提出するコンペの銅メダル解法。ガードレールが検査しない引数に着目した手法と、Public 最高スコアの提出が Private で 0 点になった経験から得た「同じ理由で失敗する提出を重ねない」という最終提出の選び方を述べている。
 - [未経験でkaggleに出たら銅メダル穫れた](https://note.com/saldra/n/nf6126a314be2): 初参加で銅メダルを獲得したチームの振り返り。「憲法」と呼ぶ運用ルールで意思決定に権限レイヤーを設け、重要な判断だけレビュー必須としてコーディングエージェントに自律実行させた体制づくりに重心を置いている。
 - [【初Kaggle参戦】ソフトウェアエンジニアふたりがAI Agent Security - Multi-Step Tool Attacksで銅メダルを取るまでログ](https://note.com/yasunacoffee/n/n7936b64c8277): 同じチームのもう一方の視点による参加録。タイムアウトで 0 点になった状態からの改善過程と、gpt-oss-20b より Gemma 系が難しかった点、堅実な提出と攻めた提出を組み合わせた最終選択を時系列で記録している。
@@ -355,6 +357,8 @@
 <h3><a href="https://www.kaggle.com/competitions/pokemon-tcg-ai-battle">The Pokémon Company - PTCG AI Battle Challenge Simulation</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
+- [🥈Kaggleのポケモンカードゲームコンペに参加した（Claudeと）](https://motemen.hatenablog.com/entry/2026/09/kaggle-pokemon-tcg): 銀メダル獲得者の参加記。実装のほぼすべてを Claude Code に任せ、人間はルールベースからニューラルネットへの切り替えや学習データ収集といった方針決定に徹した進め方を振り返っている。
+- [【Kaggle】ポケカコンペ振り返り(455th/6807th)🥉](https://zenn.dev/nwn/articles/a21aba4208e601): 455 位・銅メダルの解法。上位リプレイの行動を LightGBM のランク学習（盤面と行動候補の計 6,151 特徴量）で模倣する行動クローンに終盤の詰め探索を組み合わせた構成で、特徴量設計や 2 デッキ目の実装をコーディングエージェントに委ねて終盤 1 週間で仕上げた過程を記録している。
 - [Kaggle Pokémon TCG AI Battle Challenge ポケカコンペ振り返りーメダルなし](https://zenn.dev/fusic/articles/4b6e8eb23c0363): メダルには届かなかった参加録。手作りルールから探索、勝率を予測する価値関数、上位エージェントの行動クローン、PPO による自己対戦、相手デッキのベイズ推定へと段階的に積み上げた過程と、対戦相手・先攻後攻・乱数種を分けて評価しないと改善を見誤るという検証面の教訓を記録している。
 
 </div>

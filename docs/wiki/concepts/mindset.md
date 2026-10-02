@@ -25,6 +25,7 @@
 - [「メルカリShops」の価格推定モデル検証（Mercari 4位解法活用）](https://engineering.mercari.com/blog/entry/20220916-a0a50d6fc5/): Kaggle 由来の解法を実務で応用した事例記事。
 - [Kaggleは「○○」に役立つ](https://thinkit.co.jp/corner/12611): Kaggle の様々な役割を紐解く連載企画の一覧ページ。
 - [解説記事「実務にデータ分析コンペは有効か」](https://tech-ai.panasonic.com/jp/news_page.html?id=20241009): 電子情報通信学会誌に掲載された Grandmaster・Master 著者による解説記事。
+- [Kaggleは「加速」に役立つ ー挫折から戦略を立て直し、Kaggle Masterに至るまでの成長曲線](https://thinkit.co.jp/article/39543): 初期の停滞から戦略を立て直して Master に到達した過程を振り返り、コンペでの高速な試行錯誤が実務の成長をどう加速させたかを綴る連載記事（第 7 回）。
 - [Kaggleは「キャリアの選択肢の拡大」に役立つ ーコンペで得た学びが、実務・教育・研究・執筆へと広がるまで](https://thinkit.co.jp/article/39307): コンペで得た学びが実務・教育・研究・執筆に広がった経験を綴った連載記事。
 - [Kaggleは「キャリア」に役立つ ー機械屋がデータサイエンティスト、R&Dというキャリアに至った道筋](https://thinkit.co.jp/article/39248): Kaggle での研鑽がデータサイエンス活用のキャリアに繋がった事例（連載第 2 回）。
 - [実例で示すKaggleコンペと開発実務の差](https://www.docswell.com/s/kaeru_nantoka/Z8G8EW-2024-03-22-142237)

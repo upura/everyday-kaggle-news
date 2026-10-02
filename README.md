@@ -13,11 +13,11 @@
 
 直近の更新の抜粋です（全履歴は[操作ログ](./docs/wiki/log.md)）。
 
+- 2026-10-02: Weekly Kaggle News #352〜#355 を取り込み。AI Agent Security コンペの金メダル解法 2 件、ポケカコンペの銀・銅メダル参加録 2 件、Gemma 4 Developer Agent コンペ、表データ基盤モデル TabFM・TabFM-Auto・NVIDIA Kumo Tabular、文書抽出ベンチマーク ExtractBench、YANS2026 ハッカソン設計記事などを追加
 - 2026-09-11: Weekly Kaggle News #344〜#346 を取り込み（取りこぼし分の遡及）。最小のニューラルネットを競う NeuroGolf と農業対戦コンペ Kaggriculture、コンペ開催にかかる費用の記事、コーディングエージェント時代の人間の役割、検索モデルの評価ベンチマークなどを追加
 - 2026-09-11: Weekly Kaggle News #350 を取り込み（取りこぼし分の遡及）。学生向けの AIYSS Kaggle League、Kaggle Notebook の P100 提供終了、KDD Cup 2026 のデータ分析エージェントコンペ、Kaggle の型をプロダクト開発に転用する記事を追加
 - 2026-09-05: Weekly Kaggle News #351 を取り込み。AI Agent Security コンペの銅メダル解法 2 件と解法共有会、ポケカコンペの参加録、ROGII コンペで生成 AI に実装を委ねた金メダル解法、第 18 回最先端 NLP 勉強会、書籍『イラストで学ぶ 自然言語処理』を追加
 - 2026-08-22: Weekly Kaggle News #349 を取り込み。Kaggle のメダルの情報価値を分析した論文、金融予測コンペ 15 年分の設計史、CZII コンペの開催報告論文、人工知能学会の開催支援制度の募集要領と採択コンペ主催者インタビューを追加
-- 2026-08-15: Weekly Kaggle News #348 を取り込み。ROGII コンペの金メダル・銀メダル解法、第 6 回関東 Kaggler 会の参加録 2 件、KDD Test of Time Award を受賞した XGBoost の原論文を追加
 
 ## 目次
 

@@ -11,8 +11,8 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
 - 2022〜2023 年は表・画像・NLP のどれが主流とも言えない並走期。[表データコンペ](./tabular.md)では「深層学習 vs 決定木」論争が続く一方、NLP 側では LLM によるデータ生成・水増しが精度向上の主要な手段として台頭し始めた
 - 2023〜2025 年で LLM が戦い方そのものに入り込んだ。NLP コンペはエンコーダ型（BERT・DeBERTa 系）からデコーダ型 LLM への移行が明確になり、メダル対象コンペではテキスト（NLP）が 2024 年に単年最大種別（8 件）へ伸びて画像と入れ替わった。同時に AI コーディングエージェントが「惨敗」（2023 年、ChatGPT Code Interpreter）から「上位 30%」（2025 年、Claude Code）へとわずか 2 年で実用性を急速に高めた（[AI エージェント活用](./ai-agent.md)）
 - 2025〜2026 年、初期の Simulation Competitions の系譜が新しい意味を持ち始めている。公式ゲームエンジン提供の大型対戦コンペや、Kaggle 自身が運営するモデル評価基盤「Game Arena」の登場により、対戦型コンペは実験的な一形式から、フロンティアモデルを評価する中心的な仕組みへと役割を広げた。データ上もシミュレーションは 2025 年に再登場し、マルチモーダルも 2024〜2025 年に初めて現れるなど、直近の多様化がうかがえる（[性能評価と検証](./evaluation-validation.md)も参照）
-- 2026 年には、エージェントを「作って競わせる」だけでなく「攻撃対象として競う」形式も現れた。「[AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks)」は予測値ではなく攻撃候補を生成するコードを提出させるもので、公開されているガードレールと採点系の検査範囲のずれが攻略の焦点になった。Public と Private で評価の厳しさが異なるため、上位の Public スコアを積み増すより、失敗する理由の異なる提出を 2 本用意する方が有効だったと複数の参加録が報告している（[コンペ解法](../../solutions.md)）
-- 2026 年は「何を競わせるか」の幅が一気に広がった年でもある。エージェント同士の対戦（[Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)）、エージェントへの攻撃（AI Agent Security）に加え、ARC-AGI の課題を解く最小のニューラルネットワークを競う「[NeuroGolf](https://www.kaggle.com/competitions/neurogolf-2026)」のように、精度ではなくモデルの小ささを目的に据えた形式も現れた。予測精度を競う単一の型からは離れつつある
+- 2026 年には、エージェントを「作って競わせる」だけでなく「攻撃対象として競う」形式も現れた。「[AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks)」は予測値ではなく攻撃候補を生成するコードを提出させるもので、公開されているガードレールと採点系の検査範囲のずれが攻略の焦点になった。金メダル圏の解法では応答文面・処理時間・応答長を用いたプロービングで非公開のガードレールや Private 環境でのツール遮断を特定し、速度あたりスコアの評価に合わせて推論を高速化する工夫が報告されている（[コンペ解法](../../solutions.md)）
+- 2026 年は「何を競わせるか」の幅が一気に広がった年でもある。エージェント同士の対戦（[Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)）、エージェントへの攻撃（AI Agent Security）、事後学習モデルとエージェントハーネスを一括提出して開発課題を解かせる「[Google - The Gemma 4 Developer Agent Competition](https://www.kaggle.com/competitions/gemma-4-developer-agent)」に加え、ARC-AGI の課題を解く最小のニューラルネットワークを競う「[NeuroGolf](https://www.kaggle.com/competitions/neurogolf-2026)」のように、精度ではなくモデルの小ささを目的に据えた形式も現れた。予測精度を競う単一の型からは離れつつある
 - エージェント時代の変化は「設計」「操縦」「評価」の 3 層に分けて捉えると見通しが良い。開催側が自前で設計できる問題はプラットフォームから減り、解法の実装はコーディングエージェントにどこまで委ねられるかが論点になり、Kaggle が積み上げた評価設計の知見はベンチマークの規範として引き合いに出される、という整理である（[Agent 時代の Kaggle 展望](https://speakerdeck.com/upura/kaggle-in-the-agentic-era)）
 - コンペ形式の入れ替わりは、参加者の実績評価にも跳ね返る。[Kaggle の参加記録 44 万件超を分析した論文](https://arxiv.org/abs/2608.17111)は、外部で学習したモデルの予測ファイルを提出する形式（upload 形式）で得たメダルの将来予測力が時間とともに 8 割以上失われ、その半分以上はプラットフォームが当該形式を縮小したという制度側の変化で説明できると論じている（[称号振り返り・インタビュー](../../milestones.md)）
 - 「その年に何が話題だったか」を振り返るアンケート・年次まとめ記事が 2020 年以降ほぼ毎年蓄積されており、技術動向を定点観測する材料になっている
@@ -278,6 +278,7 @@ Kaggle のコンペは、表データ・GBDT を中心とした時代から、�
 
 ### 対戦型・評価基盤としての定着（2025〜2026年）
 
+- [Google - The Gemma 4 Developer Agent Competition](https://www.kaggle.com/competitions/gemma-4-developer-agent): Gemma 4 を事後学習させ、エージェントハーネスやツール定義ごと提出してソフトウェア開発課題の解決力を競うコンペ。
 - [The Pokémon Company - PTCG AI Battle Challenge Simulation](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle): ポケモンカードゲームの対戦 AI を競う大型コンペ（Simulation Track）。
 - [AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks): ツールを使う LLM エージェントへの多段階攻撃を設計するコンペ。予測値ではなく攻撃候補を生成するコードを提出する形式で、4,000 チーム超が参加した。
 - [The 2026 NeuroGolf Championship](https://www.kaggle.com/competitions/neurogolf-2026): ARC-AGI の画像変換課題を、できるだけ小さなニューラルネットワークで解くことを競う「ゴルフ」形式のコンペ。
