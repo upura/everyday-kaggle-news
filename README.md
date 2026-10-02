@@ -70,9 +70,9 @@
 
 ## 更新フロー
 
-本リポジトリは LLM Wiki として運用しており、規約は [CLAUDE.md](./CLAUDE.md) に定義しています。
+本リポジトリは LLM Wiki として運用しており、規約は [GEMINI.md](./GEMINI.md) に定義しています。
 
-- 週次: Weekly Kaggle News の配信後、GitHub Actions（[weekly-ingest](./.github/workflows/weekly-ingest.yml)）が最新号を取り込み、Pull Request を作成します。号に含まれる URL が展開され、重複を除いて各話題ページ・一覧ページに追加されます。編集者がレビューしてマージすると GitHub Pages に反映されます。Claude Code で `/ingest <URL>` を手動実行することもできます
+- 週次: Weekly Kaggle News の配信後、GitHub Actions（[weekly-ingest](./.github/workflows/weekly-ingest.yml)）が最新号を取り込み、Pull Request を作成します。号に含まれる URL が展開され、重複を除いて各話題ページ・一覧ページに追加されます。編集者がレビューしてマージすると GitHub Pages に反映されます。Gemini CLI で `/ingest <URL>` を手動実行することもできます
 - 月次: `/lint` でリンク切れ・重複・形式の検査を実行します
 
 ## 貢献

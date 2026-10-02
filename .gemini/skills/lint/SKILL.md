@@ -5,7 +5,7 @@ description: リンク集と wiki の整合性チェック。外部リンク切�
 
 # Lint — 整合性チェック
 
-リポジトリ全体の健全性を検査し、結果を報告する。**検出のみ行い、修正は管理者の確認後**。規約はルートの `CLAUDE.md` に従う。
+リポジトリ全体の健全性を検査し、結果を報告する。**検出のみ行い、修正は管理者の確認後**。規約はルートの `GEMINI.md` に従う。
 
 自動化済みの部分: 内部整合性（`tools/verify_wiki.py`）は CI（`.github/workflows/lint.yml`）が PR・push ごとに実行する。外部リンク切れは月次の `.github/workflows/monthly-linkcheck.yml` が検査して Issue を起票する。手動で lint を依頼された場合も、まず両ツールを実行し、結果の解釈と修正提案に注力する。
 
@@ -30,7 +30,7 @@ description: リンク集と wiki の整合性チェック。外部リンク切�
 ### 3. solutions.md の形式
 
 - `<div class="competition-entry" markdown="1" ...>` に `data-year` / `data-datatype` / `data-platform` が揃っているか
-- `data-datatype` が CLAUDE.md のタクソノミー（solutions.md のフィルタ UI の選択肢と同一）の値か
+- `data-datatype` が GEMINI.md のタクソノミー（solutions.md のフィルタ UI の選択肢と同一）の値か
 - div の開閉が対応しているか、badge の year と `data-year` が一致するか
 
 ### 4. 相対リンク・孤立ページ

@@ -9,7 +9,7 @@
 | --- | --- | --- |
 | Raw sources | 外部 URL（記事・スライド・動画・論文）。リポジトリには保存しない | 人間が投入 |
 | Wiki | `docs/` 配下の全ページ（目次・概念ページ・Query ページ・一覧ページ・log） | LLM |
-| Schema | `CLAUDE.md` と `.claude/skills/`（ingest / query / lint） | 人間 |
+| Schema | `GEMINI.md` と `.gemini/skills/`（ingest / query / lint） | 人間 |
 
 ## ページ種別と管理境界
 
@@ -103,7 +103,7 @@
 
 - 日本語の文中の括弧は全角（）を使う。対象は概説・押さえどころ・注釈・見出し・ログなどの地の文
 - リンクタイトル（原題）・URL・コード・HTML・YAML は原文のままとし、変換しない
-- そのほかの文体・整形は `.claude/skills/japanese-tech-writing/` の規範に従う
+- そのほかの文体・整形は `.gemini/skills/japanese-tech-writing/` の規範に従う
 
 ## 権利面の規約
 

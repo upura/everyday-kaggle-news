@@ -44,10 +44,10 @@ everyday-kaggle-news への貢献に興味を持っていただきありがと�
 
 ### 話題別 Wiki（`docs/wiki/`）について
 
-本リポジトリは LLM Wiki として運用しており、`docs/wiki/` 配下の概念ページ・index・log は LLM が [CLAUDE.md](./CLAUDE.md) の規約に従って維持しています。
+本リポジトリは LLM Wiki として運用しており、`docs/wiki/` 配下の概念ページ・index・log は LLM が [GEMINI.md](./GEMINI.md) の規約に従って維持しています。
 
 - リンクの追加は、Issue・PR のほか、管理者が LLM の ingest オペレーションを通じて行うこともあります
-- `docs/wiki/` 配下への PR も歓迎しますが、CLAUDE.md のページ形式・タクソノミーに合わせてください
+- `docs/wiki/` 配下への PR も歓迎しますが、GEMINI.md のページ形式・タクソノミーに合わせてください
 - 概念ページの記述（注釈・押さえどころ）は短いオリジナルの紹介文に限ります。転載・長文要約はしません。掲載を希望しない著作者・権利者の方は Issue 等でご連絡ください。速やかに対応いたします
 
 ## 質問・相談
