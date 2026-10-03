@@ -40,6 +40,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install HTTP client dependencies
+        run: python3 -m pip install -q --break-system-packages curl_cffi || true
+
       - name: Detect un-ingested issues
         id: detect
         env:
@@ -60,6 +63,11 @@ jobs:
         issue: ${{ fromJSON(needs.detect.outputs.issues) }}
     steps:
       - uses: actions/checkout@v4
+
+      - name: Pre-fetch issue content
+        run: |
+          python3 -m pip install -q --break-system-packages curl_cffi || true
+          python3 tools/detect_uningested_issues.py --fetch-issue "${{ matrix.issue.url }}" > ".wkn-issue-${{ matrix.issue.number }}.html" || true
 
       - name: Run Gemini CLI
         uses: google-github-actions/run-gemini-cli@v1
@@ -86,6 +94,7 @@ jobs:
             .gemini/skills/ingest/SKILL.md の手順に従い、Weekly Kaggle News の号を取り込んでください。
 
             - 対象の号: ${{ matrix.issue.url }} (Weekly Kaggle News #${{ matrix.issue.number }})
+            - 号の本文が `.wkn-issue-${{ matrix.issue.number }}.html` に事前取得されている場合は、まずそれを ReadFileTool で読んで紹介記事一覧を抽出すること
             - この号だけを取り込むこと。ほかの号には手を出さないこと
             - ルートの GEMINI.md の規約(エントリ形式・タクソノミー・権利面)に従うこと
             - docs/ 配下のファイルを直接編集し、docs/wiki/log.md に号単位で記録すること
