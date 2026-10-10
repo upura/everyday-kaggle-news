@@ -35,20 +35,85 @@ jobs:
   # log.md に記録が無い号を洗い出す。取りこぼした号も後から拾えるようにする
   detect:
     runs-on: ubuntu-latest
-    outpu    outpu    outpu    outpu    outpu    outpu    outpu    outpu    outpu    outpu    outpu    outpu      - name: Install HTTP client dependencies
-        run: python3 -m pip install -q --break-system-packages curl_cffi ||        run: python3 -m pip install -q --brees        run: pythot
-                                                       }}
-          FORCE: ${{ inputs.f          FORCE: $n: python3 tools/detect_uningest          FORCE: ${{ inputs.f          FORCE: $n: python3 tools/detect_uningest          FORCE: ${{ inptu          FORCE: $gy:
-                  �失敗した場合に残りを巻き添えにしない
-      fail-fast: false
-      # 取りこぼし分をまとめて処理するとき、PR を 1 本ずつ順に作�      # 取りrall      # 取りこ�
-:                   fromJSON(needs.d            s.issues) }}
+    outputs:
+      issues: ${{ steps.detect.outputs.issues }}
     steps:
-      - uses: actions/      - uses: actions/      - uses: actions/      - uses: actions/      - uses: actions/      - uses: actiea      -m-p      - uses: actions/   
+      - uses: actions/checkout@v4
+
+      - name: Install HTTP client dependencies
+        run: python3 -m pip install -q --break-system-packages curl_cffi || true
+
+      - name: Detect un-ingested issues
+        id: detect
+        env:
+          ISSUE_URL: ${{ inputs.issue_url }}
+          FORCE: ${{ inputs.force }}
+        run: python3 tools/detect_uningested_issues.py
+
+  ingest:
+    needs: detect
+    if: needs.detect.outputs.issues != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      # 1 号でも失敗した場合に残りを巻き添えにしない
+      fail-fast: false
+      # 取りこぼし分をまとめて処理するとき、PR を 1 本ずつ順に作る
+      max-parallel: 1
+      matrix:
+        issue: ${{ fromJSON(needs.detect.outputs.issues) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pre-fetch issue content
+        run: |
+          python3 -m pip install -q --break-system-packages curl_cffi || true
           python3 tools/detect_uningested_issues.py --fetch-issue "${{ matrix.issue.url }}" > ".wkn-issue-${{ matrix.issue.number }}.html" || true
 
-      -       -       -       -       -       -       -       -       -       -       -       -       -       -       -       -       -       -            -       -       -       -       -       -       - EY      -       -       -       -       -       -       -       -       -       -       -       -       -       -       -       -       -       -            -       -       -       -       -       -       -        -       -       -       -       -       -       -       -      ews �      -       -      ��      -       -       -       -       -       -       -       -       -       -       -       -       -       -       -       -        -       -       -       -       -       -       -  .ht  ` に事前取得されている場合は、まずそれを read_file で読んで紹介記事一覧を抽出すること
-            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り��            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り��            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り��            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り��            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り込むこと。            - この号だけを取り��            - こ             - 最後に、追加したエントリと変更したページの一覧を出力すること
+      - name: Run Gemini CLI
+        uses: google-github-actions/run-gemini-cli@v0
+        env:
+          GEMINI_CLI_TRUST_WORKSPACE: "true"
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          gemini_model: "gemini-3.8-flash"
+          settings: |
+            {
+              "model": {
+                "maxSessionTurns": 50
+              },
+              "tools": {
+                "core": [
+                  "read_file",
+                  "read_many_files",
+                  "write_file",
+                  "replace",
+                  "glob",
+                  "grep_search",
+                  "list_directory",
+                  "web_fetch",
+                  "google_web_search",
+                  "activate_skill",
+                  "write_todos",
+                  "run_shell_command(curl)",
+                  "run_shell_command(grep)",
+                  "run_shell_command(ls)",
+                  "run_shell_command(python3)"
+                ]
+              }
+            }
+          prompt: |
+            .gemini/skills/ingest/SKILL.md の手順に従い、Weekly Kaggle News の号を取り込んでください。
+
+            - 対象の号: ${{ matrix.issue.url }} (Weekly Kaggle News #${{ matrix.issue.number }})
+            - 号の本文が `.wkn-issue-${{ matrix.issue.number }}.html` に事前取得されている場合は、まずそれを read_file で読んで紹介記事一覧を抽出すること
+            - この号だけを取り込むこと。ほかの号には手を出さないこと
+            - ルートの GEMINI.md の規約(エントリ形式・タクソノミー・権利面)に従うこと
+            - docs/ 配下のファイルを直接編集し、docs/wiki/log.md に号単位で記録すること
+            - log.md の記録は必ず `- YYYY-MM-DD ingest: WKN #${{ matrix.issue.number }} → ...` の形式で
+              始めること(この行が次回以降の取り込み済み判定に使われる)
+            - 編集後に `python3 tools/verify_wiki.py` を実行してリンク切れや形式エラーがないことを確認すること
+            - git のコミットや push は行わないこと(後段のステップが PR を作成する)
+            - 最後に、追加したエントリと変更したページの一覧を出力すること
 
       - name: Clean up stray files outside the wiki scope
         run: git clean -fd -- . ':!docs' ':!README.md'
@@ -69,5 +134,29 @@ jobs:
           commit-message: "Ingest Weekly Kaggle News #${{ matrix.issue.number }}"
           title: "Weekly ingest: Weekly Kaggle News #${{ matrix.issue.number }}"
           body: |
-            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N            [Weekl下            [Weekly Kaggle N            [Weekly Kaggle N              [Weekly Kaggle N            [Weekly Kaggl               [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N            [Week��ぼし            [Weekly Kaggle N           は            [Weekly Kaggle N            [Weekly Kag���            [�
-            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N       ��            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kag��            [Wee���                          [Weekly Kaggle N   LI](https://github.            [Weekly Kaggle N            [Weekly a         {{ ma            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kagg              [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kag��            [Wee�            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N       ��            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kag��            [Wee���                          [Weekly Kaggle N   LI](https://github.            [Weekly Kaggle N            [Weekly a         {{ ma            [Weekly Kaggle N            [Weekly Kaggle N            [Weekly Kagg           o "PR #${{ steps.cpr.outputs.pull-request-number }} (${{ steps.cpr.outputs.pull-request-operation }}): ${{ steps.cpr.outputs.pull-request-url }}" >> "$GITHUB_STEP_SUMMARY"
+            [Weekly Kaggle News #${{ matrix.issue.number }}](${{ matrix.issue.url }}) の自動 ingest です。
+            以下を確認してからマージしてください。
+
+            - `docs/wiki/log.md` の号単位の記録
+            - 追加エントリの分類・注釈・形式(GEMINI.md の規約準拠)
+
+            取りこぼし分をまとめて取り込んだ場合は、この PR のほかにも号ごとの PR が開いています。
+            いずれも `main` を基点にしているため、**号番号の小さいものから順にマージ**してください。
+            後続の PR は `log.md` と README の「最近の更新」で衝突することがあります。
+
+            🤖 Generated with [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+          branch: auto/wkn-${{ matrix.issue.number }}
+          delete-branch: true
+          add-paths: |
+            docs/**
+            README.md
+          # docs/ と README.md 以外の差分(取得失敗時の一時ファイルなど)は PR に含めない
+
+      # 差分ゼロで PR が作られないまま success になると取りこぼしに気づけない
+      - name: Fail if no pull request was produced
+        run: |
+          if [ -z "${{ steps.cpr.outputs.pull-request-number }}" ]; then
+            echo "::error::WKN #${{ matrix.issue.number }} の取り込みで差分が生じず、PR が作成されませんでした"
+            exit 1
+          fi
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }} (${{ steps.cpr.outputs.pull-request-operation }}): ${{ steps.cpr.outputs.pull-request-url }}" >> "$GITHUB_STEP_SUMMARY"
