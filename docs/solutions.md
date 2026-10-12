@@ -357,6 +357,7 @@
 <h3><a href="https://www.kaggle.com/competitions/pokemon-tcg-ai-battle">The Pokémon Company - PTCG AI Battle Challenge Simulation</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Other</span> <span class="badge badge-platform">Kaggle</span>
 
+- [ポケカコンペ2位解法&振り返り](https://speakerdeck.com/ebinan92/2-kurai-kaihou-furikaeri): 2 位入賞チームによる解法と振り返りのスライド。取り組みの全体像や感想を紹介している。
 - [🥈Kaggleのポケモンカードゲームコンペに参加した（Claudeと）](https://motemen.hatenablog.com/entry/2026/09/kaggle-pokemon-tcg): 銀メダル獲得者の参加記。実装のほぼすべてを Claude Code に任せ、人間はルールベースからニューラルネットへの切り替えや学習データ収集といった方針決定に徹した進め方を振り返っている。
 - [【Kaggle】ポケカコンペ振り返り(455th/6807th)🥉](https://zenn.dev/nwn/articles/a21aba4208e601): 455 位・銅メダルの解法。上位リプレイの行動を LightGBM のランク学習（盤面と行動候補の計 6,151 特徴量）で模倣する行動クローンに終盤の詰め探索を組み合わせた構成で、特徴量設計や 2 デッキ目の実装をコーディングエージェントに委ねて終盤 1 週間で仕上げた過程を記録している。
 - [Kaggle Pokémon TCG AI Battle Challenge ポケカコンペ振り返りーメダルなし](https://zenn.dev/fusic/articles/4b6e8eb23c0363): メダルには届かなかった参加録。手作りルールから探索、勝率を予測する価値関数、上位エージェントの行動クローン、PPO による自己対戦、相手デッキのベイズ推定へと段階的に積み上げた過程と、対戦相手・先攻後攻・乱数種を分けて評価しないと改善を見誤るという検証面の教訓を記録している。

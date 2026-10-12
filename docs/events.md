@@ -78,6 +78,8 @@ https://kansaikaggler.connpass.com/
 
 ## 沖縄 Kaggler 会
 
+- [第2回 沖縄Kaggler会](https://connpass.com/event/399039/)
+    - [スマホでkaggle](https://speakerdeck.com/ktm/de-kaggle): 第 2 回沖縄Kaggler会の発表資料。スマートフォンから Kaggle に取り組んだ体験談を綴っている。
 - [沖縄Kaggler会](https://connpass.com/event/362463/)
     - [沖縄Kaggler会を開催しました](https://zenn.dev/tanakou0226/articles/af575f66fb2b0b): 発表内容と資料を掲載する開催報告。
 
@@ -100,6 +102,7 @@ https://kansaikaggler.connpass.com/
 - [Kaggle x コーディングエージェント勉強会 - Kaggleのチュートリアル7版公開記念 -](https://www.youtube.com/watch?v=SqCnI-hpnzM): 『Kaggleのチュートリアル第7版』の公開記念に開催された勉強会の録画。コーディングエージェントの活用とエージェント時代の取り組み方をテーマに、発表とパネルディスカッションが行われた。
 - [Kaggle x コーディングエージェント勉強会の発表資料まとめ](https://note.com/currypurin/n/nadeecf1c48d8): 上記の勉強会と併催された入門講座の告知・資料まとめ。成長の心構え、uv や Polars の知見をエージェントに渡す工夫、コミュニティ運営など登壇者ごとの資料へリンクしている。
 - [Kaggle「AI Agent Security」コンペ \| ソリューション共有会 @ Elith](https://elith.connpass.com/event/405693/): 2026 年 9 月 20 日開催の解法共有会。成功した戦略だけでなく失敗した実験の共有も掲げ、現地（文京区）とオンラインのハイブリッドで実施される。
+- [Kaggler の海外経験を聞く会 #2](https://kaggler-international.connpass.com/event/408604/): 日系企業の駐在員と 2025 年国際人工知能オリンピック（IOAI）日本代表経験者をゲストに招き、海外での就業や進学の経験を聞くイベント。
 - [Kaggler の海外経験を聞く会 #1](https://kaggler-international.connpass.com/event/397666/)
 - [RECRUIT TECH CONFERENCE 2026](https://www.recruit.co.jp/special/techconference2026/): Kaggle Grandmaster や Master が登壇した技術カンファレンス。
 - [Kaggle サンタコンペ 2025 振り返り会](https://algo-artis.connpass.com/event/382730/)
