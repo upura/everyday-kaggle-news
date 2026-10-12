@@ -108,7 +108,7 @@ jobs:
                       if not raw or len(raw.strip()) < 80:
                           continue
                       if candidate.startswith("https://r.jina.ai/"):
-                          return re.sub(r"\s+", " ", raw).strip()[:800]
+                          return re.sub(r"\s+", " ", raw).strip()[:1000]
                       title_m = re.search(r"<title[^>]*>(.*?)</title>", raw, re.I | re.S)
                       title_s = html.unescape(re.sub(r"<[^>]+>", "", title_m.group(1)).strip()) if title_m else ""
                       desc_m = re.search(
@@ -121,7 +121,7 @@ jobs:
                       desc_s = html.unescape(desc_m.group(1).strip()) if desc_m else ""
                       body = re.sub(r"<(script|style|noscript)[^>]*>.*?</\1>", " ", raw, flags=re.I | re.S)
                       body = html.unescape(re.sub(r"<[^>]+>", " ", body))
-                      body = re.sub(r"\s+", " ", body).strip()[:600]
+                      body = re.sub(r"\s+", " ", body).strip()[:800]
                       parts = [p for p in (f"Title: {title_s}" if title_s else "", f"Description: {desc_s}" if desc_s else "", f"Excerpt: {body}" if body else "") if p]
                       if parts:
                           return " / ".join(parts)
@@ -162,56 +162,103 @@ jobs:
         with:
           gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
           gemini_model: "gemini-3.8-flash"
-          gemini_debug: "true"
+          settings: |
+            {
+              "maxSessionTurns": 100,
+              "model": {
+                "maxSessionTurns": 100,
+                "disableLoopDetection": true
+              }
+            }
           prompt: |
             .gemini/skills/ingest/SKILL.md の手順に従い、Weekly Kaggle News の号を取り込んでください。
 
             - 対象の号: ${{ matrix.issue.url }} (Weekly Kaggle News #${{ matrix.issue.number }})
-            - カレントディレクトリの `wkn-issue-${{ matrix.issue.number }}.md` に、号の本文 HTML・抽出された全リンク・`docs/` 内の既掲載チェック結果（該当ファイルと行番号）・未掲載リンクの事前取得概要がすべてまとめられています。最初に必ず `read_file` で `wkn-issue-${{ matrix.issue.number }}.md` を読んでください（既に情報が揃っているため、原則として `web_fetch` や重複確認の `grep_search` を繰り返す必要はありません）
+            - カレントディレクトリの `wkn-issue-${{ matrix.issue.number }}.md` に、号の本文 HTML・抽出された全リンク・`docs/` 内の既掲載チェック結果（該当ファイルと行番号）・未掲載リンクの事前取得概要がすべてまとめられています。最初に必ず `read_file` で `wkn-issue-${{ matrix.issue.number }}.md` を読んでください
+            - 外部リンクの内容と重複チェックは `wkn-issue-${{ matrix.issue.number }}.md` に揃っているため、`web_fetch` や `run_shell_command` は使わず、`read_file` と `replace`（または `write_file`）のみで `docs/` 配下のファイルを編集してください
             - `grep_search` を使う場合は `dir_path` にファイル名ではなくディレクトリ（`docs` など）を指定すること
             - この号だけを取り込むこと。ほかの号には手を出さないこと
             - ルートの GEMINI.md の規約(エントリ形式・タクソノミー・権利面)に従うこと
-            - docs/ 配下のファイルを直接編集し、必ず `docs/wiki/log.md` の先頭（5 行目）に号単位で記録すること
-            - `docs/wiki/log.md` の記録行は必ず `- YYYY-MM-DD ingest: WKN #${{ matrix.issue.number }} → 新規 M 件（...）` の形式で始めること（この行頭形式が次回以降の取り込み済み判定と直後の検証ステップに使われるため、URL や別表記にしないこと）
-            - 編集後に `python3 tools/verify_wiki.py` を実行してリンク切れや形式エラーがないことを確認すること
-            - git のコミットや push は行わないこと(後段のステップが PR を作成する)
+            - まず最初に `docs/wiki/log.md` の先頭（5 行目）に `- YYYY-MM-DD ingest: WKN #${{ matrix.issue.number }} → 新規 M 件（...）` の形式で記録を追加し、続けて各ページの編集を行うこと（`WKN #${{ matrix.issue.number }}` の部分に Markdown リンクを貼らないこと）
+            - git のコミットや push、シェルコマンドの実行は行わないこと(後段のステップが検証と PR 作成を行う)
             - 最後に、追加したエントリと変更したページの一覧を出力すること
 
       - name: Clean up stray files outside the wiki scope
         run: git clean -fd -- . ':!docs' ':!README.md'
 
       # log.md への記録が無いと次回の実行が同じ号をもう一度拾ってしまうため、
-      # 静かに通さず失敗させる
+      # 表記揺れや記録漏れがあれば正規化・補完した上で検証する
       - name: Verify the issue was recorded in log.md
         env:
           TARGET_ISSUE_NUM: ${{ matrix.issue.number }}
           TARGET_ISSUE_URL: ${{ matrix.issue.url }}
+          GEMINI_SUMMARY: ${{ steps.gemini.outputs.summary }}
+          GEMINI_ERROR: ${{ steps.gemini.outputs.error }}
         run: |
           echo "=== git status ==="
           git status -s
           python3 - <<'PY'
-          import os, re
+          import datetime, os, re, subprocess
+
           num = os.environ["TARGET_ISSUE_NUM"]
           url = os.environ["TARGET_ISSUE_URL"].rstrip("/")
           path = "docs/wiki/log.md"
           with open(path, encoding="utf-8") as f:
               text = f.read()
-          pattern = re.compile(rf"^- (\d{{4}}-\d{{2}}-\d{{2}}) ingest: WKN #{num}\b", re.M)
-          if not pattern.search(text):
-              alt = re.compile(
-                  rf"^- (\d{{4}}-\d{{2}}-\d{{2}}) ingest:\s*(?:{re.escape(url)}/?|Weekly Kaggle News #{num}|#{num})\s*→",
-                  re.M,
+
+          strict_pat = re.compile(rf"^- (\d{{4}}-\d{{2}}-\d{{2}}) ingest: WKN #{num}\b", re.M)
+
+          # 1. 表記揺れ（Markdownリンク付き [WKN #356](...) や Weekly Kaggle News #356 など）を正規化
+          if not strict_pat.search(text):
+              loose_pat = re.compile(
+                  rf"^[-*]\s*(\d{{4}}[-/]\d{{2}}[-/]\d{{2}})\s*(?:ingest:?)?\s*(?:\[[^\]]*#{num}[^\]]*\]\([^)]+\)|{re.escape(url)}/?|Weekly Kaggle News\s*#{num}|WKN\s*#{num}|#{num})\s*(?:→|->|—|―|:|-)\s*",
+                  re.M | re.I,
               )
-              new_text, count = alt.subn(rf"- \1 ingest: WKN #{num} →", text, count=1)
+              def _norm(m):
+                  d = m.group(1).replace("/", "-")
+                  return f"- {d} ingest: WKN #{num} → "
+              new_text, count = loose_pat.subn(_norm, text, count=1)
               if count > 0:
+                  text = new_text
                   with open(path, "w", encoding="utf-8") as f:
-                      f.write(new_text)
+                      f.write(text)
                   print(f"Normalized log.md entry prefix to 'WKN #{num}'")
+
+          # 2. docs/ の他ファイルは更新されているのに log.md だけ未更新だった場合、差分から自動補完
+          if not strict_pat.search(text):
+              diff_files = subprocess.check_output(
+                  ["git", "diff", "--name-only", "--", "docs/"], text=True
+              ).splitlines()
+              changed = [p for p in diff_files if p != "docs/wiki/log.md"]
+              if changed:
+                  diff_out = subprocess.check_output(
+                      ["git", "diff", "-U0", "--", *changed], text=True
+                  )
+                  added_links = sum(
+                      1 for line in diff_out.splitlines()
+                      if line.startswith("+") and not line.startswith("+++") and "](http" in line
+                  )
+                  pages = []
+                  for p in changed:
+                      rel = p.removeprefix("docs/").removesuffix(".md")
+                      pages.append(f"`{rel}`")
+                  today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).strftime("%Y-%m-%d")
+                  count_str = f"新規 {added_links} 件" if added_links > 0 else "更新"
+                  entry_line = f"- {today} ingest: WKN #{num} → {count_str}（{', '.join(pages)}）"
+                  lines = text.splitlines(keepends=True)
+                  insert_idx = 4 if len(lines) >= 4 else len(lines)
+                  lines.insert(insert_idx, entry_line + "\n")
+                  text = "".join(lines)
+                  with open(path, "w", encoding="utf-8") as f:
+                      f.write(text)
+                  print(f"Auto-recorded log.md entry from git diff: {entry_line}")
           PY
           echo "=== git diff docs/wiki/log.md ==="
           git diff docs/wiki/log.md || true
           if ! grep -qE "^- [0-9]{4}-[0-9]{2}-[0-9]{2} ingest: WKN #${{ matrix.issue.number }}\b" docs/wiki/log.md; then
-            echo "::error::docs/wiki/log.md に WKN #${{ matrix.issue.number }} の記録がありません"
+            summary_line=$(echo "$GEMINI_SUMMARY" | tr '\n' ' ' | cut -c1-300)
+            error_line=$(echo "$GEMINI_ERROR" | tr '\n' ' ' | cut -c1-300)
+            echo "::error::docs/wiki/log.md に WKN #${{ matrix.issue.number }} の記録がありません (summary: ${summary_line:-none} / error: ${error_line:-none})"
             exit 1
           fi
 
