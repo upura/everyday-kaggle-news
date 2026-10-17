@@ -13,11 +13,11 @@
 
 直近の更新の抜粋です（全履歴は[操作ログ](./docs/wiki/log.md)）。
 
+- 2026-10-17: Weekly Kaggle News #357 を取り込み。コンペ終了時刻までに推論・採点が完了していることを求める提出仕様の標準化アナウンスを追加
 - 2026-10-12: Weekly Kaggle News #356 を取り込み。ポケカコンペの 2 位解法スライド、Polars 2.0 リリース記事、第 2 回沖縄 Kaggler 会の発表資料（スマホで Kaggle）、「Kaggler の海外経験を聞く会 #2」、マルチモーダル埋め込みモデル EmbeddingGemma 2 を追加
 - 2026-10-02: Weekly Kaggle News #352〜#355 を取り込み。AI Agent Security コンペの金メダル解法 2 件、ポケカコンペの銀メダルと銅メダルの参加録 2 件、Gemma 4 Developer Agent コンペ、表データ基盤モデル（TabFM、TabFM-Auto、NVIDIA Kumo Tabular）、文書抽出ベンチマーク ExtractBench、YANS2026 ハッカソン設計記事などを追加
 - 2026-09-11: Weekly Kaggle News #344〜#346 を取り込み（取りこぼし分の遡及）。最小のニューラルネットを競う NeuroGolf と農業対戦コンペ Kaggriculture、コンペ開催にかかる費用の記事、コーディングエージェント時代の人間の役割、検索モデルの評価ベンチマークなどを追加
 - 2026-09-11: Weekly Kaggle News #350 を取り込み（取りこぼし分の遡及）。学生向けの AIYSS Kaggle League、Kaggle Notebook の P100 提供終了、KDD Cup 2026 のデータ分析エージェントコンペ、Kaggle の型をプロダクト開発に転用する記事を追加
-- 2026-09-05: Weekly Kaggle News #351 を取り込み。AI Agent Security コンペの銅メダル解法 2 件と解法共有会、ポケカコンペの参加録、ROGII コンペで生成 AI に実装を委ねた金メダル解法、第 18 回最先端 NLP 勉強会、書籍『イラストで学ぶ 自然言語処理』を追加
 
 ## 目次
 
