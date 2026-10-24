@@ -113,6 +113,7 @@ Kaggle の各称号（Grandmaster、Master、Expert）到達時の振り返り�
 
 ## 称号分析
 
+- [Kaggle Grandmaster 分析レポート -2026年版-](https://research-p.com/column/3546): 国内外の Grandmaster の動向をまとめた年次レポート。2026 年時点で日本のコンペ部門 Grandmaster が 89 名と国別最多となった点などを分析している。
 - [Stranded credentials: how a skill-signaling market absorbed generative AI](https://arxiv.org/abs/2608.17111): 2010〜2026 年の Kaggle の参加記録 44 万件超から、メダルが将来の成績をどれだけ予測できるかを分析した論文。予測力は獲得後 1 年目にほぼ集中しており、通算のメダル数だけで決まる公式の称号は情報を取りこぼしていると論じる。
 - [Kaggle Grandmaster 分析レポート 2024年 -update版-](https://research-p.com/column/1619): 国内 Grandmaster の人数推移や所属企業の傾向を分析したレポート。
 - [Kaggle Master 分析レポート 2024年版](https://research-p.com/column/1664): 国内 Master の属性や推移をまとめた分析レポート。
