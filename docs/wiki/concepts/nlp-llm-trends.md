@@ -6,7 +6,7 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 ## 押さえどころ
 
 - 日本語 LLM や埋め込みモデルの担い手は、2020 年前後の研究機関による事前学習モデル公開（東北大 BERT、早稲田大 RoBERTa や GPT-2、NICT の BERT など）から、2022〜23 年ごろの企業発 LLM（PLaMo、ELYZA、Swallow）へ、そして 2024 年以降は TinySwallow、日本語 StaticEmbedding、日本語リランカーのような軽量かつ高速なモデルへと重心が移ってきている。
-- 文埋め込みや検索は一貫した研究テーマであり、対照学習ベースの SimCSE や DiffCSE（2021 年）から、LLM の合成データで埋め込みを改善する e5-mistral（[Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368)）を経て、2025〜26 年は軽量リランカーやベクトル検索の実用化に関する知見が増えている。また、テキスト単体に限らず、[EmbeddingGemma 2](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) のように画像とテキストを統合して扱えるオープンで軽量なマルチモーダル埋め込みモデルも登場している。
+- 文埋め込みや検索は一貫した研究テーマであり、対照学習ベースの SimCSE や DiffCSE（2021 年）から、LLM の合成データで埋め込みを改善する e5-mistral（[Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368)）を経て、2025〜26 年は軽量リランカーやベクトル検索の実用化に関する知見が増えている。また、テキスト単体に限らず、[EmbeddingGemma 2](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) のように画像とテキストを統合して扱えるオープンで軽量なマルチモーダル埋め込みモデルも登場している。さらに、生成 LLM だけでなくエンコーダモデルの事前学習手法も刷新が続いており、ModernBERT や [UltraBERT](https://arxiv.org/abs/2610.15028) のように分類と検索の双方で性能上限を引き上げるアーキテクチャの提案が継続している。
 - Hugging Face Transformers のメジャーバージョンの変遷（v2.9〜v5）はそのままアーキテクチャ普及の年表になっており、Wav2Vec2（v4.3）、Swin Transformer（v4.16）、ResNet（v4.18）、OPT（v4.19）のように、新アーキテクチャの追加時期をバージョン番号から追える。
 - モデルの大規模化（OPT-175B の公開やスケーリング則）と、その後の効率化（LoRA や LoRA-Pro、モデルマージ、TAID による知識蒸留を用いた TinySwallow）は表裏の関係にあり、公開されるモデルの重心は年々「大きく強く」から「小さく速く実用的」に移っている。
 - Transformer 一辺倒ではなく、状態空間モデル Mamba のような計算コストを抑える代替アーキテクチャの解説記事も資料に含まれる。
@@ -15,6 +15,7 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 
 ### モデル・技術動向
 
+- [UltraBERT: Beyond the Limit of BERT Pre-Training](https://arxiv.org/abs/2610.15028): 分類と検索の両タスクで最良水準の性能を報告するアーキテクチャの提案論文。ModernBERT との比較を含めて事前学習の改善を論じている。
 - [EmbeddingGemma 2: an open, lightweight multimodal embedding model](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/): Google が公開した軽量なオープンマルチモーダル埋め込みモデルの紹介。[Hugging Face](https://huggingface.co/google/embeddinggemma-2) でもモデルが公開されている。
 - [Jevはどこで使うべきか？ LLM・機械学習・ルールベースとの使い分け](https://qiita.com/Isaka-code/items/8944ef8b521517f92da0): 自由文生成を省き定義済みの選択肢と確信度のみを高速かつ低コストに返す意思決定特化モデル「Jev」（System One Model）を、汎用 LLM、従来の機械学習モデル、ルールベースと比較して適材適所を整理した記事。
 - [Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber の追加](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/): Gemini ファミリーに効率型のフラグシップ、最速・最安の軽量版、セキュリティ特化版の 3 つを追加した発表。エージェントを多数動かす用途を見据えた品揃えになっている。
