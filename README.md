@@ -13,11 +13,11 @@
 
 直近の更新の抜粋です（全履歴は[操作ログ](./docs/wiki/log.md)）。
 
+- 2026-10-31: Weekly Kaggle News #359 を取り込み。AI ベンチマーク評価サミット Bench Summit、コーディングエージェントコンペ FT-LLM 2027、AHC 実装教材、AI エージェント時代の Kaggle の取り組み方、現代 AI 入門（思考するシステム）を追加
 - 2026-10-24: Weekly Kaggle News #358 を取り込み。Kaggle Notebook の R 言語サポート終了アナウンス、2026 年版 Grandmaster 分析レポート、UltraBERT 論文、Think IT 人材育成連載記事、ポケカコンペの銅メダル解法を追加
 - 2026-10-17: Weekly Kaggle News #357 を取り込み。コンペ終了時刻までに推論・採点が完了していることを求める提出仕様の標準化アナウンスを追加
 - 2026-10-12: Weekly Kaggle News #356 を取り込み。ポケカコンペの 2 位解法スライド、Polars 2.0 リリース記事、第 2 回沖縄 Kaggler 会の発表資料（スマホで Kaggle）、「Kaggler の海外経験を聞く会 #2」、マルチモーダル埋め込みモデル EmbeddingGemma 2 を追加
 - 2026-10-02: Weekly Kaggle News #352〜#355 を取り込み。AI Agent Security コンペの金メダル解法 2 件、ポケカコンペの銀メダルと銅メダルの参加録 2 件、Gemma 4 Developer Agent コンペ、表データ基盤モデル（TabFM、TabFM-Auto、NVIDIA Kumo Tabular）、文書抽出ベンチマーク ExtractBench、YANS2026 ハッカソン設計記事などを追加
-- 2026-09-11: Weekly Kaggle News #344〜#346 を取り込み（取りこぼし分の遡及）。最小のニューラルネットを競う NeuroGolf と農業対戦コンペ Kaggriculture、コンペ開催にかかる費用の記事、コーディングエージェント時代の人間の役割、検索モデルの評価ベンチマークなどを追加
 
 ## 目次
 
