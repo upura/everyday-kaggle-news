@@ -98,6 +98,7 @@ https://kansaikaggler.connpass.com/
 
 ## その他
 
+- [Bench Summit](https://rsvp.withgoogle.com/events/bench-summit-by-kaggle?pli=1): AI のベンチマーク評価の信頼性と標準化を議論する、Kaggle らが主催したサミット。録画は後日公式 YouTube チャンネルで配信される。
 - [Fields Model Day with AIMO Winners and Organisers: 21 July 2026](https://llmc.nii.ac.jp/topics/fields-model-day-with-aimo-winners-and-organisers-21-july-2026/): 2026 年 7 月 21 日に国立情報学研究所で開催された AI Mathematical Olympiad（AIMO）の報告会。主催者と上位入賞者が登壇し、国内の定理証明・AI4Math 研究の概況と併せて発表された。
 - [Kaggle x コーディングエージェント勉強会 - Kaggleのチュートリアル7版公開記念 -](https://www.youtube.com/watch?v=SqCnI-hpnzM): 『Kaggleのチュートリアル第7版』の公開記念に開催された勉強会の録画。コーディングエージェントの活用とエージェント時代の取り組み方をテーマに、発表とパネルディスカッションが行われた。
 - [Kaggle x コーディングエージェント勉強会の発表資料まとめ](https://note.com/currypurin/n/nadeecf1c48d8): 上記の勉強会と併催された入門講座の告知・資料まとめ。成長の心構え、uv や Polars の知見をエージェントに渡す工夫、コミュニティ運営など登壇者ごとの資料へリンクしている。

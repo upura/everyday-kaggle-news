@@ -47,3 +47,4 @@ KDD Cup や NeurIPS コンペのように、国際学会が主催または併設
 - [「森羅2021-ML: 多言語分類タスク」開催ページ](http://shinra-project.info/shinra2021ml/?lang=en): 30 言語の Wikipedia 記事を約 220 の固有表現カテゴリに分類するコンペ。
 - [Inverse Scaling Prize](https://github.com/inverse-scaling/prize): 言語モデルのサイズが大きくなるほど性能が悪化するようなタスク設計を問う、ニューヨーク大学研究チーム主催のコンペ。
 - [WAT 2022 翻訳データクリーニングコンペ](https://sites.google.com/view/wat-filtering/): 学習設定を固定し、日英科学技術論文データのクリーニングによる翻訳性能を競う機械翻訳ワークショップ併設コンペ。
+- [FT-LLM 2027](https://llm-jp.github.io/tuning-competition/2027/feature.html): 言語処理学会年次大会（NLP2027）ワークショップで開催される、LLM-jp-4 をベースとしたコーディングエージェント向けモデルのチューニングコンペ。日本語の指示理解やコード編集、ターミナル操作による課題解決能力を競う。

@@ -10,6 +10,7 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 - Hugging Face Transformers のメジャーバージョンの変遷（v2.9〜v5）はそのままアーキテクチャ普及の年表になっており、Wav2Vec2（v4.3）、Swin Transformer（v4.16）、ResNet（v4.18）、OPT（v4.19）のように、新アーキテクチャの追加時期をバージョン番号から追える。
 - モデルの大規模化（OPT-175B の公開やスケーリング則）と、その後の効率化（LoRA や LoRA-Pro、モデルマージ、TAID による知識蒸留を用いた TinySwallow）は表裏の関係にあり、公開されるモデルの重心は年々「大きく強く」から「小さく速く実用的」に移っている。
 - Transformer 一辺倒ではなく、状態空間モデル Mamba のような計算コストを抑える代替アーキテクチャの解説記事も資料に含まれる。
+- 事前学習・事後学習による単一モデルの性能向上だけでなく、推論時計算（Test-Time Scaling）やループ、ハーネス、再帰的自己改善（RSI）を組み合わせた「思考するシステム」への展開など、システム全体として知能を高める枠組みへの関心も高まっている（[現代AI入門](https://speakerdeck.com/stillpedant/thinking-systems)）。
 
 ## 資料
 
@@ -122,6 +123,7 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 ### 研究動向・サーベイ・イベント
 
 
+- [現代AI入門: 大規模言語モデルから思考するシステムへ — Test-Time Scaling, Loop, Harness, RSI](https://speakerdeck.com/stillpedant/thinking-systems): 基盤モデルを中心に発展してきた「現代AI」の解説資料。Test-Time Scaling や推論時計算、ハーネス、ループなど歴史的経緯を踏まえて体系的に概観している。
 - [DeepSeek-R1の論文読んだ？](https://zenn.dev/asap/articles/34237ad87f8511)
 - [ModernBERT のブログを読んでみた感想](https://zenn.dev/dev_commune/articles/3f5ab431abdea1)
 - [【2026年版】 ベクトル検索と Embedding 最前線](https://speakerdeck.com/mocobeta/2026nian-ban-bekutorujian-suo-embeddingzui-qian-xian): ベクトル検索と埋め込みモデルの動向をまとめた資料。次元削減や量子化などの技法にも触れる。
