@@ -122,7 +122,7 @@ Kaggle の各称号（Grandmaster、Master、Expert）到達時の振り返り�
 - [日本のKagglerの特徴を分析するNotebook](https://www.kaggle.com/iamleonie/trying-this-in-japanese-en-sub): Kaggle 大規模アンケートの回答を用いて女性比率や平均年齢などを可視化。
 - [2021 Kaggle Machine Learning & Data Science Survey開始](https://www.kaggle.com/c/kaggle-survey-2021/): Kaggle が毎年実施する大規模アンケートの結果ページ。公式まとめ資料も公開。
 - [Kaggle全4カテゴリでGrandmasterを獲得した4人によるパネルディスカッション](https://www.youtube.com/watch?v=d7YvGX3oi3A&feature=youtu.be): 史上 4 人目の快挙を達成した Bojan Tunguz さんのインタビュー記事も合わせて公開。
-- [WMT2020翻訳コンペでAAMT長尾賞受賞](https://aamt.info/news/nagao-2/): 機械翻訳システムの実用化に貢献した個人や組織を表彰する賞。参加報告資料も公開。
+- [WMT2020翻訳コンペでAAMT長尾賞受賞](https://aamt.info/nagao/): 機械翻訳システムの実用化に貢献した個人や組織を表彰する賞。参加報告資料も公開。
 - [Kaggle「Indoor Location & Navigation」でMasterを獲得した入門者向け記事](https://note.com/kou_256/n/n2840bc79145f): 過去の取り組みを振り返りつつコンペ参加の魅力を語る記事。
 - [Kaggleコンペ部門世界ランク1位Guanshuo Xuさんインタビュー](https://towardsdatascience.com/what-it-takes-to-become-a-world-no-1-on-kaggle-f149df44e98c?gi=f8a3c95cf672): 機械学習との関わりや Kaggle への取り組み方を語るインタビュー。
 - [Kaggleコンペ部門ランキング1位Psiさん登壇「My journey to Kaggle #1」動画](https://www.youtube.com/watch?v=OenmJTdF0-M&feature=youtu.be): 過去コンペの振り返りと知見の共有。

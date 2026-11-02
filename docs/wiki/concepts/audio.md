@@ -21,7 +21,6 @@
 - [音声認識ライブラリ「HuggingSound」の紹介記事](https://www.ai-shift.co.jp/techblog/2547): 日本語データでファインチューニングする方法を解説。
 - [Hugging Face「Robust Speech Recognition Challenge」開催](https://discuss.huggingface.co/t/open-to-the-community-robust-speech-recognition-challenge/13614): 多言語音声認識を題材にしたコンペの開催告知。
 - [近年の音声認識手法の動向まとめ記事](https://ys0510.hatenablog.com/entry/e2e_asr): 一つのニューラルネットワークで処理する End-to-End 手法に焦点を当てた記事。
-- [音声認識ライブラリ「ESPnet」の紹介記事](https://tech.retrieva.jp/entry/2020/12/23/170645): 学習済みモデルを用いた音声認識の実践例。
 - [PyTorchによる音声分類チュートリアル](https://github.com/daisukelab/sound-clf-pytorch): Kaggle「Freesound General-Purpose Audio Tagging Challenge」を題材にしたチュートリアル。
 
 ### 異常音検知・音響イベント検出

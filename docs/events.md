@@ -19,8 +19,6 @@
 
 ## Kaggle Meetup Tokyo
 
-- [Kaggle Meetup #1](https://kaggler-ja.wiki/5e82184687ef5e0040104d40)
-- [Kaggle Meetup #2](https://kaggler-ja.wiki/5e82190787ef5e0040104d45)
 - [Kaggle Meetup #3](http://yutori-datascience.hatenablog.com/entry/2017/10/29/205433)
 - [Kaggle Meetup #4](http://yutori-datascience.hatenablog.com/entry/2018/05/14/113131)
     - [YouTube](https://www.youtube.com/playlist?list=PLkBjLQIGEjJlciM9lEz1AsuZZ8lDgyxDu)
@@ -156,7 +154,6 @@ https://kansaikaggler.connpass.com/
 - [Kaggle Days Championship @ Barcelona 参加録](https://www.wantedly.com/companies/wantedly/post_articles/448102)
 - [Sansan x atmaCup #14 振り返り会](https://atma.connpass.com/event/264754/)
 - [JPX Tokyo Stock Exchange Prediction 表彰式](https://connpass.com/event/264437/)
-- [Kaggle Days Paris 2022](https://kaggledays.com/events/kaggle-days-paris-2022/)
 - [「ビジネス成果を生み出すデータ活用のテクニック グローバルAIコンペティション「Kaggle」優勝者に聞く」（NBME優勝チーム登壇）](https://eventregist.com/e/dsf2022)
 - [Kaggler Open House at PFN](https://preferred-networks.connpass.com/event/353731/)
 - [チューリングオープンオフィス for Kagglers](https://turing.connpass.com/event/347982/)
@@ -193,7 +190,7 @@ https://kansaikaggler.connpass.com/
 - [SIGNATE「株式会社スペースシフト 新建造物検知アルゴリズム作成」表彰式](https://signate.connpass.com/event/220618/): 合成開口レーダー画像から新規建物を検出するコンペの表彰式。
 - [Kaggle「Hungry Geese」コンペイベント](https://kaggle-friends.connpass.com/event/219201/): 蛇を操作するゲーム AI で競う対戦形式コンペを扱うイベント。
 - [Solafune上地さん講演「AWSを活用した機械学習コンペ」](https://jawsug-ai.connpass.com/event/216573/): 衛星データを用いた高解像度画像の新コンペ開催も予告された講演。発表動画も公開。
-- [第２回分析コンペLT会](https://www.currypurin.com/entry/2021/06/20/192943): 発表資料と発表動画の録画が公開されたコミュニティイベント。
+- [第２回分析コンペLT会](https://currypurin.hatenablog.com/entry/2021/06/20/192943): 発表資料と発表動画の録画が公開されたコミュニティイベント。
 - [ゲームAI研究会「サッカー・Hungry Geeseから見たkaggleと強化学習」](https://www.ipsj.or.jp/kenkyukai/event/gi46.html): 特別講演が予定された研究会。
 - [Kaggle勉強会（画像処理・PyTorch関連ライブラリ）](https://kaggle-friends.connpass.com/event/214854/): pytorch-pfn-extras や PyTorch Lightning などの活用事例が発表された勉強会。
 - [SIGNATE Student Cup 2021春「楽曲のジャンル推定チャレンジ」表彰式](https://signate.connpass.com/event/214998/): 入賞者発表と質疑応答が行われた表彰式。
@@ -209,7 +206,6 @@ https://kansaikaggler.connpass.com/
 - [「Sansan × atmaCup #6」開催記念勉強会](https://sansan.connpass.com/event/202716/): Kaggle Master 3 名と Expert 2 名が登壇した勉強会。
 - [「#SwipeToSuccess」コンペ優勝者発表イベント](https://www.meetup.com/Democratic-AI-by-bitgrit-Tokyo/events/275960044/): インド展開に伴い開催されたマッチングアプリコンペの優勝者発表。
 - [「分析コンペ 勉強会」運営による振り返り記事](https://buildersbox.corp-sansan.com/entry/2021/03/05/110000): 全 5 件の発表資料も公開。「Colaboratoryで分析コンペをする時のテクニック集」の補足記事も別途公開。
-- [Kaggle関連セッション動画（DA-NCE）](https://conference.da-nce.jp/): 「Kaggle Masterに学ぶキャリアとスキルアップの要諦」など 2 本のセッション動画。
 - [SIGNATEインターン選考コンペ開始](https://signate.jp/competitions/402): 予測モデル部門とコンペ設計部門の 2 種類で構成。
 - [Kaggle「M5 Forecasting - Accuracy / Uncertainty」表彰式](https://www.youtube.com/watch?v=cQ_xPo9F9h4&feature=youtu.be): 運営・入賞者発表を含む 2 時間弱の表彰式。
 - [Kaggle勉強会（サイバーエージェント・Mobility Technologies・ヤフーMaster登壇）](https://scramble.connpass.com/event/191304/): 各社の Kaggle Master が登壇した勉強会。

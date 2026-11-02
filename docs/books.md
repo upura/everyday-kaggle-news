@@ -40,6 +40,6 @@ Kaggle やデータサイエンスコンペに関連する書籍と、関連書�
 - [『Kaggleで勝つデータ分析の技術』中国語（繁体字）版発行](https://www.books.com.tw/products/0010883417): 「ITエンジニア本大賞2020」技術書部門で上位 3 冊に選出された書籍の中国語版。
 - [『つくりながら学ぶ！PyTorchによる発展ディープラーニング』著者による講演資料](https://www.slideshare.net/yutaroogawa1116/it-243412167): Kaggle への言及や『Kaggleコンペティション チャレンジブック』を紹介する講演資料。
 - [Abhishek Thakurさんの自主出版書籍の無償公開](https://github.com/abhishekkrthakur/approachingalmost): Kaggle 全 4 カテゴリ Grandmaster による実践書の PDF 無償公開。
-- [『Kaggleのチュートリアル』第5版無料公開](https://www.currypurin.com/entry/kaggle_tutorial_ver5): 「Kaggle Advent Calendar 2020」最終日に合わせた電子書籍の無料公開。
+- [『Kaggleのチュートリアル』第5版無料公開](https://currypurin.hatenablog.com/entry/kaggle_tutorial_ver5): 「Kaggle Advent Calendar 2020」最終日に合わせた電子書籍の無料公開。
 - [『Kaggleコンペティション チャレンジブック』発売予告](https://www.amazon.co.jp/dp/4839968934): 冒頭抜粋と概要が先行公開された書籍の発売告知。
 - [Abhishek Thakurさんの自主出版書籍が正式発売](https://www.amazon.com/dp/8269211508): 各国向け購入リンクが用意された『Approaching (Almost) Any Machine Learning Problem』。

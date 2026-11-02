@@ -78,7 +78,6 @@
 - [敵対的学習手法「FGM」「AWP」の解説記事](https://blog.brainpad.co.jp/entry/2022/08/23/153001): NLP コンペで頻出する敵対的学習手法を解説。
 - [自然言語処理コンペの上位解法に登場する「敵対的学習」の調査資料](https://www.slideshare.net/ssuserc45ddf/adversarial-trainingpptx): 過学習を防ぎモデルの頑健性を高める効果を整理した資料。
 - [Adversarial Training（敵対的学習）に関する近年の動向まとめ](https://speakerdeck.com/hirokiadachi/sabei-adversarial-training): 実験に用いたソースコードも公開する動向まとめ資料。
-- [Transformers ライブラリでの推論をONNX形式で高速化する記事](https://tech.retrieva.jp/entry/20220228): 約 2.4 倍の高速化を報告する検証記事。
 - [Transformers に強化学習モデル「Decision Transformer」が追加](https://huggingface.co/blog/decision-transformers): チュートリアル用のソースコードと解説も公開。
 - [Data2vec: A General Framework for Self-supervised Learning in Speech, Vision, and Language 解説資料](https://www.slideshare.net/DeepLearningJP2016/dldata2vec-a-general-framework-for-selfsupervised-learning-in-speech-vision-and-language-251106954): 音声、画像、自然言語を同一枠組みで扱う自己教師あり学習手法の解説。
 - [日本語データ拡張ライブラリ](https://kajyuuen.hatenablog.com/entry/2022/02/14/094602): 置換や削除といった処理で文を拡張するライブラリの紹介記事。

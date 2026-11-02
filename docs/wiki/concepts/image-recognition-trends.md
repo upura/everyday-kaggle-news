@@ -54,7 +54,6 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 - [ドメイン特化なCLIPモデルとデータセットの紹介](https://speakerdeck.com/tattaka/domeinte-hua-na-clipmoderutodetasetutonoshao-jie)
 - [高性能な日本語マルチモーダル基盤モデル「clip-japanese-base-v2」の公開](https://techblog.lycorp.co.jp/ja/20251218a): LINE ヤフーによる日本語特化 CLIP の公開告知。データフィルタリングと知識蒸留による改善を解説。
 - [【論文紹介】Is CLIP ideal? No. Can we fix it? Yes!](https://speakerdeck.com/shun6211/lun-wen-shao-jie-is-clip-ideal-no-can-we-fix-it-yes-di-65hui-konpiyutabiziyonmian-qiang-hui-at-guan-dong): CLIP の埋め込み空間の課題と改善策を提案する論文の紹介資料。
-- [Zero-shot Learning網羅的サーベイ：CLIPが切り開いたVision & Languageの新しい世界](https://techblog.exawizards.com/entry/2023/05/10/055218): CLIP 後続の研究 70 本程度を調査したサーベイ記事。
 - [[輪講] SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features](https://speakerdeck.com/nk35jk/lun-jiang-siglip-2-multilingual-vision-language-encoders-with-improved-semantic-understanding-localization-and-dense-features)
 - [CLIP日本語版モデルの学習方法解説記事](https://qiita.com/sonoisa/items/00e8e2861147842f0237): 画像とテキストの埋め込み表現を学習する CLIP の日本語版モデルの学習方法を解説。
 - [CLIPを模した日本語モデルの作成記事](https://www.ogis-ri.co.jp/otc/hiroba/technical/similar-document-search/part19.html): 画像とテキストを同じ多次元ベクトル空間に埋め込むモデルを Google Colaboratory 上で学習する記事。

@@ -804,14 +804,6 @@
 
 </div>
 
-<div class="competition-entry" markdown="1" data-year="2022" data-datatype="image" data-platform="kaggle">
-<h3><a href="https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection">RSNA 2022 Cervical Spine Fracture Detection</a></h3>
-<span class="badge badge-year">2022</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
-
-- [Kaggle RSNA 2022 10位 解法の紹介　～頸椎のCT画像から骨折の有無を予測する～](https://datascience.nri.com/entry/2022/12/09/163110): CT 画像から頸椎骨折を予測するコンペの金メダル解法。
-
-</div>
-
 <div class="competition-entry" markdown="1" data-year="2022" data-datatype="text" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/AI4Code">Google AI4Code – Understand Code in Python Notebooks</a></h3>
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
@@ -863,7 +855,7 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Foursquare - Location Matching の7位解法](https://future-architect.github.io/articles/20220720a/): コンペの概要と具体的な取り組みを解説している。
-- [Kaggle「Foursquare - Location Matching」の銀メダル解法](https://www.t88.work/entry/2022/07/10/210909): コンペ概要と解法に加え、Kaggle 環境での推論高速化の工夫を解説している。
+- [Kaggle「Foursquare - Location Matching」の銀メダル解法](https://t88.hatenablog.com/entry/2022/07/10/210909): コンペ概要と解法に加え、Kaggle 環境での推論高速化の工夫を解説している。
 
 </div>
 
@@ -1045,7 +1037,6 @@
 <span class="badge badge-year">2022</span> <span class="badge badge-datatype">Text/NLP</span> <span class="badge badge-platform">Kaggle</span>
 
 - [chaii - Hindi and Tamil Question Answering の12位解法](https://blog.recruit.co.jp/data/articles/kaggle-chaii/): コンペの概要と解法をまとめた記事。
-- [chaii - Hindi and Tamil Question Answering の2位解法](https://techblog.exawizards.com/entry/2021/12/14/170743): 外部データ・アンサンブル・言語特有の後処理などを紹介。
 
 </div>
 
@@ -1113,7 +1104,7 @@
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Google Smartphone Decimeter Challenge 金メダル解法（1）](https://lab.mo-t.com/blog/kaggle-gnss): コンペの特徴や上位チームの取り組みをまとめた記事。
-- [Google Smartphone Decimeter Challenge 金メダル解法（2）](https://www.t88.work/entry/2021/08/10/005037): 車両に設置した Android スマートフォンのデータから位置を推定する課題の解法。18 位・34 位の銀メダル解法記事も公開。
+- [Google Smartphone Decimeter Challenge 金メダル解法（2）](https://t88.hatenablog.com/entry/2021/08/10/005037): 車両に設置した Android スマートフォンのデータから位置を推定する課題の解法。18 位・34 位の銀メダル解法記事も公開。
 - [Google Smartphone Decimeter Challenge メダル獲得者によるKaggle取り組み方記事](https://qiita.com/shu421/items/ed255c1ad846c92ba448): Titanic 後の軌跡や所感を綴る記事。
 
 </div>
@@ -1159,7 +1150,6 @@
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Multimodal</span> <span class="badge badge-platform">Kaggle</span>
 
 - [Shopee - Price Match Guarantee 2位解法](https://speakerdeck.com/lyakaap/shopee-2nd-place-solutiontoshang-wei-jie-fa-matome): スコアと合わせた解説、コード提出形式コンペでの Tips も掲載。
-- [Shopee - Price Match Guarantee 銀メダル解法](https://techblog.exawizards.com/entry/2021/06/07/141648): 画像・テキスト情報を用いて商品をまとめ上げる手法の解説。
 - [Shopee - Price Match Guarantee 5位解法](https://acro-engineer.hatenablog.com/entry/2021/05/31/120000): 候補群の生成や凝縮型クラスタリングなどを詳細に紹介。
 - [Shopee - Price Match Guarantee 10位解法](https://lab.mo-t.com/blog/kaggle-shopee): 手法を選んだ背景と上位解法もあわせて詳細にまとめた記事。
 - [Shopee - Price Match Guarantee 銅メダル解法](https://masatakashiwagi.github.io/portfolio/post/kaggle-shopee-solution/): 記事後半で上位解法もまとめて紹介。
@@ -1784,7 +1774,6 @@
 - [「AI王 〜クイズAI日本一決定戦〜」優勝解法](https://qiita.com/z-lai/items/e547cd2a88a9b7f8e0b6): 言語処理学会第 27 回年次大会のワークショップとして開催されたコンペの優勝解法。
 - [YAMALEX が第３回 AI 王に参加しました](https://acro-engineer.hatenablog.com/entry/2022/12/07/190000)
 - [AI王で準優勝を獲りました](https://acro-engineer.hatenablog.com/entry/2024/02/13/120000): クイズ AI コンペ「AI王」第 4 回の問題作成部門の参加録。
-- [「AI王 〜クイズAI日本一決定戦〜」第2回コンペティション3位解法](https://techblog.exawizards.com/entry/2022/04/25/161045): 外部データセットの取り込みで性能を高めた日本語質疑応答コンペの解法。
 - [「AI王 〜クイズAI日本一決定戦〜」第2回コンペのベースラインコード公開](https://github.com/cl-tohoku/AIO2_DPR_baseline): 第 1 回の 20 択形式から自由回答形式に変わった問題設定のベースライン。
 
 </div>

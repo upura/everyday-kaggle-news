@@ -43,7 +43,7 @@ KDD Cup や NeurIPS コンペのように、国際学会が主催または併設
 - [企画委員会だより〔第8回〕「学ぶ場」としてのコンペティションを考える](https://www.jstage.jst.go.jp/article/jjsai/41/2/41_234/_article/-char/ja/): 人工知能学会誌への寄稿。「学ぶ場」としてのコンペの意義を論じる。
 - [Small Object Detection Challenge for Spotting Birds 2023](http://www.mva-org.jp/mva2023/challenge): MVA2023 併設の小鳥検出コンペ。論文執筆枠と性能枠の 2 部門で構成。
 - [NTCIR-18](https://research.nii.ac.jp/ntcir/ntcir-18/index-ja.html): 情報アクセス技術の評価を目的に複数コンペが開催される国際会議。
-- [「Wikipedia + 拡張固有表現」構造化プロジェクト（森羅プロジェクト）](https://2023.shinra-project.info/): Wikipedia 情報の構造化に取り組む学術的 AI コンペのプロジェクト。
+- [「Wikipedia + 拡張固有表現」構造化プロジェクト（森羅プロジェクト）](http://shinra-project.info/): Wikipedia 情報の構造化に取り組む学術的 AI コンペのプロジェクト。
 - [「森羅2021-ML: 多言語分類タスク」開催ページ](http://shinra-project.info/shinra2021ml/?lang=en): 30 言語の Wikipedia 記事を約 220 の固有表現カテゴリに分類するコンペ。
 - [Inverse Scaling Prize](https://github.com/inverse-scaling/prize): 言語モデルのサイズが大きくなるほど性能が悪化するようなタスク設計を問う、ニューヨーク大学研究チーム主催のコンペ。
 - [WAT 2022 翻訳データクリーニングコンペ](https://sites.google.com/view/wat-filtering/): 学習設定を固定し、日英科学技術論文データのクリーニングによる翻訳性能を競う機械翻訳ワークショップ併設コンペ。

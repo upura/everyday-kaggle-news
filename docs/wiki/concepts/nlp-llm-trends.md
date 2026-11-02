@@ -33,19 +33,15 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [Word Tour: One-dimensional Word Embeddings via the Traveling Salesman Problem](https://www.jstage.jst.go.jp/article/jnlp/29/4/29_1297/_article/-char/ja): 単語を 1 次元に埋め込む手法の論文解説。Kaggle での活用例に言及。
 - [世界最高精度を達成した言語モデルLUKEの論文を徹底解説](https://qiita.com/Mizuiro__sakura/items/9ccbd655501e78df5cc6): 言語モデル LUKE の論文解説。日本語 large モデル公開時の記事。
 - [hppRC / simple-simcse](https://github.com/hppRC/simple-simcse): 文埋め込み手法 SimCSE の再現実装。複数モデルでの性能比較つき。
-- [BERTを用いた教師なし文表現の発展](https://tech.retrieva.jp/entry/20221028): SimCSE の発展系 DiffCSE の紹介記事。
 - [Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368): LLM の合成データで埋め込みモデルを改善する論文。e5-mistral モデル公開つき。
 - [Word Tour: One-dimensional Word Embeddings via the Traveling Salesman Problem（NAACL 2022 発表資料）](https://www.slideshare.net/joisino/word-tour-onedimensional-word-embeddings-via-the-traveling-salesman-problem-naacl-2022): 高次元の単語埋め込みを巡回セールスマン問題で 1 次元に変換する手法の発表資料。
 - [Transformerの汎用的な性能向上に向けた方法論](https://speakerdeck.com/butsugiri/yoriliang-itransformerwotukuru): 位置表現や注意機構、追試結果に言及した資料。
 - [OPT-175B 公開](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/): Meta AI による 175B パラメータの言語モデル公開。構築の試行錯誤の過程も公開。
 - [Data2vec: 音声・画像・自然言語を統一的に扱う自己教師あり学習の解説記事（Meta AI公式）](https://ai.facebook.com/blog/the-first-high-performance-self-supervised-algorithm-that-works-for-speech-vision-and-text): 事前学習済みモデルも公開。
 - [マルチタスク学習で有用なタスクを選ぶ手法の解説記事（NeurIPS 2021）](https://ai.googleblog.com/2021/10/deciding-which-tasks-should-train.html): 「Efficiently Identifying Task Groupings for Multi-Task Learning」の紹介。
-- [教師なし文表現作成手法「SimCSE」の解説記事](https://tech.retrieva.jp/entry/2021/10/12/130850): 日本語ニュース記事での実験結果も掲載。
 - [新たな言語モデル「FLAN」の発表（Google Research）](https://ai.googleblog.com/2021/10/introducing-flan-more-generalizable.html): 実験で GPT-3 を上回る性能を報告。
 - [BERT推論高速化手法の検証記事（量子化・蒸留・剪定）](https://tech.jxpress.net/entry/2021/08/26/170000): 詳細な実験結果と共に紹介する記事。
-- [SparseBERT: Rethinking the Importance Analysis in Self-attention 解説記事（ICML2021）](https://tech.retrieva.jp/entry/2021/07/29/094758): BERT の注意機構の軽量化に取り組む論文の解説。
 - [Transformerのサーベイ論文（体系的分類）](https://arxiv.org/abs/2106.04554): Transformer の解説と派生系の分類方法を提唱する論文。
-- [Transformerの一種「Big Bird」の紹介記事](https://tech.retrieva.jp/entry/2021/04/28/172553): 長文を扱うための注意機構の工夫を解説。
 - [Transformerのスケーリング則を主張する論文の紹介](https://deeplearning.hatenablog.com/entry/scaling_law): パラメータ数、データセットサイズ、計算予算の冪乗則を論じる OpenAI の論文。同時期に DALL·E も公開。
 - [BERTOverflow公開（StackOverflowデータで事前学習）](https://huggingface.co/lanwuwei/BERTOverflow_stackoverflow_github): ACL 2020 採択論文が提案するモデルの公開。
 - [Googleの多言語埋め込みモデル「LaBSE」に関する記事](https://hironsan.hatenablog.com/entry/text-classification-with-labse): 文章分類問題での性能を検証。Universal Sentence Encoder との比較記事も別途公開。
@@ -84,7 +80,6 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [日本語自然言語処理ライブラリ「GiNZA」開発者による日本語言語モデル構築の取り組み資料](https://docs.google.com/presentation/d/1zOUTIXBdw8MhGqCdvq3wn0n2UCfQ99gpkQDsvjb-Xbs/edit): 「WAP NLP Tech Talk #3 With GiNZA」での発表資料。
 - [東北大学の日本語BERT largeがTransformersに追加](https://huggingface.co/cl-tohoku): 従来の BERT base より層数の多いモデルが利用可能に。
 - [日本語Wikipedia・青空文庫で事前学習されたBERTモデル公開（NICT）](https://alaginrc.nict.go.jp/nict-bert/index.html): 情報通信研究機構による日本語 BERT モデルの公開。
-- [日本語word2vecモデルの評価記事](https://blog.hoxo-m.com/entry/2020/02/20/090000): 複数の学習済みモデルを日本語データセットで比較評価。
 
 ### ライブラリ・ツール
 
@@ -137,7 +132,6 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [大規模データで学習された「基盤モデル」の解説記事](https://blog.recruit.co.jp/data/articles/foundation_models/): BERT などの基盤モデルの概要、活用事例、課題を紹介。
 - [自然言語処理領域での転移学習の進展と近年の動向まとめ](https://www.slideshare.net/techblogyahoo/ss-251672433): 132 ページにわたり多岐の話題を扱うサーベイ資料。
 - [ニューラルネットワークによる自然言語処理の概観資料](https://www.slideshare.net/shotakase33/ss-250870067): 系列を扱う構造や学習方法、動向を紹介する資料。
-- [ACL 2021ベストペーパーを日本語文書で検証する記事](https://tech.retrieva.jp/entry/2021/08/25/185920): 適切な語彙サイズを自動決定する枠組みの日本語検証。
 - [近年の自然言語処理動向まとめ資料（汎用事前学習言語モデル観点）](https://speakerdeck.com/karakurist/nlp-survey): 様々な提案手法を簡単な説明と共に列挙した資料。
 - [2020年の機械学習・自然言語処理領域の総括記事（DeepMind研究者）](https://ruder.io/research-highlights-2020/): 言語モデルの巨大化や軽量化、少データ学習の展望も含めてまとめた記事。
 - [第18回最先端NLP勉強会](https://sites.google.com/view/snlp-jp/home/2026?authuser=0): 2026 年 8 月に国立情報学研究所で開催された論文読み会。TACL、ACL、EMNLP、NAACL などから参加者投票で選ばれた約 30 本を分担して紹介する形式で、発表資料もプログラムから公開されている。

@@ -114,7 +114,7 @@
 - [最新のテーブルデータ向けNNモデルをまとめてみた](https://zenn.dev/mkj/articles/f7939cb221da14): ベンチマーク TabArena 上位を中心に表データ向け NN を紹介する記事。
 - [テーブル形式のデータセットに対する決定木と深層学習の性能比較論文](https://arxiv.org/abs/2207.08815): 決定木を基にした手法と深層学習手法を比較して議論する論文。
 - [TabNetのハイパーパラメータ調整方法まとめ](https://zenn.dev/nishimoto/articles/f2af21c24413d3): Kaggle での事例や元論文の記述に基づく調整方法の解説。
-- [表形式データに対する深層学習の検証記事](https://tech.preferred.jp/ja/blog/deep-table/): 比較用ライブラリを開発・公開した検証記事。
+- [表形式データに対する深層学習の検証記事](https://www.preferred.jp/ja/blog/tech/deep-table): 比較用ライブラリを開発・公開した検証記事。
 - [表形式の複数データセットでXGBoostと深層学習を比較した研究](https://arxiv.org/abs/2106.03253): XGBoost の優位性とアンサンブルによる性能向上を確認。
 - [テーブルデータにVariational Autoencoderを適用する記事](https://note.com/regonn314/n/n492ee6da4bd0): PyTorch での実装を公開。
 - [テーブルデータへのTransformer利用方法の紹介記事（Riiid実装）](https://future-architect.github.io/articles/20210325/): Kaggle「Riiid Answer Correctness Prediction」を題材に具体的な実装を公開。
