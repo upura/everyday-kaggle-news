@@ -64,7 +64,7 @@ Titanic などのチュートリアルコンペを終えたあと、実践的な
 - [Kaggle入門Tips記事（Housing Prices Competitionを題材に）](https://towardsdatascience.com/how-to-get-started-on-kaggle-competitions-68b91e3e803a?gi=5501692f63e6): データ理解からモデルの学習と検証までの流れを解説。
 - [Kaggle「Computer Vision」学習コース設置](https://www.kaggle.com/learn/computer-vision): 事前学習済みモデルを用いた画像分類モデルの作成方法を学ぶコース。
 - [fast.aiによる深層学習入門動画（Jeremy Howard講師）](https://www.freecodecamp.org/news/learn-deep-learning-from-the-president-of-kaggle/): 元 Kaggle 社長が講師を務める入門動画。
-- [Yann LeCun教授によるディープラーニング講義資料一式](https://medium.com/@NYUDataScience/yann-lecuns-deep-learning-course-at-cds-is-now-fully-online-accessible-to-all-787ddc8bf0af): スライド、講義動画、PyTorch 実装の Notebook を公開。
+- [Yann LeCun教授によるディープラーニング講義資料一式](https://nyudatascience.medium.com/yann-lecuns-deep-learning-course-at-cds-is-now-fully-online-accessible-to-all-787ddc8bf0af): スライド、講義動画、PyTorch 実装の Notebook を公開。
 - [「Papers with Code」とarXivの提携](https://medium.com/paperswithcode/papers-with-code-partners-with-arxiv-ecc362883167): arXiv 論文ページにコードタブが新設。
 - [DeNAのKagglerとコンペで学ぶデータサイエンス実践講座](https://dena.ai/news/202010-ds-challenge-season2/): テーマごとにコンペと解法を議論する構成の社内講座。
 - [「機械学習：TensorFlowでゼロからヒーローへ」動画シリーズ](https://blog.tensorflow.org/2020/08/introducing-tensorflow-videos-japanese.html): 概要説明から「じゃんけん識別器」実装までを扱う 4 部構成の動画。

@@ -1186,7 +1186,6 @@
 <h3><a href="https://www.kaggle.com/c/indoor-location-navigation">Indoor Location & Navigation</a></h3>
 <span class="badge badge-year">2021</span> <span class="badge badge-datatype">Tabular</span> <span class="badge badge-platform">Kaggle</span>
 
-- [Indoor Location & Navigation 15位解法](https://cocoinit23.com/kaggle-indoor-location-navigation-15th-place-solution/): モデル作成・後処理などを丁寧に説明する解法解説。
 - [Indoor Location & Navigation 銅メダル獲得者の取り組み](https://cpptake.com/archives/791): 限られた参加期間でスコアを上げた方法をまとめた記事。Shopee - Price Match Guarantee 終盤参戦での銀メダル獲得記事も合わせて公開。
 
 </div>

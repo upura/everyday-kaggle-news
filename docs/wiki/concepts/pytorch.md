@@ -60,7 +60,6 @@ PyTorch は Kaggle の深層学習コンペで事実上の標準（デファク�
 - [モデルの気持ちになって情報を与えよう](https://medium.com/@junkoda/%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%B0%97%E6%8C%81%E3%81%A1%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E6%83%85%E5%A0%B1%E3%82%92%E4%B8%8E%E3%81%88%E3%82%88%E3%81%86-4fd575d03fb1): モデルに「情報を与える」観点でコンペ解法を読み解く Grandmaster の記事。
 - [AdamWにおける改善点をきちんと理解する](https://zenn.dev/bilzard/articles/adamw-demistified): Adam からの変更点を中心に AdamW の論文を解説する記事。
 - [モデルの出力ではなく重みを混ぜ合わせるアンサンブル手法の論文](https://arxiv.org/abs/2203.05482): 推論時のモデルが 1 つで済む利点を持つ手法の提案論文。
-- [回帰問題でのDropout利用に関する検証記事](https://st1990.hatenablog.com/entry/2021/07/31/155511): 「Dropout と BatchNorm を併用しない方が良い」という話題を検証した記事。
 - [GPU計算ライブラリ「CuPy」v8.0.0公開](https://tech.preferred.jp/ja/blog/cupy-v8/): 行列演算高速化や Optuna を用いた最適化などを追加。
 - [PyTorchのパフォーマンス改善の紹介動画（ECCV 2020チュートリアル）](https://twitter.com/karpathy/status/1299921324333170689?s=20): コンピュータビジョン国際会議でのチュートリアル発表。
 - [Keras風のインターフェースを持つPyTorchライブラリ「NeuralPy」](https://github.com/imdeepmind/NeuralPy): モデルの学習や推論を手軽に行えるライブラリ。
@@ -92,7 +91,7 @@ PyTorch は Kaggle の深層学習コンペで事実上の標準（デファク�
 - [PyTorchによるディープラーニング実装の学び方（3部作）](https://medium.com/pytorch/pytorch%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E5%AE%9F%E8%A3%85%E3%81%AE%E5%AD%A6%E7%BF%92%E6%96%B9%E6%B3%95-part-1-e5f6ad77e0ff): PyTorch コミュニティメンバによる実装学習法の連載。
 - [「PyTorch Image Models（timm）」の紹介記事](https://nonbiri-tereka.hatenablog.com/entry/2020/08/26/084816): EfficientNet や ResNeSt などを `create_model` で手軽に利用できるライブラリ。
 - [ニューラルネットワークの式の型・shape推論機能の開発記事（PFN）](https://tech.preferred.jp/ja/blog/semi-static-type-shape-and-symbolic-shape-inference/): 式の型や shape 推論機能の紹介。
-- [Label Smoothingの効果を解説する記事（Google Brain）](https://medium.com/@lessw/label-smoothing-deep-learning-google-brain-explains-why-it-works-and-when-to-use-sota-tips-977733ef020): 最終層への影響を可視化して議論。
+- [Label Smoothingの効果を解説する記事（Google Brain）](https://lessw.medium.com/label-smoothing-deep-learning-google-brain-explains-why-it-works-and-when-to-use-sota-tips-977733ef020): 最終層への影響を可視化して議論。
 
 ## 関連概念
 

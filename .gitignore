@@ -2,3 +2,6 @@
 docs/search.json
 docs/graph.json
 _site/
+__pycache__/
+*.pyc
+

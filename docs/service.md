@@ -58,7 +58,6 @@ Kaggle やデータサイエンスコンペに関連する周辺サービス、�
 - [SIGNATE Scoutの「SIGNATE Career」統合予告](https://signate.jp/scout): 「SIGNATE Delta」としてのサービス提供開始を予告。
 - [SIGNATE「ひろしまQuest」が第5回HRテクノロジー大賞を受賞](https://prtimes.jp/main/html/rd/p/000000041.000038674.html): 地方型 AI 人材育成の取り組みが評価された受賞。
 - [Kaggleコミュニティ・ガイドライン更新](https://www.kaggle.com/community-guidelines): 行動規範や報告方法を更新した公式発表。
-- [H2O.ai、中国拠点でKaggle Grandmaster・Masterを募集](https://www.kaggle.com/jobs/20017/hiring-kaggle-grandmasters-and-masters-in-china): 業務内容にコンペ参加を含む採用情報。
 - [Kaggle、新型コロナワクチン研究向けデータセット・コードを無償公開](https://prtimes.jp/main/html/rd/p/000000406.000004374.html): ワクチン研究開発を促す目的の公開。Kaggle 関連プレスリリースの増加を示す一例。
 - [KaggleがAutoMLでスパムアカウントを検知した話](https://cloud.google.com/blog/products/ai-machine-learning/how-kaggle-solved-a-spam-problem-using-automl): 自然言語処理 API を活用し 8 日間でデプロイまで展開した事例。
 - [Kaggle利用規約（Terms of Use）ページ](https://www.kaggle.com/terms): 「Simulations Competitions」新設を受けて 2019 年 12 月に更新。

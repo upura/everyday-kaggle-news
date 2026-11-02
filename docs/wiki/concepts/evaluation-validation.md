@@ -52,7 +52,7 @@
 - [Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation](https://arxiv.org/abs/2505.00612): データの事前学習混入（データ汚染）が避けにくい生成 AI 評価で、コンペ形式の厳密さを gold standard と位置づける position paper。
 - [AIモデルのベンチマークや評価の環境としてKaggleがひっそりと進化している話](https://ho.lc/blog/kaggle-benchmark): コンペ運営で培った対不正技術を活かした「Kaggle Benchmark」による独立したモデル評価環境の紹介。
 - [深層学習の予測不確実性をまとめた調査論文の紹介資料](https://www.slideshare.net/ssuser8672d7/uncertainty-in-deep-neural-networks-250505655): 学習・評価データセットの特性差やアンサンブル手法などを取り上げる資料。
-- [Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning 解説記事](https://ai.googleblog.com/2021/10/baselines-for-uncertainty-and.html): 標準的な深層学習手法の実装集を公開する取り組みの紹介。
+- [Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning 解説記事](https://research.google/blog/baselines-for-uncertainty-and-robustness-in-deep-learning/): 標準的な深層学習手法の実装集を公開する取り組みの紹介。
 - [ニューラルネットや決定木を簡単なモデルで近似して説明する手法の解説記事](https://qiita.com/tmaehara/items/300e61e4a7a0907e441b): LIME などの専用ライブラリを使わずに説明する手続きを紹介。
 - [混同行列ライブラリ「PyCM」の紹介記事](https://tech-blog.optim.co.jp/entry/2020/12/08/100000): 画像分類やセグメンテーションを例に具体的な使い方を解説。
 - [ROC曲線の解説記事](https://zenn.dev/jackthekaggler/articles/64b4e32cce7d34022ae3): 図を用いて丁寧に説明する入門記事。

@@ -40,7 +40,6 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 - [Optunaチュートリアルページ刷新](https://optuna.readthedocs.io/en/latest/tutorial/index.html): Python スクリプトや Jupyter Notebook 形式でダウンロードして実行できる公式チュートリアル。
 - [Optuna v2.3.0リリース](https://github.com/optuna/optuna/releases/tag/v2.3.0): LightGBMTunerCV からの個別モデル取得や多目的 TPE sampler などを追加。
 - [Optuna v2.2.0リリース（TPE改善）](https://medium.com/optuna/multivariate-tpe-makes-optuna-even-more-powerful-63c4bfbaebe2): デフォルト探索アルゴリズム TPE の改善機能を実装。
-- [Optunaの実装を丁寧に解説する記事（Minituna）](https://cyberagent.ai/optuna-from-scratch): 簡略化版「Minituna」で各モジュールの役割を分かりやすく解説。
 - [Optuna v1.4.0リリース](https://github.com/optuna/optuna/releases/tag/v1.4.0): 多目的最適化や MLflow、AllenNLP との連携機能を追加。
 - [Optuna v1.3.0リリース](https://github.com/optuna/optuna/releases/tag/v1.3.0): ハイパーパラメータの重要度を可視化する機能などを追加。
 - [OptunaでQWKを最適化する記事](https://blog.amedama.jp/entry/optuna-qwk-optimization): 連続値を離散値に変換する閾値の探索を紹介。

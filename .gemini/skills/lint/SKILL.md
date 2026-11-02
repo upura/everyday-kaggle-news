@@ -15,8 +15,8 @@ description: リンク集と wiki の整合性チェック。外部リンク切�
 
 `python3 tools/check_external_links.py <report.md>` を実行する（全件で 5〜10 分）。
 
-- HEAD が 403/404/405/501 を返すサイトは GET で再確認される
-- x.com / linkedin.com / amazon 系 / kaggle.com / medium.com はボット対策で誤判定しやすいため「要手動確認」として分けて報告される
+- HEAD が 403/404/405/501 を返すサイトは GET で再確認され、エラー時はブラウザ風 User-Agent で再試行される
+- x.com / linkedin.com / amazon 系 / kaggle.com / medium.com / topcoder.com はボット対策で誤判定しやすいため「要手動確認」として分けて報告される
 - 404/410 のみ「リンク切れ」と断定する
 
 ### 2〜8. 内部整合性（`python3 tools/verify_wiki.py`）

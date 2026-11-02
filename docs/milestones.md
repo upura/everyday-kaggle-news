@@ -129,7 +129,6 @@ Kaggle の各称号（Grandmaster、Master、Expert）到達時の振り返り�
 - [Kaggleコンペ部門ランキング1位Psiさん登壇イベント告知](https://www.meetup.com/Machine-Learning-Tokyo/events/276942874/): 「My journey to Kaggle #1」と題した講演と質疑応答の告知。
 - [Kaggle GrandmasterのTheo Vielさんインタビュー](https://analyticsindiamag.com/interview-with-kaggle-gm-and-deep-learning-researcher-theo-viel/): お気に入りのテキストエディタとして VS Code を挙げるインタビュー。
 - [Kaggle 3カテゴリGrandmasterのRob Mullaさんインタビュー](https://analyticsindiamag.com/interview-kaggle-grandmaster-rob-mulla/): Notebooks 称号取得後 Competition に注力した経緯や今後注目の領域を語る。
-- [Kaggle GrandmasterのPsiさんインタビュー（H2O.ai）](https://www.h2o.ai/blog/meet-the-data-scientist-who-just-cant-stop-winning-on-kaggle/): Kaggle 参加の経緯や心構えを語るインタビュー。
 - [DeNA、Kaggle Grandmaster在籍数が日本企業で最多と報告](https://dena.com/jp/press/004688): 「Riiid! Answer Correctness Prediction」の結果を受けた報告。Master も国内最多の 16 人在籍。
 - [PyTorch Lightning開発者インタビュー](https://www.youtube.com/watch?v=xbcGj_mtTB0&feature=youtu.be): 自身の経歴とライブラリ開発に至った考えを語るインタビュー。
 - [Kaggle MasterのRabotniKumaさんインタビュー](https://analyticsindiamag.com/interview-kaggle-master-hiroshi-yoshihara/): 入門者への推薦資料や課題への取り組み方を語るインタビュー。
