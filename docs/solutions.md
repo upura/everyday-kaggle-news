@@ -365,6 +365,14 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/rsna-knee-abnormality-detection">RSNA Knee Abnormality Detection</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Kaggle RSNA 膝MRIコンペで銅メダル：やって良かったこと・やらなきゃ良かったこと](https://zenn.dev/hazy_viper/articles/rsna-knee-2026-bronze): 膝 MRI 画像から異常を検出するコンペの銅メダル解法。解剖区画のクロップやスライス順の統一といったデータ前処理、CV 設計、LLM を用いた学習ラベルの質の影響などを振り返っている。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2025" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/image-matching-challenge-2025">Image Matching Challenge 2025</a></h3>
 <span class="badge badge-year">2025</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
