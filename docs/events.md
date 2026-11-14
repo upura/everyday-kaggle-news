@@ -16,6 +16,7 @@
 - [2023](https://qiita.com/advent-calendar/2023/kaggle)
 - [2024](https://qiita.com/advent-calendar/2024/kaggle)
 - [2025](https://qiita.com/advent-calendar/2025/kaggle)
+- [2026](https://qiita.com/advent-calendar/2026/kaggle)
 
 ## Kaggle Meetup Tokyo
 
@@ -45,6 +46,7 @@ https://kaggle-friends.connpass.com/
 - [第 6 回 関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/397753/)
     - [第6回 関東Kaggler会に参加してきました](https://nakakiiro.hateblo.jp/entry/2026/08/08/090000): 参加者視点の参加録。招待講演 4 件の内容と会場の雰囲気を紹介している。
     - [【第6回】関東Kaggler会の参加レポート](https://takaito0423.hatenablog.com/entry/2026/08/08/213952): 運営視点のレポート。会場・タイムテーブルや各発表のメモに加え、初参加者向けの案内も兼ねている。
+    - [【イベントレポート】関東Kaggler会で見たデータ分析コミュニティの熱量](https://ttj.paiza.jp/archives/2026/11/11/17884/): 第 6 回関東 Kaggler 会の取材レポート。各登壇者の発表内容や会場の熱量をまとめている。
 - [第 5 回関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/378154/)
 - [第 4 回 関東 Kaggler 会](https://kanto-kaggler.connpass.com/event/362280/)
     - [YouTube](https://www.youtube.com/playlist?list=PL_ApLOfkNYwSvETFNijF-OGVthIzbnzZc)
@@ -77,9 +79,14 @@ https://kansaikaggler.connpass.com/
 ## 沖縄 Kaggler 会
 
 - [第2回 沖縄Kaggler会](https://connpass.com/event/399039/)
+    - [第2回沖縄Kaggler会を開催しました](https://zenn.dev/tanakou0226/articles/0d2404793eca2c): 主催者による開催報告。各発表の概要やスライドリンクをまとめている。
     - [スマホでkaggle](https://speakerdeck.com/ktm/de-kaggle): 第 2 回沖縄Kaggler会の発表資料。スマートフォンから Kaggle に取り組んだ体験談を綴っている。
 - [沖縄Kaggler会](https://connpass.com/event/362463/)
     - [沖縄Kaggler会を開催しました](https://zenn.dev/tanakou0226/articles/af575f66fb2b0b): 発表内容と資料を掲載する開催報告。
+
+## 九州 Kaggler 会
+
+- [第 1 回九州 Kaggler 会](https://kyushu-kaggler.connpass.com/event/411676/)
 
 ## 国際・日本人工知能オリンピック
 
