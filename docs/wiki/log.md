@@ -2,6 +2,7 @@
 
 LLM Wiki としての操作履歴です（新しいものが上）。
 
+- 2026-11-14 ingest: WKN #361 → 新規 7 件（events.md の「Kaggle Advent Calendar」に 2026 / solutions.md に Biohub - Cell Tracking During Development div を新設し 3 位解法スライド〔論文・ソースコード併記〕および 5 位解法 / solutions.md の RSNA Knee Abnormality Detection div に 67 位銀メダル解法 / events.md に「九州 Kaggler 会」を新設し第 1 回 / events.md の第 6 回関東 Kaggler 会に取材レポート / events.md の第 2 回沖縄 Kaggler 会に開催報告）。
 - 2026-11-07 ingest: WKN #360 → 新規 2 件（solutions.md に RSNA Knee Abnormality Detection div を新設し銅メダル解法 / concepts/environment に Slurm 活用記事）。environment の「押さえどころ」にジョブスケジューラ導入による単一 GPU の有効活用とコーディングエージェント連携を反映。ARC Prize 2026 - ARC-AGI-2 および ARC-AGI-3 の提出締切告知は時限性のためスキップ
 - 2026-11-03 lint: Issue #25（リンク切れ検査 2026-11）の要手動確認 URL（108 件）を Chrome ヘッドレス等で全件再精査。（1）リダイレクト先や移転先が確認できた計 8 件の URL を更新（`docs/milestones.md` の AAMT 長尾賞受賞記事、`concepts/tabular.md` の deep-table 記事、`concepts/experiment-management.md` の pysen 記事、`docs/platform.md` の森羅プロジェクト公式サイト、`docs/events.md` および `docs/books.md` の currypurin 記事 2 件を独自ドメイン失効に伴い hatenablog ドメインへ、`docs/solutions.md` の t88 参加録 2 件を同様に hatenablog ドメインへ差し替え）。（2）ドメイン失効・接続不能・ブログ非公開化が確認された計 18 件を削除（`docs/events.md` 4 件、`concepts/nlp-llm-trends.md` 6 件、`docs/solutions.md` 4 件〔うちリンク 0 件となった RSNA 2022 Cervical Spine Fracture Detection の div を削除〕、`concepts/experiment-management.md` 1 件、`concepts/audio.md` 1 件、`concepts/nlp-llm.md` 1 件、`concepts/image-recognition-trends.md` 1 件）。（3）`medium.com` / `towardsdatascience.com` や `rist.co.jp`、`shoeisha.co.jp` などの 82 件はブラウザから正常閲覧可能であることを確認し維持
 

@@ -365,10 +365,20 @@
 
 </div>
 
+<div class="competition-entry" markdown="1" data-year="2026" data-datatype="3d" data-platform="kaggle">
+<h3><a href="https://www.kaggle.com/competitions/biohub-cell-tracking-during-development">Biohub - Cell Tracking During Development</a></h3>
+<span class="badge badge-year">2026</span> <span class="badge badge-datatype">3D</span> <span class="badge badge-platform">Kaggle</span>
+
+- [Biohub - Cell Tracking During Development - 3rd Place Solution](https://speakerdeck.com/yu4u/biohub-cell-tracking-during-development-3rd-place-solution): 3 次元空間・時間軸に沿ってゼブラフィッシュの細胞を検出・追跡するコンペの 3 位解法。[論文](https://arxiv.org/abs/2611.06624)や[ソースコード](https://github.com/yu4u/kaggle-biohub-3rd)も公開されている。
+- [【解法紹介】Biohub – Cell Tracking During Development](https://www.rist.co.jp/kaggleshowcase/202611118829/): 3 次元空間・時間軸に沿ってゼブラフィッシュの細胞を検出・追跡するコンペの 5 位解法。
+
+</div>
+
 <div class="competition-entry" markdown="1" data-year="2026" data-datatype="image" data-platform="kaggle">
 <h3><a href="https://www.kaggle.com/competitions/rsna-knee-abnormality-detection">RSNA Knee Abnormality Detection</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
+- [【Kaggle ソロ銀】正解 58 件の膝 MRI を、読影レポートを LLM に読ませたラベルで解く ― RSNA Knee Abnormality Detection 67 位の解法](https://qiita.com/doingformyself/items/b8b6d07532c6cc98a057): 67 位・銀メダルのソロ解法。正解ラベルが極めて少ない設定に対し、読影レポートを LLM に処理させて生成した疑似ラベルを活用したアプローチを解説している。
 - [Kaggle RSNA 膝MRIコンペで銅メダル：やって良かったこと・やらなきゃ良かったこと](https://zenn.dev/hazy_viper/articles/rsna-knee-2026-bronze): 膝 MRI 画像から異常を検出するコンペの銅メダル解法。解剖区画のクロップやスライス順の統一といったデータ前処理、CV 設計、LLM を用いた学習ラベルの質の影響などを振り返っている。
 
 </div>
