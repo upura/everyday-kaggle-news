@@ -3,26 +3,16 @@
 データサイエンスコンペティション「[Kaggle](https://www.kaggle.com/)」に関する非公式リンク集です。
 有志による記事やサービスなども対象に、用途や話題別にまとめています。
 
-本サイトの特徴は、LLM Wiki として運用している点です。
-[u++](https://www.kaggle.com/sishihara) が毎週金曜日に配信するニュースレター「[Weekly Kaggle News](https://weeklykagglenews.substack.com/)」の掲載リンクをもとに、LLM が話題ごとの知見の統合と相互リンクを更新し、編集者が Pull Request のレビューを経て反映しています。
+初めて訪れた方は、まず以下のページから目的に合う入口を選んでください。
 
-競技プログラミングサイト「[AtCoder](https://atcoder.jp/)」向けの情報集約サイト「[AtCoder Clans](https://kato-hiro.github.io/AtCoderClans/)」のような立ち位置を目指しています。
-なお既存の類似サイトとして、日本人 Kaggler コミュニティ「kaggler-ja」による「[Kaggler Ja Wiki](https://kaggler-ja.wiki/)」があります。
-
-## 最近の更新
-
-直近の更新の抜粋です（全履歴は[操作ログ](./docs/wiki/log.md)）。
-
-- 2026-11-14: Weekly Kaggle News #361 を取り込み。Kaggle Advent Calendar 2026、Biohub 3 位・5 位解法、RSNA 膝 MRI コンペの銀メダル解法、第 1 回九州 Kaggler 会、関東・沖縄 Kaggler 会のレポートを追加
-- 2026-11-07: Weekly Kaggle News #360 を取り込み。RSNA 膝 MRI コンペの銅メダル解法、自宅 GPU 環境でのジョブスケジューラ Slurm 活用記事を追加
-- 2026-10-31: Weekly Kaggle News #359 を取り込み。AI ベンチマーク評価サミット Bench Summit、コーディングエージェントコンペ FT-LLM 2027、AHC 実装教材、AI エージェント時代の Kaggle の取り組み方、現代 AI 入門（思考するシステム）を追加
-- 2026-10-24: Weekly Kaggle News #358 を取り込み。Kaggle Notebook の R 言語サポート終了アナウンス、2026 年版 Grandmaster 分析レポート、UltraBERT 論文、Think IT 人材育成連載記事、ポケカコンペの銅メダル解法を追加
-- 2026-10-17: Weekly Kaggle News #357 を取り込み。コンペ終了時刻までに推論・採点が完了していることを求める提出仕様の標準化アナウンスを追加
+- [入門者・初学者向けガイド](./docs/quickstart.md): Kaggle の概要と始め方、まず読むべき定番資料
+- [コンペ開催カレンダー](./docs/calendar.md): 開催中のメダル対象コンペを一覧表示
+- [コンペ解法](./docs/solutions.md): 過去のコンペ別解法や参加録を探す
+- [検索](./docs/search.md) / [概念マップ](./docs/concept-map.md): キーワード検索や話題間のつながりから探す
 
 ## 目次
 
-話題ごとに、Wiki ページ（概説、押さえどころ、資料一覧）と一覧ページを案内します。
-リンクの横断検索は「[検索](./docs/search.md)」、ページ間のつながりの可視化は「[概念マップ](./docs/concept-map.md)」から利用できます。
+興味のあるテーマや目的に合わせてページを選べます。各ページでは概要・押さえどころ・資料一覧をまとめています。
 
 ### 学び方
 
@@ -38,7 +28,7 @@
 - [コンペプラットフォーム](./docs/platform.md): Kaggle 以外のプラットフォームや学会併設コンペ、コンペの選び方
 - [イベント](./docs/events.md): 勉強会やミートアップなどの開催記録
 - [サービス・ツール](./docs/service.md): 有志が開発した周辺サービスや支援ツール
-- [コンペ開催](./docs/wiki/concepts/competition-hosting.md): コンペを主催・設計する側の知見と開催報告
+- [コンペ開催](./docs/wiki/concepts/competition-hosting.md): 主催・運営者向けのコンペ設計知見と開催報告
 
 ### データ種別・タスク
 
@@ -61,16 +51,30 @@
 
 ### 進め方・環境
 
-- [PyTorch](./docs/wiki/concepts/pytorch.md): 深層学習モデルの実装基礎と高速化
+- [深層学習の実装・高速化（PyTorch 等）](./docs/wiki/concepts/pytorch.md): PyTorch や JAX 等を用いた深層学習モデルの実装基礎と高速化
 - [コードコンペティション](./docs/wiki/concepts/code-competition.md): 提出形式の制約、作業フロー、提出自動化
 - [実験管理](./docs/wiki/concepts/experiment-management.md): 試行回数の最大化、再現性の確保、チーム開発体制
 - [環境構築](./docs/wiki/concepts/environment.md): ローカル環境やクラウド環境の整備
 - [性能評価と検証](./docs/wiki/concepts/evaluation-validation.md): リーク防止、バリデーション設計、データセット品質
 - [AI エージェント活用](./docs/wiki/concepts/ai-agent.md): LLM エージェントによるコンペ作業の支援と限界
 
-## 更新フロー
+## 最近の更新
 
-本リポジトリは LLM Wiki として運用しており、規約は [GEMINI.md](./GEMINI.md) に定義しています。
+直近の更新の抜粋です（全履歴は[操作ログ](./docs/wiki/log.md)）。
+
+- 2026-11-14: Weekly Kaggle News #361 を取り込み。Kaggle Advent Calendar 2026、Biohub 3 位・5 位解法、RSNA 膝 MRI コンペの銀メダル解法、第 1 回九州 Kaggler 会、関東・沖縄 Kaggler 会のレポートを追加
+- 2026-11-07: Weekly Kaggle News #360 を取り込み。RSNA 膝 MRI コンペの銅メダル解法、自宅 GPU 環境でのジョブスケジューラ Slurm 活用記事を追加
+- 2026-10-31: Weekly Kaggle News #359 を取り込み。AI ベンチマーク評価サミット Bench Summit、コーディングエージェントコンペ FT-LLM 2027、AHC 実装教材、AI エージェント時代の Kaggle の取り組み方、現代 AI 入門（思考するシステム）を追加
+- 2026-10-24: Weekly Kaggle News #358 を取り込み。Kaggle Notebook の R 言語サポート終了アナウンス、2026 年版 Grandmaster 分析レポート、UltraBERT 論文、Think IT 人材育成連載記事、ポケカコンペの銅メダル解法を追加
+- 2026-10-17: Weekly Kaggle News #357 を取り込み。コンペ終了時刻までに推論・採点が完了していることを求める提出仕様の標準化アナウンスを追加
+
+## このサイトについて・更新フロー
+
+本サイトは LLM Wiki として運用しており、運用規約は [GEMINI.md](./GEMINI.md) に定義しています。
+[u++](https://www.kaggle.com/sishihara) が毎週金曜日に配信するニュースレター「[Weekly Kaggle News](https://weeklykagglenews.substack.com/)」の掲載リンクをもとに、LLM が話題ごとの知見の統合と相互リンクを更新し、編集者が Pull Request のレビューを経て反映しています。
+
+競技プログラミングサイト「[AtCoder](https://atcoder.jp/)」向けの情報集約サイト「[AtCoder Clans](https://kato-hiro.github.io/AtCoderClans/)」のような立ち位置を目指しています。
+なお既存の類似サイトとして、日本人 Kaggler コミュニティ「kaggler-ja」による「[Kaggler Ja Wiki](https://kaggler-ja.wiki/)」があります。
 
 - 週次: Weekly Kaggle News の配信後、GitHub Actions（[weekly-ingest](./.github/workflows/weekly-ingest.yml)）が最新号を取り込み、Pull Request を作成します。号に含まれる URL が展開され、重複を除いて各話題ページ・一覧ページに追加されます。編集者がレビューしてマージすると GitHub Pages に反映されます。Gemini CLI で `/ingest <URL>` を手動実行することもできます
 - 月次: `/lint` でリンク切れ・重複・形式の検査を実行します
