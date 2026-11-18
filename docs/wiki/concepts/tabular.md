@@ -5,13 +5,15 @@
 
 ## 押さえどころ
 
-- 定跡は、分布シフトを意識した EDA、多様なベースラインの迅速な構築、大量の特徴量生成、ヒルクライミングによるアンサンブルとスタッキング、疑似ラベルとシード平均、という流れで進む。「高速な実験」と「慎重な検証」の両輪が原則（[The Kaggle Grandmasters Playbook](https://developer.nvidia.com/blog/the-kaggle-grandmasters-playbook-7-battle-tested-modeling-techniques-for-tabular-data/)）
-- この分野の起点は [XGBoost の原論文](https://dl.acm.org/doi/10.1145/2939672.2939785)（KDD 2016）で、アルゴリズムの工夫と実装面やシステム面の最適化を同時に示したことが普及の契機となった。LightGBM や CatBoost を含め、現在の定跡はこの延長線上にある（2026 年の KDD Test of Time Award を受賞）
-- GBDT の学習、推論、特徴量処理を GPU で高速化する手法（cuML でのスタッキング、RAPIDS FIL による推論高速化、GPUTreeSHAP、cuDF、XGBoost 3.0 の大規模データ対応など）は繰り返し検証され、実務の定番手段として定着している
-- データ処理基盤は pandas から Polars への移行が進んでいる。特徴量の変換処理を `pl.Expr` で宣言的に定義し計算と切り離して管理する設計や、cuDF や Polars on GPU による高速化も選択肢に加わっている
-- 特徴量エンジニアリングの基本技法である Target Encoding は、スムージングや p 値ベースの改良、GPU（cuML）実装など継続的に改善されている
-- 「深層学習 vs 決定木」は長年の論争テーマで、中規模の実データでは決定木系が依然優位という報告が多い（[深層学習VS決定木：テーブルデータ分析の未来](https://voice.pkshatech.com/n/n2f125daeb9da)）。近年は対立構図ではなく、GBDT 的なアンサンブルを NN で再現する TabM や、合成テーブルで事前学習したゼロショット基盤モデル（TabPFN、[TabFM](https://arxiv.org/abs/2609.37959)、オープンウェイトの [NVIDIA Kumo Tabular](https://huggingface.co/blog/nvidia/kumo-tabular)）、さらに凍結した基盤モデルの前処理や特徴量生成を LLM エージェントで反復改善する [TabFM-Auto](https://arxiv.org/abs/2609.37989) が新しい選択肢として登場している
-- バリデーション設計とリーク防止は[性能評価と検証](./evaluation-validation.md)を参照
+- 定跡は、分布シフトを意識した EDA（探索的データ分析）、多様なベースラインの迅速な構築、大量の特徴量生成、アンサンブルとスタッキング、疑似ラベルとシード平均、という流れで進む（[The Kaggle Grandmasters Playbook](https://developer.nvidia.com/blog/the-kaggle-grandmasters-playbook-7-battle-tested-modeling-techniques-for-tabular-data/)）。
+- 「高速な実験」と「慎重な検証」の両輪が GBDT（勾配ブースティング決定木）コンペの基本原則である。
+- この分野の起点は [XGBoost の原論文](https://dl.acm.org/doi/10.1145/2939672.2939785)（KDD 2016）で、LightGBM や CatBoost を含め現在の定跡はこの延長線上にある（2026 年の KDD Test of Time Award を受賞）。
+- GBDT の学習、推論、特徴量処理を GPU で高速化する手法（cuML でのスタッキング、RAPIDS FIL による推論高速化、GPUTreeSHAP、cuDF、XGBoost 3.0 の大規模データ対応など）は実務の定番手段として定着している。
+- データ処理基盤は pandas から Polars への移行が進んでおり、`pl.Expr` で変換処理を宣言的に管理する設計や cuDF・Polars on GPU による高速化も選択肢に加わっている。
+- 特徴量エンジニアリングの基本技法である Target Encoding は、スムージングや p 値ベースの改良、GPU（cuML）実装など継続的に改善されている。
+- 「深層学習 vs 決定木」は長年の論争テーマで、中規模の実データでは決定木系が依然優位という報告が多い（[深層学習VS決定木：テーブルデータ分析の未来](https://voice.pkshatech.com/n/n2f125daeb9da)）。
+- 近年は対立構図ではなく、GBDT 的なアンサンブルを NN で再現する TabM や、ゼロショット表データ基盤モデル（TabPFN、[TabFM](https://arxiv.org/abs/2609.37959)、[NVIDIA Kumo Tabular](https://huggingface.co/blog/nvidia/kumo-tabular)）、さらに基盤モデルの前処理を LLM エージェントで改善する [TabFM-Auto](https://arxiv.org/abs/2609.37989) などの選択肢が広がっている。
+- バリデーション設計とリーク防止は[性能評価と検証](./evaluation-validation.md)を参照。
 
 ## 資料
 

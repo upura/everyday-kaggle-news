@@ -15,7 +15,6 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 
 ### 入門・基礎
 
-
 - [画像コンペことはじめ](https://zenn.dev/dalab/articles/41b1a0c3b3d410): キノコの分類を題材に、画像コンペの基本的な流れを紹介する入門記事。
 - [深層学習による画像認識の基礎](https://www.ohmsha.co.jp/book/9784274231841/): CNN と ViT を実践例とサンプルコードつきで解説する書籍。
 - [Kaggleスコアアップセミナー～画像系コンペ入門[前編]（2023/08/02）](https://www.docswell.com/s/fixstars/KLLVPL-20230802)
@@ -25,7 +24,6 @@ timm などの公開モデルを前提に、いかに速く強いベースライ
 - [Vision Transformer入門](https://www.amazon.co.jp/dp/4297130580): Transformer を画像認識分野に応用した Vision Transformer に関する日本語書籍。
 
 ### コンペの定跡
-
 
 - [画像モデルのバックボーンとして最初に何を選ぶべきか？](https://zenn.dev/prgckwb/articles/how-to-select-backbone): 論文「Battle of the Backbones」をもとにバックボーン選択の指針を整理した記事。
 - [野生のモデルを飼い慣らす](https://zenn.dev/bilzard/articles/tame-the-wild-models): timm などの公開モデルをタスクに適応させるカスタマイズと高速化のテクニック集。

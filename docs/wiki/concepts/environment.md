@@ -8,9 +8,11 @@ Kaggle Notebook の制約を超えたいときの選択肢を集めています�
 - 大きな選択肢は「自宅 GPU マシンの調達」「クラウド（GCP・AWS・RunPod など）の利用」「Google Colaboratory・Kaggle Notebook などの無料/定額枠」の3系統。継続的に参加するなら費用対効果と管理コストが論点になる
 - クラウドは Terraform などの IaC でコンペごとに環境を素早く立ち上げる運用が定着してきた
 - Google Colaboratory は Pro/Pro+ やコンピューティングユニット制、TPU 提供、Google AI プランへの統合（[公式発表](https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/)）などで提供形態を広げ続ける一方、Python バージョンや利用規約の変更が度々発生するため追随が必要
-- Kaggle Notebook 自体も GPU 環境や信頼性の改善が継続的に行われており、VS Code・Cursor などローカル IDE から接続して使う選択肢も増えている。アクセラレータの選択肢は世代交代で入れ替わり、2026 年 9 月 15 日には P100 が提供終了して GPU は T4x2 に一本化された（[公式アナウンス](https://www.kaggle.com/discussions/product-announcements/735239)）。また利用率の低下に伴い R 言語サポートの終了も告知され（[公式アナウンス](https://www.kaggle.com/discussions/product-announcements/751525)）、Python 環境への集約が進んでいる。単一 GPU 前提のコードは、複数 GPU 構成や 1 基あたり 16 GB というメモリ制約を踏まえて見直しておきたい
-- パッケージ管理は rye・Poetry などのツールや Docker を用いたコンペ環境の再現性確保に関心が向かっている。NumPy 2.0 のようなメジャーアップデートでは既存コードとの互換性に注意が必要
-- エディタ（VS Code）の設定を整えるだけでも深層学習の開発体験は大きく変わる。SSH 接続でのバックグラウンド実行など、長時間の学習を止めずに作業する工夫も定番。自宅 GPU マシンでは Slurm などのジョブスケジューラを導入し、キューイングによって単一 GPU を無駄なく使いつつ、Claude Code や Codex などのコーディングエージェントからのジョブ投入と非同期実行を両立させる工夫も見られる（[Slurm は Kaggle で役に立つ](https://zenn.dev/pomcho555/articles/c455d086ec47af)）
+- Kaggle Notebook 自体も GPU 環境の改善が続いており、VS Code や Cursor など手元の IDE から接続して使う選択肢も増えている。
+- Kaggle Notebook のアクセラレータは世代交代で入れ替わっており、2026 年 9 月 15 日に P100 が提供終了して GPU は T4x2 に一本化され、R 言語サポートも終了が告知された（[GPU 一本化](https://www.kaggle.com/discussions/product-announcements/735239)、[R サポート終了](https://www.kaggle.com/discussions/product-announcements/751525)）。単一 GPU 前提のコードは、複数 GPU 構成や 1 基あたり 16 GB のメモリ制約を踏まえた見直しが要る。
+- パッケージ管理は rye・Poetry・uv などのツールや Docker を用いた再現性確保に関心が向かっている。NumPy 2.0 のようなメジャーアップデートでは既存コードとの互換性に注意が必要。
+- エディタ（VS Code）の設定や SSH 接続でのバックグラウンド実行を整えるだけでも、長時間の学習を止めずに作業しやすくなる。
+- 自宅の単一 GPU マシンでは Slurm などのジョブスケジューラを導入し、キューイングとコーディングエージェントからの非同期実行を両立させる工夫も見られる（[Slurm は Kaggle で役に立つ](https://zenn.dev/pomcho555/articles/c455d086ec47af)）。
 - 環境をテンプレート化してコンペ間で使い回す話は[実験管理](./experiment-management.md)を参照
 
 ## 資料

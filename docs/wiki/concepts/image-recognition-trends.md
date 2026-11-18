@@ -16,7 +16,6 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 
 ### Vision Transformer・Transformer動向
 
-
 - [【DL輪読会】言語以外でのTransformerのまとめ](https://www.slideshare.net/DeepLearningJP2016/dltransformer-vit-perceiver-frozen-pretrained-transformer-etc)
 - [DETR手法の変遷と最新動向（CVPR2025）](https://speakerdeck.com/tenten0727/detrshou-fa-nobian-qian-tozui-xin-dong-xiang-cvpr2025)
 - [CNN vs ViT](https://speakerdeck.com/yushiku/cnn-vs-vit): CNN と ViT を複数観点で比較する発表資料。
@@ -43,7 +42,6 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 
 ### CLIP・マルチモーダル
 
-
 - [Large Vision Language Model (LVLM) に関する最新知見まとめ (Part 1)](https://speakerdeck.com/onely7/large-vision-language-model-lvlm-niguan-suruzui-xin-zhi-jian-matome-part-1): LLM と画像処理をつなぐ機構に焦点を当てた LVLM の知見まとめ。
 - [自然言語とVision&Language](https://speakerdeck.com/kuehara/zi-ran-yan-yu-tovision-and-language): 深層学習初期から大規模モデルまでの Vision & Language 研究動向の概観資料。
 - [大規模画像テキストデータのフィルタリング手法の紹介](https://speakerdeck.com/lyakaap/da-gui-mo-hua-xiang-tekisutodetanohuirutaringushou-fa-noshao-jie): データフィルタリングで性能を競うコンペを題材にした発表資料。
@@ -64,7 +62,6 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 
 ### 自己教師あり学習
 
-
 - [画像に対する自己教師あり表現学習手法について②](https://blog.recruit.co.jp/data/articles/ssl_vision_02/)
 - [⾃⼰教師あり学習によるビジョン基盤モデルの事前学習](https://speakerdeck.com/hf149/jiao-shi-arixue-xi-niyorubiziyonji-pan-moderunoshi-qian-xue-xi): 画像の自己教師あり学習の代表的手法と発展的話題のまとめ。
 - [自己教師あり学習による事前学習（CVIMチュートリアル）](https://speakerdeck.com/naok615/zi-ji-jiao-shi-arixue-xi-niyorushi-qian-xue-xi-cvimtiyutoriaru): 自己教師あり事前学習のサーベイチュートリアル資料。
@@ -80,7 +77,6 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 - [半教師あり学習「FixMatch」の解説記事](https://note.com/akira_tosei/n/n3ff2ad70562b): 少量ラベルでも学習可能な手法を実験結果と共に紹介。
 
 ### 国際会議サーベイ・参加報告
-
 
 - [第62回名古屋CV・PRML勉強会：CVPR2025論文紹介 (MambaOut)](https://speakerdeck.com/naok615/di-62hui-ming-gu-wu-cvprmlmian-qiang-hui-cvpr2025lun-wen-shao-jie-mambaout): 状態空間モデル Mamba が画像認識に必要かを分析した論文の紹介資料。
 - [CVPR 2025 Report](https://x.com/HirokatuKataoka/status/1934663060200833392): 画像認識の国際会議 CVPR 2025 の研究潮流を 180 ページ超にまとめた参加報告資料。
@@ -99,7 +95,6 @@ Vision Transformer、CLIP、自己教師あり学習など画像認識分野の�
 - [CVPR論文読み会資料（別回、前半）](https://takmin.hatenablog.com/entry/2020/07/05/000451): 後編は別日程で予定された論文読み会資料。
 
 ### モデル・技術動向
-
 
 - [深層学習によるセマンティックセグメンテーションとその最新動向](https://speakerdeck.com/hf149/shen-ceng-xue-xi-niyorusemanteitukusegumentesiyontosofalsezui-xin-dong-xiang)
 - [最新の深層学習技術による古典くずし字認識の現状と今後の展望](http://shunk031.hatenablog.com/entry/kuzushiji-recognition-survey-2020)
