@@ -20,7 +20,7 @@
 ### LLM が管理（オペレーションを通じて更新）
 
 - `README.md` の「目次」セクション — サイト全体の入口。話題ごとの見出しの下に Wiki ページと一覧ページを混在させて案内する。概念ページの新設・改名時に目次行を追記・修正する
-- `README.md` の「最近の更新」セクション — 直近 5 件程度のダイジェストを維持する
+- `README.md` の「最近の更新」セクション — 直近 5 件程度のダイジェストを維持する（追加先ページへのリンクを含め、冒頭の最新号案内 `#NNN（YYYY-MM-DD）` もあわせて更新する）
 - `docs/wiki/log.md` — 操作ログ（新しいものを上に追記）
 - `docs/wiki/concepts/*.md` — 概念ページ（話題ごとの統合知識と資料の全リスト）
 - `docs/` 直下の一覧ページ 9 本: quickstart / recent / solutions / milestones / books / events / service / platform / calendar
