@@ -161,7 +161,7 @@ jobs:
           GEMINI_CLI_TRUST_WORKSPACE: "true"
         with:
           gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-          gemini_model: "gemini-3.8-flash"
+          gemini_model: "gemini-4-hydrogen"
           settings: |
             {
               "maxSessionTurns": 100,
