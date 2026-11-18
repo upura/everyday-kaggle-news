@@ -10,7 +10,8 @@
 - 交差検証の設計に唯一解はなく、Combinatorial Purged Cross-Validation など複数の手法が Kaggler の間で継続して議論されている（[時系列データの検証用データセット構築方法を議論する記事](https://zenn.dev/ymd/articles/fd08fb46bc868c)）
 - 評価指標（順位相関など）と損失関数のズレは、torchsort などの微分可能なソートを使ってカスタム損失で直接最適化できる（[金融時系列予測における評価指標に応じた損失関数のデザイン](https://zenn.dev/tonic/articles/70cc6c46408aeb)）
 - 時期によって特徴量と目的変数の関係が変わる問題には、分割の「方向の一貫性」を最大化する WarpGBM / Directional Era-Splitting のようなアプローチがある
-- 2020〜21 年頃は Darts、PyTorch Forecasting、Prophet などライブラリの使い方紹介が中心だったが、2024〜25 年にはゼロショットで使える時系列基盤モデル（Chronos-Bolt、TimesFM など）が主要な話題になっている。小規模なモデルが大規模基盤モデルの性能を上回る報告もあり、基盤モデルの適用には注意を要する（[パラメータ4個で710M超えのFoundation Modelに勝った時系列予測手法FLAIRの全貌](https://zenn.dev/t_honda/articles/flair-time-series-forecasting)）
+- 2020〜21 年頃は Darts、PyTorch Forecasting、Prophet などの専用ライブラリが中心だったが、2024〜25 年にはゼロショットで使える時系列基盤モデル（Chronos-Bolt、TimesFM など）が主要な話題になっている。
+- ただし少パラメータの手法が大規模な時系列基盤モデルを上回る報告もあり、適用には比較検証が欠かせない（[パラメータ4個で710M超えのFoundation Modelに勝った時系列予測手法FLAIRの全貌](https://zenn.dev/t_honda/articles/flair-time-series-forecasting)）。
 - Transformer の時系列予測への有効性は、賛否双方の論文が繰り返し引用され、議論が続いている論点
 - 系列を 1 行ずつの回帰として解くと予測が不連続に飛び、長い予測区間ではドリフトが累積する。系列全体を 2 次元画像に変換して U-Net 系のセグメンテーションとして解く定跡があり、ROGII コンペでは 20 位以内の過半数がこの構成だった（[ROGIIコンペ振り返り - 35位解法およびU-Netソリューションまとめ](https://zenn.dev/dalab/articles/71296cdee9a945)）
 

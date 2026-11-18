@@ -5,12 +5,15 @@
 
 ## 押さえどころ
 
-- リークとは「本来使えない情報を学習に使ってしまうこと」。運用時に入手できない情報の混入やデータ定義の誤解が典型例で、ドメイン知識、データ定義の正確な理解、可視化で防ぐ（[機械学習の落とし穴 リーク問題について](https://tech-blog.abeja.asia/entry/advent-2023-day15)）。過去コンペで実際に起きたライセンスやデータ漏洩などのトラブル事例を知っておくと再発を避けやすい（[トラブルがあったコンペに学ぶデータ分析](https://speakerdeck.com/tereka114/toraburugaatutakonpenixue-budetafen-xi)）
-- データセット品質はモデリング以前の前提条件。ラベル誤りを体系的に見つける Confident Learning のような枠組みや、モデルではなくデータを改善する Data-Centric AI の視点がコンペと実務の双方で参照される
-- バリデーション設計では「CV と LB の乖離」への対処が中心となる。adversarial validation、LB probing、shake-up の要因分析など、train/test の分布差を疑って検証する技法が定跡として蓄積されている。K-fold の分割数も慣習ではなく効用最大化を基準に決定する議論が出ている（[Determining the K in K-fold cross-validation](https://arxiv.org/abs/2511.12698)）
-- 時系列データでは時間分割のバリデーションが必須（[時系列予測コンペ](./time-series.md)）
-- 評価の対象はコンペ参加だけでなく、データセット構築やコンペ開催の側にも及ぶ。「コンペ形式の評価こそ生成 AI 評価の gold standard」という立場の論文もあり、Kaggle 自体も「Kaggle Benchmarks」（文書抽出の [ExtractBench](https://www.kaggle.com/benchmarks/llamaindex-org/extractbench-leaderboard) など外部機関のベンチマークも掲載）やモデル対戦の「Game Arena」を通じてフロンティアモデルの評価基盤へと機能を広げている（[エージェント対戦コンペ](./agent-competition.md)も参照）。AI ベンチマーク評価の信頼性と標準化を議論するサミット（[Bench Summit](https://rsvp.withgoogle.com/events/bench-summit-by-kaggle?pli=1)）の開催など、業界全体の評価規範作りにも関与している
-- 信頼できる CV が作れたら、あとは CV を信じて[実験を回す](./experiment-management.md)のが定跡
+- リークとは「本来使えない情報を学習に使ってしまうこと」で、運用時に入手できない情報の混入やデータ定義の誤解が典型例である（[リーク問題について](https://tech-blog.abeja.asia/entry/advent-2023-day15)）。
+- 過去コンペで実際に起きたライセンスやデータ漏洩などのトラブル事例を知っておくと、同じ落とし穴を避けやすい（[トラブルがあったコンペに学ぶ](https://speakerdeck.com/tereka114/toraburugaatutakonpenixue-budetafen-xi)）。
+- データセット品質はモデリング以前の前提条件。ラベル誤りを体系的に見つける Confident Learning や、モデルではなくデータを改善する Data-Centric AI の視点がコンペと実務の双方で参照される。
+- バリデーション設計では「CV（手元の交差検証）と LB（順位表）の乖離」への対処が中心となる。train/test の分布差を調べる adversarial validation や shake-up（最終順位の変動）の要因分析が定跡として蓄積されている。
+- K-fold の分割数も慣習ではなく効用最大化を基準に決定する議論が出ている（[Determining the K in K-fold cross-validation](https://arxiv.org/abs/2511.12698)）。
+- 時系列データでは時間分割のバリデーションが必須（[時系列予測コンペ](./time-series.md)）。
+- 評価の対象はコンペ参加だけでなくベンチマーク構築にも広がっている。Kaggle 自体も「Kaggle Benchmarks」（文書抽出の [ExtractBench](https://www.kaggle.com/benchmarks/llamaindex-org/extractbench-leaderboard) など）やモデル対戦の「Game Arena」を展開し、フロンティアモデルの評価基盤へと機能を広げている（[エージェント対戦コンペ](./agent-competition.md)）。
+- AI ベンチマーク評価の信頼性と標準化を議論するサミット（[Bench Summit](https://rsvp.withgoogle.com/events/bench-summit-by-kaggle?pli=1)）の開催など、業界全体の評価規範作りにも関与している。
+- 信頼できる CV が作れたら、あとは CV を信じて[実験を回す](./experiment-management.md)のが定跡。
 
 ## 資料
 

@@ -1,19 +1,20 @@
 # エージェント対戦コンペ
 
-予測値ではなくエージェントを提出し、参加者同士やモデル同士の対戦で順位を競う形式のコンペです。
-Kaggle のシミュレーションコンペとして以前から存在する形式ですが、LLM の登場以降は大型対戦コンペやモデル評価基盤としても活用されています。
+予測値ではなくエージェントや攻撃プログラムを提出し、対戦や評価環境での振る舞いで順位を競う形式のコンペです。
+Kaggle のシミュレーションコンペとして以前から存在する形式ですが、LLM の登場以降は開発・分析エージェントの評価やモデル評価基盤としても広がっています。
 
 ## 押さえどころ
 
 - Kaggle のシミュレーションコンペでは、提出したエージェントが他の参加者のエージェントと対戦し、レーティングで順位が決まる。通常のコンペとは提出物も評価の仕組みも異なる（[公式ドキュメント](https://github.com/Kaggle/kaggle-cli/blob/main/docs/simulation_competitions.md)）
 - 2026 年にはポケモンカードゲームを題材にした「[The Pokémon Company - PTCG AI Battle Challenge](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle)」のような、公式ゲームエンジン提供、2 トラック構成、トーナメント決勝を備えた大型対戦コンペが登場した
-- Kaggle 自体もチェス、ポーカー、人狼などでモデル同士を対戦させる評価基盤「Game Arena」を展開しており、ゲームを agentic な振る舞いの統制されたサンドボックスと位置づけている（[Google 公式ブログ](https://blog.google/innovation-and-ai/products/kaggle-game-arena/)）。プラットフォームの評価基盤化は[性能評価と検証](./evaluation-validation.md)も参照
-- 国内でも SIGNATE「空戦AIチャレンジ」など対戦型コンペが継続的に開催されている（[コンペ解法](../../solutions.md)に優勝解法を掲載）
-- 解法はヒューリスティック、強化学習、LLM の組み合わせが主流で、ヒューリスティックが強化学習に劣らない事例も多い（[「Halite」AIコンペからの知見まとめ記事](https://www.twosigma.com/insights/article/best-practices-from-building-a-machine-learning-bot-for-halite/)）。強化学習ライブラリでは HandyRL が複数のコンペで優勝や上位入賞の実績がある定番となっている。ヒューリスティックの基礎は[数理最適化コンペ](./optimization.md)と地続きである
-- 強化学習は学習の進捗判断自体が難しく、専用のデバッグや検証手順を組む必要がある。対戦相手、先攻後攻、乱数シードを揃えずに勝率を比較すると改善を見誤るため、評価用エージェントを複数用意して条件を固定する必要がある（[ポケカコンペの参加録](../../solutions.md)）
-- 解法の構築には定石の順序がある。手作りのルールベースから始め、数手先の探索、局面から勝率を予測する価値関数、上位エージェントの行動クローン、自己対戦による方策の微調整、公開情報からの相手デッキ推定へと段階的に拡張していく進め方が定石である。価値関数の学習データは自己対戦の局面から数十万件規模で生成できる
-- 2026 年には、エージェント同士を戦わせるのではなくエージェントを攻撃対象に据える形式も現れた。「[AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks)」はツールを使う LLM エージェントへの多段階攻撃を生成するコードを提出する形式で、対戦相手ではなくガードレールと採点系の検査範囲のずれが攻略の焦点になった。金メダル解法では応答時間や応答長から非公開ガードレールや Private 環境で遮断されているツールを特定し、速度あたりスコアの評価に合わせて KV キャッシュ再利用や対数尤度による事前選別で推論を高速化している（[コンペ解法](../../solutions.md)に金・銅メダル解法と参加録を掲載）。形式の位置づけは[コンペ形式・技術動向の変遷](./competition-evolution.md)も参照
-- 「エージェントを道具として使って通常のコンペを戦う」話題は[AI エージェント活用](./ai-agent.md)へ
+- Kaggle 自体もチェス、ポーカー、人狼などでモデル同士を対戦させる評価基盤「Game Arena」を展開し、ゲームをエージェントの統制された評価環境と位置づけている（[Google 公式ブログ](https://blog.google/innovation-and-ai/products/kaggle-game-arena/)、[性能評価と検証](./evaluation-validation.md)）。
+- 国内でも SIGNATE「空戦AIチャレンジ」など対戦型コンペが継続的に開催されている（[コンペ解法](../../solutions.md)に優勝解法を掲載）。
+- 解法はヒューリスティック、強化学習、LLM の組み合わせが主流で、ヒューリスティックが強化学習に劣らない事例も多い（[「Halite」の知見まとめ](https://www.twosigma.com/insights/article/best-practices-from-building-a-machine-learning-bot-for-halite/)、[数理最適化コンペ](./optimization.md)）。
+- 強化学習ライブラリでは HandyRL が複数のコンペで優勝・上位入賞の実績を持つ定番となっている。
+- 対戦環境では相手、先攻後攻、乱数シードを揃えて評価用エージェントを複数用意しないと改善を見誤るため、条件を固定した専用の検証手順が必要になる（[ポケカコンペの参加録](../../solutions.md)）。
+- 解法は、ルールベース → 数手先の探索 → 自己対戦データからの価値関数 → 行動クローン・自己対戦による微調整 → 公開情報からの相手推定、と段階的に拡張するのが定石である。
+- エージェント同士の対戦だけでなく、LLM エージェントへの多段階攻撃を生成する「[AI Agent Security](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks)」や、分析・開発エージェントの実装一式を評価する「[KDD Cup 2026: Data Agents](https://dataagent.top/)」「[Gemma 4 Developer Agent Competition](https://www.kaggle.com/competitions/gemma-4-developer-agent)」など、エージェントの安全性や開発能力を競う形式も広がっている（[コンペ形式・技術動向の変遷](./competition-evolution.md)）。
+- 「エージェントを道具として使って通常のコンペを戦う」話題は[AI エージェント活用](./ai-agent.md)へ。
 
 ## 資料
 
@@ -24,6 +25,9 @@ Kaggle のシミュレーションコンペとして以前から存在する形�
 - [Simulation Competitions(kaggle-cli ドキュメント)](https://github.com/Kaggle/kaggle-cli/blob/main/docs/simulation_competitions.md): エージェント提出や対戦評価の仕組みを解説した公式ドキュメント。
 - [The Pokémon Company - PTCG AI Battle Challenge Simulation](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle): ポケモンカードゲームの対戦 AI を競う大型コンペ（Simulation Track）。
 - [AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks): ツールを使う LLM エージェントへの多段階攻撃を設計するコンペ。予測値ではなく攻撃候補を生成するコードを提出する形式で、4,000 チーム超が参加した。
+- [Google - The Gemma 4 Developer Agent Competition](https://www.kaggle.com/competitions/gemma-4-developer-agent): Gemma 4 を自律型ソフトウェアエンジニアリングエージェントとして事後学習させるコンペ。モデル重み（LoRA アダプタ）だけでなく、システムプロンプト、ツール定義、エージェントハーネスの構成（agent.yaml）を一括で提出して実リポジトリの課題解決力を競う形式で、論文審査のみの [Paper Track](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper) も併設されている。
+- [KDD Cup 2026: Data Agents for Complex Data Analysis](https://dataagent.top/): 表、文書、ログ、API、知識グラフが混在するデータ束と自然言語の問いを渡し、分析の段取りを自律的に組み立てさせる KDD Cup の公式サイト。評価は DataAgent-Bench のタスク群で行い、順位を競う Leaderboard Track とシステムの完成度や新規性を評価する Creative Track の 2 本立てになっている。
+- [KDD Cup 2026 Data Agents: Presentation Archive](https://dataagent.top/presentations): 上記コンペの最終順位と上位チームのシステムや発表資料を公開するアーカイブ。
 - [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture): 農業シミュレーション上で収益の最大化を競う 2 人対戦のターン制コンペ。2026 年 7 月開始のメダル対象コンペで、8,000 チーム超が参加した。
 - [The State of Machine Learning Competitions 2025 Edition](https://mlcontests.com/state-of-machine-learning-competitions-2025/): 対戦トーナメント形式の導入を含む 2025 年のコンペ動向の年次まとめ。
 - [ALE-Bench：AIの長期的推論能力を測るコーディングベンチマーク](https://speakerdeck.com/imjk/w-and-b-meetup-number-24-in-tokyo): AtCoder Heuristic Contest 40 問で AI の長期的な問題解決能力を測るベンチマークの紹介資料。

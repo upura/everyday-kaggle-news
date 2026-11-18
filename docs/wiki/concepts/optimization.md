@@ -5,7 +5,8 @@ AtCoder のヒューリスティックコンテスト（AHC）と技術的な親
 
 ## 押さえどころ
 
-- Santa 系コンペは巡回セールスマン問題などの組合せ最適化が題材で、焼きなまし法やビームサーチなどのヒューリスティックと、ソルバー（混合整数計画など）の使い分けが軸になる。HACK TO THE FUTURE のような企業主催コンテストでは NN を使ったヒューリスティックが優勝する例もある（[HTTF 2023 予選1位解法](https://engineering.dena.com/blog/2022/12/httf-2023-qual/)）
+- Santa 系コンペは巡回セールスマン問題などの組合せ最適化が題材で、焼きなまし法やビームサーチなどのヒューリスティックと、混合整数計画などのソルバーの使い分けが軸になる。
+- HACK TO THE FUTURE のような企業主催コンテストでは、ニューラルネットワークを組み込んだヒューリスティックが優勝する例もある（[HTTF 2023 予選1位解法](https://engineering.dena.com/blog/2022/12/httf-2023-qual/)）。
 - AtCoder（特に AHC）での経験と練習がそのまま役立つ。入門には AtCoder Heuristic First-step の講義スライドや、焼きなまし法・ビーム探索の実装を C++ で学ぶ実践教材（[AHC はじめての実装教材](https://shun-pi-cp.github.io/ahc-hands-on-tutorials/?v=2)）が役立ち、レッドコーダーへのインタビュー記事も攻略の勘所を整理している
 - 資料の半数近くを Optuna 関連が占める。「重要なハイパーパラメータから順に調整する」という Kaggler の経験則を実装した LightGBM Tuner のような統合が広く使われ、Happywhale コンペ優勝解法など実戦での活用例も蓄積している
 - SAM（Sharpness-Aware Minimization）や AdaBelief など、汎用の最適化アルゴリズム研究がモデル学習の精度向上に直結する場面もある

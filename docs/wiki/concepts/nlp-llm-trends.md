@@ -5,8 +5,9 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 
 ## 押さえどころ
 
-- 日本語 LLM や埋め込みモデルの担い手は、2020 年前後の研究機関による事前学習モデル公開（東北大 BERT、早稲田大 RoBERTa や GPT-2、NICT の BERT など）から、2022〜23 年ごろの企業発 LLM（PLaMo、ELYZA、Swallow）へ、そして 2024 年以降は TinySwallow、日本語 StaticEmbedding、日本語リランカーのような軽量かつ高速なモデルへと重心が移ってきている。
-- 文埋め込みや検索は一貫した研究テーマであり、対照学習ベースの SimCSE や DiffCSE（2021 年）から、LLM の合成データで埋め込みを改善する e5-mistral（[Improving Text Embeddings with Large Language Models](https://arxiv.org/abs/2401.00368)）を経て、2025〜26 年は軽量リランカーやベクトル検索の実用化に関する知見が増えている。また、テキスト単体に限らず、[EmbeddingGemma 2](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) のように画像とテキストを統合して扱えるオープンで軽量なマルチモーダル埋め込みモデルも登場している。さらに、生成 LLM だけでなくエンコーダモデルの事前学習手法も刷新が続いており、ModernBERT や [UltraBERT](https://arxiv.org/abs/2610.15028) のように分類と検索の双方で性能上限を引き上げるアーキテクチャの提案が継続している。
+- 日本語 LLM や埋め込みモデルの担い手は、研究機関による事前学習モデル公開（東北大 BERT・早稲田大 RoBERTa 等）から、2022〜23 年ごろの企業発 LLM（PLaMo、ELYZA、Swallow）へ広がり、2024 年以降は TinySwallow や日本語 StaticEmbedding・軽量リランカーなど小型高速なモデルへ重心が移っている。
+- 文埋め込みや検索では、対照学習（SimCSE・DiffCSE）から LLM の合成データ活用（e5-mistral、[論文](https://arxiv.org/abs/2401.00368)）を経て、2025〜26 年は軽量リランカーや画像とテキストを統合するマルチモーダル埋め込み（[EmbeddingGemma 2](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/)）が実用化されている。
+- 生成 LLM だけでなくエンコーダモデルの事前学習手法も刷新が続いており、ModernBERT や [UltraBERT](https://arxiv.org/abs/2610.15028) など分類・検索の双方で性能を引き上げる提案が継続している。
 - Hugging Face Transformers のメジャーバージョンの変遷（v2.9〜v5）はそのままアーキテクチャ普及の年表になっており、Wav2Vec2（v4.3）、Swin Transformer（v4.16）、ResNet（v4.18）、OPT（v4.19）のように、新アーキテクチャの追加時期をバージョン番号から追える。
 - モデルの大規模化（OPT-175B の公開やスケーリング則）と、その後の効率化（LoRA や LoRA-Pro、モデルマージ、TAID による知識蒸留を用いた TinySwallow）は表裏の関係にあり、公開されるモデルの重心は年々「大きく強く」から「小さく速く実用的」に移っている。
 - Transformer 一辺倒ではなく、状態空間モデル Mamba のような計算コストを抑える代替アーキテクチャの解説記事も資料に含まれる。
@@ -51,7 +52,6 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 
 ### 日本語モデル・リソース
 
-
 - [とても小さく速く実用的な日本語リランカー japanese-reranker-tiny と xsmall v2 を公開](https://secon.dev/entry/2025/05/08/100000-japanese-reranker-v2/): 軽量な日本語リランカーの公開告知。性能と推論速度の比較つき。
 - [単文字トークナイザ版日本語ModernBERTリリース](https://qiita.com/KoichiYasuoka/items/a402d8111f7e3a69a54f): 文字単位トークナイザの日本語 ModernBERT の公開告知。
 - [sbintuitions/modernbert-ja-130m](https://huggingface.co/sbintuitions/modernbert-ja-130m): 従来の最良水準を 3 分の 1 のサイズで達成した日本語 ModernBERT モデル。
@@ -82,7 +82,6 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [日本語Wikipedia・青空文庫で事前学習されたBERTモデル公開（NICT）](https://alaginrc.nict.go.jp/nict-bert/index.html): 情報通信研究機構による日本語 BERT モデルの公開。
 
 ### ライブラリ・ツール
-
 
 - [Transformers v5.0.0rc0](https://github.com/huggingface/transformers/releases/tag/v5.0.0rc0): Transformers ライブラリ 5 年ぶりのメジャー更新のプレビュー版リリースノート。
 - [fast-bunkai](https://github.com/hotchpotch/fast-bunkai): 日本語文境界判定器 Bunkai の高速版。Rust 実装で大幅な高速化を実現。
@@ -116,7 +115,6 @@ LLM や自然言語処理分野のモデル公開、日本語リソース、ラ�
 - [GPUでのNLP時「CUDA out of memory」回避Tips記事](https://qiita.com/shinochin/items/8b6b7e76bf426ab86444): Embedding layer を CPU に載せるなどのアイディアを列挙。
 
 ### 研究動向・サーベイ・イベント
-
 
 - [現代AI入門: 大規模言語モデルから思考するシステムへ — Test-Time Scaling, Loop, Harness, RSI](https://speakerdeck.com/stillpedant/thinking-systems): 基盤モデルを中心に発展してきた「現代AI」の解説資料。Test-Time Scaling や推論時計算、ハーネス、ループなど歴史的経緯を踏まえて体系的に概観している。
 - [DeepSeek-R1の論文読んだ？](https://zenn.dev/asap/articles/34237ad87f8511)
