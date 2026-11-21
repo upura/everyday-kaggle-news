@@ -5,7 +5,7 @@
 
 <div class="wkn-banner" markdown="1">
 毎週金曜配信のニュースレター **[Weekly Kaggle News](https://weeklykagglenews.substack.com/)** の掲載リンクをもとに毎週更新しています。
-最新の取り込みは **#361（2026-11-14）** です（[直近の更新を見る](#最近の更新) / [最新情報の確認](./docs/recent.md)）。
+最新の取り込みは **#362（2026-11-21）** です（[直近の更新を見る](#最近の更新) / [最新情報の確認](./docs/recent.md)）。
 </div>
 
 初めて訪れた方は、まず以下のページから目的に合う入口を選んでください。
@@ -67,11 +67,11 @@
 
 直近の更新の抜粋です（全履歴は[操作ログ](./docs/wiki/log.md)）。
 
+- 2026-11-21: Weekly Kaggle News #362 を取り込み。[続・コミュニティコンペのススメ](./docs/wiki/concepts/competition-hosting.md)、[RSNA 膝 MRI コンペの振り返り・上位解法まとめ](./docs/solutions.md)を追加
 - 2026-11-14: Weekly Kaggle News #361 を取り込み。[Kaggle Advent Calendar 2026](./docs/events.md#kaggle-advent-calendar)、[Biohub 3 位・5 位解法・RSNA 膝 MRI コンペの銀メダル解法](./docs/solutions.md)、[第 1 回九州 Kaggler 会・関東・沖縄 Kaggler 会のレポート](./docs/events.md)を追加
 - 2026-11-07: Weekly Kaggle News #360 を取り込み。[RSNA 膝 MRI コンペの銅メダル解法](./docs/solutions.md)、[自宅 GPU 環境でのジョブスケジューラ Slurm 活用記事](./docs/wiki/concepts/environment.md)を追加
 - 2026-10-31: Weekly Kaggle News #359 を取り込み。[AI ベンチマーク評価サミット Bench Summit](./docs/events.md)、[コーディングエージェントコンペ FT-LLM 2027](./docs/platform.md)、[AHC 実装教材](./docs/wiki/concepts/optimization.md)、[AI エージェント時代の Kaggle の取り組み方](./docs/wiki/concepts/ai-agent.md)、[現代 AI 入門（思考するシステム）](./docs/wiki/concepts/nlp-llm-trends.md)を追加
 - 2026-10-24: Weekly Kaggle News #358 を取り込み。[Kaggle Notebook の R 言語サポート終了アナウンス](./docs/wiki/concepts/environment.md)、[2026 年版 Grandmaster 分析レポート](./docs/milestones.md)、[UltraBERT 論文](./docs/wiki/concepts/nlp-llm-trends.md)、[Think IT 人材育成連載記事](./docs/wiki/concepts/mindset.md)、[ポケカコンペの銅メダル解法](./docs/solutions.md)を追加
-- 2026-10-17: Weekly Kaggle News #357 を取り込み。[コンペ終了時刻までに推論・採点が完了していることを求める提出仕様の標準化アナウンス](./docs/wiki/concepts/code-competition.md)を追加
 
 ## このサイトについて・更新フロー
 

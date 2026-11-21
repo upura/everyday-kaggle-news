@@ -378,6 +378,7 @@
 <h3><a href="https://www.kaggle.com/competitions/rsna-knee-abnormality-detection">RSNA Knee Abnormality Detection</a></h3>
 <span class="badge badge-year">2026</span> <span class="badge badge-datatype">Image</span> <span class="badge badge-platform">Kaggle</span>
 
+- [Kaggle 膝コンペ振り返り & 上位解法まとめ \| RSNA Knee Abnormality Detection](https://zenn.dev/ca_kagglers/articles/kaggle-rsna-knee): 膝の MRI 画像から靭帯の断裂や骨折など 12 種類の所見の有無を予測するコンペの振り返りと上位入賞チームのアプローチまとめ。
 - [【Kaggle ソロ銀】正解 58 件の膝 MRI を、読影レポートを LLM に読ませたラベルで解く ― RSNA Knee Abnormality Detection 67 位の解法](https://qiita.com/doingformyself/items/b8b6d07532c6cc98a057): 67 位・銀メダルのソロ解法。正解ラベルが極めて少ない設定に対し、読影レポートを LLM に処理させて生成した疑似ラベルを活用したアプローチを解説している。
 - [Kaggle RSNA 膝MRIコンペで銅メダル：やって良かったこと・やらなきゃ良かったこと](https://zenn.dev/hazy_viper/articles/rsna-knee-2026-bronze): 膝 MRI 画像から異常を検出するコンペの銅メダル解法。解剖区画のクロップやスライス順の統一といったデータ前処理、CV 設計、LLM を用いた学習ラベルの質の影響などを振り返っている。
 
